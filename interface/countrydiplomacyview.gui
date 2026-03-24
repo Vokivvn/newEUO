@@ -57,7 +57,7 @@ guiTypes = {
 				position = { x = 245 y = 3 }
 				font = "hoi_18mbs"
 				text = "Germanian"
-				maxWidth = 195
+				maxWidth = 135
 				fixedsize = yes
 				maxHeight = 20
 				format = left
@@ -86,7 +86,7 @@ guiTypes = {
 				position = { x = 245 y = 43 }
 				font = "hoi_16mbs"
 				text = "Rudolf Kittler"
-				maxWidth = 173
+				maxWidth = 140
 				maxHeight = 20
 				format = left
 				fixedsize = yes
@@ -245,7 +245,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "political_pie_chart"
-					position = { x = 141 y = 13 }
+					position = { x = 141 y = 11 }
 					size = { width=330 height=30 }
 					clipping = no
 
@@ -436,7 +436,7 @@ guiTypes = {
 
 					gridboxtype = {
 						name = "national_spirit_ideas_grid"
-						position = { x = -5 y = 2 }
+						position = { x = 0 y = 2 }
 						size = { width = 360 height = 68 }
 						slotsize = { width = 60 height = 68 }
 						max_slots = { x = 6 y = 1 }

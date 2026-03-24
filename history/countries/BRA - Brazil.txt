@@ -10,5 +10,16 @@ set_politics = {
 }
 
 set_popularities = {
-	national_socialism = 100
+	national_socialism = 83
+	fascism = 17
+}
+
+create_country_leader = {
+	name = "Armando Zanine Jr."
+	desc = ""
+	picture = "gfx/leaders/BRA/ArmandoZanine.png"
+	expire = "1950.1.1.1"
+	ideology = rouge_supremacism
+	traits = {
+	}
 }
