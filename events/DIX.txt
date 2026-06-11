@@ -239,6 +239,14 @@ country_event = { #Intro
 				}
 				set_cosmetic_tag = DIX_gliebe
 			}
+			NGE = {
+				country_event = {
+					id = NGE_SKELETON_MIDWEST.1
+					days = 4
+					random_days = 3
+				}
+			}
+
 		}
 	}
 	
