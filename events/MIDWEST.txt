@@ -9,6 +9,7 @@ country_event = {
     desc = NGE_SKELETON_MIDWEST.1.desc
     
     is_triggered_only = yes
+	fire_only_once = yes
     
     option = { #Boyz in the hood saxaphones
         name = NGE_SKELETON_MIDWEST.1.a
@@ -20,6 +21,9 @@ country_event = {
 				random_days = 3
 			}
 			leave_faction = yes
+			country_lock_all_division_template = {
+            is_locked = no
+            }
 		}
     }
 }

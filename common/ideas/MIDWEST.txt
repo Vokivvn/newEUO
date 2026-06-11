@@ -37,7 +37,7 @@ ideas = {
 				war_support_factor = -0.4
 				local_manpower = -0.3
 				army_attack_factor = 0.05
-				surrender_limit = 0.6
+				surrender_limit = 0.1
 			}
 		}
 		NGE_High_Poverty = {
@@ -52,7 +52,8 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.25
+				stability_factor = -0.1
+				war_support_factor = -0.1
 			}
 		}
 		NGE_Endemic_Corruption = {
@@ -70,6 +71,27 @@ ideas = {
 				supply_consumption_factor = 0.175
 				production_speed_buildings_factor = -0.1
 				supply_node_range = -0.15
+			}
+		}
+		NGE_Insurgency_Troubles = {
+			picture = economic_woes
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_factor = -0.25
+				army_speed_factor = -0.1
+				supply_node_range = -0.1
+				set_division_template_lock = {
+                    division_template = "Neues-Deutsch-Infanterie-Division"
+                    is_locked = yes
+                }
 			}
 		}
 	}

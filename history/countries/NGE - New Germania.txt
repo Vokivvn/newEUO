@@ -31,6 +31,11 @@ add_ideas = {
 	NGE_Draconian_Human_Rights_Abuses
 	NGE_High_Poverty
 	NGE_Endemic_Corruption
+	NGE_Insurgency_Troubles
+}
+country_lock_all_division_template = {
+  is_locked = yes
+  desc = loc_key
 }
 
 set_popularities = {
