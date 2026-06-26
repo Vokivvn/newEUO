@@ -67,6 +67,8 @@ country_event = {
         ANT = {
 			add_state_core = 393
 			add_state_core = 1068
+			add_state_core = 1087
+			add_state_core = 1088
 		}
         ODF = {
 			add_state_core = 261

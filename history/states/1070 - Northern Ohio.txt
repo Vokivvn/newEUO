@@ -19,7 +19,7 @@ state={
 			6874 10 #Akron
 		}
 		victory_points = {
-			6890 20 #Akron
+			6890 20 #Cleaveland, Shake.
 		}
 		add_core_of = NGE
 

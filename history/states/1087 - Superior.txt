@@ -1,0 +1,36 @@
+
+state={
+	id=1087
+	name="STATE_1087"
+	manpower = 301609
+	
+	resources = {
+		steel = 42
+	}
+
+	state_category = town
+
+	history={
+		owner = NGE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = NGE
+		
+		#Marquette
+		victory_points = {
+			4854 5
+		}
+		#Houghton
+		victory_points = {
+			10599 5
+		}
+	}
+
+	provinces={
+		709 751 4854 5205 10599
+	}
+
+	local_supplies=0.0 
+}
