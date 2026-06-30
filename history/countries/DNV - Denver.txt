@@ -13,4 +13,13 @@ set_popularities = {
 	moderate_socialism = 100
 }
 
+add_ideas = {
+	# National Spirits
+	last_light_of_the_republic
+	government_in_exile
+	fortress_america
+	dreams_of_reclamation
+	crumbling_legitimacy
+}
+
 recruit_character = DNV_ralph_nader

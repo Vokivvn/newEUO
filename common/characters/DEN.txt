@@ -1,13 +1,13 @@
 characters = {
-	DEN_povl_riis_knudsen = {
-		name = "Povl Heinrich Riis-Knudsen" 
+	DEN_mogens_camre = {
+		name = "Mogens Camre" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_povl_riis_knudsen
+				large = GFX_portrait_mogens_camre
 			}
 		}
 		country_leader = {
-			ideology = modern_nazism
+			ideology = syncretism_subtype
 			expire = "1950.1.1.1"
 			id = -1
 		}

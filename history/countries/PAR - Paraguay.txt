@@ -1,21 +1,14 @@
 ﻿capital = 301
 
 set_popularities = {
-    anarchism = 100
-}
-
-create_country_leader = {
-	name = "Evil Tom Petri"
-	desc = "Rahm_Desc"
-	picture = "gfx/leaders/PAR/PETRI_HOLDS_ON.png"
-	expire = "2040.1.1"
-	ideology = statelessness
-	traits = {}
+    reactionary = 100
 }
 
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+recruit_character = PAR_gustavo_stroessner

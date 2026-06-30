@@ -7,6 +7,15 @@ state={
 	
 	history={
 		owner = BRI
+		victory_points = {
+			3552 20
+		}
+		victory_points = {
+			6536 5
+		}
+		victory_points = {
+			9495 1
+		}
 	}
 	
 	manpower=2396600

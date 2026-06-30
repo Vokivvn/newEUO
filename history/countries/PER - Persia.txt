@@ -13,4 +13,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = ADE_guy
+recruit_character = PER_reza_shah

@@ -307,8 +307,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_fredrik_reinfeldt"
-		texturefile = "gfx/leaders/SWE/Portrait_SWE_fredrik_reinfeldt.png"
+		name = "GFX_portrait_anna_lindh"
+		texturefile = "gfx/leaders/SWE/Portrait_SWE_anna_lindh.png"
 	}
 	
 	spriteType = {
@@ -317,8 +317,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_povl_riis_knudsen"
-		texturefile = "gfx/leaders/DEN/Portrait_DEN_povl_riis_knudsen.png"
+		name = "GFX_portrait_mogens_camre"
+		texturefile = "gfx/leaders/DEN/Portrait_DEN_mogens_camre.png"
 	}
 	
 	spriteType = {
@@ -589,6 +589,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Christian_de_Graaff"
 		texturefile = "gfx/leaders/BOT/Portrait_BOT_Christian_de_Graaff.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_gustavo_stroessner"
+		texturefile = "gfx/leaders/PAR/Portrait_PAR_gustavo_stroessner.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_reza_shah"
+		texturefile = "gfx/leaders/PER/Portrait_PER_Reza_Shah.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_ma_ying_jeou"
+		texturefile = "gfx/leaders/GXC/Portrait_GXC_ma_ying_jeou.png"
 	}
 
 }

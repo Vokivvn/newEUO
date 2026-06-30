@@ -1,13 +1,13 @@
 characters = {
-	SWE_fredrik_reinfeldt = {
-		name = "Fredrik Reinfeldt" 
+	SWE_anna_lindh = {
+		name = "Anna Lindh" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_fredrik_reinfeldt
+				large = GFX_portrait_anna_lindh
 			}
 		}
 		country_leader = {
-			ideology = liberal_conservatism
+			ideology = democratic_socialism
 			expire = "1950.1.1.1"
 			id = -1
 		}
