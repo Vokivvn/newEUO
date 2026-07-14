@@ -40,5 +40,11 @@ units = {
 		division_template = "Ohio Defense Division"
 		start_experience_factor = 0.1
 	}
+	division = {	
+		name = "Ohio Defense Division"
+		location = 11776
+		division_template = "Ohio Defense Division"
+		start_experience_factor = 0.1
+	}
 
 }

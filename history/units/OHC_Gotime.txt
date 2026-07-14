@@ -40,5 +40,11 @@ units = {
 		division_template = "People's Liberation Contingent"
 		start_experience_factor = 0.1
 	}
+	division = {	
+		name = "People's Liberation Contingent"
+		location = 6890
+		division_template = "People's Liberation Contingent"
+		start_experience_factor = 0.1
+	}
 
 }

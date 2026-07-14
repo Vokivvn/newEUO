@@ -26,8 +26,8 @@ set_technology = {
 
 set_popularities = {
 	revolutionary_socialism = 70
-	moderate_socialism = 20
-	anarchism = 10
+	moderate_socialism = 25
+	autocratic = 5
 }
 
 create_country_leader = {

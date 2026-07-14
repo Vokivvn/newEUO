@@ -2,7 +2,7 @@ MDF_Midwestern_Spring = {
     MDF_Attack_Ohio = {
         available = {
             NGE = {
-                surrender_progress > 0.75
+                surrender_progress > 0.95
             }
             tag = MDF
         }
@@ -85,7 +85,7 @@ MDF_After_War = {
             }
         }
     }
-    Annex_Wisconsin = {
+    Declare_Victory = {
         available = {
             NOT = {
                 country_exists = WIS
