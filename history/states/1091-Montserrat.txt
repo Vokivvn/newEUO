@@ -1,0 +1,15 @@
+state={
+	id=1091
+	name="STATE_1091"
+	provinces={
+		13394 
+	}
+	
+	history={
+		owner = MTS
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

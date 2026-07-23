@@ -1515,6 +1515,10 @@ KKP = {
 	color = rgb { 193 185 62 }
 	color_ui = rgb { 193 185 62 }
 }
+MTS = {
+	color = rgb { 170 161 87 }
+	color_ui = rgb { 170 161 87 }
+}
 YAM = {
 	color = rgb { 155 132 69 }
 	color_ui = rgb { 155 132 69 }
