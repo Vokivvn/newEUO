@@ -51,8 +51,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_gustavo_morales"
-		texturefile = "gfx/leaders/CUB/Portrait_CUB_Gustavo_Morales.png"
+		name = "GFX_portrait_zoe_valdes"
+		texturefile = "gfx/leaders/CUB/Portrait_CUB_zoe_valdes.png"
 	}
 	
 	spriteType = {
@@ -604,6 +604,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_ma_ying_jeou"
 		texturefile = "gfx/leaders/GXC/Portrait_GXC_ma_ying_jeou.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_andres_obrador"
+		texturefile = "gfx/leaders/MEX/Portrait_MEX_andres_obrador.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Fuad_II"
+		texturefile = "gfx/leaders/EGY/Portrait_EGY_Fuad_II.png"
 	}
 
 }

@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = OMA
+		owner = SAU
 	}
 	
 	manpower=69
