@@ -13,11 +13,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-add_ideas = {
-	# National Spirits
-	TEX_Questionable_Rule
-	TEX_The_Redemption_League
-	TEX_The_Junta
-}
-
 recruit_character = TEX_charles_campbell

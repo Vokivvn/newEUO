@@ -1,9 +1,9 @@
 characters = {
-	CUB_gustavo_morales = {
-		name = "Gustavo Morales" 
+	CUB_zoe_valdes = {
+		name = "Zoé Valdés" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_gustavo_morales
+				large = GFX_portrait_zoe_valdes
 			}
 		}
 		country_leader = {

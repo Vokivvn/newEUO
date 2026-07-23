@@ -9,10 +9,3 @@
   #FRA
   FRA_tuareg_war:0 "The Tuareg War"
   FRA_tuareg_war_desc:0 "§CThis National Spirit will be automatically removed after cessation of hostilities with§! [TUA.GetNameDef]§C.§!"
-
-  #TEX
-  TEX_Questionable_Rule:0 "Questionable Rule"
-
-  TEX_The_Redemption_League:0 "The Redemption League"
-
-  TEX_The_Junta:0 "The Junta"
