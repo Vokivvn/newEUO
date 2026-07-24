@@ -1519,6 +1519,10 @@ MTS = {
 	color = rgb { 170 161 87 }
 	color_ui = rgb { 170 161 87 }
 }
+FBR = {
+	color = rgb { 183 71 90 }
+	color_ui = rgb { 183 71 90 }
+}
 YAM = {
 	color = rgb { 155 132 69 }
 	color_ui = rgb { 155 132 69 }

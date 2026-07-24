@@ -1,4 +1,4 @@
-﻿capital = 64 # Berlin/Brandeburg
+﻿capital = 1073 # Berlin/Brandeburg
 
 oob = "GER_2010"
 

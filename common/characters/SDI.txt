@@ -3,7 +3,7 @@ characters = {
 		name = "Kevin Alfred Strom" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Kevin_Alfred_Strom
+				large = GFX_portrait_Kevin_Alfred_Strom_SDI
 			}
 		}
 		country_leader = {

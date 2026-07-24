@@ -615,5 +615,26 @@ spriteTypes = {
 		name = "GFX_portrait_Fuad_II"
 		texturefile = "gfx/leaders/EGY/Portrait_EGY_Fuad_II.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Bill_Kristol_Partisan"
+		texturefile = "gfx/leaders/AMR/Portrait_AMR_Bill_Kristol_Partisan.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Bill_Kristol_President"
+		texturefile = "gfx/leaders/AMR/Portrait_AMR_Bill_Kristol_President.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Kevin_Alfred_Strom_SDI"
+		texturefile = "gfx/leaders/SDI/Portrait_SDI_Kevin_Alfred_Strom.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_B_Kwaku_Duren"
+		texturefile = "gfx/leaders/NAF/Portrait_NAF_B._Kwaku_Duren.png"
+	}
+
 
 }
