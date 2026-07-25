@@ -44,6 +44,11 @@ spriteTypes = {
 		name = "GFX_report_event_dix_pressburg_summit"
 		texturefile = "gfx/event_pictures/report_event_DIX_pressburg_summit.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_whispers_of_resistance"
+		texturefile = "gfx/event_pictures/report_event_DIX_whispers_of_resistance.dds"
+	}
 
 	spriteType = {
 		name = "GFX_news_event_polish_army"

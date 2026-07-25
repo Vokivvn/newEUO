@@ -3,17 +3,17 @@
 oob = "JAP_2010"
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	autocratic = 100
+	reactionary = 100
 }
 
-recruit_character = JAP_guy
+recruit_character = JAP_Yasutoshi_Nishimura
 
 create_faction = dai_toa_kyoeiken
 add_to_faction = JAP

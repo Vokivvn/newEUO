@@ -40,6 +40,32 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
+	id = DIX.4
+	title = DIX.4.t
+	desc = DIX.4.d
+	picture = GFX_report_event_whispers_of_resistance
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.4.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.5
+	title = DIX.5.t
+	desc = DIX.5.d
+	picture = GFX_report_event_whispers_of_resistance
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.5.a
+	}
+}
+
+country_event = { #Intro 
 	id = DIX.30
 	title = DIX.30.t
 	desc = DIX.30.d

@@ -1,4 +1,4 @@
-﻿capital = 615
+﻿capital = 1037
 
 set_politics = {
 	ruling_party = autocratic
@@ -11,4 +11,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = SHX_Wang_Qishan
+recruit_character = SZC_Zhou_Yongkang

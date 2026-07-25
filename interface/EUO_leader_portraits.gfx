@@ -635,6 +635,35 @@ spriteTypes = {
 		name = "GFX_portrait_B_Kwaku_Duren"
 		texturefile = "gfx/leaders/NAF/Portrait_NAF_B._Kwaku_Duren.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Zhang_Dejiang"
+		texturefile = "gfx/leaders/YUN/Portrait_YUN_Zhang_Dejiang.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Yasutoshi_Nishimura"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Yasutoshi_Nishimura.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Jin_Youzhi"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Jin_Youzhi.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Toshio_Tamogami"
+		texturefile = "gfx/leaders/XSM/Portrait_XSM_Toshio_Tamogami.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Wang_Qishan"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Wang_Qishan.png"
+	}
 
-
+	spriteType = {
+		name = "GFX_portrait_Zhou_Yongkang"
+		texturefile = "gfx/leaders/SZC/Portrait_SZC_Zhou_Yongkang.png"
+	}
+	
 }

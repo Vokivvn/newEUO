@@ -3,14 +3,14 @@
 oob = "PRU_2010"
 
 set_politics = {
-	ruling_party = syncretism
+	ruling_party = autocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	syncretism = 100
+	autocratic = 100
 }
 
 2010.1.1 = {
@@ -20,4 +20,4 @@ set_popularities = {
 		type = annex_everything
 	}
 
-recruit_character = PRU_isaac_humala
+recruit_character = PRU_alberot_fujimori
