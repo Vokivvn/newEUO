@@ -14,6 +14,73 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
+	id = GER.2
+	title = GER.2.t
+	desc = GER.2.d
+	picture = GFX_report_event_ger_new_year
+
+	trigger = {
+		tag = GER
+		date < 2010.1.9
+	}
+	fire_only_once = yes
+	
+	option = { #Puppetry
+		name = GER.2.a
+		hidden_effect = {
+			DIX = {
+				country_event = {
+					id = pressburg_summit.1
+					days = 0
+				}
+			}
+			SLO = {
+				country_event = {
+					id = pressburg_summit.1
+					days = 0
+				}
+			}
+			ROM = {
+				country_event = {
+					id = pressburg_summit.1
+					days = 0
+				}
+			}
+			HUN = {
+				country_event = {
+					id = pressburg_summit.1
+					days = 0
+				}
+			}
+			BUL = {
+				country_event = {
+					id = pressburg_summit.1
+					days = 0
+				}
+			}
+			DEN = {
+				country_event = {
+					id = pressburg_summit.1
+					days = 0
+				}
+			}
+			BRI = {
+				country_event = {
+					id = pressburg_summit.1
+					days = 0
+				}
+			}
+			IRE = {
+				country_event = {
+					id = pressburg_summit.1
+					days = 0
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
 	id = GER.100
 	title = GER.100.t
 	desc = GER.100.d

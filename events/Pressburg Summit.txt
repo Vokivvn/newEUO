@@ -1,0 +1,25 @@
+﻿add_namespace = pressburg_summit
+
+country_event = { #Intro 
+	id = pressburg_summit.1
+	title = pressburg_summit.1.t
+	desc = pressburg_summit.1.d
+	picture = GFX_report_event_ger_new_year
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = pressburg_summit.1.a
+		ai_chance = {
+			base = 75
+		}
+		set_country_flag = pressburg_summit
+	}
+
+	option = {
+		name = pressburg_summit.1.b	
+		ai_chance = {
+			base = 25
+		}
+	}
+}

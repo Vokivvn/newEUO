@@ -93,7 +93,7 @@ DIX_pressburg_summit = {
         available = {
             DIX = {
             }
-			has_global_flag = pressburg_summit
+			has_country_flag = pressburg_summit
         }
         icon = MDF_HERE
         complete_effect = {
