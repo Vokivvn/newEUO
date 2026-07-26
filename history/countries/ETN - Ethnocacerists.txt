@@ -11,4 +11,4 @@ set_popularities = {
 	syncretism = 100
 }
 
-recruit_character = ETN_huamal
+recruit_character = ETN_Antauro_Humala

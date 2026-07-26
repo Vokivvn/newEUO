@@ -1,0 +1,16 @@
+characters = {
+	ETN_Antauro_Humala = {
+		name = "Antauro Humala" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Antauro_Humala
+			}
+		}
+		country_leader = {
+			ideology = ethno_socialism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

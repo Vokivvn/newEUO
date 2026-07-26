@@ -1,0 +1,16 @@
+characters = {
+	ESW_Neal_Rijkenberg = {
+		name = "Neal Rijkenberg" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Neal_Rijkenberg
+			}
+		}
+		country_leader = {
+			ideology = neo_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

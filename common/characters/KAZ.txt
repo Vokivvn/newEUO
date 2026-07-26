@@ -1,9 +1,9 @@
 characters = {
-	KAZ_Ermukhamet_Ertisbaev = {
-		name = "Ermukhamet Ertisbaev" 
+	KAZ_Nursultan_Nazarbayev = {
+		name = "Nursultan Nazarbayev" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Ermukhamet_Ertisbaev
+				large = GFX_portrait_Nursultan_Nazarbayev
 			}
 		}
 		country_leader = {

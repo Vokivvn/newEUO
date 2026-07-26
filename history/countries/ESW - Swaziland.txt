@@ -11,4 +11,4 @@ set_popularities = {
 	reactionary = 100
 }
 
-recruit_character = ESW_
+recruit_character = ESW_Neal_Rijkenberg

@@ -11,4 +11,4 @@ set_popularities = {
 	revolutionary_socialism = 100
 }
 
-recruit_character = KAZ_Ermukhamet_Ertisbaev
+recruit_character = KAZ_Nursultan_Nazarbayev

@@ -337,8 +337,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_Ermukhamet_Ertisbaev"
-		texturefile = "gfx/leaders/KAZ/Portrait_KAZ_Ermukhamet_Ertisbaev.png"
+		name = "GFX_portrait_Nursultan_Nazarbayev"
+		texturefile = "gfx/leaders/KAZ/Portrait_KAZ_Nursultan_Nazarbayev.png"
 	}
 	
 	spriteType = {
@@ -664,6 +664,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Zhou_Yongkang"
 		texturefile = "gfx/leaders/SZC/Portrait_SZC_Zhou_Yongkang.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Antauro_Humala"
+		texturefile = "gfx/leaders/ETN/Portrait_ETN_Antauro_Humala.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Carlos_Lehder"
+		texturefile = "gfx/leaders/COL/Portrait_COL_Carlos_Lehder.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Afonso_Dhlakama"
+		texturefile = "gfx/leaders/MZB/Portrait_MZB_Afonso_Dhlakama.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Jonas_Savimbi"
+		texturefile = "gfx/leaders/ANG/Portrait_ANG_Jonas_Savimbi.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Letsie_III"
+		texturefile = "gfx/leaders/LES/Portrait_LES_Letsie_III.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Neal_Rijkenberg"
+		texturefile = "gfx/leaders/ESW/Portrait_ESW_Neal_Rijkenberg.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Gustavo_Sejas"
+		texturefile = "gfx/leaders/BOL/Portrait_BOL_Gustavo_Sejas.png"
 	}
 	
 }

@@ -12,3 +12,5 @@ set_politics = {
 set_popularities = {
 	fascism = 100
 }
+
+recruit_character = BOL_Gustavo_Sejas
