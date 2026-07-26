@@ -701,4 +701,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BOL/Portrait_BOL_Gustavo_Sejas.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Abhisit_Vejjajiva"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Abhisit_Vejjajiva.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Bao_Thang"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Bao_Thang.png"
+	}
+	
 }
