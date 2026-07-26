@@ -16,6 +16,12 @@ MDF_Midwestern_Spring = {
                 target = OHC
                 type = annex_everything
             }
+            every_state ={
+                    limit = {
+                        is_core_of = OHC
+                    }
+                add_core_of = MDF
+            }
         }
     }
 }
@@ -91,11 +97,17 @@ MDF_After_War = {
                 country_exists = WIS
                 country_exists = ANT
                 country_exists = FLP
+                country_exists = OHC
+                country_exists = ODF
+                country_exists = NGE
             }
         }
         icon = MDF_HERE
         complete_effect = {
             set_cosmetic_tag = MDFFEDERATION
+            load_focus_tree = {
+                tree = MDF_Regional
+            }
         }
     }
 }
