@@ -711,4 +711,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/VIN/Portrait_VIN_Bao_Thang.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Soulivong_Savang"
+		texturefile = "gfx/leaders/LAO/Portrait_LAO_Soulivong_Savang.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Bazarsadin_Zhargalsaikhan"
+		texturefile = "gfx/leaders/MEN/Portrait_MEN_Bazarsadin_Zhargalsaikhan.png"
+	}
+	
 }
