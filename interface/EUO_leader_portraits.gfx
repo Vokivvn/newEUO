@@ -721,4 +721,49 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MEN/Portrait_MEN_Bazarsadin_Zhargalsaikhan.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Jose_Macario_Laurel_IV"
+		texturefile = "gfx/leaders/PHI/Portrait_PHI_Jose_Macario_IV_Laurel.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Abang_Johari"
+		texturefile = "gfx/leaders/SAR/Portrait_SAR_Abang_Johari.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Than_Shwe"
+		texturefile = "gfx/leaders/BRM/Portrait_BRM_Than_Shwe.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Champika_Ranawaka"
+		texturefile = "gfx/leaders/SRL/Portrait_SRL_Champika_Ranawaka.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Hassanal_Bolkiah"
+		texturefile = "gfx/leaders/BRU/Portrait_BRU_Hassanal_Bolkiah.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Megawati"
+		texturefile = "gfx/leaders/INS/Portrait_INS_Megawati.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Najib_Razak"
+		texturefile = "gfx/leaders/MAL/Portrait_MAL_Najib_Razak.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Jim_Saleam"
+		texturefile = "gfx/leaders/AST/Portrait_AST_Jim_Saleam.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Shinichi_Tokumaru"
+		texturefile = "gfx/leaders/ALA/Portrait_ALA_Shinichi_Tokumaru.png"
+	}
+	
 }

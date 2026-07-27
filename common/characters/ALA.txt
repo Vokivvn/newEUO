@@ -1,9 +1,9 @@
 characters = {
-	BRM_Than_Shwe = {
-		name = "Than Shwe" 
+	ALA_Shinichi_Tokumaru = {
+		name = "Shinichi Tokumaru" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Than_Shwe
+				large = GFX_portrait_Shinichi_Tokumaru
 			}
 		}
 		country_leader = {

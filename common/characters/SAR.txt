@@ -1,13 +1,13 @@
 characters = {
-	BRM_Than_Shwe = {
-		name = "Than Shwe" 
+	SAR_Abang_Johari = {
+		name = "Abang Johari" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Than_Shwe
+				large = GFX_portrait_Abang_Johari
 			}
 		}
 		country_leader = {
-			ideology = military_rule
+			ideology = classical_liberalism
 			expire = "1950.1.1.1"
 			id = -1
 		}

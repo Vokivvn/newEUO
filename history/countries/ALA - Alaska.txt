@@ -1,6 +1,4 @@
-﻿capital = 288
-
-oob = "BRM_2010"
+﻿capital = 463
 
 set_politics = {
 	ruling_party = autocratic
@@ -13,4 +11,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = BRM_Than_Shwe
+recruit_character = ALA_Shinichi_Tokumaru

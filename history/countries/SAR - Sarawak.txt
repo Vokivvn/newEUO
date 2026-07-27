@@ -1,16 +1,14 @@
-﻿capital = 288
-
-oob = "BRM_2010"
+﻿capital = 333
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	autocratic = 100
+	liberalism = 100
 }
 
-recruit_character = BRM_Than_Shwe
+recruit_character = SAR_Abang_Johari

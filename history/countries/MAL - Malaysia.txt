@@ -13,4 +13,4 @@ set_popularities = {
 	conservatism = 100
 }
 
-recruit_character = MAL_guy
+recruit_character = MAL_Najib_Razak

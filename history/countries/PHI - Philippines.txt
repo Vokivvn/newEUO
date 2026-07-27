@@ -11,4 +11,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = PHI
+recruit_character = PHI_Jose_Macario_Laurel_IV

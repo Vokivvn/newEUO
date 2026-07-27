@@ -1,0 +1,16 @@
+characters = {
+	MAL_Najib_Razak = {
+		name = "Najib Razak" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Najib_Razak
+			}
+		}
+		country_leader = {
+			ideology = paternalist_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
