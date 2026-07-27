@@ -1591,6 +1591,10 @@ NVJ = {
 	color = rgb { 198 171 111 }
 	color_ui = rgb { 198 171 111 }
 }
+SRL = {
+	color = rgb { 145 50 55 }
+	color_ui = rgb { 145 50 55 }
+}
 KRK = {
 	color = rgb { 186 80 74 }
 	color_ui = rgb { 186 80 74 }

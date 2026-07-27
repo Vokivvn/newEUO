@@ -68,11 +68,33 @@ DIX_rebuilding_dixie = {
             }
         }
         icon = MDF_HERE
-        complete_effect = {
-			load_focus_tree = {
-				tree = DIX_branch_legacy_of_our_fuhrer
+		
+		cost = 25
+	
+		days_remove = 35
+	
+		complete_effect = {
+		}
+		
+        remove_effect = {
+			if = {
+				limit = { 
+					370 = {
+						state_is_fully_controlled_by_ROOT_subject_or_faction_member = yes
+					}
+				}
+				hidden_effect = {
+					370 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 7552
+							instant_build = yes
+						}
+					}
+				}
 			}
-        }
+		}
     }
     DIX_construct_new_forts = {
         available = {
@@ -90,6 +112,26 @@ DIX_rebuilding_dixie = {
 
 DIX_pressburg_summit = {
     DIX_send_our_delegates = {
+        available = {
+            DIX = {
+            }
+			has_country_flag = pressburg_summit
+        }
+        icon = MDF_HERE
+        complete_effect = {
+        }
+    }
+    DIX_support_tuareg_war = {
+        available = {
+            DIX = {
+            }
+			has_country_flag = pressburg_summit
+        }
+        icon = MDF_HERE
+        complete_effect = {
+        }
+    }
+    DIX_oppose_tuareg_war = {
         available = {
             DIX = {
             }

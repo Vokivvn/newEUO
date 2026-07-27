@@ -20,4 +20,8 @@ DIX_pressburg_summit = {
 		original_tag = DIX
 	}
 	priority = 100
+	
+	visible = {
+		has_country_flag = pressburg_summit
+	}
 }
