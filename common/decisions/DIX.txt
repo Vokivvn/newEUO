@@ -118,6 +118,9 @@ DIX_pressburg_summit = {
 			has_country_flag = pressburg_summit
         }
         icon = MDF_HERE
+		
+		cost = 15
+		
         complete_effect = {
         }
     }
@@ -128,6 +131,9 @@ DIX_pressburg_summit = {
 			has_country_flag = pressburg_summit
         }
         icon = MDF_HERE
+		
+		cost = 15
+		
         complete_effect = {
         }
     }
@@ -138,6 +144,22 @@ DIX_pressburg_summit = {
 			has_country_flag = pressburg_summit
         }
         icon = MDF_HERE
+		
+		cost = 15
+		
+        complete_effect = {
+        }
+    }
+    DIX_request_german_funds = {
+        available = {
+            DIX = {
+            }
+			has_country_flag = pressburg_summit
+        }
+        icon = MDF_HERE
+		
+		cost = 15
+		
         complete_effect = {
         }
     }
