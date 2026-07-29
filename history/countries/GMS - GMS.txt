@@ -1,4 +1,4 @@
-﻿capital = 271
+﻿capital = 273
 
 set_politics = {
 	ruling_party = autocratic
@@ -11,4 +11,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = IEA_Guido_Venturoni
+recruit_character = GMS_Vito_Bardi

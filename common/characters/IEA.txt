@@ -1,13 +1,13 @@
 characters = {
-	TIB_Tenzin_Gyatso = {
-		name = "Tenzin Gyatso" 
+	IEA_Guido_Venturoni = {
+		name = "Guido Venturoni" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Tenzin_Gyatso
+				large = GFX_portrait_Guido_Venturoni
 			}
 		}
 		country_leader = {
-			ideology = fundamentalism
+			ideology = military_rule
 			expire = "1950.1.1.1"
 			id = -1
 		}

@@ -766,4 +766,29 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ALA/Portrait_ALA_Shinichi_Tokumaru.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Vito_Bardi"
+		texturefile = "gfx/leaders/GMS/Portrait_GMS_Vito_Bardi.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Guido_Venturoni"
+		texturefile = "gfx/leaders/IEA/Portrait_IEA_Guido_Venturoni.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Arken_Imirbaki"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Arken_Imirbaki.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Tenzin_Gyatso"
+		texturefile = "gfx/leaders/TIB/Portrait_TIB_Tenzin_Gyatso.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Joe_Shirley_JR"
+		texturefile = "gfx/leaders/NVJ/Portrait_NVJ_Joe_Shirley_JR.png"
+	}
+	
 }
