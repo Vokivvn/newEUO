@@ -741,4 +741,34 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SAU/Portrait_SAU_Abdullah.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Qaboos_bin_Said"
+		texturefile = "gfx/leaders/OMA/Portrait_OMA_Qaboos_bin_Said.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Rakad_Salem"
+		texturefile = "gfx/leaders/ILE/Portrait_ILE_Rakad_Salem.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Vladimir_Plotnikov"
+		texturefile = "gfx/leaders/KKP/Portrait_KKP_Vladimir_Nikolayevich_Plotnikov.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Guðmundur_Þorleifsson"
+		texturefile = "gfx/leaders/ICE/Portrait_ICE_Gumundur_Karl_orleifsson.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Lubosi_Imwiko_II"
+		texturefile = "gfx/leaders/BAR/Portrait_BAR_Lubosi_Imwiko_II.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Patrick_John"
+		texturefile = "gfx/leaders/DCA/Portrait_DCA_Patrick_John.png"
+	}
+	
 }

@@ -1,9 +1,9 @@
 characters = {
-	ICE_Guðmundur_Þorleifsson = {
-		name = "Guðmundur Þorleifsson" 
+	DCA_Patrick_John = {
+		name = "Patrick John" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Guðmundur_Þorleifsson
+				large = GFX_portrait_Patrick_John
 			}
 		}
 		country_leader = {

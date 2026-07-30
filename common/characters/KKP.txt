@@ -1,0 +1,16 @@
+characters = {
+	KKP_Vladimir_Plotnikov = {
+		name = "Vladimir Plotnikov" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Vladimir_Plotnikov
+			}
+		}
+		country_leader = {
+			ideology = liberal_socialism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

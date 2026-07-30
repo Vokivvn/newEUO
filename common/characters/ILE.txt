@@ -1,13 +1,13 @@
 characters = {
-	BAR_Lubosi_Imwiko_II = {
-		name = "Lubosi Imwiko II" 
+	ILE_Rakad_Salem = {
+		name = "Rakad Salem" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Lubosi_Imwiko_II
+				large = GFX_portrait_Rakad_Salem
 			}
 		}
 		country_leader = {
-			ideology = absolutism
+			ideology = reactionary_populism
 			expire = "1950.1.1.1"
 			id = -1
 		}

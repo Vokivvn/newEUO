@@ -13,4 +13,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = OMA_guy
+recruit_character = OMA_Qaboos_bin_Said
