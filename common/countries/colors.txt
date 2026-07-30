@@ -1603,6 +1603,10 @@ SAR = {
 	color = rgb { 158 74 79 }
 	color_ui = rgb { 158 74 79 }
 }
+DNA = {
+	color = rgb { 80 71 81 }
+	color_ui = rgb { 80 71 81 }
+}
 TAJ = {
 	color = rgb { 78 43 51 }
 	color_ui = rgb { 78 43 51 }
