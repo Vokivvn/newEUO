@@ -3,14 +3,14 @@
 oob = "SYR_2010"
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = syncretism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	autocratic = 100
+	syncretism = 100
 }
 
-recruit_character = SYR_ali_abdullah_ayyoub
+recruit_character = SYR_Assaad_Harden

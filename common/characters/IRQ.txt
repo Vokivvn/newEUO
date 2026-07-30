@@ -1,13 +1,13 @@
 characters = {
-	IRQ_nouri_al_maliki = {
-		name = "Nouri al-Maliki" 
+	IRQ_saddam_hussein = {
+		name = "Saddam Hussein" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_nouri_al_maliki
+				large = GFX_portrait_saddam_hussein
 			}
 		}
 		country_leader = {
-			ideology = ultrapopulism
+			ideology = reactionary_populism
 			expire = "2030.1.1.1"
 			id = -1
 		}

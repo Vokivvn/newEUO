@@ -1,0 +1,16 @@
+characters = {
+	SAU_Abdullah = {
+		name = "Abdullah" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Abdullah
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

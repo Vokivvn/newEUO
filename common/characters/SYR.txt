@@ -1,13 +1,13 @@
 characters = {
-	SYR_ali_abdullah_ayyoub = {
-		name = "Ali Abdullah Ayyoub" 
+	SYR_Assaad_Harden = {
+		name = "Assaad Harden" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ali_abdullah_ayyoub
+				large = GFX_portrait_Assaad_Harden
 			}
 		}
 		country_leader = {
-			ideology = autocratic_subtype
+			ideology = national_syndicalism
 			expire = "2030.1.1.1"
 			id = -1
 		}

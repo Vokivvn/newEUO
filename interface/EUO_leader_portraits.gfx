@@ -11,11 +11,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_jean_castrillo"
-		texturefile = "gfx/leaders/FRA/Portrait_Jean_Castrillo.png"
-	}
-	
-	spriteType = {
 		name = "GFX_portrait_johann_thiessen"
 		texturefile = "gfx/leaders/MCW/Portrait_MCW_Johann_Thießen.png"
 	}
@@ -41,13 +36,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_ali_abdullah_ayyoub"
-		texturefile = "gfx/leaders/SYR/Portrait_SYR_Ali_Abdullah_Ayyoub.png"
+		name = "GFX_portrait_Assaad_Harden"
+		texturefile = "gfx/leaders/SYR/Portrait_SYR_Assaad_Harden.png"
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_nouri_al_maliki"
-		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Nouri_Al_Maliki.png"
+		name = "GFX_portrait_saddam_hussein"
+		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Saddam_Hussein.png"
 	}
 	
 	spriteType = {
@@ -61,26 +56,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_jeff_schoep"
-		texturefile = "gfx/leaders/NEE/Portrait_NEE_Jeff_Schoep.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_adnan_abu_walid_al_sahrawi"
-		texturefile = "gfx/leaders/ISA/Portrait_ISA_adnan_abu_walid_al_sahrawi.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_rocky_shuayda"
-		texturefile = "gfx/leaders/NGE/Portrait_NGE_Rocky_Suhayda.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_Isaac_Humala"
-		texturefile = "gfx/leaders/PRU/Portrait_PRU_Isaac_Humala.png"
-	}
-	
-	spriteType = {
 		name = "GFX_portrait_anita_bose_pfaff"
 		texturefile = "gfx/leaders/RAJ/Portrait_RAJ_Anita_Bose_Pfaff.png"
 	}
@@ -91,33 +66,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_Jose_Lazaro_Ibanez"
-		texturefile = "gfx/leaders/SPR/Portrait_SPR_Jose_Lazaro_Ibanez.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_Jason_Adams_Tonis"
-		texturefile = "gfx/leaders/PAC/Portrait_PAC_Jason_Adams_Tonis.png"
-	}
-	
-	spriteType = {
 		name = "GFX_portrait_Harald_Neubauer"
 		texturefile = "gfx/leaders/KAU/Portrait_KAU_Harald_Neubauer.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_Horst_Mahler"
-		texturefile = "gfx/leaders/GGN/Portrait_GGN_Horst_Mahler.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_Andreas_Bilezkyj"
-		texturefile = "gfx/leaders/UKR/Portrait_UKR_Andreas_Bilezkyj.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_Harald_Kujat"
-		texturefile = "gfx/leaders/ZAR/Portrait_ZAR_Harald_Kujat.png"
 	}
 	
 	spriteType = {
@@ -177,11 +127,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_Don_Andrews"
-		texturefile = "gfx/leaders/KAN/Portrait_KAN_Don_Andrews.png"
-	}
-	
-	spriteType = {
 		name = "GFX_portrait_Ralph_Nader"
 		texturefile = "gfx/leaders/DNV/Portrait_DNV_Ralph_Nader.png"
 	}
@@ -214,11 +159,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Flavius_Galerius_Aurelianus"
 		texturefile = "gfx/leaders/PRA/Portrait_PRA_Flavius_Galerius_Aurelianus.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_Barack_Obama"
-		texturefile = "gfx/leaders/HAW/Portrait_HAW_Barack_Obama.png"
 	}
 	
 	spriteType = {
@@ -789,6 +729,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Joe_Shirley_JR"
 		texturefile = "gfx/leaders/NVJ/Portrait_NVJ_Joe_Shirley_JR.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Ali_Abdullah_Saleh"
+		texturefile = "gfx/leaders/YEM/Portrait_YEM_Ali_Abdullah_Saleh.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Abdullah"
+		texturefile = "gfx/leaders/SAU/Portrait_SAU_Abdullah.png"
 	}
 	
 }

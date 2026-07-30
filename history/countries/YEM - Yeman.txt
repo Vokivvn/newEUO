@@ -13,4 +13,4 @@ set_popularities = {
 	liberalism = 100
 }
 
-recruit_character = YEM_guy
+recruit_character = YEM_Ali_Abdullah_Saleh
