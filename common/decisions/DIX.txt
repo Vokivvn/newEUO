@@ -55,8 +55,18 @@ DIX_rebuilding_dixie = {
             DIX = {
             }
         }
+        cost = 35
         icon = MDF_HERE
+        days_remove = 25
         complete_effect = {
+            add_political_power = -50
+            add_stability = 0.03
+            add_tech_bonus = {
+            name = "School System Expansion"
+            bonus = 0.10
+            uses = 2
+            category = industry
+    }
 			load_focus_tree = {
 				tree = DIX_branch_legacy_of_our_fuhrer
 			}
@@ -71,9 +81,23 @@ DIX_rebuilding_dixie = {
 		
 		cost = 25
 	
-		days_remove = 35
+		days_remove = 18
 	
 		complete_effect = {
+            370 = {
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant = yes
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant = yes
+        }
+    }
+        add_stability = 0.05
 		}
 		
         remove_effect = {
@@ -101,8 +125,22 @@ DIX_rebuilding_dixie = {
             DIX = {
             }
         }
+        cost = 25
+        days_remove = 18
         icon = MDF_HERE
         complete_effect = {
+    361 = {
+        add_building_construction = {
+            type = bunker
+            level = 3
+            instant = yes
+        }
+        add_building_construction = {
+            type = coastal_bunker
+            level = 2
+            instant = yes
+        }
+    }
 			load_focus_tree = {
 				tree = DIX_branch_legacy_of_our_fuhrer
 			}
