@@ -3,15 +3,23 @@
 oob = "BRA_2010"
 
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	national_socialism = 83
-	fascism = 17
+	anarchism = 0
+	revolutionary_socialism = 0
+	moderate_socialism = 0
+	liberalism = 0
+	conservatism = 0
+	autocratic = 0
+	reactionary = 45
+	fascism = 22
+	national_socialism = 22
+	syncretism = 11
 }
 
 create_country_leader = {
@@ -19,7 +27,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/BRA/ArmandoZanine.png"
 	expire = "1950.1.1.1"
-	ideology = rouge_supremacism
+	ideology = neo_fascism
 	traits = {
 	}
 }
