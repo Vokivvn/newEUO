@@ -272,7 +272,12 @@ country_event = { #Intro
 					random_days = 3
 				}
 			}
-
+			GER = {
+				country_event = {
+					id = GER.45
+					days = 5
+				}
+			}
 		}
 	}
 	

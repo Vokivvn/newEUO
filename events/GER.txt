@@ -81,6 +81,25 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
+	id = GER.45
+	title = GER.45.t
+	desc = GER.45.d
+	picture = GFX_report_event_ger_new_year
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.45.a
+		hidden_effect = {
+			DNA = {
+				transfer_state = 332
+				transfer_state = 1074
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
 	id = GER.100
 	title = GER.100.t
 	desc = GER.100.d
