@@ -771,4 +771,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/DCA/Portrait_DCA_Patrick_John.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Taito_Phillip_Field"
+		texturefile = "gfx/leaders/NZL/Portrait_NZL_Taito_Phillip_Field.png"
+	}
+	
 }

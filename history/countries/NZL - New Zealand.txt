@@ -11,4 +11,4 @@ set_popularities = {
 	moderate_socialism = 100
 }
 
-recruit_character = NZL
+recruit_character = NZL_Taito_Phillip_Field

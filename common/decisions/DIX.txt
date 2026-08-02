@@ -67,9 +67,6 @@ DIX_rebuilding_dixie = {
             uses = 2
             category = industry
     }
-			load_focus_tree = {
-				tree = DIX_branch_legacy_of_our_fuhrer
-			}
         }
     }
     DIX_rebuild_new_orleans = {
@@ -129,21 +126,27 @@ DIX_rebuilding_dixie = {
         days_remove = 18
         icon = MDF_HERE
         complete_effect = {
-    361 = {
-        add_building_construction = {
-            type = bunker
-            level = 3
-            instant = yes
-        }
-        add_building_construction = {
-            type = coastal_bunker
-            level = 2
-            instant = yes
         }
     }
-			load_focus_tree = {
-				tree = DIX_branch_legacy_of_our_fuhrer
-			}
+}
+
+DIX_western_diplomacy = {
+    DIX_denver_negotiations = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+        }
+    }
+    DIX_denver_negotiations = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
         }
     }
 }
