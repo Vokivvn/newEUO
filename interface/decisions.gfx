@@ -2626,6 +2626,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_generic_USA_flag.dds"
 	}
 
+	spriteType = {
+		name = "GFX_wes_bg_solid"
+		texturefile = "gfx/interface/decisions/decision_category_DIX_wes.dds"
+	}
+
 		## RK Iconography ##
 	spriteType = {
 		name = "GFX_rk_bg_solid"
