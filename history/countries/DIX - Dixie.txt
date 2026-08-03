@@ -63,5 +63,10 @@ add_ideas = {
 recruit_character = DIX_william_luther_pierce
 recruit_character = DIX_Shaun_Winkler
 recruit_character = DIX_Stephen_Mason
+recruit_character = DIX_Louis_Beam
+recruit_character = DIX_Timothy_McVeigh
+recruit_character = DIX_Dillon_Irizarry
+recruit_character = DIX_WilliamJeffreyPoole
+recruit_character = DIX_MichaelHillGeneral
 
 add_manpower = 3000000
