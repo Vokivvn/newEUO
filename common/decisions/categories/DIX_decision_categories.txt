@@ -15,6 +15,7 @@ DIX_rebuilding_dixie = {
 }
 
 DIX_western_diplomacy = {
+	icon = GFX_decision_category_generic
 	
 	allowed = {
 		original_tag = DIX
