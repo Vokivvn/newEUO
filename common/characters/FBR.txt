@@ -1,0 +1,16 @@
+characters = {
+	FBR_David_Starkey = {
+		name = "David Starkey" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_David_Starkey
+			}
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

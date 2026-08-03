@@ -21,7 +21,7 @@ DIX_western_diplomacy = {
 	}
 	priority = 100
 	
-	scripted_gui = ger_rk_ui
+	scripted_gui = dix_wes_ui
 }
 
 DIX_pressburg_summit = {

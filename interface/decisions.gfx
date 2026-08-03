@@ -9,11 +9,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_decision_category_generic"
-		texturefile = "gfx/interface/decisions/decision_category_generic.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_decision_category_border_conflicts"
 		texturefile = "gfx/interface/decisions/decision_category_border_conflicts.dds"
 	}
