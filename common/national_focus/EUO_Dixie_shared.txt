@@ -497,6 +497,8 @@ shared_focus = {
 	icon = GFX_DIX_control_key_cities
 	cost = 2.00
 	
+	mutually_exclusive = { focus = DIX_control_rural_areas }
+	
 	x = 9
 	y = 4
 	
@@ -515,6 +517,8 @@ shared_focus = {
 	id = DIX_control_rural_areas
 	icon = GFX_DIX_control_rural_areas
 	cost = 2.00
+	
+	mutually_exclusive = { focus = DIX_control_key_cities }
 	
 	x = 11
 	y = 4
@@ -538,8 +542,7 @@ shared_focus = {
 	x = 10
 	y = 5
 	
-	prerequisite = { focus = DIX_control_key_cities }
-	prerequisite = { focus = DIX_control_rural_areas }
+	prerequisite = { focus = DIX_control_key_cities focus = DIX_control_rural_areas }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_no_place_for_traitors"
 		country_event = {

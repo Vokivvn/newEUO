@@ -15,11 +15,13 @@ DIX_rebuilding_dixie = {
 }
 
 DIX_western_diplomacy = {
-
+	
 	allowed = {
 		original_tag = DIX
 	}
 	priority = 100
+	
+	scripted_gui = ger_rk_ui
 }
 
 DIX_pressburg_summit = {

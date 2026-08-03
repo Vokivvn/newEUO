@@ -1,4 +1,5 @@
 ﻿l_english: 
+
  DIX_anarchism_party:0 "-"
  DIX_anarchism_party_long:0 "-"
  DIX_revolutionary_socialism_party:0 "-"
@@ -84,6 +85,30 @@
  DIX_21st_century_cities_desc:0 ""
  DIX_our_fuhrers_health:0 "Our President's Health"
  DIX_our_fuhrers_health_desc:0 ""
+ DIX_legacy_of_our_fuhrer:0 "Legacy of Our President"
+ DIX_legacy_of_our_fuhrer_desc:0 ""
+ DIX_control_the_situation:0 "Control the Situation"
+ DIX_control_the_situation_desc:0 ""
+ DIX_deputize_kkk:0 "Deputive the Klan"
+ DIX_deputize_kkk_desc:0 ""
+ DIX_what_would_hitler_think:0 "What Would Hitler Think?"
+ DIX_what_would_hitler_think_desc:0 ""
+ DIX_mobilize_the_army:0 "Mobilize the Army"
+ DIX_mobilize_the_army_desc:0 ""
+ DIX_rifles_to_police_stations:0 "Rifles to Police Stations"
+ DIX_rifles_to_police_stations_desc:0 ""
+ DIX_fuhrer_speech:0 "Our President Speaks"
+ DIX_fuhrer_speech_desc:0 "
+ DIX_fire_at_will:0 "Fire at Will!"
+ DIX_fire_at_will_desc:0 ""
+ DIX_control_key_cities:0 "Control Key Cities"
+ DIX_control_key_cities_desc:0 ""
+ DIX_control_rural_areas:0 "Control Rural Areas"
+ DIX_control_rural_areas_desc:0 ""
+ DIX_no_place_for_traitors:0 "No Place for Traitors"
+ DIX_no_place_for_traitors_desc:0 ""
+ DIX_a_purified_dixieland:0 "A Purified Dixieland"
+ DIX_a_purified_dixieland_desc:0 ""
  
  goldmine_of_the_reich:0 "Goldmine of the Reich"
  goldmine_of_the_reich_desc:0 "The National Union is one of the Richest and most profitable states in the whole Kontinentalpakt. Our Status as Germany's "Golden Child" has brought us both envy and admiration from our peers. Not only in North America but also in Europe. If Ukraine is the breadbasket of the Reich, then Dixie is the bank. The Nation that keeps the whole Pakt afloat. Or so we'd like to think. The Reich has become increasingly worried about putting all its eggs in one basket, and since the 2007 Crash, we have faced major losses in German business. \n\nWe do have high hopes for the future, however. The state of the world is becoming increasingly tumultuous, and while that may bring bad fortune to some, it could bring good fortune to others. We know the war in West Africa is one thing we should keep a keen eye on if we want to think about getting our guarantee of economic dominance back."
@@ -106,3 +131,6 @@
  
  DIX_pressburg_summit:0 "Pressburg Summit"
  DIX_send_our_delegates:0 "Send our Delegates"
+ 
+ DIX_western_diplomacy:0 "Western Diplomacy"
+ DIX_denver_negotiations:0 "Denver Negotiations"
