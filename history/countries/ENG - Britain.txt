@@ -92,4 +92,11 @@ recruit_character = ENG_george_galloway
 recruit_character = ENG_tommy_robinson
 recruit_character = ENG_jonathan_bowden
 recruit_character = ENG_the_yerbmeister
+recruit_character = ENG_jason_marriner
+recruit_character = ENG_peter_hitchens
+recruit_character = ENG_john_mcdonnell
+recruit_character = ENG_rod_liddle
+recruit_character = ENG_theresa_may
+
+
 

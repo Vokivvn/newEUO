@@ -619,10 +619,118 @@ country_event = { #Intro
 					target = ENG
 					type = annex_everything
 				}
+				inherit_technology = ENG
 			}
 			GER = {
 				remove_from_faction = ENG
 				}
+			}
+			ENG_tommy_robinson = {
+				set_nationality = FBR
+			}
+			ENG_george_galloway = {
+				set_nationality = FBR
+			}
+			ENG_jeremy_corbyn = {
+				set_nationality = FBR
+			}
+			ENG_william_clouston = {
+				set_nationality = FBR
+			}
+			ENG_kenneth_clarke = {
+				set_nationality = FBR
+			}
+			FBR = {
+				add_country_leader_role = {
+				    character = ENG_tommy_robinson
+				    promote_leader = yes
+				    country_leader = {
+				        ideology = militant_anarchism
+				        traits = {
+						###
+					}
+				    }
+				}
+				add_country_leader_role = {
+				    character = ENG_george_galloway 
+				    promote_leader = yes
+				    country_leader = {
+				        ideology = communism
+				        traits = {
+						###
+					}
+				    }
+				}
+				add_country_leader_role = {
+				    character = ENG_jeremy_corbyn 
+				    promote_leader = yes
+				    country_leader = {
+				        ideology = progressivism
+				        traits = {
+						###
+					}
+				    }
+				}
+				add_country_leader_role = {
+				    character = ENG_william_clouston 
+				    promote_leader = yes
+				    country_leader = {
+				        ideology = national_liberalism
+				        traits = {
+						###
+					}
+				    }
+				}
+			}
+			add_country_leader_role = {
+			    character = ENG_jason_marriner 
+			    promote_leader = yes
+			    country_leader = {
+			        ideology = militant_anarchism
+			        traits = {
+					###
+				}
+			    }
+			}
+			add_country_leader_role = {
+			    character = ENG_peter_hitchens
+			    promote_leader = yes
+			    country_leader = {
+			        ideology = neo_communism #IRL was a Trotskyite for a long time- maybe this timeline he stays as such
+			        traits = {
+					###
+				}
+			    }
+			}
+			add_country_leader_role = {
+			    character = ENG_john_mcdonnell
+			    promote_leader = yes
+			    country_leader = {
+			        ideology = united_front
+			        traits = {
+					###
+				}
+			    }
+			}
+			add_country_leader_role = {
+			    character = ENG_rod_liddle
+			    promote_leader = yes
+			    country_leader = {
+			        ideology = national_liberalism
+			        traits = {
+					###
+				}
+			    }
+			}
+			add_country_leader_role = {
+			    character = ENG_theresa_may
+			    promote_leader = yes
+			    country_leader = {
+			        ideology = liberal_conservatism
+			        traits = {
+					###
+				}
+			    }
 			}	
 		}
 	}

@@ -162,5 +162,48 @@ characters = {
 			ideology = classical_conservatism
 		}
 	}
+
+	#dummy replacements for post-rev social republic
+	ENG_jason_marriner = { #ANARCHIST
+		name = "Jason Marriner" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/jason_marriner.tga"
+			}
+		}
+	}
+	ENG_peter_hitchens = { #COMMUNIST
+		name = "Peter Hitchens" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/peter_hitchens.tga"
+			}
+		}
+	}
+	ENG_john_mcdonnell = { #PROGRESSIVE
+		name = "John McDonnell" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/john_mcdonnell.tga"
+			}
+		}
+	}
+	ENG_rod_liddle = { #LIBERAL
+		name = "Rod Liddle" #RIP big dog 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/rod_liddle.tga"
+			}
+		}
+	}
+	ENG_theresa_may = { #CONSERVATIVE
+		name = "Theresa May"
+		gender = female 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/theresa_may.tga"
+			}
+		}
+	}	
 }
 	
