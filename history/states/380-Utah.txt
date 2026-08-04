@@ -11,6 +11,7 @@ state={
 	
 	history={
 		owner = UTA
+		victory_points = { 4865 5 }
 	}
 	
 	manpower=507846
