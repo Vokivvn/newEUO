@@ -605,6 +605,7 @@ country_event = { #Intro
 	
 	immediate = { 
 		hidden_effect = {
+			set_cosmetic_tag = ENG_BOWDEN_COS
 			FBR = {
 				transfer_state = 120
 				transfer_state = 122
