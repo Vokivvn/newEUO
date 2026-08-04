@@ -572,6 +572,14 @@ country_event = {
 		news_event = {
 			id = ingurland.13
 		}
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = ingurland.14
+					days = 5
+				}
+			}
+		}
 	}
 }
 #news event for above
@@ -584,5 +592,42 @@ news_event = {
 	major = yes
 	option = {
 		name = ingurland.13.a
+	}
+}
+
+country_event = { #Intro 
+	id = ingurland.14
+	title = ingurland.14.t
+	desc = ingurland.14.d
+	picture = GFX_report_event_ger_new_year
+
+	is_triggered_only = yes
+	
+	immediate = { 
+		hidden_effect = {
+			FBR = {
+				transfer_state = 120
+				transfer_state = 122
+				transfer_state = 123
+				transfer_state = 130
+				transfer_state = 132
+				transfer_state = 133
+				transfer_state = 931
+				transfer_state = 932
+				transfer_state = 933
+				declare_war_on = {
+					target = ENG
+					type = annex_everything
+				}
+			}
+			GER = {
+				remove_from_faction = ENG
+				}
+			}	
+		}
+	}
+	
+	option = { #Puppetry
+		name = ingurland.14.a
 	}
 }
