@@ -76,7 +76,7 @@ characters = {
 				large = "gfx/leaders/ENG/jon_bowden.tga"
 			}
 			army = {
-				large = "gfx/leaders/ENG/alek_yerbury.tga"
+				large = "gfx/leaders/ENG/jon_bowden.tga"
 			}
 		}
 		#country_leader = {
