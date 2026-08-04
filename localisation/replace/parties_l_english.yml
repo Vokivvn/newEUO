@@ -54,6 +54,24 @@
  ENG_national_socialism_party_long:0 "National Front - Orthodox Faction"
  ENG_syncretism_party:0 "NF/SS"
  ENG_syncretism_party_long:0 "National Front - Free Corps/SS Faction"
+ #FBR
+ FBR_anarchism_party:0 "BDL"
+ FBR_anarchism_party_long:0 "British Defence League"
+ FBR_revolutionary_socialism_party:0 "RLP"
+ FBR_revolutionary_socialism_party_long:0 "Revolutionary Labour Party"
+ FBR_moderate_socialism_party:0 "Anti-Fascist Action"
+ FBR_liberalism_party:0 "SDP"
+ FBR_liberalism_party_long:0 "Social Democratic Party"
+ FBR_conservatism_party:0 "Unionist Resistance Council"
+ FBR_autocratic_party:0 "Reconciliation Committee"
+ FBR_reactionary_party:0 "English Democrats"
+ FBR_fascism_party:0 "NBU"
+ FBR_fascism_party_long:0 "New British Union"
+ FBR_national_socialism_party:0 "National Action"
+ FBR_syncretism_party:0 "BNP"
+ FBR_syncretism_party_long:0 "British National Party"
+
+
 
  #NIR PARTIES
  NIR_autocratic_party:0 "UVF/UDA/UFF"

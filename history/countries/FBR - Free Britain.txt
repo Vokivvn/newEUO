@@ -12,3 +12,6 @@ set_popularities = {
 }
 
 recruit_character = FBR_David_Starkey
+recruit_character = FBR_robin_tilbrook
+recruit_character = FBR_benjamin_raymond
+recruit_character = FBR_adam_walker
