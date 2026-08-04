@@ -79,6 +79,7 @@ country_event = { #Intro
 			target = DNV 
 			modifier = DIX_denver_negotiations
 			}
+		set_country_flag = open_negotiations
 		}
 	}
 }
