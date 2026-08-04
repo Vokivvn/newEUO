@@ -8,7 +8,12 @@ set_politics = {
 }
 
 set_popularities = {
-	conservatism = 100
+	conservatism = 50
+	liberalism = 10
+	moderate_socialism = 10
+	revolutionary_socialism = 15
+	anarchism = 10
+	reactionary = 5
 }
 
 recruit_character = FBR_David_Starkey
