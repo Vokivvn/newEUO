@@ -72,12 +72,7 @@ country_event = {
 	id = ingurland.4
 	days = 34
 }
-ENG_jonathan_bowden = {
-	unit_leader_event = {
-		id = ingurland.5
-		days = 46
-	}
-}
+
 
 recruit_character = ENG_martin_webster
 recruit_character = ENG_jim_dowson 
