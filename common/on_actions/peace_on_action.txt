@@ -27,4 +27,18 @@ on_actions = {
 		} 
 	}
 	
+	on_before_peace_conference_start = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = AMR }
+					FROM = { tag = DIX }
+				}
+				AMR = {
+					country_event = { id = AMR.39 days = 0 }
+				}
+			}
+		} 
+	}
+	
 }

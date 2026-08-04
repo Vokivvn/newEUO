@@ -301,6 +301,52 @@ country_event = { #Intro
 					target = DIX
 					type = annex_everything
 				}
+				declare_war_on = {
+					target = SDI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+			}
+			NAF = {
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SDI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+			}
+			RNR = {
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SDI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+			}
+			SDI = {
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
 			}
 		}
 	}

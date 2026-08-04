@@ -13,6 +13,28 @@ country_event = { #Intro
 	}
 }
 
+country_event = { #Intro 
+	id = AMR.39
+	title = AMR.39.t
+	desc = AMR.39.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = AMR.39.a
+			AMR = {
+				set_cosmetic_tag = AMR_win
+				}
+				country_event = {
+					id = AMR.40
+					days = 4
+				}
+			}
+		}
+	}
+}
+
 country_event = { #Elections 
 	id = AMR.40
 	title = AMR.40.t
