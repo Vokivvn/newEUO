@@ -634,7 +634,6 @@ country_event = { #Intro
 			}
 			GER = {
 				remove_from_faction = ENG
-				}
 			}
 			ENG_tommy_robinson = {
 				set_nationality = FBR
