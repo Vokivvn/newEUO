@@ -66,6 +66,24 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
+	id = DIX.29
+	title = DIX.29.t
+	desc = DIX.29.d
+	picture = GFX_report_event_dix_hospitalization
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.29.a
+		add_opinion_modifier = {
+			target = DNV 
+			modifier = DIX_denver_negotiations
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
 	id = DIX.30
 	title = DIX.30.t
 	desc = DIX.30.d

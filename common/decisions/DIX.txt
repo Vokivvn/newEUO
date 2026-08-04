@@ -137,16 +137,27 @@ DIX_western_diplomacy = {
             }
         }
         icon = MDF_HERE
-        complete_effect = {
-        }
-    }
-    DIX_denver_negotiations = {
-        available = {
-            DIX = {
-            }
-        }
-        icon = MDF_HERE
-        complete_effect = {
+		
+		fire_only_once = yes
+		
+		cost = 10
+        days_remove = 9
+
+        remove_effect = {
+			DIX = {
+				country_event = {
+					id = DIX.29
+				}
+			}
+			hidden_effect = {
+				DNV = {
+					country_event = {
+						id = DNV.3
+						days = 4
+						random_days = 3
+					}
+				}
+			}
         }
     }
 }
