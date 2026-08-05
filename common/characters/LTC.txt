@@ -1,9 +1,9 @@
 characters = {
-	ZAM_Henry_Sosala = {
-		name = "Henry Sosala" 
+	LTC_Mwanta_Yamvo_Kaumbu = {
+		name = "Mwanta Yamvo Kaumbu" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Henry_Sosala
+				large = GFX_portrait_Mwanta_Yamvo_Kaumbu
 			}
 		}
 		country_leader = {

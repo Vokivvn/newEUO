@@ -1,4 +1,4 @@
-﻿capital = 889 # Elisabethville
+﻿capital = 891
 
 set_politics = {
 	ruling_party = autocratic
@@ -11,4 +11,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = KAT_Mike_Hoare
+recruit_character = LTC_Mwanta_Yamvo_Kaumbu

@@ -786,4 +786,19 @@ spriteTypes = {
 		texturefile = "gfx/leaders/PAK/Portrait_PAK_Hanif_Atmar.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Henry_Sosala"
+		texturefile = "gfx/leaders/ZAM/Portrait_ZAM_Henry_Sosala.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Mwanta_Yamvo_Kaumbu"
+		texturefile = "gfx/leaders/LTC/Portrait_LTC_Mwanta_Yamvo_Kaumbu.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Mike_Hoare"
+		texturefile = "gfx/leaders/KAT/Portrait_KAT_Mike_Hoare.png"
+	}
+	
 }
