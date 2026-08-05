@@ -801,4 +801,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KAT/Portrait_KAT_Mike_Hoare.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Julio_Ponce_Lerou"
+		texturefile = "gfx/leaders/CHL/Portrait_CHL_Julio_Ponce_Lerou.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Hugo_Chavez"
+		texturefile = "gfx/leaders/VEN/Portrait_VEN_Hugo_Chavez.png"
+	}
+	
 }
