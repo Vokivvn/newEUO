@@ -31,8 +31,6 @@ country_event = { #Intro
 					days = 4
 				}
 			}
-		}
-	}
 }
 
 country_event = { #Elections 
@@ -76,6 +74,15 @@ country_event = { #Elections
 	
 	option = { #Rosenberg
 		name = AMR.41.a
+		set_variable = {
+          var = global.current_superevent
+          value = 1
+			}
+		set_global_flag = Super_Event_Visible
+		hidden_effect = {
+			sound_effect = "Kristolresistance"
+		}
+		clr_country_flag = event_open
 		hidden_effect = {
 			AMR = {
 				create_country_leader = {
