@@ -747,3 +747,21 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+	id = DIX_dukes_compromise
+	icon = GFX_DIX_dukes_compromise
+	cost = 2.00
+	
+	x = 4
+	y = 3
+	
+	prerequisite = { focus = DIX_rally_the_klan }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_dukes_compromise"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}

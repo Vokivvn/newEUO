@@ -138,8 +138,13 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_GER_final_touches"
-	texturefile = "gfx/interface/goals/GER/Final Touches To Our Term.png"			
+	name = "DIX_legacy_of_our_fuhrer"
+	texturefile = "gfx/interface/goals/DIX/Legacy of Our President.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_DIX_mobilize_the_army"
+	texturefile = "gfx/interface/goals/DIX/Mobilize the Army.png"			
 	}	
 	
 	SpriteType = {
