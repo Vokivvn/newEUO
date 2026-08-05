@@ -781,4 +781,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FBR/david_starkey.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Hanif_Atmar"
+		texturefile = "gfx/leaders/PAK/Portrait_PAK_Hanif_Atmar.png"
+	}
+	
 }

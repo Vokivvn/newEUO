@@ -11,4 +11,4 @@ set_popularities = {
 	liberalism = 100
 }
 
-recruit_character = PAK
+recruit_character = PAK_Hanif_Atmar
