@@ -1,0 +1,19 @@
+state={
+	id=4418
+	name="STATE_4418"
+	provinces={
+		15182 
+	}
+	history={
+		
+		owner = CAN 
+		add_core_of = CAN
+		add_core_of = MNB
+		add_core_of = MET
+		
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

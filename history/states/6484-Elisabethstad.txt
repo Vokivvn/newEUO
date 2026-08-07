@@ -1,0 +1,20 @@
+state={
+	id=6484
+	name="STATE_6484"
+	provinces={
+		16709 
+	}
+	history={
+	    owner = COG
+        add_core_of = COG
+        add_core_of = KTG
+		add_core_of = KZM
+		victory_points = {
+			16709 25
+		}
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=8826
+	name="STATE_8826"
+	provinces={
+		8340 
+	}
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		add_core_of = KUR
+        add_core_of = ASY
+        add_core_of = ETC
+		add_core_of = SOR
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

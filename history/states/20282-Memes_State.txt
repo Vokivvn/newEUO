@@ -1,0 +1,20 @@
+state={
+	id=20282
+	name="STATE_20282"
+	provinces={
+		19924
+	}
+	history={
+		owner = KPU
+		add_core_of = PAK
+		add_core_of = KPU
+		add_core_of = SND 
+		add_core_of = MAH
+		add_claim_by = RAJ
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=2252
+	name="STATE_2252"
+	manpower = 357004
+	
+	state_category = rural
+
+	history={
+		owner = UKR
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = NOV
+		add_core_of = ODS
+		add_claim_by = ROM
+	}
+
+	provinces={
+		3757
+	}
+	local_supplies=0.0 
+}

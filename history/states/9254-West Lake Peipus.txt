@@ -1,0 +1,19 @@
+state={
+	id=9254
+	name="STATE_9254"
+	provinces={
+		18507 
+	}
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		add_core_of = ASY
+		add_core_of = KUR
+		add_core_of = BHD
+		add_core_of = IQK
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

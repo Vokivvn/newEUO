@@ -1,0 +1,19 @@
+state={
+	id=20054
+	name="STATE_20054"
+	provinces={
+		6486
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		add_core_of = JUB
+		add_core_of = AQ2
+        
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}
+

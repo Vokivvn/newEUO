@@ -1,0 +1,19 @@
+state={
+	id=19981
+	name="STATE_19981"
+	history={
+	    owner = SYR
+		add_core_of = EDS
+        add_core_of = SYR
+        add_core_of = WTC
+		add_core_of = ISS
+        add_core_of = RJV
+	}
+	provinces={
+		1837
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

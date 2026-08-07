@@ -1,0 +1,25 @@
+
+state={
+	id=4296
+	name="STATE_4296"
+	
+	provinces={
+		15024 
+	}
+
+	history={
+		owner = PTI
+		add_core_of = PTI
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = EPU
+        victory_points = {
+			15024 5
+		}
+	}
+	
+	state_category = pastoral
+	manpower = 1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

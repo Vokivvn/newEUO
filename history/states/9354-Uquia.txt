@@ -1,0 +1,19 @@
+state={
+	id=9354
+	name="STATE_9354"
+	provinces={
+		18515 
+	}
+	history={
+		owner = ARG
+		add_core_of = ARG
+		add_core_of = JUJ
+		victory_points = {
+			18515 5 
+		}
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

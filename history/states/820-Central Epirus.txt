@@ -1,0 +1,20 @@
+state={
+	id=820
+	name="STATE_820"
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = EPR
+		add_core_of = CMC
+
+	}
+
+	provinces={
+		841 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+state={
+	id=6205
+	name="STATE_6205"
+	provinces={
+		16529
+	}
+	manpower=1
+	history={
+		owner = JMK
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = KRN
+		add_core_of = JMK
+		
+	}
+ 
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

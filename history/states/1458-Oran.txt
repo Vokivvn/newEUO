@@ -1,0 +1,22 @@
+
+state={
+	id=1458
+	name="STATE_1458" # Oran
+	manpower = 1
+	state_category = town
+
+	history={
+		owner = FRA
+		victory_points = {
+			2264 5 
+		}
+		add_core_of = ALG
+		add_core_of = FR2
+		add_core_of = MCS
+	}
+
+	provinces={
+		7132
+	}
+	local_supplies=0.0 
+}

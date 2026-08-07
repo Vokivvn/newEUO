@@ -1,0 +1,24 @@
+
+state={
+	id=4192
+	name="STATE_4192"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = GMA
+		add_core_of = WSC
+		victory_points = {
+			4166 1 
+		}
+
+	}
+
+	provinces={
+		4166
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

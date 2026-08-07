@@ -1,0 +1,15 @@
+state={
+	id=6882
+	name="STATE_6882"
+	provinces={
+		17319 
+	}
+	history={
+	    owner = MRT
+        add_core_of = MRT
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=7132
+	name="STATE_7132"
+	provinces={
+		12387 
+	}
+	history={
+	    owner = TUR
+        add_core_of = TUR
+        add_core_of = ASY
+        add_core_of = KUR
+		add_core_of = KLD
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

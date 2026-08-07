@@ -1,0 +1,19 @@
+state={
+	id=9361
+	name="STATE_9361"
+	provinces={
+		11453 
+	}
+	history={
+		owner = BLR
+		add_core_of = SOV
+		add_core_of = BLR
+		add_core_of = MZY
+        add_core_of = UA2
+		add_claim_by = UKR
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

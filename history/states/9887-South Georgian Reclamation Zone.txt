@@ -1,0 +1,17 @@
+state={
+	id=9887
+	name="STATE_9887"
+	provinces={
+		19215 
+	}
+	history={
+		owner = SUD
+		add_core_of = SUD
+		add_core_of = SD0
+	}
+	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

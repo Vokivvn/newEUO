@@ -1,0 +1,20 @@
+state={
+	id=7037
+	name="STATE_7037"
+	provinces={
+		17036 
+	}
+	history={
+	    owner = AZR
+        add_core_of = SOV 
+		add_core_of = TSC
+        add_core_of = AZR
+		add_core_of = KC2
+		add_core_of = KKK
+		add_core_of = KKH
+    }	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

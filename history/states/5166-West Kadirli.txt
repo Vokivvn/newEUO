@@ -1,0 +1,19 @@
+state={
+	id=5166
+	name="STATE_5166"
+	provinces={
+		6956 
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+        add_core_of = APC
+	        add_core_of = RMZ
+		
+
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

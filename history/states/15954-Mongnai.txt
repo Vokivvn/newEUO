@@ -1,0 +1,20 @@
+state={
+	id=15954
+	name="STATE_15954"
+	provinces={
+		7603
+	}
+
+	history = {
+		owner = S01
+		add_core_of = BRM
+		add_core_of = SHA
+		add_core_of = S01
+		add_core_of = S59
+	}
+
+	manpower=1
+	buildings_max_level_factor = 1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

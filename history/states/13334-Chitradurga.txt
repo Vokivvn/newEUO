@@ -1,0 +1,21 @@
+	state={
+	id=13334
+	name="STATE_13334"
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		owner = MYS
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = MYS
+		add_core_of = KRN
+		
+	}
+
+	provinces={
+		2148
+	}
+	local_supplies=0.0 
+}

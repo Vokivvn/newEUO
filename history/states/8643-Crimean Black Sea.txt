@@ -1,0 +1,18 @@
+state={
+	id=8643
+	name="STATE_8643"
+	provinces={
+		18258 
+	}
+	history={
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = AMA
+		add_core_of = E02
+		add_core_of = AMF
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

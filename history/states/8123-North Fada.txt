@@ -1,0 +1,17 @@
+state={
+	id=8123
+	name="STATE_8123"
+	provinces={
+		17771 
+	}
+	history={
+		owner = FEA
+		add_core_of = FEA
+        add_core_of = CHA
+	add_core_of = SD0
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=2435
+	name="STATE_2435"
+	provinces={
+		14668
+	}
+	manpower=1
+	state_category = pastoral
+
+	history={
+		owner = BEL
+		add_core_of = BEL
+		add_core_of = WLL
+		add_core_of = WLX
+		add_core_of = BL2
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

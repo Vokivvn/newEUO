@@ -1,0 +1,17 @@
+state={
+	id=20573
+	name="STATE_20573"
+	provinces={
+		9230 
+	}
+	history={
+		owner = MLI
+		add_core_of = MLI
+		add_core_of = SD0
+		add_core_of = KLT
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

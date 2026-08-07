@@ -1,0 +1,20 @@
+state={
+	id=6017
+	name="STATE_6017"
+	provinces={
+		16471 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = NOR
+		add_core_of = NOR
+		add_core_of = SAP
+		add_core_of = NR2
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

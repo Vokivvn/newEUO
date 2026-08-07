@@ -1,0 +1,16 @@
+state={
+	id=8455
+	name="STATE_8455"
+	provinces={
+		18175 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = KHO
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

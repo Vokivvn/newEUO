@@ -1,0 +1,20 @@
+state={
+	id=5694
+	name="STATE_5694"
+	provinces={
+		16050 
+	}
+	history={
+	    owner = SYR
+        add_core_of = ASY
+        add_core_of = SYR
+        add_core_of = WTC
+        add_core_of = KUR
+		add_core_of = SR2
+		add_core_of = MLP
+    }
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

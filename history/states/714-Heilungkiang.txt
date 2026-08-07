@@ -1,0 +1,22 @@
+
+state={
+	id=714
+	name="STATE_714"
+
+	provinces={
+		4506
+	}
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		add_core_of = HLJ
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

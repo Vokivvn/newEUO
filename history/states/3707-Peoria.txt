@@ -1,0 +1,22 @@
+state={
+	id=3707
+	name="STATE_3707"
+	provinces={
+		15439
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = GMA
+		add_core_of = ILL
+		victory_points = {
+			15439 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

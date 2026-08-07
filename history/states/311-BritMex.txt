@@ -1,0 +1,21 @@
+state=
+{
+	id=311
+	name="STATE_311"
+	manpower = 51000
+	
+	state_category = enclave
+	history=
+	{
+		owner = BLZ
+		add_core_of = BLZ
+		add_core_of = GUA 
+	    add_core_of = FCA
+		
+		victory_points = {
+			2077 5 
+		}
+	}
+	provinces= { 2077 }
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+state={
+	id=8771
+	name="STATE_8771"
+	provinces={
+		5840
+	}
+	history={
+		owner = KRE
+		add_core_of = KRE
+		add_core_of = PRC 
+		add_core_of = CHI 
+		add_core_of = SIK
+		add_core_of = ZGH
+		add_core_of = MB8
+		add_claim_by = UYG
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

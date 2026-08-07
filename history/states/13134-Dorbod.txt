@@ -1,0 +1,20 @@
+state={
+	id=13134
+	name="STATE_13134"
+	
+	history = {
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = HLJ
+		add_core_of = MAN
+		add_core_of = I15
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		16397
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

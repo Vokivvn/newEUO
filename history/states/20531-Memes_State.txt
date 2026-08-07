@@ -1,0 +1,23 @@
+state={
+	id=20531
+	name="STATE_20531"
+	provinces={
+		11143
+	}
+	history={
+		owner = MOL
+		add_core_of = SOV
+		add_core_of = MOL
+        add_core_of = MLV
+		add_core_of = UKR
+		add_core_of = NOV
+		add_core_of = ODS
+		add_claim_by = TRN
+		add_claim_by = ROM
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

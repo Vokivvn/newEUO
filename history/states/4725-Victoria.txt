@@ -1,0 +1,23 @@
+state={
+	id=4725
+	name="STATE_4725"
+	provinces={
+		15536 
+	}
+	history={
+		
+		owner = CAN 
+		add_core_of = CAN
+		add_core_of = BRC
+		add_core_of = VCI
+		add_core_of = CAS
+		
+		victory_points = {
+			15536 5
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

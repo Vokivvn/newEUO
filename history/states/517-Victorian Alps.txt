@@ -1,0 +1,21 @@
+
+state={
+	id=517
+	name="STATE_517"
+	
+	manpower = 1000
+	
+	state_category = large_city
+
+	history={
+		owner = AST
+		add_core_of = AST
+		add_core_of = VCR
+		
+	}
+
+	provinces={
+		10553
+	}
+	local_supplies=0.0 
+}

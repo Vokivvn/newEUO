@@ -1,0 +1,15 @@
+state={
+	id=9225
+	name="STATE_9225"
+	provinces={
+		18407 
+	}
+	history={
+		owner = SIA
+		add_core_of = SIA
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

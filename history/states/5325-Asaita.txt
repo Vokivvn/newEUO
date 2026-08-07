@@ -1,0 +1,17 @@
+state={
+	id=5325
+	name="STATE_5325"
+	provinces={
+		15744 
+	}
+	history = {
+		owner = ASS
+		add_core_of = ETH
+		add_core_of = ASS
+		add_core_of = AFA
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

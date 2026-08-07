@@ -1,0 +1,20 @@
+state={
+	id=20355
+	name="STATE_20355"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = JAN
+		add_claim_by = PON
+
+	}
+
+	provinces={
+		19959
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

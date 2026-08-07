@@ -1,0 +1,19 @@
+state={
+	id=16479
+	name="STATE_16479"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = ROJ
+		add_core_of = AIC
+	}
+
+	provinces={
+		18993
+	}
+	
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

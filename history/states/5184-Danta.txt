@@ -1,0 +1,19 @@
+state={
+	id=5184
+	name="STATE_5184"
+	provinces={
+		15623 
+	}
+	history={
+		owner = DNT
+		add_core_of = DNT
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = GUJ
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state=
+{
+	id=2349
+	name="STATE_2349"
+	manpower = 15870
+	
+	state_category = rural
+	
+	
+	history=
+	{
+		owner = ICE
+		add_core_of = ICE
+	}
+	provinces=
+	{
+12689 	}
+	local_supplies=0.0 
+}

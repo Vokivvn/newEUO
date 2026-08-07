@@ -1,0 +1,17 @@
+state={
+	id=5338
+	name="STATE_5338"
+	provinces={
+		13481 
+	}
+	history={
+		owner = MRT
+		add_core_of = MRT
+		add_core_of = SD0
+
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

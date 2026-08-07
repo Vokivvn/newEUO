@@ -1,0 +1,19 @@
+state={
+	id=1639
+	name="STATE_1639"
+	
+	history={
+		owner = BRA
+		add_core_of = BRA
+		add_core_of = RIO
+	}
+	
+	provinces={
+		13515
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=3869
+	name="STATE_3869"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		10127 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

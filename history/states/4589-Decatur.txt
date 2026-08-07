@@ -1,0 +1,20 @@
+
+state={
+	id=4589
+	name="STATE_4589"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = ILL
+		add_core_of = GMA
+	}
+
+	provinces={
+		15437
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

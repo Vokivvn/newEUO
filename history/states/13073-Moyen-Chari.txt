@@ -1,0 +1,19 @@
+state={
+	id=13073
+	name="STATE_13073"
+	
+	history = {
+		owner = FEA
+		add_core_of = FEA
+		add_core_of = CHA
+		add_core_of = WAD
+		
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		1264
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

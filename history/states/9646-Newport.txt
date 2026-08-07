@@ -1,0 +1,20 @@
+state={
+	id=9646
+	name="STATE_9646"
+	provinces={
+		18886 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = RHO
+		add_core_of = PET
+		add_core_of = NEG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

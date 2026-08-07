@@ -1,0 +1,21 @@
+state={
+	id=17061
+	name="STATE_17061"
+	provinces={
+		5819
+	}
+	
+	history = {
+		owner = KHL
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = HIA
+		add_core_of = KHL
+		add_core_of = H32
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

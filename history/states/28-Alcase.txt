@@ -1,0 +1,25 @@
+
+state={
+	id=28
+	name="STATE_28" # Alsace-Lorraine
+	manpower = 1359079
+	
+	state_category = city
+
+	history={
+		owner = FRA
+		add_claim_by = GER
+		add_claim_by = GER
+		victory_points = { 678 5 }
+		victory_points = { 9503 5 }
+		add_core_of = FRA
+		add_core_of = ALC
+		add_core_of = HGM
+		
+	}
+
+	provinces={
+		1346 
+	}
+	local_supplies=0.0 
+}

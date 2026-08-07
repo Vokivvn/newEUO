@@ -1,0 +1,19 @@
+state={
+	id=9307
+	name="STATE_9307"
+	provinces={
+		18576
+	}
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = MAN
+		add_core_of = JLN
+		add_core_of = I08
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

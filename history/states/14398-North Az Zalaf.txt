@@ -1,0 +1,17 @@
+state={
+	id=14398
+	name="STATE_14398"
+	provinces={
+		2585
+	}
+	history={
+	    owner = SYR
+        add_core_of = SYR
+		add_core_of = ANZ
+		add_core_of = ISS
+    }
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

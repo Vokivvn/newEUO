@@ -1,0 +1,29 @@
+state={
+	id=1694
+	name="STATE_1694"
+	
+	history={
+		owner = VEN
+		buildings = {
+
+			1944 = {
+
+
+			}
+		}
+		add_core_of = VEN
+		add_core_of = ZUL
+		victory_points = {
+			1944 1 
+		}
+	}
+	
+	provinces={
+		1944
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.0 
+}

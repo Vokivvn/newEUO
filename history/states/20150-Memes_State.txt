@@ -1,0 +1,23 @@
+state={
+	id=20150
+	name="STATE_20150"
+	
+	history = {
+		owner = KAL
+		add_core_of = SOV
+		add_core_of = DON
+		add_core_of = CSK
+		add_core_of = RUS
+		add_core_of = CSS
+		add_core_of = KAL
+		add_core_of = GLD
+		add_core_of = KC2
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		739
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

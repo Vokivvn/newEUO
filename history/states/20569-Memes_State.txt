@@ -1,0 +1,17 @@
+state={
+	id=20569
+	name="STATE_20569"
+	provinces={
+		9099
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		add_core_of = GLE
+		add_core_of = AQ2
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

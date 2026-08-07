@@ -1,0 +1,20 @@
+state={
+	id=2786
+	name="STATE_2786"
+	history={
+		
+		owner = FRA 
+		add_core_of = FRA
+		add_claim_by = ITA
+		add_core_of = FR2
+		add_core_of = SAV
+		add_core_of = ARP
+	}
+	provinces={
+		14205 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

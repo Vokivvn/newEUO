@@ -1,0 +1,25 @@
+state={
+	id=16910
+	name="STATE_16910"
+	provinces={
+		5668
+	}
+	
+	history = {
+		owner = UTT
+		add_core_of = IND
+		add_core_of = UTP
+		add_core_of = RAJ
+		add_core_of = UTT
+		add_core_of = H17
+		add_claim_by = H18
+		victory_points = {
+			5668 5
+		}
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

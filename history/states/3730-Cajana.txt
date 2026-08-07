@@ -1,0 +1,17 @@
+state={
+	id=3730
+	name="STATE_3730"
+	provinces={
+		1928 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SUR
+		add_core_of = SUR
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

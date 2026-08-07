@@ -1,0 +1,17 @@
+state={
+	id=19971
+	name="STATE_19971"
+	history={
+		owner = LAO
+		add_core_of = LAO
+		add_core_of = INC
+		add_core_of = VTN
+	}
+	provinces={
+		731
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

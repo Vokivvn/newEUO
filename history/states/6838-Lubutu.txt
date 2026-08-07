@@ -1,0 +1,16 @@
+state={
+	id=6838
+	name="STATE_6838"
+	history={
+		owner = FMS
+		add_core_of = FMS
+		add_core_of = MAL
+		add_core_of = NGS
+	}
+	provinces={
+		2073
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+    }

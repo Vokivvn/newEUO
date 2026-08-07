@@ -1,0 +1,23 @@
+state={
+	id=8025
+	name="STATE_8025"
+	
+	provinces={
+		774
+	}
+	
+	history={
+		owner = CAN
+		add_core_of = CAN 
+		add_core_of = ONT
+				
+		victory_points={
+			774 10
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

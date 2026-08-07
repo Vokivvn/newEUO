@@ -1,0 +1,17 @@
+state={
+	id=2809
+	name="STATE_2809"
+	history={
+		
+		owner = POR 
+		add_core_of = POR
+		add_core_of = AZO
+	}
+	provinces={
+		14219
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

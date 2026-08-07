@@ -1,0 +1,21 @@
+
+state={
+	id=5841
+	name="STATE_5841"
+
+	history={
+		owner = MAN
+		add_core_of = MAN
+		add_core_of = PRC
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		9854 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

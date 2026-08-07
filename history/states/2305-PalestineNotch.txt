@@ -1,0 +1,22 @@
+
+state={
+	id=2305
+	name="STATE_2305"
+	
+	provinces={
+		10484 
+	}
+	
+	history={
+		owner = PAL
+		add_core_of = KJR
+		add_core_of = PAL
+		add_claim_by = OML
+		add_claim_by = ISR
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

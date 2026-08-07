@@ -1,0 +1,22 @@
+state={
+	id=4773
+	name="STATE_4773"
+	provinces={
+		15593 
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = NWY
+		add_core_of = GMA
+		add_core_of = IRO
+		victory_points = {
+			15593 5
+		}
+	}
+	manpower = 6900
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

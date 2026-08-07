@@ -1,0 +1,20 @@
+	state={
+	id=3290
+	name="STATE_3290"
+	provinces={
+		10004 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = GND
+		add_core_of = GND
+		add_core_of = GXC
+		add_core_of = PRC
+		add_core_of = CHI
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

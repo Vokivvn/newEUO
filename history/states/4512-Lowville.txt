@@ -1,0 +1,21 @@
+state={
+	id=4512
+	name="STATE_4512"
+	provinces={
+		15274
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = NWY
+		add_core_of = IRO
+		victory_points = {
+			15274 3
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=9539
+	name="STATE_9539"
+	provinces={
+		18785 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = MRS
+		add_core_of = MRS
+		add_core_of = DGC
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+state={
+	id=5819
+	name="STATE_5819"
+	provinces={
+		16079 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = OKH
+		victory_points = {
+			16079 25 
+		}
+		
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

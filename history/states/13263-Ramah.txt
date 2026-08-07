@@ -1,0 +1,19 @@
+state={
+	id=13263
+	name="STATE_13263"
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		add_core_of = NMX
+		add_core_of = NVJ
+	}
+
+	provinces={
+		13431
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

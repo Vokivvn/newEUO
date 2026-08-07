@@ -1,0 +1,29 @@
+state={
+	id=695
+	name="STATE_695"
+	manpower = 76299
+	
+	state_category = small_island
+
+	history={
+		owner = CRC
+		add_core_of = ARU
+		buildings = {
+
+			153 = {
+
+			}
+			153 = {
+
+			}
+		}
+		victory_points = {
+			153 1 
+		}
+	}
+
+	provinces={
+		153 
+	}
+	local_supplies=0.0 
+}

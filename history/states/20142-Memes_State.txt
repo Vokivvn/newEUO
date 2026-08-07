@@ -1,0 +1,17 @@
+state={
+	id=20142
+	name="STATE_20142"
+	provinces={
+		4681
+	}
+	history={
+		owner = JOR
+		add_core_of = KJR
+		add_core_of = JOR
+		add_claim_by = OML
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

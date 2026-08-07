@@ -1,0 +1,18 @@
+
+state = {
+	id = 14024
+	name = "STATE_14024"
+	
+		history = {
+			owner = POR
+			add_core_of = POR
+		}
+		
+		provinces = {
+			9765
+		}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

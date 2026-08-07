@@ -1,0 +1,18 @@
+state={
+	id=5489
+	name="STATE_5489"
+	provinces={
+		15900 
+	}
+	history = {
+		owner = WES
+		add_core_of = RDO
+		add_core_of = MOR
+		add_core_of = MRT
+		add_core_of = WES
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

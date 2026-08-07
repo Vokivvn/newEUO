@@ -1,0 +1,19 @@
+state={
+	id=5129
+	name="STATE_5129"
+	provinces={
+		678 
+	}
+	history={
+		owner = FRA
+		add_claim_by = GER
+		add_core_of = FRA
+		add_core_of = ALC
+		add_core_of = HGM
+
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

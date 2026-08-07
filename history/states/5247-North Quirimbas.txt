@@ -1,0 +1,15 @@
+state={
+	id=5247
+	name="STATE_5247"
+	provinces={
+		15801 
+	}
+	history = {
+		owner = MZB
+		add_core_of = MZB
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

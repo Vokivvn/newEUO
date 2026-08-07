@@ -1,0 +1,22 @@
+state={
+	id=3332
+	name="STATE_3332"
+	provinces={
+		14416
+	}
+	
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = DUB
+		add_core_of = DUB
+		add_core_of = UAE
+		victory_points = {
+			14416 5
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

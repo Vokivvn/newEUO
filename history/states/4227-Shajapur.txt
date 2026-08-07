@@ -1,0 +1,20 @@
+state={
+	id=4227
+	name="STATE_4227"
+	provinces={
+		14967
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = GWA
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = MDY
+		add_core_of = GWA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

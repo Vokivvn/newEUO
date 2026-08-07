@@ -1,0 +1,25 @@
+
+state={
+	id=3490
+	name="STATE_3490"
+	
+	provinces={
+		6600
+	}
+
+	history={
+		owner = ROM
+		add_core_of = MOL
+        add_core_of = MLV
+		add_core_of = ROM
+		add_claim_by = UKR
+		victory_points = {
+			6600 5 
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

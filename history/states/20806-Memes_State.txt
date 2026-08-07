@@ -1,0 +1,25 @@
+state={
+	id=20806
+	name="STATE_20806"
+	provinces={
+		16198 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = TIB
+		add_claim_by = PAK
+		add_claim_by = TUG
+		add_core_of = KAS
+		add_core_of = LAD
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_claim_by = UYG
+		add_claim_by = TIB
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

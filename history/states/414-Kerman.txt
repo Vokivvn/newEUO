@@ -1,0 +1,22 @@
+
+state={
+	id=414
+	name="STATE_414"
+	history={
+		owner = PER
+		victory_points = {
+			10913 1 
+		}
+		add_core_of = PER
+		add_core_of = KRM
+
+	}
+
+	provinces={
+		10913
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

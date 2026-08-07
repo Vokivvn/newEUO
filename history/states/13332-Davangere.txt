@@ -1,0 +1,24 @@
+state={
+	id=13332
+	name="STATE_13332"
+
+	provinces={
+		14932
+	}
+
+	history={
+		owner = MYS
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = MYS
+		add_core_of = KRN
+		
+		victory_points = {
+			14932 5
+		}
+	}
+	
+	state_category = rural
+	manpower = 10
+	local_supplies=0.0 
+}

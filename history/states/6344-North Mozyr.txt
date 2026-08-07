@@ -1,0 +1,22 @@
+
+state={
+	id=6344
+	name="STATE_6344"
+	
+	provinces={
+		3293 
+	}
+	
+	history={
+		owner = BLR
+		add_core_of = SOV
+		add_core_of = BLR
+		add_core_of = MZY
+		add_core_of = UA2
+	}
+ 
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

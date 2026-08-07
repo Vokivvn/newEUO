@@ -1,0 +1,16 @@
+state={
+	id=19732
+	name="STATE_19732"
+	history={
+		owner = SCM
+		add_core_of = SCM
+		add_core_of = CMR
+	}
+	provinces={
+		3173
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

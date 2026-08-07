@@ -1,0 +1,26 @@
+
+state={
+	id=228
+	name="STATE_228"
+
+	history={
+		owner = UKR
+		add_core_of = SOV
+		add_core_of = NOV
+		add_core_of = UKR
+		add_core_of = GLD
+		add_core_of = LUH
+		add_claim_by = UA2
+		add_claim_by = LPR
+		victory_points = {
+			6519 5
+		}
+	}
+	provinces={
+		6519
+	}
+	manpower = 1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

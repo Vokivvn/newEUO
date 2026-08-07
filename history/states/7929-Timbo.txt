@@ -1,0 +1,15 @@
+state={
+	id=7929
+	name="STATE_7929"
+	provinces={
+		17716 
+	}
+	history={
+		owner = GNA
+		add_core_of = GNA
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

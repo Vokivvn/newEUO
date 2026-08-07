@@ -1,0 +1,24 @@
+
+state={
+	id=2907
+	name="STATE_2907"
+
+	history={
+		owner = SPR
+		add_core_of = SPR
+		add_core_of = ARA
+		add_core_of = SP2
+		victory_points = {
+			9812 1 
+		}
+
+	}
+
+	provinces={
+		9812 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=6467
+	name="STATE_6467"
+	provinces={
+		16745 
+	}
+	history={
+	    owner = KTK
+        add_core_of = INS
+		add_core_of = IDS
+		add_core_of = BEO
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

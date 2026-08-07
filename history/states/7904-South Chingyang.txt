@@ -1,0 +1,20 @@
+
+state={
+	id=7904
+	name="STATE_7904"
+
+	history = {
+		owner = KNM
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = KNM
+	}
+
+	provinces={
+		1647 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=13010
+	name="STATE_13010"
+
+	history={
+		owner = INS
+		add_core_of = INS
+		add_core_of = IDS
+		add_core_of = CJV
+		add_core_of = JAV
+
+	}
+
+	provinces={
+		1413 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

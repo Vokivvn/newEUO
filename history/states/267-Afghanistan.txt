@@ -1,0 +1,21 @@
+
+state={
+	id=267
+	name="STATE_267"
+
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = HAZ
+		add_core_of = KBU
+
+	}
+
+	provinces={
+		7916 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

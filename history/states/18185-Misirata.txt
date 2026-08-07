@@ -1,0 +1,22 @@
+state={
+	id=18185
+	name="STATE_18185"
+	
+	history={
+	    owner = LBA
+        add_core_of = LBA
+		add_core_of = TRP
+		
+		victory_points = {
+			8899 25 
+		}
+    }	
+
+	provinces={
+		8899
+	}
+	local_supplies=0.0
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

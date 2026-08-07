@@ -1,0 +1,17 @@
+state={
+	id=16411
+	name="STATE_16411"
+	provinces={
+		18981
+	}
+	history={
+	    owner = JAP
+        add_core_of = JAP
+        add_core_of = ROJ
+		add_core_of = YGC
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

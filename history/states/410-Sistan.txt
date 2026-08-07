@@ -1,0 +1,19 @@
+
+state={
+	id=410
+	name="STATE_410"
+	manpower = 341053
+	
+	state_category = rural
+
+	history={
+		owner = PER
+		add_core_of = PER
+		add_claim_by = BLO
+	}
+
+	provinces={
+		13082 
+	}
+	local_supplies=0.0 
+}

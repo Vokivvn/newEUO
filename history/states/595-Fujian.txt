@@ -1,0 +1,24 @@
+
+state={
+	id=595
+	name="STATE_595"
+
+	provinces={
+		10042 
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = FUK
+		victory_points = {
+			10042 5
+		}
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

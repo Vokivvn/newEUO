@@ -1,0 +1,26 @@
+state=
+{
+	id=648
+	name="STATE_648"
+	state_category = tiny_island
+	manpower=1
+	history=
+	{
+		owner = JAP
+        add_core_of = ROJ
+        add_core_of = JAP
+        add_core_of = RYU
+		buildings = {
+
+
+			13026 = {
+
+			}
+		}
+
+	}
+	provinces=
+	{
+13026 	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=9651
+	name="STATE_9651"
+	provinces={
+		18887 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = MAS
+		add_core_of = NEG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+state={
+	id=6306
+	name="STATE_6306"
+	provinces={
+		15621 
+	}
+	manpower=1
+	history={
+		owner = KYM
+		add_core_of = KYM
+		add_core_of = IND
+		add_core_of = MEG
+		add_core_of = ASM
+		add_core_of = KSS
+		add_claim_by = RAJ
+	}
+ 
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

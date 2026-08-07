@@ -1,0 +1,19 @@
+state={
+	id=5800
+	name="STATE_5800"
+	provinces={
+		16096 
+	}
+	history={
+		owner = USA
+		add_core_of = OKH
+		add_core_of = USA
+		add_core_of = INT
+		add_core_of = MDC
+		
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

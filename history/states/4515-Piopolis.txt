@@ -1,0 +1,18 @@
+state={
+	id=4515
+	name="STATE_4515"
+	provinces={
+		15280 
+	}
+	history={
+		owner = CAN 
+		add_core_of = CAN
+		add_core_of = QUE
+		add_claim_by = MNE
+		
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

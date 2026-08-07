@@ -1,0 +1,17 @@
+state={
+	id=9088
+	name="STATE_9088"
+	provinces={
+		18327 
+	}
+	history={
+		owner = FEA
+		add_core_of = FEA
+		add_core_of = CAR
+		add_core_of = CA8
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

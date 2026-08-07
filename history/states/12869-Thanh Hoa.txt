@@ -1,0 +1,22 @@
+
+state={
+	id=12869
+	name="STATE_12869"
+
+	history={
+		owner = ANN
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = NVI
+		add_core_of = ANN
+
+	}
+
+	provinces={
+		11936 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

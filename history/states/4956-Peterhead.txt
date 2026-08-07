@@ -1,0 +1,18 @@
+state={
+	id=4956
+	name="STATE_4956"
+	provinces={
+		200 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = SCO
+		add_core_of = AVN
+		
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

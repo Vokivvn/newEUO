@@ -1,0 +1,23 @@
+state={
+	id=711
+	name="STATE_711"
+	manpower=1
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = STR
+		add_core_of = CTM
+		buildings = {
+
+			13005 = {
+
+			}
+		}
+	}
+	
+	provinces={
+		13005 
+	}
+	local_supplies=0.0 
+}

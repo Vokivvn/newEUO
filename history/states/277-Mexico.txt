@@ -1,0 +1,22 @@
+
+state={
+	id=277
+	name="STATE_277"
+	manpower = 3424403
+
+	provinces={
+		1965
+	}
+	
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = MXC
+		victory_points = {
+			1965 25 
+		}
+	}
+	
+	state_category = city
+	local_supplies=0.0 
+}

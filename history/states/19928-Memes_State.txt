@@ -1,0 +1,19 @@
+state={
+	id=19928
+	name="STATE_19928"
+	history={
+	    owner = YUG
+        add_core_of = YUG
+        add_core_of = SER
+        add_core_of = MAC
+		add_core_of = BUL
+		
+	}
+	provinces={
+		11296
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

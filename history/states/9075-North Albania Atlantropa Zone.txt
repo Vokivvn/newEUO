@@ -1,0 +1,17 @@
+state={
+	id=9075
+	name="STATE_9075"
+	provinces={
+		18355 
+	}
+	history={
+	    owner = SAF
+        add_core_of = SAF
+		
+		add_core_of = CAP
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

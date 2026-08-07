@@ -1,0 +1,23 @@
+state={
+	id=727
+	name="STATE_727"
+	manpower=1
+	state_category = small_island
+
+	history={
+		owner = HAW
+		add_core_of = HAW
+		add_core_of = USA
+		buildings = {
+
+			13048 = {
+
+			}
+		}
+	}
+	
+	provinces={
+		13048
+	}
+	local_supplies=0.0 
+}

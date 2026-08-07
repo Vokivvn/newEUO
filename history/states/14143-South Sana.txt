@@ -1,0 +1,17 @@
+state={
+	id=14143
+	name="STATE_14143"
+	
+	history={
+		owner = YEM
+		add_core_of = YEM
+		add_core_of = YM1
+	}
+	provinces={
+		17202
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

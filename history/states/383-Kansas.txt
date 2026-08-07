@@ -1,0 +1,23 @@
+
+state={
+	id=383
+	name="STATE_383"
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = KAN
+		add_core_of = GMA
+		victory_points = {
+			1352 1 
+		}
+
+	}
+
+	provinces={
+		1352
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

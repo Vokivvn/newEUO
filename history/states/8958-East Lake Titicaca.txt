@@ -1,0 +1,15 @@
+state={
+	id=8958
+	name="STATE_8958"
+	provinces={
+		13174 
+	}
+	history={
+		owner = QAT
+		add_core_of = QAT
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

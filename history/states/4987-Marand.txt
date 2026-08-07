@@ -1,0 +1,17 @@
+state={
+	id=4987
+	name="STATE_4987"
+	provinces={
+		12793 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+        add_core_of = SAZ
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

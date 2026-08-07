@@ -1,0 +1,23 @@
+
+state={
+	id=640
+	name="STATE_640"
+
+	history={
+		owner = BRM
+		add_core_of = BRM
+		
+		victory_points = {
+			1492 30 
+		}
+
+	}
+
+	provinces={
+		1492
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

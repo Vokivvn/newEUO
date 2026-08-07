@@ -1,0 +1,19 @@
+state={
+	id=2351
+	name="STATE_2351"
+	manpower = 7198
+
+	state_category = rural
+
+
+	history={
+		owner = NZL
+		add_core_of = NZL
+		add_core_of = SNZ
+		
+	}
+	provinces={
+		13839
+	}
+	local_supplies=0.0 
+}

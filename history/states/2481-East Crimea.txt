@@ -1,0 +1,20 @@
+state={
+	id=2481
+	name="STATE_2481"
+	provinces={
+		9680
+	}
+	history={
+		owner = CRM
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = CRM
+		add_core_of = GLD
+		add_claim_by = UKR
+		
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

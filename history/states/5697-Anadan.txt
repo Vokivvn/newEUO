@@ -1,0 +1,19 @@
+state={
+	id=5697
+	name="STATE_5697"
+	provinces={
+		16046 
+	}
+	history={
+	    owner = SYR
+        add_core_of = SYR
+        add_core_of = PAO
+        add_core_of = WTC
+		add_core_of = KLS
+		add_core_of = SR2
+    }
+	manpower = 1000
+	state_category = small_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

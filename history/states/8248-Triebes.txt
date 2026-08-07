@@ -1,0 +1,20 @@
+state={
+	id=8248
+	name="STATE_8248"
+	provinces={
+		17979 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+        add_core_of = DDR
+		add_core_of = THU
+		add_core_of = BGM
+		add_core_of = RGR
+		add_core_of = RSS
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

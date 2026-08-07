@@ -1,0 +1,20 @@
+state={
+	id=20528
+	name="STATE_20528"
+	provinces={
+		11180
+	}
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = KJS
+		add_core_of = WBK
+		add_claim_by = ISR
+		add_claim_by = SMO
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

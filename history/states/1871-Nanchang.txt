@@ -1,0 +1,21 @@
+
+state={
+	id=1871
+	name="STATE_1871"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = KNG
+
+	}
+
+	provinces={
+		7653 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

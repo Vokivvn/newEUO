@@ -1,0 +1,23 @@
+state={
+	id=723
+	name="STATE_723"
+	manpower = 547198
+
+	state_category = rural
+
+
+	history={
+		owner = NZL
+		victory_points = {
+			8204 1
+		}
+
+		add_core_of = NZL
+		add_core_of = SNZ
+		
+	}
+	provinces={
+		8204 
+	}
+	local_supplies=0.0 
+}

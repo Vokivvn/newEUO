@@ -1,0 +1,17 @@
+state={
+	id=13312
+	name="STATE_13312"
+	
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = HRT
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		13754
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

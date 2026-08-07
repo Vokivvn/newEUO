@@ -1,0 +1,17 @@
+state={
+	id=9688
+	name="STATE_9688"
+	provinces={
+		18924 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = NVA	
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=554
+	name="STATE_554"
+
+	provinces={
+		4111
+	}
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		victory_points = {
+			4111 1
+		}
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

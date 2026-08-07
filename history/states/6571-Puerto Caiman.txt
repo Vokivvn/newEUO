@@ -1,0 +1,15 @@
+state={
+	id=6571
+	name="STATE_6571"
+	provinces={
+		16880 
+	}
+	history={
+	    owner = COL
+        add_core_of = COL
+    }	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

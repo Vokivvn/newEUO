@@ -1,0 +1,17 @@
+state={
+	id=3592
+	name="STATE_3592"
+	provinces={
+		14607 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = IVO
+		add_core_of = IVO
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

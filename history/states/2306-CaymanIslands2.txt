@@ -1,0 +1,17 @@
+state={
+	id=2306
+	name="STATE_2306"
+	manpower = 5000
+	
+	state_category = town
+
+	history={
+		owner = JAM
+		add_core_of = CYM
+		add_core_of = WIF
+		
+	}
+	
+	provinces={ 13853 }
+	local_supplies=0.0 
+}

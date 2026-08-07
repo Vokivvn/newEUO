@@ -1,0 +1,19 @@
+state={
+	id=17243
+	name="Some State"
+	provinces={
+		6044
+	}
+	
+	history = {
+		owner = NGR
+		add_core_of = NGR
+		add_core_of = GS2
+		add_core_of = AGD
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

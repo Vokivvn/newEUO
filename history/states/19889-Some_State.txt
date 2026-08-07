@@ -1,0 +1,16 @@
+state={
+	id=19889
+	name="STATE_19889"
+	history={
+		owner = BRM
+		add_core_of = BRM
+		add_core_of = S61
+	}
+	provinces={
+		3053
+	}
+	manpower=11500
+	buildings_max_level_factor=1.000
+    state_category = pastoral
+	local_supplies = 0.0 
+}

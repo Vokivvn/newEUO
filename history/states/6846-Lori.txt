@@ -1,0 +1,16 @@
+state={
+	id=6846
+	name="STATE_6846"
+	provinces={
+		17263 
+	}
+	history={
+	    owner = UGA
+        add_core_of = UGA
+		
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

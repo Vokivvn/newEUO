@@ -1,0 +1,17 @@
+state={
+	id=13359
+	name="STATE_13359"
+	history={
+		owner = KOR
+		add_core_of = KOR
+		add_core_of = ROK
+
+	}
+	provinces={
+		19039
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

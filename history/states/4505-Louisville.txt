@@ -1,0 +1,18 @@
+state={
+	id=4505
+	name="STATE_4505"
+	provinces={
+		6696
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = KNT
+		add_claim_by = CSA
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

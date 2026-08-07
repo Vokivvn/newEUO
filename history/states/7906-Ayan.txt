@@ -1,0 +1,20 @@
+state={
+	id=7906
+	name="STATE_7906"
+	provinces={
+		10598 
+	}
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = DVR
+		add_core_of = SBR
+        add_core_of = MGD
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

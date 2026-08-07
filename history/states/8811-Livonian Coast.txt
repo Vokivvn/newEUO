@@ -1,0 +1,18 @@
+state={
+	id=8811
+	name="STATE_8811"
+	provinces={
+		2107 
+	}
+	history={
+		owner = MON
+		add_core_of = MON
+		add_core_of = TAN
+		add_core_of = M70
+		add_claim_by = SOV
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

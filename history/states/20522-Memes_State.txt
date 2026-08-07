@@ -1,0 +1,24 @@
+
+state={
+	id=20522
+	name="STATE_20522"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = WPR
+		add_core_of = PWP
+		add_core_of = KSH
+		add_core_of = GGM
+		add_claim_by = POL
+	}
+
+	provinces={
+		10551 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

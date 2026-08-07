@@ -1,0 +1,17 @@
+state={
+	id=2821
+	name="STATE_2821"
+	history={
+		
+		owner = ALA 
+		add_core_of = USA
+		add_core_of = ALA
+	}
+	provinces={
+		14231
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

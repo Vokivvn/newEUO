@@ -1,0 +1,19 @@
+state={
+	id=20463
+	name="STATE_20463"
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = TNS
+		add_core_of = CSA
+		add_core_of = SCT
+	}
+
+	provinces={
+		1380
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

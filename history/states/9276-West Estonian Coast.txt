@@ -1,0 +1,16 @@
+state={
+	id=9276
+	name="STATE_9276"
+	provinces={
+		18559 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = SAZ
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

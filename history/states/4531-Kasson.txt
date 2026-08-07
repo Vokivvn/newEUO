@@ -1,0 +1,18 @@
+state={
+	id=4531
+	name="STATE_4531"
+	provinces={
+		15305 
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = MNS
+		add_core_of = GMA
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

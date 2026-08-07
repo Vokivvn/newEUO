@@ -1,0 +1,22 @@
+
+state={
+	id=374
+	name="STATE_374"
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = OKH
+		add_core_of = CYA
+		victory_points = {
+			1806 1 
+		}
+	}
+
+	provinces={
+		10798 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

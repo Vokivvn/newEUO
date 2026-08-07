@@ -1,0 +1,18 @@
+state={
+	id=8629
+	name="STATE_8629"
+	provinces={
+		18262 
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		add_core_of = PUN
+		add_core_of = MAJ
+		add_core_of = AQ2
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

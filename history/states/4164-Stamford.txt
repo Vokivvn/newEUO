@@ -1,0 +1,20 @@
+state={
+	id=4164
+	name="STATE_4164"
+	provinces={
+		14906 
+	}
+	history={
+		owner = USA 
+		add_core_of = USA
+		add_core_of = CNC
+		add_core_of = NEG
+		victory_points = {
+			14906 3
+		}
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

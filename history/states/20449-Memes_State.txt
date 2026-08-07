@@ -1,0 +1,17 @@
+state={
+	id=20449
+	name="STATE_20449"
+	history={
+		owner = SUD
+		add_core_of = SUD
+		add_core_of = RSF
+		add_core_of = DRF
+	}
+	provinces={
+		1704
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

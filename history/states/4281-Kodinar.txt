@@ -1,0 +1,21 @@
+state={
+	id=4281
+	name="STATE_4281"
+	provinces={
+		14944 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = BDA
+		add_core_of = BDA
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = GUJ
+		add_core_of = DND
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

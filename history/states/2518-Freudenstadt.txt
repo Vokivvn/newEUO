@@ -1,0 +1,22 @@
+state={
+	id=2518
+	name="STATE_2518"
+	provinces={
+		3692
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = WUR
+		add_core_of = WGR
+		add_core_of = BDW
+		add_core_of = BGM
+		set_demilitarized_zone = yes
+		
+
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=4846
+	name="STATE_4846"
+	provinces={
+		3255 
+	}
+	history={
+		owner = LAT
+		add_core_of = LAT
+		add_core_of = COU
+        add_core_of = LV2
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

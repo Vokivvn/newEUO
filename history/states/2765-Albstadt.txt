@@ -1,0 +1,22 @@
+state={
+	id=2765
+	name="STATE_2765"
+	history={
+		
+		owner = GER 
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = HOH
+		add_core_of = WGR
+		add_core_of = BDW
+		add_core_of = HHS
+		add_core_of = BGM
+	}
+	provinces={
+		14198 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=12903
+	name="STATE_12903"
+	
+	history = {
+	    owner = CAM
+        add_core_of = INC
+        add_core_of = CAM
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		7319
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

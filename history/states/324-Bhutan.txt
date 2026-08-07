@@ -1,0 +1,23 @@
+
+state={
+	id=324
+	name="STATE_324"
+	manpower = 450000
+	
+	
+	state_category = town
+	
+
+	history={
+		owner = BHU
+		victory_points = {
+			8010 3 
+		}
+		add_core_of = BHU
+	}
+
+	provinces={
+		8010 
+	}
+	local_supplies=0.0 
+}

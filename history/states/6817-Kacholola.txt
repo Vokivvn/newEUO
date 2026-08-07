@@ -1,0 +1,17 @@
+state={
+	id=6817
+	name="STATE_6817"
+	provinces={
+		17224 
+	}
+	history={
+	    owner = ZAM
+        add_core_of = ZAM
+		add_core_of = NED
+		
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

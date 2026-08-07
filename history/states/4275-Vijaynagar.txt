@@ -1,0 +1,20 @@
+state={
+	id=4275
+	name="STATE_4275"
+	provinces={
+		14998 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = VIJ
+		add_core_of = VIJ
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = GUJ
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

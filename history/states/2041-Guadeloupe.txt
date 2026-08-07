@@ -1,0 +1,27 @@
+state={
+	id=2041
+	name="STATE_2041"
+	manpower = 244290
+
+	state_category = rural
+
+	history={
+		owner = GDL
+		add_core_of = GDL
+		buildings = {
+
+
+			9377 = {
+
+			}
+		}
+		victory_points = {
+			9377 1 
+		}
+	}
+	
+	provinces={
+		9377 
+	}
+	local_supplies=0.0 
+}

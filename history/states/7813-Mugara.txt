@@ -1,0 +1,19 @@
+state={
+	id=7813
+	name="STATE_7813"
+	provinces={
+		17606 
+	}
+	history={
+		owner = RUU
+		add_core_of = RUU
+		add_core_of = BRD
+		victory_points = {
+			17606 5
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+state={
+	id=20414
+	name="STATE_20414"
+
+	history={
+		owner = KTW
+		add_core_of = KTW
+		add_core_of = BRM
+		add_core_of = SHA
+		add_core_of = KYY
+		add_core_of = S62
+	}
+
+	provinces={
+		10537
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.0 
+}

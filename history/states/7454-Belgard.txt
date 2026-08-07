@@ -1,0 +1,21 @@
+state={
+	id=7454
+	name="STATE_7454"
+	provinces={
+		17163 
+	}
+	history={
+	    owner = GER
+        add_core_of = GER
+		add_core_of = PRE
+		add_core_of = KSH
+		add_core_of = WPR
+		add_core_of = PWP
+		add_claim_by = POL
+		add_core_of = GGM
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

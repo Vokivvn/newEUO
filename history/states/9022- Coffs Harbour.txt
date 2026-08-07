@@ -1,0 +1,25 @@
+
+state={
+	id=9022
+	name="STATE_9022"
+	
+	manpower = 1000
+	
+	state_category = large_city
+	
+
+	history={
+		owner = AST
+		add_core_of = AST
+		add_core_of = NSW
+		
+ 		victory_points = {
+			1611 5 
+		}
+	}
+
+	provinces={
+		1611 
+	}
+	local_supplies=0.0 
+}

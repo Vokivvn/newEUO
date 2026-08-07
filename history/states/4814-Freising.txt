@@ -1,0 +1,20 @@
+state={
+	id=4814
+	name="STATE_4814"
+	provinces={
+		9515 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = BAY
+		add_core_of = WGR
+		add_core_of = RGB
+		add_core_of = BGM
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

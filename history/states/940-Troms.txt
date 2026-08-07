@@ -1,0 +1,28 @@
+
+state={
+	id=940
+	name="STATE_940"
+
+	history={
+		owner = NOR
+		buildings = {
+
+			11050 = {
+
+
+			}
+
+		}
+		add_core_of = NOR
+		add_core_of = SAP
+		add_core_of = NR2
+	}
+
+	provinces={
+		11050
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

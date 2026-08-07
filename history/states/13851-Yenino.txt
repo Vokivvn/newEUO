@@ -1,0 +1,19 @@
+state={
+	id=13851
+	name="STATE_13851"
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = VLG
+        add_core_of = TIK
+		add_core_of = MC2
+	}
+	provinces={
+		11168
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

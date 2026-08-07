@@ -1,0 +1,23 @@
+state={
+	id=9881
+	name="STATE_9881"
+	
+	provinces={
+		19219 
+	}
+	history={
+		owner = EGY
+		add_core_of = KJR
+		add_core_of = EGY
+		add_core_of = SIN
+		add_claim_by = OML
+		victory_points = {
+			19219 3 
+		}
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

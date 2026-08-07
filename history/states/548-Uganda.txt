@@ -1,0 +1,20 @@
+
+state={
+	id=548
+	name="STATE_548"
+
+	history={
+		owner = BUG
+		add_core_of = UGA
+		add_core_of = BUG
+		
+	}
+
+	provinces={
+		3854
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

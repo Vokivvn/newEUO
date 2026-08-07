@@ -1,0 +1,21 @@
+
+state={
+	id=43
+	name="STATE_43" # Northern Hungary
+	manpower = 3750752
+	
+	state_category = large_city
+
+	history={
+		owner = HUN
+		victory_points = {
+			6716 5 
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		6716 
+	}
+	local_supplies=0.0 
+}

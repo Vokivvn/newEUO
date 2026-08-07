@@ -1,0 +1,21 @@
+	state={
+	id=13341
+	name="STATE_13341"
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		owner = TML
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = TML
+		add_core_of = KRN
+		
+	}
+
+	provinces={
+		10208
+	}
+	local_supplies=0.0 
+}

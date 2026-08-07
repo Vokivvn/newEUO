@@ -1,0 +1,23 @@
+state={
+	id=922
+	name="STATE_922"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = TEX
+		add_core_of = CSA
+		add_core_of = STX
+		victory_points = {
+			10740 25
+		}
+	}
+
+	provinces={
+		10740
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

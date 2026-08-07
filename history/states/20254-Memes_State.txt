@@ -1,0 +1,22 @@
+state={
+	id=20254
+	name="STATE_20254"
+	history={
+		owner = SYR
+		add_core_of = SYR
+		add_core_of = KUR
+        add_core_of = WTC
+        add_core_of = ASY
+		add_core_of = ISS
+		add_core_of = RJV
+		
+	}
+
+	provinces={
+		12270
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

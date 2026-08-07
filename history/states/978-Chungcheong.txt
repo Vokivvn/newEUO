@@ -1,0 +1,23 @@
+
+state={
+	id=978
+	name="STATE_978"
+
+	history={
+		owner = KOR
+		victory_points = {
+			7204 1 
+		}
+		add_core_of = KOR
+		add_core_of = ROK
+
+	}
+
+	provinces={
+		11992 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=2322
+	name="STATE_2322"
+	manpower = 2289
+	
+	state_category = small_island
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = YUC
+		add_core_of = QTR
+	}
+
+	provinces={
+		13825 
+	}
+	
+	local_supplies=0.0 
+}

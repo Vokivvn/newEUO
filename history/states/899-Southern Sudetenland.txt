@@ -1,0 +1,24 @@
+
+state={
+	id=899
+	name="STATE_899"
+
+	history={
+		owner = CZE
+		add_claim_by = GER
+		add_core_of = CZE
+		add_core_of = SDT
+		add_core_of = AUS
+		add_core_of = BOH
+		add_core_of = CZC
+		add_core_of = BGM
+	}
+
+	provinces={
+		5283 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

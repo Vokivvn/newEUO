@@ -1,0 +1,17 @@
+state={
+	id=9063
+	name="STATE_9063"
+	provinces={
+		18366 
+	}
+	history={
+		owner = NGA
+		add_core_of = NGA
+		add_core_of = IS3
+		add_core_of = SOK
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

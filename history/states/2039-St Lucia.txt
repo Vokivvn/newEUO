@@ -1,0 +1,22 @@
+state={
+	id=2039
+	name="STATE_2039"
+	manpower=1
+	state_category = small_island
+
+	history={
+		owner = BSA
+		add_core_of = BSA
+		add_core_of = STL
+		add_core_of = WIF
+		
+		victory_points = {
+			13009 1 
+		}
+	}
+	
+	provinces={
+		13009 
+	}
+	local_supplies=0.0 
+}

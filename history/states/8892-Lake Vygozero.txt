@@ -1,0 +1,18 @@
+state={
+	id=8892
+	name="STATE_8892"
+	provinces={
+		13194 
+	}
+	history={
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = AMA
+		add_core_of = E21
+		add_core_of = AMF
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

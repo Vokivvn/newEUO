@@ -1,0 +1,24 @@
+
+state={
+	id=480
+	name="STATE_480"
+
+	provinces={
+		18744
+	}
+	
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = RGA
+		add_core_of = CAU
+		victory_points = {
+			18744 5
+		}
+
+	}
+	
+	state_category = town
+	manpower = 827826
+	local_supplies=0.0 
+}

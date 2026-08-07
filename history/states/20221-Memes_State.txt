@@ -1,0 +1,20 @@
+state={
+	id=20221
+	name="STATE_20221"
+	provinces={
+		7341 
+	}
+	
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SUD
+		add_core_of = SUD
+		add_core_of = RSF
+		add_core_of = DRF
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

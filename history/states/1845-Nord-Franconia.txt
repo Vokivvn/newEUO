@@ -1,0 +1,24 @@
+state={
+	id=1845
+	name="STATE_1845"
+
+	history={
+		owner = GER
+		victory_points = {
+			11544 10 
+		}
+		add_core_of = GER
+		add_core_of = BAY
+		add_core_of = BGM
+		add_core_of = WGR
+
+	}
+
+	provinces={
+		3474 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

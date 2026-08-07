@@ -1,0 +1,19 @@
+state={
+	id=6994
+	name="STATE_6994"
+	provinces={
+		901 
+	}
+	history={
+	    owner = SYR
+        add_core_of = SYR
+        add_core_of = ASY
+        add_core_of = KUR
+		add_core_of = ISS
+	add_core_of = RJV
+    }	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

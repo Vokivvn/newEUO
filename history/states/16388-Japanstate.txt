@@ -1,0 +1,17 @@
+state={
+	id=16388
+	name="STATE_16388"
+	provinces={
+		18962
+	}
+	history={
+	    owner = JAP
+        add_core_of = JAP
+        add_core_of = ROJ
+		add_core_of = GSH
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

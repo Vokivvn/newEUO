@@ -1,0 +1,16 @@
+state={
+	id=5619
+	name="STATE_5619"
+	provinces={
+		15962 
+	}
+	history={
+	
+	    owner = SAU
+		add_core_of = SAU
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.0 
+}

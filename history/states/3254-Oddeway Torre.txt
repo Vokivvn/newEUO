@@ -1,0 +1,21 @@
+state={
+	id=3254
+	name="STATE_3254"
+	provinces={
+		14332 
+	}
+	
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = TVC
+		add_core_of = TVC
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = KER
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

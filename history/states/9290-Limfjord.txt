@@ -1,0 +1,18 @@
+state={
+	id=9290
+	name="STATE_9290"
+	provinces={
+		18557 
+	}
+	history={
+	    owner = MLI
+		add_core_of = MLI
+		add_core_of = SD0
+		add_core_of = ADG
+	add_core_of = AZW
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+state={
+	id=7355
+	name="STATE_7355"
+	provinces={
+		17085 
+	}
+	history={
+	    	owner = YUG
+        	add_core_of = YUG
+        	add_core_of = BOS
+		add_core_of = ILY
+        	add_core_of = SRP
+		victory_points = {
+			17085 5 
+		}
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

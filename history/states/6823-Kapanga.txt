@@ -1,0 +1,16 @@
+state={
+	id=6823
+	name="STATE_6823"
+	provinces={
+		17238 
+	}
+	history={
+	    owner = COG
+        add_core_of = COG
+        add_core_of = KTG
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

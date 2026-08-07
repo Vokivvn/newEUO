@@ -1,0 +1,22 @@
+state={
+	id=534
+	name="STATE_534"
+
+	history={
+		owner = JAP
+		add_core_of = ROJ
+		add_core_of = JAP
+		add_core_of = NII
+		victory_points = {
+			1117 10 
+		}
+
+	}
+
+	provinces={
+		1117 
+	}
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

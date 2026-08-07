@@ -1,0 +1,17 @@
+state={
+	id=4167
+	name="STATE_4167"
+	provinces={
+		14903
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = NWY
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

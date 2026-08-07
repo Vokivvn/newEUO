@@ -1,0 +1,24 @@
+
+state={
+	id=66
+	name="STATE_66"
+	history={
+		owner = GER
+		victory_points = {
+			9570 10 
+		}
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = SIL
+		add_claim_by = POL	
+		add_core_of = GGM
+	}
+
+	provinces={
+		6595 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

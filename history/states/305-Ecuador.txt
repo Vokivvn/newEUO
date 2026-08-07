@@ -1,0 +1,24 @@
+
+state={
+	id=305
+	name="STATE_305"
+	history={
+		owner = ECU
+		add_core_of = ECU
+		victory_points = {
+			12798 5 
+		}
+		victory_points = {
+			8252 1 
+		}
+
+	}
+
+	provinces={
+		8252
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

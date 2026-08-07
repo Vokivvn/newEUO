@@ -1,0 +1,17 @@
+state={
+	id=3094
+	name="STATE_3094"
+	history={
+		owner = ASM
+		add_core_of = RAJ 
+		add_core_of = PAK
+		add_core_of = BAN	
+	}
+	provinces={
+		7634
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+state={
+	id=9304
+	name="STATE_9304"
+	provinces={
+		18551 
+	}
+	history={
+		owner = BIH
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = BIH
+		add_core_of = JHR
+        victory_points = {
+			18551 5
+		}
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

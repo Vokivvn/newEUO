@@ -1,0 +1,17 @@
+state={
+	id=4995
+	name="STATE_4995"
+	provinces={
+		10771 
+	}
+	history={
+		owner = MLI
+		add_core_of = MRT
+		add_core_of = SD0
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

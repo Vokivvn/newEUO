@@ -1,0 +1,16 @@
+state={
+	id=9697
+	name="STATE_9697"
+	provinces={
+		18929 
+	}
+	history={
+	    owner = ETH
+        add_core_of = ETH
+		add_core_of = AFA
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

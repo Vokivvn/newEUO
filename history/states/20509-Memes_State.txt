@@ -1,0 +1,17 @@
+state={
+	id=20509
+	name="STATE_20509"
+	provinces={
+		19845 
+	}
+	history={
+		owner = AST
+		add_core_of = AST
+		add_core_of = NSW
+		add_core_of = ATN
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

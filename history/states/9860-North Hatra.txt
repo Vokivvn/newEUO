@@ -1,0 +1,19 @@
+state={
+	id=9860
+	name="STATE_9860"
+	provinces={
+		19194 
+	}
+	history={
+	    owner = SGR
+        add_core_of = SGR
+        add_core_of = ALG
+	add_core_of = SD0
+	add_core_of = KLO
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}
+

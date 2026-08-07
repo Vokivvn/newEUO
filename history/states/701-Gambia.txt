@@ -1,0 +1,17 @@
+state={
+	id=701
+	name="STATE_701"
+	manpower = 199520
+	
+	state_category = enclave
+	history={
+		owner = GAM
+		add_core_of = GAM
+		
+	}
+	
+	provinces={
+		4989 
+	}
+	local_supplies=0.0 
+}

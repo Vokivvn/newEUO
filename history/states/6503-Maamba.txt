@@ -1,0 +1,17 @@
+state={
+	id=6503
+	name="STATE_6503"
+	provinces={
+		16684 
+	}
+	history={
+	    owner = ZAM
+        add_core_of = ZAM
+		add_core_of = NWD
+		
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

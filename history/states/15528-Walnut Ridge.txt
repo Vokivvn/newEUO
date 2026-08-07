@@ -1,0 +1,18 @@
+
+state={
+	id=15528
+	name="STATE_15528"
+	provinces={
+		7586
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = CSA
+		add_core_of = AKS
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=4316
+	name="STATE_4316"
+	provinces={
+		7565 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = BAN 
+		add_core_of = BAN
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = WBG
+        victory_points = {
+			7565 5
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

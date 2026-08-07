@@ -1,0 +1,17 @@
+state={
+	id=2910
+	name="STATE_2910"
+	history={
+		
+		owner = SPR 
+		add_core_of = SPR
+		add_core_of = VAL
+	}
+	provinces={
+		3799 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

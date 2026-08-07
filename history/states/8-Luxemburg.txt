@@ -1,0 +1,20 @@
+
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		6583 	
+	}
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		add_claim_by = GER
+		add_core_of = HGM
+		victory_points = { 6583 5 }
+	}
+	
+	manpower = 294748
+	state_category = town
+	local_supplies=0.0 
+}

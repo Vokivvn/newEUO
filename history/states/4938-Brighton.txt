@@ -1,0 +1,23 @@
+state={
+	id=4938
+	name="STATE_4938"
+	provinces={
+		11446 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = EGL
+		add_core_of = SSX
+		add_core_of = WSX
+		victory_points = {
+			11446 5
+		}
+		add_core_of = AVN
+		
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

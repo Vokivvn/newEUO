@@ -1,0 +1,33 @@
+
+state={
+	id=316
+	name="STATE_316"
+	manpower = 503856
+	
+	state_category = town
+	
+
+	history={
+		owner = COS
+		buildings = {
+
+
+
+
+			13087 = {
+
+			}
+		}
+		add_core_of = COS
+		 add_core_of = FCA
+		victory_points = {
+			13087 3
+		}
+
+	}
+
+	provinces={
+		13087 
+	}
+	local_supplies=0.0 
+}

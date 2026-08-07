@@ -1,0 +1,18 @@
+state={
+	id=9797
+	name="STATE_9797"
+	provinces={
+		18937 
+	}
+	history={
+	    owner = TNA
+        add_core_of = TNA
+        add_core_of = KEN
+        add_core_of = SUD
+		
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

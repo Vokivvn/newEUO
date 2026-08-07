@@ -1,0 +1,19 @@
+state={
+	id=18649
+	name="STATE_18649"
+	state_category=pastoral
+	history={
+		owner = SHA
+		add_core_of = BRM
+		add_core_of = SHA
+		add_core_of = S15
+		add_core_of = S59
+	}
+	
+	provinces={
+		20505
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
+	

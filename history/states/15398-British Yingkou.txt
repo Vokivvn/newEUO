@@ -1,0 +1,17 @@
+state={
+	id=15398
+	name="STATE_15398"
+	provinces={
+		2861
+	}
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

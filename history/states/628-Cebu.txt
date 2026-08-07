@@ -1,0 +1,22 @@
+state=
+{
+	id=628
+	name="STATE_628"
+	manpower = 1
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = PHI
+		victory_points = {
+			12118 1 
+		}
+		add_core_of = PHI
+	}
+
+	provinces={
+		12118
+	}
+	local_supplies=0.0 
+}

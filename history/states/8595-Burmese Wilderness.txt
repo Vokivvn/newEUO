@@ -1,0 +1,18 @@
+state={
+	id=8595
+	name="STATE_8595"
+	state_category=pastoral
+	history={
+		owner = BRM
+		add_core_of = BRM
+		add_core_of = KCH
+		
+	}
+	
+	provinces={
+		20514
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
+	

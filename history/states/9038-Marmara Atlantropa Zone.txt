@@ -1,0 +1,17 @@
+state={
+	id=9038
+	name="STATE_9038"
+	provinces={
+		18349 
+	}
+	history={
+		owner = SHA
+		add_core_of = BRM
+		add_core_of = SHA
+		add_core_of = S47
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

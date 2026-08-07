@@ -1,0 +1,16 @@
+state={
+	id=9053
+	name="STATE_9053"
+	provinces={
+		18373
+	}
+	history={
+		owner = NGA
+		add_core_of = NGA
+		add_core_of = IS3
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

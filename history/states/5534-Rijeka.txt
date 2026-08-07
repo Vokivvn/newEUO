@@ -1,0 +1,21 @@
+state={
+	id=5534
+	name="STATE_5534"
+	
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = SVA
+		add_core_of = FIU
+		add_core_of = ILY
+	add_claim_by = ITA
+	}
+	provinces={
+		15955
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

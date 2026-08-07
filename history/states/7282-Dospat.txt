@@ -1,0 +1,16 @@
+state={
+	id=7282
+	name="STATE_7282"
+	provinces={
+		17045 
+	}
+	history={
+	    owner = BUL
+        add_core_of = BUL
+		add_core_of = ERU
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=14848
+	name="STATE_14848"
+	provinces={
+		1259
+	}
+	history={
+		owner = H03
+		add_core_of = H03
+		add_claim_by = RAJ 
+		add_core_of = CDG
+		add_core_of = IND
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

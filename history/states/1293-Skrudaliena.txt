@@ -1,0 +1,23 @@
+state={
+	id=1293
+	name="STATE_1293"
+	
+	history={
+		owner = LAT
+		victory_points = {
+			11358 1 
+		}
+		add_core_of = LAT
+		add_claim_by = BLR
+		add_core_of = COU
+        add_core_of = LV2
+	}
+	
+	provinces={
+		13390 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

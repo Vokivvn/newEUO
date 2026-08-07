@@ -1,0 +1,20 @@
+state={
+	id=4254
+	name="STATE_4254"
+	provinces={
+		10816 
+	}
+
+	history={
+		owner = RJG
+		add_core_of = RJG
+		add_core_of = MDP
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = MDY
+	}
+	local_supplies=0.0 
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	manpower = 1
+}

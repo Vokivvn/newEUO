@@ -1,0 +1,19 @@
+state={
+	id=17221
+	name="Some State"
+	provinces={
+		5990
+	}
+	
+	history = {
+	    owner = MLI
+		add_core_of = MLI
+		add_core_of = AZW
+		add_core_of = SD0
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

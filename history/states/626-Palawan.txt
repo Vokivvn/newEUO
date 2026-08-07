@@ -1,0 +1,19 @@
+state=
+{
+	id=626
+	name="STATE_626"
+	manpower = 83041
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = PHI
+		add_core_of = PHI
+		add_core_of = PT4
+	}
+	provinces={
+		10145 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+state={
+	id=6173
+	name="STATE_6173"
+	provinces={
+		16295 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = BLZ
+		add_core_of = BLZ
+		add_core_of = GUA 
+	    add_core_of = FCA
+		
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

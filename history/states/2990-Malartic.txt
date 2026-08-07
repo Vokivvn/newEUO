@@ -1,0 +1,20 @@
+state={
+	id=2990
+	name="STATE_2990"
+	history={
+		owner = CAN 
+		add_core_of = CAN
+		add_core_of = QUE
+		
+		victory_points = {
+			1764 1
+		}
+	}
+	provinces={
+		1764 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

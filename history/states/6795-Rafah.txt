@@ -1,0 +1,17 @@
+state={
+	id=6795
+	name="STATE_6795"
+	provinces={
+		17007 
+	}
+	history={
+	    owner = EGY
+        add_core_of = EGY
+        add_core_of = SIN
+		add_claim_by = OML
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

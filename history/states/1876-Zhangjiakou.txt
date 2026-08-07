@@ -1,0 +1,20 @@
+state={
+	id=1876
+	name="STATE_1876"
+	state_category=pastoral
+	history={
+	    owner = HB2
+		add_core_of = HB2
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = CIL
+		add_core_of = SCA
+
+	}
+	provinces={
+		1137 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

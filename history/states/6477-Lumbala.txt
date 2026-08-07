@@ -1,0 +1,16 @@
+state={
+	id=6477
+	name="STATE_6477"
+	provinces={
+		16704 
+	}
+	history={
+	    owner = ANG
+        add_core_of = ANG
+	add_core_of = CKW
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+state={
+	id=6451
+	name="STATE_6451"
+	provinces={
+		16183 
+	}
+	history={
+	    owner = FEA
+		add_core_of = FEA
+        add_core_of = RCG
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

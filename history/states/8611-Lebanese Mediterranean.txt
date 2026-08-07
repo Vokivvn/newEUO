@@ -1,0 +1,16 @@
+state={
+	id=8611
+	name="STATE_8611"
+	provinces={
+		609 
+	}
+	history={
+		owner = FEA
+		add_core_of = FEA
+		add_core_of = CAR
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

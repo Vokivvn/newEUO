@@ -1,0 +1,19 @@
+state={
+	id=20598
+	name="STATE_20598"
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = BOS
+		add_core_of = ILY
+	}
+
+	provinces={
+		10161
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+state={
+	id=4129
+	name="STATE_4129"
+	provinces={
+		12516
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = GMA
+		add_core_of = ABS
+		add_core_of = NEB
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

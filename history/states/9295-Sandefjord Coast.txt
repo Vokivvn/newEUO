@@ -1,0 +1,18 @@
+state={
+	id=9295
+	name="STATE_9295"
+	provinces={
+		18563 
+	}
+	history={
+		owner = BIH
+		add_core_of = UTT
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = JHR
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

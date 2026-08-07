@@ -1,0 +1,18 @@
+state={
+	id=3848
+	name="STATE_3848"
+	provinces={
+		6179
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = FIN
+		add_core_of = FIN
+		add_core_of = NOL
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

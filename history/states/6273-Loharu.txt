@@ -1,0 +1,19 @@
+state={
+	id=6273
+	name="STATE_6273"
+	provinces={
+		16641 
+	}
+	manpower=1
+	history={
+		owner = LHR
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = LHR
+		add_core_of = HRY
+	}
+ 
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

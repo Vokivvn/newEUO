@@ -1,0 +1,25 @@
+state={
+	id=762
+	name="STATE_762"
+	history={
+		owner = UPS
+		add_core_of = UPS
+		add_claim_by = GER
+		victory_points = {
+			6464 10 
+		}
+		add_core_of = POL
+		add_core_of = PRE
+		add_core_of = SIL
+		add_core_of = NSL
+		add_core_of = GGM
+	}
+
+	provinces={
+		6464 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

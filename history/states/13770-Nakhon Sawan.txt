@@ -1,0 +1,17 @@
+state={
+	id=13770
+	name="STATE_13770"
+	history={
+		owner = SIA
+		add_core_of = SIA
+		victory_points={
+			7544 5
+		}
+	}
+	provinces={
+		7544
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

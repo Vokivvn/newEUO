@@ -1,0 +1,23 @@
+state={
+	id=702
+	name="STATE_702"
+	manpower = 150600
+	
+	state_category = small_island
+
+	history={
+		owner = CVD
+		add_core_of = CVD
+		buildings = {
+
+			13014 ={
+
+			}
+		}
+	}
+
+	provinces={
+		13014 
+	}
+	local_supplies=0.0 
+}

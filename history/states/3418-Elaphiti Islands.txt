@@ -1,0 +1,23 @@
+state={
+	id=3418
+	name="STATE_3418"
+	provinces={
+		14444 
+	}
+	
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = RAG
+		add_core_of = DLM
+		add_core_of = CRO
+		add_core_of = ILY
+	add_claim_by = ITA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

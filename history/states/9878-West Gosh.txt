@@ -1,0 +1,19 @@
+state={
+	id=9878
+	name="STATE_9878"
+
+	provinces={
+		19211 
+	}
+	history={
+		owner = TKI
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = TKI
+		add_core_of = NVI
+		add_core_of = BAC
+    }	
+	manpower=1
+	state_category=town
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1921
+	name="STATE_1921"
+	manpower = 35572
+	
+	state_category = pastoral
+	
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = ARZ
+		add_claim_by = CSA
+
+	}
+
+	provinces={
+		13427
+	}
+	local_supplies=0.0 
+}

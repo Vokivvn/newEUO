@@ -1,0 +1,17 @@
+state={
+	id=4893
+	name="STATE_4893"
+	provinces={
+		6078
+	}
+	history={
+		owner = FIN
+		add_core_of = FIN
+		add_core_of = NOL
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=9373
+	name="STATE_9373"
+	provinces={
+		2003 
+	}
+	history={
+		owner = ZAN
+		add_core_of = ZAN
+		add_core_of = TZN
+		
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

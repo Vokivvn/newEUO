@@ -1,0 +1,21 @@
+state={
+	id=2463
+	name="STATE_2463"
+	provinces={
+		14706
+	}
+	manpower=1
+	state_category = pastoral
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_claim_by = ITA
+		add_core_of = OCC
+		add_core_of = FR2
+		add_claim_by = MCO
+		add_claim_by = NC2
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

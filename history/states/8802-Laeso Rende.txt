@@ -1,0 +1,18 @@
+state={
+	id=8802
+	name="STATE_8802"
+	provinces={
+		2431 
+	}
+	history={
+		owner = TAN
+		add_core_of = TAN
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = SBR
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

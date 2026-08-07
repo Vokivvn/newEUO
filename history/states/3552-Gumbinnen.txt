@@ -1,0 +1,25 @@
+state={
+	id=3552
+	name="STATE_3552"
+	provinces={
+		3384
+	}
+	history={
+		owner = GER
+		controller = GER
+		add_core_of = GER
+		add_core_of = KON
+		add_core_of = PRE
+		add_core_of = KLR
+		add_core_of = HGM
+		add_core_of = LMI
+		victory_points = {
+			3384 1 
+		}
+
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

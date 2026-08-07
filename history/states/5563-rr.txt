@@ -1,0 +1,20 @@
+state={
+	id=5563
+	name="STATE_5563"
+	
+	history = {
+		owner = POL
+		add_core_of = POL
+		add_core_of = NOW
+		add_core_of = BLR
+		add_core_of = WR2
+        add_core_of = LV2
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		9359
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

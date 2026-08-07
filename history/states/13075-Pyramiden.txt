@@ -1,0 +1,18 @@
+state={
+	id=13075
+	name="STATE_13075"
+	
+	history = {
+		owner = RUS
+		add_core_of = SLB
+		add_claim_by = RUS
+	set_demilitarized_zone = yes
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		20353
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

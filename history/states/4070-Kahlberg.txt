@@ -1,0 +1,19 @@
+state={
+	id=4070
+	name="STATE_4070"
+	provinces={
+		14514 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = KON
+		add_core_of = HGM
+		add_claim_by = POL
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

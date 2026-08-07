@@ -1,0 +1,18 @@
+state={
+	id=15940
+	name="STATE_15940"
+	provinces={
+		4034
+	}
+
+	history = {
+		owner = PHI
+		add_core_of = PHI
+		add_core_of = PT8
+	}
+
+	manpower=1
+	buildings_max_level_factor = 1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

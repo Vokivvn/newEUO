@@ -1,0 +1,16 @@
+state={
+	id=6540
+	name="STATE_6540"
+	provinces={
+		16767 
+	}
+	history={
+	    owner = TZN
+        add_core_of = TZN
+		
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

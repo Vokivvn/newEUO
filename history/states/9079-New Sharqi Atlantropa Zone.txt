@@ -1,0 +1,16 @@
+state={
+	id=9079
+	name="STATE_9079"
+	provinces={
+		18330
+	}
+	history={
+		owner = FEA
+		add_core_of = FEA
+		add_core_of = CHA
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=586
+	name="STATE_586"
+
+	history={
+		owner = KYR
+		victory_points = {
+			12583 3 
+		}
+		add_core_of = SOV
+		add_core_of = KYR
+		add_core_of = TKS
+		add_core_of = ALS
+		add_core_of = ZHE
+
+	}
+
+	provinces={
+		1825 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

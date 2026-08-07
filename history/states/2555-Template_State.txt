@@ -1,0 +1,15 @@
+state={
+	id=2555
+	name="STATE_2555"
+	history={
+		owner = TKL
+		add_core_of = TKL
+	}
+	provinces={
+		14036
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

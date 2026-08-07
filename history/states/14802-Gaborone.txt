@@ -1,0 +1,17 @@
+state={
+	id=14802
+	name="STATE_14802"
+	
+	history = {
+		owner = BOT
+		add_core_of = BOT
+		
+	}
+	manpower = 1
+	state_category = pastoral
+	provinces={
+		8214
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

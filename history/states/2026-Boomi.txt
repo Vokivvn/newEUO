@@ -1,0 +1,19 @@
+state={
+	id=2026
+	name="STATE_2026"
+
+	history={
+		owner = AST
+		add_core_of = AST
+		add_core_of = NSW
+		
+	}
+
+	provinces={
+		7649
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

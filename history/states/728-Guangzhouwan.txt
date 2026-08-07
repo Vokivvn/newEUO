@@ -1,0 +1,21 @@
+
+state={
+	id=728
+	name="STATE_728"
+	
+	provinces={
+		11981 
+	}
+	
+	history={
+		owner = GND
+		add_core_of = GND
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+	
+	state_category = enclave
+	manpower = 200000
+	local_supplies=0.0 
+}

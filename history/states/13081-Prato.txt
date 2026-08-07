@@ -1,0 +1,24 @@
+
+state={
+	id=13081
+	name="STATE_13081"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = TUS
+		add_core_of = FLR
+		add_core_of = PRT
+		add_core_of = RSI
+		
+
+	}
+
+	provinces={
+		1270 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.0 
+}

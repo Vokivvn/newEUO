@@ -1,0 +1,27 @@
+
+state={
+	id=2357
+	name="STATE_2357"
+	manpower = 1061607
+	
+	state_category = city
+
+	history={
+		owner = CRM
+		victory_points = {
+			3686 20
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = CRM
+		add_core_of = GLD
+		add_core_of = SSC
+		add_claim_by = UKR
+		
+	}
+
+	provinces={
+		3686
+	}
+	local_supplies=0.0 
+}

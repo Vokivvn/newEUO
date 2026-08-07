@@ -1,0 +1,25 @@
+
+state={
+	id=133
+	name="STATE_133" # Lanark
+	manpower = 2257723
+	
+	state_category = city
+	
+
+	history={
+		owner = ENG
+		victory_points = {
+			3273 15
+		}
+		add_core_of = ENG
+		add_core_of = SCO
+		add_core_of = AVN
+		
+	}
+
+	provinces={
+		3273
+	}
+	local_supplies=0.0 
+}

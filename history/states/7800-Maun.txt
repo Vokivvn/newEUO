@@ -1,0 +1,16 @@
+state={
+	id=7800
+	name="STATE_7800"
+	provinces={
+		17595 
+	}
+	history={
+	    owner = COG
+        add_core_of = COG
+        add_core_of = KV2
+		add_core_of = C11
+    }
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

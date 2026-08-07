@@ -1,0 +1,22 @@
+state={
+	id=3261
+	name="STATE_3261"
+	provinces={
+		14339 
+	}
+	
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = TML 
+		add_core_of = TML
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = AHR
+		
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+state={
+	id=8453
+	name="STATE_8453"
+	provinces={
+		18155
+	}
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = DVR
+		add_core_of = KHA
+		add_core_of = SKH
+		add_core_of = SBR
+		add_claim_by = JAP
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

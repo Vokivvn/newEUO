@@ -1,0 +1,17 @@
+state={
+	id=13077
+	name="STATE_13077"
+	
+	history = {
+		owner = NMB
+		add_core_of = NMB
+		
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		10978
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

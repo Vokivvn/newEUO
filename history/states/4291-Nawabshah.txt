@@ -1,0 +1,25 @@
+
+state={
+	id=4291
+	name="STATE_4291"
+	
+	provinces={
+		7084 
+	}
+
+	history={
+		owner = MAH
+		add_core_of = RAJ
+		add_core_of = SND 
+		add_core_of = MAH
+		add_core_of = PAK
+		victory_points = {
+			7084 5
+		}
+	}
+	
+	state_category = pastoral
+	manpower = 1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

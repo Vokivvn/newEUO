@@ -1,0 +1,20 @@
+state={
+	id=6119
+	name="STATE_6119"
+	provinces={
+		16166 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		add_core_of = ENR
+		add_core_of = CRR
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

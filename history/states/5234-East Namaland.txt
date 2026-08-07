@@ -1,0 +1,17 @@
+state={
+	id=5234
+	name="STATE_5234"
+	provinces={
+		15784 
+	}
+	history = {
+		owner = NMB
+		add_core_of = NMB
+		add_core_of = NML
+		
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

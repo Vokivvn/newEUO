@@ -1,0 +1,19 @@
+state = {
+	id = 14071
+	name = "STATE_14071"
+		history = {
+			owner = HYD
+			add_core_of = HYD
+			add_claim_by = RAJ
+			add_core_of = MHS
+			add_core_of = IND
+		}
+		
+		provinces = {
+			10311
+		}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

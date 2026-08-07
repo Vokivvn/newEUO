@@ -1,0 +1,21 @@
+state={
+	id=2696
+	name="STATE_2696"
+	history={
+		owner = SPM 
+		add_core_of = CAN
+		add_core_of = SPM
+        add_core_of = NFL
+		
+		victory_points = {
+			14178 1 
+		}
+	}
+	provinces={
+		14178
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

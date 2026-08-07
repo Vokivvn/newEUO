@@ -1,0 +1,18 @@
+state={
+	id=20073
+	name="STATE_20073"
+	
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		add_core_of = LCT
+		add_claim_by = WTR
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		3459
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

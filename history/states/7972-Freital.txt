@@ -1,0 +1,19 @@
+state={
+	id=7972
+	name="STATE_7972"
+	provinces={
+		11481 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = SAX
+        add_core_of = DDR
+		add_core_of = BGM
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

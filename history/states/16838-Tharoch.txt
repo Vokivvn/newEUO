@@ -1,0 +1,20 @@
+state={
+	id=16838
+	name="STATE_16838"
+	provinces={
+		5589
+	}
+	
+	history = {
+		owner = H15
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = HIA
+		add_core_of = H15
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

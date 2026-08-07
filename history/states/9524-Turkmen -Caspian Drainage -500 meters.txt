@@ -1,0 +1,17 @@
+state={
+	id=9524
+	name="STATE_9524"
+	provinces={
+		18779
+	}
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = KDR
+		add_claim_by = BLO
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1314
+	name="STATE_1314"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = SPL
+		add_core_of = RSI
+		add_claim_by = VCT
+	}
+
+	provinces={
+		13399
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

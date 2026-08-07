@@ -1,0 +1,22 @@
+state=
+{
+	id=2297
+	name="STATE_2297"
+	manpower = 150000
+	
+	
+	state_category = rural
+	
+	history = {
+		owner = LIT
+		add_core_of = LIT
+		add_core_of = SGO
+        add_core_of = LV2
+
+		
+	}
+	provinces={
+		13832 	
+	}
+	local_supplies=0.0 
+}

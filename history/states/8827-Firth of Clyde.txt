@@ -1,0 +1,16 @@
+state={
+	id=8827
+	name="STATE_8827"
+	provinces={
+		3590 
+	}
+	history={
+	    owner = TZN
+        add_core_of = TZN
+		
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

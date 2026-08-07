@@ -1,0 +1,17 @@
+state={
+	id=7844
+	name="STATE_7844"
+	provinces={
+		17614 
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		add_core_of = GLE
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

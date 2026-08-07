@@ -1,0 +1,25 @@
+
+state={
+	id=330
+	name="STATE_330"
+	history={
+		owner = MON
+		victory_points = {
+			4801 30
+		}
+		victory_points = {
+			7799 1 
+		}
+		add_core_of = MON
+		add_core_of = MB5
+		add_core_of = B24
+	}
+
+	provinces={
+		4801
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

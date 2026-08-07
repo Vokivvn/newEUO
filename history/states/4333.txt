@@ -1,0 +1,18 @@
+state={
+	id=4333
+	name="STATE_4333"
+	provinces={
+		14352 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SHJ
+		add_core_of = SHJ
+		add_core_of = UAE
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

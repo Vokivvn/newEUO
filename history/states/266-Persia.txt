@@ -1,0 +1,23 @@
+
+state={
+	id=266
+	name="STATE_266"
+
+	history={
+		owner = PER
+		victory_points = {
+			10837 10 
+		}
+		add_core_of = PER
+		add_core_of = FAS
+
+	}
+
+	provinces={
+		10837 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

@@ -1,0 +1,35 @@
+state={
+	id=1475
+	name="STATE_1475"
+	
+	history={
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = ROJ
+		add_core_of = NAS
+		buildings = {
+
+
+
+
+			9950 = {
+
+
+			}
+
+		}
+		victory_points = {
+			9950 30 
+		}
+
+	}
+	
+	provinces={
+		9950
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	local_supplies=0.0 
+}

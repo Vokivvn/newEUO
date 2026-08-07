@@ -1,0 +1,23 @@
+
+state={
+	id=525
+	name="STATE_525"
+
+	history={
+		owner = KOR
+		victory_points = {
+			7125 20
+		}
+		add_core_of = KOR
+		add_core_of = ROK
+
+	}
+
+	provinces={
+		7125
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

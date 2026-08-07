@@ -1,0 +1,16 @@
+state={
+	id=8835
+	name="STATE_8835"
+	provinces={
+		9092 
+	}
+	history={
+		owner = SCM
+		add_core_of = SCM
+		add_core_of = CMR
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

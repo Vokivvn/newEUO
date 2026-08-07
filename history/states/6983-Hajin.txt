@@ -1,0 +1,19 @@
+state={
+	id=6983
+	name="STATE_6983"
+	provinces={
+		17017 
+	}
+	history={
+	    owner = SYR
+        add_core_of = SYR
+        add_core_of = ASY
+        add_core_of = KUR
+		add_core_of = ISS
+	add_core_of = RJV
+    }	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

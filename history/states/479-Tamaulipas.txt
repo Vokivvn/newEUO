@@ -1,0 +1,24 @@
+
+state={
+	id=479
+	name="STATE_479"
+
+	provinces={
+		5015
+	}
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = RGA
+		add_core_of = TMU
+		victory_points = {
+			5015 5 
+		}
+
+	}
+	
+	state_category = town
+	manpower = 1032988
+	local_supplies=0.0 
+}

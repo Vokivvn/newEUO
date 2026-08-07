@@ -1,0 +1,19 @@
+state={
+	id=6146
+	name="STATE_6146"
+	provinces={
+		16275 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ELS
+		add_core_of = ELS
+		 add_core_of = FCA
+	}
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

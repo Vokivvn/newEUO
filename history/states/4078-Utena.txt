@@ -1,0 +1,17 @@
+state={
+	id=4078
+	name="STATE_4078"
+	provinces={
+		11498 
+	}
+	history={
+		owner = LIT
+		add_core_of = LIT
+        add_core_of = LV2
+		add_core_of = AUK
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

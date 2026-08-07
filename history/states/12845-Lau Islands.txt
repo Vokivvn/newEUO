@@ -1,0 +1,18 @@
+
+state={
+	id=12845
+	name="STATE_12845"
+	manpower = 180000
+	
+	state_category = small_island
+
+	history={
+		owner = FIJ
+		add_core_of = FIJ
+	}
+	
+	provinces={
+		1361
+	}
+	local_supplies=0.0 
+}

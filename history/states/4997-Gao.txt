@@ -1,0 +1,18 @@
+state={
+	id=4997
+	name="STATE_4997"
+	provinces={
+		5101 
+	}
+	history={
+		owner = MLI
+		add_core_of = MLI
+		add_core_of = SD0
+		add_core_of = KLT
+	add_claim_by = AZW
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

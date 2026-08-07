@@ -1,0 +1,18 @@
+state={
+	id=7088
+	name="STATE_7088"
+	provinces={
+		16952 
+	}
+	history={
+		owner = SHA
+		add_core_of = BRM
+		add_core_of = SHA
+		add_core_of = S10
+		add_core_of = S66
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

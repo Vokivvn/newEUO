@@ -1,0 +1,20 @@
+
+state={
+	id=12840
+	name="STATE_12840"
+
+	history={
+		owner = PNG
+		add_core_of = PNG
+		add_claim_by = QNS
+		
+	}
+
+	provinces={
+		12135 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

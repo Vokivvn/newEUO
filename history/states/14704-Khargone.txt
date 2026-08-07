@@ -1,0 +1,21 @@
+state={
+	id=14704
+	name="STATE_14704"
+	
+	state_category=pastoral
+	
+	history={
+		owner = INR
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = MDY
+		add_core_of = INR
+	}
+	
+	provinces={
+		14983
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

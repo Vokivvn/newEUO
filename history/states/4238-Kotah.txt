@@ -1,0 +1,23 @@
+state={
+	id=4238
+	name="STATE_4238"
+	provinces={
+		2092
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = KOT
+		add_core_of = KOT
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = RJS
+        victory_points = {
+			2092 5
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

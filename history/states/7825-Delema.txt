@@ -1,0 +1,21 @@
+state={
+	id=7825
+	name="STATE_7825"
+	provinces={
+		17653 
+	}
+	history={
+		owner = FEA
+		add_core_of = FEA
+		add_core_of = CHA
+		add_core_of = LCH
+		add_core_of = BOR
+		victory_points = {
+			17653 3 
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

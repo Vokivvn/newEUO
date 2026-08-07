@@ -1,0 +1,20 @@
+state={
+	id=8430
+	name="STATE_8430"
+	provinces={
+		6289 
+	}
+	history={
+		owner = IRE
+		add_core_of = IRE
+		add_core_of = MUN
+	
+		victory_points = {
+		6289 1
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

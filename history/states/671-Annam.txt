@@ -1,0 +1,25 @@
+
+state={
+	id=671
+	name="STATE_671"
+
+	history={
+		add_core_of = VIN
+		owner = TKI
+		add_core_of = INC
+		add_core_of = TKI
+		add_core_of = NVI
+		victory_points = {
+			4075 1 
+		}
+
+	}
+
+	provinces={
+		4075 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

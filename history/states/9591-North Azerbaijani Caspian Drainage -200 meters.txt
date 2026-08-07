@@ -1,0 +1,18 @@
+state={
+	id=9591
+	name="STATE_9591"
+	provinces={
+		18852
+	}
+	history={
+		owner = BAN
+		add_core_of = PAK
+		add_core_of = RAJ 
+		add_core_of = BAN
+		add_core_of = BNG
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

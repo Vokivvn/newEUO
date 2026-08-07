@@ -1,0 +1,22 @@
+
+state={
+	id=306
+	name="STATE_306" # Cundinamarca
+	manpower = 1
+	
+	state_category = city
+	
+	history={
+		owner = COL
+		add_core_of = COL
+		victory_points = {
+			10747 10
+		}
+
+	}
+
+	provinces={
+		10747
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=430
+	name="STATE_430" # East Bengal
+	manpower = 1
+	
+	state_category = town
+
+	history={
+		owner = BAN
+		victory_points = {
+			11929 30
+		}
+		add_core_of = PAK
+		add_core_of = RAJ 
+		add_core_of = BAN
+
+	}
+
+	provinces={
+		11929
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=2813
+	name="STATE_2813"
+	history={
+		
+		owner = GNB
+		add_core_of = GBN 
+		add_core_of = BJG
+	}
+	provinces={
+		14223
+	}
+	manpower=1
+  state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

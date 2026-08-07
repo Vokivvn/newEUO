@@ -1,0 +1,22 @@
+state={
+	id=3252
+	name="STATE_3252"
+	provinces={
+		14337 
+	}
+	
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = COC
+		add_core_of = COC
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = KER
+		
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

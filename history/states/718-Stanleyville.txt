@@ -1,0 +1,22 @@
+
+state={
+	id=718
+	name="STATE_718"
+
+	history={
+		owner = COG
+	  	owner = XSM
+        	add_core_of = XSM
+		add_core_of = AXX 
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	provinces={
+		10766 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

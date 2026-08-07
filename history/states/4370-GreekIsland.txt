@@ -1,0 +1,18 @@
+state={
+	id=4370
+	name="STATE_4370"
+	history={
+		owner = DDO
+		add_core_of = GRE
+		add_claim_by = OML
+		add_core_of = DDO
+		add_core_of = SGN
+	}
+	provinces={
+		15093
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

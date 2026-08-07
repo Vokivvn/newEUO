@@ -1,0 +1,23 @@
+state={
+	id=5868
+	name="STATE_5868"
+	provinces={
+		7214 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = TWN
+		add_core_of = TWN
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points={
+			7214 5
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

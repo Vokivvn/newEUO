@@ -1,0 +1,21 @@
+state={
+	id=6564
+	name="STATE_6564"
+	provinces={
+		17184 
+	}
+	history={
+	    owner = NFL
+        add_core_of = NFL
+        add_core_of = LBD
+		add_core_of = CAN
+		victory_points = {
+			17184 1
+		}
+		
+    }	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

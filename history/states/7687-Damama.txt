@@ -1,0 +1,16 @@
+state={
+	id=7687
+	name="STATE_7687"
+	provinces={
+		17518 
+	}
+	history={
+	    owner = NGR
+        add_core_of = NGR
+		add_core_of = DGR
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

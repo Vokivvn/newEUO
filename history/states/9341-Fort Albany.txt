@@ -1,0 +1,18 @@
+state={
+	id=9341
+	name="STATE_9341"
+	provinces={
+		18583 
+	}
+	history={
+		owner = CAN
+		add_core_of = CAN 
+		add_core_of = ONT
+		add_core_of = OT2
+		
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,15 @@
+state={
+	id=9986
+	name="STATE_9986"
+	provinces={
+		19405 
+	}
+	history={
+		owner = SIA
+		add_core_of = SIA
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=2572
+	name="STATE_2572"
+	history={
+		owner = CKI
+		add_core_of = CKI
+		victory_points = {
+			14054 1 
+		}
+	}
+	provinces={
+		14054
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

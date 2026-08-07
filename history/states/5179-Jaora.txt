@@ -1,0 +1,19 @@
+state={
+	id=5179
+	name="STATE_5179"
+	provinces={
+		15624 
+	}
+	history={
+		owner = JRA
+		add_core_of = JRA
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = MDY
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

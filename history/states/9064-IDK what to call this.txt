@@ -1,0 +1,16 @@
+state={
+	id=9064
+	name="STATE_9064"
+	provinces={
+		18368 
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		add_core_of = HOB
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

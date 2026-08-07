@@ -1,0 +1,19 @@
+state={
+	id=9751
+	name="STATE_9751"
+	provinces={
+		7102
+	}
+	history={
+	    owner = JAP
+        add_core_of = JAP
+        add_core_of = ROJ
+		add_core_of = FKU
+		victory_points={
+			7102 5
+		}
+    }	
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

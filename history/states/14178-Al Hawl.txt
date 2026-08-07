@@ -1,0 +1,21 @@
+state={
+	id=14178
+	name="STATE_14178"
+	provinces={
+		2481
+	}
+	history={
+	    owner = SYR
+        add_core_of = ASY
+        add_core_of = SYR
+        add_core_of = WTC
+        add_core_of = KUR
+		add_core_of = RJV
+		add_core_of = SNJ
+		add_core_of = ISS
+    }
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

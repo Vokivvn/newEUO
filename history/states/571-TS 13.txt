@@ -1,0 +1,25 @@
+
+state={
+	id=571
+	name="STATE_571"
+
+	history={
+		owner = RUS
+		victory_points = {
+			10696 6 
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = SBR
+		add_core_of = OMS
+        victory_points = { 4700 5 }
+	}
+
+	provinces={
+		4700
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+state={
+	id=7777
+	name="STATE_7777"
+	provinces={
+		17539 
+	}
+	history={
+	    owner = COS
+        add_core_of = COS
+		 add_core_of = FCA
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=2826
+	name="STATE_2826"
+	history={
+		
+		owner = ARG 
+		add_core_of = ARG
+		add_core_of = PAT
+		add_core_of = CBT
+	}
+	provinces={
+		14236
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

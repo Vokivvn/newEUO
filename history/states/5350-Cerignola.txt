@@ -1,0 +1,18 @@
+state={
+	id=5350
+	name="STATE_5350"
+	provinces={
+		883 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = NAP
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

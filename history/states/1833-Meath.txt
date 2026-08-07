@@ -1,0 +1,18 @@
+
+state={
+	id=1833
+	name="STATE_1833"
+	manpower = 1
+	state_category = town
+	
+	history={
+		owner = IRE
+		add_core_of = LEI
+		add_core_of = IRE
+	}
+
+	provinces={
+		3359
+	}
+	local_supplies=0.0 
+}

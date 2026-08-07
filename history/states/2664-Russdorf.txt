@@ -1,0 +1,19 @@
+state={
+	id=2664
+	name="STATE_2664"
+	provinces={
+		14756
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = SAL
+		add_core_of = SAX
+		add_core_of = DDR
+		add_core_of = BGM
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+state={
+	id=6076
+	name="STATE_6076"
+	provinces={
+		16156 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ZAM
+		add_core_of = ZAM
+		add_core_of = BSL
+		add_core_of = NWD
+		add_core_of = CKW
+		
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

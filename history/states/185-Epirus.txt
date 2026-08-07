@@ -1,0 +1,21 @@
+
+state={
+	id=185
+	name="STATE_185"
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = EPR
+        add_core_of = WGC
+
+	}
+
+	provinces={
+		1205 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

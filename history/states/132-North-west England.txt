@@ -1,0 +1,28 @@
+state= {
+	id=132
+	name="STATE_132" # Lancashire
+	manpower = 5770454
+	
+	state_category = metropolis
+
+	history= {
+		owner = ENG
+		victory_points = {
+			6384 30 
+		}
+		victory_points = {
+			6318 5 
+		}
+		
+		add_core_of = ENG
+		add_core_of = EGL
+		add_core_of = LCS
+		add_claim_by = NUD
+		add_core_of = AVN
+		
+	}
+	provinces= {
+        6335
+ 	}
+	local_supplies=0.0 
+}

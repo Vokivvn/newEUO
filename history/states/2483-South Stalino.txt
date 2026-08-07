@@ -1,0 +1,24 @@
+
+state={
+	id=2483
+	name="STATE_2483"
+
+	history={
+		owner = UKR
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = NOV
+		add_core_of = GLD
+		add_core_of = DNK
+		add_claim_by = UA2
+		add_claim_by = DPR
+	}
+
+	provinces={
+		6776 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.0 
+}

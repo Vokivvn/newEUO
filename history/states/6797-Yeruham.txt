@@ -1,0 +1,25 @@
+
+state={
+	id=6797
+	name="STATE_6797"
+	
+	provinces={
+		17008 
+	}
+	
+	history={
+	    owner = PAL
+		add_core_of = KJR
+        add_core_of = PAL
+        add_claim_by = ISR
+		add_claim_by = OML
+		victory_points = {
+			17008 5
+		}
+    }	
+	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

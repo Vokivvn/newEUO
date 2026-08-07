@@ -1,0 +1,21 @@
+state={
+	id=5372
+	name="STATE_5372"
+	provinces={
+		15819
+	}
+	history={
+		owner = POL
+		add_core_of = POL
+		add_core_of = GAL
+		add_core_of = LWO
+		add_core_of = WUK
+        add_core_of = PL2
+		add_claim_by = UKR
+
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

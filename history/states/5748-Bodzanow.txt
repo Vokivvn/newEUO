@@ -1,0 +1,19 @@
+state={
+	id=5748
+	name="STATE_5748"
+	provinces={
+		15999 
+	}
+	history={
+	    owner = POL
+		add_claim_by = GER
+		add_core_of = WSW
+        add_core_of = POL
+		add_core_of = NKO
+		add_core_of = HGM
+    }
+	manpower = 1000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

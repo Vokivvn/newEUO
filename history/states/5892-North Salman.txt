@@ -1,0 +1,23 @@
+
+state={
+	id=5892
+	name="STATE_5892"
+
+	provinces={
+		16322 
+	}
+	
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		add_core_of = ISS
+		victory_points = {
+			16322 25
+		}
+	}
+	
+	manpower = 1000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

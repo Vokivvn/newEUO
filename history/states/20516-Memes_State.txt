@@ -1,0 +1,20 @@
+
+state={
+	id=20516
+	name="STATE_20516"
+	
+	provinces={
+		11111
+	}
+	
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = KBU
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

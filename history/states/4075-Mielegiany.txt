@@ -1,0 +1,22 @@
+state={
+	id=4075
+	name="STATE_4075"
+	provinces={
+		14525 
+	}
+	history={
+		owner = POL
+		add_core_of = POL
+		add_core_of = LIT
+		add_core_of = WR2
+		add_claim_by = BLR
+		add_core_of = WLN
+		add_core_of = CLI
+        add_core_of = LV2
+		add_core_of = AUK
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

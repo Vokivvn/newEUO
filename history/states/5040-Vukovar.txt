@@ -1,0 +1,22 @@
+state={
+	id=5040
+	name="STATE_5040"
+	provinces={
+		15618
+	}
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = SVA
+		add_core_of = ILY
+		victory_points = {
+			15618 5
+		}
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

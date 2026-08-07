@@ -1,0 +1,18 @@
+state={
+	id=5268
+	name="STATE_5268"
+	provinces={
+		15719 
+	}
+	history = {
+		owner = FEA
+		add_core_of = FEA
+		add_core_of = GAB
+		add_core_of = EQG
+		add_core_of = NKM
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

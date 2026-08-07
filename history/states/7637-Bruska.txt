@@ -1,0 +1,19 @@
+state={
+	id=7637
+	name="STATE_7637"
+	provinces={
+		17465 
+	}
+	history={
+	    owner = YUG
+        add_core_of = YUG
+        add_core_of = CRO
+        add_core_of = DLM
+		add_core_of = ILY
+	add_claim_by = ITA
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

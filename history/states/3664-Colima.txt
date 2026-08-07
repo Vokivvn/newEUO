@@ -1,0 +1,23 @@
+
+state={
+	id=3664
+	name="STATE_3664"
+	
+	provinces={
+		18677 
+	}
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = CLM
+		victory_points = {
+			18677 5
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

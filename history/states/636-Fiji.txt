@@ -1,0 +1,21 @@
+
+state={
+	id=636
+	name="STATE_636"
+	manpower = 1
+	
+	state_category = small_island
+
+	history={
+		owner = FIJ
+		add_core_of = FIJ
+		victory_points = {
+			4286 1 
+		}
+	}
+	
+	provinces={
+		4286
+	}
+	local_supplies=0.0 
+}

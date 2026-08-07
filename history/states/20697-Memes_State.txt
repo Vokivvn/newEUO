@@ -1,0 +1,19 @@
+state={
+	id=20697
+	name="STATE_20697"
+	provinces={
+		9074 
+	}
+	history={
+	    owner = SYR
+        add_core_of = SYR
+        add_core_of = ASY
+        add_core_of = KUR
+		add_core_of = RJV
+		add_core_of = BHT
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

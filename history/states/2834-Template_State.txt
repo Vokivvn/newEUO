@@ -1,0 +1,19 @@
+state={
+	id=2834
+	name="STATE_2834"
+	history={
+		
+		owner = RUS 
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = ARH
+		add_core_of = MC2
+	}
+	provinces={
+		14244
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

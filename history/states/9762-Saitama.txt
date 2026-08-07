@@ -1,0 +1,19 @@
+state={
+	id=9762
+	name="STATE_9762"
+	provinces={
+		19065
+	}
+	history={
+	    owner = JAP
+        add_core_of = JAP
+        add_core_of = ROJ
+		add_core_of = SAI
+		victory_points={
+			19065 5
+		}
+    }	
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=14298
+	name="STATE_14298"
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = PNZ
+	}
+	provinces={
+		6353
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+state={
+	id=9059
+	name="STATE_9059"
+	provinces={
+		18379 
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		add_core_of = GLE
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

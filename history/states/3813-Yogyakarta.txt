@@ -1,0 +1,20 @@
+state={
+	id=3813
+	name="STATE_3813"
+	provinces={
+		10135 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = YGY
+		add_core_of = YGY
+		add_core_of = INS 
+		add_core_of = IDS
+		add_core_of = JAV
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

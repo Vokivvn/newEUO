@@ -1,0 +1,23 @@
+
+state={
+	id=618
+	name="STATE_618"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = ZGH
+		add_core_of = CHI
+		add_core_of = PRC
+		add_claim_by = UYG
+
+	}
+
+	provinces={
+		10674 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

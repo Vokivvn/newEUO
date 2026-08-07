@@ -1,0 +1,17 @@
+state={
+	id=4106
+	name="STATE_4106"
+	provinces={
+		14535 
+	}
+	history={
+		
+		owner = ERI 
+		add_core_of = ERI
+		add_claim_by = ETH
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+state={
+	id=4028
+	name="STATE_4028"
+	provinces={
+		14462 
+	}
+	history={
+		owner = POL
+		add_core_of = POL
+		add_core_of = GAL
+		add_core_of = WUK
+		add_core_of = STW
+        add_core_of = PL2
+		add_claim_by = UKR
+
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

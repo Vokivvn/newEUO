@@ -1,0 +1,20 @@
+state={
+	id=5827
+	name="STATE_5827"
+	provinces={
+		16101 
+	}
+	history={
+		owner = SAU
+		add_core_of = SAU
+		add_core_of = YEM
+		add_core_of = ADN
+		add_core_of = KD0
+		add_core_of = EDN
+		
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

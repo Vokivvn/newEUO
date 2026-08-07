@@ -1,0 +1,24 @@
+
+state={
+	id=9496
+	name="STATE_9496"
+	
+	provinces={
+		18702 
+	}
+	
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = YUC
+		add_core_of = QTR
+		victory_points = {
+			18702 5
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	manpower = 1000
+	local_supplies=0.0 
+}

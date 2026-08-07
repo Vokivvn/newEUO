@@ -1,0 +1,20 @@
+state={
+	id=3551
+	name="STATE_3551"
+	provinces={
+		13742
+	}
+	history={
+		owner = AZR
+		add_core_of = AZR
+		add_core_of = TSC
+		add_core_of = SOV
+		add_core_of = KC2
+		add_core_of = KKK
+		add_core_of = KTL
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=9898
+	name="STATE_9898"
+	
+	history={
+		owner = NGR
+		add_core_of = NGR
+		add_core_of = AGD
+		
+		add_core_of = SD0
+		add_core_of = NGR
+		add_core_of = AYR
+
+	}
+	
+	provinces={
+		19237 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

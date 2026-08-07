@@ -1,0 +1,27 @@
+
+state={
+	id=3294
+	name="STATE_3294"
+
+	provinces={
+		1838 
+	}
+	
+	history={
+		owner = HMI
+		add_core_of = HMI
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = SIK
+		add_claim_by = ZGH
+		add_claim_by = UYG
+		victory_points = {
+			1838 5
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	manpower = 1000
+	local_supplies=0.0 
+}

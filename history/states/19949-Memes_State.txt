@@ -1,0 +1,20 @@
+state={
+	id=19949
+	name="STATE_19949"
+	history={
+		owner = SUD
+		victory_points = {
+			326 1 
+		}
+		add_core_of = SUD
+		add_core_of = DRF
+		add_core_of = SD6
+	}
+	provinces={
+		326
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

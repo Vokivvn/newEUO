@@ -1,0 +1,22 @@
+state={
+	id=5199
+	name="STATE_5199"
+	provinces={
+		9252 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = PWP
+		add_core_of = KSH
+		add_core_of = POS
+		add_core_of = SPS
+		add_claim_by = POL
+		add_core_of = GGM
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

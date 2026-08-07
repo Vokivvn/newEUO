@@ -1,0 +1,18 @@
+state={
+	id=8635
+	name="STATE_8635"
+	provinces={
+		18237 
+	}
+	history={
+		owner = ETH 
+		add_core_of = ETH
+		add_core_of = ORM
+		add_core_of = OM2
+		add_core_of = LME
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

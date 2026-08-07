@@ -1,0 +1,23 @@
+
+state={
+	id=1610
+	name="STATE_1610"
+	
+	provinces={
+		13492 
+	}
+	
+	history={
+		owner = ANG
+		add_core_of = ANG
+		victory_points = {
+			13492 1 
+		}
+
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

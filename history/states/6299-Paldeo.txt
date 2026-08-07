@@ -1,0 +1,19 @@
+state={
+	id=6299
+	name="STATE_6299"
+	provinces={
+		16628 
+	}
+	manpower=1
+	history={
+		owner = PLD
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = UTP
+		add_core_of = PLD
+	}
+ 
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

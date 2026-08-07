@@ -1,0 +1,16 @@
+state={
+	id=9602
+	name="STATE_9602"
+	provinces={
+		18863
+	}
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = HRT
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

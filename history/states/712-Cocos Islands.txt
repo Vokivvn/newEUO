@@ -1,0 +1,23 @@
+state={
+	id=712
+	name="STATE_712"
+	manpower=1
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = STR
+		add_core_of = KLG
+		buildings = {
+
+			13002 = {
+
+			}
+		}
+	}
+	
+	provinces={
+		13002 
+	}
+	local_supplies=0.0 
+}

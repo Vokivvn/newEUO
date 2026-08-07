@@ -1,0 +1,19 @@
+state={
+	id=5802
+	name="STATE_5802"
+	provinces={
+		16107 
+	}
+	history={
+		owner = USA
+		add_core_of = OKH
+		add_core_of = USA
+		add_core_of = INT
+		add_core_of = QPW
+		
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

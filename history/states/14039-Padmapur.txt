@@ -1,0 +1,21 @@
+
+state={
+	id=14039
+	name="STATE_14039"
+	history={
+		owner = BIH
+		add_core_of = BIH
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = ODI
+		add_core_of = H42
+	}
+
+	provinces={
+		2420
+	}
+	manpower=1
+	state_category = pastoral
+    buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

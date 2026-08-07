@@ -1,0 +1,26 @@
+
+state={
+	id=2387
+	name="STATE_2387"
+	manpower=1
+	state_category = tiny_island
+
+	history={
+		owner = PUE
+		add_core_of = USA
+		add_core_of = CSA
+		add_core_of = PUE
+		buildings = {
+
+			13869 = {
+
+			}
+			
+		}
+	}
+
+	provinces={
+		13869
+	}
+	local_supplies=0.0 
+}

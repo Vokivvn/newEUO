@@ -1,0 +1,20 @@
+state={
+	id=8485
+	name="STATE_8485"
+	provinces={
+		18210 
+	}
+	history={
+		owner = TMS
+		add_core_of = SOV
+		add_core_of = TMS
+		add_core_of = TCP
+		add_core_of = TKS
+		add_core_of = MEV
+		add_core_of = TKE
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

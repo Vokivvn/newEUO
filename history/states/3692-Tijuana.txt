@@ -1,0 +1,23 @@
+state={
+	id=3692
+	name="STATE_3692"
+	
+	provinces={
+		12461 
+	}
+	
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_claim_by = CAL
+		add_core_of = SCL
+		victory_points = {
+			12461 25
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	manpower = 1000
+	state_category = city
+	local_supplies=0.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=13000
+	name="STATE_13000"
+	
+	state_category=pastoral
+
+	history={
+		owner = DLI
+		add_core_of = DLI
+		add_core_of = INS 
+		add_core_of = IDS
+		add_core_of = NSR
+		add_core_of = SUM
+	}
+	
+	provinces={
+		4364
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	
+	local_supplies=0.0 
+}

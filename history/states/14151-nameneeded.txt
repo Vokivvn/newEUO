@@ -1,0 +1,21 @@
+state={
+	id=14151
+	name="STATE_14151"
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = MSC
+		add_core_of = SMO
+		add_claim_by = BLR
+		add_claim_by = UKR
+		add_core_of = MC2
+	}
+	provinces={
+		11298 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

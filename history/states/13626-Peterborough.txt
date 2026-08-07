@@ -1,0 +1,19 @@
+state={
+	id=13626
+	name="STATE_13626"
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = EGL
+		add_core_of = MER
+		add_core_of = AVN
+		
+	}
+	provinces={
+		9268
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

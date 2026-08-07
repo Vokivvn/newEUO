@@ -1,0 +1,18 @@
+state={
+	id=4328
+	name="STATE_4328"
+	provinces={
+		15059 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = RAK
+		add_core_of = RAK
+		add_core_of = UAE
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

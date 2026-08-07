@@ -1,0 +1,21 @@
+state={
+	id=9082
+	name="Some State"
+	provinces={
+		7257
+	}
+	
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+        add_core_of = KUR
+        add_core_of = ASY
+		add_core_of = SOR
+		add_core_of = IQK
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=2407
+	name="STATE_2407"
+	
+	history={
+		owner = BAS
+		add_core_of = BAS
+		add_core_of = EVI
+		
+	}
+	
+	provinces={
+		13889
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

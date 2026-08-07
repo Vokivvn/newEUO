@@ -1,0 +1,17 @@
+state={
+	id=3024
+	name="STATE_3024"
+	history={	
+		owner = USA 
+		add_core_of = USA
+		add_core_of = KAN
+		add_core_of = GMA
+	}
+	provinces={
+		4871
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

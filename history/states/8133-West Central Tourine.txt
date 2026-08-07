@@ -1,0 +1,16 @@
+state={
+	id=8133
+	name="STATE_8133"
+	provinces={
+		17788 
+	}
+	history={
+		owner = MRT
+		add_core_of = MRT
+		add_core_of = SD0
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

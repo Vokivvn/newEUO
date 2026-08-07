@@ -1,0 +1,26 @@
+
+state={
+	id=4977
+	name="STATE_4977"
+
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = CSS
+		add_core_of = KUB
+		add_core_of = CSK
+		add_core_of = GLD
+		add_claim_by = UKR
+		add_core_of = KC2
+		victory_points = { 3734 25 }
+	}
+
+	provinces={
+		3734
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

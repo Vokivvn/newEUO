@@ -1,0 +1,18 @@
+state={
+	id=19810
+	name="STATE_19810"
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = ALG
+		add_core_of = FR2
+		add_core_of = CNT
+	}
+	provinces={
+		2532
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = pastoral
+	local_supplies = 0.0 
+}

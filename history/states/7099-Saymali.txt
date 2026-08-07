@@ -1,0 +1,17 @@
+state={
+	id=7099
+	name="STATE_7099"
+	provinces={
+		17396 
+	}
+	history={
+	    owner = TUR
+        add_core_of = TUR
+		add_core_of = KSR
+		add_claim_by = ARM
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

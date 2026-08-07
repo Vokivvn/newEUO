@@ -1,0 +1,21 @@
+
+state={
+	id=2321
+	name="STATE_2321"
+	manpower = 1000
+	
+	state_category = small_island
+	
+	history={
+		owner = BLZ
+		add_core_of = BLZ
+		add_core_of = GUA 
+	    add_core_of = FCA
+		
+	}
+	
+	provinces={
+	4598 
+	}
+	local_supplies=0.0 
+}

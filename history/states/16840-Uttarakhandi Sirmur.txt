@@ -1,0 +1,20 @@
+state={
+	id=16840
+	name="STATE_16840"
+	provinces={
+		5591
+	}
+	
+	history = {
+		owner = SRM
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = URK
+		add_core_of = SRM
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

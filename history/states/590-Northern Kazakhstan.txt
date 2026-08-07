@@ -1,0 +1,26 @@
+
+state={
+	id=590
+	name="STATE_590"
+
+	history={
+		owner = KAZ
+		victory_points = {
+			4333 25 
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+		add_core_of = ALS
+		add_core_of = AKM
+        add_core_of = KSU
+
+	}
+
+	provinces={
+		4333 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

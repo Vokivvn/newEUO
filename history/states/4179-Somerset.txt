@@ -1,0 +1,18 @@
+state={
+	id=4179
+	name="STATE_4179"
+	provinces={
+		14880 
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = PEN
+		add_core_of = GMA
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

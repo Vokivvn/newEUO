@@ -1,0 +1,18 @@
+state={
+	id=9870
+	name="STATE_9870"
+	provinces={
+		19202 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+	    owner = MRT
+        add_core_of = MRT
+    }	
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

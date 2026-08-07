@@ -1,0 +1,23 @@
+
+state={
+	id=412
+	name="STATE_412"
+	manpower = 1
+	state_category = rural
+	history={
+		owner = PER
+		victory_points = {
+			8117 1 
+		}
+		victory_points = {
+			7982 3 
+		}
+		add_core_of = PER
+		add_core_of = KRM
+	}
+
+	provinces={
+		12863
+	}
+	local_supplies=0.0 
+}

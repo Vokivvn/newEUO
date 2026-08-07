@@ -1,0 +1,16 @@
+state={
+	id=5283
+	name="STATE_5283"
+	provinces={
+		15728 
+	}
+	history = {
+		owner = NCM
+		add_core_of = NCM
+		add_core_of = NGA
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

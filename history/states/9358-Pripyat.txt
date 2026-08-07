@@ -1,0 +1,18 @@
+state={
+	id=9358
+	name="STATE_9358"
+	provinces={
+		18538 
+	}
+	history={
+		owner = UKR
+		add_core_of = SOV
+		add_core_of = UKR
+        add_core_of = UA2
+		add_core_of = KIV
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

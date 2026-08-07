@@ -1,0 +1,20 @@
+state={
+	id=20177
+	name="STATE_20177"
+	
+	history = {
+	    owner = LAT
+        add_core_of = LAT
+        add_core_of = LIV
+        add_core_of = LTG
+        add_core_of = LV2
+        add_claim_by = BLR
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		4404
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

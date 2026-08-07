@@ -1,0 +1,18 @@
+state={
+	id=7120
+	name="STATE_7120"
+	provinces={
+		4901 
+	}
+	history={
+	    owner = PER
+        add_core_of = PER
+        add_core_of = GLN
+        add_core_of = TBR
+	add_core_of = SAZ
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

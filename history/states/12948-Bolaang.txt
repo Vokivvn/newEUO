@@ -1,0 +1,23 @@
+state={
+	id=12948
+	name="STATE_12948"
+	
+	state_category=town
+
+	history={
+		owner = BLA
+		add_core_of = BLA
+		add_core_of = INS 
+		add_core_of = IDS
+		add_core_of = NSI
+		add_core_of = SLW
+	}
+	
+	provinces={
+		10197
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	
+	local_supplies=0.0 
+}

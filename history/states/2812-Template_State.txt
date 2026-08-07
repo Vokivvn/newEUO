@@ -1,0 +1,19 @@
+state={
+	id=2812
+	name="STATE_2812"
+	history={
+		
+		owner = CVD 
+		add_core_of = CVD
+		victory_points = {
+			14222 1 
+		}
+	}
+	provinces={
+		14222
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

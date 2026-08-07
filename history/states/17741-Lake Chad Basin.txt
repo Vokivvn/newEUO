@@ -1,0 +1,21 @@
+
+state={
+	id=17741
+	name="STATE_17741"
+	provinces={
+		8506
+	}
+
+	history = {
+		owner = WTR
+		add_core_of = WTR
+		add_core_of = NGA
+		add_core_of = IS3
+		add_core_of = LCH
+	}
+
+	manpower=1
+	buildings_max_level_factor = 1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

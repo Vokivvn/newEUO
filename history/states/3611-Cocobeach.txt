@@ -1,0 +1,19 @@
+state={
+	id=3611
+	name="STATE_3611"
+	provinces={
+		14556 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = FEA
+		add_core_of = FEA
+		add_core_of = GAB
+		add_core_of = NKM
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+state={
+	id=9902
+	name="STATE_9902"
+	provinces={
+		19234 
+	}
+	history={
+		owner = SIA
+		add_core_of = SIA
+		add_core_of = VTN
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

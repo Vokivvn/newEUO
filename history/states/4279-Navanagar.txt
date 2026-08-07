@@ -1,0 +1,25 @@
+
+state={
+	id=4279
+	name="STATE_4279"
+	
+	provinces={
+		14949 
+	}
+	
+	history={
+		owner = NVN
+		add_core_of = NVN
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = GUJ
+        victory_points = {
+			14949 5
+		}
+	}
+
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

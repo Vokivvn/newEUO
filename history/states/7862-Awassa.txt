@@ -1,0 +1,18 @@
+state={
+	id=7862
+	name="STATE_7862"
+	provinces={
+		13480 
+	}
+	history={
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = SNN
+		add_core_of = E08
+		add_core_of = E05
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

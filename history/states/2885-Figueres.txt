@@ -1,0 +1,17 @@
+state={
+	id=2885
+	name="STATE_2885"
+	history={
+		
+		owner = SPR
+		add_core_of = SPR
+		add_core_of = CAT
+	}
+	provinces={
+		9824
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

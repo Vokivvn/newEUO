@@ -1,0 +1,23 @@
+state={
+	id=20144
+	name="STATE_20144"
+	provinces={
+		1369
+	}
+	history={
+	    owner = JAP
+        add_core_of = JAP
+		add_core_of = HOK
+        add_core_of = EZO
+        add_core_of = PRJ
+		
+		
+		
+		
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

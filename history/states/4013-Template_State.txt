@@ -1,0 +1,18 @@
+state={
+	id=4013
+	name="STATE_4013"
+	history={
+		owner = MKN
+		add_core_of = PAK
+		add_core_of = BLO
+		add_core_of = MKN
+		add_claim_by = RAJ
+	}
+	provinces={
+		5043
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

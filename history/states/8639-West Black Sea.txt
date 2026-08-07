@@ -1,0 +1,17 @@
+state={
+	id=8639
+	name="STATE_8639"
+	provinces={
+		8256
+	}
+	history={
+		owner = NCM
+		add_core_of = NCM
+		add_core_of = NGA
+		add_core_of = IS3
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

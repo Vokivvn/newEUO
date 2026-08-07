@@ -1,0 +1,20 @@
+state={
+	id=20189
+	name="STATE_20189"
+
+	history={
+		owner = LEB
+		add_core_of = LEB
+		add_core_of = KJS
+		
+
+	}
+
+	provinces={
+		4701
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

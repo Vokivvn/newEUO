@@ -1,0 +1,17 @@
+state={
+	id=5514
+	name="STATE_5514"
+	
+	history={
+		owner = SWI
+		add_core_of = SWI
+		add_core_of = KSO
+	}
+	provinces={
+		15935
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

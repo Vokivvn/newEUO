@@ -1,0 +1,22 @@
+
+state={
+	id=476
+	name="STATE_476"
+
+	provinces={
+		12712
+	}
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = OXC
+		victory_points = {
+			12712 5
+		}
+	}
+	
+	manpower = 1663331
+	state_category = rural
+	local_supplies=0.0 
+}

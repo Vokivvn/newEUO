@@ -1,0 +1,21 @@
+state={
+	id=7325
+	name="STATE_7325"
+	provinces={
+		13221 
+	}
+	history={
+	    owner = MOL
+        add_core_of = SOV
+        add_core_of = UKR
+        add_core_of = MOL
+        add_core_of = MLV
+		add_core_of = TRN
+		add_claim_by = UKR
+		add_claim_by = ROM
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,25 @@
+state={
+	id=1761
+	name="STATE_1761"
+	
+	state_category=town
+	
+	history={
+		owner = FRA
+		victory_points = {
+			3552 20 
+		}
+		add_core_of = FRA
+		add_core_of = BRI
+		add_core_of = OFR
+		add_claim_by = FR2
+
+	}
+	
+	provinces={
+		542 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

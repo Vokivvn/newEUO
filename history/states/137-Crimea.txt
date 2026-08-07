@@ -1,0 +1,25 @@
+
+state={
+	id=137
+	name="STATE_137"
+
+	provinces={
+		705  
+	}
+
+	history={
+		owner = CRM
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = CRM
+		add_core_of = GLD
+		add_claim_by = UKR
+		victory_points = {
+			705 1
+		}
+	}
+	
+	manpower = 1061607
+	state_category = city
+	local_supplies=0.0 
+}

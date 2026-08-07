@@ -1,0 +1,15 @@
+state={
+	id=6737
+	name="STATE_6737"
+	provinces={
+		5039 
+	}
+	history={
+	    owner = GNA
+        add_core_of = GNA
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

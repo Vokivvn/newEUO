@@ -1,0 +1,20 @@
+state={
+	id=16574
+	name="STATE_16574"
+	manpower = 1000
+	state_category=pastoral
+	
+	history={
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = EZO
+		add_core_of = PRJ
+		add_core_of = HOK
+
+	}
+
+	provinces={
+		10512
+	}
+	local_supplies=0.0 
+}

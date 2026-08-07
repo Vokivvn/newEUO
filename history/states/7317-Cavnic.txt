@@ -1,0 +1,17 @@
+state={
+	id=7317
+	name="STATE_7317"
+	provinces={
+		17124 
+	}
+	history={
+	    owner = ROM
+        add_core_of = ROM
+	add_core_of = TRA
+		add_claim_by = HUN
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

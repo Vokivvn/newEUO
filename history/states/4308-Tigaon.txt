@@ -1,0 +1,20 @@
+state={
+	id=4308
+	name="STATE_4308"
+	provinces={
+		15043
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = PTI
+		add_core_of = PTI
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = HRY
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

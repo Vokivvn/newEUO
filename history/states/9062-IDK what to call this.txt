@@ -1,0 +1,16 @@
+state={
+	id=9062
+	name="STATE_9062"
+	provinces={
+		18372 
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		add_claim_by = GLE
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

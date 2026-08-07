@@ -1,0 +1,24 @@
+state={
+	id=1479
+	name="STATE_1479"
+	
+	history={
+	    owner = HB2
+		add_core_of = HB2
+		add_core_of = CHI
+		add_core_of = TNT
+		add_core_of = PSC
+		add_core_of = RGC
+		add_core_of = PRC
+		add_claim_by = RUS
+	}
+	
+	provinces={
+		13482		
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = city
+	local_supplies=0.0 
+}

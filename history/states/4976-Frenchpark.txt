@@ -1,0 +1,17 @@
+state={
+	id=4976
+	name="STATE_4976"
+	provinces={
+		11238 
+	}
+	history={
+		owner = IRE
+		add_core_of = IRE
+		add_core_of = CNG
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

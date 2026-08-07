@@ -1,0 +1,18 @@
+state={
+	id=14198
+	name="STATE_14198"
+	provinces={
+		2508 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = KUR
+        add_core_of = SAZ
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

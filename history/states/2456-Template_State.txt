@@ -1,0 +1,17 @@
+state={
+	id=2456
+	name="STATE_2456"
+	history={
+		owner = COL 
+		add_claim_by = NIC
+		add_claim_by = HON
+		add_claim_by = USA
+	}
+	provinces={
+		13938
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+state={
+	id=6998
+	name="STATE_6998"
+	provinces={
+		17365 
+	}
+	history={
+	    owner = PER
+        add_core_of = PER
+		add_core_of = KUR
+    }	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

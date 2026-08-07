@@ -1,0 +1,29 @@
+state=
+{
+	id=647
+	name="STATE_647"
+	state_category = small_island
+	manpower = 12100
+	history=
+	{
+		owner = PAC
+		add_core_of = PLU
+		add_core_of = PAC
+		buildings = {
+
+
+			4357 = {
+
+
+			}
+		}
+		
+		victory_points = {
+			4357 1 
+		}
+	}
+	provinces={
+		4357
+	}
+	local_supplies=0.0 
+}

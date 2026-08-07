@@ -1,0 +1,21 @@
+state={
+	id=3001
+	name="STATE_3001"
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = CSA
+		add_core_of = LOU
+		add_core_of = NAF
+		add_claim_by = FLO
+		add_claim_by = WFL
+	}
+	provinces={
+		15109
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

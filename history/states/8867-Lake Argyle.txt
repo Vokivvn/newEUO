@@ -1,0 +1,19 @@
+state={
+	id=8867
+	name="STATE_8867"
+	provinces={
+		13133 
+	}
+	history={
+		owner = AST
+		add_core_of = AST
+		add_core_of = WAT
+		add_core_of = LCT
+		add_core_of = A66
+		
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

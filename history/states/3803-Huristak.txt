@@ -1,0 +1,20 @@
+state={
+	id=3803
+	name="STATE_3803"
+	provinces={
+		7327  
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SAK
+		add_core_of = SAK
+		add_core_of = INS 
+		add_core_of = IDS
+		add_core_of = SUM
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=16436
+	name="STATE_16436"
+	
+	history={
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = ROJ
+		add_core_of = KYO
+	}
+
+	provinces={
+		19009
+	}
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=4054
+	name="STATE_4054"
+	provinces={
+		10707 
+	}
+	history={
+		
+		owner = ALA 
+		add_core_of = USA
+		add_core_of = ALA
+	}
+	manpower=1
+	state_category = small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

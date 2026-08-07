@@ -1,0 +1,19 @@
+state={
+	id=4033
+	name="STATE_4033"
+	provinces={
+		14468 
+	}
+	history={
+		owner = FRA
+		add_claim_by = GER
+		add_core_of = FRA
+		add_core_of = LOR
+		add_core_of = HGM
+		add_claim_by = ALC
+	}
+	state_category = pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

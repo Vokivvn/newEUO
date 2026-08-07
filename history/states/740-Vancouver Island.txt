@@ -1,0 +1,25 @@
+
+state={
+	id=740
+	name="STATE_740"
+
+	provinces={
+		7259
+	}
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = BRC
+		add_core_of = CAS
+		add_core_of = VCI
+		
+		victory_points = {
+			7259 3
+		}
+	}
+	
+	state_category = rural
+	manpower = 259612
+	local_supplies=0.0 
+}

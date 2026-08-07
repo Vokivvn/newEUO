@@ -1,0 +1,19 @@
+state={
+	id=16104
+	name="STATE_16104"
+	provinces={
+		4702
+	}
+
+	history = {
+		owner = AST
+		add_core_of = AST
+		add_core_of = WAT
+		
+	}
+
+	manpower=1
+	buildings_max_level_factor = 1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=9043
+	name="STATE_9043"
+	provinces={
+		18361 
+	}
+	history={
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = TIG
+		add_core_of = E23
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=4566
+	name="STATE_4566"
+	provinces={
+		15344 
+	}
+	history={
+		
+		owner = SPR 
+		add_core_of = SPR
+		add_core_of = SP2
+        	add_claim_by = MOR
+		add_claim_by = RIF
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=20192
+	name="STATE_20192"
+	
+	history = {
+		owner = LEB
+		add_core_of = LEB
+		add_core_of = KJS
+		add_core_of = HBL
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		4246
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

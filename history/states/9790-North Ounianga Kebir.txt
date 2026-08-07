@@ -1,0 +1,18 @@
+state={
+	id=9790
+	name="STATE_9790"
+	provinces={
+		18951 
+	}
+	history={
+		owner = XIG
+		add_core_of = XIG
+		add_core_of = CGB
+		add_core_of = CHI
+		add_core_of = PRC
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

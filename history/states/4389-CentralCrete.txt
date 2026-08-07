@@ -1,0 +1,16 @@
+state={
+	id=4389
+	name="STATE_4389"
+	history={
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = CRE
+	}
+	provinces={
+		1164
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=20207
+	name="STATE_20207"
+	
+	history = {
+		owner = TCH
+		add_core_of = TCH
+		add_core_of = PAK
+		add_core_of = RAJ
+		add_core_of = PSH
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		12506
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

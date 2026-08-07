@@ -1,0 +1,20 @@
+
+state={
+	id=13101
+	name="STATE_13101"
+	manpower = 1
+	
+	state_category = town
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = ORG
+		add_core_of = CAS
+	}
+
+	provinces={
+		1414
+	}
+	local_supplies=0.0 
+}

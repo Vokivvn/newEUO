@@ -1,0 +1,21 @@
+
+state={
+	id=3819
+	name="STATE_3819"
+
+	history={
+		owner = INS
+		add_core_of = INS
+		add_core_of = IDS
+		add_core_of = PAP
+		add_core_of = WPP
+	}
+
+	provinces={
+		8235 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

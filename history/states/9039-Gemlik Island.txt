@@ -1,0 +1,16 @@
+state={
+	id=9039
+	name="STATE_9039"
+	provinces={
+		18350 
+	}
+	history={
+		owner = MZB
+		add_core_of = MZB
+		add_core_of = IS4
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

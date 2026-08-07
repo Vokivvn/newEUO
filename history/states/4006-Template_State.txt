@@ -1,0 +1,23 @@
+
+state={
+	id=4006
+	name="STATE_4006"
+
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = HRT
+		victory_points = {
+			4893 1 
+		}
+
+	}
+
+	provinces={
+		4893 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

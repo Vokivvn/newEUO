@@ -1,0 +1,19 @@
+state={
+	id=5686
+	name="STATE_5686"
+	provinces={
+		16039 
+	}
+	history={
+	    owner = SYR
+        add_core_of = SYR
+		add_core_of = WTC
+		victory_points = {
+			16039 5
+		}
+    }
+	manpower = 1000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

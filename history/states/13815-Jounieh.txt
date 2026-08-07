@@ -1,0 +1,16 @@
+state={
+	id=13815
+	name="STATE_13815"
+	history={
+		owner = LEB
+		add_core_of = LEB
+        add_core_of = CTP
+	}
+	provinces={
+		2324
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

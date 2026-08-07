@@ -1,0 +1,24 @@
+state={
+	id=398
+	name="STATE_398"
+
+	history={
+		owner = RUS
+        victory_points = {
+			12216 5 
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = PRR
+        add_core_of = HYP
+
+	}
+
+	provinces={
+		12216
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

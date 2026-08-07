@@ -1,0 +1,24 @@
+
+state={
+	id=212
+	name="STATE_212"
+
+	history={
+		owner = BUL
+		victory_points = {
+			6923 25 
+		}
+		add_core_of = BUL
+		add_core_of = THR
+		add_core_of = ERU
+
+	}
+
+	provinces={
+		6923 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.0 
+}

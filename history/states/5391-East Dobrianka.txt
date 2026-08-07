@@ -1,0 +1,21 @@
+state={
+	id=5391
+	name="STATE_5391"
+	provinces={
+		3568 
+	}
+	history = {
+		owner = UKR
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = CHV
+                add_claim_by = UA2
+		victory_points = {
+			3568 5
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

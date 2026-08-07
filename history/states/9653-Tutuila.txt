@@ -1,0 +1,18 @@
+state={
+	id=9653
+	name="STATE_9653"
+	provinces={
+		18872 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ESM
+		add_core_of = SAM
+		add_core_of = ESM
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

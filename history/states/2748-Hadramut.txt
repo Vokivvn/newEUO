@@ -1,0 +1,19 @@
+state={
+	id=2748
+	name="STATE_2748"
+	history={
+		
+		owner = MHA 
+		add_core_of = YEM
+		add_core_of = ADN
+        	add_core_of = MHA
+		add_core_of = EDN
+	}
+	provinces={
+		13079
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

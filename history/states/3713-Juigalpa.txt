@@ -1,0 +1,18 @@
+state={
+	id=3713
+	name="STATE_3713"
+	provinces={
+		1988 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = NIC
+		add_core_of = NIC
+		 add_core_of = FCA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

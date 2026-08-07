@@ -1,0 +1,21 @@
+state={
+	id=4073
+	name="STATE_4073"
+	provinces={
+		14512 
+	}
+	history={
+		owner = MML
+		add_core_of = PRE
+		add_core_of = LIT
+		add_core_of = KON
+		add_core_of = MML
+		add_core_of = HGM
+		add_core_of = LMI
+		add_claim_by = GER
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

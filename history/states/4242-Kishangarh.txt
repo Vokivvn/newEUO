@@ -1,0 +1,20 @@
+state={
+	id=4242
+	name="STATE_4242"
+	provinces={
+		15014 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = KHG
+		add_core_of = KHG
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = RJS
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

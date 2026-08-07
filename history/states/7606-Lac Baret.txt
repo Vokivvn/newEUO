@@ -1,0 +1,17 @@
+state={
+	id=7606
+	name="STATE_7606"
+	provinces={
+		17190 
+	}
+	history={
+	    owner = CAN
+        add_core_of = CAN
+        add_core_of = QUE
+		
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

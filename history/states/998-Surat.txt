@@ -1,0 +1,25 @@
+state={
+	id=998
+	name="STATE_998"
+
+
+	history={
+		owner = MAH
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = GUJ
+		add_core_of = MAH
+		add_core_of = H41
+		victory_points = {
+			11952 25
+		}
+	}
+
+	provinces={
+		11952
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

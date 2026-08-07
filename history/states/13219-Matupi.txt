@@ -1,0 +1,21 @@
+
+state={
+	id=13219
+	name="STATE_13219"
+
+	history={
+		owner = BRM
+		add_core_of = BRM
+		add_core_of = RKH
+		add_core_of = S63
+		
+	}
+
+	provinces={
+		10033 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

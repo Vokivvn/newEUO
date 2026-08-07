@@ -1,0 +1,17 @@
+state={
+	id=9408
+	name="STATE_9408"
+	provinces={
+		18622 
+	}
+	history={
+	    owner = PAN
+        add_core_of = PAN
+		 add_core_of = FCA
+        add_core_of = COS
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

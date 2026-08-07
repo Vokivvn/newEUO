@@ -1,0 +1,19 @@
+state={
+	id=16020
+	name="STATE_16020"
+	provinces={
+		5323
+	}
+
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = NWT
+		
+	}
+
+	manpower=1
+	buildings_max_level_factor = 1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

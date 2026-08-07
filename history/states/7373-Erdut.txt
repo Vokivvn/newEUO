@@ -1,0 +1,18 @@
+state={
+	id=7373
+	name="STATE_7373"
+	provinces={
+		17095 
+	}
+	history={
+	    owner = YUG
+        add_core_of = YUG
+        add_core_of = SER
+        add_core_of = VJD
+	add_claim_by = HUN
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

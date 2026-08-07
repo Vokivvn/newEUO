@@ -1,0 +1,17 @@
+state={
+	id=8166
+	name="STATE_8166"
+	provinces={
+		17806 
+	}
+	history={
+		owner = NIC
+		add_core_of = NIC
+		 add_core_of = FCA
+		add_core_of = NCZ
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

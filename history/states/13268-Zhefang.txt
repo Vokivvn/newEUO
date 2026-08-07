@@ -1,0 +1,21 @@
+
+state={
+	id=13268
+	name="STATE_13268"
+
+	history={
+	    owner = ZHF
+        add_core_of = ZHF
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	provinces={
+		19585
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

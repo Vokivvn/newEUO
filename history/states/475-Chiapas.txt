@@ -1,0 +1,21 @@
+
+state={
+	id=475
+	name="STATE_475"
+	manpower = 805874
+	
+	state_category = rural
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = CHP
+		add_core_of = LAL
+	}
+
+	provinces={
+		1900 
+	}
+	
+	local_supplies=0.0 
+}

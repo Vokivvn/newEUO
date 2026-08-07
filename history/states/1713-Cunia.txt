@@ -1,0 +1,20 @@
+state={
+	id=1713
+	name="STATE_1713"
+	
+	history={
+		owner = BRA
+		add_core_of = RDN
+		add_core_of = BRA
+
+	}
+	
+	provinces={
+		13563 
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

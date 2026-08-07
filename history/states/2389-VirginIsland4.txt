@@ -1,0 +1,26 @@
+
+state={
+	id=2389
+	name="STATE_2389"
+	manpower=1
+	state_category = tiny_island
+
+	history={
+		owner = BAS
+		add_core_of = BAS
+		add_core_of = EVI
+		
+		buildings = {
+
+			13871 = {
+
+			}
+			
+		}
+	}
+
+	provinces={
+		13871
+	}
+	local_supplies=0.0 
+}

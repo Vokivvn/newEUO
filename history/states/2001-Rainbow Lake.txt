@@ -1,0 +1,20 @@
+
+state={
+	id=2001
+	name="STATE_2001"
+	
+	state_category=rural
+	
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = ABT
+		
+	}
+
+	provinces={
+		7858
+	}
+	manpower=1
+	local_supplies=0.0 
+}

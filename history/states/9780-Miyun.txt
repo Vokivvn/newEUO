@@ -1,0 +1,21 @@
+state={
+	id=9780
+	name="STATE_9780"
+	provinces={
+		19130 
+	}
+	history={
+	    owner = HB2
+	add_core_of = HB2
+        add_core_of = CHI
+        add_core_of = PRC
+	add_core_of = PKG
+	add_core_of = RGC
+	add_core_of = CIL
+	add_core_of = PSC
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

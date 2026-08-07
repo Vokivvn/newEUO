@@ -1,0 +1,25 @@
+
+state={
+	id=1828
+	name="STATE_1828"
+
+	history={
+		owner = ENG
+		victory_points = {
+			3379 5 
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+		add_core_of = NIR
+		add_core_of = AVN
+		
+	}
+
+	provinces={
+		3379 
+	}
+	manpower=1
+	buildings_max_level_factor=1
+	state_category="city"
+	local_supplies=0.0 
+}

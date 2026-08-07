@@ -1,0 +1,17 @@
+state={
+	id=9109
+	name="STATE_9109"
+	provinces={
+		18510 
+	}
+	history={
+	    owner = SUD
+        add_core_of = SUD
+        add_core_of = DRF
+	add_core_of = RSF
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

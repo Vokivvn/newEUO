@@ -1,0 +1,19 @@
+state={
+	id=5180
+	name="STATE_5180"
+	provinces={
+		15625 
+	}
+	history={
+		owner = RPL
+		add_core_of = RPL
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = GUJ
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

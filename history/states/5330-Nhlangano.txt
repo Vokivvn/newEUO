@@ -1,0 +1,16 @@
+state={
+	id=5330
+	name="STATE_5330"
+	provinces={
+		13789
+	}
+	history = {
+		owner = SWZ
+		add_core_of = SWZ
+		
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

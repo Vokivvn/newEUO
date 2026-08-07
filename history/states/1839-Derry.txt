@@ -1,0 +1,25 @@
+
+state={
+	id=1839
+	name="STATE_1839"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = IRE
+		add_core_of = NIR
+		add_core_of = AVN
+		
+		victory_points = {
+			276 5
+		}
+	}
+
+	provinces={
+		276
+	}
+	manpower=1
+	buildings_max_level_factor=1
+	state_category="city"
+	local_supplies=0.0 
+}

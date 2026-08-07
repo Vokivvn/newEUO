@@ -1,0 +1,22 @@
+
+state={
+	id=3363
+	name="STATE_3363"
+	
+	provinces={
+		14401 
+	}
+	
+	history={
+		owner = LEB
+		add_core_of = LEB
+		victory_points = {
+			14401 5
+		}
+	}
+
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	manpower = 1000
+	local_supplies=0.0 
+}

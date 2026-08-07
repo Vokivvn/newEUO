@@ -1,0 +1,24 @@
+
+state={
+	id=1739
+	name="STATE_1739"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		add_core_of = GAL
+		add_core_of = KRW
+        add_core_of = PL2
+		add_claim_by = PL3
+		victory_points = {
+			442 5
+		}
+	}
+	provinces={
+		442 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+state={
+	id=3031
+	name="STATE_3031"
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = CSA
+		add_core_of = SCR
+		add_core_of = NAF
+		victory_points = {
+			7012 1 
+		}
+	}
+	provinces={
+		7012
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

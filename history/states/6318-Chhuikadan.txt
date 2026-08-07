@@ -1,0 +1,19 @@
+state={
+	id=6318
+	name="STATE_6318"
+	provinces={
+		16571 
+	}
+	manpower=1
+	history={
+		owner = CKD
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = CTS
+		add_core_of = CKD
+	}
+ 
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

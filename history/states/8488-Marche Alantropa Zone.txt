@@ -1,0 +1,16 @@
+state={
+	id=8488
+	name="STATE_8488"
+	provinces={
+		18238 
+	}
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = HRT
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

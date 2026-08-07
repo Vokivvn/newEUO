@@ -1,0 +1,19 @@
+state={
+	id=2203
+	name="STATE_2203"
+	
+	history={	
+	add_core_of = EMC
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = THR
+		add_core_of = BUL
+
+	}
+	provinces={
+		13365 
+	}
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

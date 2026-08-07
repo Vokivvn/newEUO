@@ -1,0 +1,16 @@
+state={
+	id=9102
+	name="STATE_9102"
+	provinces={
+		14861 
+	}
+	history={
+	    owner = TZN
+        add_core_of = TZN
+		
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

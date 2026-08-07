@@ -1,0 +1,18 @@
+state={
+	id=6799
+	name="STATE_6799"
+	provinces={
+		17014 
+	}
+	history={
+	    owner = PAL
+		add_core_of = KJR
+        add_core_of = PAL
+        add_core_of = ISR
+		add_claim_by = OML
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=3747
+	name="STATE_3747"
+	provinces={
+		8215 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		add_core_of = MDZ
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

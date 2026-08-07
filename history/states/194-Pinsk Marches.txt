@@ -1,0 +1,24 @@
+
+state={
+	id=194
+	name="STATE_194"
+
+	provinces={
+		14360
+	}
+
+	history={
+		owner = BLR
+		add_core_of = SOV
+		add_core_of = BLR
+		add_core_of = GOM
+		add_core_of = UA2
+		add_claim_by = RCT
+		add_claim_by = UKR
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

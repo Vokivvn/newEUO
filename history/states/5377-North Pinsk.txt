@@ -1,0 +1,23 @@
+
+state={
+	id=5377
+	name="STATE_5377"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		add_core_of = BLR
+		add_core_of = PSE
+        add_core_of = UA2
+		add_claim_by = UKR
+
+	}
+
+	provinces={
+		560 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

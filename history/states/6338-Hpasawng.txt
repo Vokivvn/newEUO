@@ -1,0 +1,18 @@
+state={
+	id=6338
+	name="STATE_6338"
+	provinces={
+		12317 
+	}
+	manpower=1
+	history={
+	    owner = CAM
+        add_core_of = INC
+        add_core_of = CAM
+		add_core_of = CPK
+	}
+ 
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

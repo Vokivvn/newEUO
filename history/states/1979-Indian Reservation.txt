@@ -1,0 +1,22 @@
+
+state={
+	id=1979
+	name="STATE_1979"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = GMA
+		add_core_of = ABS
+		add_core_of = SDA
+
+	}
+
+	provinces={
+		3750 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=4320
+	name="STATE_4320"
+
+	provinces={
+		15047
+	}
+
+	history={
+		owner = KHP
+		add_core_of = KHP
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = MHS
+		
+		victory_points = {
+			15047 5
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	manpower = 1000
+	local_supplies=0.0 
+}

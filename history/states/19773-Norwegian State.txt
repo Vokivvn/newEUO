@@ -1,0 +1,17 @@
+state={
+	id=19773
+	name="STATE_19773"
+	history={
+		owner = NOR 
+		add_core_of = NOR
+		add_core_of = SAP
+		add_core_of = NR2
+	}
+	provinces={
+		128
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

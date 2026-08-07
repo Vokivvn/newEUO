@@ -1,0 +1,16 @@
+state={
+	id=20135
+	name="STATE_20135"
+	provinces={
+		7861
+	}
+	history={
+		owner = IMO 
+		add_core_of = OMN
+		add_core_of = IMO
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+state={
+	id=7639
+	name="STATE_7639"
+	provinces={
+		17469 
+	}
+	history={
+	    owner = HUN
+        add_core_of = HUN
+        add_core_of = BRG
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

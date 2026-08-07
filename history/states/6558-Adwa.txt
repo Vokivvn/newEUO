@@ -1,0 +1,16 @@
+state={
+	id=6558
+	name="STATE_6558"
+	provinces={
+		16900 
+	}
+	history={
+	owner = ETH
+        add_core_of = ETH
+	add_core_of = TIG
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

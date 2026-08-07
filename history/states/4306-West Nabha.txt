@@ -1,0 +1,20 @@
+state={
+	id=4306
+	name="STATE_4306"
+	provinces={
+		15038 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = NBH
+		add_core_of = NBH
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = EPU
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

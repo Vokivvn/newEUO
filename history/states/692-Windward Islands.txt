@@ -1,0 +1,21 @@
+state={
+	id=692
+	name="STATE_692" #THIS IS NOW BARBADOS
+	manpower=1
+	state_category = small_island
+
+	history={
+		owner = BAR
+		add_core_of = BAR
+		add_core_of = WIF
+		
+		victory_points = {
+			11350 1 
+		}
+	}
+	
+	provinces={
+		11350 
+	}
+	local_supplies=0.0 
+}

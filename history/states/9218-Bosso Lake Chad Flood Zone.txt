@@ -1,0 +1,17 @@
+state={
+	id=9218
+	name="STATE_9218"
+	provinces={
+		18420 
+	}
+	history={
+		owner = NGR
+		add_core_of = NGR
+		add_core_of = LCH
+		add_core_of = BOR
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

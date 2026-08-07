@@ -1,0 +1,18 @@
+state={
+	id=3073
+	name="STATE_3073"
+	history={
+		
+		owner = TAN 
+		add_core_of = TAN
+		add_core_of = SOV
+		add_core_of = M38
+	}
+	provinces={
+		10646 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

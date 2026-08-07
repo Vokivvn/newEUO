@@ -1,0 +1,19 @@
+state={
+	id=15225
+	name="STATE_15225"
+	provinces={
+		2724
+	}
+	history={
+		owner = AT8
+		add_core_of = AT8
+		add_core_of = AST
+		add_core_of = SAT
+		add_core_of = LKE
+		
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=18974
+	name="STATE_18974"
+	provinces={
+		11151
+	}
+	history={
+		owner = NOR
+		add_core_of = NOR
+		add_core_of = NR2
+		set_demilitarized_zone = yes
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

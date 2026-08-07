@@ -1,0 +1,16 @@
+state={
+	id=6731
+	name="STATE_6731"
+	provinces={
+		16859 
+	}
+	history={
+	    owner = NGA
+        add_core_of = NGA
+        add_core_of = NNI
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

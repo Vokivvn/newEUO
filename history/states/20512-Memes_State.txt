@@ -1,0 +1,17 @@
+state={
+	id=20512
+	name="STATE_20512"
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = BDK
+		add_claim_by = STK
+	}
+	provinces={
+		3216
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

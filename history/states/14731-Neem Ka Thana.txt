@@ -1,0 +1,21 @@
+state={
+	id=14731
+	name="STATE_14731"
+	
+	state_category=pastoral
+	
+	history={
+		owner = JIP
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = RJS
+		add_core_of = JIP
+	}
+	
+	provinces={
+		15010
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

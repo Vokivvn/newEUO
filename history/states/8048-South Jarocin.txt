@@ -1,0 +1,21 @@
+state={
+	id=8048
+	name="STATE_8048"
+	provinces={
+		17870 
+	}
+	history={
+		owner = POL
+		add_core_of = POL
+		add_core_of = LWO
+		add_core_of = GAL
+		add_core_of = WUK
+        add_core_of = PL2
+		add_claim_by = PL3
+		add_claim_by = UKR
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

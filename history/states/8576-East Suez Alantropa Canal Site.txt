@@ -1,0 +1,21 @@
+state={
+	id=8576
+	name="STATE_8576"
+	provinces={
+		18135 
+	}
+	history={
+		owner = CZE
+		add_claim_by = GER
+		add_claim_by = LIE
+		add_core_of = CZE
+		add_core_of = CZC
+		add_core_of = SIL
+		add_core_of = SDT
+		add_core_of = GGM
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

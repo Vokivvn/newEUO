@@ -1,0 +1,20 @@
+state={
+	id=4309
+	name="STATE_4309"
+	provinces={
+		15042 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = NSE
+		add_core_of = NSE
+		add_core_of = ANI
+		add_core_of = RAJ 
+		add_core_of = IND
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

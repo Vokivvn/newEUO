@@ -1,0 +1,19 @@
+state={
+	id=13308
+	name="STATE_13308"
+	
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = STK
+		add_core_of = TKG
+		add_core_of = KBU
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		10852
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

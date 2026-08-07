@@ -1,0 +1,20 @@
+state={
+	id=16807
+	name="STATE_16807"
+	provinces={
+		5553
+	}
+	
+	history = {
+		owner = HS6
+		add_core_of = HS6
+		add_core_of = HIA
+		add_claim_by = RAJ 
+		add_core_of = IND
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

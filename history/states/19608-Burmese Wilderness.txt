@@ -1,0 +1,19 @@
+state={
+	id=19608
+	name="STATE_19608"
+	state_category=pastoral
+	history={
+		owner = BRM
+		add_core_of = BRM
+		add_core_of = RKH
+		add_core_of = S60
+		
+	}
+	
+	provinces={
+		20425
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
+	

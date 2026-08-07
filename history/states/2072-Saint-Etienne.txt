@@ -1,0 +1,22 @@
+
+state={
+	id=2072
+	name="STATE_2072"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = OCC
+		add_core_of = FR2
+		add_core_of = AUV
+
+	}
+
+	provinces={
+		9748 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+state={
+	id=6090
+	name="STATE_6090"
+	provinces={
+		16461 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = BLR
+		add_core_of = SOV
+		add_core_of = BLR
+		add_core_of = VTB
+		add_core_of = WR2
+		add_claim_by = LV2
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=286
+	name="STATE_286"
+
+	history={
+		add_core_of = INC
+		add_core_of = VIN
+		owner = ANN
+		add_core_of = SVI
+		add_core_of = ANN
+
+	}
+
+	provinces={
+		10137 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

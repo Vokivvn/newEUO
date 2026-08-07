@@ -1,0 +1,23 @@
+
+state={
+	id=2392
+	name="STATE_2392"
+	manpower=1
+	state_category = tiny_island
+
+	history={
+		owner = BAS
+		add_core_of = BAS
+		add_core_of = AGL
+		add_core_of = WIF
+		
+		victory_points = {
+			13874 1 
+		}
+	}
+
+	provinces={
+		13874
+	}
+	local_supplies=0.0 
+}

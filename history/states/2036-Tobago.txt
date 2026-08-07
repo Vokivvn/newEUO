@@ -1,0 +1,19 @@
+state={
+	id=2036
+	name="STATE_2036"
+	manpower = 413119
+	state_category = rural
+
+	history={
+		owner = TRI
+		add_core_of = TRI
+		add_core_of = WIF
+		
+		victory_points = {
+			13012 1 
+		}
+	}
+	
+	provinces={ 13012 }
+	local_supplies=0.0 
+}

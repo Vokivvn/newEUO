@@ -1,0 +1,18 @@
+state={
+	id=3176
+	name="STATE_3176"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = PRJ
+		add_core_of = TKO
+	}
+
+	provinces={
+		14288
+	}
+	state_category=pastoral
+	manpower=1
+	local_supplies=0.0 
+}

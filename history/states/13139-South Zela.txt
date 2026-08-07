@@ -1,0 +1,17 @@
+state={
+	id=13139
+	name="STATE_13139"
+	provinces={
+		1711  
+	}
+	history={
+	    owner = ETH
+        add_core_of = ETH
+		add_core_of = BGZ
+		add_core_of = E03
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

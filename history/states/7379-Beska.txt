@@ -1,0 +1,21 @@
+state={
+	id=7379
+	name="STATE_7379"
+	provinces={
+		17416 
+	}
+	history={
+	    owner = YUG
+        add_core_of = YUG
+        add_core_of = SER
+        add_core_of = VJD
+	add_claim_by = HUN
+		victory_points = {
+			17416 5
+		}
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

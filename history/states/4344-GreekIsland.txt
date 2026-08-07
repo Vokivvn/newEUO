@@ -1,0 +1,18 @@
+state={
+	id=4344
+	name="STATE_4344"
+	history={
+		add_core_of = NAE
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = IKR
+		set_demilitarized_zone = yes
+	}
+	provinces={
+		15067
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

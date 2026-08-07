@@ -1,0 +1,24 @@
+
+state={
+	id=4781
+	name="STATE_4781"
+	
+	provinces={
+		15586 
+	}
+	
+	history={
+		
+		owner = MEX 
+		add_core_of = MEX
+		add_core_of = MXC
+		victory_points = {
+			15586 5
+		}
+	}
+	
+	manpower = 6900
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

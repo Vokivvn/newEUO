@@ -1,0 +1,18 @@
+state={
+	id=3709
+	name="STATE_3709"
+	provinces={
+		13085 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = GUA
+		add_core_of = GUA 
+	    add_core_of = FCA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

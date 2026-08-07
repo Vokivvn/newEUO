@@ -1,0 +1,23 @@
+state={
+	id=12981
+	name="STATE_12981"
+	
+	state_category=town
+
+	history={
+		owner = MNN
+		add_core_of = MNN
+		add_core_of = INS 
+		add_core_of = IDS
+		add_core_of = WSI
+		add_core_of = SLW
+	}
+	
+	provinces={
+		450
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	
+	local_supplies=0.0 
+}

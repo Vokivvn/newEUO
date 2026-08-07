@@ -1,0 +1,24 @@
+
+state={
+	id=3658
+	name="STATE_3658"
+	
+	provinces={
+		4904 
+	}
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = YUC
+		add_core_of = CPC
+		victory_points = {
+			4904 5
+		}
+	}
+	
+	state_category = pastoral
+	manpower = 1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

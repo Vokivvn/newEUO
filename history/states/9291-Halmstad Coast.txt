@@ -1,0 +1,19 @@
+state={
+	id=9291
+	name="STATE_9291"
+	provinces={
+		18556 
+	}
+	history={
+		owner = TAN
+		add_core_of = TAN
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = SBR
+		add_core_of = M37
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

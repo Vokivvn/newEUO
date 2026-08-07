@@ -1,0 +1,15 @@
+state={
+	id=13637
+	name="STATE_13637"
+	history={
+		owner = TUN
+		add_core_of = TUN
+	}
+	provinces={
+		4129
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

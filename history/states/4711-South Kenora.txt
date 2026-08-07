@@ -1,0 +1,20 @@
+state={
+	id=4711
+	name="STATE_4711"
+	provinces={
+		15542 
+	}
+	history={
+		
+		owner = CAN 
+		add_core_of = CAN
+		add_core_of = ONT
+		add_core_of = MET
+		add_core_of = OT2
+		
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

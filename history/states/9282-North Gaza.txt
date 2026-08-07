@@ -1,0 +1,18 @@
+state={
+	id=9282
+	name="STATE_9282"
+	provinces={
+		18546 
+	}
+	history={
+		owner = PAL
+		add_core_of = KJR
+		add_core_of = PAL
+		add_core_of = GZS
+		add_claim_by = OML
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=8987
+	name="STATE_8987"
+	history={
+		owner = AST
+		add_core_of = AST
+		add_core_of = SAT
+		add_core_of = A07
+		
+	}
+	provinces={
+		5183
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

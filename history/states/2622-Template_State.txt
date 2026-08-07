@@ -1,0 +1,16 @@
+state={
+	id=2622
+	name="STATE_2622"
+	history={
+		owner = PAC 
+		add_core_of = MAR
+		add_core_of = PAC
+	}
+	provinces={
+		14104
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

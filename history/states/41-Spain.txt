@@ -1,0 +1,24 @@
+
+state={
+	id=41
+	name="STATE_41" # Madrid
+	manpower = 2269659
+
+	state_category = city
+
+
+	history={
+		owner = SPR
+		victory_points = {
+			3938 30.0 
+		}
+		add_core_of = SPR
+		add_core_of = MDD
+		add_core_of = CST
+	}
+
+	provinces={
+		3938
+	}
+	local_supplies=0.0 
+}

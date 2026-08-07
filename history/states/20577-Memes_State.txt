@@ -1,0 +1,17 @@
+state={
+	id=20577
+	name="STATE_20577"
+	provinces={
+		11200
+	}
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = BOS
+		add_core_of = ILY
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,24 @@
+state={
+	id=2667
+	name="STATE_2667"
+	provinces={
+		14735
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = HEN
+		add_core_of = NSU
+		add_core_of = WGR
+		add_claim_by = HES
+		add_claim_by = HKA
+		add_core_of = HSN
+		add_core_of = SGM
+		add_core_of = KWF
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

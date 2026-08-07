@@ -1,0 +1,25 @@
+
+state={
+	id=754
+	name="STATE_754"
+
+	history={
+		owner = YSH
+		add_core_of = NGH
+		add_core_of = YSH
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = XSM
+		victory_points = {
+			12732 3 
+		}
+	}
+
+	provinces={
+		1882 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=7888
+	name="STATE_7888"
+	provinces={
+		2068 
+	}
+	history={
+		owner = MLI
+		add_core_of = MLI
+		add_core_of = SD0
+		add_core_of = TKT
+		add_claim_by = AZW
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

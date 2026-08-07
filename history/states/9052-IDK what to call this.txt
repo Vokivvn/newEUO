@@ -1,0 +1,16 @@
+state={
+	id=9052
+	name="STATE_9052"
+	provinces={
+		18376 
+	}
+	history={
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = TIG
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

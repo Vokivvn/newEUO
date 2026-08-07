@@ -1,0 +1,17 @@
+state={
+	id=4891
+	name="STATE_4891"
+	provinces={
+		3025 
+	}
+	history={
+		owner = FIN
+		add_core_of = FIN
+		add_core_of = OST
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

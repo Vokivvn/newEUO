@@ -1,0 +1,26 @@
+
+state={
+	id=2388
+	name="STATE_2388"
+	manpower=1
+	state_category = tiny_island
+
+	history={
+		owner = WVI
+		add_core_of = USA
+		add_core_of = CSA
+		add_core_of = WVI
+		buildings = {
+
+			13870 = {
+
+			}
+			
+		}
+	}
+
+	provinces={
+		13870
+	}
+	local_supplies=0.0 
+}

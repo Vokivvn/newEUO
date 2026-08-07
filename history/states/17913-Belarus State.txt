@@ -1,0 +1,21 @@
+state={
+	id=17913
+	name="STATE_17913"
+	provinces={
+		8657
+	}
+
+	history = {
+		owner = BLR
+		add_core_of = BLR
+		add_core_of = KLM
+		add_core_of = SOV
+		add_core_of = SMO
+		add_claim_by = LV2
+	}
+
+	manpower=1
+	buildings_max_level_factor = 1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+state={
+	id=3779
+	name="STATE_3779"
+	provinces={
+		6554
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = UKR
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = NOV
+		add_core_of = GLD
+		add_core_of = KHK
+		add_claim_by = UA2
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

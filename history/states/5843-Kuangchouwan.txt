@@ -1,0 +1,24 @@
+
+state={
+	id=5843
+	name="STATE_5843"
+	
+	provinces={
+		16245 
+	}
+
+	history={
+	    owner = KT2
+		add_core_of = KT2
+		add_core_of = PRC
+		add_core_of = CHI
+		victory_points = {
+			16245 5
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	manpower = 1000
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=1406
+	name="STATE_1406"
+	manpower = 1
+	
+	state_category = rural
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_claim_by = CSA
+		add_core_of = NMX
+	}
+
+	provinces={
+		13426 
+	}
+	local_supplies=0.0 
+}

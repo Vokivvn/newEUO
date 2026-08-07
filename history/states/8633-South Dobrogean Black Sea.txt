@@ -1,0 +1,18 @@
+state={
+	id=8633
+	name="STATE_8633"
+	provinces={
+		18250 
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		add_core_of = GLE
+		add_core_of = AQ2
+		add_core_of = MAJ
+	}
+	manpower = 1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

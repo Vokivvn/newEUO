@@ -1,0 +1,22 @@
+state={
+	id=2080
+	name="STATE_2080"
+	
+	state_category=rural
+
+	history={
+		owner = BLR
+		add_core_of = SOV
+		add_core_of = BLR
+		add_core_of = BOB
+		add_core_of = WR2
+		add_claim_by = LV2
+	}
+
+	provinces={
+		6373 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

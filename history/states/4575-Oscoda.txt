@@ -1,0 +1,22 @@
+
+state={
+	id=4575
+	name="STATE_4575"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = GMA
+		add_core_of = MCH
+		add_claim_by = SUP
+
+	}
+
+	provinces={
+		15399 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

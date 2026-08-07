@@ -1,0 +1,17 @@
+state={
+	id=9995
+	name="STATE_9995"
+	provinces={
+		19375 
+	}
+	history={
+		owner = MRT
+		add_core_of = MRT
+		add_core_of = SD0
+		add_core_of = BRK
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

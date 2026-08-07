@@ -1,0 +1,20 @@
+state={
+	id=16965
+	name="STATE_16965"
+	provinces={
+		20528
+	}
+	
+	history = {
+		owner = TGW
+		add_core_of = TGW
+		add_claim_by = RAJ 
+		add_core_of = URK
+		add_core_of = IND
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

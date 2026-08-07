@@ -1,0 +1,19 @@
+
+state={
+	id=20578
+	name="STATE_20578"
+
+	history={
+		owner = SWE
+		add_core_of = SWE
+		add_core_of = GOL
+	}
+
+	provinces={
+		23 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

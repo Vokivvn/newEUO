@@ -1,0 +1,17 @@
+state={
+	id=9888
+	name="STATE_9888"
+	provinces={
+		19218 
+	}
+	history={
+	    owner = COG
+        add_core_of = COG
+		add_core_of = KV2
+		add_core_of = C07
+    }
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

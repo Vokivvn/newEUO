@@ -1,0 +1,26 @@
+
+state={
+	id=632
+	name="STATE_632"
+	manpower=1
+	state_category = tiny_island
+
+	history={
+		owner = HAW
+		add_core_of = HAW
+		buildings = {
+
+			13047 = {
+
+			}
+		}
+		victory_points = {
+			13047 1 
+		}
+
+	}
+	provinces={
+		13047 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=4213
+	name="STATE_4213"
+	provinces={
+		1238 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = COC
+		add_core_of = COC
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = KER
+		victory_points = {
+			1238 25
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

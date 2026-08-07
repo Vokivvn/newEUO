@@ -1,0 +1,18 @@
+state={
+	id=5501
+	name="STATE_5501"
+	provinces={
+		15919 
+	}
+	history={
+		owner = POL
+		add_core_of = POL
+		add_core_of = BLR
+		add_core_of = PSE
+		add_core_of = UA2
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

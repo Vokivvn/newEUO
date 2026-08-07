@@ -1,0 +1,21 @@
+
+state={
+	id=1408
+	name="STATE_1408"
+	manpower = 1
+	
+	state_category = rural
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = ABT
+		add_core_of = MET
+		
+	}
+
+	provinces={
+		13443
+	}
+	local_supplies=0.0 
+}

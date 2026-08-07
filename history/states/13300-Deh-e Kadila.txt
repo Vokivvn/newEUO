@@ -1,0 +1,19 @@
+state={
+	id=13300
+	name="STATE_13300"
+	
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = SST
+		add_core_of = KDR
+		add_claim_by = BLO
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		2101
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

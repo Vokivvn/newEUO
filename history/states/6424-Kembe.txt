@@ -1,0 +1,16 @@
+state={
+	id=6424
+	name="STATE_6424"
+	provinces={
+		16807 
+	}
+	history={
+	    owner = FEA
+		add_core_of = FEA
+        add_core_of = CAR
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

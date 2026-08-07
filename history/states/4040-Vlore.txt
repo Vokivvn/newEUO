@@ -1,0 +1,19 @@
+state={
+	id=4040
+	name="STATE_4040"
+	provinces={
+		14481 
+	}
+	history={
+		owner = ALB
+		victory_points = {
+			14481 1
+		}
+		add_core_of = ALB
+		add_core_of = EPR
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

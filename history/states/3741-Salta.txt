@@ -1,0 +1,21 @@
+state={
+	id=3741
+	name="STATE_3741"
+	provinces={
+		11001 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		add_core_of = STA
+		victory_points = {
+			11001 5 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

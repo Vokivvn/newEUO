@@ -1,0 +1,23 @@
+state={
+	id=3049
+	name="STATE_3049"
+	history={
+		
+		owner = CAN 
+		add_core_of = CAN
+		add_core_of = SAS
+		add_core_of = MET
+		
+		victory_points = {
+			11440 1
+		}
+		
+	}
+	provinces={
+		11440 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

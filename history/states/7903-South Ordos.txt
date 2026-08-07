@@ -1,0 +1,24 @@
+
+state={
+	id=7903
+	name="STATE_7903"
+
+	history={
+		owner = DB3
+		add_core_of = DB3
+		add_core_of = SUI
+		add_core_of = PIL
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = INM
+
+	}
+
+	provinces={
+		17687 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

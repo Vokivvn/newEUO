@@ -1,0 +1,16 @@
+state={
+	id=2452
+	name="STATE_2452"
+	history={
+		owner = USA
+		add_core_of = NIC
+		 add_core_of = FCA 
+	}
+	provinces={
+		13935
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

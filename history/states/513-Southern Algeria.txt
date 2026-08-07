@@ -1,0 +1,20 @@
+
+state={
+	id=513
+	name="STATE_513" # Tlemcen
+	manpower = 811486
+	
+	state_category = wasteland
+
+	history={
+	    owner = SGR
+        add_core_of = SGR
+        add_core_of = ALG
+	add_core_of = SD0
+	}
+
+	provinces={
+		4903
+	}
+	local_supplies=0.0 
+}

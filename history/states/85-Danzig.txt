@@ -1,0 +1,28 @@
+
+state={
+	id=85
+	name="STATE_85"
+
+	history={
+		owner = DAN
+		add_claim_by = GER
+		add_core_of = POL
+		add_core_of = DAN
+		add_core_of = PRE
+		add_core_of = WPR
+		add_core_of = PWP
+		add_core_of = KSH
+		add_core_of = HGM
+		victory_points = {
+			362 25
+		}
+	}
+
+	provinces={
+		362 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

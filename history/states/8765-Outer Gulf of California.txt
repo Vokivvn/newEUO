@@ -1,0 +1,19 @@
+state={
+	id=8765
+	name="STATE_8765"
+	provinces={
+		5655 
+	}
+	history={
+		owner = SHA
+		add_core_of = BRM
+		add_core_of = SHA
+		add_core_of = S50
+		add_core_of = S61
+
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

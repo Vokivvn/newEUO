@@ -1,0 +1,20 @@
+state={
+	id=1677
+	name="STATE_1677"
+	
+	history={
+		owner = BRA
+		add_core_of = BRA
+		add_core_of = ACR
+
+	}
+	
+	provinces={
+		13553 
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.0 
+}

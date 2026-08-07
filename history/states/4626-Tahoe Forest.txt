@@ -1,0 +1,19 @@
+state={
+	id=4626
+	name="STATE_4626"
+	provinces={
+		15444
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = CAL
+		add_core_of = JFR
+		add_core_of = NCA
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

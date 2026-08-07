@@ -1,0 +1,15 @@
+state={
+	id=6661
+	name="STATE_6661"
+	provinces={
+		5045 
+	}
+	history={
+	    owner = MLI
+        add_core_of = MLI
+    }	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

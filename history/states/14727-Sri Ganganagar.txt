@@ -1,0 +1,21 @@
+state={
+	id=14727
+	name="STATE_14727"
+	
+	state_category=pastoral
+	
+	history={
+		owner = BKN
+		add_core_of = BKN
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = RJS
+	}
+	
+	provinces={
+		12041
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

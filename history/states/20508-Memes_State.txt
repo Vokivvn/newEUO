@@ -1,0 +1,18 @@
+state={
+	id=20508
+	name="STATE_20508"
+	provinces={
+		19841
+	}
+	history={
+	    owner = PAL
+        add_core_of = PAL
+		add_claim_by = OML
+		add_claim_by = SIN
+		add_claim_by = ISR
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

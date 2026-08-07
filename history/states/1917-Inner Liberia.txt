@@ -1,0 +1,19 @@
+state={
+	id=1917
+	name="STATE_1917"
+	
+	state_category = rural
+	
+	history= {
+		owner = LIB
+		add_core_of = LIB
+		add_core_of = LB2
+	}
+	
+	provinces={
+		13639 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

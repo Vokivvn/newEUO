@@ -1,0 +1,18 @@
+state={
+	id=9154
+	name="STATE_9154"
+	provinces={
+		18471 
+	}
+	history={
+		owner = VEN
+		add_core_of = VEN
+		victory_points = {
+		9154 5 
+		}
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

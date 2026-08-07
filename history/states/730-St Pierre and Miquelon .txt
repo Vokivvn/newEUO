@@ -1,0 +1,17 @@
+state={
+	id=730
+	name="STATE_730"
+	manpower=1
+	state_category = tiny_island
+
+	history={
+		owner = SPM
+		add_core_of = SPM
+		add_core_of = CAN
+        add_core_of = NFL
+		
+	}
+	
+	provinces={ 373 }
+	local_supplies=0.0 
+}

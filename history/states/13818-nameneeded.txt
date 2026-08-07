@@ -1,0 +1,17 @@
+state={
+	id=13818
+	name="STATE_13818"
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = SBR
+		add_core_of = RUS
+	}
+	provinces={
+		4842
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

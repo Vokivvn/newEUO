@@ -1,0 +1,17 @@
+state={
+	id=20191
+	name="STATE_20191"
+	
+	history = {
+		owner = SWE
+		add_core_of = SWE
+		add_core_of = SVE
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		1802
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

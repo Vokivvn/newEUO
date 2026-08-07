@@ -1,0 +1,22 @@
+state={
+	id=2383
+	name="STATE_2383"
+	manpower=1
+	state_category = tiny_island
+
+	history={
+		owner = SAO
+		add_core_of = SAO
+		buildings = {
+
+			13859 ={
+
+			}
+		}
+	}
+
+	provinces={
+		13859
+	}
+	local_supplies=0.0 
+}

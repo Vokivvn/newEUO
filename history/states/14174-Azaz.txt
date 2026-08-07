@@ -1,0 +1,18 @@
+state={
+	id=14174
+	name="STATE_14174"
+	provinces={
+		2480 
+	}
+	history={
+	    owner = SYR
+		add_core_of = EDS
+        add_core_of = SYR
+        add_core_of = WTC
+		add_core_of = SR2
+    }
+	manpower = 1000
+	state_category = small_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

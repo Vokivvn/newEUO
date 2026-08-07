@@ -1,0 +1,19 @@
+state={
+	id=20340
+	name="STATE_20340"
+	provinces={
+		3285
+	}
+	history={
+	    owner = TUR
+        add_core_of = TUR
+        add_core_of = ASY
+        add_core_of = KUR
+		add_core_of = MLP
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

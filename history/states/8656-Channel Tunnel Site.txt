@@ -1,0 +1,18 @@
+state={
+	id=8656
+	name="STATE_8656"
+	provinces={
+		18273 
+	}
+	history={
+		owner = BIH
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = BHI 
+		add_core_of = BIH
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

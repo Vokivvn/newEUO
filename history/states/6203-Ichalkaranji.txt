@@ -1,0 +1,23 @@
+state={
+	id=6203
+	name="STATE_6203"
+	provinces={
+		16531 
+	}
+	history={
+		owner = SGT
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = MHS
+		add_core_of = SGT
+		
+		victory_points = {
+			16531 5
+		}
+	}
+ 
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	manpower=1
+	local_supplies=0.0 
+}

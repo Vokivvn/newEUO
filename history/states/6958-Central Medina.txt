@@ -1,0 +1,16 @@
+state={
+	id=6958
+	name="STATE_6958"
+	provinces={
+		17322 
+	}
+	history={
+	    owner = HJZ
+        add_core_of = SAU
+
+    }	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

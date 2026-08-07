@@ -1,0 +1,21 @@
+
+state={
+	id=17490
+	name="STATE_17490"
+	provinces={
+		8137
+	}
+
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		add_core_of = ETC
+		add_core_of = KUR
+		add_core_of = ASY
+	}
+
+	manpower=1
+	buildings_max_level_factor = 1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

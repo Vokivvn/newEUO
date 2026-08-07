@@ -1,0 +1,17 @@
+state={
+	id=7806
+	name="STATE_7806"
+	provinces={
+		17605 
+	}
+	history={
+		owner = ANG
+		add_core_of = ANG
+		add_core_of = MBW
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

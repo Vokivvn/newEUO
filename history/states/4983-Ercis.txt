@@ -1,0 +1,18 @@
+state={
+	id=4983
+	name="STATE_4983"
+	provinces={
+		7470 
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = KUR
+		add_core_of = BZD
+        add_claim_by = ARM
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=164
+	provinces={ 10007 }	
+	history={
+		owner = DDO
+		victory_points = {
+			10007 1 
+		}
+		add_core_of = DDO
+		add_core_of = SGN
+		add_core_of = GRE
+		add_claim_by = OML
+	}
+	name="STATE_164"
+	manpower = 120000
+	state_category = small_island
+	local_supplies=0.0 
+}

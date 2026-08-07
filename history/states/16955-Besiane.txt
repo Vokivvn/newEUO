@@ -1,0 +1,19 @@
+state={
+	id=16955
+	name="STATE_16955"
+	provinces={
+		5716
+	}
+	
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = KOS
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

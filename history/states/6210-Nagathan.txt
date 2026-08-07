@@ -1,0 +1,20 @@
+state={
+	id=6210
+	name="STATE_6210"
+	provinces={
+		16530 
+	}
+	manpower=1
+	history={
+		owner = AKT
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = AKT
+		add_core_of = MHS
+		
+	}
+ 
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

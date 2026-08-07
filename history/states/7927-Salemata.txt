@@ -1,0 +1,15 @@
+state={
+	id=7927
+	name="STATE_7927"
+	provinces={
+		17718 
+	}
+	history={
+		owner = SEN
+		add_core_of = SEN
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

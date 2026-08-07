@@ -1,0 +1,15 @@
+state={
+	id=7064
+	name="STATE_7064"
+	provinces={
+		17334 
+	}
+	history={
+	    owner = TIB
+        add_core_of = TIB
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=2880
+	name="STATE_2880"
+	history={
+		
+		owner = SPR 
+		add_core_of = SPR
+		add_core_of = ATR
+	}
+	provinces={
+		6749 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

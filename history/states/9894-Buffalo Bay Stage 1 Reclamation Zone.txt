@@ -1,0 +1,19 @@
+state={
+	id=9894
+	name="STATE_9894"
+	provinces={
+		19228
+	}
+	history={
+		owner = NIX
+		add_core_of = NIX
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = INM
+		add_core_of = M39
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

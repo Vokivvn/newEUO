@@ -1,0 +1,19 @@
+state={
+	id=4136
+	name="STATE_4136"
+	provinces={
+		14822 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ENG
+		add_core_of = CHI
+		add_core_of = PRC
+		add_claim_by = ENG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

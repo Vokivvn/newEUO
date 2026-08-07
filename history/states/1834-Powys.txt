@@ -1,0 +1,19 @@
+state= {
+	id=1834
+	name="STATE_1834"
+	manpower = 2
+	
+	state_category = city
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = WLS
+		add_core_of = AVN
+		
+	}
+
+	provinces=
+	{
+9364 }
+	local_supplies=0.0 
+}

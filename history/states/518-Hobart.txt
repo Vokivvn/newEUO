@@ -1,0 +1,23 @@
+state=
+{
+	id=518
+	name="STATE_518"
+	manpower = 224000
+	
+	state_category = small_island
+
+	history=
+	{
+		owner = AST
+		victory_points = {
+			5187 1 
+		}
+		add_core_of = AST
+		add_core_of = TAS
+		
+	}
+	provinces={
+		5187
+	}
+	local_supplies=0.0 
+}

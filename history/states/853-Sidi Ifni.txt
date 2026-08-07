@@ -1,0 +1,22 @@
+state={
+	id=853
+	name="STATE_853"
+
+	history={
+		owner = IFN
+		victory points = {
+			12857 5
+		}
+		add_core_of = IFN
+		add_core_of = MOR
+
+	}
+
+	provinces={
+		12857 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.0 
+}

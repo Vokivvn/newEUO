@@ -1,0 +1,18 @@
+state={
+	id=7478
+	name="STATE_7478"
+	provinces={
+		17144 
+	}
+	history={
+	    owner = BEL
+        add_core_of = BEL
+        add_core_of = FLA
+	add_core_of = WFN
+	add_core_of = BL2
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

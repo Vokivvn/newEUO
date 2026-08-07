@@ -1,0 +1,16 @@
+state={
+	id=9598
+	name="STATE_9598"
+	provinces={
+		18859
+	}
+	history={
+	    owner = TZN
+        add_core_of = TZN
+		
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

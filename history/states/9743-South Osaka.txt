@@ -1,0 +1,16 @@
+state={
+	id=9743
+	name="STATE_9743"
+	provinces={
+		18987 
+	}
+	history={
+	    owner = JAP
+        add_core_of = JAP
+		add_core_of = OSA
+        add_core_of = ROJ
+    }	
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

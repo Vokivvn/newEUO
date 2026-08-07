@@ -1,0 +1,22 @@
+state={
+	id=14723
+	name="STATE_14723"
+	
+	state_category=pastoral
+	
+	history={
+		owner = AJR
+		add_core_of = AJR
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = RJS
+		add_claim_by = UDP
+	}
+	
+	provinces={
+		15037
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

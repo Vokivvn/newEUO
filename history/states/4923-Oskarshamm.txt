@@ -1,0 +1,17 @@
+state={
+	id=4923
+	name="STATE_4923"
+	provinces={
+		3229 
+	}
+	history={
+		owner = SWE
+		add_core_of = SWE
+		add_core_of = GOL
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

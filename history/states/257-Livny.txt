@@ -1,0 +1,23 @@
+
+state={
+	id=257
+	name="STATE_257"
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = MSC
+		add_claim_by = UA2
+		victory_points = {
+			367 5
+		}
+	}
+
+	provinces={
+		367
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

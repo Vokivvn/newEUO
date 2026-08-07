@@ -1,0 +1,19 @@
+state={
+	id=7410
+	name="STATE_7410"
+	provinces={
+		17168 
+	}
+	history={
+	    owner = POL
+		add_claim_by = GER
+        add_core_of = POL
+		add_core_of = BIY
+		add_core_of = NKO
+		add_core_of = HGM
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

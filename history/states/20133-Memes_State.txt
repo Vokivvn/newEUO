@@ -1,0 +1,17 @@
+state={
+	id=20133
+	name="STATE_20133"
+	provinces={
+		7774
+	}
+	history={
+		owner = SUD
+		add_core_of = SUD
+		add_core_of = DRF
+		add_core_of = RSF
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,31 @@
+state={
+	id=739
+	name="STATE_739"
+
+	history={
+		owner = CAN
+		buildings = {
+
+
+			1869 = {
+
+
+			}
+
+
+		}
+		add_core_of = CAN
+		add_core_of = BRC
+		add_core_of = HDA
+		add_core_of = CAS
+		
+	}
+
+	provinces={
+		1869
+	}
+	manpower=1
+	buildings_max_level_factor=1	
+	state_category="small_island"
+	local_supplies=0.0 
+}

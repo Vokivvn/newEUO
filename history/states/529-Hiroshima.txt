@@ -1,0 +1,22 @@
+state={
+	id=529
+	name="STATE_529"
+	manpower = 1000
+	state_category=pastoral
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = ROJ
+		add_core_of = HIR
+		
+		victory_points = {
+			1092 30
+		}		
+	}
+
+	provinces={
+		1092
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=3177
+	name="STATE_3177"
+	history={
+		
+		owner = AST 
+		add_core_of = AST
+		add_core_of = WAT
+		
+	}
+
+	provinces={
+		14292 
+	}
+	manpower=1
+	state_category = small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

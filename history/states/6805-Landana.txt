@@ -1,0 +1,16 @@
+state={
+	id=6805
+	name="STATE_6805"
+	provinces={
+		17246 
+	}
+	history={
+	    owner = CAB
+        add_core_of = ANG
+	add_core_of = CAB
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=4991
+	name="STATE_4991"
+	provinces={
+		5050 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = KUR
+		add_core_of = LRS
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

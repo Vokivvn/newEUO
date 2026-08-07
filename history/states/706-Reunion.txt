@@ -1,0 +1,21 @@
+
+state={
+	id=706
+	name="STATE_706"
+	
+	provinces={
+		13017
+	}
+	
+	history={
+		owner = REU
+		add_core_of = REU
+		victory_points = {
+			13017 5
+		}
+	}
+	
+	state_category = small_island
+	manpower = 186637
+	local_supplies=0.0 
+}

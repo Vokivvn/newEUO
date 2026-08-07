@@ -1,0 +1,18 @@
+state={
+	id=5569
+	name="STATE_5569"
+	provinces={
+		4384 
+	}
+	history={
+		
+		owner = FMS
+		add_core_of = FMS
+		add_core_of = MAL
+		add_core_of = PRK
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}
