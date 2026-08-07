@@ -1,35 +1,116 @@
-﻿capital = 119
+﻿capital = 1828
 
-recruit_character = NIR_gusty_spence
-recruit_character = NIR_mad_dog_adair
-recruit_character = NIR_jim_allister
-
-add_ideas = {
-	NIR_unrecognised_state
-	NIR_IRA_insurgency
-
-	#laws
-	isolation
-	free_trade
-	extensive_conscription
+set_popularities = {
+	authoritarian_monarchism  = 5
+	theocratic = 5
+	conservative_monarchism = 70
+	liberal_republic = 12
+	socialism_ideology = 8
 }
 
-set_politics = {
-	ruling_party = autocratic
-	last_election = "1936.1.1"
+set_politics = { 
+	ruling_party = conservative_monarchism
+	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 38
-	national_socialism = 15
-	reactionary = 5
-	fascism = 0
-	syncretism = 11
-	anarchism = 0
-	revolutionary_socialism = 15
-	moderate_socialism = 2
-	liberalism = 0
-	conservatism = 14
+create_country_leader = {
+	name = "Earl Henry of Windsor"
+	desc = ""
+	picture = "gfx/leaders/NIR/Portrait_Prince_Henry.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Óglaigh na hÉireann"
+	desc = ""
+	picture = "gfx/leaders/NIR/Portrait_IRA.dds"
+	expire = "1989.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Basil Stanlake Brooke"
+	desc = ""
+	picture = "gfx/leaders/NIR/NIR_Brooke_stratmon.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Provisional President Peadar O'Donnell"
+	desc = ""
+	picture = "gfx/leaders/NIR/NIR_Donnell_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Robert Lindsay Crawford"
+	desc = ""
+	picture = "gfx/leaders/NIR/NIR_Crawford_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister James Craig"
+	desc = ""
+	picture = "gfx/leaders/NIR/NIR_Craig.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Administrator James Craig"
+	desc = ""
+	picture = "gfx/leaders/NIR/NIR_Craig.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rí Forga X ó Ulaidh"
+	desc = ""
+	picture = "gfx/leaders/NIR/NIR_Forga.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grand Master James Craig"
+	desc = ""
+	picture = "gfx/leaders/NIR/NIR_Craig.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ceannasaí Dorothy Grace Waring"
+	desc = ""
+	picture = "gfx/leaders/NIR/NIR_Dorothy_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
 }

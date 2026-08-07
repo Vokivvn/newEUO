@@ -1,0 +1,23 @@
+state={
+	id=1163
+	name="STATE_1163"
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		add_core_of = NMX
+		add_claim_by = TEX
+		victory_points = {
+			10642 1 
+		}
+	}
+
+
+	provinces={
+		10642
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = small_town
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=11236
+	name="STATE_11236"
+	
+	provinces={
+		1169
+	}
+	
+	history = {
+	    owner = HB2
+		add_core_of = HB2
+		add_core_of = CHI
+		add_core_of = PSC
+		add_core_of = PRC
+		add_core_of = RGC
+		add_core_of = CIL
+		victory_points = {
+			1169 5
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

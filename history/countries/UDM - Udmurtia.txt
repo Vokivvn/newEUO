@@ -1,1 +1,35 @@
-﻿capital = 399 #Izhevsk
+﻿capital = 18262
+
+set_popularities = {
+	vanguardism = 100
+}
+	
+set_cosmetic_tag = RUS_RED
+
+set_politics = {
+	
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prezidént Jákov Elizárovič Panteléev"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/UDM_Panteleev.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pérvyj Sekretárʹ Udmúrtskogo obkóma VKP(b) Borís Zaxárovič Bérman"
+	desc = ""
+	picture = "gfx/leaders/UDM/Boris_Zakharovich_Berman.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}

@@ -1,14 +1,91 @@
-﻿capital = 670  
+﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
 
-set_politics = {
-	ruling_party = autocratic
+set_cosmetic_tag = FRA_BLUE
+
+	set_popularities = {
+		authoritarian_monarchism 
+			 = 99
+	        communism
+			 = 1
+		neutrality
+			 = 0
+
+               }
+	set_politics = {
+ ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Kasad Sisavang Phoulivong" 
+	desc = ""
+	picture = "gfx/leaders/LAO/LAO_Vong.tga"
+	expire = "1953.3.1"
+	ideology = authmon
+	traits = {
+	}
 }
 
-recruit_character = LAO_Soulivong_Savang
+create_country_leader = {
+	name = "Commissar Souphanouvong"
+	desc = ""
+	picture = "gfx/leaders/LAO/LAO_Souphanouvong_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kasad Boun Oum Na Champassak"
+	desc = ""
+	picture = "gfx/leaders/LAO/LAO_Boun_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kasad Sisavang Phoulivong"
+	desc = ""
+	picture = "gfx/leaders/LAO/LAO_Vong.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Kou Voravong"
+	desc = ""
+	picture = "gfx/leaders/LAO/LAO_Voravong_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Phetsarath Ratanavongsa"
+	desc = ""
+	picture = "gfx/leaders/LAO/LAO_Ratanavongsa_authdem.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governor Horace Leslie Birks"
+	desc = ""
+	picture = "gfx/leaders/LAO/LAO_Birks.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}

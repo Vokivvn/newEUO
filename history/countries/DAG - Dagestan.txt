@@ -1,1 +1,34 @@
-﻿capital = 232 #Machakala
+﻿capital = 10136
+
+set_popularities = {
+	vanguardism = 100	
+}
+	
+set_cosmetic_tag = RUS_RED
+	
+set_politics = { 
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Predsedátelʹ Dagestánskogo obkóma VKP(b) Nažmutdín Panaxovič Samurskij"
+	desc = ""
+	picture = "gfx/leaders/DAG/Nazhmutdin_Panakhovich_Samurskiy.tga"
+	expire = "1960.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsedatel Rashid Khan Zavid oglu Gaplanov"
+	desc = ""
+	picture = "gfx/leaders/DAG/DAG_Gaplanov_dem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}

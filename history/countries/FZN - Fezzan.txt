@@ -1,0 +1,47 @@
+﻿capital = 2369
+
+set_popularities = {
+        democratic = 15
+        communism = 25
+        fascism = 25
+        neutrality = 35
+
+}
+
+set_politics = {
+	
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gouverneur Raymond Delange"
+	desc = ""
+	picture = "gfx/leaders/LBA/LBA_Delange_authdem.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Italo Balbo"
+	desc = ""
+	picture = "gfx/leaders/LBA/Portrait_Italo_Balbo.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Raisa Hussein Yousef Maziq"
+	desc = ""
+	picture = "gfx/leaders/LBA/LBA_Maziq_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}

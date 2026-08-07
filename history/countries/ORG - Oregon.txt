@@ -1,0 +1,125 @@
+﻿capital = 3055
+
+
+	set_popularities = {
+		democratic 
+			 = 97
+		liberal_republic
+			 = 3
+		}
+	set_politics = { 
+ ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Charles Henry Martin"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Martin.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Territorial Governor Charles Henry Martin"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Martin.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Charles Henry Martin"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Martin.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsarina Anastasia I of Romanov"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Anastasia.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grand Duchess Anastasia I of Romanov"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Anastasia.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Charles Linza McNary"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_McNary.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Military Governor Dwight David Ironhewer"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Eisenhower.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Bull Connor"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Connor.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Herbert Stanley Morrison"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Morrison.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Herbert Stanley Morrison"
+	desc = ""
+	picture = "gfx/leaders/ORG/ORG_Morrison.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}

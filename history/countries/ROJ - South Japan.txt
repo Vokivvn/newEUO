@@ -1,0 +1,237 @@
+﻿capital = 2192
+
+set_popularities = {
+	left_anarchism = 2
+	vanguardism = 5
+	communism = 3
+	centrist_monarchism = 35
+	conservative_monarchism = 25
+	neutrality = 30
+}
+
+set_politics = { 
+	ruling_party = centrist_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 50
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ten'nō Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "gfx/leaders/ROJ/Portrait_Japan_Hirohito.dds"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme Commander Douglas MacArthur"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Douglas_Macarthur.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaichō Kyūichi Tokuda"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Tokuda_Kyuichi.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shokichō Kanson Arahata"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Arahata_Katsuzo.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daitōryō Isoo Abe"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Abe_Isoo.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ō Nobuhito"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Nobuhito.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daitōryō Chūji Machida"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Machida_Chuji.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daitōryō Kisaburō Suzuki"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Suzuki_kisaburo.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ten'nō Hirohito no Yamato"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Japan_Hirohito.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ten'nō Hirohito II"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Japan_Hirohito.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daitōryō Shinya Uchida"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Shinya_Uchida.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ten'nō Hirohito"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Japan_Hirohito.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Saikō Shirei-kan Ōji Kan'in Kotohito"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Kotohito.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ten'nō Yasuhito"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Yasuhito.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ten'nō Hirohito"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Japan_Hirohito.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ten'nō Hirohito"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Japan_Hirohito.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ten'nō Shōwa"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Japan_Hirohito.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Adachi Kenzō"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Adachi_Kenzo.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Uchida Ryōhei"
+	desc = ""
+	picture = "gfx/leaders/ROJ/Portrait_Uchida_Ryohei.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kuro-gun Shirei-bu"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/ROJ/Portrait_Black_Army.dds"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

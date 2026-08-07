@@ -1,0 +1,19 @@
+state={
+	id=11114
+	name="STATE_11114"
+	provinces={
+		6034 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = ARH
+		add_core_of = SOV
+        add_core_of = TIK
+		add_core_of = MC2
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

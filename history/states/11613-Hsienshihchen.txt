@@ -1,0 +1,18 @@
+state={
+	id=11613
+	name="STATE_11613"
+	provinces={
+		11972 
+	}
+	history = {
+		owner = KWC
+		add_core_of = CCG
+		add_core_of = SHC
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

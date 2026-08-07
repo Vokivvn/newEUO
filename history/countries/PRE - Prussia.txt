@@ -1,1 +1,252 @@
-capital = 64
+﻿capital = 64
+
+set_popularities = {
+	monarchism = 100
+}
+
+set_politics = { 
+	ruling_party = monarchism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "König Wilhelm II von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalsekretär Ernst Johannes Fritz Thalmann"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Ernst_Thalmann.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vorsitzende Karl Heinrich Otto Rühle"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Otto_Ruhle.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Otto Wels"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Otto_Wels.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Friedrich Neumann"
+	desc = ""
+	picture = "gfx/leaders/PRE/PRE_Neumann.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Franz Joseph Hermann Michael Maria von Papen, Erbsälzer zu Werl und Neuwerk"
+	desc = ""
+	picture = "gfx/leaders/PRE/PRE_Papen.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Königin Victoria I Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Victoria_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Wilhelm III Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Wilhelm II Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Gustav Ernst Stresemann"
+	desc = ""
+	picture = "gfx/leaders/PRE/PRE_Stresemann.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichspräsident Alfred Hugenberg"
+	desc = ""
+	picture = "gfx/leaders/GER/GER_Hugenberg.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oberbefehlshaber Werner Eduard Fritz von Blomberg"
+	desc = ""
+	picture = "gfx/leaders/PRE/PRE_Blomberg.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herrscher Anton Ludwig Friedrich August von Mackensen"
+	desc = ""
+	picture = "gfx/leaders/PRE/Portrait_August_Mackensen.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm II Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm II Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm II Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bundespräsident Alfred Hugenberg"
+	desc = ""
+	picture = "gfx/leaders/GER/GER_Hugenberg.tga"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Großmeister Friedrich-Werner Erdmann Matthias Johann Bernhard Erich Graf von der Schulenburg"
+	desc = ""
+	picture = "gfx/leaders/PRE/PRE_Werner.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm II Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsführer Anton Drexler"
+	desc = ""
+	picture = "gfx/leaders/PRE/PRE_Drexler.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Hermann Wilhelm Göring"
+	desc = ""
+	picture = "gfx/leaders/PRE/PRE_Goering.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bundeszollvereinigung Preußen"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}

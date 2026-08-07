@@ -1,0 +1,32 @@
+﻿capital = 2040
+
+set_cosmetic_tag = FRA_BLUE
+
+set_popularities = {
+	democratic
+		= 30
+	communism
+		= 5
+	fascism
+		= 5
+	neutrality
+		= 60
+	}
+	
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gouverneur Louis Jacques Eugène Fousset"
+	desc = ""
+	picture = "gfx/leaders/MTQ/MTQ_Fousset.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

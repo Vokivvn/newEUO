@@ -1,0 +1,63 @@
+﻿capital = 309
+set_cosmetic_tag = HOL_ORANGE
+
+	set_popularities = {
+		conservative_monarchism
+			 = 5
+		authoritarian_monarchism
+			 = 80
+		
+		liberal_republic
+			 = 10
+		democratic_monarchism
+			 = 5
+			
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Koningin Wilhelmina van Oranje-Nassau"
+	desc = ""
+	picture = "gfx/leaders/SUR/Portrait_Wilhelmina.dds"
+	expire = "1947.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Johannes Cornelis Brons"
+	desc = ""
+	picture = "gfx/leaders/SUR/Portrait_Johannes_Cornelis_Brons.dds"
+	expire = "1942.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Jan van Tilburg"
+	desc = ""
+	picture = "gfx/leaders/SUR/SUR_Tilburg.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Johan Henri Eliza Ferrier"
+	desc = ""
+	picture = "gfx/leaders/SUR/SUR_Ferrier.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+

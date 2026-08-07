@@ -1,0 +1,23 @@
+state={
+	id=11921
+	name="STATE_11921"
+	
+	history = {
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = ULA
+		add_core_of = GLD
+        add_core_of = SMM
+        victory_points = {
+			6275 5 
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		6275 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

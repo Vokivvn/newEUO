@@ -1,0 +1,41 @@
+﻿capital = 964
+
+set_popularities = {
+	monarchism = 100
+}
+set_politics = { 
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Emir Muhammad bin Talal Al Rashid"
+	desc = ""
+	picture = "gfx/leaders/SAU/SAU_Rashidi_cenmon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Emir Muhammad bin Talal Al Rashid"
+	desc = ""
+	picture = "gfx/leaders/SAU/SAU_Rashidi_cenmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}

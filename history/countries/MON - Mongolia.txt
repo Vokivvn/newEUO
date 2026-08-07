@@ -1,1 +1,116 @@
 ﻿capital = 330
+
+set_country_flag = has_secondary_leader
+set_country_flag = has_tertiary_leader
+
+set_cosmetic_tag = MON_1936
+
+set_popularities = {
+	vanguardism = 100			
+}
+
+set_politics = { 
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tergüülegchdiin Darga Anandyn Amar"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "gfx/leaders/MON/Portrait_mon_anandyn_amar.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Governor Hsü Shu-Cheng"
+	desc = ""
+	picture = "gfx/leaders/MON/MON_Hsü_Shucheng.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Khan Roman Fyodorovich von Ungern-Sternberg"
+	desc = ""
+	picture = "gfx/leaders/MON/Portrait_Sternberg.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Khan Jampal Namdrol Chokyi Gyaltsen"
+	desc = ""
+	picture = "gfx/leaders/MON/MON_Gyaltsen.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Darga Ünenbayan"
+	desc = ""
+	picture = "gfx/leaders/MON/MON_Unenbayan.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Yerönkhiilögch Jamsrangiin Tseveen"
+	desc = ""
+	picture = "gfx/leaders/MON/MON_Tseveen.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Khan Demchugdongrub"
+	desc = ""
+	picture = "gfx/leaders/MON/MON_Demchugdongrub.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Khatan Khaan Genepil"
+	desc = ""
+	picture = "gfx/leaders/MON/MON_Genepil.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Darga Demchugdongrub"
+	desc = ""
+	picture = "gfx/leaders/SB1/Portrait_Demchugdongrub.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Khan Jampal Namdrol Chokyi Gyaltsen"
+	desc = ""
+	picture = "gfx/leaders/MON/MON_Gyaltsen.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}

@@ -1,0 +1,20 @@
+﻿capital = 1931
+
+set_popularities = {
+	        democratic = 25
+        communism = 0
+        fascism = 5
+        neutrality = 70
+
+}
+	
+set_cosmetic_tag = RUS_RED
+
+set_politics = {
+	
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+

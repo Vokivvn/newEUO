@@ -1,0 +1,105 @@
+﻿capital = 6439
+
+set_cosmetic_tag = FRA_BLUE
+
+set_popularities = {
+	liberal_republic = 10
+	socialism_ideology = 10
+	neutrality = 80
+}
+
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gouverneur Joseph-François Reste de Roca"
+	desc = ""
+	picture = "gfx/leaders/RCG/Portrait_Dieudonne_Reste.dds"
+	ideology = despotism
+	expire = "1978.10.27"
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Joseph-François Reste de Roca"
+	desc = ""
+	picture = "gfx/leaders/RCG/Portrait_Dieudonne_Reste.dds"
+	ideology = militarism
+	expire = "1978.10.27"
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Jacques Opangault"
+	desc = ""
+	picture = "gfx/leaders/RCG/RCG_Opangault_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier Ministre Abbé Fulbert Youlou"
+	desc = ""
+	picture = "gfx/leaders/RCG/RCG_Youlou_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reine Ngalifarou I de Makoko"
+	desc = ""
+	picture = "gfx/leaders/RCG/RCG_Ngalifarou_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Alphonse Massamba-Débat"
+	desc = ""
+	picture = "gfx/leaders/RCG/RCG_Debat_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Hugh Montague Trenchard"
+	desc = ""
+	picture = "gfx/leaders/RCG/RCG_Hugh_Trenchard.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Hermann Wilhelm Göring"
+	picture = "gfx/leaders/RCG/Portrait_von_Goering.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {	
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Hermann Wilhelm Göring"
+	desc = ""
+	picture = "gfx/leaders/RCG/Portrait_von_Goering.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}

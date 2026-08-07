@@ -1,0 +1,24 @@
+﻿capital = 1809
+
+set_popularities = {
+	fascism
+		= 100
+}
+	
+set_politics = { 
+ 	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Jakob Sprenger"
+	desc = ""
+	picture = "gfx/leaders/HES/HES_Sprenger.tga"
+	expire = "1960.1.1"
+	ideology = natsoc
+	traits = {
+		#
+	}
+}

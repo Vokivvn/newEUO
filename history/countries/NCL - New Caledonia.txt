@@ -1,0 +1,32 @@
+﻿capital = 635
+
+
+set_cosmetic_tag = FRA_BLUE
+
+set_popularities = {
+	democratic 
+		= 5
+	fascism
+		= 5
+	communism
+		= 5
+	neutrality 
+		= 85
+	}
+
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Bernard Jacques Victorin Siadous"
+	picture = "gfx/leaders/NCL/NCL_Siadous.tga"
+	expire = "1975.3.17"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,34 @@
+﻿capital = 518
+
+set_popularities = {
+	democratic_monarchism = 47
+	centrist_monarchism = 7
+	conservative_monarchism = 46
+}
+
+set_politics = {
+	ruling_party = democratic_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Premier Albert George Ogilvie"
+	desc = ""
+	picture = "gfx/leaders/TAS/TAS_Ogilvie.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Ernest Clark"
+	desc = ""
+	picture = "gfx/leaders/TAS/TAS_Clark.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}

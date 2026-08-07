@@ -1,0 +1,20 @@
+state={
+	id=10206
+	name="STATE_10206"
+	provinces={
+		19577 
+	}
+	history={
+	    owner = MNH
+        add_core_of = MNH
+		add_core_of = LUA
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SIP
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

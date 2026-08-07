@@ -1,0 +1,27 @@
+﻿capital = 159
+
+
+	set_popularities = {
+		democratic 
+			 = 0
+		fascism
+			 = 0
+		monarchism
+			 = 100
+		}
+	set_politics = { 
+ ruling_party = monarchism
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Duca Adriano I di Lampugnano"
+	desc = ""
+	picture = "gfx/leaders/LOM/LOM_Adriano_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

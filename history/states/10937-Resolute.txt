@@ -1,0 +1,20 @@
+state={
+	id=10937
+	name="STATE_10937"
+	provinces={
+		20377
+	}
+	history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = NUN
+		add_core_of = NWT
+		add_core_of = BA3
+		
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

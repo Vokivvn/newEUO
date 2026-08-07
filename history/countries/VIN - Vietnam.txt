@@ -1,16 +1,253 @@
-﻿capital = 671 #Hanoi
+﻿capital = 671
 
-oob = "VIN_2010"
+set_popularities = {
+	democratic = 85
+	vanguardism = 15
+}
 
-set_politics = {
-	ruling_party = autocratic
-	last_election = "1936.1.1"
-	election_frequency = 48
+set_politics = { 
+	ruling_party = democratic
+	last_election = "1933.2.16"
+	election_frequency = 36
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
 }
 
-recruit_character = VIN_Bao_Thang
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Thiên Hoàng Huángdì Nguyên Bào Dai"
+	desc = ""
+	picture = "gfx/leaders/VIN/VIN_Dai.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Thiên Hoàng Huángdì Nguyên Bào Dai"
+	desc = ""
+	picture = "gfx/leaders/VIN/VIN_Dai.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Victor Alexander Charles Crutchley"
+	desc = ""
+	picture = "gfx/leaders/INC/INC_Crutchley_authmon.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Général Eugène Jean Louis René Robin"
+	desc = ""
+	picture = "gfx/leaders/INC/Portrait_Eugene_Jean_Louis_Rene_Robin.dds"
+	expire = "1953.3.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Thú Tuóng Ngo Dình Diêm"
+	desc = ""
+	picture = "gfx/leaders/VIN/VIN_Diem_authdem.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chu Tich Phan Bôi Châu"
+	desc = ""
+	picture = "gfx/leaders/VIN/VIN_Chau_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chu Tich Ho Chi Minh"
+	desc = ""
+	picture = "gfx/leaders/VIN/VIN_Minh_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chu Tich Ho Chi Minh"
+	desc = ""
+	picture = "gfx/leaders/VIN/VIN_Minh_commie.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=10505
+	name="STATE_10505"
+	
+	history={	
+		owner = SYR
+		add_core_of = SYR
+        add_core_of = KUR
+		add_core_of = ASY
+		add_core_of = ISS
+		add_core_of = RJV
+	}
+	
+	provinces={
+		20015 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral 
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+state={
+	id=10581
+	name="STATE_10581"
+	provinces={
+		20049 
+	}
+	history={
+	    owner = NBP
+        add_core_of = NBP
+        add_core_of = KSS
+        add_core_of = IND
+        add_core_of = MEG
+		add_core_of = ASM
+	add_claim_by = RAJ
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=11298
+	name="STATE_11298"
+	
+	provinces={
+		10424
+	}
+	
+	history = {
+		owner = SUI
+		add_core_of = SUI
+		add_core_of = PIL
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = INM
+		add_core_of = M54
+		victory_points = {
+			10424 25
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

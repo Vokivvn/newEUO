@@ -1,0 +1,19 @@
+state={
+	id=12077
+	name="STATE_12077"
+	
+	history = {
+	    owner = TUR
+        add_core_of = TUR
+        add_core_of = ERE
+		add_core_of = PON
+		add_core_of = KCP
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		20837
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,16 +1,235 @@
 ﻿capital = 44
 
-oob = "ALB_2010"
+set_country_flag = has_secondary_leader
 
-set_politics = {
-	ruling_party = reactionary
-	last_election = "1936.1.1"
+set_popularities = {
+	authoritarian_monarchism  = 100
+}
+
+set_politics = { 
+	ruling_party = authoritarian_monarchism
+	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	reactionary = 100
+create_country_leader = {
+	name = "Mbret Zogu I i Zogut"
+	desc = "POLITICS_ALB_AUTHMON_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
 }
 
-recruit_character = ALB_adriatik_alimadhi
+create_country_leader = {
+	name = "Perandori Zogu I i Zogut"
+	desc = "POLITICS_ALB_AUTHMON_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sekretari i Parë Enver Hoxha"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Enver_Hoxha.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kryeministër Enver Hoxha"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Enver_Hoxha.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sekretari i Parë Mehmet Ismail Shehu"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Mehmet_Ismail_Shehu.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mbretëresha Senije i Zogut"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Senije_Zogut.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kryeministër Pandeli Evangjeli"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Pandeli_Evangjeli.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Shefqet bej Vërlaci"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Shefqet_Verlaci.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princ Skanderbeg II i Wied-Neuwied"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Wilhelm_Wied.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princ Vilhelm i Wied-Neuwied"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Wilhelm_Wied.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kryeministër Ahmet Zogu"
+	desc = "POLITICS_ALB_AUTHMON_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sanjakbey Ahmed Izzet Pasha"	
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Ahmed_Pasha.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kryeministër Mid'hat Frashëri"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Midhat.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Komandant i Përgjithshëm Xhemal Aranitasi"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Xhemal_Aranitasi.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Regjent Theofan Stilian Noli"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Theofan_Noli.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ayatollah Behxhet Shapati"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Behxhet_Shapati.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Re Vittorio Emanuele III di Savoia"
+	desc = ""
+	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Diktator Tefik Selim Mborja"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Tefik_Mborja.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Diktator Ibrahim Aqif Biçakçiu"
+	desc = ""
+	picture = "gfx/leaders/ALB/ALB_Ibrahim_bej.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

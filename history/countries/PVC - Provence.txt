@@ -1,0 +1,48 @@
+﻿capital = 21
+
+
+	set_popularities = {
+		monarchism
+			 = 85
+		fascism
+			 = 5
+		theocratic
+			 = 10
+
+		}
+	set_politics = { 
+ ruling_party = monarchism
+	last_election = "1960.1.1"
+	election_frequency = 50
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Roi Alphonse de Bourbon"
+	desc = ""
+	picture = "gfx/leaders/PVC/PVC_Alfonso.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Quirino Armellini"
+	desc = ""
+	picture = "gfx/leaders/PVC/PVC_Armellini.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Papa Pius XI"
+	desc = ""
+	picture = "gfx/leaders/PVC/PVC_Pope.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}

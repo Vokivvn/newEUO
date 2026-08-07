@@ -1,14 +1,64 @@
 ﻿capital = 405
+set_cosmetic_tag = RUS_RED
 
-set_politics = {
-	ruling_party = conservatism
+set_popularities = {
+	vanguardism = 100	
+}
+	
+set_politics = { 
+	ruling_party = vanguardism
 	last_election = "1936.1.1"
-	election_frequency = 48
+	election_frequency = 50
 	elections_allowed = no
 }
 
-set_popularities = {
-	conservatism = 100
+create_country_leader = {
+	name = "OʻzSSR MIK Raisi Yo'ldosh Oxunbobo o'g'li Oxunboboev"
+	desc = ""
+	picture = "gfx/leaders/UZB/Yuldash.dds"
+	expire = "1960.1.1"
+	ideology = totsoc
+	traits = {
+	}
 }
 
-recruit_character = UZB_Muhammad_Salih
+create_country_leader = {
+	name = "Rais Fayzullah Khodzhayev"
+	desc = ""
+	picture = "gfx/leaders/UZB/UZB_Khodzhayev.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Abdulhamid Sulaymon oʻgʻli Yunusov"
+	desc = ""
+	picture = "gfx/leaders/UZB/UZB_Yunusov.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Boshliq Sherali Lapin"
+	desc = ""
+	picture = "gfx/leaders/UZB/UZB_Lapin.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rais Shahmurad Olimov"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/UZB_Olimov.tga"
+	expire = "1960.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+

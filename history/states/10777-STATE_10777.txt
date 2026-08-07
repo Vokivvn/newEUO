@@ -1,0 +1,16 @@
+state={
+	id=10777
+	name="STATE_10777"
+	manpower=1
+	
+	state_category=pastoral
+	
+	history={
+		owner = TIB
+		add_core_of = TIB
+	}
+	provinces={
+		12801 
+	}
+	local_supplies=0.0 
+}

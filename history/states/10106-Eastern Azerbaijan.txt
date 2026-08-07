@@ -1,0 +1,18 @@
+state={
+	id=10106
+	name="STATE_10106"
+	provinces={
+		19442 
+	}
+	history={
+		owner = AZR
+		add_core_of = SOV
+		add_core_of = TSC
+		add_core_of = AZR
+		add_core_of = KC2
+	}
+	manpower=1
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+state={
+	id=10222
+	name="STATE_10222"
+	provinces={
+		19530 
+	}
+	history={
+		owner = TAJ
+		add_core_of = SOV
+		add_core_of = TAJ
+		add_core_of = PMR
+		add_core_of = BKH
+		add_core_of = DVZ
+		add_claim_by = TKS
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

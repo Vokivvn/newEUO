@@ -1,0 +1,33 @@
+﻿capital = 13703
+
+set_popularities = {
+    liberal_republic = 25
+    right_anarchism = 75
+}
+
+set_politics = {
+	ruling_party = right_anarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prezidént Evgénij Fëdorovič Dragúnov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/ZLO_Dragunov.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezidént Mixaíl Timoféevič Kalášnikov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/ZLO_Kalashnikov.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}

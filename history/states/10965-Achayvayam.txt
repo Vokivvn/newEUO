@@ -1,0 +1,23 @@
+state={
+	id=10965
+	name="STATE_10965"
+	provinces={
+		1805 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = RUS
+		add_core_of = KYK
+		add_core_of = SOV
+		add_core_of = SBR
+		add_core_of = RUS
+		add_core_of = DVR
+		add_core_of = KAM
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

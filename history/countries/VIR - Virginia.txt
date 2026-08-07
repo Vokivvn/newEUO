@@ -1,0 +1,154 @@
+﻿capital = 362
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 97
+    liberal_republic = 2
+    socialism_ideology = 1
+}
+
+create_country_leader = {
+	name = "Governor George Campbell Peery"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Peery.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief of Staff Malin Craig"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Craig.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Leader Frank Fay"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Fay.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King George IV of Lee"
+	desc = ""
+	picture = "gfx/leaders/USA/USA_GeorgeLee.tga"
+	expire = "1989.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperor George IV of Lee"
+	desc = ""
+	picture = "gfx/leaders/USA/USA_GeorgeLee.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Clarence Ollson Senior"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Panken_soc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Clarence Ollson Senior"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Panken_soc.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President Claude Augustus Swanson"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Swanson_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir Geoffrey Hithersay Shakespeare"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Shakespeare.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Geoffrey Hithersay Shakespeare"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Shakespeare.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Geoffrey Hithersay Shakespeare"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Shakespeare.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "First Secretary Leonard Abbott"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Abbott_ancom.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Frank Fay"
+	desc = ""
+	picture = "gfx/leaders/VIR/VIR_Fay.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief of State Nathan Bedford Forrest III"
+	desc = ""
+	picture = "gfx/leaders/CSA/CSA_ForrestIII.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}

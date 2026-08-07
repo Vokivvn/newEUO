@@ -1,14 +1,76 @@
-﻿capital = 542
+﻿capital = 14802
+set_cosmetic_tag = UK_RED
+set_country_flag = has_secondary_leader
+set_country_flag = has_tertiary_leader
 
-set_politics = {
-	ruling_party = autocratic
+ set_popularities = {
+	democratic  = 10
+	monarchism = 5
+	authoritarian_monarchism  = 85
+ }
+ 
+ set_politics = { 
+	ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+ } 
+
+create_country_leader = {
+	name = "Resident Commissioner Sir Charles Ferdinand Rey"
+	picture = "gfx/leaders/BOT/Portrait_Sir_Charles_Fernand_Rey.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Goewerneur Hendrik Balzazar Klopper"
+	desc = ""
+	picture = "gfx/leaders/BOT/BOT_Klopper_stratmon.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
 }
 
-recruit_character = BOT_Christian_de_Graaff
+create_country_leader = {
+	name = "President Nicolaas Christiaan Havenga"
+	desc = ""
+	picture = "gfx/leaders/BOT/BOT_Havenga_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Josiah Gondo"
+	desc = ""
+	picture = "gfx/leaders/BOT/BOT_Gondo_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King-Regent Tshekedi I Khama"
+	desc = ""
+	picture = "gfx/leaders/BOT/BOT_Tshekedi_libmon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kgosi Seretse II Khama"
+	desc = ""
+	picture = "gfx/leaders/BOT/BOT_Seretse_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

@@ -1,16 +1,261 @@
-﻿capital = 41 # Madrid
+﻿capital = 41
 
-oob = "SPR_2010"
+set_country_flag = has_secondary_leader
+	
+set_popularities = {
+	communism = 13
+	socialism_ideology = 8
+	liberal_republic = 21
+	centrist_republic = 7
+	democratic = 8
+	national_conservative_republic = 9
+	anocratic_republic = 8
+	neutrality = 26
+}
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
-	election_frequency = 48
+set_politics = { 
+	ruling_party = anocratic_republic
+	last_election = "1933.2.16"
+	election_frequency = 36
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 100
+create_country_leader = {
+	name = "Presidente Niceto Alcalá-Zamora y Torres"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Nicesto_Alcala_Zamora.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
 }
 
-recruit_character = SPR_blas_pinar
+create_country_leader = {
+	name = "Presidente Niceto Alcalá-Zamora y Torres"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Nicesto_Alcala_Zamora.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Secretario General José Díaz Ramos"
+	desc = ""
+	picture = "gfx/leaders/SPR/SPR_Diaz.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Líder Miguel Ezquerra Sanchez"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Miguel_Sanchez.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Carlos V & XII de Borbón"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_CharlesXII.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Joaquín Maurín Juliá"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Joaquin_Maurin.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Francisco Largo Caballero"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Francisco_Caballero.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Alfonso XIII de Borbón"
+	desc = "POLITICS_ALFONSO_XIII_DESC"
+	picture = "gfx/leaders/SPR/SPR_AlfonsoXIII.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperador Alfonso XIII de Borbón"
+	desc = "POLITICS_ALFONSO_XIII_DESC"
+	picture = "gfx/leaders/SPR/SPR_AlfonsoXIII.tga"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Primer Ministro Manuel Azaña Díaz"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Manual_Azana.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Alfonso XIII de Borbón"
+	desc = "POLITICS_ALFONSO_XIII_DESC"
+	picture = "gfx/leaders/SPR/SPR_AlfonsoXIII.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Alfonso XIII de Borbón"
+	desc = "POLITICS_ALFONSO_XIII_DESC"
+	picture = "gfx/leaders/SPR/SPR_AlfonsoXIII.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Canciller Alejandro Lerroux García"
+	desc = ""
+	picture = "gfx/leaders/SPR/SPR_Lerroux.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Javier I de Borbón-Parma"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Javier_Bourbon.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente José María Gil-Robles y Quiñones de León"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Jose-Quinones.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Comandante en Jefe Miguel Cabanellas Ferrer"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Miguel_Cabanellas.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Caudillo Francisco Franco Bahamonde"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Francisco_Franco.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Alfonso Carlos I de Borbón"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_CharlesXII.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Príncipe-Primate Isidro Gomá y Tomás"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Isidro_Tomas.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperador Alfonso XIII de Borbón"
+	desc = "POLITICS_ALFONSO_XIII_DESC"
+	picture = "gfx/leaders/SPR/SPR_AlfonsoXIII.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Director José Antonio Primo de Rivera, Marqués de Estella"
+	desc = ""
+	picture = "gfx/leaders/SPR/Portrait_Primo_de_Rivera.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

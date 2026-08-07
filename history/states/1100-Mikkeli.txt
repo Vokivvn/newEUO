@@ -1,0 +1,20 @@
+
+state={
+	id=1100
+	name="STATE_1100"
+
+	history={
+		owner = FIN
+		add_core_of = FIN
+		add_core_of = OST
+
+	}
+
+	provinces={
+		3013
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

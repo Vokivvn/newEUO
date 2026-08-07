@@ -1,0 +1,24 @@
+state={
+	id=10391
+	name="STATE_10391"	
+
+	provinces={
+		12420
+	}
+
+	history={
+		owner = MDP
+		add_core_of = RAJ 
+		add_core_of = IND
+		add_core_of = CTS
+		add_core_of = MDP
+		victory_points = {
+			12420 5
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	manpower = 1000
+	local_supplies=0.0 
+}

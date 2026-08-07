@@ -1,0 +1,25 @@
+
+state={
+	id=1128
+	name="STATE_1128"
+
+	history={
+		victory_points = {
+			9347 25 
+		}
+		owner = GER
+		add_core_of = GER
+		add_core_of = HAM
+		add_core_of = FRS
+		add_core_of = WGR
+		add_core_of = GGM
+	}
+
+	provinces={
+		9347 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

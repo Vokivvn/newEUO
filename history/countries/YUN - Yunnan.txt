@@ -1,14 +1,93 @@
 ﻿capital = 325
 
-set_politics = {
-	ruling_party = autocratic
+set_popularities = {
+	fascism = 20	
+	stratocratic = 80
+}
+
+set_politics = { 
+	ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Chou ch'ang Lung Yun"
+	desc = "POLITICS_LONG_YUN_DESC"
+	picture = "gfx/leaders/YUN/Portrait_Yunnan_Long_Yun.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
 }
 
-recruit_character = YUN_Zhang_Dejiang
+create_country_leader = {
+	name = "Chou ch'ang Lung Yun"
+	desc = "POLITICS_LONG_YUN_DESC"
+	picture = "gfx/leaders/YUN/Portrait_Yunnan_Long_Yun.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chu hsi Lung Yun"
+	desc = "POLITICS_LONG_YUN_DESC"
+	picture = "gfx/leaders/YUN/Portrait_Yunnan_Long_Yun.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huang ti Lung"
+	desc = "POLITICS_LONG_YUN_DESC"
+	picture = "gfx/leaders/YUN/Portrait_Yunnan_Long_Yun.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kuo wang Lung Yun"
+	desc = "POLITICS_LONG_YUN_DESC"
+	picture = "gfx/leaders/YUN/Portrait_Yunnan_Long_Yun.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chu hsi Tan Furen"
+	desc = ""
+	picture = "gfx/leaders/YUN/YUN_Furen.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsung t'ung Tang Jiyao"
+	desc = ""
+	picture = "gfx/leaders/YUN/YUN_Tang.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsung t'ung Tang Jiyao"
+	desc = ""
+	picture = "gfx/leaders/YUN/YUN_Tang.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=12479
+	name="STATE_12479"
+	history={
+		
+		owner = NZL 
+		add_core_of = NZL
+		add_core_of = SNZ
+		
+	}
+	provinces={
+		12974
+	}
+	manpower=1
+	state_category = small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

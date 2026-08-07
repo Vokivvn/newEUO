@@ -1,1 +1,240 @@
-﻿capital = 3
+﻿capital = 1123
+
+set_country_flag = has_secondary_leader
+set_country_flag = has_tertiary_leader
+
+set_popularities = {
+	communism = 1
+	socialism_ideology = 27
+	liberal_republic = 4
+	centrist_republic = 26
+	democratic = 30
+	national_conservative_republic = 12
+}
+
+set_politics = { 
+	ruling_party = centrist_republic
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Bundesrat, Conseil fédéral, Consiglio federale, Cussegl federal"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Council.tga"
+	expire = "2030.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Rudolf Minger"
+	desc = ""
+	picture = "gfx/leaders/SWI/Portrait_Rudolf_Minger.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalsekretär Fritz Platten"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Platten.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vorsitzende Fritz Platten"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Platten.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Ernst Nobs"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Nobs.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiserin Zita I von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/SWI/Portrait_Zita_Parma.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Ernst Nobs"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Nobs.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Robert von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Robert_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Robert von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Robert_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Königin Zita I von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/SWI/Portrait_Zita_Parma.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Eugen Bircher"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Bircher.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Général Henri Guisan"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Guisan.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Großherzogin Adelheid von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Adelheid.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prinz Robert von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Robert_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herzog Robert von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Robert_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-Primata Maurice Tornay"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Tornay.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Re Vittorio Emanuele di Savoia-Aosta"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Vittorio.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oberbefehlshaber Arthur Fonjallaz"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Fonjallaz.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Wilhelm Gustloff"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Gustloff.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Geschäftsführer Jakob Vontobel"
+	desc = ""
+	picture = "gfx/leaders/SWI/SWI_Vontobel.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

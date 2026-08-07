@@ -1,0 +1,20 @@
+state={
+	id=10254
+	name="STATE_10254"
+	provinces={
+		19595
+	}
+	history={
+		owner = PAL
+		add_core_of = KJR
+		add_core_of = PAL
+		add_core_of = JRS
+		add_core_of = WBK
+		add_claim_by = OML
+		add_claim_by = ISR
+    }	
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

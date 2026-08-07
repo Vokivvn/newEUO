@@ -1,0 +1,16 @@
+state={
+	id=10015
+	name="STATE_10015"
+	provinces={
+		19360 
+	}
+	history={
+	    owner = FEA
+		add_core_of = FEA
+        add_core_of = CHA
+		add_core_of = BGR
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

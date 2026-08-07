@@ -1,0 +1,78 @@
+﻿capital = 4414
+
+set_popularities = {
+	democratic_monarchism
+		= 80
+	right_anarchism
+		= 8
+	liberal_republic
+		= 12
+}
+
+set_politics = { 
+	ruling_party = democratic_monarchism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "President John Bracken"
+	desc = ""
+	picture = "gfx/leaders/MNB/MNB_Bracken.tga"
+	expire = "1950.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier John Bracken"
+	desc = ""
+	picture = "gfx/leaders/MNB/MNB_Bracken.tga"
+	expire = "1950.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Douglas Douglas-Hamilton"
+	desc = ""
+	picture = "gfx/leaders/MNB/Portrait_Douglas_Douglas_Hamilton.dds"
+	expire = "1950.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duke Douglas I of Douglas-Hamilton"
+	desc = ""
+	picture = "gfx/leaders/MNB/Portrait_Douglas_Douglas_Hamilton.dds"
+	expire = "1950.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Charles Brandle Crate"
+	desc = ""
+	picture = "gfx/leaders/MNB/MNB_Crate.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Charles Brandle Crate"
+	desc = ""
+	picture = "gfx/leaders/MNB/MNB_Crate.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+

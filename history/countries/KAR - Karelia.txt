@@ -1,1 +1,55 @@
-﻿capital = 216 #Olonets (Petrozavodsk)
+﻿capital = 111
+
+set_cosmetic_tag = RUS_RED
+
+set_popularities = {
+	vanguardism = 100
+}
+
+set_politics = { 
+	ruling_party = vanguardism
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Predsedátelʹ Karélʹskogo obkóma VKP(b) Pëtr Andréevič Irklisʹ"
+	desc = "" 
+	picture = "gfx/leaders/KAR/Pyotr_Andreyevich_Irklis.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidentti Aarne Edward Juutilainen"
+	desc = ""
+	picture = "gfx/leaders/KAR/KAR_Juutilainen.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidentti Aarne Edward Juutilainen"
+	desc = ""
+	picture = "gfx/leaders/KAR/KAR_Juutilainen.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Filip Lemen"
+	desc = ""
+	picture = "gfx/leaders/TSC/TSC_Sinkov.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

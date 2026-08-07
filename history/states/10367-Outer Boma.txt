@@ -1,0 +1,17 @@
+state={
+	id=10367
+	name="STATE_10367"
+	provinces={
+		19703 
+	}
+	history={
+		owner = SUD
+		add_core_of = SUD
+		add_core_of = SSU
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

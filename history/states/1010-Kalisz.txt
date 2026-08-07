@@ -1,0 +1,22 @@
+state={
+	id=1010
+	name="STATE_1010"
+
+	history={
+		owner = POL
+		add_claim_by = GER
+		add_core_of = POL
+		add_core_of = LDZ
+		add_core_of = SPS
+		add_core_of = GGM
+
+	}
+
+	provinces={
+		9546
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

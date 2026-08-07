@@ -1,0 +1,49 @@
+﻿capital = 10897
+
+
+	set_popularities = {
+		democratic 
+			 = 0
+		communism
+			 = 0
+		neutrality
+			 = 100
+			
+	}
+	
+	set_politics = { 
+ ruling_party = neutrality
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Načál'nik Jánis Antónovič Méndriks"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/UR2_Mendriks.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Načál'nik Xadží-Umár Džíorovič Mámsurov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/UR2_Mamsurov.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Philipp Bouhler"
+	desc = ""
+	picture = "gfx/leaders/UR2/UR2_Bouhler_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

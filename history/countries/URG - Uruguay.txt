@@ -1,1 +1,250 @@
 ﻿capital = 300
+
+set_politics = { 
+	ruling_party = anocratic_republic
+	last_election = "1934.4.19"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	vanguardism = 1
+	communism = 2
+	socialism_ideology = 2
+	centrist_republic = 39
+	anocratic_republic = 56
+}
+
+create_country_leader = {
+	name = "Presidente José Luis Gabriel Terra Leivas"
+	desc = "POLITICS_GABRIEL_TERRA_DESC"
+	picture = "gfx/leaders/URG/Portrait_uruguay_portrait_gabriel_terra.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente José Luis Gabriel Terra Leivas"
+	desc = "POLITICS_GABRIEL_TERRA_DESC"
+	picture = "gfx/leaders/URG/Portrait_uruguay_portrait_gabriel_terra.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Secretario General Enrique Manuel Amorim Areta"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Amorim_commie.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Enrique Manuel Amorim Areta"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Amorim_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Emilio Frugoni Queirolo"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Frugoni_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Luís Fernando I de Orleans y Borbón"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Fernando.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Infante Luís Fernando de Orleans y Borbón"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Fernando.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Luís Fernando I de Orleans y Borbón"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Fernando.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duque Luís Fernando I de Orleans y Borbón"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Fernando.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperador Luís Fernando I de Orleans y Borbón"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Fernando.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperador Luís Fernando I de Orleans y Borbón"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Fernando.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Alfredo Baldomir Ferrari"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Ferrari_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Martín Casimiro Martínez Fagalde"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Fagalde_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Canciller Luis Alberto de Herrera y Quevedo"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Herrera_cendem.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Arturo Franklin Rawson Corvalán"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Rawson_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Fidel Dávila Arrondo"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Arrondo.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governador Pedro Aurélio de Góis Monteiro"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Monteiro_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arzobispo Juan Francisco Aragone"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Aragone_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Líder Miguel Chiaradia Reale"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Reale_fash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Ulrich Graf"
+	desc = ""
+	picture = "gfx/leaders/URG/URG_Graf_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=10208
+	name="STATE_10208"
+	provinces={
+		19571 
+	}
+	history={
+	    owner = NGG
+       		add_core_of = NGG
+       		add_core_of = LGQ 
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

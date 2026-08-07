@@ -1,1 +1,64 @@
 ﻿capital = 106
+
+
+	set_popularities = {
+                theocratic = 10
+		neutrality = 60
+                vanguardism = 30
+		}
+	set_politics = { 
+ ruling_party = neutrality
+	last_election = "1960.1.1"
+	election_frequency = 40
+	elections_allowed = no # none after offset 1
+}
+
+create_country_leader = {
+	name = "Prv Sekretar Svetozar Vukmanovic"
+	desc = ""
+	picture = "gfx/leaders/MAC/MAC_Vukmanovic_commie.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pretsedatel Hristo Tatarchev"
+	desc = ""
+	picture = "gfx/leaders/MAC/MAC_Tatarchev_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arhiepiskop Josif Cvijović"
+	desc = ""
+	picture = "gfx/leaders/MAC/MAC_Cvijovic_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pretsedavac Ivan Mihailov"
+	desc = ""
+	picture = "gfx/leaders/MAC/MAC_Mihailov_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Aftokrátoras Petar I Argead"
+	desc = ""
+	picture = "gfx/leaders/MAC/MAC_Petar.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

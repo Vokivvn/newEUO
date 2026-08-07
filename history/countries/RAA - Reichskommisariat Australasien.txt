@@ -1,1 +1,0 @@
-capital = 979 # Kaiser-Wilhelmsland

@@ -1,97 +1,264 @@
-capital = 126
+﻿capital = 2188
 
-set_technology = {
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_carrier = 1
-	basic_carrier = 1
-	support_weapons = 1
-	infantry_weapons = 1
-	motorised_infantry = 1 
-	tech_support = 1 
-	tech_field_hospital = 1 
-	tech_engineers = 1 
-	gw_artillery = 1 
-	tech_mountaineers = 1 
-	paratroopers = 1 
-	marines = 1
-	atomic_research = 1 
-	nuclear_reactor = 1 
-	nukes = 1
-	interwar_antiair = 1
-	interwar_antitank = 1
-    basic_train = 1
-    tech_logistics_company = 1
-	tech_military_police = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	tech_signal_company = 1
-	experimental_rockets = 1
+set_popularities = {
+	socialist_monarchy = 25
+	democratic_monarchism = 6
+	conservative_monarchism = 69
 }
 
-oob = "ENG_2010"
-
-set_politics = {
-	ruling_party = national_socialism
-	last_election = "1936.1.1"
+set_politics = { 
+	ruling_party = conservative_monarchism
+	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	national_socialism = 38
-	autocratic = 15
-	reactionary = 25
-	fascism = 7
-	syncretism = 5
-	anarchism = 1
-	revolutionary_socialism = 3
-	moderate_socialism = 2
-	liberalism = 1
-	conservatism = 3
+create_country_leader = {
+	name = "King George V of Windsor"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_GeorgeV.tga"
+	expire = "1938.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
 }
 
-#THE NATIONAL FRONT DISCO!
-country_event = {
-	id = ingurland.1
-	days = 2
-}
-country_event = {
-	id = ingurland.2
-	days = 10
-}
-country_event = {
-	id = ingurland.3
-	days = 15
-}
-country_event = {
-	id = ingurland.4
-	days = 34
+create_country_leader = {
+	name = "King George V of Windsor"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_GeorgeV.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
 }
 
+create_country_leader = {
+	name = "King Robert of Wittelsbach"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAV_Rupprecht.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
 
-recruit_character = ENG_martin_webster
-recruit_character = ENG_jim_dowson 
-recruit_character = ENG_mark_collett 
-recruit_character = ENG_gary_raikes 
-recruit_character = ENG_rupert_lowe 
-recruit_character = ENG_neil_hamilton 
-recruit_character = ENG_kenneth_clarke 
-recruit_character = ENG_william_clouston 
-recruit_character = ENG_jeremy_corbyn 
-recruit_character = ENG_george_galloway 
-recruit_character = ENG_tommy_robinson
-recruit_character = ENG_jonathan_bowden
-recruit_character = ENG_the_yerbmeister
-recruit_character = ENG_jason_marriner
-recruit_character = ENG_peter_hitchens
-recruit_character = ENG_john_mcdonnell
-recruit_character = ENG_rod_liddle
-recruit_character = ENG_theresa_may
+create_country_leader = {
+	name = "President Archibald Henry Maule Ramsay"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_Ramsay.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
 
+create_country_leader = {
+	name = "General Secretary Harry Pollitt"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_Pollitt.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
 
+create_country_leader = {
+	name = "Chairman James Ritchie Haston"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_Haston.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
 
+create_country_leader = {
+	name = "President George Lansbury"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_Lansbury.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Elizabeth II"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Princess_Elizabeth.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President Stanley Baldwin"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King George VI of Windsor"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Prince_Albert.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lord Protector Sir Archibald Henry Macdonald Sinclair"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_Sinclair.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme Chancellor John Gordon Hargrave"	
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_Hargrave.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Edward VIII of Windsor"	
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Edward VIII of Windsor"	
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King George V of Windsor"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_GeorgeV.tga"
+	expire = "1938.1.1"
+	ideology =  natconmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander-in-Chief Sir Archibald Armar Montgomery-Massingberd"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_Montgomery.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Henry IX of Windsor"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Prince_Henry.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince-Archbishop William Cosmo Gordon Lang"
+	desc = ""
+	picture = "gfx/leaders/ENG/ENG_Lang.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Edward VIII of Windsor"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Sir Oswald Ernald Mosley, Baronet Ancoats"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Oswald_Mosley.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Edward VIII of Windsor"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President James Maxton"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_James_Maxton.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}

@@ -1,1 +1,242 @@
-﻿capital = 6 # Brussels
+﻿capital = 6
+
+set_country_flag = has_secondary_leader
+
+set_popularities = {
+	communism = 1
+	socialism_ideology = 39
+	democratic_monarchism = 13
+	conservative_monarchism = 42
+	anocratic_monarchism = 5
+}
+
+set_politics = { 
+	ruling_party = conservative_monarchism
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Roi Léopold III de Belgique"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Leopold.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koning Leopold III van Saksen-Coburg en Gotha"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Leopold.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Koning Adalbert von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Adalbert.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kanselier Georges Edmond Edouard Van Severen"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Severen.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Secrétaire Général Julien Lahaut"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Lahaut.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Voorzitter Albert Alfred Van Hoorick"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Hoorick.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Paul-Henri Charles Spaak"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Spaak.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Léopold III de Belgique"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Léopold.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President Paul Guillaume, Viscount van Zeeland"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Zeeland.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Léopold III de Belgique"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Léopold.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chancelier Hubert Marie Eugène Pierlot"	
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Pierlot.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prins Karel Theodoor Hendrik Anton Meinrad van België"	
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Karel.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commandant en Chef Jean-Baptiste Piron"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Piron.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koning Adalbert von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Adalbert.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prins-Aartsbisschop Jozef-Ernest van Roey"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Roey.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Keizer Leopold III van Saksen-Coburg en Gotha"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Léopold.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Réalisateur Paul Hoornaert"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Hoornaert.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Capitaine-Régent Léon Joseph Marie Ignace Degrelle"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Degrelle.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Maréchal Louis Mercier-Vega"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Vega.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Paul-Émile Janson"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Janson.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}

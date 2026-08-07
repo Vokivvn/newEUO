@@ -1,0 +1,16 @@
+state={
+	id=10509
+	name="STATE_10509"
+	provinces={
+		20026 
+	}
+	history={
+	    owner = SIE
+        add_core_of = SIE
+		
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+state={
+	id=10383
+	name="STATE_10383"
+	provinces={
+		19717
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		add_core_of = KHZ
+    }	
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

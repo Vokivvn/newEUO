@@ -1,0 +1,44 @@
+﻿capital = 1
+
+set_popularities = {
+    neutrality = 20
+    democratic = 40
+    stratocratic = 40
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Admirál Iván Stepánovič Jumášev"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/KAM_Yumashev.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Admirál Nikoláj Fëdorovič Artamónov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/KAM_Artamonov.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vremennoye Pravitel'stvo Oborony"
+	desc = ""
+	picture = "gfx/leaders/KAM/Portrait_Provisional_Government.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

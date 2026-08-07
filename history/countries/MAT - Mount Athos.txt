@@ -1,0 +1,75 @@
+﻿capital = 2198
+
+set_cosmetic_tag = GRE_COLONY
+
+set_popularities = {
+        neutrality = 10
+        theocratic = 65
+        democratic = 5
+        communism = 0
+        fascism = 20
+
+}
+
+set_politics = {
+	
+	ruling_party = theocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Politikós Dioikitís Periklis Noulis"
+	desc = ""
+	picture = "gfx/leaders/MAT/MAT_NoulisPlaceholder.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Oikoumenikós Patriárchis Veniamín I Konstantinoupóleos"
+	desc = ""
+	picture = "gfx/leaders/MAT/Portrait/Benjamin_I.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}

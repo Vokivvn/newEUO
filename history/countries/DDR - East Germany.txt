@@ -1,1 +1,234 @@
-capital = 64
+﻿capital = 64
+
+set_popularities = {
+	vanguardism = 59
+	communism = 38
+	neutrality = 3
+}
+
+set_politics = { 
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = { 
+	name = "Präsident Ernst Goldenbaum"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Goldenbaum.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalsekretär Erich Ernst Paul Honecker"
+	desc = ""
+	picture = "gfx/leaders/DDR/Portrait_DDR_Erich_Honecker.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {	
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Lothar Bolz"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Bolz.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident und Co-Vorsitzender der SED Friedrich Wilhelm Reinhold Pieck"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "gfx/leaders/DDR/Portrait_DDR_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Waldemar Koch"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Koch.tga"
+	expire = "1939.1.16"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bundespräsident Andreas Hermes"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Hermes.tga"
+	expire = "1956.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Voénnyj Gubernátor Vasílij Danílovič Sokolóvskij"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Sokolovsky.tga"
+	expire = "1956.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oberbefehlshaber Wilhelm Stoph"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Stoph.tga"
+	expire = "1956.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herrscher Georg Alexander Michael Friedrich Wilhelm Albert Theodor Franz Herzog zu Mecklenburg, Graf von Carlow"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Georg.tga"
+	expire = "1956.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Stabschef Wilhelm Adam"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Adams.tga"
+	expire = "1956.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsführer Josef \"Sepp\" Dietrich"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Dietrich.tga"
+	expire = "1956.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsverweser Paul Emil von Lettow-Vorbeck"
+	desc = ""
+	picture = "gfx/leaders/TZN/TZN_Lettow.tga"
+	expire = "1956.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Fürsterzbischof Lothar Kreyssig"
+	desc = ""
+	picture = "gfx/leaders/DDR/DDR_Kreyssig.tga"
+	expire = "1956.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1956.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1956.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1956.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1956.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1956.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

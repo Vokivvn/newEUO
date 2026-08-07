@@ -1,0 +1,18 @@
+state={
+	id=10051
+	name="STATE_10051"
+	provinces={
+		19298 
+	}
+	history={
+	    owner = PSR
+		add_core_of = PSR
+        add_core_of = INS
+		add_core_of = IDS
+		add_core_of = BEO
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,1 +1,248 @@
 ﻿capital = 9
+
+set_popularities = {
+	vanguardism = 10
+	socialism_ideology = 25
+	centrist_republic = 13
+	democratic = 17
+	national_conservative_republic = 12
+	republican_fascism = 9
+	national_socialism = 14
+}
+
+set_politics = { 
+	ruling_party = centrist_republic
+	last_election = "1935.5.19"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prezident Edvard Beneš"
+	desc = "POLITICS_EDVARD_BENES_DESC"
+	picture = "gfx/leaders/Czechia/Portrait_Czech_Edvard_Benes.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generální Tajemník Klement Gottwald"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Gottwald.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Velitel Bedřich Homola"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Homola.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Emil Dominik Josef Hácha"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Hacha.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Antonín Hampl"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Hampl.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premiér Ludvík Svoboda"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Svoboda.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Král Albrecht II z Habsburgů-Těšín"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Albrecht.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Antonín Hampl"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Hampl.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Tomáš Garrigue Masaryk"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_TomasMasaryk.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Král Albrecht II z Habsburgů-Těšín"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Albrecht.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Král Jan II z Masaryk"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_JanMasaryk.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Velkovévoda Jan II z Masaryk"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_JanMasaryk.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vrchní Velitel Alois Josef Eliáš"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Elias.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Král František Josef II z Habsburgů-Těšín"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Král Albrecht II z Habsburgů-Těšín"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Albrecht.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Král Bedřich II z Habsburgů-Těšín"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Fridrich.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Patriarcha Gustav Adolf Procházka"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Prochazka.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Císař Bedřich II z Habsburgů-Těšín"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Fridrich.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vůdce Radola Gajda"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Gajda.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Konrad Ernst Eduard Henlein"
+	desc = ""
+	picture = "gfx/leaders/Czechia/CZE_Heinlein.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

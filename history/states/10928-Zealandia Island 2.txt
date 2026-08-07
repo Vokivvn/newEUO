@@ -1,0 +1,18 @@
+state={
+	id=10928
+	name="STATE_10928"
+	provinces={
+		20529
+	}
+	history={
+		owner = KHL
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = KHL
+		add_core_of = EPU
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

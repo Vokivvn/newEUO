@@ -1,0 +1,22 @@
+capital = 1222
+
+set_popularities = {
+	fascism	= 100
+}
+
+set_politics = { 
+	ruling_party = fascism
+	last_election = "1960.1.1"
+	election_frequency = 50
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Franz Schwede-Coburg"
+	desc = ""
+	picture = "gfx/leaders/POM/POM_SchwedeCoburg.tga"
+	expire = "1960.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

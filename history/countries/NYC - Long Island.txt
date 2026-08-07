@@ -1,0 +1,153 @@
+﻿capital = 1433
+
+set_popularities = {
+	liberal_republic = 100	        
+}
+
+set_politics = {
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Grand Mayor Frederick Christ Trump"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Trump.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Fred I of Trump"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Trump.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Benjamin Jefferson Davis Jr."
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Davis_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Major Fiorello Henry La Guardia"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Guardia.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+
+create_country_leader = {
+	name = "Governor-General Brendan Rendall Bracken"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Bracken_authmon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Louis Joseph Maria Beel"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Beel.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Louis Joseph Maria Beel"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Beel.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Secretary-General Hubert Miles Gladwyn Jebb"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Jebb.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Secretary-General Hubert Miles Gladwyn Jebb"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Jebb.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President James John Walker"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Walker_authrep.tga"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Police Commissioner Lewis Joseph Valentine"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Valentine_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commissioner Matthew Bunker Ridgway"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Ridgeway.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "National President Fritz Julius Kuhn"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Kuhn.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Lepke Buchalter"
+	desc = ""
+	picture = "gfx/leaders/NYC/NYC_Buchalter_ancap.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

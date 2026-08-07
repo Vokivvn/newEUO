@@ -1,0 +1,34 @@
+﻿capital = 10425
+
+set_popularities = {
+	vanguardism = 100
+}
+	
+set_cosmetic_tag = RUS_RED
+
+set_politics = {	
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Pérvyj Sekretárʹ Maríjskogo obkóma VKP(b) Čéslav Iósifovič Vrublévskij"
+	desc = ""
+	picture = "gfx/leaders/MRE/MRE_Vrublevsky.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prézident Nikoláj Ivánovič Kazakóv"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/MRE_Kazakov.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}

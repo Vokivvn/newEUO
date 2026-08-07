@@ -1,1 +1,251 @@
-﻿capital = 4 # Vienna
+﻿capital = 1385
+set_popularities = {
+	republican_fascism = 100
+}
+
+set_politics = { 
+	ruling_party = republican_fascism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Präsident Wilhelm Miklas"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Wilhelm_Miklas.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsstatthalter Josef Bürckel"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Josef_Burckel.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Franz Joseph II von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Carl Vaugoin"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Carl_Vaugoin.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalsekretär Johann Koplenig"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Johann_Koplenig.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vorsitzende Ruth Fischer"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Ruth_Fischer.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vorsitzende Karl Josef Seitz"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Karl_Seitz.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsherzog Franz Joseph II von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Karl Josef Seitz"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Karl_Seitz.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bundeskönig Franz Joseph II von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Franz Joseph II von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichspräsident Franz Winkler"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Franz_Winkler.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsherzog Franz Joseph II von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Franz Joseph II von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = natconmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Franz Joseph II von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsdiktator und Reichskanzler Michael Arthur Josef Jakob Hainisch"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Michael_Hainisch.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oberster General Alfred Johann Theophil Janša Edler von Tannenau"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Alfred_Jansa.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Erzherzog Felix I von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Felix_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Karl I von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Karl_Habsburg_2.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Fürsterzbischof Sigismund Waitz"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Sigismund_Waitz.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Franz Joseph II von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Die Österreichische Bundesbergbaukommission"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/AUS/Portrait_Mining_Authority.dds"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

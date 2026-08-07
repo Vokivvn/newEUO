@@ -1,0 +1,47 @@
+﻿capital = 5680
+
+set_popularities = {
+        neutrality = 50
+        stratocratic = 25
+        centrist_republic = 25
+
+}
+
+set_politics = {
+	
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Başkan Ahmed Barzani"
+	desc = ""
+	picture = "gfx/leaders/ETC/ETC_Barzani.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vali Ahmed Barzani"
+	desc = ""
+	picture = "gfx/leaders/ETC/ETC_Barzani.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Başkan Ahmed Barzani"
+	desc = ""
+	picture = "gfx/leaders/ETC/ETC_Barzani.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+

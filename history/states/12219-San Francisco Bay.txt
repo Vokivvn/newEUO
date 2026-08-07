@@ -1,0 +1,17 @@
+state={
+	id=12219
+	name="STATE_12219"
+	provinces={
+		20881 
+	}
+	history = {
+		owner = SCM
+		add_core_of = SCM
+		add_core_of = CMR
+		add_core_of = CM8
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

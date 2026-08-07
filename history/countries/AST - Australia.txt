@@ -1,14 +1,247 @@
-﻿capital = 285
+﻿capital = 2025
 
-set_politics = {
-	ruling_party = national_socialism
-	last_election = "1936.1.1"
-	election_frequency = 48
+set_country_flag = has_secondary_leader
+
+set_popularities = {
+	socialist_monarchy = 12
+	democratic_monarchism = 24
+	centrist_monarchism = 21
+	conservative_monarchism = 43
+}
+
+set_politics = { 
+	ruling_party = conservative_monarchism
+	last_election = "1934.9.15"
+	election_frequency = 36
 	elections_allowed = no
 }
 
-set_popularities = {
-	national_socialism = 100
+create_country_leader = {
+	name = "Governor-General Sir Isaac Alfred Isaacs"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Sir_Isaac_Isaacs.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
 }
 
-recruit_character = AST_Jim_Saleam 
+create_country_leader = {
+	name = "Governor-General Prince Henry of Windsor, Duke of Gloucester"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Prince_Henry.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Isaac Alfred Isaacs"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Sir_Isaac_Isaacs.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "First Minister Charles Frederic John North"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Charles_Frederic_John_North.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Secretary Jack Miles"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Jack_Miles.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Jack Miles"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Jack_Miles.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chancellor John Curtin"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister John Curtin"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President John Thomas Lang"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Jack_Lang.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Joseph Alysius Lyons"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Joseph_Lyons.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister John Curtin"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Richard Layton Butler"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Richard_Layton_Butler.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Earle Christmas Grafton Page"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Earle_Page.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Australasian Regency Council"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Oceanian_Council.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander-in-Chief Sir Thomas Blamey"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Sir_Thomas_Blamey.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir William Riddell Birdwood, Baronet of Anzac and Totnes"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Sir_William_Riddell_Birdwood.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince-Archbishop Norman Thomas Gilroy"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Norman_Thomas_Gilroy.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Eric Campbell"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Eric_Campbell.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme Leader Percy Reginald Stephensen"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Percy_Reginald_Stephensen.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur William John Miles"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_William_John_Miles.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Executive Officer Leslie Bradford"
+	desc = ""
+	picture = "gfx/leaders/AST/Portrait_Leslie_Bradford.dds"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

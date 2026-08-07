@@ -1,0 +1,35 @@
+﻿capital = 7005
+set_cosmetic_tag = RUS_RED
+
+set_popularities = {
+        vanguardism = 90
+        neutrality = 10
+
+}
+
+set_politics = {
+ ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Predsedatel Idris Beisultanovich Zyazikov"
+	desc = ""
+	picture = "gfx/leaders/MTN/MTN_Zyazikov.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premieres-Minister Abdul Medjid Bey Ortsa Tchermoeff"
+	desc = ""
+	picture = "gfx/leaders/MTN/MTN_Tchermoeff.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}

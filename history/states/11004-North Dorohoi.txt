@@ -1,0 +1,22 @@
+state={
+	id=11004
+	name="STATE_11004"
+
+	history={
+		owner = ROM
+		add_core_of = ROM
+      	add_core_of = MLV
+		add_core_of = BKV
+		add_core_of = GAL
+		add_core_of = UKR
+        add_core_of = CRV
+	}
+
+	provinces={
+		20562
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

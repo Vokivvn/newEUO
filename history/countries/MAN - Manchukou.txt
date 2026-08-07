@@ -1,14 +1,243 @@
 ﻿capital = 328
 
-set_politics = {
-	ruling_party = autocratic
+set_country_flag = has_secondary_leader
+
+set_cosmetic_tag = MAN_JAP
+
+set_popularities = {
+	stratocratic_monarchism = 100
+}
+
+set_politics = { 
+	ruling_party = stratocratic_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Huangti Aisin Gioro Puyi"
+	desc = ""
+	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	expire = "1960.1.1"
+	ideology = stratmon
+	traits = {
+		#
+	}
 }
 
-recruit_character = MAN_Jin_Youzhi
+create_country_leader = {
+	name = "Huangti Aisin Gioro Puyi"
+	desc = ""
+	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	expire = "1960.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Huangti Puyi"
+	desc = ""
+	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	expire = "1960.1.1"
+	ideology = christian
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kāngdé Huangti"
+	desc = ""
+	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	expire = "1960.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shwouxi Zhixing Kuan Aisin Gioro Puyi"
+	desc = ""
+	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	expire = "1960.1.1"
+	ideology = cenmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shengch'ang Chang Hsueh-liang"
+	desc = ""
+	picture = "gfx/leaders/MAN/Portrait_Zhang_Xueliang.dds"
+	expire = "1960.1.1"
+	ideology = cenrep
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shengch'ang Chang Hsueh-liang"
+	desc = ""
+	picture = "gfx/leaders/MAN/Portrait_Zhang_Xueliang.dds"
+	expire = "1960.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Johannes Friedrich Leopold von Seeckt"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Seeckt.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gekai Ippan Shirō Ishii"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Ishii.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huángtaì Aisin Gioro Yunying"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Yunying.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kuowang Aisin Gioro Zaifeng"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Zaifeng.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Saikō Shirei-kan Hideki Tojo"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Tojo.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiji Kishi Nobusuke"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Kishi.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huangti Aisin Gioro Pujie"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Pujie.tga"
+	expire = "1938.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsungt'ung Cheng Hsiao-hsu"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Hsu.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsungt'ung Chang Ching-hui"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Hui.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zhuxí Chen Duxiu"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Duxiu.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zhuxí Chen Duxiu"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Duxiu.tga"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zongtong Chen Duxiu"
+	desc = ""
+	picture = "gfx/leaders/MAN/MAN_Duxiu.tga"
+	expire = "1953.3.1"
+	ideology = demsoc
+	traits = {
+	}
+}

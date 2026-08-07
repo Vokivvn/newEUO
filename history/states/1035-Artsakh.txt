@@ -1,0 +1,24 @@
+state={
+	id=1035
+	name="STATE_1035"
+
+	history={
+		owner = AZR
+		victory_points = {
+			1467 1
+		}
+		add_core_of = SOV
+		add_core_of = TSC
+		add_core_of = AZR
+		add_core_of = NGK
+		add_core_of = KC2
+	}
+
+	provinces={
+		1467 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

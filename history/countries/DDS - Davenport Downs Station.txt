@@ -1,0 +1,14 @@
+﻿capital = 10991
+
+set_popularities = {
+        monarchism = 50
+        right_anarchism = 50
+}
+
+set_politics = {
+	
+	ruling_party = right_anarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}

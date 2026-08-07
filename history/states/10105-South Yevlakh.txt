@@ -1,0 +1,19 @@
+state={
+	id=10105
+	name="STATE_10105"
+	provinces={
+		19444 
+	}
+	history={
+		
+		owner = AZR 
+		add_core_of = SOV
+		add_core_of = AZR
+		add_core_of = TSC
+		add_core_of = KC2
+	}
+	manpower = 6900
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

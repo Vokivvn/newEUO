@@ -1,0 +1,23 @@
+state={
+	id=1005
+	name="STATE_1005"
+
+	history={
+		owner = JIP
+		add_claim_by = RAJ 
+		add_core_of = IND
+		add_core_of = RJS
+		add_core_of = JIP
+		victory_points = {
+			15011 25
+		}
+	}
+
+	provinces={
+		15011
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1192
+	name="STATE_1192"
+
+	provinces={
+		10068 
+	}
+
+	history={
+	    owner = HB2
+		add_core_of = HB2
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = CIL
+		add_core_of = PSC
+		add_core_of = RGC
+		add_core_of = TNT
+		add_claim_by = AUS
+		victory_points = {
+			10068 30
+		}
+		1938.10.25 = {
+			controller = JAP
+		}
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}

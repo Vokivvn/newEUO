@@ -1,1 +1,87 @@
-﻿capital = 553
+﻿capital = 17404
+set_cosmetic_tag = FRA_BLUE
+set_country_flag = has_secondary_leader
+set_country_flag = has_tertiary_leader
+
+	set_popularities = {
+		liberal_republic 
+			 = 40
+		centrist_republic
+			 = 60
+		}
+	set_politics = { 
+ ruling_party = centrist_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Rayiys Habib Pacha es-Saad"
+	desc = ""
+	picture = "gfx/leaders/LEB/LEB_Habib_cenrep.tga"
+	ideology = cenrep
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Président Émile Ibrahim Eddé"
+	desc = ""
+	picture = "gfx/leaders/LEB/Portrait_Emile_Eddie.dds"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pierre Gemayel"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Europe_Generic_fascism1.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Premier Ministre Bechara Khalil El Khoury"
+	desc = ""
+	picture = "gfx/leaders/LEB/LEB_Khalil_authrep.tga"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rami Sarraff"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Malik Ahmad I El-Assaad"
+	desc = ""
+	picture = "gfx/leaders/LEB/LEB_Asaad_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zaeim Pierre Gemayel"
+	desc = ""
+	picture = "gfx/leaders/LEB/LEB_Pierre_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

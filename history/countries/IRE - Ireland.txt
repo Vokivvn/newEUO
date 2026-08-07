@@ -1,14 +1,248 @@
-﻿capital = 113
+﻿capital = 1831
 
-set_politics = {
-	ruling_party = national_socialism
-	last_election = "1936.1.1"
+set_country_flag = has_secondary_leader
+recruit_character = IRE_Eamon_de_Valera
+
+set_popularities = {
+	socialist_monarchy = 7
+	centrist_monarchism = 52
+	conservative_monarchism = 34
+	national_conservative_republic = 7
+}
+
+set_politics = { 
+	ruling_party = centrist_monarchism
+	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	national_socialism = 100
+create_country_leader = {
+	name = "Seanascal Domhnall Ua Buachalla"
+	desc = ""
+	picture = "gfx/leaders/IRE/Portrait_Domhnall_Ua_Buachalla.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
 }
 
-recruit_character = IRE_justin_barrett
+create_country_leader = {
+	name = "Governor-General Daniel Richard Donal Buckley"
+	desc = ""
+	picture = "gfx/leaders/IRE/Portrait_Domhnall_Ua_Buachalla.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rí Ard Ioaichím I de Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Joachim.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Éamon de Valera"
+	desc = ""
+	picture = "gfx/leaders/IRE/Portrait_Eamon_De_Valera.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Príomh Seán Russell"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Russell.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King George V of Windsor"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_GeorgeV.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Uachtarán Liam Tomás Mac Cosgair"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Cosgrave.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ard-Rúnaí Seán Murray"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Murray.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cathaoirleach Peadar Ó Domhnaill"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Donnell.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Uachtarán Liam Ó Neachtain"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Norton.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rí Hugo O'Neill"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_HugoI.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Uachtarán Brian Ó hUigínn"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Huiginn.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Taoiseach Brian O'Higgins"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Huiginn.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Uachtarán Dubhghlas de hÍde"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Hyde.tga"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Uachtarán Mícheál Ó Coileáin"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Coileain.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ceannasaí go Príomha Eoin Ó Dubhthaigh"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Duffy.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Miles Christopher Dempsey"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Dempsey.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Príomháidh Seosamh Mac Ruairí, Ardeaspag Armagh"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Ruairi.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rí Ard Gearóid Ó Cuinneagáin"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Cuinneagain.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ceannaire Uachtarach Gearóid Ó Cuinneagáin"
+	desc = ""
+	picture = "gfx/leaders/IRE/IRE_Cuinneagain.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

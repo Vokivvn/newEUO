@@ -1,0 +1,93 @@
+﻿capital = 1985
+
+set_popularities = {
+	        democratic = 98
+                liberal_republic = 2
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Junius Marion Futrell"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Futrell.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Joseph Andrew Green"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Green.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President Harvey Parnell"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Parnell_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duke Richard I of Sykes"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Sykes_cenmon.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Patriarch William Bell Riley"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Riley_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme President Douglas Chandler"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Chandler.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme President Douglas Chandler"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Chandler.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President James Strom Thurmond"
+	desc = ""
+	picture = "gfx/leaders/AKS/AKS_Thurmond.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}

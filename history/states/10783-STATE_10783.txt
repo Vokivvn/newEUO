@@ -1,0 +1,17 @@
+state={
+	id=10783
+	name="STATE_10783"
+	manpower=1
+	
+	state_category=pastoral
+	
+	history={
+		owner = CHG
+		add_core_of = CHG
+		add_core_of = TIB
+	}
+	provinces={
+		20207 
+	}
+	local_supplies=0.0 
+}

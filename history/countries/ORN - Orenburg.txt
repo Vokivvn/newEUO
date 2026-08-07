@@ -1,0 +1,84 @@
+﻿capital = 12573
+
+
+	set_popularities = {
+        neutrality = 30
+        monarchism = 0
+        democratic = 0
+        liberal_republic = 0
+        communism = 30
+        vanguardism = 30
+        fascism = 0
+        anarchism_ideology = 0
+        socialism_ideology = 0
+        democratic_monarchism = 0
+        conservative_monarchism = 0
+        stratocratic = 0
+        authoritarian_monarchism = 0
+        republican_fascism = 0
+        national_socialism = 0
+        theocratic = 0
+        left_anarchism = 10
+        right_anarchism = 0
+        socialist_monarchy = 0
+        centrist_republic = 0
+        centrist_monarchism = 0
+        stratocratic_monarchism = 0
+	}
+	
+set_politics = { 
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Reichskommissar Rudolf Schmidt"
+	desc = ""
+	picture = "gfx/leaders/ORN/ORN_Schmidt_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsedátel' Aleksándr Adól'fovič Búrba"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/ORN_Burba.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sovét Rabóčix Orenbúrga"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sovét Rabóčix Orenbúrga"
+	desc = ""
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsedátel' Mixaíl Grigór'evič Pervúxin"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/ORN_Pervukhin.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {	
+	}
+}

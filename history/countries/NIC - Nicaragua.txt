@@ -1,1 +1,99 @@
 ﻿capital = 317
+
+set_popularities = {
+	liberal_republic = 70
+	fascism = 0
+	communism = 10
+	neutrality = 20
+}
+
+set_politics = { 
+	ruling_party = liberal_republic
+	last_election = "1934.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Presidente Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+	picture = "gfx/leaders/NIC/Portrait_Juan_Bautista_Sacasa.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Caudillo Anastasio \"Tacho\" Somoza García"
+	desc = ""
+	picture = "gfx/leaders/NIC/NIC_Anastasio_authdem.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Secretario General Augusto César Sandino"
+	desc = ""
+	picture = "gfx/leaders/NIC/NIC_Sandino_commie.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Augusto César Sandino"
+	desc = ""
+	picture = "gfx/leaders/NIC/NIC_Sandino_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Emiliano Chamorro Vargas"
+	desc = ""
+	picture = "gfx/leaders/NIC/NIC_Vargas_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Ross Erastus Rowell"
+	desc = ""
+	picture = "gfx/leaders/NIC/NIC_Rowell_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador José María de Albert Despujol, Peralta y Pujol de Senillosa"
+	desc = ""
+	picture = "gfx/leaders/NIC/NIC_Jose_stratmon.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arzobispo José Antonio Lezcano y Ortega"
+	desc = ""
+	picture = "gfx/leaders/NIC/NIC_Leczano_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}

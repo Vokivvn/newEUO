@@ -1,0 +1,28 @@
+﻿capital = 4114
+
+
+
+	set_popularities = {
+		authoritarian_monarchism 
+			 = 100
+		fascism
+			 = 0
+		neutrality
+			 = 0
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Duca Alfonso I d'Orléans"
+	desc = ""
+	picture = "gfx/leaders/BOG/BOG_Alfonso_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}

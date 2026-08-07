@@ -1,16 +1,245 @@
-capital = 439
+﻿capital = 4732
 
-oob = "RAJ_2010"
+set_popularities = {
+	socialist_monarchy = 29
+	centrist_monarchism = 2
+	conservative_monarchism = 8
+	anocratic_monarchism = 61
+}
 
-set_politics = {
-	ruling_party = syncretism
-	last_election = "1936.1.1"
+set_politics = { 
+	ruling_party = anocratic_monarchism
+	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	syncretism = 100
+create_country_leader = {
+	name = "General Secretary Ayillyath Kuttiari Gopalan"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Gopalan.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
 }
 
-recruit_character = RAJ_anita_bose_pfaff
+create_country_leader = {
+	name = "Governor Claude John Eyre Auchinleck"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Auchinleck.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Vinayak Damodar Savarkar"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Savarkar.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Jawaharlal Nehru"
+	desc = ""
+	picture = "gfx/leaders/India/nehru.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier Acharya Narendra Deva"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Deva.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Madhavrao III"
+	desc = ""
+	picture = "gfx/leaders/India/Madhavrao_Standin.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chancellor Mohandas Karamchand Gandhi"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Gandhi.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Keshav Baliram Hedgewar"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Hedgewar.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Jan Godfried van Voorst tot Voorst"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Voorst.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Viceroy and Governor-General Freeman Freeman-Thomas, Earl of Willingdon"
+	desc = ""
+	picture = "gfx/leaders/India/Portrait_Freeman_Freeman-Thomas.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Bhogaraju Pattabhi Sitaramayya"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Sitaramayya.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Rajendra Prasad"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Prasad.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander in Chief Claude John Eyre Auchinleck"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Auchinleck.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Viceroy and Governor-General Freeman Freeman-Thomas, Earl of Willingdon"
+	desc = ""
+	picture = "gfx/leaders/India/Portrait_Freeman_Freeman-Thomas.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Viceroy and Governor-General Freeman Freeman-Thomas, Earl of Willingdon"
+	desc = ""
+	picture = "gfx/leaders/India/Portrait_Freeman_Freeman-Thomas.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Viceroy and Governor-General Prince Albert Victor of Windsor, Duke of Clarence and Avondale"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Albert.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imam Aga Khan III"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Khan.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sōtoku Renya Mutaguchi"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Mutaguchi.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Subhas Chandra Bose"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Bose.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Albert Konrad Kesselring"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Kesselring.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor John Gilbert Ramsay"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Ramsay.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

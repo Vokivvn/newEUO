@@ -1,0 +1,18 @@
+state={
+	id=10238
+	name="STATE_10238"
+	provinces={
+		19538 
+	}
+	history={
+		owner = LAO
+		add_core_of = LAO
+		add_core_of = INC
+		add_core_of = LUA
+		add_core_of = LNM
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

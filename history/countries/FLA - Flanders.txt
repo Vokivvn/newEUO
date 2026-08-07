@@ -1,0 +1,109 @@
+﻿capital = 6
+
+	set_popularities = {
+		democratic 
+			 = 83
+		fascism
+			 = 11
+		communism
+			 = 6
+		}
+	set_politics = { 
+ ruling_party = democratic
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Reichskommissar Josef Grohé"
+	desc = ""
+	picture = "gfx/leaders/FLA/FLA_Josef_Grohe.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Voorzitter Bert Van Hoorick"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Hoorick.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Hertog Adalbert I van Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Adalbert.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Koning Leopold III van Saksen-Coburg en Gotha"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Leopold.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President Paul Guillaumet van Zeeland"
+	desc = ""
+	picture = "gfx/leaders/FLA/FLA_Zeeland_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commandant en Chef Jean-Baptiste Piron"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Piron.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Keizer Leopold III van Saksen-Coburg en Gotha"
+	desc = ""
+	picture = "gfx/leaders/BEL/BEL_Leopold.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Voorzitter Staf Declercq"
+	desc = ""
+	picture = "gfx/leaders/FLA/FLA_Declercq_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gauleiter Arthur Seyss-Inquart"
+	desc = ""
+	picture = "gfx/leaders/FLA/FLA_Inquart.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

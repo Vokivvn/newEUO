@@ -1,0 +1,19 @@
+state={
+	id=10064
+	name="STATE_10064"
+	provinces={
+		19325 
+	}
+	history={
+	    owner = CTU
+		add_core_of = CTU
+		add_core_of = WRI 
+		add_core_of = SHC
+		add_core_of = CHI
+		add_core_of = PRC
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

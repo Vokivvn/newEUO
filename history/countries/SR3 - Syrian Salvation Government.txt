@@ -1,0 +1,12 @@
+﻿capital = 6988
+
+set_popularities = {
+	neutrality = 100
+}
+
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1932.2.6"
+	election_frequency = 48
+	elections_allowed = no
+}

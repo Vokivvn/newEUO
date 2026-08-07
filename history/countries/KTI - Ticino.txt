@@ -1,0 +1,25 @@
+﻿capital = 841
+
+set_popularities = {
+	democratic =  0
+	communism =  0
+	fascism =  60
+	neutrality =  40
+}
+	
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governatore Giuseppe Bottai"
+	desc = ""
+	picture = "gfx/leaders/KTI/KTI_Bottai.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

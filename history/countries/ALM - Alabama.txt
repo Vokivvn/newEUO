@@ -1,0 +1,92 @@
+﻿capital = 367
+
+set_popularities = {
+        centrist_republic = 98
+        democratic = 2
+}
+
+set_politics = {
+	ruling_party =  centrist_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor David Bibb Graves"
+	picture = "gfx/leaders/ALM/ALM_Graves.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Richard Brevard Russell Jr."
+	desc = ""
+	picture = "gfx/leaders/ALM/ALM_Russell_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President William Brockman Bankhead"
+	desc = ""
+	picture = "gfx/leaders/ALM/ALM_Bankhead_libdem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princess Elisabeth I of Habsburg"
+	desc = ""
+	picture = "gfx/leaders/ALM/ALM_Elisabeth.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Elisabeth I of Habsburg"
+	desc = ""
+	picture = "gfx/leaders/ALM/ALM_Elisabeth.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperial Wizard Hiram Wesley Evans"
+	desc = ""
+	picture = "gfx/leaders/ALM/ALM_Evans_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperial Wizard Hiram Wesley Evans"
+	desc = ""
+	picture = "gfx/leaders/ALM/ALM_Evans_repfash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}

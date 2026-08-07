@@ -1,0 +1,50 @@
+﻿capital = 2022
+
+set_popularities = {
+        communism = 2
+	democratic_monarchism = 53
+	centrist_monarchism = 19
+	conservative_monarchism = 19
+	neutrality = 7
+}
+
+set_politics = {
+	
+	ruling_party = democratic_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "President William Forgan Smith"
+	desc = ""
+	picture = "gfx/leaders/QNS/Portrait_William_Forgan_Smith.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Leslie Wilson"
+	desc = ""
+	picture = "gfx/leaders/QNS/Portrait_Sir_Leslie_Wilson.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Grand Duke Henry of Windsor"
+	desc = ""
+	picture = "gfx/leaders/QNS/Portrait_Prince_Henry.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}

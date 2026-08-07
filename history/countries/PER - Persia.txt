@@ -1,16 +1,248 @@
 ﻿capital = 266
 
-oob = "PER_2010"
+set_cosmetic_tag = PER_PAHLAVI
 
-set_politics = {
-	ruling_party = autocratic
+set_country_flag = has_secondary_leader
+
+set_popularities = {
+	authoritarian_monarchism  = 100
+}
+
+set_politics = { 
+	ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Reza Šâh Pahlavi"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "gfx/leaders/PER/Portrait_Reza_Pahlavi.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
 }
 
-recruit_character = PER_reza_shah
+create_country_leader = {
+	name = "Timsar Gholamali Bayandor"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Gholamali_Bayandor_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Primer Ministro Manuel Vicente Villarán"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Mehdi_Qoli_Hedayat_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wazir Soleiman Mirza Eskandari"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Soleyman_Eskandari_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Raees Soleiman Mirza Eskandari"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Soleyman_Eskandari_commie.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "General Armii Dmitry Timofeyevich Kozlov"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Dmitry_Kozlov_vanguardism.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nakhast Wazir Mahmoud Modir al-Molk Djam"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Mahmoud_Djam_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shahzada Keikhosrow Shahrokh"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Keikhosrow_Shahrokh.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rahbar Mohsen Pezeshkpour"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Mohsen_Pezeshkpour_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Sir John Cadman"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_John_Cadman_ancap.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Führer Davud Monshizadeh"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Davud_Monshizadeh_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ayatollah Sayyid Ruhollah Musavi Khomeini"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Ruhollah_Khomeini_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Seyyed Zia'eddin Tabataba'i"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Seyyed_Tabataba_authdem.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sadrazam Mohammad-Ali Foroughi"
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Mohammad-Ali_Foroughi_cendem.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Malakeh Shams Pahlavi"	
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Shams_Pavlavi.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shah Mohammad Hassan Mirza Qajar"	
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Mohammad_Hassan_Mirza_Qajar.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ahmad Shah Qajar"	
+	desc = ""
+	picture = "gfx/leaders/PER/PER_Ahmad_Shah_Qajar.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mohammmad Reza Shah Pahlavi"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "gfx/leaders/PER/PER_Mohammad_Reza_Pahlavi.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Reza Shah Pahlavi"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "gfx/leaders/PER/Portrait_Reza_Pahlavi.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governor William Joseph Slim"	
+	desc = ""
+	picture = "gfx/leaders/PER/PER_William_Slim_authmon.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=10927
+	name="STATE_10927"
+	provinces={
+		20521
+	}
+	history={
+		owner = UTT 
+		add_core_of = UTT
+		add_core_of = RAJ 
+		add_core_of = URK
+		add_core_of = IND
+	}
+	manpower = 1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

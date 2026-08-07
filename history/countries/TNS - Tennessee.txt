@@ -1,0 +1,113 @@
+﻿capital = 368
+
+set_popularities = {
+	        democratic = 98
+                centrist_republic = 2
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Harry Hill McAlister"
+	desc = ""
+	picture = "gfx/leaders/TNS/TNS_McAlister.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairwoman Sue Shelton White"
+	desc = ""
+	picture = "gfx/leaders/TNS/TNS_White_socrep.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Provisional President Cordell Hull"
+	desc = ""
+	picture = "gfx/leaders/TNS/TNS_Hull.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Cordell Hull"
+	desc = ""
+	picture = "gfx/leaders/TNS/TNS_Hull.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Alvin Cullum York"
+	desc = ""
+	picture = "gfx/leaders/TNS/TNS_York_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Alvin Cullum York"
+	desc = ""
+	picture = "gfx/leaders/TNS/TNS_York_strat.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Nathan III of Bedford-Forrest"
+	desc = ""
+	picture = "gfx/leaders/CSA/CSA_ForrestIII.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Arthur Ernest Morgan"
+	desc = ""
+	picture = "gfx/leaders/TNS/TNS_Morgan_ancap.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Donald Partridge"
+	desc = ""
+	picture = "gfx/leaders/TNS/TNS_Partridge.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

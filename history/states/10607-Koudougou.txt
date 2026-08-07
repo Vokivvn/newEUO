@@ -1,0 +1,16 @@
+state={
+	id=10607
+	name="STATE_10607"
+	provinces={
+		10836
+	}
+	history={
+		owner = IVO
+		add_core_of = VOL
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

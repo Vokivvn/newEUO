@@ -1,0 +1,38 @@
+﻿capital = 12471
+
+set_popularities = {
+        neutrality = 60
+        democratic = 40
+
+}
+
+set_politics = {
+	
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Premer-Mïnïstr Alikhan Nurmukhamedovich Bukeikhan"
+	desc = ""
+	picture = "gfx/leaders/ALS/Portrait_Alikhan_Bukeikhan.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Premer-Mïnïstr Alikhan Nurmukhamedovich Bukeikhan"
+	desc = ""
+	picture = "gfx/leaders/ALS/Portrait_Alikhan_Bukeikhan.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+

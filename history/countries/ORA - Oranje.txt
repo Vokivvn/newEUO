@@ -1,0 +1,41 @@
+﻿capital = 275
+
+
+# clone of Holland
+
+	set_popularities = {
+		democratic 
+			 = 100
+		fascism
+			 = 0
+		communism
+			 = 0
+		neutrality
+			 = 0
+		}
+	set_politics = { 
+ ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Manie Maritz"
+	desc = ""
+	picture = "gfx/leaders/Africa/Manie_Maritz.dds"
+	expire = "1940.12.20"
+	ideology = fascism_ideology 
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Jan Christoffel Greyling Kemp"
+	desc = ""
+	picture = "gfx/leaders/ORA/ORA_Kemp_condem.tga"
+	expire = "1946.12.31"
+	ideology = conservatism 
+	traits = {
+	}
+}

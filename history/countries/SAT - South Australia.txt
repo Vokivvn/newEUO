@@ -1,0 +1,48 @@
+﻿capital = 9005
+
+set_popularities = {
+        communism = 2
+	democratic_monarchism = 44
+	centrist_monarchism = 12
+	conservative_monarchism = 35
+	centrist_republic = 3
+	socialist_monarchy = 4
+}
+
+set_politics = {
+	
+	ruling_party = conservative_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gouverneur Alphonse Joseph Georges"
+	desc = ""
+	picture = "gfx/leaders/SAT/SAT_Georges.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Richard Layton Butler"
+	desc = ""
+	picture = "gfx/leaders/SAT/SAT_Butler.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Winston Joseph Dugan"
+	desc = ""
+	picture = "gfx/leaders/SAT/SAT_Dugan.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}

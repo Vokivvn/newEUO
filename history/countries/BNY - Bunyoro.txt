@@ -1,0 +1,25 @@
+﻿capital = 1823
+
+set_cosmetic_tag = UK_RED
+
+set_popularities = {
+    authoritarian_monarchism = 100
+}
+
+set_politics = {
+	
+	ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Tito Gafabusa Kabalega Winyi IV"
+	desc = ""
+	picture = "gfx/leaders/BNY/BNY_Tito_Gafabusa_Kabalega_Winyi_IV.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+

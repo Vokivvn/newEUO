@@ -1,1 +1,54 @@
 ﻿capital = 636
+
+set_cosmetic_tag = BWP_COLONY
+
+	set_popularities = {
+		democratic 
+			 = 5
+		fascism
+			 = 5
+		communism
+			 = 5
+		authoritarian_monarchism 
+			 = 85
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "Ratu Tevita Naulivou"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1948.11.12"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Governor Sir Arthur Murchison Fletcher"
+	picture = "gfx/leaders/FIJ/Portrait_Sir_Arthur_Murchison_Fletcher.dds"
+	expire = "1954.7.28"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Edward Cakobau"
+	picture = "gfx/leaders/Pacific/Edward_Cakobau.dds"
+	expire = "1973.6.26"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+

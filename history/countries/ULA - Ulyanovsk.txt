@@ -1,0 +1,49 @@
+﻿capital = 250
+
+set_popularities = {
+	        democratic = 10
+        communism = 20
+        fascism = 15
+        neutrality = 55
+
+}
+
+set_politics = {
+	
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Zach Vaughn"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mammad Amin Rasulzade"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oga Lukav"
+	desc = ""
+	picture = "gfx/leaders/SOV/PortrRUS_REDiet_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+

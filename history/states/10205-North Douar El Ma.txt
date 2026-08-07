@@ -1,0 +1,18 @@
+state={
+	id=10205
+	name="STATE_10205"
+	provinces={
+		19574 
+	}
+	history={
+	    owner = SGR
+        add_core_of = ALG
+        add_core_of = SGR
+	add_core_of = SD0
+	add_core_of = TGG
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

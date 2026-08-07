@@ -1,0 +1,23 @@
+
+state={
+	id=10400
+	name="STATE_10400"
+
+	history={
+		owner = TKI
+		add_core_of = INC
+		add_core_of = TKI
+		add_core_of = VIN
+		add_core_of = NVI
+		add_core_of = TAI
+
+	}
+
+	provinces={
+		19736 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

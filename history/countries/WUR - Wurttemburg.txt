@@ -1,0 +1,42 @@
+﻿capital = 5127
+set_popularities = {
+	democratic 
+		= 0
+	fascism
+		= 30
+	communism
+		= 0
+	neutrality
+		= 0
+	monarchism
+		= 70
+		}
+
+set_politics = { 
+	ruling_party = monarchism
+	last_election = "1960.1.1"
+	election_frequency = 50
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "König Albrecht von Württemberg"
+	desc = ""
+	picture = "gfx/leaders/WUR/WUR_Albrecht.tga"
+	expire = "1960.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gauleiter Wilhelm Murr"
+	desc = ""
+	picture = "gfx/leaders/WUR/WUR_Murr.tga"
+	expire = "1960.1.1"
+	ideology = natsoc
+	traits = {
+		#
+	}
+}

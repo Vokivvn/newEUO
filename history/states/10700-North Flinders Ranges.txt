@@ -1,0 +1,20 @@
+state={
+	id=10700
+	name="STATE_10700"
+
+	history={
+		owner = AA4
+		add_core_of = AA4
+		add_core_of = AST
+		add_core_of = SAT
+		
+	}
+
+	provinces={
+		20129
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

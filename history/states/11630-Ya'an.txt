@@ -1,0 +1,18 @@
+state={
+	id=11630
+	name="STATE_11630"
+	provinces={
+		4925 
+	}
+	history = {
+		owner = CCG
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = CCG
+		add_core_of = SHC
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

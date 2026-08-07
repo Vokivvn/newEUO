@@ -1,1 +1,94 @@
-﻿capital = 455
+﻿capital = 17517
+
+set_cosmetic_tag = UK_RED
+
+set_country_flag = has_secondary_leader
+set_country_flag = has_tertiary_leader
+
+	set_popularities = {
+		democratic 
+			 = 25
+		fascism
+			 = 0
+		communism
+			 = 0
+			
+		authoritarian_monarchism 
+			 = 75
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Rayiys Samir Al-Rifai"
+	desc = ""
+	picture = "gfx/leaders/JOR/JOR_Samiri_condem.tga"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sultan Abdullah bin Al-Hussein al-Hashimiyun"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Abdullah_I.dds"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emir Abdullah bin Al-Hussein al-Hashimiyun"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Abdullah_I.dds"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Malik Abdullah bin Al-Hussein al-Hashimiyun"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Abdullah_I.dds"
+	ideology = conservative_constitutionalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emir Abdullah bin Al-Hussein al-Hashimiyun"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Abdullah_I.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rayiys Suleiman Nabulsi"
+	desc = ""
+	picture = "gfx/leaders/JOR/JOR_Nabulsi_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir John Winthrop Hackett"
+	desc = ""
+	picture = "gfx/leaders/JOR/JOR_Hacketti_stratmon.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}

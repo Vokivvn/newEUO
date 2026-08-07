@@ -1,0 +1,22 @@
+state={
+	id=11141
+	name="STATE_11141"
+	
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = HLJ
+		victory_points = {
+			16404 1 
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		16404
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

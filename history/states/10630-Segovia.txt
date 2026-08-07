@@ -1,0 +1,22 @@
+state={
+	id=10630
+	name="STATE_10630"
+	history={
+		
+		owner = SPR 
+		add_core_of = SPR
+		add_core_of = MDD
+		add_core_of = CST
+		add_core_of = SP2
+		victory_points = {
+			3794 5
+		}
+	}
+	provinces={
+		3794 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,26 @@
+﻿capital = 12875
+
+set_cosmetic_tag = FRA_BLUE
+
+set_popularities = {
+        authoritarian_monarchism = 100
+
+}
+
+set_politics = {
+	
+	ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hoàng đế Nguyễn Bảo Đại"
+	desc = ""
+	picture = "gfx/leaders/ANN/ANN_BaoDai.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}

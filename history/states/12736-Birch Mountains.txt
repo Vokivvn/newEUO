@@ -1,0 +1,18 @@
+state={
+	id=12736
+	name="STATE_12736"
+	provinces={
+		12534
+	}
+	history={
+		
+		owner = CAN 
+		add_core_of = CAN
+		add_core_of = ABT
+		
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

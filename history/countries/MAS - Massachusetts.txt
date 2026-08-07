@@ -1,0 +1,123 @@
+﻿capital = 357
+
+
+set_politics = {
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 15
+	liberal_republic = 85
+}
+
+create_country_leader = {
+	name = "Governor James Michael Curley"
+	picture = "gfx/leaders/MAS/MAS_Curley.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Joseph Patrick Kennedy"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Kennedy.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Joseph Patrick Kennedy"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Kennedy.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Joseph I of Kennedy"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Kennedy_king.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Jay Lovestone"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Lovestone_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Jay Lovestone"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Lovestone_commie.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Archibald Percival Wavell"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Wavell_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Archibald Percival Wavell"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Wavell_authmon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Archibald Percival Wavell"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Wavell_authmon.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Patriarch Harold Stauffer Bender"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Bender_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Ellsworth Huntington"
+	desc = ""
+	picture = "gfx/leaders/MAS/MAS_Huntington_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

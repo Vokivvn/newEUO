@@ -1,0 +1,53 @@
+﻿capital = 16252
+
+set_popularities = {
+	vanguardism = 100
+}
+
+set_politics = {
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Generál'nyj Sekretár' Lázar' Moiséevič Kaganóvič"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/TYU_Kaganovich.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generál'nyj Sekretár' Nikíta Sergéevič Xruščëv"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/TYU_Khrushchev.tga"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Georg Heinrich Lindemann"
+	desc = ""
+	picture = "gfx/leaders/TYU/TYU_Lindemann_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pervosvyashchennik Velimer"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/HYP_Velimer.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+

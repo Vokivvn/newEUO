@@ -1,0 +1,17 @@
+state={
+	id=10516
+	name="STATE_10516"
+	provinces={
+		20027 
+	}
+	history={
+	    owner = ASS
+        add_core_of = ASS
+	add_core_of = AFA
+        add_core_of = ETH
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+﻿capital = 64
+
+set_popularities = {
+	neutrality = 100
+}
+
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1960.1.1"
+	election_frequency = 50
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gauleiter Paul Joseph Goebbels"
+	desc = ""
+	picture = "gfx/leaders/BRL/BRL_Goebbels"
+	expire = "1960.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Reykhskommissar Baldur Goltz"
+	desc = ""
+	picture = "gfx/leaders/HYP/HYP_Goltz.tga"
+	expire = "1960.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalfeldmarschall Hans Emil Speidel"
+	desc = ""
+	picture = "gfx/leaders/NZG/NZG_Speidel.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}

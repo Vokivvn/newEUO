@@ -1,0 +1,19 @@
+state={
+	id=10196
+	name="STATE_10196"
+	provinces={
+		19553 
+	}
+	history={
+	  	owner = CTU
+        add_core_of = CTU
+		add_core_of = SUO
+		add_core_of = SHC		
+		add_core_of = CHI
+		add_core_of = PRC
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

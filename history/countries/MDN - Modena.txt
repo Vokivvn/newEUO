@@ -1,0 +1,26 @@
+﻿capital = 161
+
+	set_popularities = {
+		authoritarian_monarchism 
+			 = 100
+		fascism
+			 = 0
+		neutrality
+			 = 0
+		}
+set_politics = { 
+	ruling_party = authoritarian_monarchism
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Duchessa Zita I di Borbone-Parma"
+	desc = ""
+	picture = "gfx/leaders/MDN/MDN_Zita_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}

@@ -1,14 +1,104 @@
 ﻿capital = 594
 
 set_popularities = {
-    autocratic = 100
+	democratic = 4
+	liberal_republic = 3
+	stratocratic = 93
 }
 
-set_politics = {
-	ruling_party = autocratic
+set_politics = { 
+	ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-recruit_character = GXC_ma_ying_jeou
+create_country_leader = {
+	name = "Chou ch'ang Li Tsungjen"
+	desc = "POLITICS_LI_ZONGREN_DESC"
+	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chou ch'ang Li Tsungjen"
+	desc = "POLITICS_LI_ZONGREN_DESC"
+	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chou ch'ang Li Tsungjen"
+	desc = "POLITICS_LI_ZONGREN_DESC"
+	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsung t'ung Hu Shih"
+	desc = ""
+	picture = "gfx/leaders/GXC/GXC_Shih.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsung t'ung Feng Yuxiang"
+	desc = ""
+	picture = "gfx/leaders/GXC/GXC_Yuxiang.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kuo wang Huanzhang"
+	desc = ""
+	picture = "gfx/leaders/GXC/GXC_Yuxiang.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiji Suzuki Teiichi"
+	desc = ""
+	picture = "gfx/leaders/GXC/GXC_Suzuki.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Saikō Keiei Sekininsha Teiichi Suzuki"
+	desc = ""
+	picture = "gfx/leaders/GXC/GXC_Suzuki.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chu hsi Deng Xiaoping"
+	desc = ""
+	picture = "gfx/leaders/GXC/GXC_Deng.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}

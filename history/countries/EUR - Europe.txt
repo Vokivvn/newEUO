@@ -1,0 +1,275 @@
+capital = 19177
+
+set_popularities = {
+	liberal_republic = 44
+	democratic = 31
+	centrist_republic = 20
+	anocratic_monarchism = 5
+}
+
+set_politics = { 
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Papa Pius XI"
+	desc = ""
+	picture = "gfx/leaders/VCT/Portrait_Vatican_Pope.dds"
+	expire = "1939.2.11"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rex Franciscus Josephus I de Habsburgo-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Peoples Chairman Sir Oswald Ernald Mosley, Baronet Ancoats"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Oswald_Mosley.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Federative Congress of European Kingdoms"
+	desc = ""
+	picture = "gfx/leaders/EUR/Portrait_AnocMon_Congress.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Richard Nikolaus Eijiro, Graf von Coudenhove-Kalergi"
+	desc = ""
+	picture = "gfx/leaders/EUR/Portrait_Richard_Kalergi.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Otto I von Habsburgo-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = natconmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Otto von Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = natconrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente dell'Europa Altiero Spinelli"
+	desc = ""
+	picture = "gfx/leaders/EUR/EUR_Portrait_Altiero_Spinelli.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Otto I von Habsburg"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bundeskanzler Richard Nikolaus Eijiro, Graf von Coudenhove-Kalergi"
+	desc = ""
+	picture = "gfx/leaders/EUR/Portrait_Richard_Kalergi.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bundeskaiser Otto I von Habsburg"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}

@@ -1,0 +1,126 @@
+﻿capital = 383
+
+set_popularities = {
+	democratic = 95
+        liberal_republic = 5
+
+}
+
+set_politics = {
+	
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Alfred Mossman Landon"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Landon.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Territorial Governor Alfred Mossman Landon"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Landon.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Alfred Mossman Landon"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Landon.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President James Patrick Cannon"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Cannon.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman James Patrick Cannon"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Cannon.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Emanuel Haldeman-Julius"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Julius.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Charles Curtis"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Curtis.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Adna Romanza Chaffee Jr."
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Chaffee.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Amelia I of Earhart"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Earhart.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Empress Amelia I of Earhart"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Earhart.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Robert Hillberg"
+	desc = ""
+	picture = "gfx/leaders/KAN/KAN_Hillberg.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+

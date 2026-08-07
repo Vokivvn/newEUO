@@ -1,1 +1,74 @@
 ﻿capital = 84
+
+set_popularities = {
+	democratic = 65
+	neutrality = 15
+	centrist_republic = 20
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Vorsitzende Hermann Julius Oberth"
+	desc = ""
+	picture = "gfx/leaders/TRA/TRA_Oberth_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presedinte Iuliu Maniu"
+	desc = ""
+	picture = "gfx/leaders/TRA/TRA_Maniu_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prim-Ministru Béla Ferenc Dezso Blaskó"
+	desc = ""
+	picture = "gfx/leaders/TRA/TRA_Bela_conrep.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duce Viorel I de Tilea"
+	desc = ""
+	picture = "gfx/leaders/TRA/TRA_Viorel_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Werner Lorenz"
+	desc = ""
+	picture = "gfx/leaders/TRA/TRA_Lorenz_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Regele Transilvaniei Franz Joseph II de Habsburg-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}

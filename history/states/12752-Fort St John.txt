@@ -1,0 +1,23 @@
+state={
+	id=12752
+	name="STATE_12752"
+	
+	state_category=rural
+	
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = BRC
+		victory_points={
+			13262 1
+		}
+		
+	}
+
+	provinces={
+		13262 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

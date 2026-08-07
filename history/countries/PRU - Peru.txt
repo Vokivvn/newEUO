@@ -1,23 +1,246 @@
 ﻿capital = 303
 
-oob = "PRU_2010"
 
-set_politics = {
-	ruling_party = autocratic
-	last_election = "1936.1.1"
-	election_frequency = 48
+	set_popularities = {
+		democratic 
+			 = 0
+		stratocratic
+			 = 100
+		communism
+			 = 0
+			
+		}
+	set_politics = { 
+ ruling_party = stratocratic
+	last_election = "1931.10.11"
+	election_frequency = 96
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Presidente Óscar Raymundo Benavides Larrea"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "gfx/leaders/PRU/Portrait_peru_oscar_benavides.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+		#
+	}
 }
 
-2010.1.1 = {
-
-	declare_war_on = {
-		target = ETN
-		type = annex_everything
+create_country_leader = {
+	name = "Primer Ministro Manuel Vicente Villarán"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Manuel_Vicente_Villaran_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
 	}
+}
 
-recruit_character = PRU_alberot_fujimori
+create_country_leader = {
+	name = "Primer Secretario Eudocio Ravines Pérez"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Eudocio_Ravines.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Comisario del Pueblo Eudocio Ravines Pérez"
+	desc = "POLITICS_RAFAEL_FRANCO_DESC"
+	picture = "gfx/leaders/PRU/PRU_Eudocio_Ravines.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Manuel Carlos Prado y Ugarteche"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Manuel_Prado_Ugarteche_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Gonzalo Queipo de Llano y Sierra"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Gonzalo_Queipo.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lider Supremo José de la Riva-Agüero y Osma"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_jose_de_la_riva-aguero_y_osma_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichprotektor Hans-Ulrich Rudel"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Hans-Ulrich_Rude_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arzobispo Pedro Pascuál Francesco Farfán de los Godos"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Pedro_Pascual_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente del Consejo Carlos Zavala Loayza"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Carlos_Zavala_Loayza_authdem.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Víctor Raúl Haya de la Torre"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Victor_Raul_Haya.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Canciller Manuel Vicente Villarán"
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Luis_Antonio_Eguiguren_cendem.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Francisco Chukiwanka Ayulo, Túpac Amaru III"	
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_francisco_chukiwanka_ayulo_tupaciii.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Francisco Chukiwanka Ayulo, Túpac Amaru III"	
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_francisco_chukiwanka_ayulo_tupaciii.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Álvaro I de Orleans y Sajonia-Coburgo-Gotha"	
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Alvaro_de_Orleans_y_Sajonia-Coburgo-Gotha_Duke_of_Galliera.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Infante Álvaro de Orleans y Sajonia-Coburgo-Gotha"	
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Alvaro_de_Orleans_y_Sajonia-Coburgo-Gotha_Duke_of_Galliera.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Álvaro I de Orleans y Sajonia-Coburgo-Gotha"	
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Alvaro_de_Orleans_y_Sajonia-Coburgo-Gotha_Duke_of_Galliera.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiji Isoroku Yamamoto"	
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Isoroku_Yamamoto_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Philip Gregson-Ellis"	
+	desc = ""
+	picture = "gfx/leaders/PRU/PRU_Philip_Gregson-Ellis_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}

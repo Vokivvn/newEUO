@@ -1,0 +1,24 @@
+﻿capital = 3308
+
+set_popularities = {
+    republican_fascism = 60
+    vanguardism = 40
+}
+
+set_politics = {
+	
+	ruling_party = republican_fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Törağa Nikolay Nikolaūly Onoprienko"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/ATB_Onoprienko.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=11942
+	name="STATE_11942"
+	provinces={
+		12175 
+	}
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = PRR
+        add_core_of = GYY
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

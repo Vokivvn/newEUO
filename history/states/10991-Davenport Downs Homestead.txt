@@ -1,0 +1,21 @@
+state={
+	id=10991
+	name="STATE_10991"
+
+	history={
+		owner = AST
+		add_core_of = AST
+		add_core_of = QNS
+		add_core_of = DDS
+		add_core_of = NA2
+		
+	}
+
+	provinces={
+		20554
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

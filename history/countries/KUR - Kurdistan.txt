@@ -1,1 +1,76 @@
-﻿capital = 800
+﻿capital = 5714
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 40
+	vanguardism = 20
+	neutrality = 20
+	monarchism = 10
+	theocratic = 10
+}
+
+create_country_leader = {
+	name = "Serok Qazi Muhammad"
+	desc = ""
+	picture = "gfx/leaders/KUR/KUR_Qazi_commie.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Serok Ihsan Nuri"
+	desc = ""
+	picture = "gfx/leaders/KUR/KUR_Nuri_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Serok Mustafa Barzani"
+	desc = ""
+	picture = "gfx/leaders/KUR/KUR_Barzani_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir Desmond Francis Anderson"
+	desc = ""
+	picture = "gfx/leaders/KUR/KUR_Anderson_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Qiral Mahmud I Barzanji"
+	desc = ""
+	picture = "gfx/leaders/KUR/KUR_Mahmud_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Xelife Seyid Riza"
+	desc = ""
+	picture = "gfx/leaders/KUR/KUR_Riza_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}

@@ -1,0 +1,174 @@
+﻿capital = 370
+
+set_popularities = {
+	democratic = 41
+	communism = 4
+	neutrality = 55
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "President Malcolm Little"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Malcolm.tga"
+	expire = "1950.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President George Smith Patton"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Patton.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Spartacus"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Spartacus.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chancellor Marcus Mosiah Garvey"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Garvey.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Theodor Eicke"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Eicke.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Huey Percy Newton"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Newtown.tga"
+	expire = "1950.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Rosa Louise McCauley Parks"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Parks.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Omali Yeshitela"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Yeshitela.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Robert Franklin Williams"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Williams.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Voyennyy Gubernator Konstantin Konstantinovich Rokossovsky"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Rokossovsky.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Federative Congress of the Nation of Islam"
+	desc = ""
+	picture = "gfx/leaders/NAF/NOI_Congress.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Martin Luther King Jr"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_MLK.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General James Burr V Allred"
+	desc = ""
+	picture = "gfx/leaders/CSA/CSA_Allred.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General James Burr V Allred"
+	desc = ""
+	picture = "gfx/leaders/CSA/CSA_Allred.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General James Burr V Allred"
+	desc = ""
+	picture = "gfx/leaders/CSA/CSA_Allred.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Marcus I of Garvey"
+	desc = ""
+	picture = "gfx/leaders/NAF/NAF_Garvey.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

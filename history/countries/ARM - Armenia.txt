@@ -1,1 +1,125 @@
-﻿capital = 230 #Yerevan, Armenia
+﻿capital = 2358 #Yerevan, Armenia
+
+set_cosmetic_tag = RUS_RED
+
+set_popularities = {
+	vanguardism = 100	
+}
+	set_politics = { 
+ ruling_party = vanguardism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kentgortskom nakhagah Sergo Nikolayi Martikyan"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Martikyan.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Varchapet Avetis Aharonian"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Aharonian_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Arrajin K’artughar Missak Manouchian"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Manouchian_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kaysruhi Yolanda I vayric Svoyaaka"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Yolanda_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaysruhi Yolanda I vayric Svoyaaka"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Yolanda_mon.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Varchapet Hovhannes Mat’evosi K’ajaznuni"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Kajaznuni_dem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Marshal Hovanes Khach’aturi Baghramian"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Bagramyan_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sparapet Garegin Yeghishev Ter-Harut’yunyan"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Garegin_stratmon.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vali Musa Kazım Karabekir"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Karabekir_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Yndhanur Drastamat Martirosi Kanayan"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Drastamat_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalkommissar Kurt Versock"
+	desc = ""
+	picture = "gfx/leaders/ARM/ARM_Versock_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=11018
+	name="STATE_11018"
+	provinces={
+		20585 
+	}
+	history={
+		owner = UTT
+		add_core_of = RAJ 
+		add_core_of = URK
+		add_core_of = IND
+		add_core_of = UTT
+		add_claim_by = NEP
+		add_core_of = H23
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

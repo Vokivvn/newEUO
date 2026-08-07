@@ -1,14 +1,73 @@
 ﻿capital = 615
 
-set_politics = {
-	ruling_party = autocratic
+set_politics = { 
+	ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	autocratic = 100
+	democratic = 5
+	stratocratic = 95
 }
 
-recruit_character = SHX_Wang_Qishan
+create_country_leader = {
+	name = "Chou ch'ang Yan Hsishan"
+	desc = "POLITICS_YAN XISHAN_DESC"
+	picture = "gfx/leaders/SHX/Portrait_Shanxi_Yan_Xishan.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chou ch'ang Yan Hsishan"
+	desc = "POLITICS_YAN XISHAN_DESC"
+	picture = "gfx/leaders/SHX/Portrait_Shanxi_Yan_Xishan.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kuo wang Yan Hsishan"
+	desc = "POLITICS_YAN XISHAN_DESC"
+	picture = "gfx/leaders/SHX/Portrait_Shanxi_Yan_Xishan.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huang ti Yan Hsishan"
+	desc = "POLITICS_YAN XISHAN_DESC"
+	picture = "gfx/leaders/SHX/Portrait_Shanxi_Yan_Xishan.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsung t'ung Fu Zuoyi"
+	desc = ""
+	picture = "gfx/leaders/SHX/SHX_Zuoyi.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shih tsun Chang T'ien jan"
+	desc = ""
+	picture = "gfx/leaders/SHX/SHX_Chang.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}

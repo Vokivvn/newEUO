@@ -1,0 +1,19 @@
+state={
+	id=12199
+	name="STATE_12199"
+	
+	history = {
+		owner = SUD
+		add_core_of = SUD
+		victory_points = {
+			1914 5
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		1914
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

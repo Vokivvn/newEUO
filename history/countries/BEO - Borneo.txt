@@ -1,0 +1,58 @@
+﻿capital = 2159
+
+	set_popularities = {
+		democratic 
+			 = 80
+		fascism
+			 = 20		
+	}
+
+	set_politics = { 
+ ruling_party = democratic
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Chiji Masao Baba"
+	desc = ""
+	picture = "gfx/leaders/BEO/BEO_Baba.tga"
+	expire = "1989.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Lily Eberwein Abdullah"
+	desc = ""
+	picture = "gfx/leaders/BEO/BEO_Lily.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Douglas James Jardine"
+	desc = ""
+	picture = "gfx/leaders/BEO/Portrait_Douglas_James_Jardine.dds"
+	ideology = stratmon
+	expire = "1963.6.16"
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Charles Vyner Brooke"
+	desc = ""
+	picture = "gfx/leaders/BEO/Portrait_Charles_Vyner_Brooke.dds"
+	expire = "1953.3.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+

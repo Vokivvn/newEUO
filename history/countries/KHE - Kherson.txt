@@ -1,0 +1,23 @@
+﻿capital = 14110
+
+set_popularities = {
+    anocratic_republic = 100
+}
+
+set_politics = {
+	
+	ruling_party = anocratic_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gouverneur Karl-Günther Paul Otto von Hase"
+	desc = ""
+	picture = "gfx/leaders/KHE/KHE_Hase.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

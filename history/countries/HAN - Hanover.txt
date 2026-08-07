@@ -1,1 +1,239 @@
-capital = 59
+﻿capital = 59
+
+set_popularities = {
+	democratic 
+		= 0
+	national_socialism
+		= 30
+	communism
+		= 0
+	monarchism
+		= 70
+	}
+	
+set_politics = { 
+	ruling_party = monarchism
+	last_election = "1960.1.1"
+	election_frequency = 50
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Theodor Hillenhinrichs"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Hillenhinrichs.tga"
+	expire = "1950.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Ernst III von Hannover"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Ernest.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Volksführer Ernst Johannes Fritz Thälmann"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Thalmann.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Adolf von Thadden"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Thadden.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsführer Kurt Adolph Wilhelm Meyer"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Meyer.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Bernard Law Montgomery"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Montgomery.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Karl Olfers"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Olfers.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kurfürst Ernst III von Hannover"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Ernest.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalsekretär Ernst Johannes Fritz Thälmann"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Thalmann.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Christian I von Schaumburg-Lippe"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Christian.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Ludwig Quidde"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Quidde.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Ernst August IV von Hannover"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Ernest_August.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Georg VI von Hannover"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_George.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Heinrich Peter Hellwege"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Hellwege.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Ernst III von Hannover"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Ernest.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Ernst III von Hannover"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Ernest.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Landesbischof August Friedrich Karl Marahrens"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Marahrens.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+        }
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Georg Schreiber"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Schreiber.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiserin Friederike I von Hannover"
+	desc = ""
+	picture = "gfx/leaders/HAN/HAN_Frederica.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}

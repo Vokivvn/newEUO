@@ -1,0 +1,25 @@
+state={
+	id=11306
+	name="STATE_11306"
+	
+	provinces={
+		1796
+	}
+	
+	history = {
+		owner = SB1
+		add_core_of = SB1
+		add_core_of = MEN
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = INM
+		victory_points = {
+			1796 5
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=12689
+	name="STATE_12689"
+	manpower = 10000
+	
+	state_category = rural
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = BRC
+		add_core_of = CAS
+		add_core_of = VCI
+		
+		victory_points={
+			1420 1
+		}
+		
+	}
+
+	provinces={
+		1420 
+	}
+	
+	local_supplies=0.0 
+}

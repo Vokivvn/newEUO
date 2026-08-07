@@ -1,0 +1,21 @@
+
+state={
+	id=10424
+	name="STATE_10424"
+
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = KPY
+		add_core_of = KMR
+	}
+
+	provinces={
+		19899 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

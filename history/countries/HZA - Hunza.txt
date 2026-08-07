@@ -1,0 +1,24 @@
+﻿capital = 6264
+
+set_cosmetic_tag = RAJ_RED
+
+set_popularities = {
+	monarchism = 100
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mir Mohammad Nazim Khan"
+	desc = ""
+	picture = "gfx/leaders/Princely/HZA_Mir_Hunza.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

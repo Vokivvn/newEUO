@@ -1,0 +1,21 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = KDR
+		add_claim_by = BLO
+
+	}
+
+	provinces={
+		5020 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.0 
+}

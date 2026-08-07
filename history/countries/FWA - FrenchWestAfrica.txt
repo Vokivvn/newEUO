@@ -1,0 +1,274 @@
+﻿capital = 272
+
+set_cosmetic_tag = FRA_BLUE
+
+set_popularities = {
+	neutrality =  100 
+}
+	
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Erich Friedrich Wilhelm Ludendorff"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Général Joseph-Jules Brévié"
+	desc = ""
+	picture = "gfx/leaders/FAT/Portrait_Jules_Brevie.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Alessandro Pavolini"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Pavolini_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Erich Friedrich Wilhelm Ludendorff"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kyvernítis Georgios Stanotas"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Stanotas_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir Max Kennedy Horton"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Horton_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Général Joseph-Jules Brévié"
+	desc = ""
+	picture = "gfx/leaders/FWA/Portrait_Jules_Brevie.dds"
+	ideology = despotism
+	expire = "1965.1.1"
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = natconmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = natconrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Hubertus van Mook"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Mook_conmon.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Guvernor Otto Ruge"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Ruge_cenmon.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gubernator Waclaw Teofil Stachiewicz"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Stachiewicz_cenrep.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalguvernör Ernst Linder"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Linder_libmon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Armand-Pierre Angrand"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Angrand_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Guvernor Ebbe Goertz"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Goertz_socmon.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier Secrétaire Paul Leroy Robeson"
+	desc = ""
+	picture = "gfx/leaders/FWA/FWA_Robeson_commie.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {	
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}

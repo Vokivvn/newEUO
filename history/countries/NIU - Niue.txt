@@ -1,0 +1,27 @@
+﻿capital = 2545
+
+set_cosmetic_tag = NZL_COLONY
+
+set_popularities = {
+        authoritarian_monarchism = 100
+}
+
+set_politics = {
+	
+	ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Resident Commissioner William Moody Bell"
+	desc = ""
+	picture = "gfx/leaders/NIU/NIU_Bell.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+

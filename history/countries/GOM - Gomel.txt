@@ -1,0 +1,25 @@
+﻿capital = 17298
+
+set_popularities = {
+	vanguardism = 40
+	centrist_republic = 30
+	neutrality = 30
+}
+
+set_politics = {
+	
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Brigadír Pëtr Petróvič Zólin"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/GOM_Zolin.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}

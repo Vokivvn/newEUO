@@ -1,0 +1,117 @@
+﻿capital = 1866
+
+set_cosmetic_tag = JAP_CHINA
+
+set_popularities = {
+	neutrality = 70
+	republican_fascism = 5
+	stratocratic = 15
+	fascism = 10
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tsung t'ung Wang Chao-ming"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Chao-ming.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huang ti Mao Zedong"
+	desc = ""
+	picture = "gfx/leaders/RGC/Portrait_Mao_Zedong.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huang ti Cheng"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Cheng.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ch'i sheng Wu Pei-fu"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Pei-fu.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kao chi Chuan Yüan Ch'i Hsieh-yuan"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Hsieh-yuan.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Yüan shuai Wu Pei-fu"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Pei-fu.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huang ti Hóngwu"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Hongwu.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huang ti Yasuhito"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Yasuhito.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sōtoku Chichibu Miya yasuhito shin'nō"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Yasuhito.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ling tao Teng Jie"
+	desc = ""
+	picture = "gfx/leaders/RGC/RGC_Jie.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

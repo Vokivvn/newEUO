@@ -1,14 +1,54 @@
 ﻿capital = 611
 
-set_politics = {
-	ruling_party = reactionary
+set_cosmetic_tag = JAP_COLONY
+
+set_popularities = {
+	anocratic_monarchism = 100
+}
+
+set_politics = { 
+	ruling_party = stratocratic_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	reactionary = 100
+create_country_leader = {
+	name = "Hsingcheng Ch'angkuan Li Shou-hsin"
+	desc = "POLITICS_LI_SHOUXIN_DESC"
+	picture = "gfx/leaders/MEN/Portrait_Li_Shouxin.dds"
+	expire = "1945.1.20"
+	ideology = stratmon
+	traits = {
+	}
 }
 
-recruit_character = MEN_Bazarsadin_Zhargalsaikhan
+create_country_leader = {
+	name = "Chuhsi Yün-tuan Wang-ch'u-k'ei"
+	desc = "POLITICS_LI_SHOUXIN_DESC"
+	picture = "gfx/leaders/MEN/MEN_Yondonwangchug.tga"
+	expire = "1945.1.20"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shuseki Yunden Wanchuku"
+	desc = "POLITICS_LI_SHOUXIN_DESC"
+	picture = "gfx/leaders/MEN/MEN_Yondonwangchug.tga"
+	expire = "1945.1.20"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shuseki Demuchukudonrobu"
+	desc = "POLITICS_LI_SHOUXIN_DESC"
+	picture = "gfx/leaders/MEN/Demchugdongrub.png"
+	expire = "1945.1.20"
+	ideology = authmon
+	traits = {
+	}
+}

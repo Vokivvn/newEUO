@@ -1,0 +1,19 @@
+state={
+	id=10197
+	name="STATE_10197"
+	provinces={
+		19561 
+	}
+	history={
+		owner = TKI
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = TKI
+		add_core_of = NVI
+		add_core_of = BAC
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

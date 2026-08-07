@@ -1,0 +1,20 @@
+state={
+	id=1048
+	name="STATE_1048"
+
+	history={
+		owner = NMB
+		add_core_of = NMB
+		add_core_of = CPV
+	    add_core_of = LKB
+		
+	}
+
+	provinces={
+		13299 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.0 
+}

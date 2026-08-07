@@ -1,1 +1,29 @@
 ﻿capital = 638
+set_cosmetic_tag = GUM_USA
+
+
+set_popularities = {
+	        stratocratic = 70
+        communism = 5
+        fascism = 15
+        neutrality = 10
+
+}
+	
+	set_politics = { 
+ ruling_party = stratocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor George Andrew Alexander"
+	desc = ""
+	picture = "George_Alexander.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+		#
+	}
+}

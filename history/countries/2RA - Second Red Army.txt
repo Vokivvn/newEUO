@@ -1,0 +1,33 @@
+﻿capital = 4925
+
+set_popularities = {
+	stratocratic = 55
+	vanguardism = 45
+}
+		
+set_politics = { 
+	ruling_party = stratocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Shiangjiang Ho Lung"
+	desc = "POLITICS_2RA_VAN_DESC"
+	picture = "gfx/leaders/2RA/Portrait_He_Long.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shiangjiang Ho Lung"
+	desc = "POLITICS_2RA_STRAT_DESC"
+	picture = "gfx/leaders/2RA/Portrait_He_Long.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}

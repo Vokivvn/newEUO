@@ -1,16 +1,234 @@
 ﻿capital = 306
 
-oob = "COL_2010"
+set_popularities = {
+	communism = 3
+	socialism_ideology = 92
+	liberal_republic = 5
+}
 
-set_politics = {
-	ruling_party = national_socialism
-	last_election = "1936.1.1"
+set_politics = { 
+    ruling_party = socialism_ideology
+	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	national_socialism = 100
+create_country_leader = {
+	name = "Presidente Alfonso López Pumarejo"
+	desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
+	picture = "gfx/leaders/COL/Portrait_alfonso_lopez_Pumarejo.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
 }
 
-recruit_character = COL_carlos_lehder
+create_country_leader = {
+	name = "Primer Ministro Mariano Ospina Pérez"
+	desc = "POLITICS_MARIANO_OSPINA_PEREZ_DESC"
+	picture = "gfx/leaders/COL/COL_Mariano_Ospinna_Perez_condem.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Primer Secretario María de los Ángeles Cano Márquez"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Maria_Cano_com.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Comisario Ignacio Torres Giraldo"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Ignacio_Torres_Giraldo_vanguard.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Fedecafe Council"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_fedecafe_ancap.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichprotektor Franz Alfred Six"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Franz_Alfred_Six_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arzobispo Ismael Perdomo Borrero"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Borrero.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Gustavo Rojas Pinilla"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Gustavo_Rojas_Pinilla_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Council President Bradley Webster Palmer"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Bradley_Webster_Palmer_United_Fruit.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Emilio Mola y Vidal, 1st Duke of Mola, Grandee of Spain"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Mola.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Eduardo Santos Montejo"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Eduardo_Santos_Montejo_liberalism.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Laureano Eleuterio Gómez Castro"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Laureano_Eleuterio_Gomez_Castro_authdem.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Canciller Alberto Lleras Camargo"
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Alberto_Lleras_Camargo_cendem.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir Lionel Vivian Bond"	
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Sir_Lionel_Vivian_Bond_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Alfonso I de Borbón-Battenberg"	
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Alfonso_de_Borbon-Battenberg.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alfonso de Borbón-Battenberg, Prince of Asturias"	
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Alfonso_de_Borbon-Battenberg.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Alfonso I de Borbón-Battenberg"	
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Alfonso_de_Borbon-Battenberg.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Jorge Eliécer Gaitán Ayala"	
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Jorge_Eliecer_Gaitan_Ayala.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Friedrich Heinrich Albrecht de Hohenzollern"	
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Friedrich_Heinrich_Albrecht_de_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Friedrich Heinrich Albrecht de Hohenzollern"	
+	desc = ""
+	picture = "gfx/leaders/COL/COL_Friedrich_Heinrich_Albrecht_de_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

@@ -1,1 +1,98 @@
 ﻿capital = 165
+set_popularities = {
+        neutrality = 5
+        monarchism = 0
+        democratic = 10
+        liberal_republic = 50
+        communism = 0
+        vanguardism = 0
+        fascism = 0
+        anarchism_ideology = 0
+        socialism_ideology = 0
+        democratic_monarchism = 0
+        conservative_monarchism = 0
+        stratocratic = 0
+        authoritarian_monarchism = 5
+        republican_fascism = 0
+        national_socialism = 0
+        theocratic = 0
+        left_anarchism = 30
+}
+
+set_politics = { 
+	ruling_party = liberal_republic
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "President Lluís Companys i Jover"
+	desc = "POLITICS_LLUIS_COMPANYS_DESC"
+	picture = "gfx/leaders/CAT/Portrait_Catalonia_Lluis_Companys.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rei Carlos IV"
+	desc = ""
+	picture = "gfx/leaders/CAT/CAT_Carlos.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Carlos VIII"
+	desc = ""
+	picture = "gfx/leaders/CAT/CAT_Carlos.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Francesc Cambó i Batlle"
+	desc = ""
+	picture = "gfx/leaders/CAT/CAT_Batlle_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Salvador Dalí i Domènech"
+	desc = ""
+	picture = "gfx/leaders/CAT/CAT_Dali_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Franz Pöschl"
+	desc = ""
+	picture = "gfx/leaders/CAT/CAT_Poschl.png"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

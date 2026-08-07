@@ -1,0 +1,46 @@
+﻿capital = 218
+
+set_popularities = {
+
+        democratic = 80
+        national_socialism = 20
+
+}
+
+set_politics = {
+	
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Premieres-Minister Abdul Medjid Bey Ortsa Tchermoeff"
+	desc = ""
+	picture = "gfx/leaders/CHE/CHE_Tchermoeff_dem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premieres-Minister Abdul Medjid Bey Ortsa Tchermoeff"
+	desc = ""
+	picture = "gfx/leaders/CHE/CHE_Tchermoeff_dem.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Walter Warlimont"
+	desc = ""
+	picture = "gfx/leaders/CSS/CSS_Warlimont.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

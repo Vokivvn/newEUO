@@ -1,0 +1,28 @@
+﻿capital = 3170
+
+set_popularities = {
+        neutrality = 0
+        democratic = 100
+        communism = 0
+        fascism = 0
+        monarchism = 0
+
+}
+
+set_politics = {
+	
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "President-Minister John Bedford Burman"
+	desc = ""
+	picture = "gfx/leaders/MER/MER_Burman.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}

@@ -1,16 +1,255 @@
 ﻿capital = 49
 
-oob = "TUR_2010"
+set_country_flag = has_secondary_leader
+recruit_character = TUR_Ismet_Inonu
 
-set_politics = {
-	ruling_party = reactionary
-	last_election = "1936.1.1"
+set_popularities = {
+	neutrality = 100
+}
+
+set_politics = { 
+ ruling_party = neutrality
+	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	reactionary = 100
+create_country_leader = {
+	name = "Cumhurbaşkani Mustafa Fevzi Çakmak"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Fevzi_Cakmak.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
 }
 
-recruit_character = TUR_ilker_basbug
+create_country_leader = {
+	name = "Başkan Şefik Hüsnü"
+	desc = ""
+	picture = "gfx/leaders/TUR/TUR_Husnu.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cumhurbaşkani Şefik Hüsnü"
+	desc = ""
+	picture = "gfx/leaders/TUR/TUR_Husnu.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cumhurbaşkani Mustafa İsmet İnönü"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_ismet_inonu.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kral Ahmed IV Osmanoğlu"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Ahmed_Nihad.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cumhurbaşkani Nuri Demirağ"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Nuri_Demirag.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kral Mehmed VII Osmanoğlu"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mehmed_Sabahaddin.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sultan Ahmed IV"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Ahmed_Nihad.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cumhurbaşkani Mahmut Celâl Bayar"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mahmut_Celal_Bayar.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sultan Mehmed VII"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Sehzade_Mehmed Ziyaeddin.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cumhurbaşkani Kamâl Atatürk"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Büyük Millet Meclisi başkanı Mustafa Kemal Paşa"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Başkomutan Mustafa Fevzi Çakmak"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Fevzi_Cakmak.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Halife Faruk I"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Sehzade_Omer_Faruk.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Halife Mehmed VII"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Sehzade_Mehmed_Selim.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Halife Abdülmecit II"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Abdulmecit_II.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Padişah Abdülmecit II"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Abdulmecit_II.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Baş Müftü Mehmet Rifat Börekçi"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mehmet_Rifat_Borekci.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Halife Abdülmecit II"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Abdulmecit_II.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cumhurbaşkani Hüseyin Nihâl Atsız"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Huseyin_Nihal_Atsız.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Başkan Hüseyin Hüsnü Emir Erkilet"
+	desc = ""
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Huseyin_Husnu_Emir_Erkilet.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

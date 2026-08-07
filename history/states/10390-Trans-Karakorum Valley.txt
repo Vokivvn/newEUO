@@ -1,0 +1,23 @@
+state={
+	id=10390
+	name="STATE_10390"
+	provinces={
+		1970
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = TUG
+		add_core_of = KAS
+		add_claim_by = RAJ
+		add_core_of = TUG
+		add_core_of = UYG
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = SIK
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

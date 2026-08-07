@@ -1,16 +1,256 @@
 ﻿capital = 46
 
-oob = "ROM_2010"
+set_country_flag = has_secondary_leader
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
+set_popularities = {
+	communism = 5
+	centrist_monarchism = 1
+	conservative_monarchism = 9
+	national_conservative_monarchism = 3
+	anocratic_monarchism = 78
+	authoritarian_monarchism = 2
+	fascism = 2
+}
+
+set_politics = { 
+	ruling_party = anocratic_monarchism
+	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 100
+create_country_leader = {
+	name = "Rege Carol II de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/ROM/Portrait_Carol_II.dds"
+	expire = "1945.1.1"
+	ideology = anocmon
 }
 
-recruit_character = ROM_tudor_ionescu
+create_country_leader = {
+	name = "Rege Carol II de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/ROM/Portrait_Carol_II.dds"
+	expire = "1945.1.1"
+	ideology = authmon
+}
+
+create_country_leader = {
+	name = "Rege Mihai de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Mihail.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Conducător Octavian Goga"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Goga.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Împărat Carol II de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/ROM/Portrait_Carol_II.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Președinte Armand Călinescu"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Calinescu.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Secretar General Gheorghe Gheorghiu-Dej"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Dej.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Conducător Nicolae Ceaușescu"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Ceausescu.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Președinte Constantin Titel Petrescu"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Petrescu.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rege Carol III de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_CarolIII.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Președinte Alexandru Vaida-Voevod"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Vievod.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rege Frederic de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_FredericI.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cancelar Gheorghe Tătăresc"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Tatarescu.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prinţ-Regent Nicolae de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_NicolaeI.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Președinte Alexandru Averescu"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Averescu.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Președinte Alexandru Averescu"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Averescu.tga"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Comandant șef Alexandru Averescu"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Averescu.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Conducător Ion Antonescu"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Antonescu.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Patriarh Miron I, Arhiepiscop de București"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_MironI.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rege Mihai de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Mihail.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Conducător Corneliu Zelea Codreanu"
+	desc = ""
+	picture = "gfx/leaders/ROM/ROM_Cordreanu.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

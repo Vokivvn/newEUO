@@ -1,0 +1,124 @@
+﻿capital = 524
+
+set_cosmetic_tag = JAP_COLONY
+
+set_popularities = {
+	authoritarian_monarchism = 100
+}
+	
+set_politics = { 
+	ruling_party = authoritarian_monarchism
+	last_election = "1938.3.28"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sotoku Kenzo Nakagawa"
+	desc = ""
+	picture = "gfx/leaders/TWN/Nakagawa_Kenzo.tga"
+	expire = "1944.6.26"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sotoku Kenzo Nakagawa"
+	desc = ""
+	picture = "gfx/leaders/TWN/Nakagawa_Kenzo.tga"
+	expire = "1944.6.26"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zhèngwei Xie Xuehong"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Xuehong_commie.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zhèngwei Xie Xuehong"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Xuehong_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Emilio Barrera"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Barrera_stratmon.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zongtong Lin Hsien-tang"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Lin_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zongtong Koo Hsien-jung"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Koo_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zongtong Koo Hsien-jung"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Koo_conrep.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chou Ch'ang Koo Hsien-jung"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Koo_conrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Maarten Hendrik van Dulm"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Dulm_conmon.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Wáng Zheng Ze"
+	desc = ""
+	picture = "gfx/leaders/TWN/TWN_Zheng_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

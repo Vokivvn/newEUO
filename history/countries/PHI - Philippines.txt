@@ -1,14 +1,246 @@
 ﻿capital = 327
 
-set_politics = {
-	ruling_party = autocratic
-	last_election = "1936.1.1"
-	election_frequency = 48
+set_cosmetic_tag = USA_BLUE
+
+set_popularities = {
+	democratic = 7
+	national_conservative_republic = 21
+	anocratic_republic = 72
+}
+
+set_politics = { 
+	ruling_party = anocratic_republic
+	last_election = "1935.9.15"
+	election_frequency = 72
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "President Manuel Luis Quezon y Molina"
+	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
 }
 
-recruit_character = PHI_Jose_Macario_Laurel_IV
+create_country_leader = {
+	name = "President Manuel Luis Quezon y Molina"
+	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pangulo Manuel Acuña Roxas"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Roxas_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism 
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "High Commissioner William Francis Murphy"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Murphy.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Secretario General Crisanto Evangelista"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Evangelista_vanguard.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pangulo Isabelo de los Reyes y Florentino"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Isabelo_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pangulo Emilio Aguinaldo y Famy"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Emilio_liberalism.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Príncipe Ranieri I de Borbón-Dos Sicilias"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Ranieri.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Ranieri I de Borbón-Dos Sicilias"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Ranieri.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Manuel Luis Quezon y Molina"
+	desc = ""
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Master Hilario Moncado"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Moncado_cenmon.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Douglas I of MacArthur"
+	desc = ""
+	picture = "gfx/leaders/JAP/Portrait_Douglas_Macarthur.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiji Shizuichi Tanaka"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Tanaka_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Emilio Aguinaldo y Famy"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Emilio_liberalism.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Jonathan Mayhew Wainwright IV"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Wainwright_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Tomás Domínguez Arévalo, 6th Count of Rodezno"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Tomas_stratmon.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir Edward Neville Syfret"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Syfret_authdem.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arzobispo Gregorio Aglipay y Labayan"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Labayan_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente José Paciano Laurel y García"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Laurel_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Curt Haase"
+	desc = ""
+	picture = "gfx/leaders/PHI/PHI_Haase_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

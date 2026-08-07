@@ -1,0 +1,42 @@
+﻿capital = 1190
+
+
+set_cosmetic_tag = RAJ_PRINCELY
+
+	set_popularities = {
+		democratic 
+			 = 20
+		fascism
+			 = 5
+		communism
+			 = 5
+		monarchism
+			 = 70
+		}
+	set_politics = { 
+ ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Maharaja Sir Hari Singh"
+	desc = ""
+	picture = "gfx/leaders/Princely/kashmir.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Resident Lionel Edward Lang"
+	desc = ""
+	picture = "gfx/leaders/KAS/KAS_Lang.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}

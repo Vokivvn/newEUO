@@ -1,0 +1,33 @@
+﻿capital = 153
+
+set_popularities = {
+	centrist_republic  = 90
+	fascism = 10
+}
+
+set_politics = { 
+ ruling_party = centrist_republic
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Präsident Eduard Reut-Nicolussi"
+	desc = ""
+	picture = "gfx/leaders/TYR/TYR_Nicolussi_cenrep.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Odoardo Dino Alfieri"
+	desc = ""
+	picture = "gfx/leaders/TYR/TYR_Alfieri.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

@@ -1,1 +1,244 @@
 ﻿capital = 7
+
+set_country_flag = has_secondary_leader
+
+set_popularities = {
+	communism = 1
+	socialist_monarchy = 22
+	democratic_monarchism = 7
+	centrist_monarchism = 18
+	conservative_monarchism = 47
+	anocratic_monarchism = 1
+	vanguardism = 4
+}
+
+set_politics = { 
+	ruling_party = conservative_monarchism
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Koningin Wilhelmina van Oranje-Nassau"
+	desc = ""
+	picture = "gfx/leaders/HOL/Portrait_Wilhelmina.dds"
+	expire = "1947.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koningin Wilhelmina van Oranje-Nassau"
+	desc = ""
+	picture = "gfx/leaders/HOL/Portrait_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Koning Charles I van Habsburg"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Charles_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kanselier Charles Ruijs de Beerenbrouck"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Beerenbrouck.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Secretaris-Generaal David Joseph Wijnkoop"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Wijnkoop.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Voorzitter Hendricus Josephus Sneevliet"
+	desc = ""
+	picture = "gfx/leaders/HOL/Portrait/Sneed.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Johan Willem Albarda"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Albarda.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koningin Wilhelmina van Oranje-Nassau"
+	desc = ""
+	picture = "gfx/leaders/HOL/Portrait_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Hendrikus Colijn"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Colijn.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Pieter Jacobus Oud"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Oud.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koningin Wilhelmina van Oranje-Nassau"
+	desc = ""
+	picture = "gfx/leaders/HOL/Portrait_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Staatholder Josephus Robertus Hendricus van Schaik"	
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Juliana.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koningin Juliana van Oranje-Nassau"	
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Schaik.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Opperbevelhebber Henri Gerard Winkelman"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Winkelman.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koning Charles I van Saksen-Weimar-Eisenach"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Charles_Weimar.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prins-Aartsbisschop Johannes Petrus Huibers"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Huibers.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Keizerin Wilhelmina van Oranje-Nassau"
+	desc = ""
+	picture = "gfx/leaders/HOL/Portrait_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Regisseur Anton Adriaan Mussert"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Mussert.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Leider Ernst Herman Ridder van Rappard"
+	desc = ""
+	picture = "gfx/leaders/HOL/HOL_Rappart.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

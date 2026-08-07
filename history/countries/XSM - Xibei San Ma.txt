@@ -1,14 +1,117 @@
-﻿capital = 754 #Was 604, but should be Xining
+﻿capital = 616
 
-set_politics = {
-	ruling_party = autocratic
+set_country_flag = has_secondary_leader
+
+set_popularities = {
+	liberal_republic = 2
+	centrist_republic = 8
+	stratocratic = 90
+}
+
+set_politics = { 
+	ruling_party = stratocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Minshih Tsungtu Ma Lin"
+	desc = ""
+	picture = "gfx/leaders/XSM/XSM_Ma_Lin.tga"
+	expire = "1975.7.1"
+	ideology = militarism
+	traits = {
+	}
 }
 
-recruit_character = XSM_Toshio_Tamogami
+create_country_leader = {
+	name = "Shengch'ang Ma Lin"
+	desc = ""
+	picture = "gfx/leaders/XSM/XSM_Ma_Lin.tga"
+	expire = "1975.7.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shengch'ang Ma Lin"
+	desc = ""
+	picture = "gfx/leaders/XSM/XSM_Ma_Lin.tga"
+	expire = "1975.7.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Huang ti Ma Pufang"
+	desc = ""
+	picture = "gfx/leaders/XSM/Portrait_Xibei_San_Ma_Ma_Bufang.dds"
+	expire = "1975.7.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiji Tomoyuki Yamashita"
+	desc = ""
+	picture = "gfx/leaders/XSM/XSM_Yamashita.tga"
+	expire = "1975.7.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chu hsi Pan Zili"
+	desc = ""
+	picture = "gfx/leaders/XSM/XSM_Zili.tga"
+	expire = "1975.7.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Inam Hu Songshan"
+	desc = ""
+	picture = "gfx/leaders/XSM/XSM_Songshan.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shengch'ang Ma Pufang"
+	desc = ""
+	picture = "gfx/leaders/XSM/Portrait_Xibei_San_Ma_Ma_Bufang.dds"
+	expire = "1975.7.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Shengch'ang Ma Pufang"
+	desc = ""
+	picture = "gfx/leaders/XSM/Portrait_Xibei_San_Ma_Ma_Bufang.dds"
+	expire = "1975.7.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsung t'ung Ma Pufang"
+	desc = ""
+	picture = "gfx/leaders/XSM/Portrait_Xibei_San_Ma_Ma_Bufang.dds"
+	expire = "1975.7.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+

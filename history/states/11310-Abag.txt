@@ -1,0 +1,20 @@
+state={
+	id=11310
+	name="STATE_11310"
+	
+	history = {
+		owner = MEN
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = MEN
+		add_core_of = INM
+		add_core_of = B71
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		10372
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

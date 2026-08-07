@@ -1,0 +1,18 @@
+state={
+	id=10207
+	name="STATE_10207"
+	provinces={
+		19572 
+	}
+	history={
+	    owner = MOS
+        add_core_of = MOS
+		add_core_of = XIG
+		add_core_of = CHI
+		add_core_of = PRC
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

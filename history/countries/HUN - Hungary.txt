@@ -1,16 +1,249 @@
-﻿capital = 43 # Budapest (Northern Hungary)
+﻿capital = 5610
 
-oob = "HUN_2010"
+set_popularities = {
+	socialism_ideology = 5
+	liberal_republic = 2
+	centrist_republic = 13
+	democratic = 7
+	national_conservative_republic = 2
+	anocratic_republic = 3
+	fascism = 67
+	national_socialism = 1
+}
 
-set_politics = {
-	ruling_party = reactionary
-	last_election = "1936.1.1"
+set_politics = { 
+	ruling_party = fascism
+	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	reactionary = 100
+create_country_leader = {
+	name = "Miniszterelnöke Vitéz Ómoraviczai Imrédy Béla Kornél Kálmán"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Bela_Imredy_de_Omoravicza.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
 }
 
-recruit_character = HUN_istvan_csurka
+create_country_leader = {
+	name = "Főtitkár Rákosi Mátyás"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Matyas_Rakosi.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Népbiztos Kun Béla"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Bela_Kun.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Elnök Szakasits Árpád Ferenc"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Arpad_Szakasits.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Király Ferenc József II de Habsburg"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Elnök Gróf Nagykárolyi Károlyi Mihály Ádám György Miklós"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Mihaly_Adam_Gyorgy_Miklos_Karolyi_de_Nagykaroly.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Elnök Tildy Zoltán"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Zoltan_Tildy.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Király Károly IV de Habsburg"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Karl_Habsburg_2.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Király Ferenc József II de Habsburg"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Király Ferenc József II de Habsburg"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = natconmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Elnök Vitéz Lófő Dálnoki Miklós Béla"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Bela_Miklos_de_Dalnok.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Király József III de Habsburg"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Jozsef_III_von_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Főparancsnok Vitéz Nagylaki Rátz Jenő"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Jeno_Ratz_de_Nagylak.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kormányzó Vitéz Nagybányai Horthy István"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_Istvan_Horthy.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kormányzó Vitéz Nagybányai Horthy Miklós"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Császár Ferenc József II de Habsburg"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Otto_Habsburg.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herceg-Érsek Serédi Jusztinián György"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Jusztinian_Gyorgy_Seredi.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Király József III de Habsburg"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Jozsef_III_von_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nemzetvezető Szálasi Ferenc"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Ferenc_Szalasi.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vezető Felsőkubini Meskó Zoltán"
+	desc = ""
+	picture = "gfx/leaders/HUN/Portrait_HUN_Zoltan_Mesko_de_Szeplak.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

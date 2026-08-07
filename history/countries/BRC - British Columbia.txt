@@ -1,0 +1,117 @@
+﻿capital = 4725
+
+set_popularities = {
+	democratic_monarchism
+		= 90
+	centrist_republic
+		= 2
+	vanguardism
+		= 8
+}
+
+set_politics = { 
+	ruling_party = democratic_monarchism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "President Thomas Dufferin Pattullo"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Pattullo.tga"
+	expire = "1950.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier Thomas Dufferin Pattullo"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Pattullo.tga"
+	expire = "1950.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Fred Rose"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Rose.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Fred Rose"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Rose.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Frederic Franklin Worthington"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Worthington.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Frederic Franklin Worthington"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Worthington.tga"
+	expire = "1989.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Richard Bedford Bennett"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Bennett.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President Richard Bedford Bennett"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Bennett.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Richard Bedford Bennett"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Bennett.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiji Kiyoshi Hasegawa"
+	desc = ""
+	picture = "gfx/leaders/BRC/BRC_Hasegawa.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

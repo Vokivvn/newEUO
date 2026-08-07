@@ -1,0 +1,21 @@
+
+state={
+	id=10559
+	name="STATE_10559"
+	provinces={
+		20043 
+	}
+	history={
+	    owner = LAG
+        add_core_of = LAG
+        add_core_of = KSS
+        add_core_of = IND
+        add_core_of = MEG
+		add_core_of = ASM
+	add_claim_by = RAJ
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

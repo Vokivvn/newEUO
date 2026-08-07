@@ -1,1 +1,232 @@
-﻿capital = 812
+﻿capital = 13
+
+set_popularities = {
+	republican_fascism = 100
+}
+
+set_politics = { 
+	ruling_party = republican_fascism
+	last_election = "1932.5.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Riigivanem ja Peaminister Konstantin Päts"
+	desc = ""
+	picture = "gfx/leaders/EST/GFX_Portrait_estonia_konstantin_pats.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Esimene Sekretär Nikolai Georgijevitš Karotamm"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Nikolai_Karotamm.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Esimene Sekretär Jaan Yanovytš Anvelt"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Jaan_Anvelt.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Aleksander Ferdinand Oinas"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Aleksander_Ferdinand_Oinas.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Suurhertsoginna Viia I Buxhoevedenist"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Sophie_I_Buxhoevedenist.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Otto August Strandman"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Otto_August_Strandman.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Jaan Teemant"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Jaan_Teemant.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Hertsoginna Viia I Buxhoevedenist"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Sophie_I_Buxhoevedenist.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Suurhertsoginna Viia I Buxhoevedenist"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Sophie_I_Buxhoevedenist.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Jaan Tõnisson"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Jaan_Tonisson.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kuninganna Viia I Buxhoevedenist"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Sophie_I_Buxhoevedenist.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ülemjuhataja Johan Laidoner"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Johan_Laidoner.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herzog Gustav Adolf Joachim Rüdiger Graf von der Goltz"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Gustav_Rudiger_von_der_Goltz.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herzog Adolf Friedrich I von Mecklenburg-Schwerin"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Adolf Friedrich_I_von_Mecklenburg-Schwerin.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kuninganna Viia I Buxhoevedenist"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Sophie_I_Buxhoevedenist.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prints-Peapiiskop Hugo Bernhard Rahamägi"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Hugo_Bernhard_Rahamägi.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kuninganna Viia I Buxhoevedenist"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Sophie_I_Buxhoevedenist.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Artur Sirk"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Artur_Sirk.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Alfred Ernst Rosenberg"
+	desc = ""
+	picture = "gfx/leaders/EST/Portrait_Alfred_Ernst_Rosenberg.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

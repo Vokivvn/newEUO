@@ -1,0 +1,22 @@
+state={
+	id=10953
+	name="STATE_10953"
+	provinces={
+		20531 
+	}
+	history={
+		owner = CZE
+		add_claim_by = CZE
+		add_claim_by = CZC
+		add_core_of = GER
+		add_core_of = WGR
+		add_core_of = FRS
+		add_core_of = HAM
+		add_core_of = GGM
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

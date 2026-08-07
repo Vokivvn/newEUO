@@ -1,0 +1,26 @@
+﻿capital = 996
+
+set_cosmetic_tag = RAJ_RED
+
+set_popularities = {
+    monarchism =  80
+    democratic =  15
+    communism =  5  
+}
+	
+set_politics = { 
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tashi of Namygal"
+	desc = ""
+	picture = "gfx/leaders/SKM/Portrait_Tashi_Namygal.dds"
+	expire = "1960.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

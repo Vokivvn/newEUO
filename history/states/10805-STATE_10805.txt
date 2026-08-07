@@ -1,0 +1,18 @@
+state={
+	id=10805
+	name="STATE_10805"
+	
+	provinces={
+		4900 
+	}
+	
+	history={
+		owner = SGY
+		add_core_of = SGY
+		add_core_of = TIB
+	}
+	
+	state_category=pastoral
+	manpower=1
+	local_supplies=0.0 
+}

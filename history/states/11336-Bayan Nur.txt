@@ -1,0 +1,20 @@
+state={
+	id=11336
+	name="STATE_11336"
+	
+	history = {
+		owner = NIX
+		add_core_of = NIX
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = INM
+		add_core_of = M39
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		8055
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

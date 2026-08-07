@@ -1,0 +1,34 @@
+﻿capital = 2015
+
+set_popularities = {
+        authoritarian_monarchism = 100
+}
+
+set_politics = {
+	
+	ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Chiji Nobutake Kondo"
+	desc = ""
+	picture = "gfx/leaders/NAT/NAT_Kondo.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Administrator Robert Hunter Weddell"
+	desc = ""
+	picture = "gfx/leaders/NAT/NAT_TotallyRobertWeddell.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+

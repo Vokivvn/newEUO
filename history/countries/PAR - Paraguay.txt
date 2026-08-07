@@ -1,14 +1,241 @@
 ﻿capital = 301
 
 set_popularities = {
-    reactionary = 100
+	liberal_republic = 50
+	anocratic_republic = 50
 }
 
-set_politics = {
-	ruling_party = reactionary
+set_politics = { 
+	ruling_party = liberal_republic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-recruit_character = PAR_gustavo_stroessner
+create_country_leader = {
+	name = "Presidente Eusebio Ayala Bordenave"
+	desc = "POLITICS_EUSEBIO_AYALA_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Eusebio_Ayala.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Rafael Franco Ojeda"
+	desc = "POLITICS_RAFAEL_FRANCO_DESC"
+	picture = "gfx/leaders/PAR/PAR_Rafael_Franco.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Primer Secretario Rafael Franco Ojeda"
+	desc = "POLITICS_RAFAEL_FRANCO_DESC"
+	picture = "gfx/leaders/PAR/PAR_Rafael_Franco.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Felipe Benigno Molas López"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Felipe_Molas_Lopez_condem.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Luis Orgaz Yoldi"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Gobernador_Luis_Orgaz_Yoldi.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lider Higinio Nicolás Morínigo Martínez"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Higinio_Morinigo_repfas.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lider Supremo Josef Mengele"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Mengele.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Obispo Juan Sinforiano Bogarín"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Obipo_Juan_Sinforiano_Bogarin.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Comandante enn Jefe Mariscal José Félix Estigarribia Insaurralde"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_José_Félix_Estigarribia_strat.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Raimundo Rolón Villasanti"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Raimundo_Rolon_authdem.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Francisco Gaona"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Francisco_Gaona_liberalism.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Canciller Jose Patricio Guggiari"
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Jose_Patricio_Guggiari_centrist.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duquesa Pia Maria de Orleans e Braganza"	
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Pia_Maria_de_Orleans_e_Braganca.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princesa Pia Maria de Orleans e Braganza"	
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Pia_Maria_de_Orleans_e_Braganca.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperatriz Beatriz I de Borbón y Battenberg"	
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Infante_Beatriz_de_Borbon_y_Battenberg.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Beatriz de Borbón y Battenberg, Infanta de España"	
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Infante_Beatriz_de_Borbon_y_Battenberg.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reina Beatriz de Borbón y Battenberg"	
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Infante_Beatriz_de_Borbon_y_Battenberg.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reina Beatriz I de Borbón y Battenberg"	
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Infante_Beatriz_de_Borbon_y_Battenberg.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reina Beatriz de Borbón y Battenberg"	
+	desc = ""
+	picture = "gfx/leaders/PAR/PAR_Infante_Beatriz_de_Borbon_y_Battenberg.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+

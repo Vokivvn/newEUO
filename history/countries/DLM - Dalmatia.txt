@@ -1,0 +1,234 @@
+﻿capital = 109
+
+set_popularities = {
+	conservative_monarchism  = 50
+	neutrality = 30
+	liberal_republic = 20
+}
+	
+set_politics = { 
+	ruling_party = conservative_monarchism 
+	last_election = "1935.6.9"
+	election_frequency = 12
+	elections_allowed = no # none after offset 1
+}
+
+create_country_leader = {
+	name = "Governatore Francesco Giunta"
+	desc = ""
+	picture = "gfx/leaders/ILY/ILY_FGiunta_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsjednik Nikola Mandić"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Mandic.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsjednik Nikola Mandić"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Mandic.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Glavni Tajnik Andrija Hebrang"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Hebrang.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premijer Vladimir Popović Lukin"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Lukin.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsjednik Josip Broz Tito"
+	desc = ""
+	picture = "gfx/leaders/YUG/yug_tito.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Maksimilijana Habsburški-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Maksimilijana.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsjednik August Košutić"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Kosutic.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ban Ivan Šubašić"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Subasic.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vojvoda Tomislav II Savojski-Aoste"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Tomislav.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kancelar Aleksandar Horvat"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Horvat.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Tomislav II Savojski-Aoste"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Tomislav.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vrhovni Zapovjednik Slavko Kvaternik"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Kvaternik.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Maksimilijana Habsburški-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Maksimilijana.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Maksimilijana Habsburški-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Maksimilijana.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Franjo Josip II Habsburški-Lothringen"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Otto.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princ-Primas Dionýz Njarady, Nadbiskup Križevci"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Njarady.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Voditelj Vladimir Košak"
+	desc = ""
+	picture = "gfx/leaders/CRO/CRO_Kosak.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Poglavnik Ante Pavelić"
+	desc = ""
+	picture = "yug_pavelic.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

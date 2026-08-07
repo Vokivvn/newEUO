@@ -1,22 +1,193 @@
-﻿capital = 295 # Leopoldville/Kinshaasa
+﻿capital = 10028
 
-set_oob = "COG_2010"
+set_cosmetic_tag = BEL_YELLOW
 
-set_politics = {
-	ruling_party = autocratic
+set_popularities = {
+	authoritarian_monarchism = 100
+}
+
+set_politics = { 
+	ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Gouverneur Général Pierre Ryckmans"
+	picture = "gfx/leaders/COG/Portrait_Pierre_Ryckmans.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = CMR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Reichsprotektor Hermann Wilhelm Göring"
+	picture = "gfx/leaders/COG/Portrait_von_Goering.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
 }
 
-recruit_character = COG_nzanga_mobutu
+create_country_leader = {
+	name = "Président Joseph Kasa-Vubu"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Kasavubu.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Joseph Kasa-Vubu"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Kasavubu.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Joseph-Désiré Mobutu"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Mobutu.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Joseph Kasa-Vubu"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Kasavubu.tga"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir George James Giffard"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Giffard_conmon.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mwenekongo Pedro VIII de Água Rosada"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Pedro_cenmon.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koning Leopold III der Belgen"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Leopold_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Patrice Émery Lumumba"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Lumumba_dem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Patrice Émery Lumumba"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Lumumba_dem.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Hermann Wilhelm Göring"
+	desc = ""
+	picture = "gfx/leaders/COG/Portrait_von_Goering.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Guvernör Sten Gustaf Fredrik Troil Ramel"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Ramel_libmon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kyvernítis Emmanouil Tsouderos"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Tsouderos_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+
+create_country_leader = {
+	name = "Président Antoine Gizenga"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Gizenga.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Mobutu Sese Seko Kuku Ngbendu wa Za Banga"
+	desc = ""
+	picture = "gfx/leaders/COG/COG_Mobutu.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "International Authority of Trade Within the Congo"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/COG/Portrait_Trade_Agreement.dds"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

@@ -1,0 +1,43 @@
+﻿capital = 692
+
+set_cosmetic_tag = UK_RED
+
+	set_popularities = {
+		democratic 
+			 = 25
+		fascism
+			 = 0
+		communism
+			 = 0
+			
+		authoritarian_monarchism 
+			 = 75
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Sir Mark Aitchison Young"
+	desc = ""
+	picture = "gfx/leaders/BAR/Portrait_Mark_Aitchison_Young.dds"
+	expire = "1961.11.22"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "President Grantley Herbert Adams"
+	desc = ""
+	picture = "gfx/leaders/WIF/WIF_Adams.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+

@@ -1,0 +1,54 @@
+﻿capital = 691
+
+
+set_cosmetic_tag = UK_RED
+
+
+
+	set_popularities = {
+		democratic 
+			 = 10
+		fascism
+			 = 0
+		communism
+			 = 0
+		authoritarian_monarchism
+			 = 90
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+	
+	create_country_leader = {
+	name = "Governor Sir Alfred Claud Hollis"
+	desc = ""
+	picture = "gfx/leaders/TRI/Portrait_Alfred_Claud_Hollis.dds"
+	expire = "1961.11.22"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "President Eric Eustace Williams"
+	desc = ""
+	picture = "gfx/leaders/TRI/TRI_Williams.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Raja Boysie Singh"
+	desc = ""
+	picture = "gfx/leaders/TRI/TRI_Singh.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

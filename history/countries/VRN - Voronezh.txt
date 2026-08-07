@@ -1,0 +1,43 @@
+﻿capital = 1
+
+set_popularities = {
+	neutrality = 80
+	democratic = 20
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Komandír Dmítrij Nikoláevič Medvédev"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/VRN_Medvedev.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Fel'dmarshal Sergei Kuzmich Bunyachenko"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/SMM_Bunyachenko.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Fel'dmarshal Sergey Nikitich Ivanov"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/VRN_Ivanov.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

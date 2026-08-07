@@ -1,0 +1,21 @@
+
+state={
+	id=11156
+	name="STATE_11156"
+
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = SBR
+
+	}
+
+	provinces={
+		20646 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

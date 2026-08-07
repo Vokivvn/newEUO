@@ -1,0 +1,24 @@
+state={
+	id=12540
+	name="STATE_12540"
+	
+	history = {
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = DVR
+		add_core_of = SBR
+		add_core_of = KHA
+		add_core_of = TSR
+		victory_points = {
+			9604 5
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		9604
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

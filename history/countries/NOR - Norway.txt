@@ -1,16 +1,239 @@
-﻿capital = 110 # Oslo
+﻿capital = 110
 
-oob = "NOR_2010"
+set_country_flag = has_secondary_leader
 
-set_politics = {
-	ruling_party = national_socialism
-	last_election = "1936.1.1"
-	election_frequency = 48
+set_popularities = {
+	democratic_monarchism = 16
+	vanguardism = 2
+	fascism = 2
+	conservative_monarchism = 20
+	socialist_monarchy = 45
+	centrist_monarchism = 15
+}
+
+set_politics = { 
+	ruling_party = democratic_monarchism
+	last_election = "1933.10.16"
+	election_frequency = 36
 	elections_allowed = no
 }
 
-set_popularities = {
-	national_socialism = 100
+create_country_leader = {
+	name = "Statsminister Vidkun Abraham Lauritz Jonssøn Quisling"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_Quisling.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
 }
 
-recruit_character = NOR_erik_blucher
+create_country_leader = {
+	name = "Konge Haakon VII av Glücksburg"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Carl Joachim Hambro"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Carl_Hambro.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Adam Egede Nissen"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_EgedeNissen.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Formann Adam Egede Nissen"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_EgedeNissen.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Oscar Frederik Torp"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Oscar_Torp.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konge Haakon VII av Glücksburg"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Johan Ludwig Mowinckel"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_Mowinckel.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konge Haakon VII av Glücksburg"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konge Haakon VII av Glücksburg"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Jens Valentinsen Hundseid"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Jens_Hundseid.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konge Eugen I av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Eugen_Norway.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Anton Wilhelm Brøgger"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Anton_Brogger.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Øverstkommanderende Otto Ruge"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Otto_Ruge.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konge Olav V av Glücksburg"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Olav_Norway.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Småkonge Haakon VII av Glücksburg"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_HaakonVII.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Biskop Johan Lunde"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Johan_Lunde.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konge Olav V av Glücksburg"
+	desc = ""
+	picture = "gfx/leaders/NOR/Portrait_Olav_Norway.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kansler Vidkun Abraham Lauritz Jonssøn Quisling"
+	desc = ""
+	picture = "gfx/leaders/NOR/NOR_Quisling.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

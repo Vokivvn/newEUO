@@ -1,0 +1,23 @@
+﻿capital = 14974
+
+	set_popularities = {
+		authoritarian_monarchism 
+			 = 100
+		
+	}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "High Commissioner Sir Arthur Murchison Fletcher"
+	picture = "gfx/leaders/BWP/Portrait_Sir_Arthur_Murchison_Fletcher.dds"
+	expire = "1966.9.8"
+	ideology = authmon
+	traits = {
+	}
+}

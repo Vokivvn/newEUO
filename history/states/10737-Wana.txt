@@ -1,0 +1,18 @@
+state={
+	id=10737
+	name="STATE_10737"
+	provinces={
+		20136 
+	}
+	history={
+		owner = WAA
+		add_core_of = WAA
+		add_core_of = PAK
+		add_core_of = RAJ
+		add_core_of = PSH
+	}
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

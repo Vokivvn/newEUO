@@ -1,0 +1,17 @@
+state={
+	id=11176
+	name="STATE_11176"
+	
+	history = {
+		owner = MON
+		add_core_of = MON
+		add_core_of = B64
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		20634 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

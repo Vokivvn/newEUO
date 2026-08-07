@@ -1,14 +1,44 @@
-﻿capital = 1058 
+﻿capital = 2237
 
-set_politics = {
-	ruling_party = autocratic
+set_country_flag = has_secondary_leader
+
+set_cosmetic_tag = UK_RED
+
+	set_popularities = {
+		democratic 
+			 = 0
+		monarchism
+			 = 20
+		communism
+			 = 0
+		authoritarian_monarchism 
+			 = 80
+		
+	}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Governor Sir Edmund Charles Smith Richards"
+	desc = ""
+	picture = "gfx/leaders/LES/Portrait_Sir_Edmund_Charles_Smith_Richards.dds"
+	ideology = authmon
+	expire = "1978.10.27"
+	traits = {
+		#
+	}
 }
 
-recruit_character = LES_Letsie_III
+create_country_leader = {
+	name = "Paramount Chief Nathaniel I Griffith Lerotholi of Moshoeshoe"
+	desc = ""
+	picture = "gfx/leaders/LES/LES_Nathaniel_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

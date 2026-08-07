@@ -1,0 +1,24 @@
+﻿capital = 2888
+
+set_popularities = {
+        monarchism = 100
+
+}
+
+set_politics = {
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Rey Alfonso Carlos I de Borbón-Parma"
+	desc = ""
+	picture = "gfx/leaders/BSQ/BSQ_Alfonso.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

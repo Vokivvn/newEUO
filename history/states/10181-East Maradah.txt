@@ -1,0 +1,18 @@
+state={
+	id=10181
+	name="STATE_10181"
+	provinces={
+		19567 
+	}
+	history={
+		owner = LAO
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = NVI
+		add_core_of = BIE
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

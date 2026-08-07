@@ -1,0 +1,57 @@
+﻿capital = 395
+
+set_popularities = {
+	neutrality = 30
+        communism = 5
+        right_anarchism = 5
+        liberal_republic = 60
+
+}
+
+set_politics = {
+	
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mayor Edward Joseph Kelly"
+	desc = ""
+	picture = "gfx/leaders/CHC/CHC_Kelly.tga"
+	expire = "1947.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chicago City Council"
+	desc = ""
+	picture = "gfx/leaders/CHC/CHC_Council.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "First Secretary Max Bedacht"
+	desc = ""
+	picture = "gfx/leaders/CHC/CHC_Bedacht_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Boss Alphonse Capone"
+	desc = ""
+	picture = "gfx/leaders/CHC/CHC_Capone.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

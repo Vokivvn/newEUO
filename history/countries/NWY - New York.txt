@@ -1,0 +1,183 @@
+﻿capital = 1947
+
+set_popularities = {
+	democratic = 10
+    liberal_republic = 90
+}
+
+set_politics = {
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Herbert Henry Lehman"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Lehman.tga"
+	expire = "1950.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Viktor Lutze"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Lutze.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Benjamin Jefferson Davis Jr."
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Davis_commie.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Benjamin Jefferson Davis Jr."
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Davis_commie.tga"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Charles I of Saxe-Coburg and Gotha"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Edward_mon.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Charles I of Saxe-Coburg and Gotha"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Edward_mon.tga"
+	expire = "1989.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grand Sachem James John Walker"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Walker_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Thomas Edmund Dewey"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Dewey_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Brendan Rendall Bracken"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Bracken_authmon.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier Jacob Adriaan de Wilde"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Wilde.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Jacob Adriaan de Wilde"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Wilde.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Clark Louis Ruffner"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Ruffner_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Brendan Rendall Bracken"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Bracken_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grand Rabbi Stephen Samuel Wise"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Wise_theoc.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grand Master George William Christians"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Christians.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President George William Christians"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Christians.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Capo dei Capi Charles "Lucky" Luciano"
+	desc = ""
+	picture = "gfx/leaders/NWY/NWY_Lucky_ancap.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

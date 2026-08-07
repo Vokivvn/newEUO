@@ -1,0 +1,45 @@
+﻿capital = 2926
+
+set_popularities = {
+        monarchism = 90
+        fascism = 10
+
+}
+
+set_politics = {
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Rey Alfonso XIII de Borbón"
+	desc = ""
+	picture = "gfx/leaders/CST/CST_AlfonsoXIII.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Igino Ghisellini"
+	desc = ""
+	picture = "gfx/leaders/CST/CST_Ghisellini.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Otto Maximilian Hitzfeld"
+	desc = ""
+	picture = "gfx/leaders/CST/CST_Hitzfeld.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

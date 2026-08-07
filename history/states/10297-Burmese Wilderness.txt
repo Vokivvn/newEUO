@@ -1,0 +1,18 @@
+state={
+	id=10297
+	name="STATE_10297"
+	state_category=pastoral
+	history={
+		owner = BRM
+		add_core_of = BRM
+		add_core_of = S61
+		
+	}
+	
+	provinces={
+		20512
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
+	

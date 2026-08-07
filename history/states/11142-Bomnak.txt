@@ -1,0 +1,24 @@
+state={
+	id=11142
+	name="STATE_11142"
+	
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = DVR
+		add_core_of = SOV
+		add_core_of = SBR
+		add_core_of = KHA
+        add_core_of = AMU
+        victory_points = {
+			19821 5 
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		19821
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

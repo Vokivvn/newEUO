@@ -1,0 +1,21 @@
+state={
+	id=11113
+	name="STATE_11113"
+	provinces={
+		6591 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = MSC
+		add_core_of = GLD
+		add_claim_by = UKR
+        add_core_of = VRN
+		add_claim_by = UA2
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

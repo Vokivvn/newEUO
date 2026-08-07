@@ -1,0 +1,55 @@
+﻿capital = 12252
+
+set_popularities = {
+        neutrality = 0
+        monarchism = 0
+        democratic = 0
+        liberal_republic = 0
+        communism = 0
+        vanguardism = 0
+        fascism = 0
+        anarchism_ideology = 0
+        socialism_ideology = 0
+        democratic_monarchism = 0
+        conservative_monarchism = 0
+        stratocratic = 0
+        authoritarian_monarchism = 100
+        republican_fascism = 0
+        national_socialism = 0
+        theocratic = 0
+        left_anarchism = 0
+        right_anarchism = 0
+        socialist_monarchy = 0
+        centrist_republic = 0
+        centrist_monarchism = 0
+        stratocratic_monarchism = 0
+
+}
+
+set_politics = {
+	
+	ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Äbu Xan"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/KSU_Abu.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Sūltanaxmet Qoñğyrqojaūly Qojyqov"
+	desc = "Сұлтанахмет Қоңғырқожаұлы Қожықов"
+	picture = "gfx/leaders/TNOWarlords/KSU_Kozhikov.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}

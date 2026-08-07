@@ -1,0 +1,22 @@
+﻿capital = 7902
+
+set_popularities = {
+	anarchism_ideology = 100	
+}
+	
+set_politics = { 
+	ruling_party = anarchism_ideology
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Uninhabited"
+	desc = ""
+	picture = "gfx/leaders/Anarchy/Desert.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}

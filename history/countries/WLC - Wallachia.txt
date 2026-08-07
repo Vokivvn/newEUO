@@ -1,0 +1,43 @@
+﻿capital = 46
+
+set_popularities = {
+    monarchism = 95
+    fascism = 5
+}
+	
+set_politics = { 
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Rege Carol II de Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/WLC/Portrait_Carol_II.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Romeo Bernotti"
+	desc = ""
+	picture = "gfx/leaders/WLC/WLC_Bernotti.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Helmut Poppendick"
+	desc = ""
+	picture = "gfx/leaders/WLC/WLC_Poppendick.png"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

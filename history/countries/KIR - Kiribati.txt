@@ -1,0 +1,64 @@
+﻿capital = 639
+
+set_cosmetic_tag = BWP_COLONY
+
+	set_popularities = {
+		democratic 
+			 = 5
+		fascism
+			 = 5
+		communism
+			 = 5
+		authoritarian_monarchism 
+			 = 85
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "Resident Commissioner Jack Charles Barley"
+	picture = "gfx/leaders/KIR/Jack_Charles_Barley.dds"
+	expire = "1956.10.30"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Gilbert Gottfried"
+	picture = "Gilbert.dds"
+	expire = "2020.10.30"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Gilbert Hitler"
+	picture = "Gilbert2.dds"
+	expire = "2020.10.30"
+	ideology = natsoc
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Tawata Tiloio"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	expire = "1944.11.6"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+

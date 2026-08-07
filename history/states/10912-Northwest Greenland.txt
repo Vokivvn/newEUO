@@ -1,0 +1,17 @@
+state={
+	id=10912
+	name="STATE_10912"
+	provinces={
+		10245
+	}
+	manpower=1
+	
+	state_category=wasteland
+	
+	history={
+		owner = NG1
+		add_core_of = GRL
+		add_core_of = NG1
+	}
+	local_supplies=0.0 
+}

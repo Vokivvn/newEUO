@@ -1,0 +1,48 @@
+﻿capital = 658
+
+set_cosmetic_tag = RAJ_RED
+
+set_popularities = {
+	centrist_monarchism = 70
+	authoritarian_monarchism = 20
+	monarchism = 10
+}
+set_politics = { 
+	ruling_party = centrist_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+		name = "Amir Rashid bin Saeed Al Maktoum"
+		desc = ""
+		picture = "gfx/leaders/Middle East/Rashid_Al_Maktoum.dds"
+		expire = "1990.10.7"
+		ideology = absolutism
+		traits = {
+			#
+		}
+	}
+	
+	create_country_leader = {
+	name = "Governor John Baron Howes"
+	desc = ""
+	picture = "gfx/leaders/UAE/Portrait_John_Baron_Howes.dds"
+	expire = "1957.7.1"
+	ideology = cenmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Carlo Bergamini"
+	desc = ""
+	picture = "gfx/leaders/UAE/UAE_Carlo_Bergamini.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

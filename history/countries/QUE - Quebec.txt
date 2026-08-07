@@ -1,16 +1,237 @@
-﻿capital = 468 # Montreal (Saint Lawrence)
+﻿capital = 2983
 
-oob = "QUE_2010"
+set_popularities = {
+	liberal_republic
+		= 53
+	centrist_republic
+		= 28
+	democratic
+		= 19
+}
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
+set_politics = { 
+	ruling_party = liberal_republic
+	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 100
+create_country_leader = {
+	name = "Premier Ministre Maurice Le Noblet Duplessis"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Duplessis.tga"
+	expire = "1950.1.1"
+	ideology = conservatism
+	traits = {
+	}
 }
 
-recruit_character = QUE_Michel_Lepage
+create_country_leader = {
+	name = "Roi Henri VI d' Bourbon-Orléans"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Henri.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Annie Buller"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Buller.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chef Suprême Adrien Arcand"
+	desc = ""
+	picture = "gfx/leaders/CAN/CAN_Arcand.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Gerhard Helmut Detleff Graf von Schwerin"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Schwerin.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commandant de l'ArméeJacques Alfred Dextraze"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Dextraze.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier Ministre Thérèse Casgrain"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Casgrain.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Archibald James Murray"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Murray.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Secrétaire Général Annie Buller"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Buller.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Henri VI d' Bourbon-Orléans"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Henri.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier Ministre Louis-Alexandre Taschereau"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Taschereau.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Governor Archibald Henry Macdonald Sinclair"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Sinclair.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Viceroy Léon Henri Charles Cayla"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Cayla.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Paul Gouin"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Gouin.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Archibald James Murray"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Murray.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Henri VI d' Bourbon-Orléans"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Henri.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince-Primat Joseph-Omer Plante"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Plante.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+        }
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chef de la Direction Alexandre Louis Maurice Dior"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Dior.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premier Ministre Liguori Lacombe"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Lacombe.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Général Maurice Pujo"
+	desc = ""
+	picture = "gfx/leaders/QUE/QUE_Pujo.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}

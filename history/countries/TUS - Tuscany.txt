@@ -1,0 +1,55 @@
+﻿capital = 162
+
+set_popularities = {
+	democratic = 30
+	monarchism = 70
+	neutrality = 0
+}
+
+set_politics = { 
+	ruling_party = monarchism
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Presidente Cesare Angelini"
+	desc = ""
+	picture = "gfx/leaders/TUS/TUS_Angelini_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Re Ferdinando V d'Asburgo-Lorena"
+	desc = ""
+	picture = "gfx/leaders/TUS/TUS_Ferdinando.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Granduca Ferdinando V d'Asburgo-Lorena"
+	desc = ""
+	picture = "gfx/leaders/TUS/TUS_Ferdinando.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Granduca Ferdinando V di Asburgo-Lorena"
+	desc = ""
+	picture = "gfx/leaders/TUS/TUS_Ferdinando.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+

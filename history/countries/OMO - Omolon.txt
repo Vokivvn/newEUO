@@ -1,0 +1,52 @@
+﻿capital = 12516
+
+set_popularities = {
+   anarchism_ideology = 100
+}
+
+set_politics = {
+	ruling_party = anarchism_ideology
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Anarchy"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Arctic.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Patriárx Aleksándr Vladímirovič Men'"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/OMO_Men.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generál Pável Anatól'evič Sudoplátov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/OMO_Sudoplatov.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Anarchy"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Arctic.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

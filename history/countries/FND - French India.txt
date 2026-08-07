@@ -1,0 +1,47 @@
+﻿capital = 1182
+
+set_popularities = {
+        monarchism = 0
+        neutrality = 70
+        democratic = 20
+        communism = 5
+        fascism = 5
+}
+
+set_politics = {
+	
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gouverneur Léon Solomiac"
+	desc = ""
+	picture = "gfx/leaders/France/Frenchman.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vice-roi Léon Solomiac"
+	desc = ""
+	picture = "gfx/leaders/France/Frenchman.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Jan Godfried van Voorst tot Voorst"
+	desc = ""
+	picture = "gfx/leaders/India/RAJ_Voorst.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}

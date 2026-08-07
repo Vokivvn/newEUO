@@ -1,0 +1,104 @@
+﻿capital = 1428
+
+set_popularities = {
+        liberal_republic = 98
+        socialism_ideology = 2
+}
+
+set_politics = {
+	
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor William Elmer Holt"
+	picture = "gfx/leaders/MNA/MNA_Holt.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Territorial Governor William Elmer Holt"
+	desc = ""
+	picture = "gfx/leaders/MNA/MNA_Holt.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Burton Kendall Wheeler"
+	desc = ""
+	picture = "gfx/leaders/MNA/MNA_Wheeler.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Howard Hyde Russell"
+	desc = ""
+	picture = "gfx/leaders/MNA/MNA_Russell.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duke Filiberto I of Savoy"
+	desc = ""
+	picture = "gfx/leaders/MNA/MNA_Filiberto.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Filiberto I of Savoy"
+	desc = ""
+	picture = "gfx/leaders/MNA/MNA_Filiberto.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Lucian King Truscott Jr."
+	desc = ""
+	picture = "gfx/leaders/MNA/MNA_Truscott.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Joseph Elsberry McWilliams"
+	desc = ""
+	picture = "gfx/leaders/MNA/MNA_McWilliams.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Joseph Elsberry McWilliams"
+	desc = ""
+	picture = "gfx/leaders/MNA/MNA_McWilliams.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+

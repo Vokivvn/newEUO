@@ -1,16 +1,234 @@
 ﻿capital = 107
 
-oob = "SER_2010"
+set_popularities = {
+	democratic = 20
+	authoritarian_monarchism = 70
+	communism = 10
+}
 
-set_politics = {
-	ruling_party = fascism
+set_politics = { 
+	ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
-	election_frequency = 48
+	election_frequency = 36
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 100
+create_country_leader = {
+	name = "Premijer Josip Broz Tito"
+	desc = ""
+	picture = "gfx/leaders/YUG/yug_tito.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
 }
 
-recruit_character = SER_nebojsa_krstic
+create_country_leader = {
+	name = "Kralj Maximilian I Hohenberg"
+	desc = ""
+	picture = "gfx/leaders/ALM/ALM_Maximilian.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premijer Milan Stojadinović"
+	desc = ""
+	picture = "yug_stojadinovic.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prvi Sekretar Blagoje Nesković"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_Neskovic_commie.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prvi Sekretar Blagoje Nesković"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_Neskovic_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Petar II Karadordevica"
+	desc = ""
+	picture = "gfx/leaders/SER/Portrait_Peter_II.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsednik Svetozar Pribićević"
+	desc = ""
+	picture = "yug_pribicevic.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsednik Petar Zivkovic"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_Zivkovic_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Petar II Karadordevica"
+	desc = ""
+	picture = "gfx/leaders/SER/Portrait_Peter_II.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince George I Karadordevica"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_George.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsednik Ljubomir Davidović"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_Davidovic_cenrep.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Maximilian I Hohenberg"
+	desc = ""
+	picture = "gfx/leaders/ALM/ALM_Maximilian.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Militärkommandant Hans-Gustav Felber"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_Felber_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Petar II Karadordevica"
+	desc = ""
+	picture = "gfx/leaders/SER/Portrait_Peter_II.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kralj Alexander I Obrevnica"
+	desc = ""
+	picture = "gfx/leaders/SER/Portrait_Alexander_Obrenovic.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Patrijarh Varnava I Rosic"
+	desc = ""
+	picture = "yug_rosic.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Luigi Capello"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_Capello_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premijer Milan Nedic"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_Nedic_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Kurt Adolph Wilhelm Meyer"
+	desc = ""
+	picture = "gfx/leaders/SER/SER_Meyer_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

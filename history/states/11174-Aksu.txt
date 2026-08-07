@@ -1,0 +1,23 @@
+
+state={
+	id=11174
+	name="STATE_11174"
+	
+	provinces={
+		20677 
+	}
+	
+	history = {
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = UYG
+		add_core_of = TD0
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

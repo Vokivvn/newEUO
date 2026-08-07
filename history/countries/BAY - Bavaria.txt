@@ -1,1 +1,235 @@
-capital = 52
+﻿capital = 52
+
+set_popularities = {
+	monarchism = 50
+	national_socialism = 30
+	democratic = 10
+	vanguardism = 10
+}
+	
+set_politics = { 
+	ruling_party = monarchism
+	last_election = "1960.1.1"
+	election_frequency = 50
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Präsident Friedrich Hermann Schäffer"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Schaffer.tga"
+	expire = "1950.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsführer Ernst Julius Röhm"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Rohm.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Volksführerin Rosa Luxemburg"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Luxembourg.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Franz Xaver Ritter von Epp"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAV_Epp.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Führer und Reichskanzler Adolf Hitler"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Hitler20s.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Dwight David Eisenhower"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Eisenhower.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Ernst Toller"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Toller.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herzog Oskar Georg Wilhelm Ritter und Edler Xylander"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Oskar.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalsekretär Eugen Leviné"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Levine.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Heinrich I von Wittelsbach"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Heinrich.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Kurt Riezler"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Riezler.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Albrecht I von Wittelsbach"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Albrecht.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Rupprecht I von Wittelsbach"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAV_Rupprecht.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Jakob Fischbacher"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Fischbacher.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kurfürst Franz I von Wittelsbach"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Franz.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Rupprecht I von Wittelsbach"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAV_Rupprecht.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Landesbischof Hans Meiser"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Meiser.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+        }
+}
+
+create_country_leader = {
+	name = "Kommandant Gustav Landauer"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/BAY/BAY_Landauer.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Präsident Josef Müller"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAY_Muller.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Rupprecht I von Wittelsbach"
+	desc = ""
+	picture = "gfx/leaders/BAY/BAV_Rupprecht.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}

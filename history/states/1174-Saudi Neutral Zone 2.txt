@@ -1,0 +1,16 @@
+state={
+	id=1174
+	name="STATE_1174"
+	provinces={
+		13336 
+	}
+	state_category = rural
+	history=
+	{
+		owner = SAU
+		add_core_of = SAU
+		set_demilitarized_zone = yes
+		}
+	manpower=1
+	local_supplies=0.0 
+}

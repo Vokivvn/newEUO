@@ -1,0 +1,112 @@
+﻿capital = 359
+
+set_politics = {
+	ruling_party = centrist_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centrist_republic = 90
+    liberal_republic = 10
+}
+
+create_country_leader = {
+	name = "Governor Harold Giles Hoffman"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Hoffman.tga"
+	expire = "1947.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President James John Howard"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Howard.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commisar Elizabeth Terrill Bentley"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Bentley_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commisar Elizabeth Terrill Bentley"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Bentley_commie.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President Charles Edison"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Edison.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Charles Edison"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Edison.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Charles I of Edison"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Edison.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor William Shepherd Morrison"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Morrison_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General William Shepherd Morrison"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Morrison_authmon.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Enoch Lewis Johnson"
+	desc = ""
+	picture = "gfx/leaders/NJR/NJR_Johnson_ancap.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=12767
+	name="STATE_12767"
+	
+	state_category=rural
+	
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = ONT
+		add_core_of = OT2
+		
+	}
+
+	provinces={
+		4753 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

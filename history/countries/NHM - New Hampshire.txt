@@ -1,0 +1,114 @@
+﻿capital = 4157
+
+set_popularities = {
+	democratic = 80
+	liberal_republic = 20
+}
+
+set_politics = { 
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Henry Styles Bridges"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Bridges.tga"
+	expire = "1950.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Robert Lee Frost"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Frost.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince Karl I of Liechtenstein"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Karl.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grand Prince Karl I of Liechtenstein"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Karl.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President George Herman Ruth"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Ruth.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Frank Dow Merrill"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Merrill.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Edgar Douglas Adrian"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Adrian.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Edgar Douglas Adrian"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Adrian.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Robert Anson Heinlein"
+	desc = ""
+	picture = "gfx/leaders/NHM/NHM_Heinlein.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+

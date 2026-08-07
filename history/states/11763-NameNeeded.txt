@@ -1,0 +1,26 @@
+
+state={
+	id=11763
+	name="STATE_11763"
+
+	provinces={
+		5032 
+	}
+	
+	history={
+		owner = TML
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = TML
+		add_core_of = KRN
+		
+		victory_points = {
+			5032 5
+		}
+	}
+	
+	manpower=1
+	state_category = pastoral
+    buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

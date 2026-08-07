@@ -1,16 +1,239 @@
 ﻿capital = 141	
 
-oob = "SWE_2010"
+set_country_flag = has_secondary_leader
 
-set_politics = {
-	ruling_party = moderate_socialism
-	last_election = "1936.1.1"
+set_popularities = {
+	vanguardism = 1
+	communism = 3
+	socialist_monarchy = 45
+	democratic_monarchism = 17
+	centrist_monarchism = 9
+	conservative_monarchism = 25
+}
+	
+set_politics = { 
+	ruling_party = socialist_monarchy
+	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	moderate_socialism = 100
+create_country_leader = {
+	name = "Riksledare Birger Furugård"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Birger_Furugard.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
 }
 
-recruit_character = SWE_anna_lindh
+create_country_leader = {
+	name = "Konung Gustaf V av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Gustaf_V.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kansler Salomon Arvid Achates Lindman"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Arvid_Lindman.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Revolutionens Generalsekreterare Sven Harald Linderot"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Sven_Linderot.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ordförare Nils Svante Flyg"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Nils_flyg.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ordförare Per Albin Hansson"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Albin_Hansson.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konung Gustaf V av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Gustaf_V.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ordförare Jonas Eliel Löfgren"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Eliel_Lofgren.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konung Gustaf VI av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Gustaf_VI.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konung Eugen I av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Eugen_Bernadotte.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ordförare Olof Olsson i Kullenbergstorp"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Olof_olsson.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konung Frederick II av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Frederick_Sweden.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Dem som talar Carl Gustaf Ekman"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Carl_Ekman.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Befälhavare Oscar Eugéne Nygren"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Oscar_Nygren.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konung Oscar III av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Oscar_Sweden.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Småkung Carl XVI av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Carl_Sweden.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prins-Primat Erling Eidem, Ärkebiskop av Uppsala"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Erling_Eidem.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kejsare Frederick II av Bernadotte"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Frederick_Sweden.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Högsta Ledare Konrad Otto Kristian Hallgren"
+	desc = ""
+	picture = "gfx/leaders/SWE/Portrait_Konrad_Hallgren.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

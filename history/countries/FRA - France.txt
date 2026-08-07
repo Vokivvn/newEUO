@@ -1,78 +1,261 @@
-﻿capital = 16 # Paris/Ile de France
+﻿capital = 16
 
-oob = "FRA_2010"
+set_country_flag = has_secondary_leader
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
+set_popularities = {
+	vanguardism = 2
+	communism = 23
+	socialism_ideology = 7
+	liberal_republic = 26
+	centrist_republic = 20
+	democratic = 8
+	national_conservative_republic = 14
+}
+
+set_politics = { 
+	ruling_party = centrist_republic
+	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 100
+create_country_leader = {
+	name = "Président Albert François Lebrun"
+	desc = "POLITICS_LEBRUN_DESC"
+	picture = "gfx/leaders/FRA/Portrait_Albert_Lebrun.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
 }
 
-add_ideas = {
-	FRA_tuareg_war #stop calling the entire German Empire to starve in the Sahara
 
-
-	#laws
-
+create_country_leader = {
+	name = "Secrétaire Général Maurice Thorez"
+	desc = "POLITICS_THOREZ_DESC"
+	picture = "gfx/leaders/FRA/FRA_Thorez.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = ALG
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Président Jean Garchery"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Garchery.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = MRT
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Président André Léon Blum"
+	desc = "POLITICS_BLUM_DESC"
+	picture = "gfx/leaders/FRA/FRA_Blum.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = MLI
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Roi Jean III Pierre Clément Marie d'Orléans de Chartres, Duc de Guise"
+	desc = "POLITICS_JEANIII_DESC"
+	picture = "gfx/leaders/FRA/FRA_JeanIII.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = NGR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Président Édouard Daladier"
+	desc = "POLITICS_DALADIER_DESC"
+	picture = "gfx/leaders/FRA/FRA_Daladier.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = IVO
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Roi Jean III d'Orléans"
+	desc = "POLITICS_JEANIII_DESC"
+	picture = "gfx/leaders/FRA/FRA_JeanIII.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = GNA
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Empereur Napoleon VI de Bonaparte"
+	desc = "POLITICS_NAPOLEONVI_DESC"
+	picture = "gfx/leaders/FRA/FRA_NapoleonVI.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = TOG
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Chancelier Suprême François de La Rocque, Seigneur d'Alsace-Lorraine"
+	desc = "POLITICS_ROCQUE_DESC"
+	picture = "gfx/leaders/FRA/FRA_Rocque.tga"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = DAH
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Empereur Jean III d'Orléans"
+	desc = "POLITICS_JEANIII_DESC"
+	picture = "gfx/leaders/FRA/FRA_JeanIII.tga"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = SEN
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Président Louis Marin"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Marin.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
 }
 
-recruit_character = FRA_pierre_sidos
+create_country_leader = {
+	name = "Roi Charles XII de Bourbon"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_CharlesXII.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président du Comité National Français Charles André Marie de Gaulle"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_DeGaulle.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commandant en Chef Maurice Gustave Gamelin"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Gamelin.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Empereur Napoleon VI de Bonaparte"
+	desc = "POLITICS_NAPOLEONVI_DESC"
+	picture = "gfx/leaders/FRA/FRA_NapoleonVI.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Charles XII de Bourbon"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_CharlesXII.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Charles XII & V de Bourbon"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_CharlesXII.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince-Primat Jean Verdier"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Verdier.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Empereur Napoleon VI de Bonaparte"
+	desc = "POLITICS_NAPOLEONVI_DESC"
+	picture = "gfx/leaders/FRA/FRA_NapoleonVI.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chef de l'État Henri Philippe Benoni Pétain"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Petain.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Réalisateur Jacques Doriot"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Doriot.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

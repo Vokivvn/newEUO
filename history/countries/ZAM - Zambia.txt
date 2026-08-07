@@ -1,14 +1,106 @@
-﻿capital = 771
+﻿capital = 5008
 
-set_politics = {
-	ruling_party = autocratic
+set_cosmetic_tag = UK_RED
+
+set_popularities = {
+	liberal_republic= 15
+	conservative_monarchism = 10	
+	authoritarian_monarchism  = 75
+}
+
+set_politics = { 
+	ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Governor Sir Hubert Winthrop Young"
+	desc = ""
+	picture = "gfx/leaders/ZAM/Portrait_Hubert_Winthrop_Young.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
 }
 
-recruit_character = ZAM_Henry_Sosala
+create_country_leader = {
+	name = "Gouverneur Hans Benno Hüttig"
+	desc = ""
+	picture = "gfx/leaders/ZAM/ZAM_Huttig.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governador-Geral Vasco Lopes Alves"
+	desc = ""
+	picture = "gfx/leaders/ZAM/ZAM_Vascudo.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Godwin Lewanika"
+	desc = ""
+	picture = "gfx/leaders/ZAM/ZAM_Lewanika_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governador-Geral Vasco Lopes Alves"
+	desc = ""
+	picture = "gfx/leaders/ZAM/ZAM_Vascudo.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor General Sir John Jestyn Llewellin"
+	desc = ""
+	picture = "gfx/leaders/ZAM/ZAM_Llewellin.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Sir Stewart Gore-Browne"
+	desc = ""
+	picture = "gfx/leaders/ZAM/ZAM_Browne_cendem.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir John Jestyn Llewellin"
+	desc = ""
+	picture = "gfx/leaders/ZAM/ZAM_Llewellin.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Hans Benno Hüttig"
+	desc = ""
+	picture = "gfx/leaders/ZAM/ZAM_Huttig.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

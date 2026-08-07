@@ -1,0 +1,18 @@
+state={
+	id=11608
+	name="STATE_11608"
+	provinces={
+		7988 
+	}
+	history = {
+		owner = DER
+		add_core_of = DER
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = XIG
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

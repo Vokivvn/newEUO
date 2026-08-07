@@ -1,0 +1,51 @@
+﻿capital = 4941
+
+
+
+	set_popularities = {
+        neutrality =  10
+        monarchism =  20
+        fascism =  0
+        centrist_monarchism =  70
+
+	}
+	
+	set_politics = { 
+ ruling_party = neutrality
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Lord-Protector Henry Percy"
+	desc = ""
+	picture = "gfx/leaders/NUD/Portrait_Henry_Percy.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Henry II of Percy"
+	desc = ""
+	picture = "gfx/leaders/NUD/Portrait_Henry_Percy.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Duke Henry II of Percy"
+	desc = ""
+	picture = "gfx/leaders/NUD/Portrait_Henry_Percy.dds.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+

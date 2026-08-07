@@ -1,0 +1,25 @@
+
+state={
+	id=11540
+	name="STATE_11540"
+	
+	provinces={
+		7039
+	}
+	
+	history = {
+		owner = GND
+		add_core_of = GXC
+		add_core_of = GND
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			7039 5
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

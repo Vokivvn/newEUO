@@ -1,0 +1,174 @@
+﻿capital = 908
+
+set_popularities = {
+	democratic = 20
+	centrist_republic = 75
+	socialism_ideology = 5
+}
+
+set_politics = {
+	ruling_party = centrist_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Louis Jefferson Brann"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Brann.tga"
+	expire = "1947.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Hermann Joseph Muller"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Muller.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Hermann Joseph Muller"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Muller.tga"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Frank Fools Crow"
+	desc = ""
+	picture = "gfx/leaders/MNE/Portrait_Frank_Crow.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Wičháša Wakȟáŋ Khąɣí"
+	desc = ""
+	picture = "gfx/leaders/MNE/Portrait_Frank_Crow.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Wičháša Wakȟáŋ Khąɣí"
+	desc = ""
+	picture = "gfx/leaders/MNE/Portrait_Frank_Crow.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Peter John Veniot"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Veniot.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Margaret Madeline Chase Smith"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Smith.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Alexander I of Fleming"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Fleming.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Alexander Fleming"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Fleming.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Alexander Fleming"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Fleming.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir Alexander Fleming"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Fleming.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Ernest Joseph King"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_King.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Admiral Ernest Joseph King"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_King.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Admiral Johann Günther Lütjens"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Johann.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme Leader Francis Parker Yockey"
+	desc = ""
+	picture = "gfx/leaders/MNE/MNE_Yockey.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

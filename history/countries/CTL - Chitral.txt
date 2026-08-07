@@ -1,0 +1,35 @@
+﻿capital = 3324
+
+set_cosmetic_tag = RAJ_RED
+
+set_popularities = {
+	monarchism = 100
+}
+
+set_politics = {
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Shuja ul-Mulk"
+	desc = ""
+	picture = "gfx/leaders/Princely/chitral.dds" 
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Agent Harry Hall Johnson"
+	desc = ""
+	picture = "gfx/leaders/CTL/CTL_Johnson.tga" 
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}

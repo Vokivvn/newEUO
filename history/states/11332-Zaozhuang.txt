@@ -1,0 +1,26 @@
+
+state={
+	id=11332
+	name="STATE_11332"
+	
+	provinces={
+		9956
+	}
+	
+	history = {
+		owner = SHG
+		add_core_of = SHG
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = RGC
+		add_core_of = PSC
+		victory_points = {
+			9956 5
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

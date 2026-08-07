@@ -1,0 +1,18 @@
+state={
+	id=10183
+	name="STATE_10183"
+	provinces={
+		19541 
+	}
+	history={
+		owner = ANN
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = NVI
+		add_core_of = ANN
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

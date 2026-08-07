@@ -1,0 +1,31 @@
+﻿capital = 270
+
+set_cosmetic_tag = BWP_COLONY
+
+set_popularities = {
+        authoritarian_monarchism = 60
+        democratic = 15
+        communism = 0
+        fascism = 5
+        monarchism = 20
+
+}
+
+set_politics = {
+	
+	ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "Magistrate Richard Edgar Christian"
+	picture = "gfx/leaders/PTC/Portrait/Richard_Edgar_Christian.dds"
+	expire = "1940.10.30"
+	ideology = authmon
+	traits = {
+		#
+	}
+}

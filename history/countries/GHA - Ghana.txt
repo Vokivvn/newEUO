@@ -1,14 +1,111 @@
-﻿capital = 274
+﻿capital = 3596
 
-set_politics = {
-	ruling_party = revolutionary_socialism
+
+	set_popularities = {
+		democratic 
+			 = 10
+		fascism
+			 = 0
+		socialism_ideology
+			 = 10
+			
+		authoritarian_monarchism 
+			 = 80
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	revolutionary_socialism = 100
+create_country_leader = {
+	name = "Governor Sir Arnold Wienholt Hodson"
+	desc = ""
+	picture = "gfx/leaders/GHA/Portrait_Arnold_Hodson.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
 }
 
-recruit_character = GHA_Samia_Nkrumah
+create_country_leader = {
+	name = "Gouverneur Eugen Siegfried Erich Ritter von Schobert"
+	desc = ""
+	picture = "gfx/leaders/GHA/GHA_Schobert.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Kwame Nkrumah"
+	desc = ""
+	picture = "gfx/leaders/GHA/GHA_Nkrumah_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Guvernor Erik Julius Christian Scavenius"
+	desc = ""
+	picture = "gfx/leaders/GHA/GHA_Scavenius_monsoc.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister George Alfred Grant"
+	desc = ""
+	picture = "gfx/leaders/GHA/GHA_Grant_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Guvernör Claës Olof Lindsström"
+	desc = ""
+	picture = "gfx/leaders/GHA/GHA_Lindsstrom_libmon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Asantehene Osei Tutu Agyeman Prempeh II"
+	desc = ""
+	picture = "gfx/leaders/GHA/GHA_Prempeh_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Eugen Siegfried Erich Ritter von Schobert"
+	desc = ""
+	picture = "gfx/leaders/GHA/GHA_Schobert.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}

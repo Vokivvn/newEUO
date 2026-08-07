@@ -1,1 +1,239 @@
-﻿
+﻿capital = 219
+
+# Secondary Leader Setup #
+set_country_flag = has_secondary_leader
+set_country_flag = has_tertiary_leader
+recruit_character = SOV_Vyacheslav_Molotov
+
+set_popularities = {
+	vanguardism = 74
+	communism = 5
+	neutrality = 21
+}
+
+set_politics = { 
+	ruling_party = vanguardism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Predsedátelʹ TsIK SSSR Mikháil Ivánovich Kalʹinin"
+	desc = ""
+	picture = "gfx/leaders/Russia/Mikhail_Kalinin.dds"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generálʹnyy Sekretárʹ Iósif Vissariónovich Stálin"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Soviet_Joseph_Stalin.dds"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pérvyy Komissár Lev Davídovich Trótskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Leon_Trotsky.dds"
+	expire = "1953.3.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Glavnokománduyushchiy Georgiy Konstantinovich Zhukov"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Georgy_Zhukov.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezidént Nikoláy Dmítriyevich Avkséntʹyev"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Nikolai_Avksentiev.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pérvyy Grazhdanín Vsévolod Mikháylovich Èykhenbáum"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Vsevolod_Eikhenbaum.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsarʹ Kiríll Romanóvskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Kirill_Romanov.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minístr-Prezidént Aleksándr Fyodorovich Kérenskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Alexander_Kerensky.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minístr-Prezidént Nikoláy Dmítriyevich Avkséntʹyev"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Nikolai_Avksentiev.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperátor Dmítriy Romanóvskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Dmitry_Romanov.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsarʹ Dmítriy Romanóvskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Dmitry_Romanov.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezidént Pável Nikoláyevich Milyukóv"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Pavel_Milyukov.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tsarʹ Vladímir IV Romanóvskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Vladimir_Romanov.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalíssimus Mikhaíl Nikoláyevich Tukhachévskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Mikhail_Tukhachevsky.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperátor Vladímir IV Romanóvskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Vladimir_Romanov.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperátor Kiríll Romanóvskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Kirill_Romanov.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Patriárkh Pyotr Fyodorovich Polyánskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Pyotr_Polyansky.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperátor Vserossíyskiy Kiríll Romanóvskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Kirill_Romanov.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vozhdʹ Anastasíy Andréyevich Vonsyátskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Anastasy_Vonsyatsky.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Fyúrer Konstantín Vladímirovich Rodzaévskiy"
+	desc = ""
+	picture = "gfx/leaders/Russia/Portrait_Konstantin_Rodzaevsky.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

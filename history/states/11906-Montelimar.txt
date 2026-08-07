@@ -1,0 +1,18 @@
+state={
+	id=11906
+	name="STATE_11906"
+	
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = OCC
+		add_core_of = FR2
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		20787
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

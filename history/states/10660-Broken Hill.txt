@@ -1,0 +1,23 @@
+state={
+	id=10660
+	name="STATE_10660"
+
+	history={
+		owner = AST
+		add_core_of = AST
+		add_core_of = NSW
+		add_core_of = A83
+		
+  		victory_points = {
+			8249 5 
+		}
+	}
+
+	provinces={
+		8249
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

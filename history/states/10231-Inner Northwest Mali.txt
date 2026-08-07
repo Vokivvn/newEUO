@@ -1,0 +1,17 @@
+state={
+	id=10231
+	name="STATE_10231"
+	provinces={
+		19525 
+	}
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = STK
+		add_core_of = ADK
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=10816
+	name="STATE_10816"
+	
+	provinces={
+		20200 
+	}
+	
+	history={
+		owner = HOR
+		add_core_of = HOR
+		add_core_of = TIB
+		victory_points = {
+			20200 5
+		}
+	}
+	
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

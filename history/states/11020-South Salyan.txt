@@ -1,0 +1,17 @@
+state={
+	id=11020
+	name="STATE_11020"
+	provinces={
+		20574 
+	}
+	history={
+		owner = SYN
+		add_core_of = SYN
+		add_core_of = NEP
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,1 +1,33 @@
-﻿capital = 695
+﻿capital = 2312
+
+set_cosmetic_tag = HOL_ORANGE
+
+	set_popularities = {
+		democratic 
+			 = 23
+		fascism
+			 = 1
+		communism
+			 = 1
+			
+		authoritarian_monarchism 
+			 = 75
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Bartholomaeus Wouther Theodorus van Slobbe"
+	desc = ""
+	picture = "gfx/leaders/CRC/Portrait_Bartholomaeus_Wouther_Theodorus_van_Slobbe.dds"
+	expire = "1961.11.22"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+

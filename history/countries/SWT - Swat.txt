@@ -1,0 +1,28 @@
+﻿capital = 6261
+
+set_cosmetic_tag = RAJ_RED
+
+set_popularities = {
+	monarchism = 80
+	neutrality = 10
+	democratic = 5
+	communism = 0
+	fascism = 5
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Wali Miangul Abdul Wadud"
+	desc = ""
+	picture = "gfx/leaders/Princely/SWT_Wali_Swat.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

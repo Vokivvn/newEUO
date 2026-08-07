@@ -1,0 +1,17 @@
+state={
+	id=10243
+	name="STATE_10243"
+	provinces={
+		19511 
+	}
+	history={
+	    owner = MLI
+        add_core_of = MLI
+	add_core_of = LKS
+	add_core_of = SD0
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

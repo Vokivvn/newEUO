@@ -1,0 +1,19 @@
+state={
+	id=10394
+	name="STATE_10394"
+	provinces={
+		19730 
+	}
+	history={
+	owner = S06
+	add_core_of = SHA
+	add_core_of = BRM
+		add_core_of = S06
+		add_core_of = S59
+	}
+	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,80 @@
+﻿capital = 10913
+
+set_cosmetic_tag = GRL_DEN
+
+
+
+	set_popularities = {
+		authoritarian_monarchism 
+			 = 80
+		centrist_republic
+			 = 10
+		liberal_republic
+			 = 10
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Guvernør Aksel Svane"
+	desc = ""
+	picture = "gfx/leaders/SG1/SG1_Svane.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Arthur Francis Eric Palliser"
+	desc = ""
+	picture = "gfx/leaders/GRL/GRL_Palliser.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Siulittaasuat Pitseolak Ashoona"
+	desc = ""
+	picture = "gfx/leaders/GRL/GRL_Ashoona.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Siulittaasuat Knud Johan Victor Rasmussen"
+	desc = ""
+	picture = "gfx/leaders/GRL/GRL_Rasmussen.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor John Matthew Devine"
+	desc = ""
+	picture = "gfx/leaders/GRL/GRL_Devine.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Kurt Fricke"
+	desc = ""
+	picture = "gfx/leaders/GRL/GRL_Fricke.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=11324
+	name="STATE_11324"
+	
+	provinces={
+		4001
+	}
+	
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = RFC
+		add_core_of = KGS
+		add_core_of = RGC
+		victory_points={
+			4001 5
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

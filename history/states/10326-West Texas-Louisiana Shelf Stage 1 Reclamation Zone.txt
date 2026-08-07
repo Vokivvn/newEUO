@@ -1,0 +1,17 @@
+state={
+	id=10326
+	name="STATE_10326"
+	provinces={
+		19664
+	}
+	history={
+	    owner = PER
+        add_core_of = PER
+        add_core_of = MZD
+        add_core_of = TBR
+    }	
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

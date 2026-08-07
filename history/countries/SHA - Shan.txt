@@ -1,0 +1,59 @@
+﻿capital = 8496
+set_cosmetic_tag = RAJ_RED
+
+	set_popularities = {
+        democratic =  0
+        communism =  0
+        fascism =  0
+        authoritarian_monarchism =  60
+        monarchism = 40
+
+	}
+	
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Resident Commissioner John Clague"
+	desc = ""
+	picture = "gfx/leaders/SHA/John_Clague.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Otto Johann Anton Skorzeny"
+	desc = ""
+	picture = "gfx/leaders/SHA/Otto_Skorzeny.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Saopha Kawng Kiao Intaleng"
+	desc = ""
+	picture = "gfx/leaders/SHA/Sao_Kawng_Kiao_Intaleng.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sōtoku Teiichi Suzuki"
+	desc = ""
+	picture = "gfx/leaders/SHA/Teiichi_Suzuki.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

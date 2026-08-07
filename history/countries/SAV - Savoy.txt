@@ -1,0 +1,60 @@
+﻿capital = 1890
+
+
+
+	set_popularities = {
+		democratic 
+			 = 30
+		authoritarian_monarchism
+			 = 15
+		communism
+			 = 10
+		monarchism
+			 = 45
+		}
+	set_politics = { 
+ ruling_party = monarchism
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Primo Segretario Celeste Negarville"
+	desc = ""
+	picture = "gfx/leaders/SAV/SAV_Celeste_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Giovanni Carlo Anselmetti"
+	desc = ""
+	picture = "gfx/leaders/SAV/SAV_Anselmetti_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Re Vittorio Emanuele III di Savoia"
+	desc = ""
+	picture = "gfx/leaders/SAV/Portrait_Italy_Victor_Emmanuel_III.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duca Vittorio Emanuele III di Savoia"
+	desc = ""
+	picture = "gfx/leaders/SAV/Portrait_Italy_Victor_Emmanuel_III.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

@@ -1,1 +1,71 @@
 ﻿capital = 686
+set_cosmetic_tag = PUE_USA
+
+set_popularities = {
+	stratocratic 
+		= 45
+	fascism
+		= 0
+	communism
+		= 0
+	liberal_republic = 45
+	neutrality = 10
+	}
+
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Blanton C. Winship"
+	desc = ""
+	picture = "gfx/leaders/PUE/PUE_Winship.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Generalísimo Pedro Albizu Campos"
+	desc = ""
+	picture = "gfx/leaders/PUE/PUE_Campos.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Pedro Albizu Campos"
+	desc = ""
+	picture = "gfx/leaders/PUE/PUE_Campos.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Antonio Rafael Barceló y Martínez"
+	desc = ""
+	picture = "gfx/leaders/PUE/PUE_Martinez.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Antonio Fernós-Isern"
+	desc = ""
+	picture = "gfx/leaders/PUE/PUE_Isern.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}

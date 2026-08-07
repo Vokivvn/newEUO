@@ -1,0 +1,65 @@
+﻿capital = 249
+
+set_popularities = {
+	vanguardism = 100
+}
+	
+set_cosmetic_tag = RUS_RED
+
+set_politics = {
+	
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prezident Alişev Ğäbdelbari ulı Ğabdullacan"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/TTR_Alis.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Irekle Xalyklarnyñ Urtak Sovety"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/TTR_Council.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Ibrahim Zarifulla ulı Mingazev"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/TTR_Mingazeyev.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pérvyj Sekretárʹ Tatárskogo obkóma VKP(b) Ál'fred Kárlovič Lepa"
+	desc = ""
+	picture = "gfx/leaders/TTR/Alfred_Karlovich_Lepa.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generál Gabriêl' Péter Švárcenbax"
+	desc = ""
+	picture = "gfx/leaders/LAT/LIV_Shvarzenbakh.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

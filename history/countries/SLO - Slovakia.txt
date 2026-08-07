@@ -1,16 +1,238 @@
-﻿capital = 70
+﻿capital = 2329
 
-oob = "SLO_2010"
-
-set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
+	set_popularities = {
+		democratic
+			 = 85
+		fascism
+			 = 2
+		communism
+			 = 3
+		neutrality
+			 = 10
+		}
+	set_politics = { 
+ ruling_party = neutrality
+	last_election = "1934.3.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 100
+create_country_leader = {
+	name = "Predseda Jozef Gašpar Tiso"
+	desc = ""
+	picture = "gfx/leaders/SLO/Portrait_Slovakia_Jozef_Tiso.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
 }
 
-recruit_character = SLO_marian_kotleba
+create_country_leader = {
+	name = "Predseda Milan Hodža"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Hodza.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generálny Tajomník Karol Šmidke"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Smidke.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Premiér Antonín Janoušek"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Janousek.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predseda Ivan Dérer"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Derer.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kráľ Dušan z Jurkovič"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Jurkovic.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predseda Štefan Osuský"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Osusky.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kráľ Dušan z Jurkovič"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Jurkovic.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princ Jozefa IV z Habsbursko-Lotrinská"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Jozefa.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kancelár Vavrinec Ján Šrobár"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Srobar.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vojvoda Jozefa IV z Habsbursko-Lotrinská"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Jozefa.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vrchný Veliteľ Rudolf Michal Viest"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Viest.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Guvernér Alexander Mach Mederský"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Mach.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kráľ Jozefa IV z Habsbursko-Lotrinská"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Jozefa.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vojvoda Jozefa IV z Habsbursko-Lotrinská"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Jozefa.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Primas Andrej Hlinka"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Hlinka.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cisár Jozefa IV z Habsbursko-Lotrinská"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Jozefa.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vodca Vojtech Lázar Tuka"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Tuka.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Konstantin Hermann Karl Freiherr von Neurath"
+	desc = ""
+	picture = "gfx/leaders/SLO/SLO_Neurath.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

@@ -1,16 +1,34 @@
-﻿capital = 294
+﻿capital = 3281
+set_cosmetic_tag = RAJ_RED
 
-oob = "OMA_2010"
-
-set_politics = {
-	ruling_party = autocratic
+set_popularities = {
+	authoritarian_monarchism = 100
+}
+set_politics = { 
+	ruling_party = authoritarian_monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Sultan Said III al-Said"
+	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
+	picture = "gfx/leaders/OMA/Portrait_Said_III_bin_Taimur.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+		#
+	}
 }
 
-recruit_character = OMA_Qaboos_bin_Said
+create_country_leader = {
+	name = "Sultan Said III al-Said"
+	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
+	picture = "gfx/leaders/OMA/Portrait_Said_III_bin_Taimur.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}

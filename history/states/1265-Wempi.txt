@@ -1,0 +1,20 @@
+state={
+	id=1265
+	name="STATE_1265"
+	
+	history={
+		owner = INI
+		add_core_of = INI
+		add_core_of = CAY
+
+	}
+	
+	provinces={
+		13379 
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.0 
+}

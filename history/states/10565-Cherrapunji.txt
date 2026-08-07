@@ -1,0 +1,20 @@
+state={
+	id=10565
+	name="STATE_10565"
+	provinces={
+		20046 
+	}
+	history={
+	    owner = CH2
+        add_core_of = CH2
+        add_core_of = KSS
+        add_core_of = IND
+        add_core_of = MEG
+		add_core_of = ASM
+	add_claim_by = RAJ
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

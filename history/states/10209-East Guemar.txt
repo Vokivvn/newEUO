@@ -1,0 +1,18 @@
+state={
+	id=10209
+	name="STATE_10209"
+	provinces={
+		19578 
+	}
+	history={
+	    owner = LPO
+        add_core_of = LPO
+		add_core_of = SHC
+		add_core_of = CHI
+		add_core_of = PRC
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

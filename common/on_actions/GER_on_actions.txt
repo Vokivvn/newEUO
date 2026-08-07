@@ -1,9 +1,0 @@
-on_actions = {
-	on_startup = {
-		effect = {
-			GER = {
-				country_event = { id = GER.1 days = 0 } 
-			}
-		}
-	}
-}

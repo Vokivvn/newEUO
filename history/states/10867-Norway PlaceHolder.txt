@@ -1,0 +1,25 @@
+
+state={
+	id=10867
+	name="STATE_10867"
+
+	history={
+		owner = SLB
+		add_core_of = SLB
+
+		victory_points = {
+			20352 1 
+		}
+
+	set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		20352 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

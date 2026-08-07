@@ -1,0 +1,17 @@
+state={
+	id=11841
+	name="STATE_11841"
+	
+	history = {
+	    owner = TUR
+        add_core_of = TUR
+        add_core_of = KRS
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		20774
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

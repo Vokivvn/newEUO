@@ -1,0 +1,33 @@
+﻿capital = 870
+
+set_popularities = {
+	monarchism = 60
+	neutrality = 40
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sultan Akhemuk ag Ihemma"
+	desc = ""
+	picture = "gfx/leaders/AGD/AGD_Akhemuk.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sultan Akhemuk ag Ihemma"
+	desc = ""
+	picture = "gfx/leaders/AGD/AGD_Akhemuk.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

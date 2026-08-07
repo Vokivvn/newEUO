@@ -1,0 +1,102 @@
+﻿capital = 1976
+
+set_popularities = {
+        liberal_republic = 96
+        democratic = 3
+        socialism_ideology = 1
+}
+
+set_politics = {
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Robert LeRoy Cochran"
+	picture = "gfx/leaders/NEB/NEB_Cochran.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Territorial Governor Robert LeRoy Cochran"
+	picture = "gfx/leaders/NEB/NEB_Cochran.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Military Governor Joseph Warren Stilwell"
+	picture = "gfx/leaders/NEB/NEB_Stilwell.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President George William Norris"
+	desc = ""
+	picture = "gfx/leaders/NEB/NEB_Norris.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman George William Norris"
+	desc = ""
+	picture = "gfx/leaders/NEB/NEB_Norris.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Kenneth Spicer Wherry"
+	desc = ""
+	picture = "gfx/leaders/NEB/NEB_Wherry.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Frederick I of Astaire"
+	desc = ""
+	picture = "gfx/leaders/NEB/NEB_Astaire.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Mark Wayne Clark"
+	desc = ""
+	picture = "gfx/leaders/NEB/NEB_Clark.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Sylvester Stadler"
+	desc = ""
+	picture = "gfx/leaders/NEB/NEB_Stadler.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+

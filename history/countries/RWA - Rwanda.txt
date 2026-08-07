@@ -1,1 +1,35 @@
-﻿capital = 768
+﻿capital = 887
+
+
+	set_popularities = {
+
+        republican_fascism =  40
+        monarchism = 60
+
+	}
+	set_politics = { 
+ ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Roi Mutara III Rudahigwa"
+	desc = ""
+	picture = "gfx/leaders/RWA/RWA_Mutara_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chef Suprême Dominique Mbonyumutwa"
+	desc = ""
+	picture = "gfx/leaders/RWA/RWA_Mbonyumutwa_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

@@ -1,18 +1,96 @@
-﻿capital = 459
+﻿capital = 13591
 
-oob = "ALG_2010"
+set_popularities = {
+	stratocratic= 60
+	communism = 30
+	centrist_republic = 10	
+}
 
-set_politics = {
-	ruling_party = reactionary
+set_cosmetic_tag = FRA_BLUE
+	
+set_politics = { 
+	ruling_party = stratocratic
 	last_election = "1936.1.1"
-	election_frequency = 48
+	election_frequency = 50
 	elections_allowed = no
 }
 
-set_popularities = {
-	reactionary = 100
+create_country_leader = {
+	name = "Governor-General Sir John Henry D'Albiac"
+	desc = ""
+	picture = "gfx/leaders/ALG/ALG_Albiac_stratmon.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
 }
 
-add_manpower = 100000
+create_country_leader = {
+	name = "Gobernador José Moscardó e Ituarte"
+	desc = ""
+	picture = "gfx/leaders/ALG/ALG_Moscardo_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
 
-recruit_character = ALG_jean_marie_le_pen
+create_country_leader = {
+	name = "Mufawad Belkacem Radjef"
+	desc = ""
+	picture = "gfx/leaders/ALG/ALG_Radjef_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Général Maxime Weygand"
+	desc = ""
+	picture = "gfx/leaders/ALG/ALG_Weygand_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Général Maxime Weygand"
+	desc = ""
+	picture = "gfx/leaders/ALG/ALG_Weygand_strat.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Dey Ali Fuat Cebesoy"
+	desc = ""
+	picture = "gfx/leaders/ALG/ALG_Cebesoy_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Annibale Bergonzoli"
+	desc = ""
+	picture = "gfx/leaders/ALG/ALG_Bergonzoli_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Mohammed Saleh Bendjelloul"
+	desc = ""
+	picture = "gfx/leaders/ALG/ALG_Saleh_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism 
+	traits = {
+	}
+}

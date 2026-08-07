@@ -1,0 +1,122 @@
+﻿capital = 1163
+
+set_popularities = {
+        liberal_republic = 96
+        democratic = 4
+}
+
+set_politics = {
+	
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Clyde Kendle Tingley"
+	picture = "gfx/leaders/NMX/NMX_Tingley.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Territorial Governor Clyde Kendle Tingley"
+	picture = "gfx/leaders/NMX/NMX_Tingley.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador Felix de Bourbon-Parma"
+	desc = ""
+	picture = "gfx/leaders/NMX/NMX_Felix.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Felix I de Bourbon"
+	desc = ""
+	picture = "gfx/leaders/NMX/NMX_Felix.tga"
+	expire = "1989.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince Felix I of Bourbon"
+	desc = ""
+	picture = "gfx/leaders/NMX/NMX_Felix.tga"
+	expire = "1989.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Richard Charles Dillon"
+	desc = ""
+	picture = "gfx/leaders/NMX/NMX_Dillon.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Dionisio Chávez"
+	desc = ""
+	picture = "gfx/leaders/NMX/NMX_Chavez.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Geoffrey Keyes"
+	desc = ""
+	picture = "gfx/leaders/NMX/NMX_Keyes.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cardinal William Henry O'Connell"
+	desc = ""
+	picture = "gfx/leaders/NMX/NMX_Connell.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Council of Bosses"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Leader Equiano Hampton"
+	desc = ""
+	picture = "gfx/leaders/NMX/NMX_Hampton.tga"
+	expire = "1989.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}

@@ -1,0 +1,22 @@
+﻿capital = 11298
+
+set_popularities = {
+	stratocratic = 100
+}
+
+set_politics = { 
+	ruling_party = stratocratic
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Chou ch'ang Fu Tso-i"
+	desc = ""
+	picture = "gfx/leaders/SUI/Portrait_Fu_Zuoyi.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}

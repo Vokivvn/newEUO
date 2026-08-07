@@ -1,0 +1,18 @@
+state={
+	id=1175
+	name="STATE_1175"
+	provinces={
+		13340 
+	}
+	history=
+	{
+		owner = SAU
+		add_core_of = ANZ
+		add_core_of = SAU
+		add_core_of = JOR
+		add_core_of = JBL
+		}
+	state_category = wasteland
+	manpower=1
+	local_supplies=0.0 
+}

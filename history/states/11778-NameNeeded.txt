@@ -1,0 +1,22 @@
+state={
+	id=11778
+	name="STATE_11778"
+	history={
+		victory_points = {
+			7244 5
+		}
+		owner = TML
+		add_core_of = TML
+		add_core_of = RAJ
+		add_core_of = IND
+		add_core_of = KRN
+		
+	}
+	provinces={
+		7244
+	}
+	manpower=1
+	state_category = pastoral
+    buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,14 +1,75 @@
 ﻿capital = 566
 
+set_popularities = {
+        neutrality = 0
+        monarchism = 0
+        democratic = 0
+        liberal_republic = 0
+        communism = 10
+        vanguardism = 90
+        fascism = 0
+        anarchism_ideology = 0
+        socialism_ideology = 0
+        democratic_monarchism = 0
+        conservative_monarchism = 0
+        stratocratic = 0
+        authoritarian_monarchism = 0
+        republican_fascism = 0
+        national_socialism = 0
+        theocratic = 0
+        left_anarchism = 0
+        right_anarchism = 0
+        socialist_monarchy = 0
+        centrist_republic = 0
+        centrist_monarchism = 0
+        stratocratic_monarchism = 0
+
+}
+
 set_politics = {
-	ruling_party = fascism
+	
+	ruling_party = vanguardism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 100
+create_country_leader = {
+	name = "Predsedátel' Génrix Grigór'evič Jágoda"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/IRK_Yagoda.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
 }
 
-recruit_character = IRK_Aleksandr_Dugin
+create_country_leader = {
+	name = "Predsedátel' Sergéj Alekséevič Bessónov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/IRK_Bessonov.tga"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Car' Alekséj II Romanóvskij"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/IRK_Goleniewski.tga"
+	expire = "1953.3.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Friedrich August Jeckeln"
+	desc = ""
+	picture = "gfx/leaders/IRK/IRK_Jeckeln_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

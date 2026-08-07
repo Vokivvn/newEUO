@@ -1,0 +1,94 @@
+﻿capital = 2357
+
+set_cosmetic_tag = RUS_RED
+
+set_popularities = {
+	vanguardism = 100
+}
+	
+set_politics = { 
+	ruling_party = vanguardism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Predsedátelʹ Krýmskogo obkóma VKP(b) Borís Aleksándrovič Semënov"
+	desc = ""
+	picture = "gfx/leaders/CRM/Boris_Aleksandrovich_Semyonov.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsstatthalter Herbert Friedrich Wilhelm Backe"
+	desc = ""
+	picture = "gfx/leaders/CRM/CRM_Backe_nazi.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsführer-SS Herbert Friedrich Wilhelm Backe"
+	desc = ""
+	picture = "gfx/leaders/CRM/CRM_Backe_nazi.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sultan Kliç-Girey"
+	desc = ""
+	picture = "gfx/leaders/CRM/CRM_Klych_Giray.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Luigi Efisio Marras"
+	desc = ""
+	picture = "gfx/leaders/CRM/CRM_Marras.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gubernátor Víktor Aleksándrovič Lariónov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/KMR_Larionov.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prézident Víktor Aleksándrovič Lariónov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/KMR_Larionov.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generál Víktor Aleksándrovič Lariónov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/KMR_Larionov.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

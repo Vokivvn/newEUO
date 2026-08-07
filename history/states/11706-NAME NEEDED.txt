@@ -1,0 +1,19 @@
+state={
+	id=11706
+	name="STATE_11706"
+	provinces={
+		10911 
+	}
+	history = {
+		owner = TUG
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = TUG
+		add_core_of = UYG
+		add_core_of = SIK
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

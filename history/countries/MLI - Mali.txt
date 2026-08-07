@@ -1,18 +1,82 @@
-﻿capital = 556
+﻿capital = 865
 
-oob = "MLI_2010"
+set_cosmetic_tag = FRA_BLUE
 
-set_politics = {
-	ruling_party = autocratic
+
+	set_popularities = {
+		democratic 
+			 = 0
+		socialism_ideology
+			 = 10
+		liberal_republic
+			 = 10
+			
+		neutrality 
+			 = 80
+		}
+	set_politics = { 
+ ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Gouverneur Matteo-Mathieu-Maurice Alfassa"
+	desc = ""
+	picture = "gfx/leaders/MLI/MLI_Alfassa.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
 }
 
-add_manpower = 100000
+create_country_leader = {
+	name = "Président Modibo Keïta"
+	desc = ""
+	picture = "gfx/leaders/MLI/MLI_Keita.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
 
-recruit_character = MLI_Amadou_Toumani_Toure
+create_country_leader = {
+	name = "Premier Ministre Mamadou Konaté"
+	desc = ""
+	picture = "gfx/leaders/MLI/MLI_Konate_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir James Syme Drew"
+	desc = ""
+	picture = "gfx/leaders/MLI/MLI_Drew_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Empereur Modibo I Keïta"
+	desc = ""
+	picture = "gfx/leaders/MLI/MLI_Keita.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Mario Balotta"
+	desc = ""
+	picture = "gfx/leaders/MLI/MLI_Balotta_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

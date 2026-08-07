@@ -1,14 +1,71 @@
-﻿capital = 557
+﻿capital = 16278
 
-set_politics = {
-	ruling_party = autocratic
+set_cosmetic_tag = FRA_BLUE
+
+	set_popularities = {
+		monarchism 
+			 = 10
+		socialism_ideology
+			 = 10
+		communism
+			 = 0
+			
+		neutrality 
+			 = 80
+		}
+	set_politics = { 
+ ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	autocratic = 100
+create_country_leader = {
+	name = "Gouverneur Jules Marcel de Coppet"
+	desc = ""
+	picture = "gfx/leaders/MRT/MRT_Coppet.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
 }
 
-recruit_character = MRT_Mohamed_Ould_Abdel_Aziz
+create_country_leader = {
+	name = "Rayiys Moktar Ould Daddah"
+	desc = ""
+	picture = "gfx/leaders/MRT/MRT_Daddah_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sultan Ibrahim I ibn 'Umaru"
+	desc = ""
+	picture = "gfx/leaders/MRT/MRT_Umaru_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Bruno Malaguti"
+	desc = ""
+	picture = "gfx/leaders/MRT/MRT_Malaguti_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Henry David Reginald Margesson"
+	desc = ""
+	picture = "gfx/leaders/MRT/MRT_David_Margesson.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}

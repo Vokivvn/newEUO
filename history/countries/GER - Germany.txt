@@ -1,123 +1,272 @@
-﻿capital = 1073 # Berlin/Brandeburg
+﻿capital = 64
 
-oob = "GER_2010"
+set_popularities = {
+	national_socialism = 100
+}
 
-set_politics = {
+set_politics = { 
 	ruling_party = national_socialism
-	last_election = "1936.1.1"
+	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 5
-	national_socialism = 92
-	syncretism = 3
-}
-add_ideas = {
-	economic_woes
-	global_hegemon
-	russian_sector
-	thousand_year_reich
+create_country_leader = {
+	name = "Führer und Reichskanzler Adolf Hitler"
+	desc = "POLITICS_GER_NATSOC_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
 }
 
-
-recruit_character = GER_martin_adolf_bormann
-
-create_faction = Kontinentalpakt
-add_to_faction = GER
-add_to_faction = FRA
-add_to_faction = ENG
-add_to_faction = HUN
-add_to_faction = ROM
-add_to_faction = BUL
-add_to_faction = SER
-add_to_faction = IRE
-add_to_faction = ICE
-add_to_faction = TKS
-add_to_faction = DIX
-add_to_faction = NGE
-add_to_faction = NEE
-add_to_faction = KAN
-add_to_faction = QUE
-
-set_variable = { var = ger_var_mainstream_power value = 84 }
-set_variable = { var = ger_var_radical_power value = 35 }
-set_variable = { var = ger_var_right_opposition_power value = 68 }
-set_variable = { var = ger_var_orthodox_power value = 45 }
-set_variable = { var = ger_var_ss_power value = 68 }
-set_variable = { var = ger_var_militarists_power value = 45 }
-
-set_autonomy = {
-	target = UKR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Kaiser Wilhelm II von Hohenzollern"
+	desc = "POLITICS_GER_ABSMON_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = MCW
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Reichspräsident Hermann Drewitz"
+	desc = "POLITICS_GER_CONREP_DESC"
+	picture = "gfx/leaders/GER/Portrait_Hermann_Drewitz.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = KAU
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Generalsekretär Ernst Johannes Fritz Thälmann"
+	desc = "POLITICS_GER_VAN_DESC"
+	picture = "gfx/leaders/GER/Portrait_Ernst_Thalmann.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = UKR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Vorsitzende Karl Heinrich Otto Rühle"
+	desc = "POLITICS_GER_COM_DESC"
+	picture = "gfx/leaders/GER/Portrait_Otto_Ruhle.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = NOR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Reichspräsident Otto Wels"
+	desc = "POLITICS_GER_SOC_DESC"
+	picture = "gfx/leaders/GER/Portrait_Otto_Wels.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = BNT
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Kaiserin Viktoria I von Hohenzollern"
+	desc = "POLITICS_GER_MONSOC_DESC"
+	picture = "gfx/leaders/GER/Portrait_Victoria_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = AKA
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Bundespräsident Hermann Robert Dietrich"
+	desc = "POLITICS_GER_liberalism_DESC"
+	picture = "gfx/leaders/GER/Portrait_Hermann_Dietrich.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = BRI
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = "POLITICS_GER_LIBMON_DESC"
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = SLO
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = "POLITICS_GER_CONMON_DESC"
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = MAD
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Premierminister Ludwig Kaas"
+	desc = "POLITICS_GER_CENREP_DESC"
+	picture = "gfx/leaders/GER/Portrait_Ludwig_Kaas.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = DEN
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Kaiser August Wilhelm von Hohenzollern"
+	desc = "POLITICS_GER_CENMON_DESC"
+	picture = "gfx/leaders/GER/Portrait_August_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = CAF
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Präsident Kuno Friedrich Viktor Graf von Westarp"
+	desc = "POLITICS_GER_AUTHREP_DESC"
+	picture = "gfx/leaders/GER/Portrait_Kuno_von_Westarp.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
 }
 
-add_manpower = 1000000
+create_country_leader = {
+	name = "Kaiser Wilhelm III von Hohenzollern"
+	desc = "POLITICS_GER_CONMON_DESC"
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = natconmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichspräsident Alfred Ernst Christian Alexander Hugenberg"
+	desc = "POLITICS_GER_ANOCREP_DESC"
+	picture = "gfx/leaders/GER/GER_Hugenberg.tga"
+	expire = "1965.1.1"
+	ideology = natconrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichspräsident Alfred Ernst Christian Alexander Hugenberg"
+	desc = "POLITICS_GER_ANOCREP_DESC"
+	picture = "gfx/leaders/GER/GER_Hugenberg.tga"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperator Romanorum Gulielmus de Hohenzollern"
+	desc = "POLITICS_GER_ANOCMON_DESC"
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oberbefehlshaber Walther Karl Friedrich Ernst Emil Freiherr von Lüttwitz"
+	desc = "POLITICS_GER_STRAT_DESC"
+	picture = "gfx/leaders/GER/Portrait_Walther_von_Luttwitz.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herrscher Ludwig August Theodor Beck"
+	desc = "POLITICS_GER_STRATMON_DESC"
+	picture = "gfx/leaders/GER/Portrait_Ludwig_Beck.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm II von Hohenzollern"
+	desc = "POLITICS_GER_AUTHMON_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oberster Führer Heinrich Luitpold Himmler"
+	desc = "POLITICS_GER_THEOC_DESC"
+	picture = "gfx/leaders/GER/Portrait_Heinrich_Himmler.dds"
+	expire = "1965.1.1"
+	ideology = esotericism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser August Wilhelm von Hohenzollern"
+	desc = "POLITICS_GER_FASCISM_DESC"
+	picture = "gfx/leaders/GER/Portrait_August_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Führer Otto Johann Maximilian Straßer"
+	desc = "POLITICS_GER_REPFASH_DESC"
+	picture = "gfx/leaders/GER/Portrait_Otto_Strasser.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

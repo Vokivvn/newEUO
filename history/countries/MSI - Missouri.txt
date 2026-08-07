@@ -1,0 +1,124 @@
+﻿capital = 15464
+
+set_popularities = {
+        centrist_republic = 97
+        democratic = 2
+        liberal_republic = 1
+
+}
+
+set_politics = {
+	ruling_party =  centrist_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Guy Brasfield Park"
+	picture = "gfx/leaders/MSI/MSI_Park.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Robert Charlwood Richardson Jr."
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Richardson.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Robert Charlwood Richardson Jr."
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Richardson.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commissioner Robert Charlwood Richardson Jr."
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Richardson.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Clara I of Twain"
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Twain_monsoc.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Harry S. Truman"
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Truman_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Forrest Carl Donnell"
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Donnell_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Charles Huntziger"
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Huntziger_conmon.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Bernard Cyril Freyberg"
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Freyberg_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grand Master Gerald Lyman Kenneth Smith"
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Smith.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Gerald Lyman Kenneth Smith"
+	desc = ""
+	picture = "gfx/leaders/MSI/MSI_Smith.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

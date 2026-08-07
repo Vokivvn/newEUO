@@ -1,0 +1,248 @@
+﻿capital = 389
+
+set_popularities = {
+	communism = 5
+	vanguardism = 3
+	socialism_ideology = 2
+	democratic = 35
+	liberal_republic = 42
+	neutrality = 10
+	national_socialism = 3
+}
+
+set_politics = {
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Führer Fritz Julius Kuhn"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Kuhn.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsführer John Smith"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Smith.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Commander George Lincoln Rockwell"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Rockwell.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ausschussvorsitzender Johann Ferdinand Schörner"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Schorner.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Feldmarschall William Luther Pierce III"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Pierce.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vizekönig Wilhelm III Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kronprinz und Gouverneur Karl I Von Habsburg"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Karl_Habsburg_2.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Militärgouverneur Anton Ludwig Friedrich August von Mackensen"
+	desc = ""
+	picture = "gfx/leaders/PRE/Portrait_August_Mackensen.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm III Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander Dwight David Eisenhower"
+	desc = ""
+	picture = "gfx/leaders/USA/USA_Eisenhower.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President John Moses"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Moses.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chancellor Julius Peter Heil"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Heil.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Hjalmar Petersen"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Petersen.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Secretary Norman Pattoon Thomas"
+	desc = ""
+	picture = "gfx/leaders/USA/USA_Thomas.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Secretary John Silias Reed"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Reed.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Secretary Earl Russell Browder"
+	desc = ""
+	picture = "gfx/leaders/USA/USA_Browder.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperator Americanorum Carolus I de Habsburgum, Rex Providentiae"
+	desc = ""
+	picture = "gfx/leaders/AUS/Portrait_Karl_Habsburg_2.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = ""
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Holy Minister Kathryn Kuhlman"
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Kuhlman.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman John Davison Rockefeller Sr."
+	desc = ""
+	picture = "gfx/leaders/GMA/GMA_Rockefeller.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

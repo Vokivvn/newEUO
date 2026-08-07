@@ -1,0 +1,69 @@
+﻿capital = 249
+
+
+	set_popularities = {
+		democratic 
+			 = 0
+		communism
+			 = 0
+		neutrality
+			 = 100
+			
+	}
+	
+	set_politics = { 
+ ruling_party = neutrality
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Zach Vaughn"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mammad Amin Rasulzade"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Sadri Maksudi Arsal"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/KZN_Arsal.tga"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Obshchiy Ivan Stepanovich Konev"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/KZN_Konev.tga"
+	expire = "1953.3.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General'nyy Sekretar Vasily Iosifovich Stalin"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/KZN_Stalin.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}

@@ -1,0 +1,122 @@
+﻿capital = 912
+
+set_politics = {
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	liberal_republic = 90
+}
+
+create_country_leader = {
+	name = "Governor Wilbur Lucius Cross"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Cross.tga"
+	expire = "1947.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Robert Elkington Wood"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Wood_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Robert Elkington Wood"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Wood_authrep.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Frederic Collin Walcott"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Walcott_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Luís I of Braganza"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Luis.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King Luís I of Braganza"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Luis.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Alfred Emanuel Smith"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Smith.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Alfred Emanuel Smith"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Smith.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Hugh Caswall Tremenheere Dowding"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Dowding_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Hugh Caswall Tremenheere Dowding"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Dowding_authmon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vozhd Anastasy Andreyevich Vonsyatsky"
+	desc = ""
+	picture = "gfx/leaders/CNC/CNC_Vonsiatsky.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

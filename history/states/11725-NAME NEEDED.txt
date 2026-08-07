@@ -1,0 +1,26 @@
+
+state={
+	id=11725
+	name="STATE_11725"
+	
+	provinces={
+		10614 
+	}
+	
+	history = {
+		owner = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SIK
+		add_claim_by = ZGH
+		add_claim_by = UYG
+		victory_points={
+			10614 5
+		}
+	}
+	
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

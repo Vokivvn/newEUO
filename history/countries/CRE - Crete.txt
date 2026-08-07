@@ -1,0 +1,72 @@
+﻿capital = 182
+
+
+
+	set_popularities = {
+
+		stratocratic_monarchism
+			 = 20
+		centrist_monarchism
+			 = 80
+
+		}
+	set_politics = { 
+ ruling_party = centrist_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Eleftherios Venizelos"
+	desc = ""
+	picture = "gfx/leaders/Europe/Eleftherios_Venizelos.dds"
+	expire = "1936.3.18"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yiannis Podias"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Georgios Petrakis"
+	desc = ""
+	picture = "gfx/leaders/Europe/Georgios_Petrakis.dds"
+	expire = "1972.9.14"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prínkipas-Kyvernítis Fílippos tou Nklýxmpournk"
+	desc = ""
+	picture = "gfx/leaders/CRE/CRE_Philip.tga"
+	expire = "1972.9.14"
+	ideology = stratmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ypatos armostís George tou Glýxmpournk"
+	desc = ""
+	picture = "gfx/leaders/CRE/CRE_George.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}

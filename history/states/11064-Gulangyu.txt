@@ -1,0 +1,21 @@
+state={
+	id=11064
+	name="STATE_11064"
+	provinces={
+		20605 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ISK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = FUK
+		add_core_of = ISK
+		set_demilitarized_zone = yes
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

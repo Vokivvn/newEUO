@@ -1,0 +1,21 @@
+
+state={
+	id=1247
+	name="STATE_1247"
+
+	history={
+		owner = NFL
+		add_core_of = NFL
+		add_core_of = CAN
+		add_core_of = LBD
+		
+	}
+
+	provinces={
+		1426
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

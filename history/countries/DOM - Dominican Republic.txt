@@ -1,1 +1,92 @@
 ﻿capital = 319
+
+set_popularities = {
+	neutrality = 100	
+}
+
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1934.5.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Presidente Rafael Leónidas Trujillo Molina"
+	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
+	picture = "gfx/leaders/DOM/Portrait_rafael_trujillo.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rey Jacobo I Fitz-James Stuart"
+	desc = ""
+	picture = "gfx/leaders/DOM/DOM_Jacobo.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duque Jacobo I Fitz-James Stuart"
+	desc = ""
+	picture = "gfx/leaders/DOM/DOM_Jacobo.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Primer Ministro Juan Emilio Bosch Gaviño"
+	desc = ""
+	picture = "gfx/leaders/DOM/DOM_Bosch.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Felipe Horacio Vásquez Lajara"
+	desc = ""
+	picture = "gfx/leaders/DOM/DOM_Lajara.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Samuel Shelburne Robison"
+	desc = ""
+	picture = "gfx/leaders/DOM/DOM_Robison.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gobernador José Enrique Varela Iglesias, 1st Marquis of San Fernando de Varela"
+	desc = ""
+	picture = "gfx/leaders/DOM/DOM_Varela.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Großadmiral Rolf Hans Wilhelm Karl Carls"
+	desc = ""
+	picture = "gfx/leaders/DOM/DOM_Carls.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

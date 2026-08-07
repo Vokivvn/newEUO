@@ -1,0 +1,24 @@
+﻿capital = 4013
+
+set_cosmetic_tag = RAJ_RED
+
+set_popularities = {
+	monarchism = 100
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Nawab Azam Jan Baloch"
+	desc = ""
+	picture = "gfx/leaders/Princely/MKN_Nawab_Makran.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

@@ -1,16 +1,104 @@
 ﻿capital = 293
 
-oob = "YEM_2010"
+set_popularities = {
+	monarchism = 90
+	democratic = 10
+}
 
-set_politics = {
-	ruling_party = liberalism
+set_politics = { 
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	liberalism = 100
+create_country_leader = {
+	name = "Al-Milk wal-Imām Yaḥyaỳ Muḥammad Ḥamīd ad-Dīn Muḥammad al-Mutawakkil"
+	desc = "POLITICS_IMAM_YAHYA_DESC"
+	picture = "gfx/leaders/YEM/Portrait_yemen_imam_yahya.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
 }
 
-recruit_character = YEM_Ali_Abdullah_Saleh
+create_country_leader = {
+	name = "As-Sikritīr al-Awwal Qaḥṭān Muḥammad aš-Šaʿbī"
+	desc = ""
+	picture = "gfx/leaders/YEM/YEM_Shaabil_vanguard.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vali Abdurrahman Nafiz Gürman"
+	desc = ""
+	picture = "gfx/leaders/YEM/YEM_Gurman_stratmon.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Raʾīs Ḥasan ʿAlīy Naṣār al-ʿAmirī"
+	desc = ""
+	picture = "gfx/leaders/YEM/YEM_Amiri_authrep.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Raʾīs Ḥasan ʿAlīy Naṣār al-ʿAmirī"
+	desc = ""
+	picture = "gfx/leaders/YEM/YEM_Amiri_authrep.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Raʾīs ʿAbd ul-llāh Yaḥyaỳ as-Sallāl"
+	desc = ""
+	picture = "gfx/leaders/YEM/YEM_Sallal_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Raʾīs ʿAbd ur-Raḥman bin Yaḥyaỳ bin Muḥammad bn ʿAbd ul-llāh bin ʿAlīy bin ʿAlīy bin Ḥusayn bin Ǧābir bin ʿAbd ul-Wāḥid bin Muḥammad aṣ-Ṣadīqī al-Iriyānī as-Sayifī al-Yaḥṣabī"
+	desc = ""
+	picture = "gfx/leaders/YEM/YEM_Eryanil_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Thomas Ralph Eastwood"
+	desc = ""
+	picture = "gfx/leaders/YEM/YEM_Eastwood_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Giuseppe Izzo"
+	desc = ""
+	picture = "gfx/leaders/YEM/YEM_Izzo_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

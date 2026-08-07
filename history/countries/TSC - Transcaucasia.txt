@@ -1,0 +1,114 @@
+﻿capital = 9880
+
+set_cosmetic_tag = RUS_RED
+
+set_popularities = {
+	vanguardism = 100	
+}
+	
+set_politics = { 
+	ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Pérvyj Sekretárʹ Zakavkázskogo krajkóma VKP(b) Filípp Ieséevič Maxarádze"
+	desc = ""
+	picture = "gfx/leaders/GEO/GEO_Makharadze.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+    name = "Reichskommissar Arno Wolfgang Schickedanz"
+    desc = ""
+    picture = "gfx/leaders/TSC/TSC_Arno_Schickedanz.tga"
+    expire = "1965.1.1"
+    ideology = natsoc
+    traits = {
+    }
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Josias Georg Wilhelm Adolf Erbprinz zu Waldeck und Pyrmont"
+	desc = ""
+	picture = "gfx/leaders/TSC/TSC_Josias.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Josias I zu Waldeck und Pyrmont"
+	desc = ""
+	picture = "gfx/leaders/TSC/TSC_King_Josias.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "P'rezident'i Ekvtime Simonis dze Taq'aishvili"
+	desc = ""
+	picture = "gfx/leaders/GEO/GEO_Ekvtime_dem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "P'rezident'i Noe Nik'olozis dze Zhordania"
+	desc = ""
+	picture = "gfx/leaders/GEO/GEO_Noe_soc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mepe Giorgi IX Bagrat’ion-Mukhraneli"
+	desc = ""
+	picture = "gfx/leaders/GEO/GEO_George_mon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imperátor Gabriěl' I Romanóvskij"
+	desc = ""
+	picture = "gfx/leaders/TSC/TSC_Constantinovich.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vice-Korólʹ Gabriělʹ Konstantínovič Románov"
+	desc = ""
+	picture = "gfx/leaders/TSC/TSC_Constantinovich.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generál Filíp Xans Lëman"
+	desc = ""
+	picture = "gfx/leaders/HYP/HYP_Leman.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

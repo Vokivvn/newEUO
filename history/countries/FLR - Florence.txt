@@ -1,0 +1,29 @@
+﻿capital = 4118
+
+
+	set_popularities = {
+		liberal_republic
+			 = 100
+		fascism
+			 = 0
+		communism
+			 = 0
+		neutrality
+			 = 0
+		}
+	set_politics = { 
+ ruling_party = liberal_republic
+	last_election = "1960.1.1"
+	election_frequency = 50
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gonfaloniere di Giustizia Carlo Sforza"
+	desc = ""
+	picture = "gfx/leaders/FLR/FLR_Sforza_libdem.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}

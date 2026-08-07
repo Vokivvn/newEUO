@@ -1,0 +1,21 @@
+
+state={
+	id=10785
+	name="STATE_10785"
+	
+	provinces={
+		1991 
+	}
+	
+	history={
+		owner = TIB
+		add_core_of = TIB
+		victory_points = {
+			1991 5
+		}
+	}
+	
+	state_category=pastoral
+	manpower=1
+	local_supplies=0.0 
+}

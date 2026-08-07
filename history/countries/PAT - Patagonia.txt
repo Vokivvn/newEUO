@@ -1,0 +1,49 @@
+﻿capital = 3753
+
+
+
+	set_popularities = {
+        democratic =  0
+        communism =  0
+        monarchism = 30
+        neutrality =  70
+
+	}
+	
+	set_politics = { 
+ ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Presidente Evaristo Pérez Virasoro"
+	desc = ""
+	picture = "gfx/leaders/PAT/PAT_Virasoro_authdem.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rey Antoine III del Araucanía y Patagonia"
+	desc = ""
+	picture = "gfx/leaders/CHL/CHL_Antoine.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Richard Walther Darré"
+	desc = ""
+	picture = "gfx/leaders/ARG/ARG_Darre.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

@@ -1,1 +1,73 @@
-﻿capital = 78
+﻿capital = 790
+
+set_cosmetic_tag = RUS_RED
+
+set_popularities = {
+	vanguardism = 100	
+}
+set_politics = { 
+	ruling_party = vanguardism
+	last_election = "1960.1.1"
+	election_frequency = 40
+	elections_allowed = no # none after offset 1
+}
+
+create_country_leader = {
+	name = "Pérvyj Sekretárʹ Moldávskogo obkóma KP(b)U Zinóvij Ósipovič Sidérskij"
+	desc = ""
+	picture = "gfx/leaders/MOL/Zinoviy_Iosifovich_Siderskiy.tga"
+	expire = "1953.3.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presedinte Pantelimon Erhan"
+	desc = ""
+	picture = "gfx/leaders/MOL/MOL_Erhan_liberalism.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presedinte Ion Constantin Inculet"
+	desc = ""
+	picture = "gfx/leaders/MOL/MOL_Inculet_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Regina Ileana I al Hohenzollern-Sigmaringen"
+	desc = ""
+	picture = "gfx/leaders/MOL/MOL_Ileana_conmon.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Print Anton I al Habsburg"
+	desc = ""
+	picture = "gfx/leaders/MOL/MOL_Anton_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vicerege Dimitri Pavlovici al Romanov"
+	desc = ""
+	picture = "gfx/leaders/MOL/MOL_Dmitri_absmon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

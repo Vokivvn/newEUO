@@ -1,0 +1,83 @@
+﻿capital = 11967
+
+set_popularities = {
+	liberal_republic = 10
+	neutrality = 90
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prezidént Aleksándr Ivánovič Pokrýškin"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/NVO_Pokryshkin.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezidént Vasílij Makárovič Šukšín"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/NVO_Shuksin.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezidént Mixaíl Petróvič Báganov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/NVO_Baganov.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsedátel' Nikoláj Fëdorovič Drozdóv"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/NVO_Drozdov.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsedátel' Andréj Aleksándrovič Ždánov"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/NVO_Zhdanov.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generál'nyj Sekretár' Nikoláj Alekséevič Voznesénskij"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/NVO_Voznesenky.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generál'nyj Sekretár' Nikíta Sergéevič Xruščëv"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/NVO_Khrushchev.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}

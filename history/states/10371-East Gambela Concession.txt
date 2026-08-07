@@ -1,0 +1,21 @@
+state={
+	id=10371
+	name="STATE_10371"
+	provinces={
+		19704 
+	}
+	history={
+		victory_points = {
+			19704 2
+		}
+		owner = SUD
+		add_core_of = ETH
+		add_core_of = GBL
+	add_core_of = GRA
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

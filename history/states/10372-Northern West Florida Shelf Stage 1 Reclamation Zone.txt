@@ -1,0 +1,16 @@
+state={
+	id=10372
+	name="STATE_10372"
+	provinces={
+		19707
+	}
+	history={
+	    owner = SAF
+        add_core_of = SAF
+		
+    }	
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

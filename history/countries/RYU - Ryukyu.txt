@@ -1,0 +1,38 @@
+﻿capital = 526
+
+
+
+	set_popularities = {
+        democratic =  0
+        communism =  0
+        fascism =  0
+        monarchism =  100
+
+	}
+	
+	set_politics = { 
+ ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Koku-o Hiroshi Sho"
+	desc = ""
+	picture = "gfx/leaders/RYU/RYU_Sho.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Simon Bolivar Buckner Jr."
+	desc = ""
+	picture = "gfx/leaders/RYU/RYU_Bolivar.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}

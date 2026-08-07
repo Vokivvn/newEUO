@@ -1,0 +1,13 @@
+﻿capital = 9909
+
+set_popularities = {
+	stratocratic = 45
+	theocratic = 55
+}
+		
+set_politics = { 
+	ruling_party = theocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}

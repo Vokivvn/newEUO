@@ -1,0 +1,17 @@
+state={
+	id=10596
+	name="STATE_10596"
+	provinces={
+		20102
+	}
+	history={
+		owner = PAR
+		add_core_of = PAR
+		add_core_of = BOL
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.0 
+}

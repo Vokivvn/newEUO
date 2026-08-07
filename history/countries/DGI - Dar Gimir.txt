@@ -1,0 +1,25 @@
+﻿capital = 7831
+
+set_popularities = {
+        monarchism = 100
+}
+
+set_cosmetic_tag = UK_RED
+
+set_politics = {
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sultan Hashim ibn Idris"
+	desc = ""
+	picture = "gfx/leaders/UAE/UAE_Husayn_Imad.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

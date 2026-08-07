@@ -1,0 +1,20 @@
+
+state={
+	id=12048
+	name="STATE_12048"
+
+	history={
+		owner = ALB
+		add_core_of = ALB
+		add_core_of = EPR
+
+	}
+
+	provinces={
+		20810
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

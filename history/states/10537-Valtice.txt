@@ -1,0 +1,22 @@
+state={
+	id=10537
+	name="STATE_10537"
+	provinces={
+		20068 
+	}
+	history={
+	    owner = CZE
+		add_claim_by = GER
+        add_core_of = CZE
+        add_core_of = CZC
+        add_core_of = AUS
+        add_core_of = SDT
+		add_core_of = LAS
+        add_core_of = MRV
+		add_core_of = BGM
+    }	
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+﻿capital = 12757
+
+	set_popularities = {
+		democratic 
+			 = 0
+		fascism
+			 = 0
+		stratocratic
+			 = 100
+			
+		}
+	set_politics = { 
+ ruling_party = stratocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Chou ch'ang Yang Hu-ch'eng"
+	desc = ""
+	picture = "gfx/leaders/NWR/Portrait_Yang_Hucheng.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chou ch'ang Yang Hu-ch'eng"
+	desc = ""
+	picture = "gfx/leaders/NWR/Portrait_Yang_Hucheng.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}

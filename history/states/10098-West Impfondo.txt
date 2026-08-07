@@ -1,0 +1,18 @@
+state={
+	id=10098
+	name="STATE_10098"
+	provinces={
+		19391 
+	}
+	history={
+	    owner = FEA
+		add_core_of = FEA
+        add_core_of = CAR
+		add_core_of = NKM
+		add_core_of = LCN
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

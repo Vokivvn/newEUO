@@ -1,0 +1,252 @@
+﻿capital = 767
+
+set_popularities = {
+	theocratic = 100
+}
+
+set_politics = { 
+	ruling_party = theocratic
+	last_election = "1932.2.6"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Papa Pius XI"
+	desc = ""
+	picture = "gfx/leaders/VCT/Portrait_Vatican_Pope.dds"
+	expire = "1939.2.11"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Benito Amilcare Andrea Mussolini, Duce del Fascismo"
+	desc = ""
+	picture = "gfx/leaders/ITA/Italy_Mussolini.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Papa Pius XI"
+	desc = ""
+	picture = "gfx/leaders/VCT/Portrait_Vatican_Pope.dds"
+	expire = "1939.2.11"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Caesar Alphonsus XIII av Borbonius"
+	desc = ""
+	picture = "gfx/leaders/SPR/SPR_AlfonsoXIII.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Papa Pius XI"
+	desc = ""
+	picture = "gfx/leaders/VCT/Portrait_Vatican_Pope.dds"
+	expire = "1939.2.11"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Papa Pius XI"
+	desc = ""
+	picture = "gfx/leaders/VCT/Portrait_Vatican_Pope.dds"
+	expire = "1939.2.11"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Papa Pius XI"
+	desc = ""
+	picture = "gfx/leaders/VCT/Portrait_Vatican_Pope.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Umberto Tupini"
+	desc = ""
+	picture = "gfx/leaders/VCT/VCT_Tupini_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Papa Pius XI"
+	desc = ""
+	picture = "gfx/leaders/VCT/Portrait_Vatican_Pope.dds"
+	expire = "1939.2.11"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1939.2.11"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "To Be Added"
+	desc = ""
+	picture = "gfx/leaders/To_be_added.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Consiglio di Spartaco"
+	desc = ""
+	picture = "gfx/leaders/VCT/Portrait_Spartacus_Council.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}

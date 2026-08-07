@@ -1,0 +1,18 @@
+state={
+	id=11860
+	name="STATE_11860"
+	
+	history = {
+	    owner = TUR
+        add_core_of = TUR
+        add_core_of = APC
+        add_core_of = RMZ
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		20766
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

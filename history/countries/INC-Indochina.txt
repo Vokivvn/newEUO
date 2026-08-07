@@ -1,0 +1,96 @@
+capital = 13061
+
+set_cosmetic_tag = FRA_BLUE
+
+set_popularities = {
+	democratic = 5
+	communism = 20
+	neutrality = 75
+}
+
+set_politics = { 
+	ruling_party = neutrality
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gouverneur Général Eugène Jean Louis René Robin"
+	desc = ""
+	picture = "gfx/leaders/INC/Portrait_Eugene_Jean_Louis_Rene_Robin.dds"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chủ tịch Hồ Chí Minh"
+	desc = ""
+	picture = "gfx/leaders/VIN/VIN_Minh_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chủ tịch Phan Huy Quát"
+	desc = ""
+	picture = "gfx/leaders/INC/INC_Phan_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiji Yonai Mitsumasa"
+	desc = ""
+	picture = "gfx/leaders/INC/INC_Mitsumasa_fash.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Hellmuth Karl von Mücke"
+	desc = ""
+	picture = "gfx/leaders/INC/INC_Mucke.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Victor Alexander Charles Crutchley"
+	desc = ""
+	picture = "gfx/leaders/INC/INC_Crutchley_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gouverneur Général Jean Decoux"
+	desc = ""
+	picture = "gfx/leaders/INC/INC_Decoux_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Hellmuth Karl von Mücke"
+	desc = ""
+	picture = "gfx/leaders/INC/INC_Mucke.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

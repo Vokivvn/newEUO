@@ -1,0 +1,23 @@
+state={
+	id=12573
+	name="STATE_12573"
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = ORN
+		add_core_of = GLD
+		add_core_of = CSK
+		victory_points = {
+			12128 20 
+		}
+	}
+
+	provinces={
+		12128
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

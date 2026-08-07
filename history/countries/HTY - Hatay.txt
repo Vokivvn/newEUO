@@ -1,0 +1,35 @@
+﻿capital = 898
+
+
+
+
+
+	set_popularities = {
+		democratic 
+			 = 10
+		fascism
+			 = 0
+			
+		communism
+			 = 0
+		neutrality 
+			 = 90
+		}
+	set_politics = { 
+ ruling_party = neutrality
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Tayfur Sökmen"
+	desc = "POLITICS_TAYFUR_SOKMEN_DESC"
+	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
+	expire = "1950.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

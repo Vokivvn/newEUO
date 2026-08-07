@@ -1,0 +1,23 @@
+﻿capital = 1262
+
+set_popularities = {
+	liberal_republic
+		= 100
+}
+
+set_politics = { 
+	ruling_party = liberal_republic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Walter Lea"
+	desc = ""
+	picture = "gfx/leaders/PEI/PEI_Lea.tga"
+	expire = "1950.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}

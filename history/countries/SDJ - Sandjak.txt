@@ -1,0 +1,27 @@
+﻿capital = 3645
+
+set_popularities = {
+	        democratic = 20
+        communism = 5
+        fascism = 15
+        authoritarian_monarchism = 60
+
+}
+
+set_politics = {
+	
+	ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Aleksandar I Obrenovića"
+	desc = ""
+	picture = "gfx/leaders/SDJ/Portrait_Alexander_Obrenovic.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}

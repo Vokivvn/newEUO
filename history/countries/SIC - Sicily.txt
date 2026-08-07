@@ -1,0 +1,79 @@
+﻿capital = 115
+	
+	set_popularities = {
+		monarchism 
+			 = 10 
+		democratic
+			 = 40
+		communism
+			 = 20
+                republican_fascism                
+                         = 30
+
+		}
+	set_politics = { 
+ ruling_party = democratic
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Primo Segretario Onorato Damen"
+	desc = ""
+	picture = "gfx/leaders/SIC/SIC_Damen_commie.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presidente Gennaro Patricolo"
+	desc = ""
+	picture = "gfx/leaders/SIC/SIC_Patricolo_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Harold George Alexander"
+	desc = ""
+	picture = "gfx/leaders/SIC/SIC_Alexander_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Re Alfonso I di Borbone-Sicilie"
+	desc = ""
+	picture = "gfx/leaders/SIC/SIC_Alfonso_mon.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duce Cesare Mori"
+	desc = ""
+	picture = "gfx/leaders/SIC/SIC_Mori_repfash.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Capo dei Capi Calogero /"Don Calò/" Vizzini"
+	desc = ""
+	picture = "gfx/leaders/SIC/SIC_Vizzini_ancap.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

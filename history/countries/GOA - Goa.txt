@@ -1,0 +1,30 @@
+﻿capital = 321
+
+set_cosmetic_tag =   POR_GREEN
+
+set_popularities = {
+        monarchism = 10
+        neutrality = 10
+        democratic = 5
+        communism = 5
+        republican_fascism = 70
+
+}
+
+set_politics = {
+	
+	ruling_party = republican_fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governador João Carlos Craveiro Lopes"
+	desc = ""
+	picture = "gfx/leaders/GOA/lopes.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}

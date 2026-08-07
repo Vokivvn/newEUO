@@ -1,0 +1,73 @@
+﻿capital = 251
+
+set_popularities = {
+    republican_fascism = 70
+    right_anarchism = 30
+}
+
+set_politics = {
+	ruling_party = republican_fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Predsedátel' Andréj Andréevič Vlásov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/SMM_Vlasov.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsedátel' Sergéj Kuz'míč Bunjačenko"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/SMM_Bunyachenko.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsedátel' Miletij Aleksándrovič Zýkov"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/SMM_Zykov.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Predsedátel' Mixaíl Aleksándrovič Oktán"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/SMM_Oktan.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vladyka Pímen I"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/SMM_Izvekov.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezidént Víktor Nikoláevič Poljakóv"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/SMM_Polyakov.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}

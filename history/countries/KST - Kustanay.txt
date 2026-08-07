@@ -1,0 +1,23 @@
+﻿capital = 583
+
+set_popularities = {
+    theocratic = 100
+}
+
+set_politics = {
+	
+	ruling_party = theocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Imam Nikolai Ivanūly Zabelkin"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/KST_Zabelkin.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}

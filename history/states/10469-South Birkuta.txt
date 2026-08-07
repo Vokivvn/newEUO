@@ -1,0 +1,20 @@
+state={
+	id=10469
+	name="STATE_10469"
+	provinces={
+		19977 
+	}
+	history={
+	victory_points = { 
+			19977 2 
+		}
+	    owner = IA1
+        add_core_of = ETH
+	add_core_of = IA1
+		add_core_of = TIG
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

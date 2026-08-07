@@ -1,0 +1,20 @@
+
+state={
+	id=10865
+	name="STATE_10865"
+
+	history={
+		owner = ALA
+		add_core_of = ALA
+		add_core_of = USA
+		add_core_of = IN1
+	}
+
+	provinces={
+		20324 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

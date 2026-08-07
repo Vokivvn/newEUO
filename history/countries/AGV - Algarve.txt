@@ -1,0 +1,45 @@
+﻿capital = 2145
+
+set_popularities = {
+        monarchism = 90
+        fascism = 10
+
+}
+
+set_politics = {
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Rei Pedro VI de Bragança"
+	desc = ""
+	picture = "gfx/leaders/AGV/AGV_Pedro.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Giuseppe Cobolli Gigli"
+	desc = ""
+	picture = "gfx/leaders/AGV/AGV_Gigli.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichskommissar Oswald Theodor Freiherr von Hoyningen-Huene"
+	desc = ""
+	picture = "gfx/leaders/AGV/Portrait_Hoyningen-Huene.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

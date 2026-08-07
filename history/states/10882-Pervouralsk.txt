@@ -1,0 +1,23 @@
+
+state={
+	id=10882
+	name="STATE_10882"
+
+	history={
+		owner = RUS
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = URL
+        add_core_of = ZLO
+        victory_points = { 4758 5 }
+
+	}
+
+	provinces={
+        7228
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0 
+}

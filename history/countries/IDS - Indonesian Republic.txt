@@ -1,0 +1,236 @@
+﻿capital = 335
+
+set_popularities = {
+        centrist_republic = 100
+
+}
+
+set_politics = {
+	
+	ruling_party = centrist_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sekretaris Umum Musso"
+	desc = ""
+	picture = "gfx/leaders/IDS/Portrait/Musso.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Perdana Musso"
+	desc = ""
+	picture = "gfx/leaders/IDS/Portrait/Musso.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Panglima Sudirman"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Sudirman.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presiden Sukarno"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/Sukarno.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presiden Amir Sjarifuddin Harahap"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Harahap.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Maharaja Hamengkubuwono VIII"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Hamengkubuwono.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presiden Soekiman Wirjosandjojo"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/INS_Wirjosandjojo.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presiden Mohammad Hatta"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Hatta.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sultan Hamengkubuwono VIII"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Hamengkubuwono.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Maharaja Hamengkubuwono VIII"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Hamengkubuwono.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kanselir Kyai Hajj Abdul Wahab Hasbullah"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/INS_Hasbullah.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Maharaja Hamengkubuwono VIII"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Hamengkubuwono.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Panglima Sudirman"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Sudirman.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Maharaja Hamengkubuwono VIII"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Hamengkubuwono.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Maharaja Jayanegara II"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/Jayanegara_Standin.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imam Sekarmadji Maridjan Kartosuwiryo"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/IDS_Kartosoewirjo.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiji Hitoshi Imamura"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/INS_Imamura.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presiden Sukarno"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/Sukarno.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Presiden Sukarno"
+	desc = ""
+	picture = "gfx/leaders/Indonesia/Sukarno.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+

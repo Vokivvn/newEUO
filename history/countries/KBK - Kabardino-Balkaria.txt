@@ -1,1 +1,15 @@
-﻿capital = 827 #Nalchik
+﻿capital = 3548
+
+set_popularities = {
+	vanguardism = 100	
+}
+	
+set_cosmetic_tag = RUS_RED
+	
+	set_politics = { 
+ ruling_party = vanguardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+

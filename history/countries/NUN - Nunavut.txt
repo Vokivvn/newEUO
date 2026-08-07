@@ -1,0 +1,59 @@
+﻿capital = 1255
+
+
+	set_popularities = {
+		liberal_republic
+			 = 10
+		democratic_monarchism
+			 = 10
+		centrist_republic
+			 = 10
+		centrist_monarchism = 70
+		}
+
+	set_politics = { 
+ ruling_party = centrist_monarchism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Atan'nguyalluaq Pitseolak Ashoona"
+	desc = ""
+	picture = "gfx/leaders/NUN/NUN_Ashoona.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Atan'nguyalluaq Pitseolak Ashoona"
+	desc = ""
+	picture = "gfx/leaders/NUN/NUN_Ashoona.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Comptroller Louis de la Chesnaye Audette"
+	desc = ""
+	picture = "gfx/leaders/NUN/NUN_Audette.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Louis de la Chesnaye Audette"
+	desc = ""
+	picture = "gfx/leaders/NUN/NUN_Audette.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}

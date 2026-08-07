@@ -1,0 +1,26 @@
+﻿capital = 1003
+
+set_popularities = {
+	anocratic_monarchism = 100
+}
+	
+ set_politics = { 
+    ruling_party = anocratic_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+	
+}
+
+set_cosmetic_tag = RAJ_RED
+
+create_country_leader = {
+	name = "Governor Sir Michael Keane"
+	desc = ""
+	picture = "gfx/leaders/ASA/ASA_Keane.tga"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+

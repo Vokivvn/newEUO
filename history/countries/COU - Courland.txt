@@ -1,0 +1,32 @@
+﻿capital = 190
+
+
+
+
+	set_popularities = {
+		democratic 
+			 = 0
+		fascism
+			 = 0
+		communism
+			 = 0
+		authoritarian_monarchism 
+			 = 100
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1931.10.3"
+	election_frequency = 108
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Herzog Rüdiger I von der Goltz"
+	desc = ""
+	picture = "gfx/leaders/COU/COU_Goltz.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+

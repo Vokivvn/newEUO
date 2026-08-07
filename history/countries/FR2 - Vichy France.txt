@@ -1,0 +1,242 @@
+﻿capital = 5045
+
+set_popularities = {
+	republican_fascism = 100
+}
+
+set_politics = { 
+	ruling_party = republican_fascism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Président Jean Pierre Moulin"
+	desc = ""
+	picture = "gfx/leaders/FR2/Portrait_Jean_Moulin.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Secrétaire Charles Joseph Tillon"
+	desc = ""
+	picture = "gfx/leaders/FR2/Portrait_Charles_Tillon.dds"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Marceau Pivert"
+	desc = "POLITICS_PIVERT_DESC"
+	picture = "gfx/leaders/FRA/FRA_Pivert.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président André Léon Blum"
+	desc = "POLITICS_BLUM_DESC"
+	picture = "gfx/leaders/FRA/FRA_Blum.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Jean III Pierre Clément Marie d'Orléans de Chartres, Duc de Guise"
+	desc = "POLITICS_JEANIII_DESC"
+	picture = "gfx/leaders/FRA/FRA_JeanIII.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président François Maurice Adrien Marie Mitterrand"
+	desc = ""
+	picture = "gfx/leaders/FR2/Portrait_Francois_Mitterrand.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Jean III de Orléans"
+	desc = "POLITICS_JEANIII_DESC"
+	picture = "gfx/leaders/FRA/FRA_JeanIII.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Empereur Napoleon VI de Bonaparte"
+	desc = "POLITICS_NAPOLEONVI_DESC"
+	picture = "gfx/leaders/FRA/FRA_NapoleonVI.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Pierre Isaac Isidore Mendès France"
+	desc = ""
+	picture = "gfx/leaders/FR2/Portrait_Pierre_France.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Charles XII de Bourbon"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_CharlesXII.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Jean Louis Xavier François Darlan"
+	desc = ""
+	picture = "gfx/leaders/FR2/Portrait_Francois_Darlan.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Président Charles André Marie de Gaulle"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_DeGaulle.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Maréchal Henri Philippe Benoni Pétain"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Petain.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalgouverneur Alexander Ernst Alfred Hermann Freiherr von Falkenhausen"
+	desc = ""
+	picture = "gfx/leaders/BL2/BL2_Falkenhausen.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Wilhelm I de Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Wilhelm3_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Roi Charles XII & V de Bourbon"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_CharlesXII.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Guide Suprême de la France Joseph Darnand"
+	desc = ""
+	picture = "gfx/leaders/FR2/Portrait_Joseph_Darnand.dds"
+	expire = "1965.1.1"
+	ideology = esotericism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chef d'état Marcel Déat"
+	desc = ""
+	picture = "gfx/leaders/FR2/Portrait_Marcel_Deat.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chef d'état Henri Philippe Bénoni Omer Joseph Pétain"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Petain.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Réalisateur Jacques Doriot"
+	desc = ""
+	picture = "gfx/leaders/FRA/FRA_Doriot.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

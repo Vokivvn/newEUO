@@ -1,0 +1,21 @@
+
+state={
+	id=12042
+	name="STATE_12042"
+
+	history={
+		owner = ALB
+		add_core_of = ALB
+		victory_points = {
+			20805 1
+		}
+	}
+
+	provinces={
+		20805
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

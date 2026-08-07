@@ -1,16 +1,258 @@
-﻿capital = 276
+﻿capital = 2971
 
-oob = "CAN_2010"
+set_country_flag = has_secondary_leader
 
-set_politics = {
-	ruling_party = liberalism
-	last_election = "1936.1.1"
-	election_frequency = 48
+set_popularities = {
+	socialist_monarchy = 3
+	democratic_monarchism = 71
+	centrist_monarchism = 2
+	conservative_monarchism = 17
+	national_conservative_monarchism = 7
+}
+
+set_politics = { 
+	ruling_party = democratic_monarchism
+	last_election = "1935.10.14"
+	election_frequency = 60
 	elections_allowed = no
 }
 
-set_popularities = {
-	liberalism = 100
+create_country_leader = {
+	name = "Governor General John Buchan, Baron Tweedsmuir"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_John_Buchan.dds"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
 }
 
-recruit_character = CAN_ralph_goodale
+create_country_leader = {
+	name = "Chancellor Richard Bedford Bennet"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Richard_Bennet.dds"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Prince David of Windsor, Duke of Cornwall"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor John Buchan, Baron Tweedsmuir"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_John_Buchan.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor John Buchan, Baron Tweedsmuir"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_John_Buchan.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President John Horne Blackmore"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_John_Blackmore.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President John Horne Blackmore"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_John_Blackmore.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "First Secretary Tim Buck"
+	desc = ""
+	picture = "gfx/leaders/CAN/CAN_Buck.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Tim Buck"
+	desc = ""
+	picture = "gfx/leaders/CAN/CAN_Buck.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President James Shaver Woodsworth"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_James_Woodsworth.dds"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "First Minister James Shaver Woodsworth"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_James_Woodsworth.dds"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President William Lyon Mackenzie King"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Richard Bedford Bennet"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Richard_Bennet.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Henry Herbert Stevens"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Henry_Stevens.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Henry Herbert Stevens"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Henry_Stevens.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander-in-Chief Andrew George Latta McNaughton"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Andrew_McNaughton.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Prince Arthur of Windsor, Duke of Connaught and Strathearn"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Prince_Arthur.dds"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince-Primate Derwyn Owen, Bishop of Niagara"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Derwyn_Owen.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lord Chancellor John Ross Taylor"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_John_Taylor.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Director John Ross Taylor"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_John_Taylor.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme Leader Adrien Arcand"
+	desc = ""
+	picture = "gfx/leaders/CAN/CAN_Arcand.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Executive Officer Patrick Ashley Cooper"
+	desc = ""
+	picture = "gfx/leaders/CAN/Portrait_Patrick_Cooper.dds"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

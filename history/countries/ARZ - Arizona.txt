@@ -1,0 +1,109 @@
+﻿capital = 1957
+
+set_popularities = {
+        centrist_republic = 96
+        liberal_republic = 4
+}
+
+set_politics = {
+	ruling_party =  centrist_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Benjamin Baker Moeur"
+	picture = "gfx/leaders/ARZ/ARZ_Moeur.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Territorial Governor Benjamin Baker Moeur"
+	picture = "gfx/leaders/ARZ/ARZ_Moeur.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commissioner George Catlett Marshall Jr."
+	picture = "gfx/leaders/ARZ/ARZ_Marshall.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Willard F. Kelly"
+	picture = "gfx/leaders/ARZ/ARZ_Kelly.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander William Benjamin Chapman"
+	desc = ""
+	picture = "gfx/leaders/ARZ/ARZ_Chapman.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Commander William Benjamin Chapman"
+	desc = ""
+	picture = "gfx/leaders/ARZ/ARZ_Chapman.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Henry Fountain Ashurst"
+	desc = ""
+	picture = "gfx/leaders/ARZ/ARZ_Ashurst.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President Ralph Henry Cameron"
+	desc = ""
+	picture = "gfx/leaders/ARZ/ARZ_Cameron.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King John I of McCain"
+	desc = ""
+	picture = "gfx/leaders/ARZ/ARZ_McCain.tga"
+	expire = "1989.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}

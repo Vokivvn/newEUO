@@ -1,0 +1,115 @@
+﻿capital = 907
+
+set_politics = {
+	ruling_party = liberal_republic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 0
+	communism = 0
+	liberal_republic = 80
+}
+
+create_country_leader = {
+	name = "Governor Theodore Francis Green"
+	desc = ""
+	picture = "gfx/leaders/RHO/RHO_Green.tga"
+	expire = "1947.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme President Howard Phillips Lovecraft"
+	desc = ""
+	picture = "gfx/leaders/RHO/Portrait_New_England_HP_Lovecraft.dds"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duke Howard I of Lovecraft"
+	desc = ""
+	picture = "gfx/leaders/RHO/Portrait_New_England_HP_Lovecraft.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Supreme President Howard Phillips Lovecraft"
+	desc = ""
+	picture = "gfx/leaders/RHO/Portrait_New_England_HP_Lovecraft.dds"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Howard I of Lovecraft"
+	desc = ""
+	picture = "gfx/leaders/RHO/Portrait_New_England_HP_Lovecraft.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Right Reverend James De Wolf Perry"
+	desc = ""
+	picture = "gfx/leaders/RHO/RHO_Perry.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince James I of Perry"
+	desc = ""
+	picture = "gfx/leaders/RHO/RHO_Perry.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Leslie Townes Hope"
+	desc = ""
+	picture = "gfx/leaders/RHO/RHO_Hope_authmon.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Leslie Townes Hope"
+	desc = ""
+	picture = "gfx/leaders/RHO/RHO_Hope_authmon.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Minister-President William Henry Vanderbilt III"
+	desc = ""
+	picture = "gfx/leaders/RHO/RHO_Vanderbilt_conrep.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}

@@ -1,1 +1,238 @@
-capital = 51
+﻿capital = 3338
+
+	set_popularities = {
+		democratic 
+			 = 0
+		fascism
+			 = 0
+		communism
+			 = 0
+		neutrality 
+			 = 100
+		}
+	set_politics = { 
+ ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Peter Altmeier"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Altmeier.tga"
+	expire = "1950.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Oskar I Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Oskar.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arbeiter und Soldatenrat"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Arbeiter_und_Soldatenrat.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Josef Antonius Heinrich Terboven"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Terboven.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Führer Paul Joseph Goebbels"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Goebbels.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "General Thomas Ludwig Werner Freiherr von Fritsch"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Fritsch.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Johann Rudolf Rocker"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Rocker.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Paul Tirard"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Tirard.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Generalsekretär Otto Niebergall"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Niebergall.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Königin Elisabeth III von Habsburg"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Elisabeth.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Friedrich Middelhauve"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Middelhauve.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Oskar I Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Oskar.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Oskar I Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Oskar.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Heinrich Drake"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Drake.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "König Adalbert II Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Adalbert.tga"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaiser Oskar I Von Hohenzollern"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Oskar.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Praeses Guilielmus Ioachimus Beckmann"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Beckmann.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+        }
+}
+
+create_country_leader = {
+	name = "Kommandant Johann Rudolf Rocker"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Rocker.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Company Leadership"
+	desc = "POLITICS_COMPANY_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Company_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ministerpräsident Wilhelm Rudolf Konrad Amelunxen"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Amelunxen.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Primo Ministro Carolus Maria-Photius Maurras"
+	desc = ""
+	picture = "gfx/leaders/RHI/RHI_Maurras.tga"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}

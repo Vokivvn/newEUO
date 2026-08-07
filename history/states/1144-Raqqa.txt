@@ -1,0 +1,24 @@
+state={
+	id=1144
+	name="STATE_1144"
+	manpower = 21450
+	
+	state_category = wasteland
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+        	add_core_of = WTC
+		add_core_of = KUR
+        	add_core_of = ASY
+		add_core_of = ISS
+		add_core_of = SR2
+
+	}
+
+
+	provinces={
+		1634
+	}
+	local_supplies=0.0 
+}

@@ -1,14 +1,106 @@
-﻿capital = 651
+﻿capital = 11838
+
+set_popularities = {
+        neutrality = 30
+        monarchism = 0
+        democratic = 0
+        liberal_republic = 0
+        communism = 0
+        vanguardism = 10
+        fascism = 0
+        anarchism_ideology = 0
+        socialism_ideology = 0
+        democratic_monarchism = 0
+        conservative_monarchism = 0
+        stratocratic = 0
+        authoritarian_monarchism = 0
+        republican_fascism = 10
+        national_socialism = 0
+        theocratic = 0
+        left_anarchism = 0
+        right_anarchism = 0
+        socialist_monarchy = 0
+        centrist_republic = 50
+        centrist_monarchism = 0
+        stratocratic_monarchism = 0
+
+}
 
 set_politics = {
-	ruling_party = national_socialism
+	
+	ruling_party = centrist_republic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	national_socialism = 100
+create_country_leader = {
+	name = "Prezident Taimbet Komekbaev"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/TKS_Komekbaev.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
 }
 
-recruit_character = TKS_uwe_ulrich_jaschke
+create_country_leader = {
+	name = "Reichskommissar Josef Dietrich"
+	desc = ""
+	picture = "gfx/leaders/TKS/TKS_Sepp_Dietrich.tga"
+	expire = "1960.1.1"
+	ideology = natsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Veli Kayyum Han"
+	desc = ""
+	picture = "gfx/leaders/TNOWarlords/TKS_Kayyum.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pidaɾ Eshon Babakhan ibn Abdulmajidkhan"
+	desc = ""
+	picture = "gfx/leaders/TWRWarlords/TKS_Abdulmajidkhan.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Mustafa Shokay"
+	desc = ""
+	picture = "gfx/leaders/TKS/Portrait_Mustafa_Shokay.dds"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prezident Mustafa Shokay"
+	desc = ""
+	picture = "gfx/leaders/TKS/Portrait_Mustafa_Shokay.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Baslygy Nedyrbay Aytakov"
+	desc = ""
+	picture = "gfx/leaders/TKS/Portrait/Aytakov.dds"
+	expire = "1960.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}

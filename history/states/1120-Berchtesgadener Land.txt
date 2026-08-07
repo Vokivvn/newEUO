@@ -1,0 +1,25 @@
+
+state={
+	id=1120
+	name="STATE_1120"
+	manpower = 153412
+
+	state_category = town
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = BAY
+		add_core_of = WGR
+		add_core_of = BGM
+
+	}
+
+	provinces={
+		707
+	}
+	local_supplies=0.0 
+}
+
+
+

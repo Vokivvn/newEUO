@@ -1,0 +1,17 @@
+state={
+	id=10340
+	name="STATE_10340"
+	provinces={
+		19222
+	}
+	history={
+		owner = BLO
+		add_core_of = RAJ 
+		add_core_of = BLO
+		add_core_of = PAK
+    }	
+	manpower=1
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

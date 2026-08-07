@@ -1,0 +1,20 @@
+state={
+	id=12556
+	name="STATE_12556"
+	
+	history = {
+		owner = YKT
+		add_core_of = YKT
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = SBR
+        add_core_of = ALD
+	}
+	manpower = 1000
+	state_category = pastoral
+	provinces={
+		4821
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

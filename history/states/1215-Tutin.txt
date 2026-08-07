@@ -1,0 +1,25 @@
+
+state={
+	id=1215
+	name="STATE_1215"
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = KOS
+		add_claim_by = ALB
+		victory_points = {
+			9849 1 
+		}
+
+	}
+
+	provinces={
+		9849 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

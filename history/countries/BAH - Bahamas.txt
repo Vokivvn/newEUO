@@ -1,1 +1,85 @@
 ﻿capital = 690
+
+set_cosmetic_tag = UK_RED
+
+
+
+	set_popularities = {
+		conservative_monarchism 
+			 = 15
+		monarchism
+			 = 5
+		communism
+			 = 0
+		authoritarian_monarchism
+			 = 80
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+	
+create_country_leader = {
+	name = "President Roland Theodore Symonette"
+	desc = ""
+	picture = "gfx/leaders/BAH/BAH_Symonette.tga"
+	expire = "1980.3.13"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Premier Sir Roland Theodore Symonette"
+	desc = ""
+	picture = "gfx/leaders/BAH/BAH_Symonette.tga"
+	expire = "1980.3.13"
+	ideology = conservative_constitutionalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Charles Cecil Dundas"
+	desc = ""
+	picture = "gfx/leaders/BAH/Portrait_Charles_Dundas.dds"
+	expire = "1956.4.26"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governor David, Prince of Windsor"
+	desc = ""
+	picture = "gfx/leaders/BAH/Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King David I of Windsor"
+	desc = ""
+	picture = "gfx/leaders/BAH/Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Captain Rafael de Nogales Méndez"
+	desc = ""
+	picture = "gfx/leaders/BAH/BAH_Pirate.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

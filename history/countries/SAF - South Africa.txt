@@ -1,54 +1,280 @@
 ﻿capital = 275
 
-oob = "SAF_1936"
+set_country_flag = has_secondary_leader
 
-set_politics = {
-	ruling_party = national_socialism
-	last_election = "1936.1.1"
-	election_frequency = 48
+set_popularities = {
+	socialist_monarchy = 4
+	democratic_monarchism = 1
+	conservative_monarchism = 4
+	national_conservative_monarchism = 77
+	anocratic_monarchism = 14
+}
+
+set_politics = { 
+	ruling_party = national_conservative_monarchism
+	last_election = "1933.5.17"
+	election_frequency = 60
 	elections_allowed = no
 }
 
-set_popularities = {
-	national_socialism = 100
+create_country_leader = {
+	name = "Tribal Leadership"
+	desc = "POLITICS_TRIBAL_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Tribal_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = total_anarchist
+	traits = {
+	}
 }
 
-recruit_character = ADE_guy
-
-set_autonomy = {
-	target = NMB
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "gfx/leaders/Anarchy/Collective_Leadership.tga"
+	expire = "1965.1.1"
+	ideology = ancom
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = BOT
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "General Secretary Moses Mauane Kotane"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Katane.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Chairman Moses Mauane Kotane"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Katane.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = LES
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Chancellor Walter Bayley Madeley"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Madeley.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = ESW
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Inkosi Cyprian Bhekuzulu Nyangayezizwe kaSolomon"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_kaSolomon.tga"
+	expire = "1965.1.1"
+	ideology = monsoc
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = ZIM
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "President Josiah Tshangana Gumede"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Gumede.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
 }
 
-set_autonomy = {
-	target = SMO
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
+create_country_leader = {
+	name = "Prime Minister Jan Christian Smuts"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Smurt.tga"
+	expire = "1965.1.1"
+	ideology = liberal_constitutionalism
+	traits = {
+	}
 }
 
-recruit_character = SAF_Eugene_TerreBlanche
+create_country_leader = {
+	name = "President Pixley ka Isaka Seme"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Seme.tga"
+	expire = "1965.1.1"
+	ideology = cenrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Daniël François Malan"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Malan.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prime Minister Charles Frampton Stallard"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Stallard.tga"
+	expire = "1965.1.1"
+	ideology = conservative_constitutionalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Staatspresident Jan Christian Smuts"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Smurt.tga"
+	expire = "1965.1.1"
+	ideology = natconrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General George Herbert Hyde Villiers, Earl of Clarendon"
+	desc = ""
+	picture = "gfx/leaders/SAF/Portrait_George_Villiers.dds"
+	expire = "1965.1.1"
+	ideology = natconmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General George Herbert Hyde Villiers, Earl of Clarendon"
+	desc = ""
+	picture = "gfx/leaders/SAF/Portrait_George_Villiers.dds"
+	expire = "1965.1.1"
+	ideology = cenmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Staatspresident James Barry Munnik Hertzog"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_james_hertzog.dds"
+	expire = "1965.1.1"
+	ideology = anocrep
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor George Herbert Hyde Villiers, Earl of Clarendon"
+	desc = ""
+	picture = "gfx/leaders/SAF/Portrait_George_Villiers.dds"
+	expire = "1965.1.1"
+	ideology = anocmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Oswald Pirow"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Pirow.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governor George Herbert Hyde Villiers, Earl of Clarendon"
+	desc = ""
+	picture = "gfx/leaders/SAF/Portrait_George_Villiers.dds"
+	expire = "1965.1.1"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Opperbevelhebber Andries Jacob Brink"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Brink.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Hesperus Andrias van Ryneveld"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Ryneveld.tga"
+	expire = "1965.1.1"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Stadtholder Johannes Frederik Janse Van Rensburg"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Rensburg.tga"
+	expire = "1965.1.1"
+	ideology = repfash
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Koning Edward van Sakse-Koburg en Gotha"
+	desc = ""
+	picture = "gfx/leaders/SAF/Portrait_Prince_David.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Leier Louis Theodor Weichardt"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Weichardt.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Prince-Archbishop William Marlborough Carter"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Carter.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Prince Albert of Windsor, Duke of York"
+	desc = ""
+	picture = "gfx/leaders/SAF/Portrait_Prince_Albert.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chief Executive Officer Sir Ernest Oppenheimer"
+	desc = ""
+	picture = "gfx/leaders/SAF/SAF_Oppenheimer.tga"
+	expire = "1965.1.1"
+	ideology = ancap
+	traits = {
+	}
+}

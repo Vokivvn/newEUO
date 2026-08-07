@@ -1,0 +1,16 @@
+state={
+	id=10047
+	name="STATE_10047"
+	provinces={
+		19293 
+	}
+	history={
+	    owner = COG
+        add_core_of = COG
+		add_core_of = SDK
+    }	
+	manpower=1
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

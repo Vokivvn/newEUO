@@ -1,1 +1,103 @@
 ﻿capital = 183
+
+
+set_cosmetic_tag = UK_RED
+
+
+	set_popularities = {
+		democratic 
+			 = 15
+		theocratic
+			 = 5
+		liberal_republic
+			 = 10
+		authoritarian_monarchism
+			 = 70
+		}
+	set_politics = { 
+ ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Governor Herbert Richmond Palmer"
+	desc = ""
+	picture = "gfx/leaders/CYP/Portrait_Herbert_Richmond_Palmer.dds"
+	expire = "1958.5.22"
+	ideology = authmon
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Próedros Fazil Kücük"
+	desc = ""
+	picture = "gfx/leaders/NOC/NOC_Kucuk.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Próedros Georgios Grivas"
+	desc = ""
+	picture = "gfx/leaders/CYP/CYP_Grivas.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mársal Georgios Grivas"
+	desc = ""
+	picture = "gfx/leaders/CYP/CYP_Grivas.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Antivasiléas Leontios II"
+	desc = ""
+	picture = "gfx/leaders/CYP/CYP_Leontios.tga"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Archiepískopos Leontios II"
+	desc = ""
+	picture = "gfx/leaders/CYP/CYP_Leontios.tga"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Francesco Pricolo"
+	desc = ""
+	picture = "gfx/leaders/CYP/CYP_Pricolo.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reichsprotektor Hans Ferdinand Geisler"
+	desc = ""
+	picture = "gfx/leaders/CYP/CYP_Geisler.tga"
+	expire = "1965.1.1"
+	ideology = natsoc
+	traits = {
+	}
+}

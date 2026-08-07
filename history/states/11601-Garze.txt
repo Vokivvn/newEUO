@@ -1,0 +1,19 @@
+state={
+	id=11601
+	name="STATE_11601"
+	provinces={
+		4999 
+	}
+	history = {
+		owner = 2RA
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = CCG
+		add_core_of = 2RA
+		add_core_of = XIG
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+}

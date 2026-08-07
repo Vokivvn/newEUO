@@ -1,0 +1,21 @@
+
+state={
+	id=10803
+	name="STATE_10803"
+	
+	provinces={
+		20179 
+	}
+	
+	history={
+		owner = TIB
+		add_core_of = TIB
+		victory_points = {
+			20179 5
+		}
+	}
+	
+	manpower=1
+	state_category=pastoral
+	local_supplies=0.0 
+}

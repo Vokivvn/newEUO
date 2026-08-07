@@ -1,0 +1,36 @@
+﻿capital = 3058
+
+	set_popularities = {
+		stratocratic
+			 = 60
+		vanguardism
+			 = 40
+			
+		}
+	set_politics = { 
+ ruling_party = stratocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Chihhuikuan Liu Pin"
+	desc = ""
+	picture = "gfx/leaders/XJK/XJK_Bin.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chihhuikuan Liu Pin"
+	desc = ""
+	picture = "gfx/leaders/XJK/XJK_Bin.tga"
+	expire = "1965.1.1"
+	ideology = totsoc
+	traits = {
+	}
+}
+

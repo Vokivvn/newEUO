@@ -1,1 +1,75 @@
-﻿capital = 548
+﻿capital = 4793
+
+set_cosmetic_tag = UK_RED
+
+set_popularities = {
+	socialism_ideology = 5
+	democratic = 10
+	stratocratic = 5	
+	authoritarian_monarchism = 80
+}
+
+set_politics = { 
+	ruling_party = authoritarian_monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Governor Sir Philip Euen Mitchell"
+	picture = "gfx/leaders/UGA/Portrait_Philip_Euen_Mitchell.dds"
+	expire = "1964.10.11"
+	ideology = authmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governor Sir Philip Euen Mitchell"
+	picture = "gfx/leaders/UGA/Portrait_Philip_Euen_Mitchell.dds"
+	expire = "1964.10.11"
+	ideology = stratmon
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Apollo Milton Obote"
+	desc = ""
+	picture = "gfx/leaders/UGA/UGA_Obote_demsoc.tga"
+	expire = "1965.1.1"
+	ideology = demsoc
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "President Ignatius Kangave Musaazi"
+	desc = ""
+	picture = "gfx/leaders/UGA/UGA_Musaazi_condem.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chairman Erinayo Wilson Oryema"
+	desc = ""
+	picture = "gfx/leaders/UGA/UGA_Oryema_strat.tga"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Governatore Valentino Orsolini Cencelli"
+	desc = ""
+	picture = "gfx/leaders/UGA/UGA_Cencelli.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
