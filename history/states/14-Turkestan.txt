@@ -1,0 +1,15 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		92 158 
+	}
+	
+	history={
+		owner = TKS
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

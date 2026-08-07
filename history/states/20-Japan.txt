@@ -1,0 +1,15 @@
+state={
+	id=20
+	name="STATE_20"
+	provinces={
+		8 1464 1465 1466 1467 1517 1518 1519 1520 1521 1522 1546 1574 1697 1699 1756 1757 1873 1974 2077 
+	}
+	
+	history={
+		owner = JAP
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

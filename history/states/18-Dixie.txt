@@ -1,0 +1,15 @@
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		774 782 784 895 896 951 1010 1012 1033 1096 1128 1147 1165 1191 1198 1206 1933 2019 2020 2041 2185 
+	}
+	
+	history={
+		owner = DIX
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
