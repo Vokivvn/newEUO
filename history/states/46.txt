@@ -1,0 +1,40 @@
+
+state={
+	id=46
+	name="STATE_46"
+	manpower = 4670537
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=15
+		rubber=0
+		steel=25
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			47 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		47 
+	}
+	local_supplies=0.0 
+}

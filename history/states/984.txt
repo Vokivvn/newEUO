@@ -1,0 +1,40 @@
+
+state={
+	id=984
+	name="STATE_984"
+	manpower = 1554402
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=9
+		chromium=10
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=9
+		coal=24
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			994 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		994 
+	}
+	local_supplies=0.0 
+}

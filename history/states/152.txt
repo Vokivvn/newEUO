@@ -1,0 +1,40 @@
+
+state={
+	id=152
+	name="STATE_152"
+	manpower = 3170045
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=34
+		chromium=37
+		oil=0
+		rubber=18
+		steel=0
+		tungsten=35
+		coal=88
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			154 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		154 
+	}
+	local_supplies=0.0 
+}

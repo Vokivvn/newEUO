@@ -1,0 +1,37 @@
+
+state={
+	id=726
+	name="STATE_726"
+	manpower = 4737545
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=31
+		chromium=33
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=31
+		coal=79
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		734 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=926
+	name="STATE_926"
+	manpower = 1301162
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		935 
+	}
+	local_supplies=0.0 
+}

@@ -1,123 +1,44 @@
-﻿capital = 1073 # Berlin/Brandeburg
+﻿capital = 1
 
-oob = "GER_2010"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GER_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GER_1936_nsb"
+}
 
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+# starting_truck_buffer = 0.8
+
+
+# Starting Stats of various kinds
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.7
+set_war_support = 0.3
+
+
+# Setup Politics
 set_politics = {
-	ruling_party = national_socialism
-	last_election = "1936.1.1"
+	ruling_party = fascism
+	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	fascism = 5
-	national_socialism = 92
-	syncretism = 3
-}
-add_ideas = {
-	economic_woes
-	global_hegemon
-	russian_sector
-	thousand_year_reich
+	democratic = 35
+	fascism = 40
+	communism = 10
+	neutrality = 15
 }
 
-
-recruit_character = GER_martin_adolf_bormann
-
-create_faction = Kontinentalpakt
-add_to_faction = GER
-add_to_faction = FRA
-add_to_faction = ENG
-add_to_faction = HUN
-add_to_faction = ROM
-add_to_faction = BUL
-add_to_faction = SER
-add_to_faction = IRE
-add_to_faction = ICE
-add_to_faction = TKS
-add_to_faction = DIX
-add_to_faction = NGE
-add_to_faction = NEE
-add_to_faction = KAN
-add_to_faction = QUE
-
-set_variable = { var = ger_var_mainstream_power value = 84 }
-set_variable = { var = ger_var_radical_power value = 35 }
-set_variable = { var = ger_var_right_opposition_power value = 68 }
-set_variable = { var = ger_var_orthodox_power value = 45 }
-set_variable = { var = ger_var_ss_power value = 68 }
-set_variable = { var = ger_var_militarists_power value = 45 }
-
-set_autonomy = {
-	target = UKR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = MCW
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = KAU
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = UKR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = NOR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = BNT
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = AKA
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = BRI
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = SLO
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = MAD
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = DEN
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = CAF
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-add_manpower = 1000000

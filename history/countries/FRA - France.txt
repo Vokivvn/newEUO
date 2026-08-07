@@ -1,78 +1,44 @@
-﻿capital = 16 # Paris/Ile de France
+﻿capital = 1
 
-oob = "FRA_2010"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GER_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GER_1936_nsb"
+}
 
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+# starting_truck_buffer = 0.8
+
+
+# Starting Stats of various kinds
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.7
+set_war_support = 0.3
+
+
+# Setup Politics
 set_politics = {
 	ruling_party = fascism
-	last_election = "1936.1.1"
+	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	fascism = 100
+	democratic = 35
+	fascism = 40
+	communism = 10
+	neutrality = 15
 }
 
-add_ideas = {
-	FRA_tuareg_war #stop calling the entire German Empire to starve in the Sahara
-
-
-	#laws
-
-}
-
-set_autonomy = {
-	target = ALG
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = MRT
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = MLI
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = NGR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = IVO
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = GNA
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = TOG
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = DAH
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = SEN
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-recruit_character = FRA_pierre_sidos

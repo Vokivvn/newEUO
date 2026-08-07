@@ -1,0 +1,40 @@
+
+state={
+	id=1907
+	name="STATE_1907"
+	manpower = 5405
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1919 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		1919 
+	}
+	local_supplies=0.0 
+}

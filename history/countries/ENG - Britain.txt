@@ -1,97 +1,44 @@
-capital = 126
+﻿capital = 1
 
-set_technology = {
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_carrier = 1
-	basic_carrier = 1
-	support_weapons = 1
-	infantry_weapons = 1
-	motorised_infantry = 1 
-	tech_support = 1 
-	tech_field_hospital = 1 
-	tech_engineers = 1 
-	gw_artillery = 1 
-	tech_mountaineers = 1 
-	paratroopers = 1 
-	marines = 1
-	atomic_research = 1 
-	nuclear_reactor = 1 
-	nukes = 1
-	interwar_antiair = 1
-	interwar_antitank = 1
-    basic_train = 1
-    tech_logistics_company = 1
-	tech_military_police = 1
-	electronic_mechanical_engineering = 1
-	radio = 1
-	tech_signal_company = 1
-	experimental_rockets = 1
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GER_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GER_1936_nsb"
 }
 
-oob = "ENG_2010"
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
 
+# starting_truck_buffer = 0.8
+
+
+# Starting Stats of various kinds
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.7
+set_war_support = 0.3
+
+
+# Setup Politics
 set_politics = {
-	ruling_party = national_socialism
-	last_election = "1936.1.1"
+	ruling_party = fascism
+	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	national_socialism = 38
-	autocratic = 15
-	reactionary = 25
-	fascism = 7
-	syncretism = 5
-	anarchism = 1
-	revolutionary_socialism = 3
-	moderate_socialism = 2
-	liberalism = 1
-	conservatism = 3
+	democratic = 35
+	fascism = 40
+	communism = 10
+	neutrality = 15
 }
-
-#THE NATIONAL FRONT DISCO!
-country_event = {
-	id = ingurland.1
-	days = 2
-}
-country_event = {
-	id = ingurland.2
-	days = 10
-}
-country_event = {
-	id = ingurland.3
-	days = 15
-}
-country_event = {
-	id = ingurland.4
-	days = 34
-}
-
-
-recruit_character = ENG_martin_webster
-recruit_character = ENG_jim_dowson 
-recruit_character = ENG_mark_collett 
-recruit_character = ENG_gary_raikes 
-recruit_character = ENG_rupert_lowe 
-recruit_character = ENG_neil_hamilton 
-recruit_character = ENG_kenneth_clarke 
-recruit_character = ENG_william_clouston 
-recruit_character = ENG_jeremy_corbyn 
-recruit_character = ENG_george_galloway 
-recruit_character = ENG_tommy_robinson
-recruit_character = ENG_jonathan_bowden
-recruit_character = ENG_the_yerbmeister
-recruit_character = ENG_jason_marriner
-recruit_character = ENG_peter_hitchens
-recruit_character = ENG_john_mcdonnell
-recruit_character = ENG_rod_liddle
-recruit_character = ENG_theresa_may
-
-
 

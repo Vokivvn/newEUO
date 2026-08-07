@@ -1,9 +1,0 @@
-scripted_gui = {
-
-	dix_wes_ui = {
-		context_type = decision_category
-		window_name = "dix_wes_ui_window"
-	}
-	
-}
-

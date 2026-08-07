@@ -1,0 +1,40 @@
+
+state={
+	id=1937
+	name="STATE_1937"
+	manpower = 7825
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1949 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		1949 
+	}
+	local_supplies=0.0 
+}

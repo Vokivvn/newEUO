@@ -1,0 +1,40 @@
+
+state={
+	id=1418
+	name="STATE_1418"
+	manpower = 1385480
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			1430 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		1430 
+	}
+	local_supplies=0.0 
+}
