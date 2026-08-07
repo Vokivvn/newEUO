@@ -1,0 +1,26 @@
+capital = 395
+
+oob = "WIS_2010"
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberalism = 35
+	conservatism = 50
+	moderate_socialism = 10
+	autocratic = 5
+}
+
+create_country_leader = {
+	name = "Tom Petri"
+	desc = "Petri_Desc"
+	picture = "gfx/leaders/MDF/Tom-Petri-EUO.png"
+	expire = "2040.1.1"
+	ideology = liberal_conservatism
+	traits = {}
+}

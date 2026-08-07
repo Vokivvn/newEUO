@@ -1,0 +1,45 @@
+############################
+### Custom Country Paths ###
+############################
+
+GER_ai_route = {
+	name = "GER_AI_PATH"
+	group = "RULE_GROUP_RF_AI_PATHS"
+
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = VOIGT
+		text = "RULE_OPTION_GER_VOIGT"
+		desc = "RULE_OPTION_GER_VOIGT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SPD
+		text = "RULE_OPTION_GER_SPD"
+		desc = "RULE_OPTION_GER_SPD_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = GOEBBELS 
+		text = "RULE_OPTION_GER_GOEBBELS"
+		desc = "RULE_OPTION_GER_GOEBBELS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = REVENTLOW
+		text = "RULE_OPTION_GER_REVENTLOW"
+		desc = "RULE_OPTION_GER_REVENTLOW_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ASPD
+		text = "RULE_OPTION_GER_ASPD"
+		desc = "RULE_OPTION_GER_ASPD_DESC"
+		allow_achievements = yes
+	}
+}

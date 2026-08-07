@@ -1,44 +1,47 @@
-﻿capital = 1
+﻿capital = 282 # Tokyo/Kanto
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "GER_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "GER_1936_nsb"
-}
+oob = "JAP_2010"
 
-starting_train_buffer = 2
-set_fuel_ratio = 0.8
-
-# starting_truck_buffer = 0.8
-
-
-# Starting Stats of various kinds
-set_research_slots = 4
-set_convoys = 200
-set_stability = 0.7
-set_war_support = 0.3
-
-
-# Setup Politics
 set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
+	ruling_party = reactionary
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 35
-	fascism = 40
-	communism = 10
-	neutrality = 15
+	reactionary = 100
 }
 
+recruit_character = JAP_Yasutoshi_Nishimura
+
+create_faction = dai_toa_kyoeiken
+add_to_faction = JAP
+add_to_faction = CHI
+add_to_faction = MAN
+add_to_faction = MEN
+add_to_faction = SZC
+add_to_faction = VIN
+add_to_faction = CAM
+add_to_faction = SIA
+add_to_faction = BRM
+add_to_faction = RAJ
+add_to_faction = PHI
+add_to_faction = MAL
+add_to_faction = INS
+add_to_faction = LAO
+add_to_faction = YUN
+add_to_faction = HAW
+add_to_faction = PAC
+add_to_faction = FER
+add_to_faction = SHX
+add_to_faction = BEI
+add_to_faction = BRU
+add_to_faction = XSM
+add_to_faction = NJN
+add_to_faction = AST
+add_to_faction = SHX
+add_to_faction = GXC
+add_to_faction = SRL
+add_to_faction = ALA
+add_to_faction = SAR

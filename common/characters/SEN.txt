@@ -1,0 +1,16 @@
+characters = {
+	SEN_Macky_Sall = {
+		name = "Macky Sall" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Macky_Sall
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

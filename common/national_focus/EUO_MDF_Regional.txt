@@ -1,0 +1,1199 @@
+focus_tree = {
+    id = MDF_Regional
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = MDF
+        }
+    }
+    default = no
+    reset_on_civilwar = no
+    continuous_focus_position = { x = 0 y = 0 }
+
+    focus = {
+        id = MDF_relishing_the_annihilation
+        icon = GFX_goal_unknown
+        x = 13
+        y = 0
+        cost = 4
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_relishing_the_annihilation completed"
+        }
+    }
+
+    focus = {
+        id = MDF_the_milwaukee_trials
+        icon = GFX_goal_unknown
+        x = 13
+        y = 2
+        cost = 4
+        prerequisite = { focus = MDF_relishing_the_annihilation }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_the_milwaukee_trials completed"
+        }
+    }
+
+    focus = {
+        id = MDF_creating_a_government_from_nothing
+        icon = GFX_goal_unknown
+        x = 13
+        y = 4
+        cost = 4
+        prerequisite = { focus = MDF_the_milwaukee_trials }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_creating_a_government_from_nothing completed"
+        }
+    }
+
+    focus = {
+        id = MDF_a_managed_electoral_system
+        icon = GFX_goal_unknown
+        x = 12
+        y = 6
+        cost = 4
+        prerequisite = { focus = MDF_creating_a_government_from_nothing }
+        mutually_exclusive = { focus = MDF_delegating_government_services }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_a_managed_electoral_system completed"
+        }
+    }
+
+    focus = {
+        id = MDF_delegating_government_services
+        icon = GFX_goal_unknown
+        x = 14
+        y = 6
+        cost = 4
+        prerequisite = { focus = MDF_creating_a_government_from_nothing }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_delegating_government_services completed"
+        }
+    }
+
+    focus = {
+        id = MDF_legal_precedents
+        icon = GFX_goal_unknown
+        x = 11
+        y = 8
+        cost = 4
+        prerequisite = { focus = MDF_a_managed_electoral_system }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_legal_precedents completed"
+        }
+    }
+
+    focus = {
+        id = MDF_the_first_general_elections
+        icon = GFX_goal_unknown
+        x = 13
+        y = 8
+        cost = 4
+        prerequisite = { focus = MDF_delegating_government_services }
+        prerequisite = { focus = MDF_a_managed_electoral_system }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_the_first_general_elections completed"
+        }
+    }
+
+    focus = {
+        id = MDF_a_bill_of_undeniable_rights
+        icon = GFX_goal_unknown
+        x = 15
+        y = 8
+        cost = 4
+        prerequisite = { focus = MDF_delegating_government_services }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_a_bill_of_undeniable_rights completed"
+        }
+    }
+
+    focus = {
+        id = MDF_end_of_the_provisional_period
+        icon = GFX_goal_unknown
+        x = 13
+        y = 11
+        cost = 4
+        prerequisite = { focus = MDF_the_first_general_elections }
+        prerequisite = { focus = MDF_legal_precedents }
+        prerequisite = { focus = MDF_a_bill_of_undeniable_rights }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_end_of_the_provisional_period completed"
+        }
+    }
+
+    focus = {
+        id = MDF_windy_city_working
+        icon = GFX_goal_unknown
+        x = 13
+        y = 13
+        cost = 4
+        prerequisite = { focus = MDF_end_of_the_provisional_period }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_windy_city_working completed"
+        }
+    }
+
+    focus = {
+        id = MDF_getting_active
+        icon = GFX_goal_unknown
+        x = 41
+        y = 13
+        cost = 4
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_getting_active completed"
+        }
+    }
+
+    focus = {
+        id = MDF_the_remains_of_power
+        icon = GFX_goal_unknown
+        x = 4
+        y = 15
+        cost = 4
+        prerequisite = { focus = MDF_windy_city_working }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_the_remains_of_power completed"
+        }
+    }
+
+    focus = {
+        id = MDF_a_formerly_slave_based_economy
+        icon = GFX_goal_unknown
+        x = 13
+        y = 15
+        cost = 4
+        prerequisite = { focus = MDF_windy_city_working }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_a_formerly_slave_based_economy completed"
+        }
+    }
+
+    focus = {
+        id = MDF_managing_party_relationships
+        icon = GFX_goal_unknown
+        x = 23
+        y = 15
+        cost = 4
+        prerequisite = { focus = MDF_windy_city_working }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_managing_party_relationships completed"
+        }
+    }
+
+    focus = {
+        id = MDF_the_dixieland_crisis
+        icon = GFX_goal_unknown
+        x = 41
+        y = 15
+        cost = 4
+        prerequisite = { focus = MDF_getting_active }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_the_dixieland_crisis completed"
+        }
+    }
+
+    focus = {
+        id = MDF_our_benefactors_from_saint_louis
+        icon = GFX_goal_unknown
+        x = 47
+        y = 15
+        cost = 4
+        prerequisite = { focus = MDF_getting_active }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_our_benefactors_from_saint_louis completed"
+        }
+    }
+
+    focus = {
+        id = MDF_to_defeat_every_idea_of_discrimination
+        icon = GFX_goal_unknown
+        x = 0
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_the_remains_of_power }
+        mutually_exclusive = { focus = MDF_keeping_forward focus = MDF_united_around_killing_the_hun }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_to_defeat_every_idea_of_discrimination completed"
+        }
+    }
+
+    focus = {
+        id = MDF_keeping_forward
+        icon = GFX_goal_unknown
+        x = 2
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_the_remains_of_power }
+        mutually_exclusive = { focus = MDF_to_defeat_every_idea_of_discrimination focus = MDF_united_around_killing_the_hun }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_keeping_forward completed"
+        }
+    }
+
+    focus = {
+        id = MDF_united_around_killing_the_hun
+        icon = GFX_goal_unknown
+        x = 4
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_the_remains_of_power }
+        mutually_exclusive = { focus = MDF_keeping_forward focus = MDF_to_defeat_every_idea_of_discrimination }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_united_around_killing_the_hun completed"
+        }
+    }
+
+    focus = {
+        id = MDF_shock_therapy
+        icon = GFX_goal_unknown
+        x = 12
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_a_formerly_slave_based_economy }
+        mutually_exclusive = { focus = MDF_a_composed_recovery }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_shock_therapy completed"
+        }
+    }
+
+    focus = {
+        id = MDF_a_composed_recovery
+        icon = GFX_goal_unknown
+        x = 14
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_a_formerly_slave_based_economy }
+        mutually_exclusive = { focus = MDF_shock_therapy }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_a_composed_recovery completed"
+        }
+    }
+
+    focus = {
+        id = MDF_preparing_local_elections
+        icon = GFX_goal_unknown
+        x = 23
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_managing_party_relationships }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_preparing_local_elections completed"
+        }
+    }
+
+    focus = {
+        id = MDF_making_allies
+        icon = GFX_goal_unknown
+        x = 26
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_managing_party_relationships }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_making_allies completed"
+        }
+    }
+
+    focus = {
+        id = MDF_midwestern_territorial_army_reform_plan
+        icon = GFX_goal_unknown
+        x = 33
+        y = 16
+        cost = 4
+        prerequisite = { focus = MDF_getting_active }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_midwestern_territorial_army_reform_plan completed"
+        }
+    }
+
+    focus = {
+        id = MDF_meeting_the_resistance
+        icon = GFX_goal_unknown
+        x = 39
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_the_dixieland_crisis }
+        mutually_exclusive = { focus = MDF_no_time_to_waste }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_meeting_the_resistance completed"
+        }
+    }
+
+    focus = {
+        id = MDF_no_time_to_waste
+        icon = GFX_goal_unknown
+        x = 43
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_the_dixieland_crisis }
+        mutually_exclusive = { focus = MDF_meeting_the_resistance }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_no_time_to_waste completed"
+        }
+    }
+
+    focus = {
+        id = MDF_two_visions_towards_unification
+        icon = GFX_goal_unknown
+        x = 46
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_our_benefactors_from_saint_louis }
+        mutually_exclusive = { focus = MDF_on_our_own }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_two_visions_towards_unification completed"
+        }
+    }
+
+    focus = {
+        id = MDF_on_our_own
+        icon = GFX_goal_unknown
+        x = 48
+        y = 17
+        cost = 4
+        prerequisite = { focus = MDF_our_benefactors_from_saint_louis }
+        mutually_exclusive = { focus = MDF_two_visions_towards_unification }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_on_our_own completed"
+        }
+    }
+
+    focus = {
+        id = MDF_pushing_hard_against_racism
+        icon = GFX_goal_unknown
+        x = 1
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_keeping_forward focus = MDF_to_defeat_every_idea_of_discrimination }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_pushing_hard_against_racism completed"
+        }
+    }
+
+    focus = {
+        id = MDF_anti_fascism_in_the_curriculum
+        icon = GFX_goal_unknown
+        x = 3
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_united_around_killing_the_hun focus = MDF_keeping_forward }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_anti_fascism_in_the_curriculum completed"
+        }
+    }
+
+    focus = {
+        id = MDF_mass_privatization
+        icon = GFX_goal_unknown
+        x = 10
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_shock_therapy }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_mass_privatization completed"
+        }
+    }
+
+    focus = {
+        id = MDF_cutthroat_spending
+        icon = GFX_goal_unknown
+        x = 12
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_shock_therapy }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_cutthroat_spending completed"
+        }
+    }
+
+    focus = {
+        id = MDF_scalable_minimum_wage_law
+        icon = GFX_goal_unknown
+        x = 14
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_a_composed_recovery }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_scalable_minimum_wage_law completed"
+        }
+    }
+
+    focus = {
+        id = MDF_promoting_peace_between_labor_and_management
+        icon = GFX_goal_unknown
+        x = 16
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_a_composed_recovery }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_promoting_peace_between_labor_and_management completed"
+        }
+    }
+
+    focus = {
+        id = MDF_boards_and_supervisors
+        icon = GFX_goal_unknown
+        x = 23
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_preparing_local_elections }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_boards_and_supervisors completed"
+        }
+    }
+
+    focus = {
+        id = MDF_making_friends_with_farmer_and_labor
+        icon = GFX_goal_unknown
+        x = 25
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_making_allies }
+        mutually_exclusive = { focus = MDF_cooperating_with_the_sturgeons }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_making_friends_with_farmer_and_labor completed"
+        }
+    }
+
+    focus = {
+        id = MDF_cooperating_with_the_sturgeons
+        icon = GFX_goal_unknown
+        x = 27
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_making_allies }
+        mutually_exclusive = { focus = MDF_making_friends_with_farmer_and_labor }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_cooperating_with_the_sturgeons completed"
+        }
+    }
+
+    focus = {
+        id = MDF_officer_corps_training_plan
+        icon = GFX_goal_unknown
+        x = 31
+        y = 18
+        cost = 4
+        prerequisite = { focus = MDF_midwestern_territorial_army_reform_plan }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_officer_corps_training_plan completed"
+        }
+    }
+
+    focus = {
+        id = MDF_from_a_to_b
+        icon = GFX_goal_unknown
+        x = 33
+        y = 18
+        cost = 4
+        prerequisite = { focus = MDF_midwestern_territorial_army_reform_plan }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_from_a_to_b completed"
+        }
+    }
+
+    focus = {
+        id = MDF_exercises_and_theoretical_plans
+        icon = GFX_goal_unknown
+        x = 35
+        y = 18
+        cost = 4
+        prerequisite = { focus = MDF_midwestern_territorial_army_reform_plan }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_exercises_and_theoretical_plans completed"
+        }
+    }
+
+    focus = {
+        id = MDF_weapons_firesale
+        icon = GFX_goal_unknown
+        x = 39
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_meeting_the_resistance }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_weapons_firesale completed"
+        }
+    }
+
+    focus = {
+        id = MDF_the_minneapolis_summit
+        icon = GFX_goal_unknown
+        x = 46
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_two_visions_towards_unification }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_the_minneapolis_summit completed"
+        }
+    }
+
+    focus = {
+        id = MDF_cross_river_war
+        icon = GFX_goal_unknown
+        x = 48
+        y = 19
+        cost = 4
+        prerequisite = { focus = MDF_on_our_own }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_cross_river_war completed"
+        }
+    }
+
+    focus = {
+        id = MDF_crafting_a_minority_rights_bill
+        icon = GFX_goal_unknown
+        x = 0
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_pushing_hard_against_racism }
+        prerequisite = { focus = MDF_to_defeat_every_idea_of_discrimination }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_crafting_a_minority_rights_bill completed"
+        }
+    }
+
+    focus = {
+        id = MDF_all_encompassing_anti_nazi_sentiment
+        icon = GFX_goal_unknown
+        x = 2
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_pushing_hard_against_racism }
+        prerequisite = { focus = MDF_anti_fascism_in_the_curriculum }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_all_encompassing_anti_nazi_sentiment completed"
+        }
+    }
+
+    focus = {
+        id = MDF_cautious_social_policy
+        icon = GFX_goal_unknown
+        x = 4
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_united_around_killing_the_hun }
+        prerequisite = { focus = MDF_anti_fascism_in_the_curriculum }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_cautious_social_policy completed"
+        }
+    }
+
+    focus = {
+        id = MDF_with_some_concessions_to_the_unions
+        icon = GFX_goal_unknown
+        x = 8
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_mass_privatization }
+        mutually_exclusive = { focus = MDF_business_opportunity_bill }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_with_some_concessions_to_the_unions completed"
+        }
+    }
+
+    focus = {
+        id = MDF_business_opportunity_bill
+        icon = GFX_goal_unknown
+        x = 10
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_mass_privatization }
+        mutually_exclusive = { focus = MDF_with_some_concessions_to_the_unions }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_business_opportunity_bill completed"
+        }
+    }
+
+    focus = {
+        id = MDF_full_gear_towards_growth
+        icon = GFX_goal_unknown
+        x = 12
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_cutthroat_spending }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_full_gear_towards_growth completed"
+        }
+    }
+
+    focus = {
+        id = MDF_initiating_temporary_government_welfare_and_assistance
+        icon = GFX_goal_unknown
+        x = 14
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_scalable_minimum_wage_law }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_initiating_temporary_government_welfare_and_assistance completed"
+        }
+    }
+
+    focus = {
+        id = MDF_union_organization_and_rights_bill
+        icon = GFX_goal_unknown
+        x = 16
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_promoting_peace_between_labor_and_management }
+        mutually_exclusive = { focus = MDF_keep_everyone_in_the_loop }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_union_organization_and_rights_bill completed"
+        }
+    }
+
+    focus = {
+        id = MDF_keep_everyone_in_the_loop
+        icon = GFX_goal_unknown
+        x = 18
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_promoting_peace_between_labor_and_management }
+        mutually_exclusive = { focus = MDF_union_organization_and_rights_bill }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_keep_everyone_in_the_loop completed"
+        }
+    }
+
+    focus = {
+        id = MDF_towards_total_bureaucratic_efficiency
+        icon = GFX_goal_unknown
+        x = 23
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_boards_and_supervisors }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_towards_total_bureaucratic_efficiency completed"
+        }
+    }
+
+    focus = {
+        id = MDF_liberals_and_progressives
+        icon = GFX_goal_unknown
+        x = 25
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_making_friends_with_farmer_and_labor }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_liberals_and_progressives completed"
+        }
+    }
+
+    focus = {
+        id = MDF_a_working_relationship
+        icon = GFX_goal_unknown
+        x = 27
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_cooperating_with_the_sturgeons }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_a_working_relationship completed"
+        }
+    }
+
+    focus = {
+        id = MDF_dressing_out_the_military
+        icon = GFX_goal_unknown
+        x = 31
+        y = 20
+        cost = 4
+        prerequisite = { focus = MDF_officer_corps_training_plan }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_dressing_out_the_military completed"
+        }
+    }
+
+    focus = {
+        id = MDF_locked_and_loaded
+        icon = GFX_goal_unknown
+        x = 33
+        y = 20
+        cost = 4
+        prerequisite = { focus = MDF_from_a_to_b }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_locked_and_loaded completed"
+        }
+    }
+
+    focus = {
+        id = MDF_solidifying_artillery_s_place
+        icon = GFX_goal_unknown
+        x = 35
+        y = 20
+        cost = 4
+        prerequisite = { focus = MDF_exercises_and_theoretical_plans }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_solidifying_artillery_s_place completed"
+        }
+    }
+
+    focus = {
+        id = MDF_limited_support_forces
+        icon = GFX_goal_unknown
+        x = 38
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_weapons_firesale }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_limited_support_forces completed"
+        }
+    }
+
+    focus = {
+        id = MDF_well_shit
+        icon = GFX_goal_unknown
+        x = 40
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_weapons_firesale }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_well_shit completed"
+        }
+    }
+
+    focus = {
+        id = MDF_exhuming_lincoln
+        icon = GFX_goal_unknown
+        x = 43
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_no_time_to_waste }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_exhuming_lincoln completed"
+        }
+    }
+
+    focus = {
+        id = MDF_eyes_on_kanada
+        icon = GFX_goal_unknown
+        x = 46
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_the_minneapolis_summit }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_eyes_on_kanada completed"
+        }
+    }
+
+    focus = {
+        id = MDF_reorganizing_our_new_territory
+        icon = GFX_goal_unknown
+        x = 48
+        y = 21
+        cost = 4
+        prerequisite = { focus = MDF_cross_river_war }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_reorganizing_our_new_territory completed"
+        }
+    }
+
+    focus = {
+        id = MDF_all_forward_into_the_midwest
+        icon = GFX_goal_unknown
+        x = 2
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_all_encompassing_anti_nazi_sentiment }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_all_forward_into_the_midwest completed"
+        }
+    }
+
+    focus = {
+        id = MDF_on_the_economic_up
+        icon = GFX_goal_unknown
+        x = 9
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_business_opportunity_bill focus = MDF_with_some_concessions_to_the_unions }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_on_the_economic_up completed"
+        }
+    }
+
+    focus = {
+        id = MDF_debt_free
+        icon = GFX_goal_unknown
+        x = 11
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_full_gear_towards_growth focus = MDF_business_opportunity_bill }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_debt_free completed"
+        }
+    }
+
+    focus = {
+        id = MDF_taking_stock
+        icon = GFX_goal_unknown
+        x = 15
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_initiating_temporary_government_welfare_and_assistance }
+        prerequisite = { focus = MDF_union_organization_and_rights_bill }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_taking_stock completed"
+        }
+    }
+
+    focus = {
+        id = MDF_economic_development_teams
+        icon = GFX_goal_unknown
+        x = 17
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_union_organization_and_rights_bill }
+        prerequisite = { focus = MDF_keep_everyone_in_the_loop }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_economic_development_teams completed"
+        }
+    }
+
+    focus = {
+        id = MDF_breaking_asphalt
+        icon = GFX_goal_unknown
+        x = 25
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_towards_total_bureaucratic_efficiency }
+        prerequisite = { focus = MDF_liberals_and_progressives }
+        prerequisite = { focus = MDF_a_working_relationship }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_breaking_asphalt completed"
+        }
+    }
+
+    focus = {
+        id = MDF_giving_attention_to_the_military_medical_corps
+        icon = GFX_goal_unknown
+        x = 31
+        y = 22
+        cost = 4
+        prerequisite = { focus = MDF_dressing_out_the_military }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_giving_attention_to_the_military_medical_corps completed"
+        }
+    }
+
+    focus = {
+        id = MDF_reviving_general_motors
+        icon = GFX_goal_unknown
+        x = 33
+        y = 22
+        cost = 4
+        prerequisite = { focus = MDF_locked_and_loaded }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_reviving_general_motors completed"
+        }
+    }
+
+    focus = {
+        id = MDF_offensive_integration
+        icon = GFX_goal_unknown
+        x = 35
+        y = 22
+        cost = 4
+        prerequisite = { focus = MDF_solidifying_artillery_s_place }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_offensive_integration completed"
+        }
+    }
+
+    focus = {
+        id = MDF_wiping_them_out
+        icon = GFX_goal_unknown
+        x = 38
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_limited_support_forces }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_wiping_them_out completed"
+        }
+    }
+
+    focus = {
+        id = MDF_opening_plan_b
+        icon = GFX_goal_unknown
+        x = 40
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_well_shit }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_opening_plan_b completed"
+        }
+    }
+
+    focus = {
+        id = MDF_round_two
+        icon = GFX_goal_unknown
+        x = 43
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_exhuming_lincoln }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_round_two completed"
+        }
+    }
+
+    focus = {
+        id = MDF_toronto_stomping
+        icon = GFX_goal_unknown
+        x = 47
+        y = 23
+        cost = 4
+        prerequisite = { focus = MDF_eyes_on_kanada }
+        prerequisite = { focus = MDF_reorganizing_our_new_territory }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_toronto_stomping completed"
+        }
+    }
+
+    focus = {
+        id = MDF_intermin
+        icon = GFX_goal_unknown
+        x = 13
+        y = 26
+        cost = 4
+        prerequisite = { focus = MDF_economic_development_teams }
+        prerequisite = { focus = MDF_taking_stock }
+        prerequisite = { focus = MDF_debt_free }
+        prerequisite = { focus = MDF_on_the_economic_up }
+        prerequisite = { focus = MDF_all_forward_into_the_midwest }
+        prerequisite = { focus = MDF_breaking_asphalt }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus MDF_intermin completed"
+        }
+    }
+
+}

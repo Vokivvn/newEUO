@@ -1,44 +1,35 @@
-﻿capital = 1
+﻿capital = 119
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "GER_1936"
+recruit_character = NIR_gusty_spence
+recruit_character = NIR_mad_dog_adair
+recruit_character = NIR_jim_allister
+
+add_ideas = {
+	NIR_unrecognised_state
+	NIR_IRA_insurgency
+
+	#laws
+	isolation
+	free_trade
+	extensive_conscription
 }
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "GER_1936_nsb"
-}
 
-starting_train_buffer = 2
-set_fuel_ratio = 0.8
-
-# starting_truck_buffer = 0.8
-
-
-# Starting Stats of various kinds
-set_research_slots = 4
-set_convoys = 200
-set_stability = 0.7
-set_war_support = 0.3
-
-
-# Setup Politics
 set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
+	ruling_party = autocratic
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
-	democratic = 35
-	fascism = 40
-	communism = 10
-	neutrality = 15
-}
 
+set_popularities = {
+	autocratic = 38
+	national_socialism = 15
+	reactionary = 5
+	fascism = 0
+	syncretism = 11
+	anarchism = 0
+	revolutionary_socialism = 15
+	moderate_socialism = 2
+	liberalism = 0
+	conservatism = 14
+}

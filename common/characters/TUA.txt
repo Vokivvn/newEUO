@@ -1,0 +1,16 @@
+characters = {
+	TUA_Ibrahim_Ag_Bahanga = {
+		name = "Ibrahim Ag Bahanga" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Ibrahim_Ag_Bahanga
+			}
+		}
+		country_leader = {
+			ideology = reactionary_populism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

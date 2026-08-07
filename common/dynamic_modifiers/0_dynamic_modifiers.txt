@@ -1,0 +1,8 @@
+CSA_southern_bloodshet = {
+    icon = "GFX_idea_CSA_blood" 
+    army_speed_factor = -0.5 
+    army_defence_factor = 0.2
+    supply_consumption_factor = 1
+    army_morale_factor = -0.25
+    org_damage_multiplier = -0.2
+}

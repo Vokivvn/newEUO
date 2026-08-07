@@ -1,0 +1,16 @@
+characters = {
+	LES_Letsie_III = {
+		name = "Letsie III" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Letsie_III
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

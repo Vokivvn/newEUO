@@ -1,0 +1,16 @@
+characters = {
+	BAR_Lubosi_Imwiko_II = {
+		name = "Lubosi Imwiko II" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Lubosi_Imwiko_II
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

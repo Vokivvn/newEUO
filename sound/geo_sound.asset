@@ -1,0 +1,13 @@
+
+sound =
+{
+	name = "heli_sound"
+	file = "animations/heli_idle.wav"
+	volume = 3
+}
+sound =
+{
+	name = "geo_missaile"
+	file = "animations/missaile.wav"
+	volume = 3
+}

@@ -1,0 +1,16 @@
+characters = {
+	BEN_adams_oshiomhole = {
+		name = "Adams Oshiomhole" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Adams_Oshiomhole
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

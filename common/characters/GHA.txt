@@ -1,0 +1,16 @@
+characters = {
+	GHA_Samia_Nkrumah = {
+		name = "Samia Nkrumah" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Samia_Nkrumah
+			}
+		}
+		country_leader = {
+			ideology = scientific_socialism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

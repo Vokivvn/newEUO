@@ -1,0 +1,15 @@
+characters = {
+	JAP_Yasutoshi_Nishimura = {
+		name = "Yasutoshi Nishimura" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Yasutoshi_Nishimura
+			}
+		}
+		country_leader = {
+			ideology = ultraconservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

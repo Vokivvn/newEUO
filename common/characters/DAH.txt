@@ -1,0 +1,16 @@
+characters = {
+	DAH_Thomas_Boni_Yayi = {
+		name = "Thomas Boni Yayi" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Thomas_Boni_Yayi
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

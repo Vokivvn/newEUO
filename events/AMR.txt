@@ -1,0 +1,101 @@
+﻿add_namespace = AMR
+
+country_event = { #Intro 
+	id = AMR.1
+	title = AMR.1.t
+	desc = AMR.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = AMR.1.a
+	}
+}
+
+country_event = { #Intro 
+	id = AMR.39
+	title = AMR.39.t
+	desc = AMR.39.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = AMR.39.a
+			AMR = {
+				set_cosmetic_tag = AMR_win
+				}
+				country_event = {
+					id = AMR.40
+					days = 4
+				}
+			}
+}
+
+country_event = { #Elections 
+	id = AMR.40
+	title = AMR.40.t
+	desc = AMR.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Rosenberg
+		name = AMR.40.a
+		hidden_effect = {
+			AMR = {
+				set_politics = { 
+					ruling_party = conservatism
+					elections_allowed = no
+				}
+				create_country_leader = {
+					name = "Bill Kristol"
+					desc = "POLITICS_Bill Kristol_DESC"
+					picture = "GFX_portrait_Bill_Kristol_Partisan"
+					expire = "1965.1.1"
+					ideology = conservatism_subtype
+					traits = {
+						###
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Elections 
+	id = AMR.41
+	title = AMR.41.t
+	desc = AMR.41.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Rosenberg
+		name = AMR.41.a
+		set_variable = {
+          var = global.current_superevent
+          value = 1
+			}
+		set_global_flag = Super_Event_Visible
+		hidden_effect = {
+			sound_effect = "Kristolresistance"
+		}
+		clr_country_flag = event_open
+		hidden_effect = {
+			AMR = {
+				create_country_leader = {
+					name = "Bill Kristol"
+					desc = "POLITICS_Bill Kristol_DESC"
+					picture = "GFX_portrait_Bill_Kristol_President"
+					expire = "1965.1.1"
+					ideology = conservatism_subtype
+					traits = {
+						###
+					}
+				}
+			}
+		}
+	}
+}

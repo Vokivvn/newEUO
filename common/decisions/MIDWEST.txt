@@ -1,0 +1,113 @@
+MDF_Midwestern_Spring = {
+    MDF_Attack_Ohio = {
+        available = {
+            NGE = {
+                surrender_progress > 0.95
+            }
+            tag = MDF
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            declare_war_on = {
+                target = ODF
+                type = annex_everything
+            }
+          declare_war_on = {
+                target = OHC
+                type = annex_everything
+            }
+            every_state ={
+                    limit = {
+                        is_core_of = OHC
+                    }
+                add_core_of = MDF
+            }
+        }
+    }
+}
+MDF_After_War = {
+    Annex_Anarchists = {
+        available = {
+            NGE = {
+                surrender_progress > 0.99
+            }
+            tag = MDF
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            annex_country = {
+                target = ANT
+                type = annex_everything
+            }
+            every_state ={
+                    limit = {
+                        is_core_of = ANT
+                    }
+                add_core_of = MDF
+            }
+        }
+    }
+    Annex_Civil_Guard = {
+        available = {
+            NGE = {
+                surrender_progress > 0.99
+            }
+            tag = MDF
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            annex_country = {
+                target = FLP
+                type = annex_everything
+            }
+            MDF = {
+            every_state ={
+                limit = {
+                    is_core_of = FLP
+                }
+                add_core_of = MDF
+            }
+        }
+    }
+}
+    Annex_Wisconsin = {
+        available = {
+            NGE = {
+                surrender_progress > 0.99
+            }
+            tag = MDF
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            annex_country = {
+                target = WIS
+                type = annex_everything
+            }
+            every_state ={
+                    limit = {
+                        is_core_of = WIS
+                    }
+                add_core_of = MDF
+            }
+        }
+    }
+    Declare_Victory = {
+        available = {
+            NOT = {
+                country_exists = WIS
+                country_exists = ANT
+                country_exists = FLP
+                country_exists = OHC
+                country_exists = ODF
+                country_exists = NGE
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            set_cosmetic_tag = MDFFEDERATION
+            load_focus_tree = {
+                tree = MDF_Regional
+            }
+        }
+    }
+}

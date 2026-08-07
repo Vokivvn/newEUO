@@ -1,0 +1,103 @@
+﻿add_namespace = WAE
+
+country_event = { #Intro 
+	id = WAE.1
+	title = WAE.1.t
+	desc = WAE.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = WAE.1.a
+		hidden_effect = {
+			ALG = {
+				transfer_state = 1049
+				country_event = {
+					id = WAE.2
+					days = 60
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = WAE.2
+	title = WAE.2.t
+	desc = WAE.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = WAE.2.a
+		hidden_effect = {
+			AZW = {
+				transfer_state = 782
+				transfer_state = 898
+				declare_war_on = {
+		    			target = MLI
+		    			type = annex_everything
+				}
+			}
+			ALG = {
+				country_event = {
+					id = WAE.3
+					days = 12
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = WAE.3
+	title = WAE.3.t
+	desc = WAE.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = WAE.3.a
+		hidden_effect = {
+			NRE = {
+				transfer_state = 515
+				declare_war_on = {
+		    			target = NGR
+		    			type = annex_everything
+				}
+			}
+			ALG = {
+				country_event = {
+					id = WAE.4
+					days = 5
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = WAE.4
+	title = WAE.4.t
+	desc = WAE.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = WAE.4.a
+		hidden_effect = {
+			VOL = {
+				transfer_state = 778
+				declare_war_on = {
+		    			target = IVO
+		    			type = annex_everything
+				}
+			}
+		}
+	}
+}

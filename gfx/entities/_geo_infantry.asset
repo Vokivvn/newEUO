@@ -1,0 +1,1982 @@
+
+###汎用　クローン用　特殊部隊
+
+entity = {
+	name = "Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+
+	default_state = "idle"
+	state = { name = "attack"			animation = "charge_mg" 		animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle1 = "idle" } }
+	state = { name = "attack"			animation = "charge_mg_shoot" 	animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
+	state = { name = "defend"			animation = "attack" 			animation_blend_time = 0.3  animation_speed = 1.0 }
+	state = { name = "support_attack"	animation = "support_attack" 	animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "move"				animation = "move" 				animation_blend_time = 0.0 animation_speed = 1.0 chance = 1
+		event = { trigger_once = yes sound = { soundeffect = "infantry_move_animation" } }
+	}
+	state = { name = "move"				animation = "march_move" 				animation_blend_time = 0.0 animation_speed = 1.0 chance = 1
+		event = { trigger_once = yes sound = { soundeffect = "infantry_move_animation" } }
+	}
+	state = { name = "retreat"			animation = "retreat" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "death"			animation = "death" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 chance = 15 looping = no }
+	state = { name = "idle"				animation = "long_idle02"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "idle"				animation = "long_idle03"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no propagate_state = { lighter = "smoke" }
+		event = { time = 0 node="head" particle = "cigarette_smoke_particle"  keep_particle = yes }
+	}
+	state = { name = "idle"				animation = "long_idle04"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "idle"				animation = "long_idle05"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
+	state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	#state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "USA_infantry_weapon_mg_right_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "USA_infantry_weapon_mg_left_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_mg_long_idle_entity" }
+
+	scale = 0.8
+}
+
+entity = {
+	name = "MD4_infantry_2_entity"
+	pdxmesh = "Generic_infantry_riflemen_mesh"
+
+	default_state = "idle"
+	state = { name = "attack"			animation = "charge_mg" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle1 = "idle" } }
+	state = { name = "attack"			animation = "charge_mg_shoot" 			animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
+	state = { name = "defend"			animation = "attack" 			animation_blend_time = 0.3  animation_speed = 1.0 }
+	state = { name = "support_attack"	animation = "support_attack" 	animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "move"				animation = "move" 				animation_blend_time = 0.0 animation_speed = 1.0 chance = 1
+		event = { sound = { soundeffect = "infantry_move_animation" } }
+	}
+	state = { name = "move"				animation = "march_move" 				animation_blend_time = 0.0 animation_speed = 1.0 chance = 1
+		event = { sound = { soundeffect = "infantry_move_animation" } }
+	}
+	state = { name = "retreat"			animation = "retreat" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "death"			animation = "death" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 chance = 15 looping = no }
+	state = { name = "idle"				animation = "long_idle02"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "idle"				animation = "long_idle03"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no propagate_state = { lighter = "smoke" }
+		event = { time = 0 node="head" particle = "cigarette_smoke_particle"  keep_particle = yes }
+	}
+	state = { name = "idle"				animation = "long_idle04"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "idle"				animation = "long_idle05"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
+	state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	#state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_akm_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_akm_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_akm_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_akm_long_idle_entity" }
+
+	scale = 0.8
+}
+
+entity = {
+	name = "generic_western_vehicle_infantry_rifle_entity"
+	pdxmesh = "Generic_infantry_riflemen_mesh"
+
+	default_state = "idle"
+	state = { name = "attack"			animation = "charge_mg" 		animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle1 = "idle" } }
+	state = { name = "attack"			animation = "charge_mg_shoot" 	animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
+	state = { name = "defend"			animation = "attack" 			animation_blend_time = 0.3  animation_speed = 1.0 }
+	state = { name = "support_attack"	animation = "support_attack" 	animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "move"				animation = "move" 				animation_blend_time = 0.0 animation_speed = 1.0 chance = 1
+		event = { trigger_once = yes sound = { soundeffect = "infantry_move_animation" } }
+	}
+	state = { name = "move"				animation = "march_move" 				animation_blend_time = 0.0 animation_speed = 1.0 chance = 1
+		event = { trigger_once = yes sound = { soundeffect = "infantry_move_animation" } }
+	}
+	state = { name = "retreat"			animation = "retreat" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "death"			animation = "death" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 chance = 15 looping = no }
+	state = { name = "idle"				animation = "long_idle02"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "idle"				animation = "long_idle03"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no propagate_state = { lighter = "smoke" }
+		event = { time = 0 node="head" particle = "cigarette_smoke_particle"  keep_particle = yes }
+	}
+	state = { name = "idle"				animation = "long_idle04"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "idle"				animation = "long_idle05"		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
+	state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	#state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_fal_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_fal_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_fal_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_fal_long_idle_entity" }
+
+	scale = 0.8
+}
+
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "generic_eastern_infantry_entity"
+	pdxmesh = "SOV_infantry_1990_mesh"
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_akm_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_akm_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_akm_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_akm_long_idle_entity" }
+}
+entity = {
+	clone = "generic_eastern_infantry_entity"
+	name = "generic_eastern_infantry_0_entity"
+}
+entity = {
+	clone = "generic_eastern_infantry_entity"
+	name = "generic_eastern_infantry_1_entity"
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak74_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak74_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak74_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak74_long_idle_entity" }
+}
+
+
+###MD4 base
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_akm_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_akm_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_akm_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_akm_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_akm_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_akms_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_akms_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_akms_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_akms_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_akms_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_ak47s_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak47s_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak47s_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak47s_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak47s_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_MD4_aks74_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_aks74_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_aks74_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_aks74_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_aks74_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_ak74_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak74_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak74_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak74_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak74_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_m16a2_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_m16a2_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_m16a2_rifle_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_m16a2_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_m16a2_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_MD4_c7_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_c7_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_c7_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_c7_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_c7_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_fal_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_fal_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_fal_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_fal_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_fal_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_fal_para_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_fal_para_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_fal_para_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_fal_para_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_fal_para_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_aug_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_aug_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_aug_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_aug_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_aug_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_g36_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g36_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g36_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g36_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g36_long_idle_entity" }
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_galil_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_galil_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_galil_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_galil_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_galil_long_idle_entity" }
+}
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_galil_short_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_galil_short_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_galil_short_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_galil_short_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_galil_short_long_idle_entity" }
+}
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_fnc_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_fnc_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_fnc_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_fnc_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_fnc_long_idle_entity" }
+}
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_sg540_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_sg540_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_sg540_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_sg540_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_sg540_long_idle_entity" }
+}
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_g3_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g3_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g3_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g3_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g3_long_idle_entity" }
+}
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_g3_bk_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g3_bk_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g3_bk_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g3_bk_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g3_bk_long_idle_entity" }
+}
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "infantry_g3_wide_entity"
+	pdxmesh = "generic_western_european_mg_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g3_wide_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g3_wide_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g3_wide_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g3_wide_long_idle_entity" }
+}
+
+##ウクライナ
+##他assetファイル
+###ギリシャ
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "GRE_MD4_infantry_2_entity"
+	pdxmesh = "GRE_infantry_riflemen_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g3_wide_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g3_wide_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g3_wide_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g3_wide_long_idle_entity" }
+}
+
+###シリア
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "SYR_MD4_infantry_2_entity"
+	pdxmesh = "SYR_infantry_riflemen_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak47s_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak47s_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "western_european_infantry_weapon_rifle_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak47s_long_idle_entity" }
+}
+
+entity = {
+	clone = "SYR_MD4_infantry_2_entity"
+	name = "SYR_vehicle_infantry_rifle_entity"
+	pdxmesh = "SYR_infantry_riflemen_mesh"
+}
+
+###トルコ
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "TUR_MD4_infantry_2_entity"
+	pdxmesh = "TUR_infantry_riflemen_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_hk33_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_hk33_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_hk33_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_hk33_long_idle_entity" }
+}
+
+entity = {
+	clone = "TUR_MD4_infantry_2_entity"
+	name = "TUR_L_Inf_Bat_0_entity"
+	pdxmesh = "TUR_infantry_riflemen_g3_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g3_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g3_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g3_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g3_long_idle_entity" }
+}
+
+entity = {
+	clone = "TUR_MD4_infantry_2_entity"
+	name = "TUR_L_Inf_Bat_1_entity"
+	pdxmesh = "TUR_infantry_riflemen_g3_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g3_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g3_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g3_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g3_long_idle_entity" }
+}
+
+##アブハジアAbkhazia
+
+entity = {
+	clone = "generic_eastern_infantry_entity"
+	name = "ABK_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "ABK_MD4_infantry_2_entity"
+	name = "ABK_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "ABK_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##アルバニアAlbania
+
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "ALB_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "ALB_MD4_infantry_2_entity"
+	name = "ALB_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "ALB_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##アルジェリアAlgeria
+
+entity = {
+	clone = "infantry_MD4_aks74_entity"
+	name = "ALG_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "ALG_MD4_infantry_2_entity"
+	name = "ALG_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "ALG_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##アンドラAndorra
+
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "AND_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "AND_MD4_infantry_2_entity"
+	name = "AND_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "AND_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##アンゴラAngola
+
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "ANG_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "ANG_MD4_infantry_2_entity"
+	name = "ANG_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "ANG_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##アルゼンチンArgentina
+entity = {
+	clone = "infantry_fal_entity"
+	name = "ARG_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "ARG_MD4_infantry_2_entity"
+	name = "ARG_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "ARG_MD4_infantry_2_entity"
+	name = "ARG_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##アルメニアArmenia
+entity = {
+	clone = "infantry_ak74_entity"
+	name = "ARM_MD4_infantry_2_entity"
+	pdxmesh = "ARM_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "ARM_MD4_infantry_2_entity"
+	name = "ARM_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "ARM_Special_Forces_entity"
+	pdxmesh = "ARM_infantry_SF_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_akms_sf_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_akms_sf_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_akms_sf_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_akms_sf_long_idle_entity" }
+}
+##ナゴルノ・カラバフ
+entity = {
+	clone = "ARM_MD4_infantry_2_entity"
+	name = "NKR_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "ARM_MD4_infantry_2_entity"
+	name = "NKR_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "ARM_Special_Forces_entity"
+	name = "NKR_Special_Forces_entity"
+}
+##アゼルバイジャン
+
+entity = {
+	clone = "infantry_ak74_entity"
+	name = "AZE_MD4_infantry_2_entity"
+	pdxmesh = "TUR_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "AZE_MD4_infantry_2_entity"
+	name = "AZE_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "AZE_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_aks74_sf_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_aks74_sf_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_aks74_sf_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_aks74_sf_long_idle_entity" }
+}
+##ブラジルBrazil
+entity = {
+	clone = "infantry_fal_entity"
+	name = "BRA_MD4_infantry_2_entity"
+	pdxmesh = "BRA_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "BRA_L_Marine_Bat_entity"
+	pdxmesh = "BRA_infantry_marine_mesh"
+}
+entity = {
+	clone = "infantry_fal_para_entity"
+	name = "BRA_L_Air_Inf_Bat_entity"
+	pdxmesh = "BRA_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "BRA_MD4_infantry_2_entity"
+	name = "BRA_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_fal_para_entity"
+	name = "BRA_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ブルガリアBulgaria
+entity = {
+	clone = "infantry_MD4_aks74_entity"
+	name = "BUL_MD4_infantry_2_entity"
+	pdxmesh = "BUL_infantry_mesh"
+}
+entity = {
+	clone = "BUL_MD4_infantry_2_entity"
+	name = "BUL_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "BUL_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##グルジアGeorgia
+entity = {
+	clone = "infantry_MD4_aks74_entity"
+	name = "GEO_MD4_infantry_2_entity"
+	pdxmesh = "GEO_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "infantry_akm_entity"
+	name = "GEO_MD4_infantry_2_0_entity"
+	pdxmesh = "GEO_infantry_2000_mesh"
+}
+entity = {
+	clone = "GEO_MD4_infantry_2_0_entity"
+	name = "GEO_MD4_infantry_2_1_entity"
+}
+entity = {
+	clone = "GEO_MD4_infantry_2_entity"
+	name = "GEO_vehicle_infantry_rifle_entity"
+}
+
+##タジキスタンTajikistan
+entity = {
+	clone = "generic_eastern_infantry_entity"
+	name = "TAJ_MD4_infantry_2_entity"
+}
+
+entity = {
+	clone = "TAJ_MD4_infantry_2_entity"
+	name = "TAJ_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "TAJ_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##沿ドニエストルTransnistria
+entity = {
+	clone = "generic_eastern_infantry_entity"
+	name = "TRA_MD4_infantry_2_entity"
+}
+
+entity = {
+	clone = "TRA_MD4_infantry_2_entity"
+	name = "TRA_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "TRA_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##トルクメニスタン
+entity = {
+	clone = "generic_eastern_infantry_entity"
+	name = "TMS_MD4_infantry_2_entity"
+}
+
+entity = {
+	clone = "TMS_MD4_infantry_2_entity"
+	name = "TMS_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "TMS_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ウズベキスタンUzbekistan
+entity = {
+	clone = "generic_eastern_infantry_entity"
+	name = "UZB_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "UZB_MD4_infantry_2_entity"
+	name = "UZB_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "UZB_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ハンガリー
+entity = {
+	clone = "infantry_akms_entity"
+	name = "HUN_MD4_infantry_2_entity"
+	pdxmesh = "HUN_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_amd65_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_amd65_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_amd65_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_amd65_long_idle_entity" }
+}
+entity = {
+	clone = "HUN_MD4_infantry_2_entity"
+	name = "HUN_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "HUN_MD4_infantry_2_entity"
+	name = "HUN_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ルーマニア
+entity = {
+	clone = "infantry_MD4_aks74_entity"
+	name = "ROM_MD4_infantry_2_entity"
+	pdxmesh = "ROM_infantry_riflemen_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_aims74_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_aims74_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_aims74_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_aims74_long_idle_entity" }
+}
+entity = {
+	clone = "ROM_MD4_infantry_2_entity"
+	name = "ROM_MD4_infantry_2_3_entity"
+	pdxmesh = "ROM_infantry_riflemen_2_mesh"
+}
+entity = {
+	clone = "ROM_MD4_infantry_2_entity"
+	name = "ROM_vehicle_infantry_entity"
+}
+entity = {
+	clone = "ROM_MD4_infantry_2_3_entity"
+	name = "ROM_vehicle_infantry_2_entity"
+}
+entity = {
+	clone = "infantry_MD4_aks74_entity"
+	name = "ROM_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ブルガリア
+entity = {
+	clone = "infantry_ak74_entity"
+	name = "BUL_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "BUL_MD4_infantry_2_entity"
+	name = "BUL_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_ak74_entity"
+	name = "BUL_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ベネズエラ
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "VEN_MD4_infantry_2_entity"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak103_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak103_long_idle_entity" }
+}
+entity = {
+	clone = "VEN_MD4_infantry_2_entity"
+	name = "VEN_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "VEN_MD4_infantry_2_entity"
+	name = "VEN_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##M16A1、C7採用国
+##アフガニスタンAfghanistan
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "AFG_MD4_infantry_2_entity"
+	pdxmesh = "AFG_infantry_mesh"
+}
+entity = {
+	clone = "AFG_MD4_infantry_2_entity"
+	name = "AFG_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "AFG_Militia_Bat_entity"
+	pdxmesh = "bba_ITA_infantry_rider_libya_rifle_mesh"
+}
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "AFG_Militia_Bat_alt_0_entity"
+	pdxmesh = "AFG_Border_Police_mesh"
+}
+entity = {
+	clone = "Special_Forces_entity"
+	name = "AFG_Special_Forces_entity"
+	pdxmesh = "AFG_Special_Forces_mesh"
+}
+##イラクIraq
+entity = {
+	clone = "infantry_akm_entity"
+	name = "IRQ_MD4_infantry_2_entity"
+	pdxmesh = "IRQ2000_infantry_mesh"
+}
+entity = {
+	clone = "IRQ_MD4_infantry_2_entity"
+	name = "IRQ_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "IRQ_Special_Forces_entity"
+	pdxmesh = "IRQ2000RG_infantry_mesh"
+}
+##フセイン政権
+entity = {
+	clone = "infantry_akm_entity"
+	name = "IRQ_AUTH_MD4_infantry_2_entity"
+	pdxmesh = "IRQ2000_infantry_mesh"
+}
+entity = {
+	clone = "IRQ_AUTH_MD4_infantry_2_entity"
+	name = "IRQ_AUTH_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "IRQ_AUTH_Special_Forces_entity"
+	pdxmesh = "IRQ2000RG_infantry_mesh"
+}
+##新生イラク政府
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "IRQ_NEW_MD4_infantry_2_entity"
+	pdxmesh = "IRQ_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "IRQ_NEW_MD4_infantry_2_entity"
+	name = "IRQ_NEW_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "IRQ_NEW_MD4_infantry_2_entity"
+	name = "IRQ_NEW_Special_Forces_entity"
+	pdxmesh = "IRQ_infantry_SF_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "USA_infantry_weapon_mg_right_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "USA_infantry_weapon_mg_left_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_mg_long_idle_entity" }
+}
+##ボスニアBosinia
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "BOS_MD4_infantry_2_entity"
+	pdxmesh = "BOS_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_m16a1_rifle_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_m16a1_long_idle_entity" }
+}
+entity = {
+	clone = "BOS_MD4_infantry_2_entity"
+	name = "BOS_vehicle_infantry_rifle_entity"
+}
+
+##シンガポールShingapre
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "SIN_MD4_infantry_2_entity"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_m16a1_rifle_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_m16a1_long_idle_entity" }
+}
+
+entity = {
+	clone = "SIN_MD4_infantry_2_entity"
+	name = "SIN_vehicle_infantry_rifle_entity"
+}
+
+##レバノンLebanon
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "LEB_MD4_infantry_2_entity"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_m16a1_rifle_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_m16a1_long_idle_entity" }
+}
+
+entity = {
+	clone = "LEB_MD4_infantry_2_entity"
+	name = "LEB_vehicle_infantry_rifle_entity"
+}
+
+##ステアーAUG採用国
+##オーストラリアAustralia
+entity = {
+	clone = "infantry_aug_entity"
+	name = "AST_MD4_infantry_2_entity"
+	pdxmesh = "AST_infantry_mg_mesh"
+}
+entity = {
+	clone = "AST_MD4_infantry_2_entity"
+	name = "AST_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "AST_MD4_infantry_2_entity"
+	name = "AST_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##オーストリアAustria
+entity = {
+	clone = "infantry_aug_entity"
+	name = "AUS_MD4_infantry_2_entity"
+	pdxmesh = "AUS_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "AUS_MD4_infantry_2_entity"
+	name = "AUS_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "AUS_MD4_infantry_2_entity"
+	name = "AUS_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ニュージランドNew Zealand
+entity = {
+	clone = "infantry_aug_entity"
+	name = "NZL_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "NZL_MD4_infantry_2_entity"
+	name = "NZL_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "NZL_MD4_infantry_2_entity"
+	name = "NZL_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##アイルランドIreland
+entity = {
+	clone = "infantry_aug_entity"
+	name = "IRE_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "IRE_MD4_infantry_2_entity"
+	name = "IRE_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "IRE_MD4_infantry_2_entity"
+	name = "IRE_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##サウジアラビアSaudi Arabia  
+entity = {
+	clone = "infantry_g3_entity"
+	name = "SAU_MD4_infantry_2_0_entity"
+	pdxmesh = "SAU_infantry_mesh"
+}
+entity = {
+	clone = "infantry_aug_entity"
+	name = "SAU_MD4_infantry_2_entity"
+	pdxmesh = "SAU_infantry_mesh"
+}
+entity = {
+	clone = "SAU_MD4_infantry_2_entity"
+	name = "SAU_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "SAU_MD4_infantry_2_entity"
+	name = "SAU_L_Marine_Bat_entity"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g36e_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g36e_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g36e_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g36e_long_idle_entity" }
+}
+entity = {
+	clone = "SAU_MD4_infantry_2_entity"
+	name = "SAU_L_Air_Inf_Bat_entity"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak103_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak103_long_idle_entity" }
+}
+entity = {
+	clone = "SAU_MD4_infantry_2_entity"
+	name = "SAU_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##チュニジアTunisia
+entity = {
+	clone = "infantry_aug_entity"
+	name = "TUN_MD4_infantry_2_entity"
+	pdxmesh = "TUN_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "TUN_MD4_infantry_2_entity"
+	name = "TUN_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "TUN_MD4_infantry_2_entity"
+	name = "TUN_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##マレーシアMalaysia
+entity = {
+	clone = "infantry_aug_entity"
+	name = "MAY_MD4_infantry_2_entity"
+	pdxmesh = "MAY_infantry_mesh"
+}
+entity = {
+	clone = "MAY_MD4_infantry_2_entity"
+	name = "MAY_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_g36_entity"
+	name = "MAY_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##オマーンOman
+entity = {
+	clone = "infantry_aug_entity"
+	name = "OMA_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "OMA_MD4_infantry_2_entity"
+	name = "OMA_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "OMA_MD4_infantry_2_entity"
+	name = "OMA_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ルクセンブルク
+entity = {
+	clone = "infantry_aug_entity"
+	name = "LUX_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "LUX_MD4_infantry_2_entity"
+	name = "LUX_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "LUX_MD4_infantry_2_entity"
+	name = "LUX_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ポーランド　ベリル
+entity = {
+	clone = "infantry_akm_entity"
+	name = "POL_MD4_infantry_2_entity"
+	pdxmesh = "POL_infantry_mesh"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "POL_MD4_infantry_2_1_entity"
+	pdxmesh = "POL_infantry_mesh"
+}
+
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "POL_MD4_infantry_2_2_entity"
+	pdxmesh = "POL_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_wz1996_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_wz1996_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_wz1996_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_wz1996_long_idle_entity" }
+}
+entity = {
+	clone = "POL_MD4_infantry_2_entity"
+	name = "POL_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "POL_MD4_infantry_2_1_entity"
+	name = "POL_vehicle_infantry_rifle_1_entity"
+}
+entity = {
+	clone = "POL_MD4_infantry_2_2_entity"
+	name = "POL_vehicle_infantry_rifle_2_entity"
+}
+entity = {
+	clone = "POL_MD4_infantry_2_entity"
+	name = "POL_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##日本　89式
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "JAP_MD4_infantry_2_entity"
+	pdxmesh = "JAP_infantry1990_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_type89_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_type89_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_type89_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_type89_long_idle_entity" }
+}
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "JAP_MD4_infantry_2_0_entity"
+	pdxmesh = "JAP_infantry1980_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_type64_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_type64_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_type64_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_type64_long_idle_entity" }
+}
+entity = {
+	clone = "UKR_MD4_infantry_2_0_entity"
+	name = "JAP_MD4_infantry_2_1_entity"
+	pdxmesh = "JAP_infantry1985_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_type64_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_type64_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_type64_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_type64_long_idle_entity" }
+}
+entity = {
+	clone = "UKR_MD4_infantry_2_0_entity"
+	name = "JAP_MD4_infantry_2_2_entity"
+	pdxmesh = "JAP_infantry1990_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_type89_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_type89_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_type89_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_type89_long_idle_entity" }
+}
+entity = {
+	clone = "JAP_MD4_infantry_entity"
+	name = "JAP_vehicle_infantry_type64_entity"
+}
+entity = {
+	clone = "JAP_MD4_infantry_2_entity"
+	name = "JAP_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "JAP_MD4_infantry_2_entity"
+	name = "JAP_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+
+##フィンランド RK95
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "FIN_MD4_infantry_2_entity"
+	pdxmesh = "FIN_infantry_riflemen_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_rk95_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_rk95_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_rk95_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_rk95_long_idle_entity" }
+}
+entity = {
+	clone = "FIN_MD4_infantry_2_entity"
+	name = "FIN_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "FIN_MD4_infantry_2_entity"
+	name = "FIN_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+
+##C7採用国
+##カナダ C7
+entity = {
+	clone = "infantry_MD4_c7_entity"
+	name = "CAN_MD4_infantry_2_entity"
+	pdxmesh = "CAN_infantry_mg_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_c7_green_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_c7_green_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_c7_green_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_c7_green_long_idle_entity" }
+}
+entity = {
+	clone = "CAN_MD4_infantry_2_entity"
+	name = "CAN_vehicle_infantry_rifle_entity"
+}
+##デンマーク
+entity = {
+	clone = "infantry_MD4_c7_entity"
+	name = "DEN_MD4_infantry_2_entity"
+	pdxmesh = "DEN_infantry_mesh"
+}
+entity = {
+	clone = "DEN_MD4_infantry_2_entity"
+	name = "DEN_vehicle_infantry_rifle_entity"
+}
+##オランダ
+entity = {
+	clone = "infantry_MD4_c7_entity"
+	name = "HOL_MD4_infantry_2_entity"
+	pdxmesh = "HOL_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "HOL_MD4_infantry_2_entity"
+	name = "HOL_vehicle_infantry_rifle_entity"
+}
+##ノルウェー
+entity = {
+	clone = "infantry_MD4_c7_entity"
+	name = "NOR_MD4_infantry_2_entity"
+	pdxmesh = "NOR_infantry_mesh"
+}
+entity = {
+	clone = "NOR_MD4_infantry_2_entity"
+	name = "NOR_vehicle_infantry_rifle_entity"
+}
+
+##FAMAS採用国
+##フランス
+entity = {
+	clone = "infantry_g36_entity"
+	name = "FRA_MD4_infantry_2_entity"
+	pdxmesh = "FRA_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_famas_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_famas_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_famas_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_famas_long_idle_entity" }
+}
+
+entity = {
+	clone = "FRA_MD4_infantry_2_entity"
+	name = "FRA_vehicle_infantry_rifle_entity"
+}
+##クロアチア　本当はVHS
+entity = {
+	clone = "FRA_MD4_infantry_2_entity"
+	name = "CRO_MD4_infantry_2_entity"
+	pdxmesh = "Generic_infantry_riflemen_mesh"
+}
+
+entity = {
+	clone = "CRO_MD4_infantry_2_entity"
+	name = "CRO_vehicle_infantry_rifle_entity"
+}
+
+##G36採用国
+##ドイツ
+entity = {
+	clone = "infantry_g36_entity"
+	name = "GER_MD4_infantry_2_entity"
+	pdxmesh = "GER_infantry_mesh"
+}
+entity = {
+	clone = "infantry_g3_entity"
+	name = "GER_MD4_infantry_2_0_entity"
+	pdxmesh = "GER_infantry1990_mesh"
+}
+entity = {
+	clone = "GER_MD4_infantry_2_0_entity"
+	name = "GER_MD4_infantry_2_1_entity"
+}
+entity = {
+	clone = "GER_MD4_infantry_2_1_entity"
+	name = "GER_MD4_infantry_2_2_entity"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_hk33_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_hk33_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_hk33_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_hk33_long_idle_entity" }
+}
+entity = {
+	clone = "GER_MD4_infantry_2_entity"
+	name = "GER_vehicle_infantry_rifle_entity"
+}
+##スペイン
+entity = {
+	clone = "infantry_g36_entity"
+	name = "SPR_MD4_infantry_2_entity"
+	pdxmesh = "SPR_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g36e_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g36e_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g36e_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g36e_long_idle_entity" }
+}
+entity = {
+	clone = "SPR_MD4_infantry_2_entity"
+	name = "SPR_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_g36_entity"
+	name = "SPR_MD4_infantry_2_0_entity"
+	pdxmesh = "SPR_infantry_rifle_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g3_wood_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g3_wood_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g3_wood_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g3_wood_long_idle_entity" }
+}entity = {
+	clone = "SPR_MD4_infantry_2_0_entity"
+	name = "SPR_vehicle_infantry_rifle_0_entity"
+}
+entity = {
+	clone = "SPR_MD4_infantry_2_0_entity"
+	name = "SPR_MD4_infantry_2_1_entity"
+}
+
+
+##ポルトガル
+entity = {
+	clone = "infantry_g36_entity"
+	name = "POR_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "POR_MD4_infantry_2_entity"
+	name = "POR_vehicle_infantry_rifle_entity"
+}
+
+##ラトビア
+entity = {
+	clone = "infantry_g36_entity"
+	name = "LAT_MD4_infantry_2_entity"
+	pdxmesh = "LAT_infantry_mesh"
+}
+entity = {
+	clone = "LAT_MD4_infantry_2_entity"
+	name = "LAT_MD4_infantry_2_0_entity"
+	pdxmesh = "BALTO_infantry_1990_mesh"
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_m16a1_rifle_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_m16a1_long_idle_entity" }
+}
+entity = {
+	clone = "LAT_MD4_infantry_2_entity"
+	name = "LAT_vehicle_infantry_rifle_entity"
+}
+
+##リトアニア
+entity = {
+	clone = "infantry_g36_entity"
+	name = "LIT_MD4_infantry_2_entity"
+	pdxmesh = "LIT_infantry_mesh"
+}
+entity = {
+	clone = "LAT_MD4_infantry_2_0_entity"
+	name = "LIT_MD4_infantry_2_0_entity"
+}
+entity = {
+	clone = "LIT_MD4_infantry_2_entity"
+	name = "LIT_vehicle_infantry_rifle_entity"
+}
+
+###タイ
+entity = {
+	clone = "infantry_g36_entity"
+	name = "SIA_MD4_infantry_2_entity"
+	pdxmesh = "SIA_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_hk33_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_hk33_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_hk33_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_hk33_long_idle_entity" }
+}
+entity = {
+	clone = "SIA_MD4_infantry_2_entity"
+	name = "SIA_MD4_infantry_2_0_entity"
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_m16a1_rifle_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_m16a1_long_idle_entity" }
+}
+entity = {
+	clone = "SIA_MD4_infantry_2_entity"
+	name = "SIA_MD4_infantry_2_1_entity"
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_m16a2_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_m16a2_rifle_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_m16a2_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_m16a2_long_idle_entity" }
+}
+entity = {
+	clone = "SIA_MD4_infantry_2_entity"
+	name = "SIA_vehicle_infantry_rifle_entity"
+}
+
+##ベルギー
+entity = {
+	clone = "infantry_fnc_entity"
+	name = "BEL_MD4_infantry_2_entity"
+	pdxmesh = "BEL_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "BEL_MD4_infantry_2_entity"
+	name = "BEL_vehicle_infantry_rifle_entity"
+}
+
+##アルジェリア
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "ALG_MD4_infantry_2_entity"
+	pdxmesh = "ALG_infantry_riflemen_mesh"
+}
+entity = {
+	clone = "ALG_MD4_infantry_2_entity"
+	name = "ALG_vehicle_infantry_rifle_entity"
+}
+
+##ガリル採用国
+##ボリビア
+entity = {
+	clone = "infantry_galil_entity"
+	name = "BOL_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "BOL_MD4_infantry_2_entity"
+	name = "BOL_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "BOL_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ボツワナ
+entity = {
+	clone = "infantry_galil_entity"
+	name = "BOT_MD4_infantry_2_entity"
+	pdxmesh = "DRC_infantry_mg_mesh"
+}
+entity = {
+	clone = "BOT_MD4_infantry_2_entity"
+	name = "BOT_vehicle_infantry_rifle_entity"
+}
+##エルサルバドル
+entity = {
+	clone = "infantry_galil_entity"
+	name = "ELS_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "ELS_MD4_infantry_2_entity"
+	name = "ELS_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "ELS_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##エストニア
+entity = {
+	clone = "infantry_galil_entity"
+	name = "EST_MD4_infantry_2_entity"
+	pdxmesh = "EST_infantry_mesh"
+}
+entity = {
+	clone = "LAT_MD4_infantry_2_0_entity"
+	name = "EST_MD4_infantry_2_0_entity"
+}
+entity = {
+	clone = "EST_MD4_infantry_2_entity"
+	name = "EST_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "EST_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##グアテマラ
+entity = {
+	clone = "infantry_galil_entity"
+	name = "GUA_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "GUA_MD4_infantry_2_entity"
+	name = "GUA_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "GUA_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ハイチ
+entity = {
+	clone = "infantry_galil_entity"
+	name = "HAI_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "HAI_MD4_infantry_2_entity"
+	name = "HAI_vehicle_infantry_rifle_entity"
+}
+##ホンジャラス
+entity = {
+	clone = "infantry_galil_entity"
+	name = "HON_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "HON_MD4_infantry_2_entity"
+	name = "HON_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "HON_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##レソト
+entity = {
+	clone = "infantry_galil_entity"
+	name = "LES_MD4_infantry_2_entity"
+	pdxmesh = "DRC_infantry_mg_mesh"
+}
+entity = {
+	clone = "LES_MD4_infantry_2_entity"
+	name = "LES_vehicle_infantry_rifle_entity"
+}
+##ニカラグア
+entity = {
+	clone = "infantry_galil_entity"
+	name = "NIC_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "NIC_MD4_infantry_2_entity"
+	name = "NIC_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "NIC_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##ペルー
+entity = {
+	clone = "infantry_galil_entity"
+	name = "PRU_MD4_infantry_2_entity"
+	pdxmesh = "PRU_infantry_mesh"
+}
+entity = {
+	clone = "PRU_MD4_infantry_2_entity"
+	name = "PRU_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "PRU_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##南アフリカ
+entity = {
+	clone = "infantry_galil_entity"
+	name = "SAF_MD4_infantry_2_entity"
+}
+entity = {
+	clone = "SAF_MD4_infantry_2_entity"
+	name = "SAF_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "SAF_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##コロンビア
+entity = {
+	clone = "infantry_galil_entity"
+	name = "COL_MD4_infantry_2_entity"
+	pdxmesh = "COL_infantry_mesh"
+}
+entity = {
+	clone = "COL_MD4_infantry_2_entity"
+	name = "COL_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "COL_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+
+##インドネシア
+entity = {
+	clone = "infantry_fnc_entity"
+	name = "IND_MD4_infantry_2_entity"
+	pdxmesh = "IND_infantry_mesh"
+}
+entity = {
+	clone = "IND_MD4_infantry_2_entity"
+	name = "IND_vehicle_infantry_rifle_entity"
+}
+
+##チリ
+entity = {
+	clone = "infantry_sg540_entity"
+	name = "CHL_MD4_infantry_2_entity"
+	pdxmesh = "CHL_infantry_mesh"
+}
+entity = {
+	clone = "CHL_MD4_infantry_2_entity"
+	name = "CHL_vehicle_infantry_rifle_entity"
+}
+
+##スウェーデン
+entity = {
+	clone = "infantry_fnc_entity"
+	name = "SWE_MD4_infantry_2_0_entity"
+	pdxmesh = "SWE_infantry_Rifle_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_g3_bk_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_g3_bk_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_g3_bk_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_g3_bk_long_idle_entity" }
+}
+entity = {
+	clone = "SWE_MD4_infantry_2_0_entity"
+	name = "SWE_MD4_infantry_2_1_entity"
+}
+entity = {
+	clone = "infantry_fnc_entity"
+	name = "SWE_MD4_infantry_2_entity"
+	pdxmesh = "SWE_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak5_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak5_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak5_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak5_long_idle_entity" }
+}
+entity = {
+	clone = "SWE_MD4_infantry_2_entity"
+	name = "SWE_vehicle_infantry_rifle_entity"
+}
+
+##モルドバ
+entity = {
+	clone = "infantry_akms_entity"
+	name = "MLV_MD4_infantry_2_entity"
+	pdxmesh = "MLV_infantry_mesh"
+}
+entity = {
+	clone = "MLV_MD4_infantry_2_entity"
+	name = "MLV_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "MLV_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+
+##リビア
+entity = {
+	clone = "infantry_akm_entity"
+	name = "LBA_MD4_infantry_2_entity"
+	pdxmesh = "LBA_infantry_mesh"
+}
+entity = {
+	clone = "LBA_MD4_infantry_2_entity"
+	name = "LBA_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "LBA_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+##エジプト
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "EGY_MD4_infantry_2_entity"
+	pdxmesh = "EGY_infantry_mg_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak103_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak103_long_idle_entity" }
+}
+entity = {
+	clone = "EGY_MD4_infantry_2_entity"
+	name = "EGY_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "EGY_MD4_infantry_2_entity"
+	name = "EGY_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+
+##インド
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "RAJ_MD4_infantry_2_entity"
+	pdxmesh = "RAJ_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_insas_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_insas_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_insas_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_insas_long_idle_entity" }
+}
+entity = {
+	clone = "RAJ_MD4_infantry_2_entity"
+	name = "RAJ_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "RAJ_MD4_infantry_2_entity"
+	name = "RAJ_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak103_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak103_long_idle_entity" }
+}
+
+##イタリア
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "ITA_MD4_infantry_2_entity"
+	pdxmesh = "ITA_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_arx160_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_arx160_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_arx160_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_arx160_long_idle_entity" }
+}
+entity = {
+	clone = "ITA_MD4_infantry_2_entity"
+	name = "ITA_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "ITA_MD4_infantry_2_entity"
+	name = "ITA_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+}
+
+##USA
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "DIX_MD4_infantry_2_0_entity"
+	pdxmesh = "DIX_infantry_mesh"
+}
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "USA_MD4_infantry_2_1_entity"
+	pdxmesh = "USA_infantry_2000_mesh"
+}
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "USA_L_Marine_Bat_entity"
+	pdxmesh = "USMC_infantry_mesh"
+}
+
+##MOR
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "MOR_MD4_infantry_2_entity"
+	pdxmesh = "MOR_infantry_mesh"
+}
+entity = {
+	clone = "MOR_MD4_infantry_2_entity"
+	name = "MOR_vehicle_infantry_rifle_entity"
+}
+
+##セルビア
+entity = {
+	clone = "infantry_akm_entity"
+	name = "SER_MD4_infantry_2_entity"
+	pdxmesh = "SER_infantry_mesh"
+
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_zastava_m21_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_zastava_m21_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_zastava_m21_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_zastava_m21_idle_entity" }
+}
+entity = {
+	clone = "SER_MD4_infantry_2_entity"
+	name = "SER_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_akms_entity"
+	name = "SER_Special_Forces_entity"
+	pdxmesh = "Generic_infantry_SF_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_zastava_m21A_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_zastava_m21A_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_zastava_m21A_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_zastava_m21A_idle_entity" }
+}
+
+##SLO
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "SLO_MD4_infantry_2_entity"
+	pdxmesh = "SLO_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_vz58_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_vz58_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_vz58_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_vz58_long_idle_entity" }
+}
+entity = {
+	clone = "SLO_MD4_infantry_2_entity"
+	name = "SLO_vehicle_infantry_rifle_entity"
+}
+
+##CZE
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "CZE_MD4_infantry_2_0_entity"
+	pdxmesh = "CZE_MD4_infantry_mg_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_vz58_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_vz58_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_vz58_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_vz58_long_idle_entity" }
+}
+entity = {
+	clone = "CZE_MD4_infantry_2_0_entity"
+	name = "CZE_MD4_infantry_2_1_entity"
+}
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "CZE_MD4_infantry_2_2_entity"
+	pdxmesh = "CZE_MD4_infantry_mg_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_vz58p_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_vz58p_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_vz58p_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_vz58p_long_idle_entity" }
+}
+entity = {
+	clone = "CZE_MD4_infantry_2_2_entity"
+	name = "CZE_MD4_infantry_2_3_entity"
+}
+
+##TAI
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "TAI_MD4_infantry_2_entity"
+	pdxmesh = "TAI_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_t91_right_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_t91_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_t91_left_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_t91_long_idle_entity" }
+}
+entity = {
+	clone = "TAI_MD4_infantry_2_entity"
+	name = "TAI_vehicle_infantry_rifle_entity"
+}
+
+##UAE
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "UAE_MD4_infantry_2_entity"
+	pdxmesh = "UAE_infantry_mesh"
+}
+entity = {
+	clone = "UAE_MD4_infantry_2_entity"
+	name = "UAE_vehicle_infantry_rifle_entity"
+}
+
+##VIE　ベトナム軍
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "VIE_MD4_infantry_2_entity"
+	pdxmesh = "VIE_infantry_mesh"
+}
+entity = {
+	clone = "infantry_akm_entity"
+	name = "VIE_MD4_infantry_2_0_entity"
+	pdxmesh = "VIE_infantry_mesh"
+}
+entity = {
+	clone = "VIE_MD4_infantry_2_0_entity"
+	name = "VIE_MD4_infantry_2_1_entity"
+}
+entity = {
+	clone = "VIE_MD4_infantry_2_entity"
+	name = "VIE_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "VIE_Special_Forces_entity"
+	pdxmesh = "VIE_infantry_SF_mesh"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "VIE_L_Marine_Bat_entity"
+	pdxmesh = "VIE_infantry_Marine_mesh"
+}
+entity = {
+	clone = "infantry_galil_short_entity"
+	name = "VIE_L_Air_Inf_Bat_entity"
+	pdxmesh = "VIE_infantry_SF_mesh"
+}
+
+##VIE　パキスタン軍
+entity = {
+	clone = "infantry_g3_entity"
+	name = "PAK_MD4_infantry_2_entity"
+	pdxmesh = "PAK_infantry_Rifle_mesh"
+}
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "PAK_MD4_infantry_2_alt_0_entity"
+	pdxmesh = "PAK_infantry_mesh"
+}
+entity = {
+	clone = "PAK_MD4_infantry_2_entity"
+	name = "PAK_vehicle_infantry_rifle_entity"
+}
+
+#タバリン
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "TAL_Special_Forces_entity"
+	pdxmesh = "bba_ITA_infantry_rider_libya_rifle_mesh"
+}
+
+##ケニア軍
+entity = {
+	clone = "infantry_g3_wide_entity"
+	name = "KEN_MD4_infantry_2_entity"
+	pdxmesh = "KEN_infantry_mesh"
+}
+entity = {
+	clone = "KEN_MD4_infantry_2_entity"
+	name = "KEN_vehicle_infantry_rifle_entity"
+}
+
+##ナイジェリア軍
+entity = {
+	clone = "infantry_ak47s_entity"
+	name = "NIG_MD4_infantry_2_entity"
+	pdxmesh = "NIG_infantry_mesh"
+}
+entity = {
+	clone = "NIG_MD4_infantry_2_entity"
+	name = "NIG_vehicle_infantry_rifle_entity"
+}
+
+##エチオピア軍
+entity = {
+	clone = "MD4_infantry_2_entity"
+	name = "ETH_MD4_infantry_2_entity"
+	pdxmesh = "ETH_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_ak103_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_ak103_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_ak103_long_idle_entity" }
+}
+entity = {
+	clone = "ETH_MD4_infantry_2_entity"
+	name = "ETH_vehicle_infantry_rifle_entity"
+}
+##フィリピン軍
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "PHI_MD4_infantry_2_entity"
+	pdxmesh = "PHI_infantry_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_m16a1_rifle_left_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_m16a1_right_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_m16a1_long_idle_entity" }
+}
+
+entity = {
+	clone = "PHI_MD4_infantry_2_entity"
+	name = "PHI_vehicle_infantry_rifle_entity"
+}
+##アルゼンチン軍
+entity = {
+	clone = "infantry_fal_entity"
+	name = "ARG_MD4_infantry_2_entity"
+	pdxmesh = "ARG_infantry_mesh"
+}
+entity = {
+	clone = "ARG_MD4_infantry_2_entity"
+	name = "ARG_vehicle_infantry_rifle_entity"
+}
+##ヨルダン軍
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "JOR_MD4_infantry_2_entity"
+	pdxmesh = "JOR_infantry_mesh"
+}
+entity = {
+	clone = "JOR_MD4_infantry_2_entity"
+	name = "JOR_vehicle_infantry_rifle_entity"
+}
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "JOR_L_Marine_Bat_entity"
+	pdxmesh = "JOR_infantry_marine_mesh"
+}
+entity = {
+	clone = "infantry_akm_entity"
+	name = "JOR_Special_Forces_entity"
+	pdxmesh = "JOR_infantry_SF_mesh"
+
+	attach = { 	name = "rifle1"	Right_Hand_node = "geo_t91_right_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "geo_t91_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "geo_t91_left_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "geo_t91_long_idle_entity" }
+}
+##韓国軍
+entity = {
+	clone = "infantry_m16a2_entity"
+	name = "KOR_MD4_infantry_2_entity"
+	pdxmesh = "ROK_infantry_mesh"
+	attach = { 	name = "rifle1"	Right_Hand_node = "KOR_infantry_weapon_mg_right_entity" }
+	attach = { 	name = "rifle2"	Left_Hand_node = "KOR_infantry_weapon_mg_left_entity" }
+	attach = { 	name = "rifle3"	mid_back_node = "KOR_infantry_weapon_mg_long_idle_entity" }
+	attach = { 	name = "rifle4"	Root_node_2 = "KOR_infantry_weapon_rifle_right_entity" }
+}
+entity = {
+	clone = "KOR_MD4_infantry_2_entity"
+	name = "KOR_vehicle_infantry_rifle_entity"
+}
+

@@ -1,0 +1,16 @@
+characters = {
+	TKS_uwe_ulrich_jaschke = {
+		name = "Uwe Ulrich Jäschke" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_uwe_ulrich_jaschke
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

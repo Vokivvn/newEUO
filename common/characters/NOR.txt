@@ -1,0 +1,16 @@
+characters = {
+	NOR_erik_blucher = {
+		name = "Erik Blücher" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_erik_blucher
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

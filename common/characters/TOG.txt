@@ -1,0 +1,16 @@
+characters = {
+	TOG_Faure_Gnassingbe = {
+		name = "Faure Gnassingbe" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Faure_Gnassingbe
+			}
+		}
+		country_leader = {
+			ideology = paternalist_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

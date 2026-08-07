@@ -1,0 +1,484 @@
+
+shared_focus = {
+	id = NGE_seekrieg
+	icon = GFX_NGE_seekrieg
+	cost = 2
+	x = 1
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_seekrieg"
+	}
+}
+
+shared_focus = {
+	id = NGE_against_sutters_mismanagement
+	icon = GFX_NGE_against_sutters_mismanagement
+	cost = 2
+	x = 11
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_against_sutters_mismanagement"
+	}
+	relative_position_id = NGE_all_power_to_sutter
+	prerequisite = { focus = NGE_seekrieg }
+	mutually_exclusive = { focus = NGE_all_power_to_sutter }
+}
+
+shared_focus = {
+	id = NGE_all_power_to_sutter
+	icon = GFX_NGE_all_power_to_sutter
+	cost = 2
+	x = -6
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_all_power_to_sutter"
+	}
+	relative_position_id = NGE_seekrieg
+	prerequisite = { focus = NGE_seekrieg }
+	mutually_exclusive = { focus = NGE_against_sutters_mismanagement }
+}
+
+shared_focus = {
+	id = NGE_holding_on_with_both_hands
+	icon = GFX_NGE_holding_on_with_both_hands
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_holding_on_with_both_hands"
+	}
+	relative_position_id = NGE_all_power_to_sutter
+	prerequisite = { focus = NGE_all_power_to_sutter }
+}
+
+shared_focus = {
+	id = NGE_stabilizing_the_regime
+	icon = GFX_NGE_stabilizing_the_regime
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_stabilizing_the_regime"
+	}
+	relative_position_id = NGE_against_sutters_mismanagement
+	prerequisite = { focus = NGE_against_sutters_mismanagement }
+}
+
+shared_focus = {
+	id = NGE_requesting_more_help_from_germania
+	icon = GFX_NGE_requesting_more_help_from_germania
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_requesting_more_help_from_germania"
+	}
+	relative_position_id = NGE_against_sutters_mismanagement
+	prerequisite = { focus = NGE_against_sutters_mismanagement }
+}
+
+shared_focus = {
+	id = NGE_a_page_from_dixie
+	icon = GFX_NGE_a_page_from_dixie
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_a_page_from_dixie"
+	}
+	relative_position_id = NGE_requesting_more_help_from_germania
+	prerequisite = { focus = NGE_requesting_more_help_from_germania }
+}
+
+shared_focus = {
+	id = NGE_punishing_incompetence
+	icon = GFX_NGE_punishing_incompetence
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_punishing_incompetence"
+	}
+	relative_position_id = NGE_stabilizing_the_regime
+	prerequisite = { focus = NGE_stabilizing_the_regime }
+}
+
+shared_focus = {
+	id = NGE_rapid_storm_tactics
+	icon = GFX_NGE_rapid_storm_tactics
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_rapid_storm_tactics"
+	}
+	relative_position_id = NGE_in_the_spirit_of_goebbels
+	prerequisite = { focus = NGE_in_the_spirit_of_goebbels }
+}
+
+shared_focus = {
+	id = NGE_a_knock_on_the_door
+	icon = GFX_NGE_a_knock_on_the_door
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+        retire_character = NGE_joshua_caleb_sutter
+        add_country_leader_role = {
+            character = NGE_rocky_suhayda
+            promote_leader = yes
+        country_leader = {
+            ideology = fascism_ideology
+            expire = "1965.1.1.1"
+            traits = { war_industrialist }
+        }
+    }
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_a_knock_on_the_door"
+	}
+	relative_position_id = NGE_a_page_from_dixie
+	prerequisite = { focus = NGE_a_page_from_dixie }
+	prerequisite = { focus = NGE_punishing_incompetence }
+}
+
+shared_focus = {
+	id = NGE_in_the_spirit_of_goebbels
+	icon = GFX_NGE_in_the_spirit_of_goebbels
+	cost = 2
+	x = 7
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_in_the_spirit_of_goebbels"
+	}
+	relative_position_id = NGE_against_sutters_mismanagement
+	prerequisite = { focus = NGE_against_sutters_mismanagement }
+}
+
+shared_focus = {
+	id = NGE_mobilization_of_the_homeland
+	icon = GFX_NGE_mobilization_of_the_homeland
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_mobilization_of_the_homeland"
+	}
+	relative_position_id = NGE_in_the_spirit_of_goebbels
+	prerequisite = { focus = NGE_in_the_spirit_of_goebbels }
+}
+
+shared_focus = {
+	id = NGE_a_war_that_must_be_won
+	icon = GFX_NGE_a_war_that_must_be_won
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_a_war_that_must_be_won"
+	}
+	relative_position_id = NGE_a_knock_on_the_door
+	prerequisite = { focus = NGE_a_knock_on_the_door }
+}
+
+shared_focus = {
+	id = NGE_savoring_every_piece_of_equipment
+	icon = GFX_NGE_savoring_every_piece_of_equipment
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_savoring_every_piece_of_equipment"
+	}
+	relative_position_id = NGE_mobilization_of_the_homeland
+	prerequisite = { focus = NGE_mobilization_of_the_homeland }
+}
+
+shared_focus = {
+	id = NGE_operation_dringende_kraft
+	icon = GFX_NGE_operation_dringende_kraft
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_operation_dringende_kraft"
+	}
+	relative_position_id = NGE_rapid_storm_tactics
+	prerequisite = { focus = NGE_rapid_storm_tactics }
+}
+
+shared_focus = {
+	id = NGE_wehrmacht_maneuverability_project
+	icon = GFX_NGE_wehrmacht_maneuverability_project
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_wehrmacht_maneuverability_project"
+	}
+	relative_position_id = NGE_rapid_storm_tactics
+	prerequisite = { focus = NGE_rapid_storm_tactics }
+}
+
+shared_focus = {
+	id = NGE_top_from_down_officer_training
+	icon = GFX_NGE_top_from_down_officer_training
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_top_from_down_officer_training"
+	}
+	relative_position_id = NGE_mobilization_of_the_homeland
+	prerequisite = { focus = NGE_mobilization_of_the_homeland }
+}
+
+shared_focus = {
+	id = NGE_everything_to_the_war
+	icon = GFX_NGE_everything_to_the_war
+	cost = 2
+	x = -5
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_everything_to_the_war"
+	}
+	relative_position_id = NGE_all_power_to_sutter
+	prerequisite = { focus = NGE_all_power_to_sutter }
+}
+
+shared_focus = {
+	id = NGE_rooting_out_the_traitors
+	icon = GFX_NGE_rooting_out_the_traitors
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_rooting_out_the_traitors"
+	}
+	relative_position_id = NGE_holding_on_with_both_hands
+	prerequisite = { focus = NGE_holding_on_with_both_hands }
+}
+
+shared_focus = {
+	id = NGE_spreading_satanism_into_the_ss
+	icon = GFX_NGE_spreading_satanism_into_the_ss
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_spreading_satanism_into_the_ss"
+	}
+	relative_position_id = NGE_everything_to_the_war
+	prerequisite = { focus = NGE_everything_to_the_war }
+}
+
+shared_focus = {
+	id = NGE_fasttrack_military_conversion
+	icon = GFX_NGE_fasttrack_military_conversion
+	cost = 2
+	x = -4
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_fasttrack_military_conversion"
+	}
+	relative_position_id = NGE_against_sutters_mismanagement
+	prerequisite = { focus = NGE_against_sutters_mismanagement }
+}
+
+shared_focus = {
+	id = NGE_around_the_clock_production
+	icon = GFX_NGE_around_the_clock_production
+	cost = 2
+	x = 5
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_around_the_clock_production"
+	}
+	relative_position_id = NGE_all_power_to_sutter
+	prerequisite = { focus = NGE_all_power_to_sutter }
+}
+
+shared_focus = {
+	id = NGE_identifying_suhaydas_clique
+	icon = GFX_NGE_identifying_suhaydas_clique
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_identifying_suhaydas_clique"
+	}
+	relative_position_id = NGE_holding_on_with_both_hands
+	prerequisite = { focus = NGE_holding_on_with_both_hands }
+}
+
+shared_focus = {
+	id = NGE_blood_and_soil_in_another_way
+	icon = GFX_NGE_blood_and_soil_in_another_way
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_blood_and_soil_in_another_way"
+	}
+	relative_position_id = NGE_identifying_suhaydas_clique
+	prerequisite = { focus = NGE_identifying_suhaydas_clique }
+	prerequisite = { focus = NGE_to_deadend_positions }
+	mutually_exclusive = { focus = NGE_to_deadend_positions }
+}
+
+shared_focus = {
+	id = NGE_to_deadend_positions
+	icon = GFX_NGE_to_deadend_positions
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_to_deadend_positions"
+	}
+	relative_position_id = NGE_identifying_suhaydas_clique
+	prerequisite = { focus = NGE_identifying_suhaydas_clique }
+	mutually_exclusive = { focus = NGE_blood_and_soil_in_another_way }
+}
+
+shared_focus = {
+	id = NGE_mass_gestapo_raids
+	icon = GFX_NGE_mass_gestapo_raids
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_mass_gestapo_raids"
+	}
+	relative_position_id = NGE_rooting_out_the_traitors
+	prerequisite = { focus = NGE_rooting_out_the_traitors }
+}
+
+shared_focus = {
+	id = NGE_a_personal_touch
+	icon = GFX_NGE_a_personal_touch
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_a_personal_touch"
+	}
+	relative_position_id = NGE_blood_and_soil_in_another_way
+	prerequisite = { focus = NGE_blood_and_soil_in_another_way }
+}
+
+shared_focus = {
+	id = NGE_a_dark_age
+	icon = GFX_NGE_a_dark_age
+	cost = 2
+	x = -2
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_a_dark_age"
+	}
+	relative_position_id = NGE_to_deadend_positions
+	prerequisite = { focus = NGE_to_deadend_positions }
+	prerequisite = { focus = NGE_mass_gestapo_raids }
+	prerequisite = { focus = NGE_cohesion_in_belief }
+}
+
+shared_focus = {
+	id = NGE_cohesion_in_belief
+	icon = GFX_NGE_cohesion_in_belief
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_cohesion_in_belief"
+	}
+	relative_position_id = NGE_spreading_satanism_into_the_ss
+	prerequisite = { focus = NGE_spreading_satanism_into_the_ss }
+}
+
+shared_focus = {
+	id = NGE_annihilation_warfare
+	icon = GFX_NGE_annihilation_warfare
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_annihilation_warfare"
+	}
+	relative_position_id = NGE_everything_to_the_war
+	prerequisite = { focus = NGE_everything_to_the_war }
+}
+
+shared_focus = {
+	id = NGE_terror_for_a_new_age
+	icon = GFX_NGE_terror_for_a_new_age
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_terror_for_a_new_age"
+	}
+	relative_position_id = NGE_annihilation_warfare
+	prerequisite = { focus = NGE_annihilation_warfare }
+}
+
+shared_focus = {
+	id = NGE_labor_of_the_unworthy
+	icon = GFX_NGE_labor_of_the_unworthy
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_labor_of_the_unworthy"
+	}
+	relative_position_id = NGE_around_the_clock_production
+	prerequisite = { focus = NGE_around_the_clock_production }
+}
+
+shared_focus = {
+	id = NGE_an_infernal_machine
+	icon = GFX_NGE_an_infernal_machine
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_an_infernal_machine"
+	}
+	relative_position_id = NGE_labor_of_the_unworthy
+	prerequisite = { focus = NGE_labor_of_the_unworthy }
+}
+
+shared_focus = {
+	id = NGE_reducing_the_supply_strain
+	icon = GFX_NGE_reducing_the_supply_strain
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_reducing_the_supply_strain"
+	}
+	relative_position_id = NGE_backline_production
+	prerequisite = { focus = NGE_backline_production }
+}
+
+shared_focus = {
+	id = NGE_backline_production
+	icon = GFX_NGE_backline_production
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_backline_production"
+	}
+	relative_position_id = NGE_fasttrack_military_conversion
+	prerequisite = { focus = NGE_fasttrack_military_conversion }
+}
+
+shared_focus = {
+	id = NGE_punishment_brigades
+	icon = GFX_NGE_punishment_brigades
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NGE_punishment_brigades"
+	}
+	relative_position_id = NGE_terror_for_a_new_age
+	prerequisite = { focus = NGE_terror_for_a_new_age }
+}

@@ -1,0 +1,16 @@
+characters = {
+	NGR_Abdourahamane_Tchiani = {
+		name = "Abdourahamane Tchiani" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Abdourahamane_Tchiani
+			}
+		}
+		country_leader = {
+			ideology = military_rule
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

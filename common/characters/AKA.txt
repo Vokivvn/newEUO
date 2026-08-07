@@ -1,0 +1,16 @@
+characters = {
+	AKA_Gerhard_Frey = {
+		name = "Gerhard Frey" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Gerhard_Frey
+			}
+		}
+		country_leader = {
+			ideology = industrial_nazism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

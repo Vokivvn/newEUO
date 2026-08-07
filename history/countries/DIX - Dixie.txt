@@ -1,0 +1,72 @@
+﻿capital = 361
+set_convoys = 100
+
+# Variables
+# Dixie Military
+set_variable = { DIX_military_attack = -0.1 }
+set_variable = { DIX_military_strength = -0.1 }
+set_variable = { DIX_military_entrenchment = -0.1 }
+set_variable = { DIX_military_initiative = -0.1 }
+
+set_variable = { DIX_military_morale = -0.1 }
+set_variable = { DIX_military_org_factor = -0.1 }
+set_variable = { DIX_military_org_regain = -0.1 }
+set_variable = { DIX_military_planning_speed = -0.1 }
+set_variable = { DIX_military_org_moving = -0.1 }
+
+set_variable = { DIX_military_attack_speed = -0.1 }
+set_variable = { DIX_military_breakthrough = -0.1 }
+
+# tech here
+oob = "DIX_2010"
+
+# doctrine here
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+
+# Politics
+set_politics = {
+	ruling_party = national_socialism # nazi
+	elections_allowed = no
+}
+
+set_popularities = {
+	anarchism = 0
+	revolutionary_socialism = 0
+	moderate_socialism = 0
+	liberalism = 0
+	conservatism = 12
+	autocratic = 15
+	reactionary = 31
+	fascism = 5
+	national_socialism = 37
+	syncretism = 0
+}
+
+add_ideas = {
+	# Laws
+	limited_conscription # Military
+	limited_exports # Exports
+	partial_economic_mobilisation # Economy
+
+	# National Spirits
+	goldmine_of_the_reich
+	dixie_prosperity
+	feeble_military
+	pierces_long_reign
+	white_harmony
+
+	# Dynamic Modifiers
+	DIX_military
+}
+
+recruit_character = DIX_william_luther_pierce
+recruit_character = DIX_Shaun_Winkler
+recruit_character = DIX_Stephen_Mason
+recruit_character = DIX_Louis_Beam
+recruit_character = DIX_Timothy_McVeigh
+recruit_character = DIX_Dillon_Irizarry
+recruit_character = DIX_WilliamJeffreyPoole
+recruit_character = DIX_MichaelHillGeneral
+
+add_manpower = 3000000

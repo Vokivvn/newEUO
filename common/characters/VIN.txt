@@ -1,0 +1,16 @@
+characters = {
+	VIN_Bao_Thang = {
+		name = "Bao Thang" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Bao_Thang
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

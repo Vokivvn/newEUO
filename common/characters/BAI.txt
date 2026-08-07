@@ -1,0 +1,16 @@
+characters = {
+	BAI_Sergey_Naryshkin = {
+		name = "Sergey Naryshkin" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Sergey_Naryshkin
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

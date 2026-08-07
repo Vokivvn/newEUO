@@ -1,0 +1,435 @@
+focus_tree = {
+	id = Starting
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = NGE
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = NGE_years_of_triumph
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		cost = 3
+
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_years_of_triumph completed"
+		}
+	}
+
+	focus = {
+		id = NGE_our_german_identity
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = NGE_years_of_triumph }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_our_german_identity completed"
+		}
+	}
+
+	focus = {
+		id = NGE_for_the_strong_off_the_backs_of_the_weak
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = NGE_years_of_triumph }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_for_the_strong_off_the_backs_of_the_weak completed"
+		}
+	}
+
+	focus = {
+		id = NGE_increasing_settler_power
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = NGE_our_german_identity }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_increasing_settler_power completed"
+		}
+	}
+
+	focus = {
+		id = NGE_importing_german_holidays_and_culture
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = NGE_our_german_identity }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_importing_german_holidays_and_culture completed"
+		}
+	}
+
+	focus = {
+		id = NGE_expanding_the_shickajoh_ghettos
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = NGE_for_the_strong_off_the_backs_of_the_weak }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_expanding_the_shickajoh_ghettos completed"
+		}
+	}
+
+	focus = {
+		id = NGE_no_more_room_for_slacking
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = NGE_for_the_strong_off_the_backs_of_the_weak }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_no_more_room_for_slacking completed"
+		}
+	}
+
+	focus = {
+		id = NGE_silence_suhayda_s_concerns
+		icon = GFX_goal_unknown
+		x = -1
+		y = 3
+		cost = 3
+
+		prerequisite = { focus = NGE_increasing_settler_power }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_silence_suhayda_s_concerns completed"
+		}
+	}
+
+	focus = {
+		id = NGE_demolishing_and_constructing
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		cost = 3
+
+		prerequisite = { focus = NGE_increasing_settler_power }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_demolishing_and_constructing completed"
+		}
+	}
+
+	focus = {
+		id = NGE_attracting_finnish_settlers_to_superior
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 3
+
+		prerequisite = { focus = NGE_importing_german_holidays_and_culture }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_attracting_finnish_settlers_to_superior completed"
+		}
+	}
+
+	focus = {
+		id = NGE_strip_anything_of_value
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 3
+
+		prerequisite = { focus = NGE_expanding_the_shickajoh_ghettos }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_strip_anything_of_value completed"
+		}
+	}
+
+	focus = {
+		id = NGE_expanding_the_neugermanian_ss
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		cost = 3
+
+		prerequisite = { focus = NGE_no_more_room_for_slacking }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_expanding_the_neugermanian_ss completed"
+		}
+	}
+
+	focus = {
+		id = NGE_germania_s_consumer_factories
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 3
+
+		prerequisite = { focus = NGE_no_more_room_for_slacking }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_germania_s_consumer_factories completed"
+		}
+	}
+
+	focus = {
+		id = NGE_exclusive_germanic_permissions
+		icon = GFX_goal_unknown
+		x = -1
+		y = 4
+		cost = 3
+
+		prerequisite = { focus = NGE_silence_suhayda_s_concerns }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_exclusive_germanic_permissions completed"
+		}
+	}
+
+	focus = {
+		id = NGE_luxury_on_the_lakes
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		cost = 3
+
+		prerequisite = { focus = NGE_demolishing_and_constructing }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_luxury_on_the_lakes completed"
+		}
+	}
+
+	focus = {
+		id = NGE_punishing_english_speaking
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 3
+
+		prerequisite = { focus = NGE_attracting_finnish_settlers_to_superior }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_punishing_english_speaking completed"
+		}
+	}
+
+	focus = {
+		id = NGE_raid_after_raid
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 3
+
+		prerequisite = { focus = NGE_strip_anything_of_value }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_raid_after_raid completed"
+		}
+	}
+
+	focus = {
+		id = NGE_surveillance_and_heavy_reprisals
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 3
+
+		prerequisite = { focus = NGE_expanding_the_neugermanian_ss }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_surveillance_and_heavy_reprisals completed"
+		}
+	}
+
+	focus = {
+		id = NGE_rapidly_incresing_production_quotas
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 3
+
+		prerequisite = { focus = NGE_germania_s_consumer_factories }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_rapidly_incresing_production_quotas completed"
+		}
+	}
+
+	focus = {
+		id = NGE_an_upcoming_aryan_paradise
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		cost = 3
+
+		prerequisite = { focus = NGE_luxury_on_the_lakes }
+		prerequisite = { focus = NGE_exclusive_germanic_permissions }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_an_upcoming_aryan_paradise completed"
+		}
+	}
+
+	focus = {
+		id = NGE_around_the_clock_work
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 3
+
+		prerequisite = { focus = NGE_raid_after_raid }
+		prerequisite = { focus = NGE_punishing_english_speaking }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_around_the_clock_work completed"
+		}
+	}
+
+	focus = {
+		id = NGE_an_industrial_behemoth
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		cost = 3
+
+		prerequisite = { focus = NGE_surveillance_and_heavy_reprisals }
+		prerequisite = { focus = NGE_rapidly_incresing_production_quotas }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_an_industrial_behemoth completed"
+		}
+	}
+
+	focus = {
+		id = NGE_operation_r_umung
+		icon = GFX_goal_unknown
+		x = 5
+		y = 7
+		cost = 3
+
+		prerequisite = { focus = NGE_around_the_clock_work }
+		prerequisite = { focus = NGE_an_upcoming_aryan_paradise }
+		prerequisite = { focus = NGE_an_industrial_behemoth }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NGE_operation_r_umung completed"
+		}
+	}
+
+}
+
+# Localization file auto-generated: localisation/english/nge_Starting_l_english.yml

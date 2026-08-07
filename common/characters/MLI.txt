@@ -1,0 +1,16 @@
+characters = {
+	MLI_Amadou_Toumani_Toure = {
+		name = "Amadou Toumani Touré" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Amadou_Toumani_Toure
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

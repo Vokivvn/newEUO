@@ -1,0 +1,16 @@
+characters = {
+	INS_Megawati = {
+		name = "Megawati" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Megawati
+			}
+		}
+		country_leader = {
+			ideology = social_chauvinism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

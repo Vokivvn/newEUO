@@ -1,0 +1,31 @@
+characters = {
+	UKR_andreas_bilezkyj = {
+		name = "Andreas Bilezkyj" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Andreas_Bilezkyj
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
+characters = {
+	UKR_erwin_kemna = {
+		name = "Erwin Kemna" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Erwin_Kemna
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

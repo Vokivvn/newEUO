@@ -1,0 +1,135 @@
+characters = {
+	DIX_william_luther_pierce = {
+		name = "William Luther Pierce" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_william_luther_pierce
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			desc = "POLITICS_WILLIAM_LUTHER_PIERCE_DESC"
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+	DIX_Shaun_Winkler = {
+		name = "Shaun Winkler"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/Portrait_DIX_Shaun_Winkler.png"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	DIX_Stephen_Mason = {
+		name = "Stephen Mason"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/Portrait_DIX_Stephen_Mason.png"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	##GENERALS
+    DIX_Louis_Beam  = {
+		name = "Louis Beam"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/LouisBeam.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected inflexible_strategist }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	DIX_Timothy_McVeigh  = {
+		name = "Timothy McVeigh"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/TimothyMcVeigh.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless brave }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+
+	DIX_Dillon_Irizarry  = {
+		name = "Dillon Irizarry"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/DillonIrizarry.dds"
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	DIX_WilliamJeffreyPoole  = {
+		name = "William Jeffrey Poole"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/WilliamJeffreyPoole.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	DIX_MichaelHillGeneral  = {
+		name = "Michael Hill"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/MichaelHillGeneral.dds"
+			}
+		}
+		corps_commander = {
+			traits = { exiled_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+}
+	

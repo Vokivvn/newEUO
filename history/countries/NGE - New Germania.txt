@@ -1,0 +1,59 @@
+capital = 1061
+
+oob = "NGE_2010"
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+	basic_train = 1
+	engine_tech_1 = 1
+}
+
+add_ideas = {
+	NGE_Miss_Management
+	NGE_Draconian_Human_Rights_Abuses
+	NGE_High_Poverty
+	NGE_Endemic_Corruption
+	NGE_Insurgency_Troubles
+}
+country_lock_all_division_template = {
+  is_locked = yes
+  desc = loc_key
+}
+
+set_popularities = {
+	anarchism = 13
+	moderate_socialism = 12
+	liberalism = 13
+	conservatism = 12
+
+	revolutionary_socialism = 9
+
+	reactionary = 9
+
+    autocratic = 8
+	fascism = 3
+	national_socialism = 20
+	syncretism = 1
+}
+
+recruit_character = NGE_joshua_caleb_sutter
+
+add_manpower = 3000000

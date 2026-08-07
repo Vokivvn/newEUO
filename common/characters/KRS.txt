@@ -1,0 +1,16 @@
+characters = {
+	KRS_Dimitri_Romanov = {
+		name = "Dimitri I" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Dimitri_Romanov
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

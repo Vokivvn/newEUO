@@ -1,0 +1,209 @@
+characters = {
+	ENG_martin_webster = { #STARTING
+		name = "Martin Webster" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Martin_Webster
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			traits = {
+				ENG_disgraced_director
+				ENG_homosexual
+			}
+		}
+	}
+	ENG_jim_dowson = { #PROTESTANT SUPREMACISTS
+		name = "Jim Dowson" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/big_jim.tga"
+			}
+		}
+		country_leader = {
+			ideology = clerical_fascism
+		}
+	}
+	ENG_mark_collett = { #SS CANDIDATE
+		name = "Mark Collett" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/mark_collett.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_socialism
+		}
+	}
+	ENG_gary_raikes = { #MOSLEYITES
+		name = "Gary Raikes" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/gary_raikes.tga"
+			}
+		}
+		country_leader = {
+			ideology = neo_fascism 
+		}
+	}
+	ENG_rupert_lowe = { #REFORMERS
+		name = "Rupert Lowe" #ON THE SNOW WITH RUPERT LOWE LET'S GOOOOOO
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/rupert_lowe.tga"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+		}
+	}
+	ENG_neil_hamilton = { #ORTHODOX NAZIS
+		name = "Neil Hamilton" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/neil_hamilton.dds"
+			}
+		}
+		#country_leader = {
+		#	ideology = national_socialism_subtype
+		#}
+	}
+	ENG_jonathan_bowden = { #REVOLUTION NAZI LEADER
+		name = "Jonathan Bowden" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/jon_bowden.tga"
+			}
+			army = {
+				large = "gfx/leaders/ENG/jon_bowden.tga"
+			}
+		}
+		#country_leader = {
+		#	ideology = esoteric_nazism
+		#}
+		field_marshal = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			visible = {
+				always = no
+			}
+		}
+	}
+	ENG_the_yerbmeister = { #fascist political appointed general
+		name = "Alek Yerbury" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/alek_yerbury.tga"
+			}
+			army = {
+				large = "gfx/leaders/ENG/alek_yerbury.tga"
+			}
+		}
+	}
+
+	#THE REVOLUTION
+	ENG_tommy_robinson = { #THE HOOLIGAN
+		name = "Stephen Yaxley-Lennon" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/tommy_robinson.tga"
+			}
+		}
+		country_leader = {
+			ideology = militant_anarchism
+		}
+	}
+	ENG_george_galloway = { #THE POPULIST
+		name = "George Galloway" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/george_galloway.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+		}
+	}
+	ENG_jeremy_corbyn = { #THE CEO OF ANTIFA
+		name = "Jeremy Corbyn" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/jeremy_corbyn.tga"
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+		}
+	}
+	ENG_william_clouston = { #THE NEGOTIATOR
+		name = "William Clouston" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/william_clouston.tga"
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+		}
+	}
+	ENG_kenneth_clarke = { #THE BULLDOG
+		name = "Ken Clarke" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ken_clarke.tga"
+			}
+		}
+		country_leader = {
+			ideology = classical_conservatism
+		}
+	}
+
+	#dummy replacements for post-rev social republic
+	ENG_jason_marriner = { #ANARCHIST
+		name = "Jason Marriner" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/jason_marriner.tga"
+			}
+		}
+	}
+	ENG_peter_hitchens = { #COMMUNIST
+		name = "Peter Hitchens" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/peter_hitchens.tga"
+			}
+		}
+	}
+	ENG_john_mcdonnell = { #PROGRESSIVE
+		name = "John McDonnell" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/john_mcdonnell.tga"
+			}
+		}
+	}
+	ENG_rod_liddle = { #LIBERAL
+		name = "Rod Liddle" #RIP big dog 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/rod_liddle.tga"
+			}
+		}
+	}
+	ENG_theresa_may = { #CONSERVATIVE
+		name = "Theresa May"
+		gender = female 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/theresa_may.tga"
+			}
+		}
+	}	
+}
+	

@@ -1,0 +1,16 @@
+characters = {
+	EQG_Monica_Macias = {
+		name = "Mónica Macías" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Monica_Macias
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

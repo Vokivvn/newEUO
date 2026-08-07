@@ -1,0 +1,16 @@
+characters = {
+	CMR_Hubert_Kamgang = {
+		name = "Hubert Kamgang" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Hubert_Kamgang
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

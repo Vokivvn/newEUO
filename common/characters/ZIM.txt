@@ -1,0 +1,16 @@
+characters = {
+	ZIM_Nicholas_van_Hoogstraten = {
+		name = "Nicholas van Hoogstraten" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Nicholas_van_Hoogstraten
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

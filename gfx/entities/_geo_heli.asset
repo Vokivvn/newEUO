@@ -1,0 +1,80 @@
+
+entity = {
+	name = "GER_attack_helo_bat_entity"
+	pdxmesh = "geo_pah2_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { trigger_once = yes sound = { soundeffect = "heli_sound_idle" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { trigger_once = yes sound = { soundeffect = "heli_sound_idle" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = heli_sound_fire } }  
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_particle" keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = heli_sound_fire } }  
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_particle" keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = heli_sound_fire } }  
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_particle" keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { trigger_once = yes sound = { soundeffect = "heli_sound_idle" } }
+	}
+	
+	scale = 0.25
+}
+
+
+##PAH2
+entity = {
+	name = "GER_attack_helicopter_entity"
+	pdxmesh = "geo_pah2_mesh"
+	state = { name = "fire" animation = "geo_heli" 
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = heli_sound_fire } }  
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_particle" keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+	}
+	state = { name = "bomb" animation = "geo_heli" 
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = heli_sound_fire } }  
+		event = { time = 0 node="gun1" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_particle" keep_particle = yes }  
+		event = { time = 0 node="gun2" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes }  
+	}
+	state = { name = "idle" animation = "geo_heli" 
+		event = { trigger_once = yes sound = { soundeffect = "heli_sound_idle" } }
+	}
+	state = { name = "crash" animation = "geo_heli" 
+		event = { time = 0 node = "root"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } } 
+		}
+	state = { name = "explode" animation = "geo_heli" 
+		event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+	}
+	scale = 0.18
+}
+entity = {
+	clone = "GER_attack_helicopter_entity"
+	name = "FRA_attack_helicopter_entity"
+	pdxmesh = "geo_ec665_mesh"
+}
+entity = {
+	clone = "GER_attack_helicopter_entity"
+	name = "SPR_attack_helicopter_entity"
+	pdxmesh = "geo_tiger_SPA_mesh"
+}
+entity = {
+	clone = "GER_attack_helicopter_entity"
+	name = "AST_attack_helicopter_entity"
+	pdxmesh = "geo_tiger_AST_mesh"
+}

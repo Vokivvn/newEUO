@@ -1,0 +1,72 @@
+﻿add_namespace = TEX
+
+country_event = { #Intro 
+	id = TEX.1
+	title = TEX.1.t
+	desc = TEX.1.d
+	picture = GFX_report_event_dix_intro
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = TEX.1.a
+	}
+}
+
+country_event = { #Intro 
+	id = TEX.30
+	title = TEX.30.t
+	desc = TEX.30.d
+	picture = GFX_report_event_dix_intro
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = TEX.30.a
+		TEX = {
+			declare_war_on = {
+	    			target = LOU
+	    			type = annex_everything
+			}
+			declare_war_on = {
+	    			target = ARK
+	    			type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = TEX.40
+	title = TEX.40.t
+	desc = TEX.40.d
+	picture = GFX_report_event_dix_intro
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = TEX.40.a
+		TEX = {
+			declare_war_on = {
+	    			target = DNV
+	    			type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = TEX.100
+	title = TEX.100.t
+	desc = TEX.100.d
+	picture = GFX_report_event_dix_intro
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = TEX.100.a
+		hidden_effect = {
+			set_cosmetic_tag = TEX_win
+		}
+	}
+}

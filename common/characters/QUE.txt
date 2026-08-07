@@ -1,0 +1,16 @@
+characters = {
+	QUE_Michel_Lepage = {
+		name = "Michel Lepage" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Michel_Lepage
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

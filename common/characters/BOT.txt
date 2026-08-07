@@ -1,0 +1,16 @@
+characters = {
+	BOT_Christian_de_Graaff = {
+		name = "Christian de Graaff" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Christian_de_Graaff
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

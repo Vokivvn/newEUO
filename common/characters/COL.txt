@@ -1,0 +1,16 @@
+characters = {
+	COL_carlos_lehder = {
+		name = "Carlos Lehder" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Carlos_Lehder
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

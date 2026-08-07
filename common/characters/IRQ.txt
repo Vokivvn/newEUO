@@ -1,0 +1,16 @@
+characters = {
+	IRQ_saddam_hussein = {
+		name = "Saddam Hussein" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_saddam_hussein
+			}
+		}
+		country_leader = {
+			ideology = reactionary_populism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

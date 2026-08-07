@@ -1,0 +1,31 @@
+###############
+# SUPER EVENT #
+###############
+category = {
+ name = "Super"
+ soundeffects = {
+	Kristolresistance
+}
+  compressor =  {
+	enabled = yes
+	pregain = 5.0
+	postgain = 6.0
+	ratio = 15.0
+	threshold = -15.0
+	attacktime = 0.03
+	releasetime = 0.0
+ }
+}
+
+sound = {
+	name = "Kristolresistance"
+	volume = 1
+	file = "SE/Kristolresistance.wav"
+}
+
+soundeffect = {
+	name = Kristolresistance
+	#volume = 1
+	sounds = { sound = Kristolresistance }
+}
+

@@ -1,0 +1,16 @@
+characters = {
+	ROM_tudor_ionescu = {
+		name = "Tudor Ionescu" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_tudor_ionescu
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,32 @@
+characters = {
+	KAN_don_andrews = {
+		name = "Don Andrews" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Don_Andrews
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+
+characters = {
+	KAN_ernst_zundel = {
+		name = "Ernst Zündel" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Ernst_Zundel
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

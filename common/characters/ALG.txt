@@ -1,0 +1,16 @@
+characters = {
+	ALG_jean_marie_le_pen = {
+		name = "Jean-Marie Le Pen" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Jean_Marie_Le_Pen
+			}
+		}
+		country_leader = {
+			ideology = neo_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

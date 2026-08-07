@@ -1,0 +1,16 @@
+characters = {
+	NGA_umaru_musa_yaradua = {
+		name = "Umaru Musa Yar'Adua" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Umaru_Musa_Yar_Adua
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

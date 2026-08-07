@@ -1,0 +1,16 @@
+characters = {
+	NMB_Kosie_Pretorius = {
+		name = "Kosie Pretorius" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Kosie_Pretorius
+			}
+		}
+		country_leader = {
+			ideology = ultraconservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

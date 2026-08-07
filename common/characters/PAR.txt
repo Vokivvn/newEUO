@@ -1,0 +1,16 @@
+characters = {
+	PAR_gustavo_stroessner = {
+		name = "Gustavo Stroessner" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_gustavo_stroessner
+			}
+		}
+		country_leader = {
+			ideology = neo_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

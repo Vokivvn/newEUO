@@ -1,0 +1,16 @@
+characters = {
+	LOU_john_paul_cupp = {
+		name = "John Paul Cupp" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_John_Paul_Cupp
+			}
+		}
+		country_leader = {
+			ideology = national_bolshevism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

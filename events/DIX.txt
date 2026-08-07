@@ -1,0 +1,378 @@
+﻿add_namespace = DIX
+
+country_event = { #Intro 
+	id = DIX.1
+	title = DIX.1.t
+	desc = DIX.1.d
+	picture = GFX_report_event_dix_intro
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.1.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.2
+	title = DIX.2.t
+	desc = DIX.2.d
+	picture = GFX_report_event_dix_meeting
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.2.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.3
+	title = DIX.3.t
+	desc = DIX.3.d
+	picture = GFX_report_event_dix_tv
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.3.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.4
+	title = DIX.4.t
+	desc = DIX.4.d
+	picture = GFX_report_event_whispers_of_resistance
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.4.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.5
+	title = DIX.5.t
+	desc = DIX.5.d
+	picture = GFX_report_event_whispers_of_resistance
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.5.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.29
+	title = DIX.29.t
+	desc = DIX.29.d
+	picture = GFX_report_event_dix_hospitalization
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.29.a
+		add_opinion_modifier = {
+			target = DNV 
+			modifier = DIX_denver_negotiations
+			}
+		set_country_flag = open_negotiations
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.30
+	title = DIX.30.t
+	desc = DIX.30.d
+	picture = GFX_report_event_dix_hospitalization
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.30.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.31
+	title = DIX.31.t
+	desc = DIX.31.d
+	picture = GFX_report_event_dix_pressburg_summit
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.31.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.35
+	title = DIX.35.t
+	desc = DIX.35.d
+	picture = GFX_report_event_dix_wlp_death
+	
+	trigger = {
+		tag = DIX
+		date > 2010.11.1
+		date < 2010.11.30
+	}
+	
+	immediate = { 
+		hidden_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Erich Gliebe"
+				desc = "POLITICS_ERICH_GLIEBE_DESC"
+				picture = "GFX_portrait_Erich_Gliebe"
+				expire = "1965.1.1"
+				ideology = national_socialism_subtype
+					traits = {
+				}
+			}
+			load_focus_tree = {
+				tree = DIX_branch_legacy_of_our_fuhrer
+			}
+			set_country_flag = DIX_crisis_unresolved
+			DIX = {
+				country_event = {
+					id = DIX.36
+					days = 4
+					random_days = 3
+				}
+			}
+		}
+	}
+	
+	option = { #Puppetry
+		name = DIX.35.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.36
+	title = DIX.36.t
+	desc = DIX.36.d
+	picture = GFX_report_event_dix_inaugural_address
+	
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.36.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.100
+	title = DIX.100.t
+	desc = DIX.100.d
+	picture = GFX_report_event_chinese_soldiers_01
+	
+	trigger = {
+		tag = DIX
+		has_country_flag = DIX_crisis_unresolved
+		date > 2011.1.1
+		date < 2011.1.31
+	}
+	
+	immediate = { 
+		hidden_effect = { 
+			AMR = {
+				transfer_state = 816
+				load_oob = AMR_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+				add_state_core = 1082
+			}
+			RNR = {
+				transfer_state = 368
+				transfer_state = 369
+				load_oob = RNR_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+				add_state_core = 1082
+			}
+			CSA = {
+				transfer_state = 367
+				transfer_state = 370
+				transfer_state = 1050
+				load_oob = CSA_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+				add_state_core = 1082
+			}
+			NAF = {
+				transfer_state = 365
+				transfer_state = 366
+				load_oob = NAF_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+				add_state_core = 1082
+			}
+			SDI = {
+				transfer_state = 364
+				load_oob = SDI_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+				add_state_core = 1082
+			}
+			DIX = {
+				leave_faction
+				}
+				load_oob = DIX_REVOLT
+				load_focus_tree = {
+					tree = DIX_gliebe_war
+				}
+				country_event = {
+					id = DIX.101
+					days = 4
+					random_days = 3
+				}
+				set_cosmetic_tag = DIX_gliebe
+			}
+			NGE = {
+				country_event = {
+					id = NGE_SKELETON_MIDWEST.1
+					days = 4
+					random_days = 3
+				}
+			}
+			GER = {
+				country_event = {
+					id = GER.45
+					days = 5
+				}
+			}
+		}
+	}
+	
+	option = { #Puppetry
+		name = DIX.100.a
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.101
+	title = DIX.101.t
+	desc = DIX.101.d
+	picture = GFX_report_event_dix_intro
+
+	immediate = { 
+		hidden_effect = { 
+			AMR = {
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SDI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+			}
+			NAF = {
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SDI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+			}
+			RNR = {
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SDI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+			}
+			SDI = {
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.101.a
+	}
+}

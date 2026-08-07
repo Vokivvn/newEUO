@@ -1,0 +1,29 @@
+characters = {
+	FRA_jean_castrillo = {
+		name = "Jean Castrillo" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_jean_castrillo
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+	FRA_pierre_sidos = {
+		name = "Pierre Sidos" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_pierre_sidos
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

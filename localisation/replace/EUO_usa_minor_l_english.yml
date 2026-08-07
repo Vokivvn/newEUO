@@ -1,0 +1,30 @@
+﻿l_english:
+
+ IDA_national_socialism_party:0 "AN"
+ IDA_national_socialism_party_long:0 "Aryan Nations"
+
+ UTA_reactionary_party:0 "DPP"
+ UTA_reactionary_party_long:0 "Deseret People's Party "
+
+ LOU_syncretism_party:0 "RPP"
+ LOU_syncretism_party_long:0 "Rural People's Party"
+
+ ARK_autocratic_party:0 "AAH"
+ ARK_autocratic_party_long:0 "American Army in the Homeland"
+
+ CAM_autocratic_party:0 "AAH"
+ VAM_autocratic_party_long:0 "American Army in the Homeland"
+
+ TEX_autocratic_party:0 "ANSJ"
+ TEX_autocratic_party_long:0 "American National Salvation Junta"
+ TEX_syncretism_party:0 "V-USA"
+ TEX_syncretism_party_long:0 "Vpered USA"
+ TEX_liberalism_party:0 "NLP" 
+ TEX_liberalism_party_long:0 "National Liberal Party" 
+ TEX_conservatism_party:0 "AFP" 
+ TEX_conservatism_party_long:0 "American First Party" 
+ TEX_autocracy_party:0 "HC" 
+ TEX_autocracy_party_long:0 "Houston Clique" 
+ TEX_fascism_party:0 "ANRA"
+ TEX_fascism_party_long:0 "American National Redemption Army"
+

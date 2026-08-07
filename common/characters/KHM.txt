@@ -1,0 +1,16 @@
+characters = {
+	KHM_nuon_chea = {
+		name = "Nuon Chea" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Nuon_Chea
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

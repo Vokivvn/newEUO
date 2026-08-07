@@ -1,0 +1,16 @@
+characters = {
+	LIB_Charles_Taylor = {
+		name = "Charles Taylor" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Charles_Taylor
+			}
+		}
+		country_leader = {
+			ideology = neo_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

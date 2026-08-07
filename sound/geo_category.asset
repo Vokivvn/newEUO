@@ -1,0 +1,10 @@
+
+category = {
+	name = "Geo Modern Models"
+	soundeffects = {
+
+		heli_sound_idle
+		heli_sound_fire
+
+	}
+}
