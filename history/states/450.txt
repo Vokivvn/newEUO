@@ -17,8 +17,7 @@ state={
 	}
 
 	history={
-		
-		
+		owner = GER
 		buildings = {
 			infrastructure = 3
 			

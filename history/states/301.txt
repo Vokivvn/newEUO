@@ -13,6 +13,11 @@ state={
 	provinces={
 		254 304 
 	}
+	
+	history = {
+		owner = GER
+	}
+	
 	manpower=2383310
 	buildings_max_level_factor=1
 	state_category=pastoral
