@@ -1,0 +1,15 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		12 52 66 251 268 301 351 
+	}
+	
+	history={
+	 owner = SPR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

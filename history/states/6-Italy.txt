@@ -1,0 +1,15 @@
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		60 181 186 340 388 446 576 1555 1559 1560 1603 1991 
+	}
+	
+	history={
+		owner = ITA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
