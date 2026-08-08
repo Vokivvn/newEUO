@@ -4,6 +4,11 @@ state={
 	provinces={
 		331 
 	}
+	
+	history={
+		owner = KAZ
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1
 	local_supplies=0

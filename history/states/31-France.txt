@@ -5,7 +5,7 @@ state={
 		21 166 394 
 	}
 	
-	histyory={
+	history={
 		owner = FRA
 	}
 	
