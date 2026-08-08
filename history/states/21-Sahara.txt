@@ -1,0 +1,15 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		29 100 199 256 266 282 328 352 383 447 460 474 489 503 590 615 619 622 623 666 2737 
+	}
+	
+	history={
+		owner = GMS
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
