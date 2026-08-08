@@ -1,0 +1,15 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		584 
+	}
+	
+	history={
+		owner = ITA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

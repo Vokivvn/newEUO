@@ -1,0 +1,15 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		1587 1629 1761 1855 1874 1910 1977 2151 
+	}
+	
+	history={
+		owner = DEN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
