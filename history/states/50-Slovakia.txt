@@ -1,0 +1,15 @@
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		2737 
+	}
+	
+	history={
+		owner = SLO
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
