@@ -88,5 +88,17 @@ units = {
 		division_template = "Midwestern Militia Division"
 		start_experience_factor = 0.1
 	}
+	division = {	
+		name = "Midwestern Militia Division"
+		location = 11685
+		division_template = "Midwestern Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {	
+		name = "Midwestern Militia Division"
+		location = 11685
+		division_template = "Midwestern Militia Division"
+		start_experience_factor = 0.1
+	}
 
 }

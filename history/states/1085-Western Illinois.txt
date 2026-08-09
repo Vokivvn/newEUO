@@ -20,7 +20,7 @@ state={
 		add_core_of = NGE
 
 		victory_points = {
-			10339 5
+			10393 5
 		}
 
 	}

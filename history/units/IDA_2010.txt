@@ -1,0 +1,40 @@
+﻿division_template = {
+	name = "Territorial Defense Division"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Territorial Defense Division"
+		location = 10556
+		division_template = "Territorial Defense Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Territorial Defense Division"
+		location = 10672
+		division_template = "Territorial Defense Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Territorial Defense Division"
+		location = 1832
+		division_template = "Territorial Defense Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Territorial Defense Division"
+		location = 9616
+		division_template = "Territorial Defense Division"
+		start_experience_factor = 0.2
+	}
+}

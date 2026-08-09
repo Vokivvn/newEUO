@@ -1,8 +1,5 @@
 Southwest_Skeleton = {
 	allowed = {
 		original_tag = TEX
-		OR = {
-		original_tag = LOU
-		}
 	}
 }
