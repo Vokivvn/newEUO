@@ -1,0 +1,15 @@
+state={
+	id=55
+	name="STATE_55"
+	provinces={
+		810 962 1596 
+	}
+	
+	history={
+		owner = GER
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

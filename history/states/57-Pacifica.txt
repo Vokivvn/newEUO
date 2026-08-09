@@ -1,0 +1,15 @@
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		794 933 975 1154 2296 
+	}
+	
+	history={
+		owner = PAC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

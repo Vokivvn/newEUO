@@ -1,0 +1,15 @@
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		516 
+	}
+	
+	history={
+		owner = HUN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
