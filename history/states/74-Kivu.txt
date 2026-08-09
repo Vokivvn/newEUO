@@ -1,0 +1,15 @@
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		223 368 
+	}
+	
+	history={
+		owner = KIV
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

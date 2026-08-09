@@ -1,0 +1,15 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		2741 
+	}
+	
+	history={
+		owner = LOG
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

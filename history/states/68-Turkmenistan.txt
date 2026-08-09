@@ -1,0 +1,15 @@
+state={
+	id=68
+	name="STATE_68"
+	provinces={
+		132 307 550 702 
+	}
+	
+	history={
+		owner = TMS
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

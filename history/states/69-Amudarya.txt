@@ -1,0 +1,15 @@
+state={
+	id=69
+	name="STATE_69"
+	provinces={
+		2739 
+	}
+	
+	history={
+		owner = KKP
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
