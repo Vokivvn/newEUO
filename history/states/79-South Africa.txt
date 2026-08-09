@@ -1,0 +1,15 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		4 38 96 145 172 198 244 283 305 312 322 411 574 583 606 607 671 674 708 
+	}
+	
+	history={
+		owner = SAF
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

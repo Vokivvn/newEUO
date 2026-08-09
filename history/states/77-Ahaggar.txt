@@ -1,0 +1,15 @@
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		119 250 382 724 
+	}
+	
+	history={
+		owner = TUA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
