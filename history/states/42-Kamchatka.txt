@@ -1,0 +1,15 @@
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		41 73 87 200 246 473 496 552 1674 
+	}
+	
+	history={
+		owner = JAP
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

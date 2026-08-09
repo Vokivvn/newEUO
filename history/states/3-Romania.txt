@@ -2,11 +2,11 @@ state={
 	id=3
 	name="STATE_3"
 	provinces={
-		5 452 
+		452 
 	}
 	
 	history={
-	 owner = ROM
+		owner = ROM
 	}
 	
 	manpower=0
