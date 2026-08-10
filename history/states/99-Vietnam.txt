@@ -1,0 +1,15 @@
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		225 321 337 528 720 2174 
+	}
+	
+	history={
+		owner = VIN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

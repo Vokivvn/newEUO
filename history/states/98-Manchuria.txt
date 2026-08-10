@@ -1,0 +1,15 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		70 109 233 241 329 434 527 651 672 
+	}
+	
+	history={
+		owner = MAN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
