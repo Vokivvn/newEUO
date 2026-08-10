@@ -1,0 +1,15 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		1422 1424 1425 
+	}
+	
+	history={
+		owner = SAR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

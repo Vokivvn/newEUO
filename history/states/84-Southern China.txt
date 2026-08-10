@@ -1,0 +1,15 @@
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		130 372 531 557 1554 2110 
+	}
+	
+	history={
+		owner = GXC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

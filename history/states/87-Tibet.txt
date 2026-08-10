@@ -1,0 +1,15 @@
+state={
+	id=87
+	name="STATE_87"
+	provinces={
+		82 90 120 126 296 369 506 518 524 533 601 645 
+	}
+	
+	history={
+		owner = TIB
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
