@@ -1,0 +1,15 @@
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		85 
+	}
+	
+	history={
+		owner = AKA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

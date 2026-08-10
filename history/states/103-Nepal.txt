@@ -1,0 +1,15 @@
+state={
+	id=103
+	name="STATE_103"
+	provinces={
+		472 494 
+	}
+	
+	history={
+		owner = NEP
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
