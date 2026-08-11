@@ -1,0 +1,15 @@
+state={
+	id=125
+	name="STATE_125"
+	provinces={
+		746 1017 1053 1112 
+	}
+	
+	history={
+		owner = VEN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

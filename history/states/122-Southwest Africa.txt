@@ -1,0 +1,15 @@
+state={
+	id=122
+	name="STATE_122"
+	provinces={
+		57 148 188 197 243 245 428 542 
+	}
+	
+	history={
+		owner = NMB
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
