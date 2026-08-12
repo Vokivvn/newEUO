@@ -1,0 +1,15 @@
+state={
+	id=170
+	name="STATE_170"
+	provinces={
+		348 
+	}
+	
+	history={
+		owner = ESW
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

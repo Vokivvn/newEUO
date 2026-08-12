@@ -1,0 +1,15 @@
+state={
+	id=152
+	name="STATE_152"
+	provinces={
+		279 
+	}
+	
+	history={
+		owner = GNA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

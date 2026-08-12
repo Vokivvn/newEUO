@@ -1,0 +1,15 @@
+state={
+	id=162
+	name="STATE_162"
+	provinces={
+		1723 2025 2084 2123 
+	}
+	
+	history={
+		owner = DEN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

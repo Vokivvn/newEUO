@@ -2,11 +2,11 @@ state={
 	id=5
 	name="STATE_5"
 	provinces={
-		12 52 66 251 268 301 351 
+		12 52 66 251 268 301 351 1775 1790 1832 1935 1988 2186 
 	}
 	
 	history={
-	 owner = SPR
+		owner = SPR
 	}
 	
 	manpower=0
