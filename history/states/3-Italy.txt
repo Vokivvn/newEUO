@@ -1,0 +1,15 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		14 245 347 780 1563 1564 1566 1567 1607 1922 1945 1995 1997 1998 2081 2082 2083 2200 2201 2248 2304 
+	}
+	
+	history={
+		owner = ITA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
