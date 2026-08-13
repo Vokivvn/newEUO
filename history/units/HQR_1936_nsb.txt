@@ -1,0 +1,122 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Nizama' Militia Division"
+		location = 1739
+		division_template = "Militia Division"
+		start_experience_factor = 0.213309
+		start_equipment_factor = 0.987339
+	}
+	division= {
+		name = "2nd 'Diwar' Militia Division"
+		location = 255
+		division_template = "Militia Division"
+		start_experience_factor = 0.004704
+		start_equipment_factor = 0.952621
+	}
+	division= {
+		name = "3rd 'Khalam' Militia Division"
+		location = 187
+		division_template = "Militia Division"
+		start_experience_factor = 0.083322
+		start_equipment_factor = 0.813894
+	}
+	division= {
+		name = "1st 'Nouraqa' Infantry Division"
+		location = 332
+		division_template = "Infantry Division"
+		start_experience_factor = 0.215308
+		start_equipment_factor = 0.835177
+	}
+	division= {
+		name = "2nd 'Shabib' Infantry Division"
+		location = 650
+		division_template = "Infantry Division"
+		start_experience_factor = 0.422141
+		start_equipment_factor = 0.998520
+	}
+	division= {
+		name = "3rd 'Rabataab' Infantry Division"
+		location = 756
+		division_template = "Infantry Division"
+		start_experience_factor = 0.600299
+		start_equipment_factor = 0.856381
+	}
+	division= {
+		name = "1st 'Shalb' Cavalry Division"
+		location = 443
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.403793
+		start_equipment_factor = 0.962921
+	}
+	division= {
+		name = "2nd 'Rawka' Cavalry Division"
+		location = 1775
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.712898
+		start_equipment_factor = 0.966497
+	}
+	division= {
+		name = "3rd 'Sham' Cavalry Division"
+		location = 776
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.809166
+		start_equipment_factor = 0.871691
+	}
+	division= {
+		name = "4th 'Safa' Cavalry Division"
+		location = 559
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.145017
+		start_equipment_factor = 0.877877
+	}
+
+}

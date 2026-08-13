@@ -1,0 +1,413 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Nerjat' Militia Division"
+		location = 646
+		division_template = "Militia Division"
+		start_experience_factor = 0.829439
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Kampeel' Militia Division"
+		location = 327
+		division_template = "Militia Division"
+		start_experience_factor = 0.072515
+		start_equipment_factor = 0.946277
+	}
+	division= {
+		name = "3rd 'Poljav' Militia Division"
+		location = 503
+		division_template = "Militia Division"
+		start_experience_factor = 0.268052
+		start_equipment_factor = 0.904980
+	}
+	division= {
+		name = "4th 'Tang' Militia Division"
+		location = 103
+		division_template = "Militia Division"
+		start_experience_factor = 0.797867
+		start_equipment_factor = 0.979955
+	}
+	division= {
+		name = "5th 'Obinja' Militia Division"
+		location = 575
+		division_template = "Militia Division"
+		start_experience_factor = 0.771828
+		start_equipment_factor = 0.882499
+	}
+	division= {
+		name = "6th 'Tualawan' Militia Division"
+		location = 509
+		division_template = "Militia Division"
+		start_experience_factor = 0.237734
+		start_equipment_factor = 0.982161
+	}
+	division= {
+		name = "7th 'Tualawan' Militia Division"
+		location = 509
+		division_template = "Militia Division"
+		start_experience_factor = 0.790473
+		start_equipment_factor = 0.944616
+	}
+	division= {
+		name = "8th 'Jiwo' Militia Division"
+		location = 541
+		division_template = "Militia Division"
+		start_experience_factor = 0.282078
+		start_equipment_factor = 0.869935
+	}
+	division= {
+		name = "9th 'Segen' Militia Division"
+		location = 2195
+		division_template = "Militia Division"
+		start_experience_factor = 0.560677
+		start_equipment_factor = 0.865042
+	}
+	division= {
+		name = "10th 'Taragemaintu' Militia Division"
+		location = 556
+		division_template = "Militia Division"
+		start_experience_factor = 0.188123
+		start_equipment_factor = 0.891445
+	}
+	division= {
+		name = "11th 'Daragemangit' Militia Division"
+		location = 666
+		division_template = "Militia Division"
+		start_experience_factor = 0.577695
+		start_equipment_factor = 0.884289
+	}
+	division= {
+		name = "12th 'Obinja' Militia Division"
+		location = 575
+		division_template = "Militia Division"
+		start_experience_factor = 0.922979
+		start_equipment_factor = 0.916981
+	}
+	division= {
+		name = "13th 'Sild' Militia Division"
+		location = 2148
+		division_template = "Militia Division"
+		start_experience_factor = 0.910427
+		start_equipment_factor = 0.839027
+	}
+	division= {
+		name = "1st 'Greska' Infantry Division"
+		location = 623
+		division_template = "Infantry Division"
+		start_experience_factor = 0.618485
+		start_equipment_factor = 0.904790
+	}
+	division= {
+		name = "2nd 'Jiwo' Infantry Division"
+		location = 541
+		division_template = "Infantry Division"
+		start_experience_factor = 0.136169
+		start_equipment_factor = 0.950146
+	}
+	division= {
+		name = "3rd 'Hralja' Infantry Division"
+		location = 1758
+		division_template = "Infantry Division"
+		start_experience_factor = 0.812658
+		start_equipment_factor = 0.951914
+	}
+	division= {
+		name = "4th 'Poljav' Infantry Division"
+		location = 570
+		division_template = "Infantry Division"
+		start_experience_factor = 0.258403
+		start_equipment_factor = 0.914885
+	}
+	division= {
+		name = "5th 'Utusa' Infantry Division"
+		location = 731
+		division_template = "Infantry Division"
+		start_experience_factor = 0.260344
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Obar' Infantry Division"
+		location = 387
+		division_template = "Infantry Division"
+		start_experience_factor = 0.300578
+		start_equipment_factor = 0.968433
+	}
+	division= {
+		name = "7th 'Kuil' Infantry Division"
+		location = 664
+		division_template = "Infantry Division"
+		start_experience_factor = 0.087249
+		start_equipment_factor = 0.833519
+	}
+	division= {
+		name = "8th 'Filad' Infantry Division"
+		location = 715
+		division_template = "Infantry Division"
+		start_experience_factor = 0.590476
+		start_equipment_factor = 0.967547
+	}
+	division= {
+		name = "1st 'Konzulavda' Artillery Division"
+		location = 1759
+		division_template = "Artillery Division"
+		start_experience_factor = 0.225018
+		start_equipment_factor = 0.829984
+	}
+	division= {
+		name = "2nd 'Zlaviteza' Artillery Division"
+		location = 478
+		division_template = "Artillery Division"
+		start_experience_factor = 0.624887
+		start_equipment_factor = 0.959138
+	}
+	division= {
+		name = "3rd 'Obar' Artillery Division"
+		location = 168
+		division_template = "Artillery Division"
+		start_experience_factor = 0.244557
+		start_equipment_factor = 0.839903
+	}
+	division= {
+		name = "4th 'Sedisi' Artillery Division"
+		location = 368
+		division_template = "Artillery Division"
+		start_experience_factor = 0.110804
+		start_equipment_factor = 0.907082
+	}
+	division= {
+		name = "5th 'Liegern' Artillery Division"
+		location = 2302
+		division_template = "Artillery Division"
+		start_experience_factor = 0.060959
+		start_equipment_factor = 0.889437
+	}
+	division= {
+		name = "6th 'Dusa' Artillery Division"
+		location = 166
+		division_template = "Artillery Division"
+		start_experience_factor = 0.053861
+		start_equipment_factor = 0.899587
+	}
+	division= {
+		name = "7th 'Sedisi' Artillery Division"
+		location = 368
+		division_template = "Artillery Division"
+		start_experience_factor = 0.905936
+		start_equipment_factor = 0.923743
+	}
+	division= {
+		name = "8th 'Brzav' Artillery Division"
+		location = 765
+		division_template = "Artillery Division"
+		start_experience_factor = 0.158686
+		start_equipment_factor = 0.980050
+	}
+	division= {
+		name = "9th 'Maslasina' Artillery Division"
+		location = 697
+		division_template = "Artillery Division"
+		start_experience_factor = 0.383124
+		start_equipment_factor = 0.830090
+	}
+	division= {
+		name = "10th 'Suarnahroh' Artillery Division"
+		location = 8
+		division_template = "Artillery Division"
+		start_experience_factor = 0.247412
+		start_equipment_factor = 0.863021
+	}
+	division= {
+		name = "11th 'Hralja' Artillery Division"
+		location = 1758
+		division_template = "Artillery Division"
+		start_experience_factor = 0.095013
+		start_equipment_factor = 0.974668
+	}
+	division= {
+		name = "12th 'Sunce' Artillery Division"
+		location = 64
+		division_template = "Artillery Division"
+		start_experience_factor = 0.347545
+		start_equipment_factor = 0.841475
+	}
+	division= {
+		name = "13th 'Plat' Artillery Division"
+		location = 505
+		division_template = "Artillery Division"
+		start_experience_factor = 0.072212
+		start_equipment_factor = 0.920815
+	}
+	division= {
+		name = "14th 'Zlaviteza' Artillery Division"
+		location = 478
+		division_template = "Artillery Division"
+		start_experience_factor = 0.401031
+		start_equipment_factor = 0.906388
+	}
+	division= {
+		name = "15th 'Nacina' Artillery Division"
+		location = 552
+		division_template = "Artillery Division"
+		start_experience_factor = 0.705737
+		start_equipment_factor = 0.863760
+	}
+	division= {
+		name = "16th 'Recnostvozdj' Artillery Division"
+		location = 112
+		division_template = "Artillery Division"
+		start_experience_factor = 0.077949
+		start_equipment_factor = 0.943903
+	}
+	division= {
+		name = "17th 'Wachwest' Artillery Division"
+		location = 1581
+		division_template = "Artillery Division"
+		start_experience_factor = 0.631436
+		start_equipment_factor = 0.917015
+	}
+	division= {
+		name = "18th 'Kuil' Artillery Division"
+		location = 235
+		division_template = "Artillery Division"
+		start_experience_factor = 0.138276
+		start_equipment_factor = 0.845777
+	}
+	division= {
+		name = "19th 'Obinja' Artillery Division"
+		location = 575
+		division_template = "Artillery Division"
+		start_experience_factor = 0.421430
+		start_equipment_factor = 0.875027
+	}
+	division= {
+		name = "1st 'Puto' Cavalry Division"
+		location = 363
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.766331
+		start_equipment_factor = 0.912388
+	}
+	division= {
+		name = "2nd 'Keranda' Cavalry Division"
+		location = 137
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.146062
+		start_equipment_factor = 0.872921
+	}
+	division= {
+		name = "3rd 'Kuil' Cavalry Division"
+		location = 235
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.771808
+		start_equipment_factor = 0.846025
+	}
+	division= {
+		name = "4th 'Ratu' Cavalry Division"
+		location = 520
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.578700
+		start_equipment_factor = 0.879468
+	}
+	division= {
+		name = "5th 'Kuil' Cavalry Division"
+		location = 235
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.324756
+		start_equipment_factor = 0.996683
+	}
+	division= {
+		name = "6th 'Petandan' Cavalry Division"
+		location = 500
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.622587
+		start_equipment_factor = 0.965746
+	}
+	division= {
+		name = "7th 'Pasaramaib' Cavalry Division"
+		location = 598
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.345362
+		start_equipment_factor = 0.929226
+	}
+	division= {
+		name = "8th 'Vrlik' Cavalry Division"
+		location = 662
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.520005
+		start_equipment_factor = 0.889978
+	}
+
+}

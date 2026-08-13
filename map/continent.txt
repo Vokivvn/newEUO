@@ -1,11 +1,11 @@
 continents = {
-	Buais
-	Golge
-	Mesec
-	Nuniqtuk
-	Prisa
-	Learc
-	Troithair
+	Fainadh
+	Leka
+	Daritahlawa
+	Line
+	Zauber
+	Delicak
+	Masjidunung
 	
 	
 	#Vanilla continents kept in for compatibility. Removing them breaks a lot of references to them

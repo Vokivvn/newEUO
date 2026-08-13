@@ -1,0 +1,1083 @@
+characters = {
+	CUN_Putra_Pekereja={
+		name="Putra Pekereja"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUN_Putfi_Huka={
+		name="Putfi Huka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Putfi_Huka
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CUN_Putfi_Keku={
+		name="Putfi Keku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Putfi_Keku
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CUN_Ramban_Hidunya={
+		name="Ramban Hidunya"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Ramban_Hidunya
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Bambang_Takil={
+		name="Bambang Takil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Bambang_Takil
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CUN_Fajar_Laung={
+		name="Fajar Laung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Fajar_Laung
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CUN_Ketutra_Gemai={
+		name="Ketutra Gemai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Ketutra_Gemai
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CUN_Andi_Hidunya={
+		name="Andi Hidunya"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Andi_Hidunya
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CUN_Rama_Bahabatuaram={
+		name="Rama Bahabatuaram"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Rama_Bahabatuaram
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CUN_Rama_Sedih={
+		name="Rama Sedih"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Rama_Sedih
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	CUN_Joko_Tang={
+		name="Joko Tang"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Joko_Tang
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CUN_Fajario_Buatasuci={
+		name="Fajario Buatasuci"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUN_Fajario_Buatasuci
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	CUN_Surya_Nyahlam={
+		name="Surya Nyahlam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUN_Surya_Nyahlam
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	CUN_Fajario_Tuangari={
+		name="Fajario Tuangari"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUN_Fajario_Tuangari
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	CUN_Suryan_Teti={
+		name="Suryan Teti"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUN_Suryan_Teti
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	CUN_Rama_Huka={
+		name="Rama Huka"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Rama_Huka
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	CUN_Ketutra_Beni={
+		name="Ketutra Beni"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Ketutra_Beni
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	CUN_Lutra_Pahar={
+		name="Lutra Pahar"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Lutra_Pahar
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	CUN_Arjuna_Rohon={
+		name="Arjuna Rohon"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Arjuna_Rohon
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	CUN_Wayang_Pahar={
+		name="Wayang Pahar"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Wayang_Pahar
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	CUN_Arjuna_Mudat={
+		name="Arjuna Mudat"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Arjuna_Mudat
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	CUN_Surya_Nagu={
+		name="Surya Nagu"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUN_Dewa_Rohon={
+		name="Dewa Rohon"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Dewa_Rohon
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CUN_Bamban_Bulamatahgun={
+		name="Bamban Bulamatahgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Bamban_Bulamatahgun
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Budi_Perja={
+		name="Budi Perja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Budi_Perja
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CUN_Budi_Beni={
+		name="Budi Beni"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Budi_Beni
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CUN_Wayang_Pulitawa={
+		name="Wayang Pulitawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Wayang_Pulitawa
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Suryan_Suci={
+		name="Suryan Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Suryan_Suci
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CUN_Bama_Nyahlam={
+		name="Bama Nyahlam"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Bama_Nyahlam
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CUN_Lutfi_Gemi={
+		name="Lutfi Gemi"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Lutfi_Gemi
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	CUN_Surya_Sedisi={
+		name="Surya Sedisi"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Surya_Sedisi
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CUN_Dewa_Bada={
+		name="Dewa Bada"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Dewa_Bada
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CUN_Waya_Pembaka={
+		name="Waya Pembaka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUN_Waya_Pembaka
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	CUN_Bama_Upacakumimen={
+		name="Bama Upacakumimen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUN_Bama_Upacakumimen
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	CUN_Hari_Tanahrohon={
+		name="Hari Tanahrohon"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUN_Hari_Tanahrohon
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	CUN_Hari_Musuhaya={
+		name="Hari Musuhaya"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUN_Hari_Musuhaya
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CUN_Putra_Bununyi={
+		name="Putra Bununyi"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Putra_Bununyi
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	CUN_Fajario_Halat={
+		name="Fajario Halat"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Fajario_Halat
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	CUN_Budi_Pembaka={
+		name="Budi Pembaka"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Budi_Pembaka
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	CUN_Andi_Bada={
+		name="Andi Bada"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Andi_Bada
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	CUN_Joko_Upatuara={
+		name="Joko Upatuara"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Joko_Upatuara
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	CUN_Rama_Pasaramaib={
+		name="Rama Pasaramaib"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Rama_Pasaramaib
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	CUN_Suryan_Peran={
+		name="Suryan Peran"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { marxist_fundamentalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUN_Joko_Benjar={
+		name="Joko Benjar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Joko_Benjar
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Surya_Dambahlian={
+		name="Surya Dambahlian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Surya_Dambahlian
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CUN_Hari_Katang={
+		name="Hari Katang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Hari_Katang
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CUN_Mari_Tang={
+		name="Mari Tang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Mari_Tang
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CUN_Arjuna_Rohas={
+		name="Arjuna Rohas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Arjuna_Rohas
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CUN_Rambang_Arwanput={
+		name="Rambang Arwanput"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Rambang_Arwanput
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Hario_Katang={
+		name="Hario Katang"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Hario_Katang
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CUN_Ketutra_Upatuara={
+		name="Ketutra Upatuara"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Ketutra_Upatuara
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	CUN_Waya_Cahasa={
+		name="Waya Cahasa"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Waya_Cahasa
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CUN_Suryan_Keranda={
+		name="Suryan Keranda"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Suryan_Keranda
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	CUN_Arjuna_Wari={
+		name="Arjuna Wari"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUN_Arjuna_Wari
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CUN_Fajario_Perampi={
+		name="Fajario Perampi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUN_Fajario_Perampi
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	CUN_Fajar_Halat={
+		name="Fajar Halat"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUN_Fajar_Halat
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CUN_Bambang_Tualawan={
+		name="Bambang Tualawan"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUN_Bambang_Tualawan
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	CUN_Joko_Cintan={
+		name="Joko Cintan"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Joko_Cintan
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	CUN_Andi_Dang={
+		name="Andi Dang"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Andi_Dang
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	CUN_Bambang_Bahabatuaram={
+		name="Bambang Bahabatuaram"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Bambang_Bahabatuaram
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	CUN_Bamban_Kotasurga={
+		name="Bamban Kotasurga"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Bamban_Kotasurga
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	CUN_Ramban_Katang={
+		name="Ramban Katang"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Ramban_Katang
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	CUN_Bambang_Daut={
+		name="Bambang Daut"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Bambang_Daut
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	CUN_Bamban_Laung={
+		name="Bamban Laung"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUN_Lutfi_Desa={
+		name="Lutfi Desa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Lutfi_Desa
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CUN_Andi_Sedisi={
+		name="Andi Sedisi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Andi_Sedisi
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Putra_Sedisi={
+		name="Putra Sedisi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Putra_Sedisi
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Rama_Upatuara={
+		name="Rama Upatuara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Rama_Upatuara
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Wayang_Ayawa={
+		name="Wayang Ayawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Wayang_Ayawa
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CUN_Ramban_Pembaka={
+		name="Ramban Pembaka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUN_Ramban_Pembaka
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CUN_Hari_Jiwo={
+		name="Hari Jiwo"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Hari_Jiwo
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	CUN_Lutfi_Suarnahroh={
+		name="Lutfi Suarnahroh"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Lutfi_Suarnahroh
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CUN_Mari_Pelak={
+		name="Mari Pelak"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Mari_Pelak
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CUN_Andi_Perampi={
+		name="Andi Perampi"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUN_Andi_Perampi
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CUN_Putra_Upacakumimen={
+		name="Putra Upacakumimen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUN_Putra_Upacakumimen
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	CUN_Rambang_Pembaka={
+		name="Rambang Pembaka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUN_Rambang_Pembaka
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	CUN_Hari_Ayawa={
+		name="Hari Ayawa"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUN_Hari_Ayawa
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	CUN_Wayang_Bahabatuaram={
+		name="Wayang Bahabatuaram"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUN_Wayang_Bahabatuaram
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	CUN_Joko_Suci={
+		name="Joko Suci"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Joko_Suci
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	CUN_Andi_Mata={
+		name="Andi Mata"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Andi_Mata
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	CUN_Mari_Rohon={
+		name="Mari Rohon"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Mari_Rohon
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	CUN_Lutra_Oradang={
+		name="Lutra Oradang"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Lutra_Oradang
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	CUN_Lutfi_Gunung={
+		name="Lutfi Gunung"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Lutfi_Gunung
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	CUN_Rama_Peti={
+		name="Rama Peti"
+
+		advisor={
+			slot = high_command
+			idea_token = CUN_Rama_Peti
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	CUN_Bama_Gemi={
+		name="Bama Gemi"
+
+		advisor={
+			slot = theorist
+			idea_token = CUN_Bama_Gemi
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CUN_Agus_Gung={
+		name="Agus Gung"
+
+		advisor={
+			slot = theorist
+			idea_token = CUN_Agus_Gung
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CUN_Wayang_Belambubulam={
+		name="Wayang Belambubulam"
+
+		advisor={
+			slot = theorist
+			idea_token = CUN_Wayang_Belambubulam
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

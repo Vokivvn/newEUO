@@ -1,0 +1,8 @@
+air_wings = {
+		623 = { 								
+		tac_bomber_equipment_0 = { owner = "NIZ" amount = 46 version_name = "Arda Mk 1" }
+
+	}
+
+
+}

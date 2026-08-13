@@ -1,0 +1,44 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Slinamh Fleet"			
+		naval_base = 2252
+		task_force = {
+			name = "Slinamh Fleet"
+			location = 2252
+			
+						ship = { name = "Boilte" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Laoch" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SLI version_name = "Magh Class" } }	}
+			ship = { name = "Caill" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Beile" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SLI version_name = "Magh Class" } }	}
+			ship = { name = "Baill" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SLI version_name = "Buirian Class" } }	}
+			ship = { name = "Beile 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Tuach" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Caill 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Baill 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Ceite" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Dolamhrath" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SLI version_name = "Magh Class" } }	}
+			ship = { name = "Boilte 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SLI version_name = "Buirian Class" } }	}
+			ship = { name = "Talai" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SLI version_name = "Buirian Class" } }	}
+			ship = { name = "Crios" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Dolamhrath 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SLI version_name = "Magh Class" } }	}
+			ship = { name = "Ronamhart" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SLI version_name = "Buirian Class" } }	}
+			ship = { name = "Eagne" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+			ship = { name = "Glas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SLI version_name = "Buaite Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

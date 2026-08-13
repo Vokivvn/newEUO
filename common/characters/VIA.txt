@@ -1,0 +1,1083 @@
+characters = {
+	VIA_Radoslan_Muzik={
+		name="Radoslan Muzik"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { agricultural_capitalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VIA_Vlavel_Zlana={
+		name="Vlavel Zlana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Vlavel_Zlana
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Goris_Hralanaga={
+		name="Goris Hralanaga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Goris_Hralanaga
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIA_Mateusanis_Tame={
+		name="Mateusanis Tame"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Mateusanis_Tame
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Dmir_Snazava={
+		name="Dmir Snazava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Dmir_Snazava
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Nikitan_Ribavacin={
+		name="Nikitan Ribavacin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Nikitan_Ribavacin
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Alexei_Vatra={
+		name="Alexei Vatra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Alexei_Vatra
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Goris_Zvezeralj={
+		name="Goris Zvezeralj"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Goris_Zvezeralj
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VIA_Mateusan_Leka={
+		name="Mateusan Leka"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Mateusan_Leka
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	VIA_Aleg_Vila={
+		name="Aleg Vila"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Aleg_Vila
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	VIA_Stan_Meska={
+		name="Stan Meska"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Stan_Meska
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VIA_Ivanko_Svinja={
+		name="Ivanko Svinja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIA_Ivanko_Svinja
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	VIA_Stej_Riba={
+		name="Stej Riba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIA_Stej_Riba
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	VIA_Dusankola_Zlana={
+		name="Dusankola Zlana"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIA_Dusankola_Zlana
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	VIA_Milavko_Mosto={
+		name="Milavko Mosto"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIA_Milavko_Mosto
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VIA_Miladimeon_Solj={
+		name="Miladimeon Solj"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miladimeon_Solj
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	VIA_Miloslav_Slavac={
+		name="Miloslav Slavac"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miloslav_Slavac
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	VIA_Alexei_Svet={
+		name="Alexei Svet"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Alexei_Svet
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	VIA_Mateusanis_Umetloda={
+		name="Mateusanis Umetloda"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Mateusanis_Umetloda
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	VIA_Miladovan_Kuladje={
+		name="Miladovan Kuladje"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miladovan_Kuladje
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	VIA_Kazimirosla_Voda={
+		name="Kazimirosla Voda"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Kazimirosla_Voda
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	VIA_Simitaroslav_Vatra={
+		name="Simitaroslav Vatra"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VIA_Vikitan_Laga={
+		name="Vikitan Laga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Vikitan_Laga
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Boran_Plan={
+		name="Boran Plan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Boran_Plan
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIA_Zdenek_Pisa={
+		name="Zdenek Pisa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Zdenek_Pisa
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Zoraj_Tama={
+		name="Zoraj Tama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Zoraj_Tama
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIA_Miladovan_Muda={
+		name="Miladovan Muda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Miladovan_Muda
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Starosh_Svetadje={
+		name="Starosh Svetadje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Starosh_Svetadje
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIA_Ivanko_Vrebro={
+		name="Ivanko Vrebro"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Ivanko_Vrebro
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	VIA_Boraj_Muda={
+		name="Boraj Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Boraj_Muda
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	VIA_Miladovan_Oblik={
+		name="Miladovan Oblik"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Miladovan_Oblik
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	VIA_Alek_Vlast={
+		name="Alek Vlast"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Alek_Vlast
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	VIA_Radoslan_Grmlje={
+		name="Radoslan Grmlje"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIA_Radoslan_Grmlje
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	VIA_Kazimirosla_Laga={
+		name="Kazimirosla Laga"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIA_Kazimirosla_Laga
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VIA_Lubomir_Pisa={
+		name="Lubomir Pisa"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIA_Lubomir_Pisa
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	VIA_Zdenek_Muda={
+		name="Zdenek Muda"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIA_Zdenek_Muda
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	VIA_Nikitarko_Zvetloda={
+		name="Nikitarko Zvetloda"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Nikitarko_Zvetloda
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	VIA_Dmir_Tvrdje={
+		name="Dmir Tvrdje"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Dmir_Tvrdje
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	VIA_Ivanovan_Zvenat={
+		name="Ivanovan Zvenat"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Ivanovan_Zvenat
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	VIA_Miladimeon_Zeme={
+		name="Miladimeon Zeme"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miladimeon_Zeme
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	VIA_Tomir_Kraljevina={
+		name="Tomir Kraljevina"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Tomir_Kraljevina
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	VIA_Miladovan_Auto={
+		name="Miladovan Auto"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miladovan_Auto
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	VIA_Boraj_Bojst={
+		name="Boraj Bojst"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { anti_bolshevik_leftist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VIA_Matej_Solj={
+		name="Matej Solj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Matej_Solj
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIA_Boraj_Slavac={
+		name="Boraj Slavac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Boraj_Slavac
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Juran_Platrad={
+		name="Juran Platrad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Juran_Platrad
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Nikitan_Kraljevina={
+		name="Nikitan Kraljevina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Nikitan_Kraljevina
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Miloslan_Laga={
+		name="Miloslan Laga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Miloslan_Laga
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Aleksei_Ostvotina={
+		name="Aleksei Ostvotina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Aleksei_Ostvotina
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Vlavel_Kraljevina={
+		name="Vlavel Kraljevina"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Vlavel_Kraljevina
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	VIA_Milav_Obina={
+		name="Milav Obina"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Milav_Obina
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VIA_Dusankola_Kraljevina={
+		name="Dusankola Kraljevina"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Dusankola_Kraljevina
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	VIA_Jarkolav_Danaga={
+		name="Jarkolav Danaga"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Jarkolav_Danaga
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	VIA_Aleksei_Danaga={
+		name="Aleksei Danaga"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIA_Aleksei_Danaga
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	VIA_Sergei_Platrad={
+		name="Sergei Platrad"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIA_Sergei_Platrad
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	VIA_Niko_Plat={
+		name="Niko Plat"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIA_Niko_Plat
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	VIA_Slav_Rucanato={
+		name="Slav Rucanato"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIA_Slav_Rucanato
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	VIA_Miri_Tame={
+		name="Miri Tame"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miri_Tame
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	VIA_Simiroslav_Vrebro={
+		name="Simiroslav Vrebro"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Simiroslav_Vrebro
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	VIA_Miladimeon_Hralanaga={
+		name="Miladimeon Hralanaga"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miladimeon_Hralanaga
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	VIA_Dmiroslavko_Naro={
+		name="Dmiroslavko Naro"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Dmiroslavko_Naro
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	VIA_Milavko_Meska={
+		name="Milavko Meska"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Milavko_Meska
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	VIA_Lubomir_Svinja={
+		name="Lubomir Svinja"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Lubomir_Svinja
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	VIA_Bogdan_Naro={
+		name="Bogdan Naro"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VIA_Simiroslav_Kisa={
+		name="Simiroslav Kisa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Simiroslav_Kisa
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Ilya_Svetadje={
+		name="Ilya Svetadje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Ilya_Svetadje
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIA_Ivanov_Tame={
+		name="Ivanov Tame"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Ivanov_Tame
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIA_Kazimirosla_Telo={
+		name="Kazimirosla Telo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Kazimirosla_Telo
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Matefanko_Paslje={
+		name="Matefanko Paslje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Matefanko_Paslje
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Radimiroslav_Oblik={
+		name="Radimiroslav Oblik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIA_Radimiroslav_Oblik
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIA_Boran_Zvetak={
+		name="Boran Zvetak"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Boran_Zvetak
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	VIA_Simitaroslav_Trada={
+		name="Simitaroslav Trada"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Simitaroslav_Trada
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	VIA_Sergei_Caslasljavet={
+		name="Sergei Caslasljavet"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Sergei_Caslasljavet
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VIA_Ivan_Vatra={
+		name="Ivan Vatra"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIA_Ivan_Vatra
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VIA_Niko_Obica={
+		name="Niko Obica"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIA_Niko_Obica
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	VIA_Aleksei_Putor={
+		name="Aleksei Putor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIA_Aleksei_Putor
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	VIA_Lubomitris_Svinja={
+		name="Lubomitris Svinja"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIA_Lubomitris_Svinja
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	VIA_Oleksei_Umetloda={
+		name="Oleksei Umetloda"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIA_Oleksei_Umetloda
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	VIA_Aleg_Muzik={
+		name="Aleg Muzik"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Aleg_Muzik
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	VIA_Radimiroslav_Svemenazaksi={
+		name="Radimiroslav Svemenazaksi"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Radimiroslav_Svemenazaksi
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	VIA_Zdenek_Vecnost={
+		name="Zdenek Vecnost"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Zdenek_Vecnost
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	VIA_Aleksei_Vatrvo={
+		name="Aleksei Vatrvo"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Aleksei_Vatrvo
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	VIA_Miladovan_Konzulturan={
+		name="Miladovan Konzulturan"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miladovan_Konzulturan
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	VIA_Miroslav_Ostvotina={
+		name="Miroslav Ostvotina"
+
+		advisor={
+			slot = high_command
+			idea_token = VIA_Miroslav_Ostvotina
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	VIA_Zdek_Obica={
+		name="Zdek Obica"
+
+		advisor={
+			slot = theorist
+			idea_token = VIA_Zdek_Obica
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	VIA_Gorilosladek_Vecnost={
+		name="Gorilosladek Vecnost"
+
+		advisor={
+			slot = theorist
+			idea_token = VIA_Gorilosladek_Vecnost
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	VIA_Juran_Kapija={
+		name="Juran Kapija"
+
+		advisor={
+			slot = theorist
+			idea_token = VIA_Juran_Kapija
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

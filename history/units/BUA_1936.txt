@@ -1,0 +1,328 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Poza' Militia Division"
+		location = 446
+		division_template = "Militia Division"
+		start_experience_factor = 0.268349
+		start_equipment_factor = 0.889016
+	}
+	division= {
+		name = "2nd 'Takaku' Militia Division"
+		location = 290
+		division_template = "Militia Division"
+		start_experience_factor = 0.747518
+		start_equipment_factor = 0.966866
+	}
+	division= {
+		name = "3rd 'Meng' Militia Division"
+		location = 548
+		division_template = "Militia Division"
+		start_experience_factor = 0.229870
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Poza' Militia Division"
+		location = 446
+		division_template = "Militia Division"
+		start_experience_factor = 0.653783
+		start_equipment_factor = 0.872776
+	}
+	division= {
+		name = "5th 'Errebeta' Militia Division"
+		location = 81
+		division_template = "Militia Division"
+		start_experience_factor = 0.070146
+		start_equipment_factor = 0.894364
+	}
+	division= {
+		name = "6th 'Helarreberro' Militia Division"
+		location = 663
+		division_template = "Militia Division"
+		start_experience_factor = 0.236083
+		start_equipment_factor = 0.877785
+	}
+	division= {
+		name = "7th 'Zahantzapena' Militia Division"
+		location = 691
+		division_template = "Militia Division"
+		start_experience_factor = 0.874430
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Peti' Infantry Division"
+		location = 1462
+		division_template = "Infantry Division"
+		start_experience_factor = 0.652844
+		start_equipment_factor = 0.951058
+	}
+	division= {
+		name = "2nd 'Utusa' Infantry Division"
+		location = 30
+		division_template = "Infantry Division"
+		start_experience_factor = 0.937027
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Goimena' Infantry Division"
+		location = 173
+		division_template = "Infantry Division"
+		start_experience_factor = 0.360627
+		start_equipment_factor = 0.852906
+	}
+	division= {
+		name = "4th 'Ratu' Infantry Division"
+		location = 551
+		division_template = "Infantry Division"
+		start_experience_factor = 0.528749
+		start_equipment_factor = 0.881313
+	}
+	division= {
+		name = "5th 'Xing' Infantry Division"
+		location = 218
+		division_template = "Infantry Division"
+		start_experience_factor = 0.462839
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Mian' Supported Infantry Division"
+		location = 2222
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.271209
+		start_equipment_factor = 0.853520
+	}
+	division= {
+		name = "2nd 'Gogoa' Supported Infantry Division"
+		location = 557
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.193653
+		start_equipment_factor = 0.868228
+	}
+	division= {
+		name = "3rd 'Oroa' Supported Infantry Division"
+		location = 108
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.051765
+		start_equipment_factor = 0.890328
+	}
+	division= {
+		name = "4th 'Cahasa' Supported Infantry Division"
+		location = 732
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.710235
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Gaua' Supported Infantry Division"
+		location = 270
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.408284
+		start_equipment_factor = 0.960373
+	}
+	division= {
+		name = "6th 'Euskata' Supported Infantry Division"
+		location = 139
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.736804
+		start_equipment_factor = 0.985394
+	}
+	division= {
+		name = "7th 'Keku' Supported Infantry Division"
+		location = 1467
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.245477
+		start_equipment_factor = 0.846905
+	}
+	division= {
+		name = "8th 'Suar' Supported Infantry Division"
+		location = 531
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.357304
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "9th 'Abetsasketa' Supported Infantry Division"
+		location = 297
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.229601
+		start_equipment_factor = 0.995531
+	}
+	division= {
+		name = "10th 'Senci' Supported Infantry Division"
+		location = 701
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.776802
+		start_equipment_factor = 0.984601
+	}
+	division= {
+		name = "11th 'Hota' Supported Infantry Division"
+		location = 700
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.894026
+		start_equipment_factor = 0.994184
+	}
+	division= {
+		name = "12th 'Oihotzak' Supported Infantry Division"
+		location = 344
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.560345
+		start_equipment_factor = 0.895019
+	}
+	division= {
+		name = "13th 'Hotzminta' Supported Infantry Division"
+		location = 165
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.080395
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "14th 'Oroa' Supported Infantry Division"
+		location = 108
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.821279
+		start_equipment_factor = 0.864750
+	}
+	division= {
+		name = "15th 'Gaua' Supported Infantry Division"
+		location = 270
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.976215
+		start_equipment_factor = 0.882163
+	}
+	division= {
+		name = "16th 'Hitziaki' Supported Infantry Division"
+		location = 639
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.789318
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "17th 'Cahasa' Supported Infantry Division"
+		location = 732
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.172843
+		start_equipment_factor = 0.850721
+	}
+	division= {
+		name = "18th 'Taragemaintu' Supported Infantry Division"
+		location = 723
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.533230
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "19th 'Daragemangit' Supported Infantry Division"
+		location = 87
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.929664
+		start_equipment_factor = 0.974685
+	}
+	division= {
+		name = "20th 'Taragemaintu' Supported Infantry Division"
+		location = 723
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.643268
+		start_equipment_factor = 0.870651
+	}
+	division= {
+		name = "1st 'Bahabatuaram' Cavalry Division"
+		location = 54
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.311204
+		start_equipment_factor = 0.886428
+	}
+	division= {
+		name = "2nd 'Mimpi' Cavalry Division"
+		location = 615
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.577654
+		start_equipment_factor = 0.979733
+	}
+	division= {
+		name = "3rd 'Eskuna' Cavalry Division"
+		location = 1401
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.291782
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Eskuna' Cavalry Division"
+		location = 555
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.122111
+		start_equipment_factor = 0.857178
+	}
+
+}

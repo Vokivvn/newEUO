@@ -1,0 +1,248 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+			artillery_brigade = {  x = 3 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			recon = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Smrt' Supported Infantry Division"
+		location = 1149
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.999491
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Kapija' Supported Infantry Division"
+		location = 1503
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.343166
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Bojst' Supported Infantry Division"
+		location = 791
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.749772
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Vrebro' Supported Infantry Division"
+		location = 1967
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.972977
+		start_equipment_factor = 0.940268
+	}
+	division= {
+		name = "5th 'Kraljevina' Supported Infantry Division"
+		location = 809
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.263726
+		start_equipment_factor = 0.970391
+	}
+	division= {
+		name = "6th 'Snazava' Supported Infantry Division"
+		location = 1045
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.775772
+		start_equipment_factor = 0.899578
+	}
+	division= {
+		name = "7th 'Trada' Supported Infantry Division"
+		location = 1068
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.040730
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "8th 'Zeme' Supported Infantry Division"
+		location = 930
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.409702
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "9th 'Vazak' Supported Infantry Division"
+		location = 1490
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.006819
+		start_equipment_factor = 0.963396
+	}
+	division= {
+		name = "10th 'Bojst' Supported Infantry Division"
+		location = 1232
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.199381
+		start_equipment_factor = 0.960083
+	}
+	division= {
+		name = "11th 'Plan' Supported Infantry Division"
+		location = 1439
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.582204
+		start_equipment_factor = 0.975055
+	}
+	division= {
+		name = "12th 'Vrebro' Supported Infantry Division"
+		location = 805
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.462702
+		start_equipment_factor = 0.975908
+	}
+	division= {
+		name = "1st 'Kraljevina' Artillery Division"
+		location = 1635
+		division_template = "Artillery Division"
+		start_experience_factor = 0.037343
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Kapija' Artillery Division"
+		location = 1503
+		division_template = "Artillery Division"
+		start_experience_factor = 0.879302
+		start_equipment_factor = 0.964411
+	}
+	division= {
+		name = "3rd 'Zvetak' Artillery Division"
+		location = 919
+		division_template = "Artillery Division"
+		start_experience_factor = 0.220317
+		start_equipment_factor = 0.979964
+	}
+	division= {
+		name = "4th 'Voda' Artillery Division"
+		location = 950
+		division_template = "Artillery Division"
+		start_experience_factor = 0.343978
+		start_equipment_factor = 0.878059
+	}
+	division= {
+		name = "5th 'Konzulturalj' Artillery Division"
+		location = 1059
+		division_template = "Artillery Division"
+		start_experience_factor = 0.132624
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Vatra' Artillery Division"
+		location = 1099
+		division_template = "Artillery Division"
+		start_experience_factor = 0.711309
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Kraljevina' Artillery Division"
+		location = 1635
+		division_template = "Artillery Division"
+		start_experience_factor = 0.479423
+		start_equipment_factor = 0.981158
+	}
+	division= {
+		name = "8th 'Plan' Artillery Division"
+		location = 1439
+		division_template = "Artillery Division"
+		start_experience_factor = 0.811797
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "9th 'Tama' Artillery Division"
+		location = 1210
+		division_template = "Artillery Division"
+		start_experience_factor = 0.546990
+		start_equipment_factor = 0.891381
+	}
+
+}

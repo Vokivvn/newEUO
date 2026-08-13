@@ -1,0 +1,1083 @@
+characters = {
+	JEM_Dewa_Bata={
+		name="Dewa Bata"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { he_who_bears_the_throne  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JEM_Lutra_Gungit={
+		name="Lutra Gungit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Lutra_Gungit
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JEM_Lutra_Bulamata={
+		name="Lutra Bulamata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Lutra_Bulamata
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Arjuna_Dimeni={
+		name="Arjuna Dimeni"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Arjuna_Dimeni
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JEM_Lutra_Jemat={
+		name="Lutra Jemat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Lutra_Jemat
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Rizal_Huka={
+		name="Rizal Huka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Rizal_Huka
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JEM_Sakti_Perak={
+		name="Sakti Perak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Sakti_Perak
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Agus_Putanggaranr={
+		name="Agus Putanggaranr"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Agus_Putanggaranr
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	JEM_Suryan_Alajarang={
+		name="Suryan Alajarang"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Suryan_Alajarang
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	JEM_Rambang_Bahasa={
+		name="Rambang Bahasa"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Rambang_Bahasa
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	JEM_Hari_Masaanakut={
+		name="Hari Masaanakut"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Hari_Masaanakut
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	JEM_Rambang_Masjidunung={
+		name="Rambang Masjidunung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JEM_Rambang_Masjidunung
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	JEM_Lutfi_Hatang={
+		name="Lutfi Hatang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JEM_Lutfi_Hatang
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	JEM_Lutra_Kebiatangga={
+		name="Lutra Kebiatangga"
+
+		advisor={
+			slot = air_chief
+			idea_token = JEM_Lutra_Kebiatangga
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	JEM_Putfi_Jemurnah={
+		name="Putfi Jemurnah"
+
+		advisor={
+			slot = air_chief
+			idea_token = JEM_Putfi_Jemurnah
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	JEM_Putra_Pangittemu={
+		name="Putra Pangittemu"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Putra_Pangittemu
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	JEM_Arjuna_Bulamata={
+		name="Arjuna Bulamata"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Arjuna_Bulamata
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	JEM_Dewa_Kekerandalau={
+		name="Dewa Kekerandalau"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Dewa_Kekerandalau
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	JEM_Lutra_Sendungarga={
+		name="Lutra Sendungarga"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Lutra_Sendungarga
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	JEM_Bama_Petandalai={
+		name="Bama Petandalai"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Bama_Petandalai
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	JEM_Fajar_Arombak={
+		name="Fajar Arombak"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Fajar_Arombak
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	JEM_Surya_Gelitang={
+		name="Surya Gelitang"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JEM_Lutra_Perak={
+		name="Lutra Perak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Lutra_Perak
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Ketutfi_Kebin={
+		name="Ketutfi Kebin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Ketutfi_Kebin
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JEM_Ketut_Tomai={
+		name="Ketut Tomai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Ketut_Tomai
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Joko_Tomai={
+		name="Joko Tomai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Joko_Tomai
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Andi_Ibut={
+		name="Andi Ibut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Andi_Ibut
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JEM_Agus_Pekum={
+		name="Agus Pekum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Agus_Pekum
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JEM_Ketutfi_Bualan={
+		name="Ketutfi Bualan"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Ketutfi_Bualan
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	JEM_Ramban_Kaki={
+		name="Ramban Kaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Ramban_Kaki
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	JEM_Lutfi_Lemimenjaran={
+		name="Lutfi Lemimenjaran"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Lutfi_Lemimenjaran
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	JEM_Suryan_Teritua={
+		name="Suryan Teritua"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Suryan_Teritua
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	JEM_Ramban_Daut={
+		name="Ramban Daut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JEM_Ramban_Daut
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	JEM_Waya_Arombak={
+		name="Waya Arombak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JEM_Waya_Arombak
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	JEM_Waya_Alaut={
+		name="Waya Alaut"
+
+		advisor={
+			slot = air_chief
+			idea_token = JEM_Waya_Alaut
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	JEM_Lutfi_Tuahroh={
+		name="Lutfi Tuahroh"
+
+		advisor={
+			slot = air_chief
+			idea_token = JEM_Lutfi_Tuahroh
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	JEM_Joko_Dimenjat={
+		name="Joko Dimenjat"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Joko_Dimenjat
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	JEM_Waya_Pekum={
+		name="Waya Pekum"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Waya_Pekum
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	JEM_Mari_Terempa={
+		name="Mari Terempa"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Mari_Terempa
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	JEM_Rambang_Musaan={
+		name="Rambang Musaan"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Rambang_Musaan
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	JEM_Rizal_Pensir={
+		name="Rizal Pensir"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Rizal_Pensir
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	JEM_Rizal_Dimenjat={
+		name="Rizal Dimenjat"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Rizal_Dimenjat
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	JEM_Bambang_Perak={
+		name="Bambang Perak"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { devoted_marxist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JEM_Joko_Putanggaranr={
+		name="Joko Putanggaranr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Joko_Putanggaranr
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Dewa_Dambu={
+		name="Dewa Dambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Dewa_Dambu
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JEM_Suryang_Waka={
+		name="Suryang Waka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Suryang_Waka
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JEM_Mario_Cerbu={
+		name="Mario Cerbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Mario_Cerbu
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JEM_Fajar_Rata={
+		name="Fajar Rata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Fajar_Rata
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JEM_Surya_Masaanakut={
+		name="Surya Masaanakut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Surya_Masaanakut
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Rizal_Bula={
+		name="Rizal Bula"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Rizal_Bula
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	JEM_Surya_Bula={
+		name="Surya Bula"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Surya_Bula
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	JEM_Fajari_Musaan={
+		name="Fajari Musaan"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Fajari_Musaan
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	JEM_Rambang_Kerjat={
+		name="Rambang Kerjat"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Rambang_Kerjat
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	JEM_Waya_Alajarang={
+		name="Waya Alajarang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JEM_Waya_Alajarang
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	JEM_Waya_Putanggaranr={
+		name="Waya Putanggaranr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JEM_Waya_Putanggaranr
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	JEM_Joko_Sendungarga={
+		name="Joko Sendungarga"
+
+		advisor={
+			slot = air_chief
+			idea_token = JEM_Joko_Sendungarga
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	JEM_Fajario_Daununga={
+		name="Fajario Daununga"
+
+		advisor={
+			slot = air_chief
+			idea_token = JEM_Fajario_Daununga
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	JEM_Andi_Tulawa={
+		name="Andi Tulawa"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Andi_Tulawa
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	JEM_Mario_Bula={
+		name="Mario Bula"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Mario_Bula
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	JEM_Rizal_Masaanakut={
+		name="Rizal Masaanakut"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Rizal_Masaanakut
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	JEM_Dewa_Bahasa={
+		name="Dewa Bahasa"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Dewa_Bahasa
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	JEM_Fajario_Bualan={
+		name="Fajario Bualan"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Fajario_Bualan
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	JEM_Wayang_Bahabat={
+		name="Wayang Bahabat"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Wayang_Bahabat
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	JEM_Rambang_Dambu={
+		name="Rambang Dambu"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JEM_Ramban_Perah={
+		name="Ramban Perah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Ramban_Perah
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Putfi_Bualan={
+		name="Putfi Bualan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Putfi_Bualan
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JEM_Joko_Tebintan={
+		name="Joko Tebintan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Joko_Tebintan
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JEM_Rizal_Teritua={
+		name="Rizal Teritua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Rizal_Teritua
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JEM_Agus_Jemat={
+		name="Agus Jemat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Agus_Jemat
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JEM_Fajario_Cahu={
+		name="Fajario Cahu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JEM_Fajario_Cahu
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JEM_Lutfi_Geruh={
+		name="Lutfi Geruh"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Lutfi_Geruh
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	JEM_Suryang_Huka={
+		name="Suryang Huka"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Suryang_Huka
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	JEM_Bama_Dama={
+		name="Bama Dama"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Bama_Dama
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	JEM_Joko_Bukut={
+		name="Joko Bukut"
+
+		advisor={
+			slot = army_chief
+			idea_token = JEM_Joko_Bukut
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	JEM_Rizal_Trakak={
+		name="Rizal Trakak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JEM_Rizal_Trakak
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	JEM_Putfi_Rata={
+		name="Putfi Rata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JEM_Putfi_Rata
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	JEM_Hari_Pelan={
+		name="Hari Pelan"
+
+		advisor={
+			slot = air_chief
+			idea_token = JEM_Hari_Pelan
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	JEM_Waya_Nagainga={
+		name="Waya Nagainga"
+
+		advisor={
+			slot = air_chief
+			idea_token = JEM_Waya_Nagainga
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	JEM_Lutfi_Tuanpunci={
+		name="Lutfi Tuanpunci"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Lutfi_Tuanpunci
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	JEM_Fajario_Harga={
+		name="Fajario Harga"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Fajario_Harga
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	JEM_Mari_Tuahroh={
+		name="Mari Tuahroh"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Mari_Tuahroh
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	JEM_Ketutfi_Tuahroh={
+		name="Ketutfi Tuahroh"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Ketutfi_Tuahroh
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	JEM_Agus_Tuahroh={
+		name="Agus Tuahroh"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Agus_Tuahroh
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	JEM_Rizal_Sendungarga={
+		name="Rizal Sendungarga"
+
+		advisor={
+			slot = high_command
+			idea_token = JEM_Rizal_Sendungarga
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	JEM_Hari_Tang={
+		name="Hari Tang"
+
+		advisor={
+			slot = theorist
+			idea_token = JEM_Hari_Tang
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	JEM_Bama_Harga={
+		name="Bama Harga"
+
+		advisor={
+			slot = theorist
+			idea_token = JEM_Bama_Harga
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	JEM_Fajario_Kebin={
+		name="Fajario Kebin"
+
+		advisor={
+			slot = theorist
+			idea_token = JEM_Fajario_Kebin
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

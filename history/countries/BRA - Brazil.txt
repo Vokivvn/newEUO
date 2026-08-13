@@ -1,33 +1,44 @@
-﻿capital = 500
+﻿capital = 1
 
-oob = "BRA_2010"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GER_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GER_1936_nsb"
+}
 
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+# starting_truck_buffer = 0.8
+
+
+# Starting Stats of various kinds
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.7
+set_war_support = 0.3
+
+
+# Setup Politics
 set_politics = {
-	ruling_party = reactionary
-	last_election = "1936.1.1"
+	ruling_party = fascism
+	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	anarchism = 0
-	revolutionary_socialism = 0
-	moderate_socialism = 0
-	liberalism = 0
-	conservatism = 0
-	autocratic = 0
-	reactionary = 45
-	fascism = 22
-	national_socialism = 22
-	syncretism = 11
+	democratic = 35
+	fascism = 40
+	communism = 10
+	neutrality = 15
 }
 
-create_country_leader = {
-	name = "Armando Zanine Jr."
-	desc = ""
-	picture = "gfx/leaders/BRA/ArmandoZanine.png"
-	expire = "1950.1.1.1"
-	ideology = neo_fascism
-	traits = {
-	}
-}

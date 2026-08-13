@@ -1,0 +1,1083 @@
+characters = {
+	SJA_Nicto_Ombro={
+		name="Nicto Ombro"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { he_who_bears_the_throne  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SJA_Alberto_Batto={
+		name="Alberto Batto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Alberto_Batto
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Alexandre_Magge={
+		name="Alexandre Magge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Alexandre_Magge
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Rica_Lante={
+		name="Rica Lante"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Rica_Lante
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Nico_Canta={
+		name="Nico Canta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Nico_Canta
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Alberry_Paura={
+		name="Alberry Paura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Alberry_Paura
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Mattefandre_Spionfitta={
+		name="Mattefandre Spionfitta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Mattefandre_Spionfitta
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Paolas_Erbaziamone={
+		name="Paolas Erbaziamone"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Paolas_Erbaziamone
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SJA_Julipe_Casagnalia={
+		name="Julipe Casagnalia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Julipe_Casagnalia
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	SJA_Giaco_Fumo={
+		name="Giaco Fumo"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Giaco_Fumo
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SJA_Jeancescomon_Casa={
+		name="Jeancescomon Casa"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Jeancescomon_Casa
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SJA_Carlo_Rivinguaro={
+		name="Carlo Rivinguaro"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SJA_Carlo_Rivinguaro
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	SJA_Victonio_Albere={
+		name="Victonio Albere"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SJA_Victonio_Albere
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SJA_Jeancescolas_Duero={
+		name="Jeancescolas Duero"
+
+		advisor={
+			slot = air_chief
+			idea_token = SJA_Jeancescolas_Duero
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	SJA_Matteon_Luna={
+		name="Matteon Luna"
+
+		advisor={
+			slot = air_chief
+			idea_token = SJA_Matteon_Luna
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SJA_Albertonardo_Paura={
+		name="Albertonardo Paura"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Albertonardo_Paura
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	SJA_Frandre_Scolaggiore={
+		name="Frandre Scolaggiore"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Frandre_Scolaggiore
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	SJA_Thiertonio_Verra={
+		name="Thiertonio Verra"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Thiertonio_Verra
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	SJA_Alexancesco_Scolaggiore={
+		name="Alexancesco Scolaggiore"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Alexancesco_Scolaggiore
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	SJA_Luca_Navoleanzior={
+		name="Luca Navoleanzior"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Luca_Navoleanzior
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	SJA_Alberto_Caleaniestim={
+		name="Alberto Caleaniestim"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Alberto_Caleaniestim
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	SJA_Anto_Genza={
+		name="Anto Genza"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SJA_Jeancescolas_Oraccanyoner={
+		name="Jeancescolas Oraccanyoner"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Jeancescolas_Oraccanyoner
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Giaco_Desione={
+		name="Giaco Desione"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Giaco_Desione
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Alberry_Fedempesso={
+		name="Alberry Fedempesso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Alberry_Fedempesso
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Robertor_Amore={
+		name="Robertor Amore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Robertor_Amore
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Thien_Luce={
+		name="Thien Luce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Thien_Luce
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Jeancescomon_Laggione={
+		name="Jeancescomon Laggione"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Jeancescomon_Laggione
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Anto_Caleaniestim={
+		name="Anto Caleaniestim"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Anto_Caleaniestim
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SJA_Jeano_Laggeria={
+		name="Jeano Laggeria"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Jeano_Laggeria
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	SJA_Nicolo_Desero={
+		name="Nicolo Desero"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Nicolo_Desero
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SJA_Giacomo_Accia={
+		name="Giacomo Accia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Giacomo_Accia
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SJA_Pedre_Ombro={
+		name="Pedre Ombro"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SJA_Pedre_Ombro
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	SJA_Luis_Terionto={
+		name="Luis Terionto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SJA_Luis_Terionto
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	SJA_Ricto_Desero={
+		name="Ricto Desero"
+
+		advisor={
+			slot = air_chief
+			idea_token = SJA_Ricto_Desero
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	SJA_Matteon_Batta={
+		name="Matteon Batta"
+
+		advisor={
+			slot = air_chief
+			idea_token = SJA_Matteon_Batta
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	SJA_Alexancesco_Terionto={
+		name="Alexancesco Terionto"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Alexancesco_Terionto
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	SJA_Bruno_Accia={
+		name="Bruno Accia"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Bruno_Accia
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SJA_Paolo_Isolaginto={
+		name="Paolo Isolaginto"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Paolo_Isolaginto
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	SJA_Fran_Battelo={
+		name="Fran Battelo"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Fran_Battelo
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	SJA_Frandre_Incia={
+		name="Frandre Incia"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Frandre_Incia
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	SJA_Giacolo_Rivincancato={
+		name="Giacolo Rivincancato"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Giacolo_Rivincancato
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	SJA_Jeano_Fiustelo={
+		name="Jeano Fiustelo"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SJA_Pedro_Nempesteziog={
+		name="Pedro Nempesteziog"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Pedro_Nempesteziog
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Matteon_Forita={
+		name="Matteon Forita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Matteon_Forita
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Giacolo_Genza={
+		name="Giacolo Genza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Giacolo_Genza
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Fran_Temiavento={
+		name="Fran Temiavento"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Fran_Temiavento
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SJA_Giacolo_Amore={
+		name="Giacolo Amore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Giacolo_Amore
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Nicto_Guelleante={
+		name="Nicto Guelleante"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Nicto_Guelleante
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Fran_Paura={
+		name="Fran Paura"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Fran_Paura
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SJA_Jose_Mempesaggio={
+		name="Jose Mempesaggio"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Jose_Mempesaggio
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SJA_Bruno_Spircampo={
+		name="Bruno Spircampo"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Bruno_Spircampo
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SJA_Paolas_Mallo={
+		name="Paolas Mallo"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Paolas_Mallo
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	SJA_Pablo_Casa={
+		name="Pablo Casa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SJA_Pablo_Casa
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	SJA_Paolos_Spircampo={
+		name="Paolos Spircampo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SJA_Paolos_Spircampo
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	SJA_Frandre_Rumenerno={
+		name="Frandre Rumenerno"
+
+		advisor={
+			slot = air_chief
+			idea_token = SJA_Frandre_Rumenerno
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SJA_Andro_Isolo={
+		name="Andro Isolo"
+
+		advisor={
+			slot = air_chief
+			idea_token = SJA_Andro_Isolo
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	SJA_Fran_Reanto={
+		name="Fran Reanto"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Fran_Reanto
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	SJA_Paolo_Amore={
+		name="Paolo Amore"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Paolo_Amore
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	SJA_Leonio_Fuolo={
+		name="Leonio Fuolo"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Leonio_Fuolo
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	SJA_Leonarlose_Reanto={
+		name="Leonarlose Reanto"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Leonarlose_Reanto
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	SJA_Mario_Mallo={
+		name="Mario Mallo"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Mario_Mallo
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	SJA_Victonio_Carielo={
+		name="Victonio Carielo"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Victonio_Carielo
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	SJA_Anto_Spircampo={
+		name="Anto Spircampo"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SJA_Pedre_Vissa={
+		name="Pedre Vissa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Pedre_Vissa
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SJA_Jeano_Albere={
+		name="Jeano Albere"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Jeano_Albere
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SJA_Luca_Casagnalia={
+		name="Luca Casagnalia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Luca_Casagnalia
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Giacomo_Nava={
+		name="Giacomo Nava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Giacomo_Nava
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SJA_Steo_Erbaziamone={
+		name="Steo Erbaziamone"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Steo_Erbaziamone
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Julierry_Diaggiavolo={
+		name="Julierry Diaggiavolo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SJA_Julierry_Diaggiavolo
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SJA_Ramo_Amore={
+		name="Ramo Amore"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Ramo_Amore
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	SJA_Carcolo_Grolagliesta={
+		name="Carcolo Grolagliesta"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Carcolo_Grolagliesta
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SJA_Stefandre_Odizia={
+		name="Stefandre Odizia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Stefandre_Odizia
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SJA_Anto_Ciestima={
+		name="Anto Ciestima"
+
+		advisor={
+			slot = army_chief
+			idea_token = SJA_Anto_Ciestima
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	SJA_Vicardo_Spionfitta={
+		name="Vicardo Spionfitta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SJA_Vicardo_Spionfitta
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SJA_Nico_Neventagginc={
+		name="Nico Neventagginc"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SJA_Nico_Neventagginc
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	SJA_Leonio_Incubo={
+		name="Leonio Incubo"
+
+		advisor={
+			slot = air_chief
+			idea_token = SJA_Leonio_Incubo
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SJA_Jeancescomon_Fore={
+		name="Jeancescomon Fore"
+
+		advisor={
+			slot = air_chief
+			idea_token = SJA_Jeancescomon_Fore
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	SJA_Rica_Fiustelo={
+		name="Rica Fiustelo"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Rica_Fiustelo
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	SJA_Jeancescolas_Ciestima={
+		name="Jeancescolas Ciestima"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Jeancescolas_Ciestima
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	SJA_Lucardo_Spircampo={
+		name="Lucardo Spircampo"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Lucardo_Spircampo
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	SJA_Nicto_Isolo={
+		name="Nicto Isolo"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Nicto_Isolo
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	SJA_Thiertonio_Fiustelo={
+		name="Thiertonio Fiustelo"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Thiertonio_Fiustelo
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	SJA_Luis_Rumenerno={
+		name="Luis Rumenerno"
+
+		advisor={
+			slot = high_command
+			idea_token = SJA_Luis_Rumenerno
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	SJA_Nicolo_Scolaggiore={
+		name="Nicolo Scolaggiore"
+
+		advisor={
+			slot = theorist
+			idea_token = SJA_Nicolo_Scolaggiore
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SJA_Fran_Albere={
+		name="Fran Albere"
+
+		advisor={
+			slot = theorist
+			idea_token = SJA_Fran_Albere
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SJA_Alexancesco_Luna={
+		name="Alexancesco Luna"
+
+		advisor={
+			slot = theorist
+			idea_token = SJA_Alexancesco_Luna
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

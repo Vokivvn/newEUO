@@ -1,0 +1,1083 @@
+characters = {
+	CER_Owen_Magna={
+		name="Owen Magna"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { national_determinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CER_Quinn_Griann={
+		name="Quinn Griann"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Quinn_Griann
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CER_Seam_Cluan={
+		name="Seam Cluan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Seam_Cluan
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Garan_Slinn={
+		name="Garan Slinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Garan_Slinn
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Padran_Ardais={
+		name="Padran Ardais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Padran_Ardais
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CER_Keiraig_Geac={
+		name="Keiraig Geac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Keiraig_Geac
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CER_Padran_Leas={
+		name="Padran Leas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Padran_Leas
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CER_Declan_Glas={
+		name="Declan Glas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Declan_Glas
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	CER_Ulrich_Ceil={
+		name="Ulrich Ceil"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Ulrich_Ceil
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CER_Aidan_Failte={
+		name="Aidan Failte"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Aidan_Failte
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CER_Liam_Crom={
+		name="Liam Crom"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Liam_Crom
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CER_Hugh_Beim={
+		name="Hugh Beim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CER_Hugh_Beim
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	CER_Tareth_Magna={
+		name="Tareth Magna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CER_Tareth_Magna
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	CER_Seamus_Griann={
+		name="Seamus Griann"
+
+		advisor={
+			slot = air_chief
+			idea_token = CER_Seamus_Griann
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CER_Iwan_Spioc={
+		name="Iwan Spioc"
+
+		advisor={
+			slot = air_chief
+			idea_token = CER_Iwan_Spioc
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CER_Quin_Eagne={
+		name="Quin Eagne"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Quin_Eagne
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	CER_Liaran_Dolamhradhar={
+		name="Liaran Dolamhradhar"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Liaran_Dolamhradhar
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	CER_Padraig_Ardais={
+		name="Padraig Ardais"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Padraig_Ardais
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	CER_Garan_Faile={
+		name="Garan Faile"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Garan_Faile
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	CER_Ciaran_Lais={
+		name="Ciaran Lais"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Ciaran_Lais
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	CER_Rhys_Maghearnacha={
+		name="Rhys Maghearnacha"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Rhys_Maghearnacha
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	CER_Cialcolm_Uamhtir={
+		name="Cialcolm Uamhtir"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { vapsid_economist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CER_Ulrich_Tuach={
+		name="Ulrich Tuach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Ulrich_Tuach
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Seam_Balas={
+		name="Seam Balas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Seam_Balas
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Ciaraig_Cluan={
+		name="Ciaraig Cluan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Ciaraig_Cluan
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CER_Owen_Leas={
+		name="Owen Leas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Owen_Leas
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Bran_Failte={
+		name="Bran Failte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Bran_Failte
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CER_Eoinn_Spiorg={
+		name="Eoinn Spiorg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Eoinn_Spiorg
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Padraig_Sceart={
+		name="Padraig Sceart"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Padraig_Sceart
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CER_Cialcolm_Maghearnacha={
+		name="Cialcolm Maghearnacha"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Cialcolm_Maghearnacha
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CER_Cialcolm_Deanch={
+		name="Cialcolm Deanch"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Cialcolm_Deanch
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CER_Taran_Leart={
+		name="Taran Leart"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Taran_Leart
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	CER_Cialcolm_Glamha={
+		name="Cialcolm Glamha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CER_Cialcolm_Glamha
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CER_Padran_Sceancheall={
+		name="Padran Sceancheall"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CER_Padran_Sceancheall
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	CER_Braig_Ronamhart={
+		name="Braig Ronamhart"
+
+		advisor={
+			slot = air_chief
+			idea_token = CER_Braig_Ronamhart
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CER_Seamus_Torg={
+		name="Seamus Torg"
+
+		advisor={
+			slot = air_chief
+			idea_token = CER_Seamus_Torg
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	CER_Tareth_Lais={
+		name="Tareth Lais"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Tareth_Lais
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	CER_Ciall_Lair={
+		name="Ciall Lair"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Ciall_Lair
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	CER_Keiran_Laitha={
+		name="Keiran Laitha"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Keiran_Laitha
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	CER_Gareth_Ceil={
+		name="Gareth Ceil"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Gareth_Ceil
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CER_Seamus_Cnamh={
+		name="Seamus Cnamh"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Seamus_Cnamh
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	CER_Tareth_Ceach={
+		name="Tareth Ceach"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Tareth_Ceach
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	CER_Ciam_Liorm={
+		name="Ciam Liorm"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CER_Liaraig_Cinn={
+		name="Liaraig Cinn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Liaraig_Cinn
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Tareth_Reolamh={
+		name="Tareth Reolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Tareth_Reolamh
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CER_Cialcolm_Rean={
+		name="Cialcolm Rean"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Cialcolm_Rean
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Garan_Cnoch={
+		name="Garan Cnoch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Garan_Cnoch
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CER_Liaraig_Aonamh={
+		name="Liaraig Aonamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Liaraig_Aonamh
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Padran_Caill={
+		name="Padran Caill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Padran_Caill
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CER_Ciaran_Seamh={
+		name="Ciaran Seamh"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Ciaran_Seamh
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	CER_Hugh_Geanta={
+		name="Hugh Geanta"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Hugh_Geanta
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	CER_Keiran_Boine={
+		name="Keiran Boine"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Keiran_Boine
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	CER_Keiraig_Spioc={
+		name="Keiraig Spioc"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Keiraig_Spioc
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	CER_Niall_Boine={
+		name="Niall Boine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CER_Niall_Boine
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CER_Declan_Talamhanamhn={
+		name="Declan Talamhanamhn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CER_Declan_Talamhanamhn
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	CER_Liaraig_Faile={
+		name="Liaraig Faile"
+
+		advisor={
+			slot = air_chief
+			idea_token = CER_Liaraig_Faile
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	CER_Fergus_Dolamhradhar={
+		name="Fergus Dolamhradhar"
+
+		advisor={
+			slot = air_chief
+			idea_token = CER_Fergus_Dolamhradhar
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CER_Ciamus_Gluaigne={
+		name="Ciamus Gluaigne"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Ciamus_Gluaigne
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	CER_Ciall_Deanch={
+		name="Ciall Deanch"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Ciall_Deanch
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	CER_Quin_Geanta={
+		name="Quin Geanta"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Quin_Geanta
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	CER_Malcolm_Talai={
+		name="Malcolm Talai"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Malcolm_Talai
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CER_Ciam_Scealas={
+		name="Ciam Scealas"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Ciam_Scealas
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	CER_Declan_Mili={
+		name="Declan Mili"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Declan_Mili
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	CER_Liareth_Dolamhrath={
+		name="Liareth Dolamhrath"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CER_Keiraig_Buasacht={
+		name="Keiraig Buasacht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Keiraig_Buasacht
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CER_Cialcolm_Sceancheall={
+		name="Cialcolm Sceancheall"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Cialcolm_Sceancheall
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Ciamus_Boilte={
+		name="Ciamus Boilte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Ciamus_Boilte
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CER_Mall_Doradh={
+		name="Mall Doradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Mall_Doradh
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CER_Owen_Beim={
+		name="Owen Beim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Owen_Beim
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CER_Keiraig_Lair={
+		name="Keiraig Lair"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CER_Keiraig_Lair
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CER_Aidan_Sceancheall={
+		name="Aidan Sceancheall"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Aidan_Sceancheall
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CER_Eoin_Locha={
+		name="Eoin Locha"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Eoin_Locha
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CER_Garan_Faoisli={
+		name="Garan Faoisli"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Garan_Faoisli
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	CER_Quin_Leas={
+		name="Quin Leas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CER_Quin_Leas
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	CER_Tareth_Eagne={
+		name="Tareth Eagne"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CER_Tareth_Eagne
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	CER_Declan_Faile={
+		name="Declan Faile"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CER_Declan_Faile
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	CER_Taran_Slinn={
+		name="Taran Slinn"
+
+		advisor={
+			slot = air_chief
+			idea_token = CER_Taran_Slinn
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	CER_Ciamus_Geanta={
+		name="Ciamus Geanta"
+
+		advisor={
+			slot = air_chief
+			idea_token = CER_Ciamus_Geanta
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	CER_Liareth_Ardais={
+		name="Liareth Ardais"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Liareth_Ardais
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	CER_Bran_Boine={
+		name="Bran Boine"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Bran_Boine
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	CER_Liam_Rathaite={
+		name="Liam Rathaite"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Liam_Rathaite
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	CER_Ulrich_Rathaileart={
+		name="Ulrich Rathaileart"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Ulrich_Rathaileart
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	CER_Eoinn_Croilean={
+		name="Eoinn Croilean"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Eoinn_Croilean
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	CER_Taran_Seas={
+		name="Taran Seas"
+
+		advisor={
+			slot = high_command
+			idea_token = CER_Taran_Seas
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	CER_Cialcolm_Seas={
+		name="Cialcolm Seas"
+
+		advisor={
+			slot = theorist
+			idea_token = CER_Cialcolm_Seas
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CER_Braig_Glas={
+		name="Braig Glas"
+
+		advisor={
+			slot = theorist
+			idea_token = CER_Braig_Glas
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CER_Declan_Scath={
+		name="Declan Scath"
+
+		advisor={
+			slot = theorist
+			idea_token = CER_Declan_Scath
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

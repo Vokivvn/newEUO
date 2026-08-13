@@ -1,0 +1,1083 @@
+characters = {
+	DAW_Imrah_Ramarq={
+		name="Imrah Ramarq"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAW_Yahim_Hikh={
+		name="Yahim Hikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Yahim_Hikh
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAW_Kariq_Shibl={
+		name="Kariq Shibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Kariq_Shibl
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAW_Ahmarim_Maman={
+		name="Ahmarim Maman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Ahmarim_Maman
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Samir_Sahrasr={
+		name="Samir Sahrasr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Samir_Sahrasr
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Omal_Ahlamt={
+		name="Omal Ahlamt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Omal_Ahlamt
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Rami_Tuna={
+		name="Rami Tuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Rami_Tuna
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Rami_Thanaw={
+		name="Rami Thanaw"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Rami_Thanaw
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	DAW_Yusuf_Makta={
+		name="Yusuf Makta"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Yusuf_Makta
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	DAW_Nabilahya_Kharb={
+		name="Nabilahya Kharb"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Nabilahya_Kharb
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	DAW_Mohammed_Hayahr={
+		name="Mohammed Hayahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Mohammed_Hayahr
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	DAW_Nabilahmoud_Barab={
+		name="Nabilahmoud Barab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAW_Nabilahmoud_Barab
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	DAW_Saad_Alim={
+		name="Saad Alim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAW_Saad_Alim
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	DAW_Imrahmoud_Nasjidda={
+		name="Imrahmoud Nasjidda"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAW_Imrahmoud_Nasjidda
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	DAW_Mahmad_Irahaykh={
+		name="Mahmad Irahaykh"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAW_Mahmad_Irahaykh
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	DAW_Rammed_Sharasjidda={
+		name="Rammed Sharasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Rammed_Sharasjidda
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	DAW_Farid_Shaqq={
+		name="Farid Shaqq"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Farid_Shaqq
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	DAW_Ibrahya_Taria={
+		name="Ibrahya Taria"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Ibrahya_Taria
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	DAW_Saad_Qaml={
+		name="Saad Qaml"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Saad_Qaml
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	DAW_Omarim_Alis={
+		name="Omarim Alis"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Omarim_Alis
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	DAW_Hassan_Hikmar={
+		name="Hassan Hikmar"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Hassan_Hikmar
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	DAW_Ahmad_Thanaw={
+		name="Ahmad Thanaw"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAW_Omariq_Alim={
+		name="Omariq Alim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Omariq_Alim
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAW_Omalid_Amir={
+		name="Omalid Amir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Omalid_Amir
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Mahya_Sabil={
+		name="Mahya Sabil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Mahya_Sabil
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Samarid_Shurharq={
+		name="Samarid Shurharq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Samarid_Shurharq
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Adnan_Muniyahjara={
+		name="Adnan Muniyahjara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Adnan_Muniyahjara
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Samad_Irahaykh={
+		name="Samad Irahaykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Samad_Irahaykh
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Ramar_Ramarq={
+		name="Ramar Ramarq"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Ramar_Ramarq
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	DAW_Mohamar_Tuna={
+		name="Mohamar Tuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Mohamar_Tuna
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	DAW_Jamal_Khariqa={
+		name="Jamal Khariqa"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Jamal_Khariqa
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	DAW_Samad_Alim={
+		name="Samad Alim"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Samad_Alim
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	DAW_Khamal_Warasra={
+		name="Khamal Warasra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAW_Khamal_Warasra
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	DAW_Anwarim_Amir={
+		name="Anwarim Amir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAW_Anwarim_Amir
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	DAW_Mohal_Sala={
+		name="Mohal Sala"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAW_Mohal_Sala
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	DAW_Samad_Tayatasadin={
+		name="Samad Tayatasadin"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAW_Samad_Tayatasadin
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	DAW_Jamza_Dawjar={
+		name="Jamza Dawjar"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Jamza_Dawjar
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	DAW_Omarim_Rihlak={
+		name="Omarim Rihlak"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Omarim_Rihlak
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	DAW_Mahya_Kharb={
+		name="Mahya Kharb"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Mahya_Kharb
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	DAW_Imrahya_Burub={
+		name="Imrahya Burub"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Imrahya_Burub
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	DAW_Mohamal_Tayr={
+		name="Mohamal Tayr"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Mohamal_Tayr
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	DAW_Tarid_Qaleeh={
+		name="Tarid Qaleeh"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Tarid_Qaleeh
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	DAW_Samad_Amir={
+		name="Samad Amir"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { devoted_marxist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAW_Nabilahmoud_Sabil={
+		name="Nabilahmoud Sabil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Nabilahmoud_Sabil
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Yahim_Hayahjar={
+		name="Yahim Hayahjar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Yahim_Hayahjar
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Imrahya_Makta={
+		name="Imrahya Makta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Imrahya_Makta
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Faid_Tanis={
+		name="Faid Tanis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Faid_Tanis
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Mohami_Masra={
+		name="Mohami Masra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Mohami_Masra
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAW_Mahmoud_Basjid={
+		name="Mahmoud Basjid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Mahmoud_Basjid
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Mohamal_Basjid={
+		name="Mohamal Basjid"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Mohamal_Basjid
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	DAW_Ramza_Sabil={
+		name="Ramza Sabil"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Ramza_Sabil
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	DAW_Tariq_Yemen={
+		name="Tariq Yemen"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Tariq_Yemen
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	DAW_Ibrahya_Sharq={
+		name="Ibrahya Sharq"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Ibrahya_Sharq
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	DAW_Samza_Sala={
+		name="Samza Sala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAW_Samza_Sala
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	DAW_Jamal_Rihlak={
+		name="Jamal Rihlak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAW_Jamal_Rihlak
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	DAW_Mohal_Tharikmaad={
+		name="Mohal Tharikmaad"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAW_Mohal_Tharikmaad
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	DAW_Hamir_Barda={
+		name="Hamir Barda"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAW_Hamir_Barda
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	DAW_Abdullahya_Balah={
+		name="Abdullahya Balah"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Abdullahya_Balah
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	DAW_Omarim_Tanis={
+		name="Omarim Tanis"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Omarim_Tanis
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	DAW_Ibrahya_Mustar={
+		name="Ibrahya Mustar"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Ibrahya_Mustar
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	DAW_Yahya_Mada={
+		name="Yahya Mada"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Yahya_Mada
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	DAW_Omar_Tharq={
+		name="Omar Tharq"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Omar_Tharq
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	DAW_Hamir_Thanaw={
+		name="Hamir Thanaw"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Hamir_Thanaw
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	DAW_Mahya_Sharasjidda={
+		name="Mahya Sharasjidda"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAW_Yusuf_Diwat={
+		name="Yusuf Diwat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Yusuf_Diwat
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Ahmad_Balah={
+		name="Ahmad Balah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Ahmad_Balah
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAW_Yusuf_Khariqa={
+		name="Yusuf Khariqa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Yusuf_Khariqa
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Mahya_Shibl={
+		name="Mahya Shibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Mahya_Shibl
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Hassalid_Thanaw={
+		name="Hassalid Thanaw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Hassalid_Thanaw
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAW_Nabilahya_Amir={
+		name="Nabilahya Amir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAW_Nabilahya_Amir
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAW_Samza_Hayahjar={
+		name="Samza Hayahjar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Samza_Hayahjar
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	DAW_Jamal_Yemen={
+		name="Jamal Yemen"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Jamal_Yemen
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	DAW_Nabilahmoud_Thar={
+		name="Nabilahmoud Thar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Nabilahmoud_Thar
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	DAW_Nabilahya_Mufti={
+		name="Nabilahya Mufti"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAW_Nabilahya_Mufti
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	DAW_Imrah_Hikh={
+		name="Imrah Hikh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAW_Imrah_Hikh
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	DAW_Imrahya_Raml={
+		name="Imrahya Raml"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAW_Imrahya_Raml
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	DAW_Yahya_Tanis={
+		name="Yahya Tanis"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAW_Yahya_Tanis
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	DAW_Abdullahya_Thar={
+		name="Abdullahya Thar"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAW_Abdullahya_Thar
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	DAW_Alid_Bala={
+		name="Alid Bala"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Alid_Bala
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	DAW_Rami_Taranub={
+		name="Rami Taranub"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Rami_Taranub
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	DAW_Nabil_Ahla={
+		name="Nabil Ahla"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Nabil_Ahla
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	DAW_Omad_Ahla={
+		name="Omad Ahla"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Omad_Ahla
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	DAW_Zaid_Fajarb={
+		name="Zaid Fajarb"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Zaid_Fajarb
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	DAW_Omar_Shurharq={
+		name="Omar Shurharq"
+
+		advisor={
+			slot = high_command
+			idea_token = DAW_Omar_Shurharq
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	DAW_Omalid_Malb={
+		name="Omalid Malb"
+
+		advisor={
+			slot = theorist
+			idea_token = DAW_Omalid_Malb
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	DAW_Jamad_Makta={
+		name="Jamad Makta"
+
+		advisor={
+			slot = theorist
+			idea_token = DAW_Jamad_Makta
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	DAW_Mohal_Khariqa={
+		name="Mohal Khariqa"
+
+		advisor={
+			slot = theorist
+			idea_token = DAW_Mohal_Khariqa
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

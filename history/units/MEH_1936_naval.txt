@@ -1,0 +1,59 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Meheshtash Fleet"			
+		naval_base = 2254
+		task_force = {
+			name = "Meheshtash Fleet"
+			location = 2254
+			
+						ship = { name = "Shirdargar" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MEH version_name = "Sarin Class" } }	}
+			ship = { name = "Tanhad" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MEH version_name = "Sarin Class" } }	}
+			ship = { name = "Meheshtash" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Sepahvehesht" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEH version_name = "Barhak Class" } }	}
+			ship = { name = "Tanhad 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Bahr" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Ehsaayeh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEH version_name = "Barhak Class" } }	}
+			ship = { name = "Nesh" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Setabat" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Sedan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEH version_name = "Barhak Class" } }	}
+			ship = { name = "Ghak" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEH version_name = "Barhak Class" } }	}
+			ship = { name = "Tanhad 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Nesh 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Tanhad 4" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Sepahvehesht 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Shaht" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Shirdargar 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEH version_name = "Barhak Class" } }	}
+			ship = { name = "Nashrand" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Narandeh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Ashrang" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Ashadarghl" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Aziz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Goriz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Sepid" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Shaht 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEH version_name = "Barhak Class" } }	}
+			ship = { name = "Sepid 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Nesh 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEH version_name = "Barhak Class" } }	}
+			ship = { name = "Ashadarghl 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Shaht 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Mang" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Root" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEH version_name = "Ghak Class" } }	}
+			ship = { name = "Bazeht" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+			ship = { name = "Radan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MEH version_name = "Ragbada Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

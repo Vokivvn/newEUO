@@ -1,0 +1,73 @@
+air_wings = {
+		169 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "BUA" amount = 50 version_name = "Gunung Mk 2" }
+
+	}
+	1390 = { 								
+		small_plane_cas_airframe_1 = { owner = "BUA" amount = 50 version_name = "Tanahrohon Mk 2" }
+small_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Halat Mk 1" }
+
+	}
+	544 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "BUA" amount = 50 version_name = "Pekereja Mk 1" }
+
+	}
+	2209 = { 								
+		small_plane_airframe_1 = { owner = "BUA" amount = 50 version_name = "Buar Mk 1" }
+medium_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Pelak Mk 0" }
+
+	}
+	358 = { 								
+		medium_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Pelak Mk 0" }
+
+	}
+	78 = { 								
+		small_plane_airframe_1 = { owner = "BUA" amount = 50 version_name = "Buar Mk 1" }
+
+	}
+	250 = { 								
+		small_plane_cas_airframe_0 = { owner = "BUA" amount = 50 version_name = "Pahar Mk 0" }
+
+	}
+	724 = { 								
+		medium_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Pelak Mk 0" }
+
+	}
+	668 = { 								
+		small_plane_cas_airframe_0 = { owner = "BUA" amount = 50 version_name = "Pahar Mk 0" }
+
+	}
+	646 = { 								
+		small_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Halat Mk 1" }
+
+	}
+	765 = { 								
+		small_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Halat Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "BUA" amount = 50 version_name = "Gunung Mk 2" }
+
+	}
+	490 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "BUA" amount = 50 version_name = "Pekereja Mk 1" }
+
+	}
+	1456 = { 								
+		small_plane_airframe_1 = { owner = "BUA" amount = 50 version_name = "Buar Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "BUA" amount = 50 version_name = "Gunung Mk 2" }
+
+	}
+	4 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "BUA" amount = 50 version_name = "Pekereja Mk 1" }
+small_plane_cas_airframe_0 = { owner = "BUA" amount = 50 version_name = "Pahar Mk 0" }
+
+	}
+	539 = { 								
+		small_plane_cas_airframe_1 = { owner = "BUA" amount = 50 version_name = "Tanahrohon Mk 2" }
+
+	}
+	266 = { 								
+		small_plane_cas_airframe_1 = { owner = "BUA" amount = 50 version_name = "Tanahrohon Mk 2" }
+
+	}
+
+
+}

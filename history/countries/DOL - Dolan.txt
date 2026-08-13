@@ -1,0 +1,532 @@
+capital = 523
+
+oob = "DOL_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "DOL_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "DOL_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	tech_mountaineers= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	basic_machine_tools= 1
+	construction1= 1
+	electronic_mechanical_engineering= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "DOL_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			armor_piercing_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Locha Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Leart Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Lair Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Neart Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "DOL_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_heavy_cruiser = 1
+	basic_light_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "DOL_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Glas Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Baill Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Locha Class"
+			type = light_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Uamhtir Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Leall Class"
+			type = heavy_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Gluaigne Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Seas Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Laoch Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_naval_mines = 1
+	basic_ship_hull_cruiser = 1
+	basic_ship_hull_light = 1
+	basic_torpedo = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	fire_control_methods_1 = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "DOL_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Glas Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_torpedo_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Baill Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Locha Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Uamhtir Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_mine_layer_1
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Leall Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_mine_layer_1
+				mid_2_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Gluaigne Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Seas Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Laoch Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+
+	}
+
+
+recruit_character = DOL_Iwan_Cuart
+recruit_character = DOL_Padran_Neart
+recruit_character = DOL_Garan_Liora
+recruit_character = DOL_Aidan_Liatarch
+recruit_character = DOL_Iwan_Buasacht
+recruit_character = DOL_Gareth_Rean
+recruit_character = DOL_Cialcolm_Ceite
+recruit_character = DOL_Braig_Ardainn
+recruit_character = DOL_Tareth_Lais
+recruit_character = DOL_Braig_Ardais
+recruit_character = DOL_Ciaraig_Leart
+recruit_character = DOL_Quin_Magh
+recruit_character = DOL_Keiran_Ardainn
+recruit_character = DOL_Braig_Ceois
+recruit_character = DOL_Liareth_Slinn
+recruit_character = DOL_Ciaran_Liorm
+recruit_character = DOL_Niaraig_Ceach
+recruit_character = DOL_Rhys_Lais
+recruit_character = DOL_Ciall_Spioc
+recruit_character = DOL_Taraig_Crom
+recruit_character = DOL_Eoin_Eirioch
+recruit_character = DOL_Bran_Talamhanamhn
+recruit_character = DOL_Mall_Mili
+recruit_character = DOL_Aidan_Ceite
+recruit_character = DOL_Cialcolm_Spioc
+recruit_character = DOL_Niall_Seall
+recruit_character = DOL_Owen_Lair
+recruit_character = DOL_Seamus_Ceach
+recruit_character = DOL_Liaraig_Buaite
+recruit_character = DOL_Keiraig_Caill
+recruit_character = DOL_Eoinn_Deanch
+recruit_character = DOL_Tareth_Laitha
+recruit_character = DOL_Hugh_Leart
+recruit_character = DOL_Keiraig_Spiorg
+recruit_character = DOL_Ciamus_Magh
+recruit_character = DOL_Bran_Ronamhart
+recruit_character = DOL_Padran_Ronamhart
+recruit_character = DOL_Bran_Liora
+recruit_character = DOL_Lialcolm_Leart
+recruit_character = DOL_Declan_Nean
+recruit_character = DOL_Seam_Boine
+recruit_character = DOL_Ciaraig_Cinn
+recruit_character = DOL_Padran_Beile
+recruit_character = DOL_Ciaran_Faile
+recruit_character = DOL_Ciam_Cnoch
+recruit_character = DOL_Liareth_Glas
+recruit_character = DOL_Liam_Cnoch
+recruit_character = DOL_Quinn_Tort
+recruit_character = DOL_Ciaraig_Dubha
+recruit_character = DOL_Keiran_Ronn
+recruit_character = DOL_Owen_Seamh
+recruit_character = DOL_Ciaran_Leall
+recruit_character = DOL_Braig_Aonamh
+recruit_character = DOL_Ciaran_Ceach
+recruit_character = DOL_Ciall_Liora
+recruit_character = DOL_Quinn_Croilean
+recruit_character = DOL_Seamus_Beile
+recruit_character = DOL_Cialcolm_Laitha
+recruit_character = DOL_Garan_Cuach
+recruit_character = DOL_Niall_Beim
+recruit_character = DOL_Garan_Geanta
+recruit_character = DOL_Eoinn_Doradh
+recruit_character = DOL_Keiraig_Crios
+recruit_character = DOL_Keiraig_Geac
+recruit_character = DOL_Eoin_Scathaine
+recruit_character = DOL_Quinn_Search
+recruit_character = DOL_Liaraig_Talai
+recruit_character = DOL_Keiran_Dolan
+recruit_character = DOL_Liareth_Slinamh
+recruit_character = DOL_Padraig_Buasacht
+recruit_character = DOL_Ciaran_Faoisli
+recruit_character = DOL_Seamus_Rathaileart
+recruit_character = DOL_Taraig_Gluaigne
+recruit_character = DOL_Tareth_Buirian
+recruit_character = DOL_Declan_Beim
+recruit_character = DOL_Taran_Cinn
+recruit_character = DOL_Padraig_Scealas
+recruit_character = DOL_Bran_Faoisli
+recruit_character = DOL_Liaran_Glas
+recruit_character = DOL_Hugh_Ardainn
+recruit_character = DOL_Ciam_Tort
+recruit_character = DOL_Seamus_Sceart
+recruit_character = DOL_Cialcolm_Locha
+recruit_character = DOL_Hugh_Caill
+recruit_character = DOL_Liareth_Seall
+recruit_character = DOL_Liareth_Faoisli
+recruit_character = DOL_Iwan_Cnamh
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 40
+set_stability = 0.52
+set_war_support = 0.44
+
+add_ideas = {
+volunteer_only
+low_economic_mobilisation
+export_focus
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.2.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 63
+	fascism = 17
+	communism = 8
+	neutrality = 12
+}
+
+
+
+
+

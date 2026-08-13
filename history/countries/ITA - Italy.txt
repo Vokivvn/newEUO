@@ -1,79 +1,44 @@
-﻿capital = 2 # Rome
+﻿capital = 1
 
-oob = "ITA_2010"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GER_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GER_1936_nsb"
+}
 
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+# starting_truck_buffer = 0.8
+
+
+# Starting Stats of various kinds
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.7
+set_war_support = 0.3
+
+
+# Setup Politics
 set_politics = {
 	ruling_party = fascism
-	last_election = "1936.1.1"
+	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	fascism = 100
+	democratic = 35
+	fascism = 40
+	communism = 10
+	neutrality = 15
 }
 
-recruit_character = ITA_pino_rauti
-
-create_faction = Salo_accord
-add_to_faction = ITA
-add_to_faction = TUR
-add_to_faction = SAU
-add_to_faction = IRQ
-add_to_faction = OMA
-add_to_faction = YEM
-add_to_faction = SPR
-
-set_autonomy = {
-	target = ALB
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = CRO
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = GRE
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = MNT
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = GMS
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = EGY
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = IEA
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = ILE
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = SYR
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}

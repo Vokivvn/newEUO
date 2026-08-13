@@ -1,0 +1,44 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Amichia Fleet"			
+		naval_base = 2190
+		task_force = {
+			name = "Amichia Fleet"
+			location = 2190
+			
+						ship = { name = "Majd" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = AMI version_name = "Haria Class" } }	}
+			ship = { name = "Muniyahjara" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AMI version_name = "Taranub Class" } }	}
+			ship = { name = "Barda" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AMI version_name = "Taranub Class" } }	}
+			ship = { name = "Mustashfa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AMI version_name = "Tharq Class" } }	}
+			ship = { name = "Tarita" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = AMI version_name = "Haria Class" } }	}
+			ship = { name = "Hawjar" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = AMI version_name = "Haria Class" } }	}
+			ship = { name = "Shamla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AMI version_name = "Tharq Class" } }	}
+			ship = { name = "Ramarq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AMI version_name = "Tharq Class" } }	}
+			ship = { name = "Tuna" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = AMI version_name = "Haria Class" } }	}
+			ship = { name = "Rihlak" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AMI version_name = "Tharq Class" } }	}
+			ship = { name = "Makta" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AMI version_name = "Taranub Class" } }	}
+			ship = { name = "Tarita 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AMI version_name = "Taranub Class" } }	}
+			ship = { name = "Tuna 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AMI version_name = "Taranub Class" } }	}
+			ship = { name = "Tham" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AMI version_name = "Kharb Class" } }	}
+			ship = { name = "Nasjidda" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = AMI version_name = "Haria Class" } }	}
+			ship = { name = "Tuna 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AMI version_name = "Kharb Class" } }	}
+			ship = { name = "Thaqa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AMI version_name = "Taranub Class" } }	}
+			ship = { name = "Hikh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AMI version_name = "Tharq Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

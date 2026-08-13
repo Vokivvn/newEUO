@@ -1,0 +1,1083 @@
+characters = {
+	LEG_Bjored_Greung={
+		name="Bjored Greung"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { agricultural_capitalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LEG_Heinholf_Bruch={
+		name="Heinholf Bruch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Heinholf_Bruch
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LEG_Dirk_Lichlauberte={
+		name="Dirk Lichlauberte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Dirk_Lichlauberte
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Volkerend_Wachwest={
+		name="Volkerend Wachwest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Volkerend_Wachwest
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Magnut_Freuerte={
+		name="Magnut Freuerte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Magnut_Freuerte
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LEG_Sven_Grass={
+		name="Sven Grass"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Sven_Grass
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Ulrik_Feind={
+		name="Ulrik Feind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Ulrik_Feind
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Ulrich_Tode={
+		name="Ulrich Tode"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Ulrich_Tode
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	LEG_Sorne_Liegern={
+		name="Sorne Liegern"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Sorne_Liegern
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LEG_Hels_Leger={
+		name="Hels Leger"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Hels_Leger
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LEG_Jenselmut_Stamm={
+		name="Jenselmut Stamm"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Jenselmut_Stamm
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	LEG_Rolf_Beitz={
+		name="Rolf Beitz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEG_Rolf_Beitz
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LEG_Jenselmut_Wegenig={
+		name="Jenselmut Wegenig"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEG_Jenselmut_Wegenig
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LEG_Oskar_Golz={
+		name="Oskar Golz"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEG_Oskar_Golz
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	LEG_Thiasparl_Heichift={
+		name="Thiasparl Heichift"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEG_Thiasparl_Heichift
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	LEG_Diritz_Flucht={
+		name="Diritz Flucht"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Diritz_Flucht
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	LEG_Heinhold_Stamm={
+		name="Heinhold Stamm"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Heinhold_Stamm
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	LEG_Berman_Koen={
+		name="Berman Koen"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Berman_Koen
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	LEG_Ulrich_Feind={
+		name="Ulrich Feind"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Ulrich_Feind
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	LEG_Oskar_Stamm={
+		name="Oskar Stamm"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Oskar_Stamm
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	LEG_Kasparl_Grag={
+		name="Kasparl Grag"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Kasparl_Grag
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	LEG_Dirik_Scht={
+		name="Dirik Scht"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { vapsid_economist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LEG_Dirik_Dune={
+		name="Dirik Dune"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Dirik_Dune
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LEG_Matthiasparl_Freuerte={
+		name="Matthiasparl Freuerte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Matthiasparl_Freuerte
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Volfred_Steueras={
+		name="Volfred Steueras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Volfred_Steueras
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Emilhelm_Ster={
+		name="Emilhelm Ster"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Emilhelm_Ster
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LEG_Ulricharan_Flum={
+		name="Ulricharan Flum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Ulricharan_Flum
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LEG_Reif_Freuerte={
+		name="Reif Freuerte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Reif_Freuerte
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LEG_Jenselmut_Stampf={
+		name="Jenselmut Stampf"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Jenselmut_Stampf
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	LEG_Bjorne_Wegenzesenze={
+		name="Bjorne Wegenzesenze"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Bjorne_Wegenzesenze
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	LEG_Berman_Stamm={
+		name="Berman Stamm"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Berman_Stamm
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	LEG_Rich_Schilfe={
+		name="Rich Schilfe"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Rich_Schilfe
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	LEG_Hakon_Gesetze={
+		name="Hakon Gesetze"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEG_Hakon_Gesetze
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	LEG_Volkerend_Schilfe={
+		name="Volkerend Schilfe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEG_Volkerend_Schilfe
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	LEG_Ulricharan_Pring={
+		name="Ulricharan Pring"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEG_Ulricharan_Pring
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	LEG_Anderen_Wegenzesenze={
+		name="Anderen Wegenzesenze"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEG_Anderen_Wegenzesenze
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	LEG_Hels_Volz={
+		name="Hels Volz"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Hels_Volz
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	LEG_Ulricharan_Bruf={
+		name="Ulricharan Bruf"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Ulricharan_Bruf
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	LEG_Bjored_Sild={
+		name="Bjored Sild"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Bjored_Sild
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	LEG_Dirik_Liegern={
+		name="Dirik Liegern"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Dirik_Liegern
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	LEG_Bjorne_Krauschwer={
+		name="Bjorne Krauschwer"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Bjorne_Krauschwer
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	LEG_Sorg_Wieben={
+		name="Sorg Wieben"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Sorg_Wieben
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	LEG_Frik_Tagen={
+		name="Frik Tagen"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LEG_Sorne_Treuer={
+		name="Sorne Treuer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Sorne_Treuer
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LEG_Eritz_Bruf={
+		name="Eritz Bruf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Eritz_Bruf
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LEG_Rudolkers_Volz={
+		name="Rudolkers Volz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Rudolkers_Volz
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Rolf_Lichlauberte={
+		name="Rolf Lichlauberte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Rolf_Lichlauberte
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LEG_Ulrich_Koen={
+		name="Ulrich Koen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Ulrich_Koen
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Wilhelm_Kraffen={
+		name="Wilhelm Kraffen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Wilhelm_Kraffen
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Anderen_Ruhm={
+		name="Anderen Ruhm"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Anderen_Ruhm
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	LEG_Reif_Greung={
+		name="Reif Greung"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Reif_Greung
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	LEG_Eirk_Blut={
+		name="Eirk Blut"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Eirk_Blut
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	LEG_Emilhelm_Wach={
+		name="Emilhelm Wach"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Emilhelm_Wach
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	LEG_Dirk_Eisheisheise={
+		name="Dirk Eisheisheise"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEG_Dirk_Eisheisheise
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LEG_Jann_Fess={
+		name="Jann Fess"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEG_Jann_Fess
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LEG_Erik_Steueras={
+		name="Erik Steueras"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEG_Erik_Steueras
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	LEG_Hels_Kland={
+		name="Hels Kland"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEG_Hels_Kland
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	LEG_Olaf_Geit={
+		name="Olaf Geit"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Olaf_Geit
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	LEG_Rudolkers_Wafe={
+		name="Rudolkers Wafe"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Rudolkers_Wafe
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	LEG_Knus_Golz={
+		name="Knus Golz"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Knus_Golz
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	LEG_Jann_Nach={
+		name="Jann Nach"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Jann_Nach
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	LEG_Anderen_Turch={
+		name="Anderen Turch"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Anderen_Turch
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	LEG_Rudold_Klacht={
+		name="Rudold Klacht"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Rudold_Klacht
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	LEG_Hels_Stag={
+		name="Hels Stag"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LEG_Leif_Grass={
+		name="Leif Grass"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Leif_Grass
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LEG_Heinhold_Dorf={
+		name="Heinhold Dorf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Heinhold_Dorf
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LEG_Herenritz_Namme={
+		name="Herenritz Namme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Herenritz_Namme
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LEG_Sten_Ster={
+		name="Sten Ster"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Sten_Ster
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LEG_Sorne_Flum={
+		name="Sorne Flum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Sorne_Flum
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LEG_Leif_Gesetze={
+		name="Leif Gesetze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LEG_Leif_Gesetze
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LEG_Wilhelm_Schilfe={
+		name="Wilhelm Schilfe"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Wilhelm_Schilfe
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	LEG_Willem_Hand={
+		name="Willem Hand"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Willem_Hand
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LEG_Erik_Glachwer={
+		name="Erik Glachwer"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Erik_Glachwer
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	LEG_Stens_Weit={
+		name="Stens Weit"
+
+		advisor={
+			slot = army_chief
+			idea_token = LEG_Stens_Weit
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	LEG_Matthiasparl_Gesetze={
+		name="Matthiasparl Gesetze"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEG_Matthiasparl_Gesetze
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	LEG_Eirk_Wafe={
+		name="Eirk Wafe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LEG_Eirk_Wafe
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	LEG_Niels_Hand={
+		name="Niels Hand"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEG_Niels_Hand
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	LEG_Arne_Schilfe={
+		name="Arne Schilfe"
+
+		advisor={
+			slot = air_chief
+			idea_token = LEG_Arne_Schilfe
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	LEG_Sorne_Geit={
+		name="Sorne Geit"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Sorne_Geit
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	LEG_Olaf_Wegenig={
+		name="Olaf Wegenig"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Olaf_Wegenig
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	LEG_Soren_Liegern={
+		name="Soren Liegern"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Soren_Liegern
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	LEG_Bjorn_Reilberke={
+		name="Bjorn Reilberke"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Bjorn_Reilberke
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	LEG_Niels_Kland={
+		name="Niels Kland"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Niels_Kland
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	LEG_Rold_Baumel={
+		name="Rold Baumel"
+
+		advisor={
+			slot = high_command
+			idea_token = LEG_Rold_Baumel
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	LEG_Leif_Schiffnungen={
+		name="Leif Schiffnungen"
+
+		advisor={
+			slot = theorist
+			idea_token = LEG_Leif_Schiffnungen
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	LEG_Matthijs_Fess={
+		name="Matthijs Fess"
+
+		advisor={
+			slot = theorist
+			idea_token = LEG_Matthijs_Fess
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	LEG_Dirk_Kart={
+		name="Dirk Kart"
+
+		advisor={
+			slot = theorist
+			idea_token = LEG_Dirk_Kart
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

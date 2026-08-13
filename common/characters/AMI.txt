@@ -1,0 +1,1083 @@
+characters = {
+	AMI_Khami_Maman={
+		name="Khami Maman"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { right_industrialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AMI_Faid_Thar={
+		name="Faid Thar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Faid_Thar
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Samza_Shurub={
+		name="Samza Shurub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Samza_Shurub
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Anwarim_Asat={
+		name="Anwarim Asat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Anwarim_Asat
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Ahmad_Kharb={
+		name="Ahmad Kharb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Ahmad_Kharb
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Ramar_Tayatasadin={
+		name="Ramar Tayatasadin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Ramar_Tayatasadin
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Nabilahmoud_Sharasjidda={
+		name="Nabilahmoud Sharasjidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Nabilahmoud_Sharasjidda
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Saad_Shar={
+		name="Saad Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Saad_Shar
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	AMI_Nabilahmoud_Basjid={
+		name="Nabilahmoud Basjid"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Nabilahmoud_Basjid
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	AMI_Anwarim_Khariqa={
+		name="Anwarim Khariqa"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Anwarim_Khariqa
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	AMI_Faid_Burub={
+		name="Faid Burub"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Faid_Burub
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	AMI_Farid_Qaleeh={
+		name="Farid Qaleeh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Farid_Qaleeh
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	AMI_Mohal_Amaa={
+		name="Mohal Amaa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Mohal_Amaa
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	AMI_Samza_Shurharq={
+		name="Samza Shurharq"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Samza_Shurharq
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	AMI_Ibrah_Thar={
+		name="Ibrah Thar"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Ibrah_Thar
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	AMI_Tariq_Hayahjar={
+		name="Tariq Hayahjar"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Tariq_Hayahjar
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	AMI_Adnan_Mustar={
+		name="Adnan Mustar"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Adnan_Mustar
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	AMI_Saad_Hayr={
+		name="Saad Hayr"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Saad_Hayr
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	AMI_Khamal_Asat={
+		name="Khamal Asat"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Khamal_Asat
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	AMI_Anwarid_Manz={
+		name="Anwarid Manz"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Anwarid_Manz
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	AMI_Khamal_Alifa={
+		name="Khamal Alifa"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Khamal_Alifa
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	AMI_Majid_Sahrasr={
+		name="Majid Sahrasr"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AMI_Adnan_Rihlak={
+		name="Adnan Rihlak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Adnan_Rihlak
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Yusuf_Irahaykh={
+		name="Yusuf Irahaykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Yusuf_Irahaykh
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Anwarid_Hikh={
+		name="Anwarid Hikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Anwarid_Hikh
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Nabilahmoud_Makta={
+		name="Nabilahmoud Makta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Nabilahmoud_Makta
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Khalid_Shaqq={
+		name="Khalid Shaqq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Khalid_Shaqq
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Ahmarim_Shibl={
+		name="Ahmarim Shibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Ahmarim_Shibl
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Khalid_Shabib={
+		name="Khalid Shabib"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Khalid_Shabib
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	AMI_Omar_Mustar={
+		name="Omar Mustar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Omar_Mustar
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	AMI_Jamza_Dawjar={
+		name="Jamza Dawjar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Jamza_Dawjar
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	AMI_Anwarim_Kawi={
+		name="Anwarim Kawi"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Anwarim_Kawi
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	AMI_Khammed_Hayahjar={
+		name="Khammed Hayahjar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Khammed_Hayahjar
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	AMI_Anwarid_Qaleeh={
+		name="Anwarid Qaleeh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Anwarid_Qaleeh
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	AMI_Mohamar_Tharq={
+		name="Mohamar Tharq"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Mohamar_Tharq
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	AMI_Abdullahmal_Tanis={
+		name="Abdullahmal Tanis"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Abdullahmal_Tanis
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	AMI_Anwarid_Sala={
+		name="Anwarid Sala"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Anwarid_Sala
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	AMI_Khammed_Thar={
+		name="Khammed Thar"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Khammed_Thar
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	AMI_Abdullahya_Mustashfa={
+		name="Abdullahya Mustashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Abdullahya_Mustashfa
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	AMI_Omal_Raad={
+		name="Omal Raad"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Omal_Raad
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	AMI_Abdullahmal_Ahlamt={
+		name="Abdullahmal Ahlamt"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Abdullahmal_Ahlamt
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	AMI_Omarim_Balah={
+		name="Omarim Balah"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Omarim_Balah
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	AMI_Jamad_Shaqq={
+		name="Jamad Shaqq"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { devoted_marxist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AMI_Imrahya_Sabil={
+		name="Imrahya Sabil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Imrahya_Sabil
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Yahim_Ramarq={
+		name="Yahim Ramarq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Yahim_Ramarq
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Yahya_Tham={
+		name="Yahya Tham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Yahya_Tham
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Samir_Muniyahjara={
+		name="Samir Muniyahjara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Samir_Muniyahjara
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Samarid_Nadi={
+		name="Samarid Nadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Samarid_Nadi
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Kariq_Tuna={
+		name="Kariq Tuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Kariq_Tuna
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Mahya_Manz={
+		name="Mahya Manz"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Mahya_Manz
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	AMI_Ibrahya_Shamla={
+		name="Ibrahya Shamla"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Ibrahya_Shamla
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	AMI_Mohami_Shar={
+		name="Mohami Shar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Mohami_Shar
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	AMI_Omal_Shibl={
+		name="Omal Shibl"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Omal_Shibl
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	AMI_Khammed_Barda={
+		name="Khammed Barda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Khammed_Barda
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	AMI_Yahmar_Sala={
+		name="Yahmar Sala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Yahmar_Sala
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	AMI_Mohal_Shibl={
+		name="Mohal Shibl"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Mohal_Shibl
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	AMI_Abdullahmal_Sharda={
+		name="Abdullahmal Sharda"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Abdullahmal_Sharda
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	AMI_Omarim_Shamla={
+		name="Omarim Shamla"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Omarim_Shamla
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	AMI_Adnan_Hayahjar={
+		name="Adnan Hayahjar"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Adnan_Hayahjar
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	AMI_Mohamal_Makta={
+		name="Mohamal Makta"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Mohamal_Makta
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	AMI_Hassan_Balah={
+		name="Hassan Balah"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Hassan_Balah
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	AMI_Mahya_Alifa={
+		name="Mahya Alifa"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Mahya_Alifa
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	AMI_Samali_Madin={
+		name="Samali Madin"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Samali_Madin
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	AMI_Samir_Mufti={
+		name="Samir Mufti"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AMI_Khami_Sharq={
+		name="Khami Sharq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Khami_Sharq
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Anwarid_Hawkanamufti={
+		name="Anwarid Hawkanamufti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Anwarid_Hawkanamufti
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Jamad_Mustar={
+		name="Jamad Mustar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Jamad_Mustar
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Omal_Hawanz={
+		name="Omal Hawanz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Omal_Hawanz
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Abdullahya_Hawanz={
+		name="Abdullahya Hawanz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Abdullahya_Hawanz
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Rami_Muniyahjara={
+		name="Rami Muniyahjara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Rami_Muniyahjara
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Mohamar_Madin={
+		name="Mohamar Madin"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Mohamar_Madin
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	AMI_Zaid_Mustar={
+		name="Zaid Mustar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Zaid_Mustar
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	AMI_Khami_Shams={
+		name="Khami Shams"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Khami_Shams
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	AMI_Mohamal_Mufti={
+		name="Mohamal Mufti"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Mohamal_Mufti
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	AMI_Ahmarim_Makta={
+		name="Ahmarim Makta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Ahmarim_Makta
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	AMI_Abdullahmal_Shaqq={
+		name="Abdullahmal Shaqq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Abdullahmal_Shaqq
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	AMI_Ibrahim_Sharda={
+		name="Ibrahim Sharda"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Ibrahim_Sharda
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	AMI_Samir_Tifa={
+		name="Samir Tifa"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Samir_Tifa
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	AMI_Rammed_Majd={
+		name="Rammed Majd"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Rammed_Majd
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	AMI_Mohamal_Madrahr={
+		name="Mohamal Madrahr"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Mohamal_Madrahr
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	AMI_Ibrahya_Mada={
+		name="Ibrahya Mada"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Ibrahya_Mada
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	AMI_Tarid_Muniyahjara={
+		name="Tarid Muniyahjara"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Tarid_Muniyahjara
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	AMI_Yahya_Warasra={
+		name="Yahya Warasra"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Yahya_Warasra
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	AMI_Samali_Malb={
+		name="Samali Malb"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Samali_Malb
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	AMI_Khami_Kawi={
+		name="Khami Kawi"
+
+		advisor={
+			slot = theorist
+			idea_token = AMI_Khami_Kawi
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	AMI_Omad_Shurub={
+		name="Omad Shurub"
+
+		advisor={
+			slot = theorist
+			idea_token = AMI_Omad_Shurub
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	AMI_Jamza_Mustashfa={
+		name="Jamza Mustashfa"
+
+		advisor={
+			slot = theorist
+			idea_token = AMI_Jamza_Mustashfa
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

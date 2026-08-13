@@ -1,0 +1,1083 @@
+characters = {
+	VXN_Sami_Madi={
+		name="Sami Madi"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { democratic_crusader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VXN_Zaisan_Madin={
+		name="Zaisan Madin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Zaisan_Madin
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Nabilahya_Noum={
+		name="Nabilahya Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Nabilahya_Noum
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Abdullal_Qarda={
+		name="Abdullal Qarda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Abdullal_Qarda
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Yahim_Kutub={
+		name="Yahim Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Yahim_Kutub
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VXN_Hamad_Masjid={
+		name="Hamad Masjid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Hamad_Masjid
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Jami_Turuq={
+		name="Jami Turuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Jami_Turuq
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Mahim_Bura={
+		name="Mahim Bura"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Mahim_Bura
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	VXN_Samarim_Haykh={
+		name="Samarim Haykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Samarim_Haykh
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	VXN_Yusuf_Sulta={
+		name="Yusuf Sulta"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Yusuf_Sulta
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	VXN_Ahmar_Noura={
+		name="Ahmar Noura"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Ahmar_Noura
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VXN_Khami_Kalb={
+		name="Khami Kalb"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VXN_Khami_Kalb
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	VXN_Hammed_Noum={
+		name="Hammed Noum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VXN_Hammed_Noum
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	VXN_Hamza_Buranub={
+		name="Hamza Buranub"
+
+		advisor={
+			slot = air_chief
+			idea_token = VXN_Hamza_Buranub
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	VXN_Khamal_Doha={
+		name="Khamal Doha"
+
+		advisor={
+			slot = air_chief
+			idea_token = VXN_Khamal_Doha
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	VXN_Samza_Yemen={
+		name="Samza Yemen"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Samza_Yemen
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	VXN_Farim_Maghreb={
+		name="Farim Maghreb"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Farim_Maghreb
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	VXN_Rami_Hawjaria={
+		name="Rami Hawjaria"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Rami_Hawjaria
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	VXN_Khal_Haba={
+		name="Khal Haba"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Khal_Haba
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	VXN_Ahmoud_Khatanzil={
+		name="Ahmoud Khatanzil"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Ahmoud_Khatanzil
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	VXN_Faid_Majd={
+		name="Faid Majd"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Faid_Majd
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	VXN_Ibrahim_Hijra={
+		name="Ibrahim Hijra"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { vapsid_economist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VXN_Yusuf_Hikmanzilm={
+		name="Yusuf Hikmanzilm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Yusuf_Hikmanzilm
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VXN_Khami_Kawi={
+		name="Khami Kawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Khami_Kawi
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Samza_Hikmanisn={
+		name="Samza Hikmanisn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Samza_Hikmanisn
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Majid_Haba={
+		name="Majid Haba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Majid_Haba
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Faid_Hikh={
+		name="Faid Hikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Faid_Hikh
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Tarid_Rawa={
+		name="Tarid Rawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Tarid_Rawa
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Jamza_Fajlim={
+		name="Jamza Fajlim"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Jamza_Fajlim
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	VXN_Ahmoud_Reej={
+		name="Ahmoud Reej"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Ahmoud_Reej
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VXN_Hammed_Nour={
+		name="Hammed Nour"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Hammed_Nour
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	VXN_Samal_Haykh={
+		name="Samal Haykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Samal_Haykh
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VXN_Kariq_Maka={
+		name="Kariq Maka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VXN_Kariq_Maka
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	VXN_Samal_Khatanzil={
+		name="Samal Khatanzil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VXN_Samal_Khatanzil
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	VXN_Tariq_Qahrab={
+		name="Tariq Qahrab"
+
+		advisor={
+			slot = air_chief
+			idea_token = VXN_Tariq_Qahrab
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	VXN_Khami_Shibl={
+		name="Khami Shibl"
+
+		advisor={
+			slot = air_chief
+			idea_token = VXN_Khami_Shibl
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	VXN_Hamza_Hijra={
+		name="Hamza Hijra"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Hamza_Hijra
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	VXN_Yusuf_Tarikmaabib={
+		name="Yusuf Tarikmaabib"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Yusuf_Tarikmaabib
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	VXN_Khamalid_Amira={
+		name="Khamalid Amira"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Khamalid_Amira
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	VXN_Anwarim_Hikmanzilm={
+		name="Anwarim Hikmanzilm"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Anwarim_Hikmanzilm
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	VXN_Ibrahim_Haba={
+		name="Ibrahim Haba"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Ibrahim_Haba
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	VXN_Ibrahim_Sulta={
+		name="Ibrahim Sulta"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Ibrahim_Sulta
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	VXN_Imrahya_Masrahr={
+		name="Imrahya Masrahr"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VXN_Mahmal_Shaleeh={
+		name="Mahmal Shaleeh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Mahmal_Shaleeh
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Nabilahya_Raadin={
+		name="Nabilahya Raadin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Nabilahya_Raadin
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VXN_Sammed_Tharia={
+		name="Sammed Tharia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Sammed_Tharia
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Imrahya_Noum={
+		name="Imrahya Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Imrahya_Noum
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Yahim_Asat={
+		name="Yahim Asat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Yahim_Asat
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Saad_Hajar={
+		name="Saad Hajar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Saad_Hajar
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Samal_Hijarq={
+		name="Samal Hijarq"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Samal_Hijarq
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	VXN_Kariq_Hawjaria={
+		name="Kariq Hawjaria"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Kariq_Hawjaria
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	VXN_Ahmarim_Shidda={
+		name="Ahmarim Shidda"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Ahmarim_Shidda
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VXN_Bilali_Burah={
+		name="Bilali Burah"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Bilali_Burah
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VXN_Faisan_Qahrab={
+		name="Faisan Qahrab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VXN_Faisan_Qahrab
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	VXN_Anwarid_Hikmanisn={
+		name="Anwarid Hikmanisn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VXN_Anwarid_Hikmanisn
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	VXN_Adnan_Khama={
+		name="Adnan Khama"
+
+		advisor={
+			slot = air_chief
+			idea_token = VXN_Adnan_Khama
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	VXN_Anwar_Nadi={
+		name="Anwar Nadi"
+
+		advisor={
+			slot = air_chief
+			idea_token = VXN_Anwar_Nadi
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	VXN_Saad_Nadi={
+		name="Saad Nadi"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Saad_Nadi
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	VXN_Mahmad_Than={
+		name="Mahmad Than"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Mahmad_Than
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	VXN_Ibran_Nadi={
+		name="Ibran Nadi"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Ibran_Nadi
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	VXN_Faid_Madi={
+		name="Faid Madi"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Faid_Madi
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	VXN_Nabilalid_Nour={
+		name="Nabilalid Nour"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Nabilalid_Nour
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	VXN_Zaid_Qamar={
+		name="Zaid Qamar"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Zaid_Qamar
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	VXN_Alid_Qahriq={
+		name="Alid Qahriq"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VXN_Yahmarim_Usra={
+		name="Yahmarim Usra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Yahmarim_Usra
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VXN_Khamalid_Majd={
+		name="Khamalid Majd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Khamalid_Majd
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Yahim_Thajd={
+		name="Yahim Thajd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Yahim_Thajd
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Khamalid_Burah={
+		name="Khamalid Burah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Khamalid_Burah
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VXN_Anwarid_Doha={
+		name="Anwarid Doha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Anwarid_Doha
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VXN_Mahmad_Raadin={
+		name="Mahmad Raadin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VXN_Mahmad_Raadin
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VXN_Jamza_Amira={
+		name="Jamza Amira"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Jamza_Amira
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	VXN_Samza_Kanis={
+		name="Samza Kanis"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Samza_Kanis
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VXN_Majid_Hajar={
+		name="Majid Hajar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Majid_Hajar
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	VXN_Sami_Qamar={
+		name="Sami Qamar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VXN_Sami_Qamar
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	VXN_Hamarid_Shibl={
+		name="Hamarid Shibl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VXN_Hamarid_Shibl
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	VXN_Jami_Kutub={
+		name="Jami Kutub"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VXN_Jami_Kutub
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VXN_Hamza_Khanz={
+		name="Hamza Khanz"
+
+		advisor={
+			slot = air_chief
+			idea_token = VXN_Hamza_Khanz
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	VXN_Samal_Shalad={
+		name="Samal Shalad"
+
+		advisor={
+			slot = air_chief
+			idea_token = VXN_Samal_Shalad
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	VXN_Jami_Buranub={
+		name="Jami Buranub"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Jami_Buranub
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	VXN_Faisan_Tana={
+		name="Faisan Tana"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Faisan_Tana
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	VXN_Jamad_Qarda={
+		name="Jamad Qarda"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Jamad_Qarda
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	VXN_Hamad_Nadi={
+		name="Hamad Nadi"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Hamad_Nadi
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	VXN_Omad_Dawar={
+		name="Omad Dawar"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Omad_Dawar
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	VXN_Ibran_Thajd={
+		name="Ibran Thajd"
+
+		advisor={
+			slot = high_command
+			idea_token = VXN_Ibran_Thajd
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	VXN_Sami_Yemen={
+		name="Sami Yemen"
+
+		advisor={
+			slot = theorist
+			idea_token = VXN_Sami_Yemen
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	VXN_Khal_Qahriq={
+		name="Khal Qahriq"
+
+		advisor={
+			slot = theorist
+			idea_token = VXN_Khal_Qahriq
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	VXN_Ahmarim_Zaml={
+		name="Ahmarim Zaml"
+
+		advisor={
+			slot = theorist
+			idea_token = VXN_Ahmarim_Zaml
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

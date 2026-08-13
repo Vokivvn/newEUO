@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Sanam Fleet"			
+		naval_base = 1329
+		task_force = {
+			name = "Sanam Fleet"
+			location = 1329
+			
+						ship = { name = "Sugal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAN version_name = "Kaadappu Class" } }	}
+			ship = { name = "Kaadharul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAN version_name = "Kaadappu Class" } }	}
+			ship = { name = "Nadani" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAN version_name = "Kaadappu Class" } }	}
+			ship = { name = "Nattidu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAN version_name = "Kaadappu Class" } }	}
+			ship = { name = "Panthai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAN version_name = "Kaadappu Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

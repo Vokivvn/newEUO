@@ -1,0 +1,1083 @@
+characters = {
+	SET_Farhamin_Mive={
+		name="Farhamin Mive"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SET_Farhad_Barg={
+		name="Farhad Barg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Farhad_Barg
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Armal_Nashtash={
+		name="Armal Nashtash"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Armal_Nashtash
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SET_Parhad_Sepahvehesht={
+		name="Parhad Sepahvehesht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Parhad_Sepahvehesht
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SET_Omid_Sharges={
+		name="Omid Sharges"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Omid_Sharges
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SET_Saeed_Mohang={
+		name="Saeed Mohang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Saeed_Mohang
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SET_Amid_Rooz={
+		name="Amid Rooz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Amid_Rooz
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Parhad_Bard={
+		name="Parhad Bard"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Parhad_Bard
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SET_Shad_Ragbada={
+		name="Shad Ragbada"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Shad_Ragbada
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	SET_Shaman_Bahr={
+		name="Shaman Bahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Shaman_Bahr
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	SET_Shaman_Rang={
+		name="Shaman Rang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Shaman_Rang
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SET_Hassan_Nesh={
+		name="Hassan Nesh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SET_Hassan_Nesh
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SET_Ebrahramad_Pirdarya={
+		name="Ebrahramad Pirdarya"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SET_Ebrahramad_Pirdarya
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	SET_Farhaman_Rooz={
+		name="Farhaman Rooz"
+
+		advisor={
+			slot = air_chief
+			idea_token = SET_Farhaman_Rooz
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	SET_Milad_Nashtash={
+		name="Milad Nashtash"
+
+		advisor={
+			slot = air_chief
+			idea_token = SET_Milad_Nashtash
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	SET_Mostafa_Bargahrak={
+		name="Mostafa Bargahrak"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Mostafa_Bargahrak
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	SET_Omir_Anarang={
+		name="Omir Anarang"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Omir_Anarang
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	SET_Hassan_Piriz={
+		name="Hassan Piriz"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Hassan_Piriz
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	SET_Ebrahrahiman_Nabz={
+		name="Ebrahrahiman Nabz"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Ebrahrahiman_Nabz
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	SET_Omir_Rahve={
+		name="Omir Rahve"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Omir_Rahve
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	SET_Ahma_Sepahirdan={
+		name="Ahma Sepahirdan"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Ahma_Sepahirdan
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	SET_Behza_Radan={
+		name="Behza Radan"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SET_Navid_Shirdarvazaa={
+		name="Navid Shirdarvazaa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Navid_Shirdarvazaa
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Ahma_Shegahve={
+		name="Ahma Shegahve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Ahma_Shegahve
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SET_Navehdi_Mazaas={
+		name="Navehdi Mazaas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Navehdi_Mazaas
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SET_Mehzad_Maidam={
+		name="Mehzad Maidam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Mehzad_Maidam
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Amin_Pishmeh={
+		name="Amin Pishmeh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Amin_Pishmeh
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Mostafa_Setabat={
+		name="Mostafa Setabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Mostafa_Setabat
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SET_Mehzad_Bazeht={
+		name="Mehzad Bazeht"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Mehzad_Bazeht
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	SET_Majid_Fargh={
+		name="Majid Fargh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Majid_Fargh
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SET_Arman_Fargh={
+		name="Arman Fargh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Arman_Fargh
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	SET_Parhahim_Tooz={
+		name="Parhahim Tooz"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Parhahim_Tooz
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SET_Parham_Dard={
+		name="Parham Dard"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SET_Parham_Dard
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SET_Peymad_Mive={
+		name="Peymad Mive"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SET_Peymad_Mive
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SET_Arman_Nashrand={
+		name="Arman Nashrand"
+
+		advisor={
+			slot = air_chief
+			idea_token = SET_Arman_Nashrand
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	SET_Amin_Sheghaem={
+		name="Amin Sheghaem"
+
+		advisor={
+			slot = air_chief
+			idea_token = SET_Amin_Sheghaem
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SET_Navehdi_Rooz={
+		name="Navehdi Rooz"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Navehdi_Rooz
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	SET_Majid_Barhak={
+		name="Majid Barhak"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Majid_Barhak
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SET_Arman_Pole={
+		name="Arman Pole"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Arman_Pole
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	SET_Ahma_Behr={
+		name="Ahma Behr"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Ahma_Behr
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	SET_Reza_Pish={
+		name="Reza Pish"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Reza_Pish
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	SET_Ebrahrahiman_Anarang={
+		name="Ebrahrahiman Anarang"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Ebrahrahiman_Anarang
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	SET_Omir_Sang={
+		name="Omir Sang"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SET_Ahmal_Shar={
+		name="Ahmal Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Ahmal_Shar
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Parhahramir_Sheghaem={
+		name="Parhahramir Sheghaem"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Parhahramir_Sheghaem
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Mostafa_Atab={
+		name="Mostafa Atab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Mostafa_Atab
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SET_Saeed_Setabat={
+		name="Saeed Setabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Saeed_Setabat
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SET_Parhahramir_Jand={
+		name="Parhahramir Jand"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Parhahramir_Jand
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SET_Mostafa_Sepahirdan={
+		name="Mostafa Sepahirdan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Mostafa_Sepahirdan
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SET_Parhahiman_Moghargest={
+		name="Parhahiman Moghargest"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Parhahiman_Moghargest
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SET_Peymad_Bazan={
+		name="Peymad Bazan"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Peymad_Bazan
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	SET_Peymad_Sepahirdan={
+		name="Peymad Sepahirdan"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Peymad_Sepahirdan
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	SET_Ebrahramad_Nesh={
+		name="Ebrahramad Nesh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Ebrahramad_Nesh
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	SET_Babak_Bargahrak={
+		name="Babak Bargahrak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SET_Babak_Bargahrak
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	SET_Amir_Mohandoghl={
+		name="Amir Mohandoghl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SET_Amir_Mohandoghl
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	SET_Parham_Atard={
+		name="Parham Atard"
+
+		advisor={
+			slot = air_chief
+			idea_token = SET_Parham_Atard
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	SET_Farhad_Fargh={
+		name="Farhad Fargh"
+
+		advisor={
+			slot = air_chief
+			idea_token = SET_Farhad_Fargh
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	SET_Parhahiman_Barg={
+		name="Parhahiman Barg"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Parhahiman_Barg
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	SET_Farhahrahim_Bazehrafar={
+		name="Farhahrahim Bazehrafar"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Farhahrahim_Bazehrafar
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	SET_Armad_Sepid={
+		name="Armad Sepid"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Armad_Sepid
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	SET_Majid_Nashrand={
+		name="Majid Nashrand"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Majid_Nashrand
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	SET_Kamir_Bargahrak={
+		name="Kamir Bargahrak"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Kamir_Bargahrak
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	SET_Farhaman_Sepahirdan={
+		name="Farhaman Sepahirdan"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Farhaman_Sepahirdan
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	SET_Ahma_Chekar={
+		name="Ahma Chekar"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SET_Hassan_Sepahve={
+		name="Hassan Sepahve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Hassan_Sepahve
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SET_Ebrahrahiman_Bazeht={
+		name="Ebrahrahiman Bazeht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Ebrahrahiman_Bazeht
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SET_Shad_Gamrahrah={
+		name="Shad Gamrahrah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Shad_Gamrahrah
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SET_Sham_Bahr={
+		name="Sham Bahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Sham_Bahr
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SET_Omid_Shar={
+		name="Omid Shar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Omid_Shar
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Farhamid_Barg={
+		name="Farhamid Barg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SET_Farhamid_Barg
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SET_Armal_Ghad={
+		name="Armal Ghad"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Armal_Ghad
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SET_Omir_Ashrang={
+		name="Omir Ashrang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Omir_Ashrang
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SET_Behdi_Shafargar={
+		name="Behdi Shafargar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Behdi_Shafargar
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	SET_Mehzad_Toot={
+		name="Mehzad Toot"
+
+		advisor={
+			slot = army_chief
+			idea_token = SET_Mehzad_Toot
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SET_Armal_Pole={
+		name="Armal Pole"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SET_Armal_Pole
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SET_Sham_Rang={
+		name="Sham Rang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SET_Sham_Rang
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	SET_Mehdi_Radan={
+		name="Mehdi Radan"
+
+		advisor={
+			slot = air_chief
+			idea_token = SET_Mehdi_Radan
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SET_Farhahimal_Bahr={
+		name="Farhahimal Bahr"
+
+		advisor={
+			slot = air_chief
+			idea_token = SET_Farhahimal_Bahr
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SET_Parhahim_Bahr={
+		name="Parhahim Bahr"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Parhahim_Bahr
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SET_Farhaman_Ehsaayeh={
+		name="Farhaman Ehsaayeh"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Farhaman_Ehsaayeh
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	SET_Hossan_Sepahvehesht={
+		name="Hossan Sepahvehesht"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Hossan_Sepahvehesht
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	SET_Armal_Sabz={
+		name="Armal Sabz"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Armal_Sabz
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SET_Milad_Pishmeh={
+		name="Milad Pishmeh"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Milad_Pishmeh
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	SET_Ebrahrahiman_Shegahve={
+		name="Ebrahrahiman Shegahve"
+
+		advisor={
+			slot = high_command
+			idea_token = SET_Ebrahrahiman_Shegahve
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	SET_Arman_Shafangooz={
+		name="Arman Shafangooz"
+
+		advisor={
+			slot = theorist
+			idea_token = SET_Arman_Shafangooz
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SET_Parhad_Moghargest={
+		name="Parhad Moghargest"
+
+		advisor={
+			slot = theorist
+			idea_token = SET_Parhad_Moghargest
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SET_Behza_Dard={
+		name="Behza Dard"
+
+		advisor={
+			slot = theorist
+			idea_token = SET_Behza_Dard
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

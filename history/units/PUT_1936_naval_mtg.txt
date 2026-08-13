@@ -1,0 +1,69 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Puthavai Fleet"			
+		naval_base = 2268
+		task_force = {
+			name = "Puthavai Fleet"
+			location = 2268
+			
+						ship = { name = "Thurai" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = PUT version_name = "Nool Class" } }	}
+			ship = { name = "Kadal" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = PUT version_name = "Inbam Class" } }	}
+			ship = { name = "Kaadharul" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PUT version_name = "Veer Class" } }	}
+			ship = { name = "Kaadharul 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Nilam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Pasi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Natchi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Ariyal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Makkirai" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PUT version_name = "Kadal Class" } }	}
+			ship = { name = "Nadani" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Kavam" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PUT version_name = "Kadal Class" } }	}
+			ship = { name = "Kadal 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PUT version_name = "Veer Class" } }	}
+			ship = { name = "Nilam 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Thani" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Siraignam" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Thakku" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PUT version_name = "Veer Class" } }	}
+			ship = { name = "Sugal" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PUT version_name = "Veer Class" } }	}
+			ship = { name = "Veer" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PUT version_name = "Kadal Class" } }	}
+			ship = { name = "Kaadappu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Thani 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PUT version_name = "Veer Class" } }	}
+			ship = { name = "Natchi 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Panthilaiara" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Thudi" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PUT version_name = "Kadal Class" } }	}
+			ship = { name = "Veer 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PUT version_name = "Veer Class" } }	}
+			ship = { name = "Veli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Nunambu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Thoppu" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PUT version_name = "Kadal Class" } }	}
+			ship = { name = "Kaadappu 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Ariyal 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PUT version_name = "Veer Class" } }	}
+			ship = { name = "Nunambu 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PUT version_name = "Kadal Class" } }	}
+			ship = { name = "Thudi 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Nilam 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Payarul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Nilam 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Thunai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Inbam" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Sugal 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Puyal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Thani 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Veer 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PUT version_name = "Kadal Class" } }	}
+			ship = { name = "Thakku 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+			ship = { name = "Pasi 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUT version_name = "Tharappu Class" } }	}
+			ship = { name = "Payarul 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PUT version_name = "Pasi Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

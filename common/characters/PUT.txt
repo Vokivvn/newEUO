@@ -1,0 +1,1083 @@
+characters = {
+	PUT_Surem_Nattidu={
+		name="Surem Nattidu"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { national_determinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PUT_Satish_Nunadam={
+		name="Satish Nunadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Satish_Nunadam
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Arun_Thenjil={
+		name="Arun Thenjil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Arun_Thenjil
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUT_Kumarun_Kavam={
+		name="Kumarun Kavam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Kumarun_Kavam
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUT_Vinesh_Theerasiripp={
+		name="Vinesh Theerasiripp"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Vinesh_Theerasiripp
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Navi_Kaatram={
+		name="Navi Kaatram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Navi_Kaatram
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUT_Karun_Thunam={
+		name="Karun Thunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Karun_Thunam
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUT_Ragadeen_Siraignam={
+		name="Ragadeen Siraignam"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Ragadeen_Siraignam
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	PUT_Raghavi_Sugalal={
+		name="Raghavi Sugalal"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Raghavi_Sugalal
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	PUT_Jagadeenthik_Thirivu={
+		name="Jagadeenthik Thirivu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Jagadeenthik_Thirivu
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	PUT_Ravi_Tharam={
+		name="Ravi Tharam"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Ravi_Tharam
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	PUT_Vari_Kadal={
+		name="Vari Kadal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUT_Vari_Kadal
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	PUT_Karthil_Sugali={
+		name="Karthil Sugali"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUT_Karthil_Sugali
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	PUT_Kumari_Vizhi={
+		name="Kumari Vizhi"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUT_Kumari_Vizhi
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	PUT_Kumari_Thirivu={
+		name="Kumari Thirivu"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUT_Kumari_Thirivu
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	PUT_Dinod_Kaatram={
+		name="Dinod Kaatram"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Dinod_Kaatram
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	PUT_Manod_Puyal={
+		name="Manod Puyal"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Manod_Puyal
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	PUT_Surem_Pesu={
+		name="Surem Pesu"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Surem_Pesu
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	PUT_Gandrandran_Isai={
+		name="Gandrandran Isai"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Gandrandran_Isai
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	PUT_Ragadeen_Muravu={
+		name="Ragadeen Muravu"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Ragadeen_Muravu
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	PUT_Satishna_Panthai={
+		name="Satishna Panthai"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Satishna_Panthai
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	PUT_Kumarthik_Unam={
+		name="Kumarthik Unam"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PUT_Naveesh_Payal={
+		name="Naveesh Payal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Naveesh_Payal
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Arun_Vizhchil={
+		name="Arun Vizhchil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Arun_Vizhchil
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Pranesh_Tharappu={
+		name="Pranesh Tharappu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Pranesh_Tharappu
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Pran_Nattidu={
+		name="Pran Nattidu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Pran_Nattidu
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Mohanoj_Veer={
+		name="Mohanoj Veer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Mohanoj_Veer
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Deesh_Siran={
+		name="Deesh Siran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Deesh_Siran
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUT_Kumarthil_Kolangugam={
+		name="Kumarthil Kolangugam"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Kumarthil_Kolangugam
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	PUT_Anil_Thoppu={
+		name="Anil Thoppu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Anil_Thoppu
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	PUT_Karthik_Payarul={
+		name="Karthik Payarul"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Karthik_Payarul
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	PUT_Manod_Vanai={
+		name="Manod Vanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Manod_Vanai
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	PUT_Vijay_Inbu={
+		name="Vijay Inbu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUT_Vijay_Inbu
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	PUT_Bala_Pesu={
+		name="Bala Pesu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUT_Bala_Pesu
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	PUT_Rajesh_Thangam={
+		name="Rajesh Thangam"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUT_Rajesh_Thangam
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	PUT_Ragadeen_Pudi={
+		name="Ragadeen Pudi"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUT_Ragadeen_Pudi
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	PUT_Navi_Meraiyarai={
+		name="Navi Meraiyarai"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Navi_Meraiyarai
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	PUT_Senthik_Then={
+		name="Senthik Then"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Senthik_Then
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	PUT_Vari_Saal={
+		name="Vari Saal"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Vari_Saal
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	PUT_Vinesh_Thenjil={
+		name="Vinesh Thenjil"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Vinesh_Thenjil
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	PUT_Karthil_Pasir={
+		name="Karthil Pasir"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Karthil_Pasir
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	PUT_Bala_Putrai={
+		name="Bala Putrai"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Bala_Putrai
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	PUT_Deesh_Tharam={
+		name="Deesh Tharam"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { anti_bolshevik_leftist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PUT_Kumari_Oosai={
+		name="Kumari Oosai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Kumari_Oosai
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUT_Karun_Veerku={
+		name="Karun Veerku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Karun_Veerku
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUT_Varth_Vidam={
+		name="Varth Vidam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Varth_Vidam
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Bala_Sugali={
+		name="Bala Sugali"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Bala_Sugali
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUT_Karun_Meraiyarai={
+		name="Karun Meraiyarai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Karun_Meraiyarai
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUT_Naveesh_Thudiyala={
+		name="Naveesh Thudiyala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Naveesh_Thudiyala
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUT_Mandran_Meraiyarai={
+		name="Mandran Meraiyarai"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Mandran_Meraiyarai
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	PUT_Dineshna_Kaadappu={
+		name="Dineshna Kaadappu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Dineshna_Kaadappu
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	PUT_Ajay_Thangam={
+		name="Ajay Thangam"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Ajay_Thangam
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	PUT_Dinoj_Meraiyarai={
+		name="Dinoj Meraiyarai"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Dinoj_Meraiyarai
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	PUT_Naveenth_Arivu={
+		name="Naveenth Arivu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUT_Naveenth_Arivu
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	PUT_Anil_Panthai={
+		name="Anil Panthai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUT_Anil_Panthai
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	PUT_Naveenth_Thani={
+		name="Naveenth Thani"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUT_Naveenth_Thani
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	PUT_Jagadeepak_Thir={
+		name="Jagadeepak Thir"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUT_Jagadeepak_Thir
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	PUT_Pranod_Veer={
+		name="Pranod Veer"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Pranod_Veer
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	PUT_Jagadeepak_Thurai={
+		name="Jagadeepak Thurai"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Jagadeepak_Thurai
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	PUT_Karthik_Pagam={
+		name="Karthik Pagam"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Karthik_Pagam
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	PUT_Satish_Puthavai={
+		name="Satish Puthavai"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Satish_Puthavai
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	PUT_Karun_Sugalal={
+		name="Karun Sugalal"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Karun_Sugalal
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	PUT_Surem_Pasi={
+		name="Surem Pasi"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Surem_Pasi
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	PUT_Jagadeepak_Inbu={
+		name="Jagadeepak Inbu"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PUT_Pranod_Inbam={
+		name="Pranod Inbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Pranod_Inbam
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUT_Senthik_Thudi={
+		name="Senthik Thudi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Senthik_Thudi
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUT_Suresh_Kutham={
+		name="Suresh Kutham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Suresh_Kutham
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUT_Ravi_Sugali={
+		name="Ravi Sugali"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Ravi_Sugali
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Kumarun_Kaadharul={
+		name="Kumarun Kaadharul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Kumarun_Kaadharul
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUT_Dineshna_Pasir={
+		name="Dineshna Pasir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUT_Dineshna_Pasir
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUT_Kumarthik_Kolaivinadu={
+		name="Kumarthik Kolaivinadu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Kumarthik_Kolaivinadu
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	PUT_Dinoj_Saal={
+		name="Dinoj Saal"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Dinoj_Saal
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	PUT_Dinoj_Nilam={
+		name="Dinoj Nilam"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Dinoj_Nilam
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	PUT_Kumarun_Unamudranbam={
+		name="Kumarun Unamudranbam"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUT_Kumarun_Unamudranbam
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	PUT_Gandrandran_Kolaivinadu={
+		name="Gandrandran Kolaivinadu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUT_Gandrandran_Kolaivinadu
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	PUT_Satishna_Panthilaiara={
+		name="Satishna Panthilaiara"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUT_Satishna_Panthilaiara
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	PUT_Kumari_Nunadam={
+		name="Kumari Nunadam"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUT_Kumari_Nunadam
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	PUT_Pran_Vangugam={
+		name="Pran Vangugam"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUT_Pran_Vangugam
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	PUT_Kumarthik_Siraignam={
+		name="Kumarthik Siraignam"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Kumarthik_Siraignam
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	PUT_Ganesh_Then={
+		name="Ganesh Then"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Ganesh_Then
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	PUT_Naveesh_Makku={
+		name="Naveesh Makku"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Naveesh_Makku
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	PUT_Prem_Aranthi={
+		name="Prem Aranthi"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Prem_Aranthi
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	PUT_Ajay_Nilangu={
+		name="Ajay Nilangu"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Ajay_Nilangu
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	PUT_Karthik_Kaatram={
+		name="Karthik Kaatram"
+
+		advisor={
+			slot = high_command
+			idea_token = PUT_Karthik_Kaatram
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	PUT_Varthik_Thani={
+		name="Varthik Thani"
+
+		advisor={
+			slot = theorist
+			idea_token = PUT_Varthik_Thani
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	PUT_Siddhan_Pasirai={
+		name="Siddhan Pasirai"
+
+		advisor={
+			slot = theorist
+			idea_token = PUT_Siddhan_Pasirai
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	PUT_Satishna_Thudiyala={
+		name="Satishna Thudiyala"
+
+		advisor={
+			slot = theorist
+			idea_token = PUT_Satishna_Thudiyala
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

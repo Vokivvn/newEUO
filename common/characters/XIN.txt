@@ -1,0 +1,1083 @@
+characters = {
+	XIN_Qiangdu_Chan={
+		name="Qiangdu Chan"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XIN_Jiang_Liang={
+		name="Jiang Liang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Jiang_Liang
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Phuntso_Shan={
+		name="Phuntso Shan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Phuntso_Shan
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Jiang_Nian={
+		name="Jiang Nian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Jiang_Nian
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	XIN_Jigme_Chun={
+		name="Jigme Chun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Jigme_Chun
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	XIN_Gyatso_Meng={
+		name="Gyatso Meng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Gyatso_Meng
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Nima_Guang={
+		name="Nima Guang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Nima_Guang
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	XIN_Yang_Nang={
+		name="Yang Nang"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Yang_Nang
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	XIN_Qiangdu_Jian={
+		name="Qiangdu Jian"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Qiangdu_Jian
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	XIN_Gyatso_Cheng={
+		name="Gyatso Cheng"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Gyatso_Cheng
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	XIN_Fang_Shong={
+		name="Fang Shong"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Fang_Shong
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	XIN_Heng_Qing={
+		name="Heng Qing"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XIN_Heng_Qing
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	XIN_Ngawan_Chun={
+		name="Ngawan Chun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XIN_Ngawan_Chun
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	XIN_Song_Shui={
+		name="Song Shui"
+
+		advisor={
+			slot = air_chief
+			idea_token = XIN_Song_Shui
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	XIN_Gyatso_Guang={
+		name="Gyatso Guang"
+
+		advisor={
+			slot = air_chief
+			idea_token = XIN_Gyatso_Guang
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	XIN_Gyatso_Huai={
+		name="Gyatso Huai"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Gyatso_Huai
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	XIN_Chen_Meng={
+		name="Chen Meng"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Chen_Meng
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	XIN_Sonam_Zhou={
+		name="Sonam Zhou"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Sonam_Zhou
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	XIN_Qiangdu_Shong={
+		name="Qiangdu Shong"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Qiangdu_Shong
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	XIN_Ngawan_Guai={
+		name="Ngawan Guai"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Ngawan_Guai
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	XIN_Jigme_Dang={
+		name="Jigme Dang"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Jigme_Dang
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	XIN_Qiang_Huan={
+		name="Qiang Huan"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XIN_Lobsangdu_Mian={
+		name="Lobsangdu Mian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Lobsangdu_Mian
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	XIN_Chen_Zhan={
+		name="Chen Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Chen_Zhan
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Heng_Xian={
+		name="Heng Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Heng_Xian
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	XIN_Jiang_Chui={
+		name="Jiang Chui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Jiang_Chui
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	XIN_Lonam_Guan={
+		name="Lonam Guan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Lonam_Guan
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	XIN_Lonam_Xiang={
+		name="Lonam Xiang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Lonam_Xiang
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Long_Shun={
+		name="Long Shun"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Long_Shun
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	XIN_Ngawa_Shan={
+		name="Ngawa Shan"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Ngawa_Shan
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	XIN_Lonam_Shen={
+		name="Lonam Shen"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Lonam_Shen
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	XIN_Phuntso_Shang={
+		name="Phuntso Shang"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Phuntso_Shang
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	XIN_Ngawan_Sheng={
+		name="Ngawan Sheng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XIN_Ngawan_Sheng
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	XIN_Gyatso_Shen={
+		name="Gyatso Shen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XIN_Gyatso_Shen
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	XIN_Jigme_Shang={
+		name="Jigme Shang"
+
+		advisor={
+			slot = air_chief
+			idea_token = XIN_Jigme_Shang
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	XIN_Song_Dang={
+		name="Song Dang"
+
+		advisor={
+			slot = air_chief
+			idea_token = XIN_Song_Dang
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	XIN_Lobsan_Meng={
+		name="Lobsan Meng"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Lobsan_Meng
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	XIN_Phun_Chun={
+		name="Phun Chun"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Phun_Chun
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	XIN_Lobsangdu_Meng={
+		name="Lobsangdu Meng"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Lobsangdu_Meng
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	XIN_Ngawang_Yuan={
+		name="Ngawang Yuan"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Ngawang_Yuan
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	XIN_Phubteng_Yuan={
+		name="Phubteng Yuan"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Phubteng_Yuan
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	XIN_Ngawan_Huan={
+		name="Ngawan Huan"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Ngawan_Huan
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	XIN_Ngawa_Reng={
+		name="Ngawa Reng"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { anti_bolshevik_leftist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XIN_Dawa_Chui={
+		name="Dawa Chui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Dawa_Chui
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	XIN_Ngawan_Dong={
+		name="Ngawan Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Ngawan_Dong
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	XIN_Gyatso_Lian={
+		name="Gyatso Lian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Gyatso_Lian
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Qiang_Tong={
+		name="Qiang Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Qiang_Tong
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	XIN_Karma_Nang={
+		name="Karma Nang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Karma_Nang
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	XIN_Qiangdu_Linxi={
+		name="Qiangdu Linxi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Qiangdu_Linxi
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Henzing_Dong={
+		name="Henzing Dong"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Henzing_Dong
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	XIN_Qiang_Huai={
+		name="Qiang Huai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Qiang_Huai
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	XIN_Ngawan_Chan={
+		name="Ngawan Chan"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Ngawan_Chan
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	XIN_Henzing_Reng={
+		name="Henzing Reng"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Henzing_Reng
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	XIN_Qian_Qing={
+		name="Qian Qing"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XIN_Qian_Qing
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	XIN_Thun_Shan={
+		name="Thun Shan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XIN_Thun_Shan
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	XIN_Nima_Zhan={
+		name="Nima Zhan"
+
+		advisor={
+			slot = air_chief
+			idea_token = XIN_Nima_Zhan
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	XIN_Ming_Guan={
+		name="Ming Guan"
+
+		advisor={
+			slot = air_chief
+			idea_token = XIN_Ming_Guan
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	XIN_Gyatso_Chui={
+		name="Gyatso Chui"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Gyatso_Chui
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	XIN_Dawa_Shang={
+		name="Dawa Shang"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Dawa_Shang
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	XIN_Dawa_Shen={
+		name="Dawa Shen"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Dawa_Shen
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	XIN_Ngawan_Ping={
+		name="Ngawan Ping"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Ngawan_Ping
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	XIN_Lobsangdu_Huan={
+		name="Lobsangdu Huan"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Lobsangdu_Huan
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	XIN_Qiangdu_Zhan={
+		name="Qiangdu Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Qiangdu_Zhan
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	XIN_Lobsang_Meng={
+		name="Lobsang Meng"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XIN_Renzing_Nian={
+		name="Renzing Nian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Renzing_Nian
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Wang_Shun={
+		name="Wang Shun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Wang_Shun
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	XIN_Ngawa_Shui={
+		name="Ngawa Shui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Ngawa_Shui
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Gyatso_Tong={
+		name="Gyatso Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Gyatso_Tong
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Lobsangdu_Shun={
+		name="Lobsangdu Shun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Lobsangdu_Shun
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	XIN_Teng_Shan={
+		name="Teng Shan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XIN_Teng_Shan
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	XIN_Henzing_Shou={
+		name="Henzing Shou"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Henzing_Shou
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	XIN_Jigme_Shao={
+		name="Jigme Shao"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Jigme_Shao
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	XIN_Qiangdu_Chun={
+		name="Qiangdu Chun"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Qiangdu_Chun
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	XIN_Lonam_Mian={
+		name="Lonam Mian"
+
+		advisor={
+			slot = army_chief
+			idea_token = XIN_Lonam_Mian
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	XIN_Tenzin_Shen={
+		name="Tenzin Shen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XIN_Tenzin_Shen
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	XIN_Qiangdu_Shan={
+		name="Qiangdu Shan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XIN_Qiangdu_Shan
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	XIN_Sonam_Qing={
+		name="Sonam Qing"
+
+		advisor={
+			slot = air_chief
+			idea_token = XIN_Sonam_Qing
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	XIN_Qiangdu_Yuan={
+		name="Qiangdu Yuan"
+
+		advisor={
+			slot = air_chief
+			idea_token = XIN_Qiangdu_Yuan
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	XIN_Phubteng_Huan={
+		name="Phubteng Huan"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Phubteng_Huan
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	XIN_Dawa_Nang={
+		name="Dawa Nang"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Dawa_Nang
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	XIN_Fang_Shui={
+		name="Fang Shui"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Fang_Shui
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	XIN_Ngawan_Qinxi={
+		name="Ngawan Qinxi"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Ngawan_Qinxi
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	XIN_Renzing_Shui={
+		name="Renzing Shui"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Renzing_Shui
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	XIN_Tenzin_Linxi={
+		name="Tenzin Linxi"
+
+		advisor={
+			slot = high_command
+			idea_token = XIN_Tenzin_Linxi
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	XIN_Jiang_Nang={
+		name="Jiang Nang"
+
+		advisor={
+			slot = theorist
+			idea_token = XIN_Jiang_Nang
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	XIN_Ngawa_Lian={
+		name="Ngawa Lian"
+
+		advisor={
+			slot = theorist
+			idea_token = XIN_Ngawa_Lian
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	XIN_Jigme_Shui={
+		name="Jigme Shui"
+
+		advisor={
+			slot = theorist
+			idea_token = XIN_Jigme_Shui
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

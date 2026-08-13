@@ -1,0 +1,465 @@
+capital = 1393
+
+oob = "LEN_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "LEN_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "LEN_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	tech_trucks= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "LEN_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			aa_lmg = 1
+			early_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Lenturus Mk 0"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Mensaestrum Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Villa Mk 0"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Pictus Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "LEN_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "LEN_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Vilva Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Negotium Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Domus Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Fors Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Sentum Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Herbors Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_depth_charges = 1
+	basic_naval_mines = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	mtg_transport = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "LEN_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Vilva Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Negotium Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Domus Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Fors Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Sentum Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Herbors Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+
+	}
+
+
+recruit_character = LEN_Cornellius_Menebra
+recruit_character = LEN_Longintongin_Pructus
+recruit_character = LEN_Lucimus_Glos
+recruit_character = LEN_Paudius_Citas
+recruit_character = LEN_Marcellus_Galum
+recruit_character = LEN_Urbanus_Panis
+recruit_character = LEN_Priscus_Prum
+recruit_character = LEN_Priscus_Pictus
+recruit_character = LEN_Remitelius_Lumena
+recruit_character = LEN_Marcellus_Artum
+recruit_character = LEN_Longinus_Altis
+recruit_character = LEN_Horaius_Libum
+recruit_character = LEN_Tratius_Semperrus
+recruit_character = LEN_Regulius_Negina
+recruit_character = LEN_Sevolavius_Civers
+recruit_character = LEN_Regulius_Orbortis
+recruit_character = LEN_Sevola_Negina
+recruit_character = LEN_Coracchus_Maricipes
+recruit_character = LEN_Geminus_Ventura
+recruit_character = LEN_Publius_Mensaestrum
+recruit_character = LEN_Publianus_Vulgus
+recruit_character = LEN_Faudius_Pocus
+recruit_character = LEN_Decius_Camplus
+recruit_character = LEN_Hornellus_Negotium
+recruit_character = LEN_Augulius_Regotium
+recruit_character = LEN_Lucius_Tritastrum
+recruit_character = LEN_Titus_Virtia
+recruit_character = LEN_Urbanus_Herbors
+recruit_character = LEN_Paudius_Luna
+recruit_character = LEN_Maximus_Tempublitas
+recruit_character = LEN_Sevola_Cellum
+recruit_character = LEN_Julus_Menebra
+recruit_character = LEN_Coracchus_Sentum
+recruit_character = LEN_Coracchus_Vilva
+recruit_character = LEN_Domintus_Ventura
+recruit_character = LEN_Spurius_Pocus
+recruit_character = LEN_Remitelius_Negotium
+recruit_character = LEN_Augulius_Vens
+recruit_character = LEN_Livius_Malamma
+recruit_character = LEN_Gaius_Altis
+recruit_character = LEN_Marcus_Anitharvus
+recruit_character = LEN_Sevolavius_Paniverbilic
+recruit_character = LEN_Paus_Silva
+recruit_character = LEN_Publius_Civers
+recruit_character = LEN_Gemus_Herbors
+recruit_character = LEN_Traius_Vilva
+recruit_character = LEN_Domintus_Plum
+recruit_character = LEN_Fabiustus_Aerticola
+recruit_character = LEN_Tibervius_Vilva
+recruit_character = LEN_Longintongin_Anitharvus
+recruit_character = LEN_Claus_Semperrus
+recruit_character = LEN_Marcelius_Aerba
+recruit_character = LEN_Sevolavius_Libum
+recruit_character = LEN_Tratius_Galum
+recruit_character = LEN_Tiberiscus_Paniverbilic
+recruit_character = LEN_Nervius_Legnumena
+recruit_character = LEN_Regulius_Pictus
+recruit_character = LEN_Gaius_Insulgus
+recruit_character = LEN_Paus_Bellum
+recruit_character = LEN_Coracchus_Regotium
+recruit_character = LEN_Paulustus_Reginator
+recruit_character = LEN_Traius_Vithara
+recruit_character = LEN_Marcus_Timiden
+recruit_character = LEN_Tratius_Honumbum
+recruit_character = LEN_Lucimus_Orbortis
+recruit_character = LEN_Julus_Glos
+recruit_character = LEN_Remus_Menebra
+recruit_character = LEN_Priscus_Opublis
+recruit_character = LEN_Marcellus_Altis
+recruit_character = LEN_Fabiustus_Galum
+recruit_character = LEN_Urbanus_Poetastors
+recruit_character = LEN_Tratius_Fampus
+recruit_character = LEN_Hornellus_Regnis
+recruit_character = LEN_Augulius_Pructus
+recruit_character = LEN_Geminus_Domus
+recruit_character = LEN_Fabiustus_Aerba
+recruit_character = LEN_Claus_Ventura
+recruit_character = LEN_Brus_Milos
+recruit_character = LEN_Longinus_Milos
+recruit_character = LEN_Publianus_Altis
+recruit_character = LEN_Tratius_Opublis
+recruit_character = LEN_Augulius_Vena
+recruit_character = LEN_Hornellus_Legaticis
+recruit_character = LEN_Horaius_Uniteleritte
+recruit_character = LEN_Lonius_Famma
+recruit_character = LEN_Geminus_Bellum
+recruit_character = LEN_Sevola_Sentum
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.37
+set_war_support = 0.22
+
+add_ideas = {
+volunteer_only
+low_economic_mobilisation
+export_focus
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1924.5.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 32
+	fascism = 10
+	communism = 1
+	neutrality = 57
+}
+
+
+
+
+

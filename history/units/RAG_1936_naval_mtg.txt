@@ -1,0 +1,47 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ragbada Fleet"			
+		naval_base = 2128
+		task_force = {
+			name = "Ragbada Fleet"
+			location = 2128
+			
+						ship = { name = "Sepahvehr" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAG version_name = "Setabat Class" } }	}
+			ship = { name = "Nashtash" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAG version_name = "Tofan Class" } }	}
+			ship = { name = "Rooz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAG version_name = "Tofan Class" } }	}
+			ship = { name = "Jonub" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAG version_name = "Sepahvehr Class" } }	}
+			ship = { name = "Piriz" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAG version_name = "Sepahvehr Class" } }	}
+			ship = { name = "Sabz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAG version_name = "Tofan Class" } }	}
+			ship = { name = "Shab" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAG version_name = "Pirdarya Class" } }	}
+			ship = { name = "Mohandoghl" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAG version_name = "Khahabz Class" } }	}
+			ship = { name = "Mive" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAG version_name = "Pirdarya Class" } }	}
+			ship = { name = "Bazan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAG version_name = "Tofan Class" } }	}
+			ship = { name = "Shar" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAG version_name = "Sepahvehr Class" } }	}
+			ship = { name = "Mohandoghl 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAG version_name = "Sepahvehr Class" } }	}
+			ship = { name = "Radan" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAG version_name = "Khahabz Class" } }	}
+			ship = { name = "Nareshani" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAG version_name = "Khahabz Class" } }	}
+			ship = { name = "Mang" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAG version_name = "Tofan Class" } }	}
+			ship = { name = "Shah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAG version_name = "Pirdarya Class" } }	}
+			ship = { name = "Radan 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAG version_name = "Sepahvehr Class" } }	}
+			ship = { name = "Mang 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAG version_name = "Pirdarya Class" } }	}
+			ship = { name = "Jonub 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAG version_name = "Pirdarya Class" } }	}
+			ship = { name = "Ragbada" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAG version_name = "Pirdarya Class" } }	}
+			ship = { name = "Setabat" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAG version_name = "Pirdarya Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

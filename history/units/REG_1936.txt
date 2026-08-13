@@ -1,0 +1,207 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			engineer = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Lagerter' Militia Division"
+		location = 1561
+		division_template = "Militia Division"
+		start_experience_factor = 0.257406
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Mimpi' Militia Division"
+		location = 719
+		division_template = "Militia Division"
+		start_experience_factor = 0.017301
+		start_equipment_factor = 0.964807
+	}
+	division= {
+		name = "3rd 'Reilberke' Militia Division"
+		location = 560
+		division_template = "Militia Division"
+		start_experience_factor = 0.829027
+		start_equipment_factor = 0.887229
+	}
+	division= {
+		name = "4th 'Flum' Militia Division"
+		location = 2298
+		division_template = "Militia Division"
+		start_experience_factor = 0.825479
+		start_equipment_factor = 0.847945
+	}
+	division= {
+		name = "1st 'Bogen' Infantry Division"
+		location = 343
+		division_template = "Infantry Division"
+		start_experience_factor = 0.684716
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Schilfe' Infantry Division"
+		location = 2117
+		division_template = "Infantry Division"
+		start_experience_factor = 0.007015
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Reilberke' Supported Infantry Division"
+		location = 560
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.681972
+		start_equipment_factor = 0.973143
+	}
+	division= {
+		name = "2nd 'Sedisa' Supported Infantry Division"
+		location = 55
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.342805
+		start_equipment_factor = 0.833590
+	}
+	division= {
+		name = "3rd 'Katang' Supported Infantry Division"
+		location = 688
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.721666
+		start_equipment_factor = 0.936838
+	}
+	division= {
+		name = "1st 'Sedisa' Artillery Division"
+		location = 55
+		division_template = "Artillery Division"
+		start_experience_factor = 0.168485
+		start_equipment_factor = 0.898340
+	}
+	division= {
+		name = "2nd 'Flus' Artillery Division"
+		location = 482
+		division_template = "Artillery Division"
+		start_experience_factor = 0.195292
+		start_equipment_factor = 0.884937
+	}
+	division= {
+		name = "1st 'Reilberke' Cavalry Division"
+		location = 250
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.580234
+		start_equipment_factor = 0.904626
+	}
+	division= {
+		name = "2nd 'Mimpi' Cavalry Division"
+		location = 719
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.467248
+		start_equipment_factor = 0.892515
+	}
+	division= {
+		name = "3rd 'Lagerter' Cavalry Division"
+		location = 1561
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.053806
+		start_equipment_factor = 0.957573
+	}
+	division= {
+		name = "4th 'Lagerter' Cavalry Division"
+		location = 1561
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.835711
+		start_equipment_factor = 0.826366
+	}
+
+}

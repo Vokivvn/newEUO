@@ -1,0 +1,1083 @@
+characters = {
+	SHA_Tariq_Alis={
+		name="Tariq Alis"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHA_Khali_Amir={
+		name="Khali Amir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Khali_Amir
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Mohal_Fartourub={
+		name="Mohal Fartourub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Mohal_Fartourub
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Hammed_Masadi={
+		name="Hammed Masadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Hammed_Masadi
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Zaid_Khabibl={
+		name="Zaid Khabibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Zaid_Khabibl
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Mahya_Nouraqa={
+		name="Mahya Nouraqa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Mahya_Nouraqa
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Khal_Thalahr={
+		name="Khal Thalahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Khal_Thalahr
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Jammed_Tara={
+		name="Jammed Tara"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Jammed_Tara
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SHA_Yusuf_Safa={
+		name="Yusuf Safa"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Yusuf_Safa
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SHA_Yahim_Kutub={
+		name="Yahim Kutub"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Yahim_Kutub
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SHA_Zaisal_Dawariq={
+		name="Zaisal Dawariq"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Zaisal_Dawariq
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SHA_Ramza_Harahr={
+		name="Ramza Harahr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Ramza_Harahr
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SHA_Hamal_Rawi={
+		name="Hamal Rawi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Hamal_Rawi
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	SHA_Imrahim_Suwa={
+		name="Imrahim Suwa"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Imrahim_Suwa
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	SHA_Tariq_Mana={
+		name="Tariq Mana"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Tariq_Mana
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	SHA_Khali_Nizaml={
+		name="Khali Nizaml"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Khali_Nizaml
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	SHA_Bilahya_Khajarran={
+		name="Bilahya Khajarran"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Bilahya_Khajarran
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	SHA_Jamza_Nasadi={
+		name="Jamza Nasadi"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Jamza_Nasadi
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	SHA_Omalid_Masadi={
+		name="Omalid Masadi"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Omalid_Masadi
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	SHA_Saad_Nourhal={
+		name="Saad Nourhal"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Saad_Nourhal
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	SHA_Mohal_Manawaryah={
+		name="Mohal Manawaryah"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Mohal_Manawaryah
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	SHA_Faid_Amam={
+		name="Faid Amam"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHA_Hassan_Masadi={
+		name="Hassan Masadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Hassan_Masadi
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Hamza_Noura={
+		name="Hamza Noura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Hamza_Noura
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Khal_Rawka={
+		name="Khal Rawka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Khal_Rawka
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Imrahim_Nourub={
+		name="Imrahim Nourub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Imrahim_Nourub
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Tariq_Kutub={
+		name="Tariq Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Tariq_Kutub
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Yusuf_Nasrana={
+		name="Yusuf Nasrana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Yusuf_Nasrana
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Yahim_Amir={
+		name="Yahim Amir"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Yahim_Amir
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SHA_Imran_Sultarb={
+		name="Imran Sultarb"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Imran_Sultarb
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	SHA_Mahim_Shalb={
+		name="Mahim Shalb"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Mahim_Shalb
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SHA_Omalid_Namanz={
+		name="Omalid Namanz"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Omalid_Namanz
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SHA_Karid_Asat={
+		name="Karid Asat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Karid_Asat
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SHA_Ramza_Kutub={
+		name="Ramza Kutub"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Ramza_Kutub
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	SHA_Hassalid_Nahria={
+		name="Hassalid Nahria"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Hassalid_Nahria
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	SHA_Nabil_Rawa={
+		name="Nabil Rawa"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Nabil_Rawa
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	SHA_Rami_Sham={
+		name="Rami Sham"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Rami_Sham
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	SHA_Jamza_Naryahr={
+		name="Jamza Naryahr"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Jamza_Naryahr
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	SHA_Samza_Suwa={
+		name="Samza Suwa"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Samza_Suwa
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	SHA_Imran_Reej={
+		name="Imran Reej"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Imran_Reej
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	SHA_Samza_Madin={
+		name="Samza Madin"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Samza_Madin
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	SHA_Yahya_Makta={
+		name="Yahya Makta"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Yahya_Makta
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	SHA_Imrahim_Maghr={
+		name="Imrahim Maghr"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { anti_bolshevik_leftist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHA_Hassalid_Turub={
+		name="Hassalid Turub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Hassalid_Turub
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Rami_Hijazn={
+		name="Rami Hijazn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Rami_Hijazn
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Yusuf_Warikh={
+		name="Yusuf Warikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Yusuf_Warikh
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Mahya_Mana={
+		name="Mahya Mana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Mahya_Mana
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Khamir_Qalim={
+		name="Khamir Qalim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Khamir_Qalim
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Khamir_Makta={
+		name="Khamir Makta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Khamir_Makta
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Sammed_Jaba={
+		name="Sammed Jaba"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Sammed_Jaba
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	SHA_Mohal_Mawat={
+		name="Mohal Mawat"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Mohal_Mawat
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SHA_Omad_Shabib={
+		name="Omad Shabib"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Omad_Shabib
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SHA_Hami_Wadrah={
+		name="Hami Wadrah"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Hami_Wadrah
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SHA_Hassalid_Majd={
+		name="Hassalid Majd"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Hassalid_Majd
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	SHA_Hassan_Madin={
+		name="Hassan Madin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Hassan_Madin
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SHA_Nabilal_Fartourub={
+		name="Nabilal Fartourub"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Nabilal_Fartourub
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SHA_Omalid_Namla={
+		name="Omalid Namla"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Omalid_Namla
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	SHA_Jammed_Najrahayah={
+		name="Jammed Najrahayah"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Jammed_Najrahayah
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	SHA_Samza_Tard={
+		name="Samza Tard"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Samza_Tard
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	SHA_Karid_Hikmamamalb={
+		name="Karid Hikmamamalb"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Karid_Hikmamamalb
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	SHA_Majid_Samlak={
+		name="Majid Samlak"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Majid_Samlak
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	SHA_Anwarid_Shan={
+		name="Anwarid Shan"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Anwarid_Shan
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	SHA_Khamir_Mawat={
+		name="Khamir Mawat"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Khamir_Mawat
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	SHA_Mohal_Sahjar={
+		name="Mohal Sahjar"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHA_Tarim_Harahr={
+		name="Tarim Harahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Tarim_Harahr
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Abdullalid_Warikh={
+		name="Abdullalid Warikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Abdullalid_Warikh
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Omad_Amirabr={
+		name="Omad Amirabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Omad_Amirabr
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Samad_Namla={
+		name="Samad Namla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Samad_Namla
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Jami_Nasrana={
+		name="Jami Nasrana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Jami_Nasrana
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Tariq_Nasadi={
+		name="Tariq Nasadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Tariq_Nasadi
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Hamir_Haykh={
+		name="Hamir Haykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Hamir_Haykh
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	SHA_Zaid_Asadinawi={
+		name="Zaid Asadinawi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Zaid_Asadinawi
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SHA_Abdullalid_Dawariq={
+		name="Abdullalid Dawariq"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Abdullalid_Dawariq
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SHA_Bilahya_Qalb={
+		name="Bilahya Qalb"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Bilahya_Qalb
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SHA_Hammed_Tariqafilm={
+		name="Hammed Tariqafilm"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Hammed_Tariqafilm
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SHA_Samza_Samlak={
+		name="Samza Samlak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Samza_Samlak
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SHA_Nabil_Asadinawi={
+		name="Nabil Asadinawi"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Nabil_Asadinawi
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SHA_Ibran_Raml={
+		name="Ibran Raml"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Ibran_Raml
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	SHA_Mohali_Alis={
+		name="Mohali Alis"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Mohali_Alis
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	SHA_Jamza_Sham={
+		name="Jamza Sham"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Jamza_Sham
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	SHA_Khal_Qalb={
+		name="Khal Qalb"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Khal_Qalb
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	SHA_Zaid_Qalim={
+		name="Zaid Qalim"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Zaid_Qalim
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	SHA_Zaisal_Diwar={
+		name="Zaisal Diwar"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Zaisal_Diwar
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	SHA_Tariq_Shabib={
+		name="Tariq Shabib"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Tariq_Shabib
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	SHA_Karid_Suwa={
+		name="Karid Suwa"
+
+		advisor={
+			slot = theorist
+			idea_token = SHA_Karid_Suwa
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SHA_Faid_Najrahayah={
+		name="Faid Najrahayah"
+
+		advisor={
+			slot = theorist
+			idea_token = SHA_Faid_Najrahayah
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SHA_Hammed_Suwa={
+		name="Hammed Suwa"
+
+		advisor={
+			slot = theorist
+			idea_token = SHA_Hammed_Suwa
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

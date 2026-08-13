@@ -1,0 +1,58 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kapijava Fleet"			
+		naval_base = 1608
+		task_force = {
+			name = "Kapijava Fleet"
+			location = 1608
+			
+						ship = { name = "Zvetloda" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KAP version_name = "Umetloda Class" } }	}
+			ship = { name = "Trava" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KAP version_name = "Hrad Class" } }	}
+			ship = { name = "Zvetloda 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Plak" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KAP version_name = "Konzulturan Class" } }	}
+			ship = { name = "Plak 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Jezer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Plak 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Verojska" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Umetloda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Hralanaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Hralanaga 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Zvetloda 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Laga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Telo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Voda" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KAP version_name = "Konzulturan Class" } }	}
+			ship = { name = "Dusao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Svetadje" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Solj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Vatra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Soljevina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Platrad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Kisa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KAP version_name = "Konzulturan Class" } }	}
+			ship = { name = "Vitezavdar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Hrad" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KAP version_name = "Konzulturan Class" } }	}
+			ship = { name = "Plan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Drvo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KAP version_name = "Konzulturan Class" } }	}
+			ship = { name = "Snazava" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Meska" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+			ship = { name = "Pisa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KAP version_name = "Konzulturan Class" } }	}
+			ship = { name = "Postor" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KAP version_name = "Konzulturan Class" } }	}
+			ship = { name = "Putor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KAP version_name = "Svemenazaksi Class" } }	}
+			ship = { name = "Smrt" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KAP version_name = "Vazak Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

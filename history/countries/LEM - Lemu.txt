@@ -1,0 +1,270 @@
+capital = 1894
+
+oob = "LEM_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "LEM_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "LEM_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "LEM_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "LEM_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "LEM_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Benjar Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "LEM_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Benjar Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = LEM_Rama_Pelak
+recruit_character = LEM_Rama_Bununyi
+recruit_character = LEM_Budi_Pelak
+recruit_character = LEM_Putra_Lemu
+recruit_character = LEM_Dewa_Cahasa
+recruit_character = LEM_Lutfi_Mudat
+recruit_character = LEM_Joko_Purumbubulan
+recruit_character = LEM_Waya_Peruh
+recruit_character = LEM_Arjuna_Nyahlam
+recruit_character = LEM_Waya_Teti
+recruit_character = LEM_Joko_Hidunya
+recruit_character = LEM_Fajar_Belambubulam
+recruit_character = LEM_Agus_Peran
+recruit_character = LEM_Bama_Nyahlam
+recruit_character = LEM_Arjuna_Daragemangit
+recruit_character = LEM_Rambang_Belambubulam
+recruit_character = LEM_Mario_Peti
+recruit_character = LEM_Rambang_Nafasi
+recruit_character = LEM_Rambang_Tualawan
+recruit_character = LEM_Fajario_Huka
+recruit_character = LEM_Rambang_Pahar
+recruit_character = LEM_Putfi_Buar
+recruit_character = LEM_Surya_Senci
+recruit_character = LEM_Waya_Purumbubulan
+recruit_character = LEM_Rama_Keku
+recruit_character = LEM_Rambang_Pulamat
+recruit_character = LEM_Mari_Lemu
+recruit_character = LEM_Hario_Belambubulam
+recruit_character = LEM_Ramban_Bununci
+recruit_character = LEM_Budi_Bununci
+recruit_character = LEM_Fajar_Haragai
+recruit_character = LEM_Bama_Katang
+recruit_character = LEM_Lutfi_Nafasi
+recruit_character = LEM_Waya_Sedisi
+recruit_character = LEM_Lutfi_Anahariasjid
+recruit_character = LEM_Budi_Peti
+recruit_character = LEM_Lutra_Senci
+recruit_character = LEM_Bamban_Daragemangit
+recruit_character = LEM_Lutfi_Kuil
+recruit_character = LEM_Wayang_Peran
+recruit_character = LEM_Agus_Adan
+recruit_character = LEM_Andi_Bununyi
+recruit_character = LEM_Sakti_Sedisi
+recruit_character = LEM_Rambang_Senci
+recruit_character = LEM_Arjuna_Suar
+recruit_character = LEM_Lutra_Rohon
+recruit_character = LEM_Budi_Laung
+recruit_character = LEM_Budi_Pohon
+recruit_character = LEM_Andi_Suci
+recruit_character = LEM_Agus_Ratu
+recruit_character = LEM_Rama_Huka
+recruit_character = LEM_Ketutra_Belambubulam
+recruit_character = LEM_Hario_Bununyi
+recruit_character = LEM_Joko_Pahar
+recruit_character = LEM_Dewa_Upatuara
+recruit_character = LEM_Fajario_Oradang
+recruit_character = LEM_Agus_Pendalautrit
+recruit_character = LEM_Bamban_Kotasurga
+recruit_character = LEM_Fajario_Purumbubulan
+recruit_character = LEM_Bambang_Utusa
+recruit_character = LEM_Rama_Keranda
+recruit_character = LEM_Mari_Oradang
+recruit_character = LEM_Fajar_Cintan
+recruit_character = LEM_Hari_Bahabatuaram
+recruit_character = LEM_Lutra_Bahabatuaram
+recruit_character = LEM_Mari_Perampi
+recruit_character = LEM_Hari_Peran
+recruit_character = LEM_Fajario_Upacakumimen
+recruit_character = LEM_Mario_Daragemangit
+recruit_character = LEM_Agus_Sedih
+recruit_character = LEM_Dewa_Mimpi
+recruit_character = LEM_Hario_Taragemaintu
+recruit_character = LEM_Andi_Desa
+recruit_character = LEM_Mari_Rohon
+recruit_character = LEM_Lutra_Mudat
+recruit_character = LEM_Arjuna_Tang
+recruit_character = LEM_Bambang_Cahara
+recruit_character = LEM_Ramban_Cahara
+recruit_character = LEM_Bama_Perampi
+recruit_character = LEM_Andi_Bada
+recruit_character = LEM_Budi_Nagu
+recruit_character = LEM_Hario_Halat
+recruit_character = LEM_Putra_Takil
+recruit_character = LEM_Sakti_Nafasi
+recruit_character = LEM_Rama_Nerjat
+recruit_character = LEM_Bama_Desa
+recruit_character = LEM_Bambang_Bata
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.87
+set_war_support = 0.79
+
+add_ideas = {
+extensive_conscription
+low_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1897.2.18"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 4
+	fascism = 51
+	communism = 19
+	neutrality = 26
+}
+
+
+
+
+

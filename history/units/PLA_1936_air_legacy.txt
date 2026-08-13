@@ -1,0 +1,45 @@
+air_wings = {
+		1171 = { 								
+		cv_CAS_equipment_0 = { owner = "PLA" amount = 50 version_name = "Mirco Mk 2" }
+
+	}
+	1175 = { 								
+		tac_bomber_equipment_0 = { owner = "PLA" amount = 50 version_name = "Morine Mk 0" }
+
+	}
+	1099 = { 								
+		cv_CAS_equipment_0 = { owner = "PLA" amount = 50 version_name = "Mirco Mk 2" }
+cv_CAS_equipment_0 = { owner = "PLA" amount = 50 version_name = "Mirco Mk 2" }
+
+	}
+	1951 = { 								
+		cv_fighter_equipment_0 = { owner = "PLA" amount = 50 version_name = "Miria Mk 2" }
+
+	}
+	1581 = { 								
+		tac_bomber_equipment_0 = { owner = "PLA" amount = 50 version_name = "Morine Mk 0" }
+
+	}
+	1157 = { 								
+		fighter_equipment_0 = { owner = "PLA" amount = 50 version_name = "Cano Mk 0" }
+
+	}
+	1154 = { 								
+		cv_fighter_equipment_0 = { owner = "PLA" amount = 50 version_name = "Miria Mk 2" }
+
+	}
+	1146 = { 								
+		CAS_equipment_0 = { owner = "PLA" amount = 50 version_name = "Vileantregio Mk 2" }
+
+	}
+	957 = { 								
+		CAS_equipment_0 = { owner = "PLA" amount = 50 version_name = "Vileantregio Mk 2" }
+
+	}
+	1075 = { 								
+		fighter_equipment_0 = { owner = "PLA" amount = 50 version_name = "Cano Mk 0" }
+
+	}
+
+
+}

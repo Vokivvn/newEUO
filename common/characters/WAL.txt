@@ -1,0 +1,1083 @@
+characters = {
+	WAL_Spurius_Pictus={
+		name="Spurius Pictus"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WAL_Lucius_Galae={
+		name="Lucius Galae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Lucius_Galae
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Tratius_Insulgus={
+		name="Tratius Insulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Tratius_Insulgus
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	WAL_Flavius_Plum={
+		name="Flavius Plum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Flavius_Plum
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	WAL_Gracchusus_Citas={
+		name="Gracchusus Citas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Gracchusus_Citas
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	WAL_Nonius_Flor={
+		name="Nonius Flor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Nonius_Flor
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Cornellius_Verbunatus={
+		name="Cornellius Verbunatus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Cornellius_Verbunatus
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	WAL_Varcus_Anitharvus={
+		name="Varcus Anitharvus"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Varcus_Anitharvus
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	WAL_Gracchusus_Panis={
+		name="Gracchusus Panis"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Gracchusus_Panis
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	WAL_Nervius_Fulmentifex={
+		name="Nervius Fulmentifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Nervius_Fulmentifex
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	WAL_Publianus_Regnis={
+		name="Publianus Regnis"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Publianus_Regnis
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	WAL_Remus_Natrum={
+		name="Remus Natrum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WAL_Remus_Natrum
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	WAL_Cornellius_Sentum={
+		name="Cornellius Sentum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WAL_Cornellius_Sentum
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	WAL_Hornelius_Ordo={
+		name="Hornelius Ordo"
+
+		advisor={
+			slot = air_chief
+			idea_token = WAL_Hornelius_Ordo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	WAL_Attius_Sentum={
+		name="Attius Sentum"
+
+		advisor={
+			slot = air_chief
+			idea_token = WAL_Attius_Sentum
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	WAL_Nervius_Auctus={
+		name="Nervius Auctus"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Nervius_Auctus
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	WAL_Regus_Flor={
+		name="Regus Flor"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Regus_Flor
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	WAL_Julus_Uniteleritte={
+		name="Julus Uniteleritte"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Julus_Uniteleritte
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	WAL_Faudius_Ordo={
+		name="Faudius Ordo"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Faudius_Ordo
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	WAL_Lucimus_Pructus={
+		name="Lucimus Pructus"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Lucimus_Pructus
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	WAL_Marcus_Fors={
+		name="Marcus Fors"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Marcus_Fors
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	WAL_Horaius_Vilva={
+		name="Horaius Vilva"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WAL_Antonginus_Nublitudes={
+		name="Antonginus Nublitudes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Antonginus_Nublitudes
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Cassius_Cellum={
+		name="Cassius Cellum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Cassius_Cellum
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	WAL_Paudius_Regincis={
+		name="Paudius Regincis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Paudius_Regincis
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Tibius_Nublitudes={
+		name="Tibius Nublitudes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Tibius_Nublitudes
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	WAL_Marcellus_Citas={
+		name="Marcellus Citas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Marcellus_Citas
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	WAL_Nerius_Negotium={
+		name="Nerius Negotium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Nerius_Negotium
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	WAL_Remitelius_Domus={
+		name="Remitelius Domus"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Remitelius_Domus
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	WAL_Paus_Cellum={
+		name="Paus Cellum"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Paus_Cellum
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	WAL_Longinus_Aerticola={
+		name="Longinus Aerticola"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Longinus_Aerticola
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	WAL_Lucius_Vulgus={
+		name="Lucius Vulgus"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Lucius_Vulgus
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	WAL_Sevolavius_Tabuna={
+		name="Sevolavius Tabuna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WAL_Sevolavius_Tabuna
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	WAL_Marcus_Legnumena={
+		name="Marcus Legnumena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WAL_Marcus_Legnumena
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	WAL_Marcellus_Reginator={
+		name="Marcellus Reginator"
+
+		advisor={
+			slot = air_chief
+			idea_token = WAL_Marcellus_Reginator
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	WAL_Nerutus_Opublis={
+		name="Nerutus Opublis"
+
+		advisor={
+			slot = air_chief
+			idea_token = WAL_Nerutus_Opublis
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	WAL_Gaius_Sonus={
+		name="Gaius Sonus"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Gaius_Sonus
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	WAL_Aulus_Panis={
+		name="Aulus Panis"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Aulus_Panis
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	WAL_Decius_Nublitudes={
+		name="Decius Nublitudes"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Decius_Nublitudes
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	WAL_Decius_Civeritas={
+		name="Decius Civeritas"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Decius_Civeritas
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	WAL_Faudius_Poetastors={
+		name="Faudius Poetastors"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Faudius_Poetastors
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	WAL_Regus_Herbors={
+		name="Regus Herbors"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Regus_Herbors
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	WAL_Claus_Regincis={
+		name="Claus Regincis"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WAL_Remus_Panis={
+		name="Remus Panis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Remus_Panis
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	WAL_Remitelius_Timiden={
+		name="Remitelius Timiden"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Remitelius_Timiden
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Urbanus_Fulmentifex={
+		name="Urbanus Fulmentifex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Urbanus_Fulmentifex
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Hornellus_Insulgus={
+		name="Hornellus Insulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Hornellus_Insulgus
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Paus_Vens={
+		name="Paus Vens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Paus_Vens
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Regulius_Cibum={
+		name="Regulius Cibum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Regulius_Cibum
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	WAL_Brus_Timiden={
+		name="Brus Timiden"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Brus_Timiden
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	WAL_Paudius_Orbortis={
+		name="Paudius Orbortis"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Paudius_Orbortis
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	WAL_Remitius_Reginator={
+		name="Remitius Reginator"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Remitius_Reginator
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	WAL_Paulustus_Opublis={
+		name="Paulustus Opublis"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Paulustus_Opublis
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	WAL_Nero_Bellum={
+		name="Nero Bellum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WAL_Nero_Bellum
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	WAL_Hornelius_Villa={
+		name="Hornelius Villa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WAL_Hornelius_Villa
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	WAL_Longintongin_Opublis={
+		name="Longintongin Opublis"
+
+		advisor={
+			slot = air_chief
+			idea_token = WAL_Longintongin_Opublis
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	WAL_Marcelius_Aerticola={
+		name="Marcelius Aerticola"
+
+		advisor={
+			slot = air_chief
+			idea_token = WAL_Marcelius_Aerticola
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	WAL_Decius_Galae={
+		name="Decius Galae"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Decius_Galae
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	WAL_Fabiustus_Silva={
+		name="Fabiustus Silva"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Fabiustus_Silva
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	WAL_Livius_Altis={
+		name="Livius Altis"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Livius_Altis
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	WAL_Manus_Virtia={
+		name="Manus Virtia"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Manus_Virtia
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	WAL_Gracchusus_Insulgus={
+		name="Gracchusus Insulgus"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Gracchusus_Insulgus
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	WAL_Manus_Milos={
+		name="Manus Milos"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Manus_Milos
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	WAL_Remitius_Sonus={
+		name="Remitius Sonus"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	WAL_Tratius_Reginator={
+		name="Tratius Reginator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Tratius_Reginator
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	WAL_Traius_Vithara={
+		name="Traius Vithara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Traius_Vithara
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Horaius_Negina={
+		name="Horaius Negina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Horaius_Negina
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Cassius_Flor={
+		name="Cassius Flor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Cassius_Flor
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	WAL_Augulius_Citas={
+		name="Augulius Citas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Augulius_Citas
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	WAL_Regulius_Aerticola={
+		name="Regulius Aerticola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = WAL_Regulius_Aerticola
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	WAL_Lonius_Vena={
+		name="Lonius Vena"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Lonius_Vena
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	WAL_Gracchusus_Lumena={
+		name="Gracchusus Lumena"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Gracchusus_Lumena
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	WAL_Remitius_Lachina={
+		name="Remitius Lachina"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Remitius_Lachina
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	WAL_Geminus_Legnumena={
+		name="Geminus Legnumena"
+
+		advisor={
+			slot = army_chief
+			idea_token = WAL_Geminus_Legnumena
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	WAL_Tibius_Regincis={
+		name="Tibius Regincis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WAL_Tibius_Regincis
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	WAL_Valerius_Reginator={
+		name="Valerius Reginator"
+
+		advisor={
+			slot = navy_chief
+			idea_token = WAL_Valerius_Reginator
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	WAL_Augulius_Phina={
+		name="Augulius Phina"
+
+		advisor={
+			slot = air_chief
+			idea_token = WAL_Augulius_Phina
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	WAL_Nerutus_Glos={
+		name="Nerutus Glos"
+
+		advisor={
+			slot = air_chief
+			idea_token = WAL_Nerutus_Glos
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	WAL_Caius_Domus={
+		name="Caius Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Caius_Domus
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	WAL_Priscus_Tritastrum={
+		name="Priscus Tritastrum"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Priscus_Tritastrum
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	WAL_Decius_Maricipes={
+		name="Decius Maricipes"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Decius_Maricipes
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	WAL_Traius_Cibum={
+		name="Traius Cibum"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Traius_Cibum
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	WAL_Cornellius_Flor={
+		name="Cornellius Flor"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Cornellius_Flor
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	WAL_Varcus_Nator={
+		name="Varcus Nator"
+
+		advisor={
+			slot = high_command
+			idea_token = WAL_Varcus_Nator
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	WAL_Claus_Tritastrum={
+		name="Claus Tritastrum"
+
+		advisor={
+			slot = theorist
+			idea_token = WAL_Claus_Tritastrum
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	WAL_Remus_Impluvia={
+		name="Remus Impluvia"
+
+		advisor={
+			slot = theorist
+			idea_token = WAL_Remus_Impluvia
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	WAL_Manus_Negatus={
+		name="Manus Negatus"
+
+		advisor={
+			slot = theorist
+			idea_token = WAL_Manus_Negatus
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

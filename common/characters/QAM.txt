@@ -1,0 +1,1083 @@
+characters = {
+	QAM_Nabilahmoud_Hawkanamufti={
+		name="Nabilahmoud Hawkanamufti"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QAM_Mohami_Hawkanamufti={
+		name="Mohami Hawkanamufti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Mohami_Hawkanamufti
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Khami_Mufti={
+		name="Khami Mufti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Khami_Mufti
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Mohal_Thar={
+		name="Mohal Thar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Mohal_Thar
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Nabilahya_Hikmar={
+		name="Nabilahya Hikmar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Nabilahya_Hikmar
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Jami_Najartourhay={
+		name="Jami Najartourhay"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Jami_Najartourhay
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Abdullahmal_Hayahr={
+		name="Abdullahmal Hayahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Abdullahmal_Hayahr
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Khamal_Barda={
+		name="Khamal Barda"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Khamal_Barda
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	QAM_Nabil_Hayahjar={
+		name="Nabil Hayahjar"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Nabil_Hayahjar
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	QAM_Khammed_Hikmar={
+		name="Khammed Hikmar"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Khammed_Hikmar
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	QAM_Hassalid_Usra={
+		name="Hassalid Usra"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Hassalid_Usra
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	QAM_Hassan_Shibl={
+		name="Hassan Shibl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAM_Hassan_Shibl
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	QAM_Mohamar_Tanis={
+		name="Mohamar Tanis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAM_Mohamar_Tanis
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	QAM_Khami_Makta={
+		name="Khami Makta"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAM_Khami_Makta
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	QAM_Ramar_Burub={
+		name="Ramar Burub"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAM_Ramar_Burub
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	QAM_Yusuf_Tuna={
+		name="Yusuf Tuna"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Yusuf_Tuna
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	QAM_Khamal_Burub={
+		name="Khamal Burub"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Khamal_Burub
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	QAM_Hassalid_Nasjidda={
+		name="Hassalid Nasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Hassalid_Nasjidda
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	QAM_Saad_Bala={
+		name="Saad Bala"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Saad_Bala
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	QAM_Mahmad_Thar={
+		name="Mahmad Thar"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Mahmad_Thar
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	QAM_Mohami_Alim={
+		name="Mohami Alim"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Mohami_Alim
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	QAM_Farid_Sama={
+		name="Farid Sama"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QAM_Ibrahim_Shurharq={
+		name="Ibrahim Shurharq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Ibrahim_Shurharq
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Hassan_Ahla={
+		name="Hassan Ahla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Hassan_Ahla
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Samir_Qaml={
+		name="Samir Qaml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Samir_Qaml
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAM_Abdullahya_Irahaykh={
+		name="Abdullahya Irahaykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Abdullahya_Irahaykh
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAM_Anwarim_Ahlamt={
+		name="Anwarim Ahlamt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Anwarim_Ahlamt
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAM_Ramza_Amir={
+		name="Ramza Amir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Ramza_Amir
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Anwarim_Diwat={
+		name="Anwarim Diwat"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Anwarim_Diwat
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	QAM_Mahya_Raad={
+		name="Mahya Raad"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Mahya_Raad
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	QAM_Yahim_Diwat={
+		name="Yahim Diwat"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Yahim_Diwat
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	QAM_Alid_Amaa={
+		name="Alid Amaa"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Alid_Amaa
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	QAM_Khami_Tifa={
+		name="Khami Tifa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAM_Khami_Tifa
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	QAM_Hassalid_Tuna={
+		name="Hassalid Tuna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAM_Hassalid_Tuna
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	QAM_Ibrahim_Kharb={
+		name="Ibrahim Kharb"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAM_Ibrahim_Kharb
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	QAM_Jamal_Amir={
+		name="Jamal Amir"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAM_Jamal_Amir
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	QAM_Samali_Bashfa={
+		name="Samali Bashfa"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Samali_Bashfa
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	QAM_Ibrahya_Sala={
+		name="Ibrahya Sala"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Ibrahya_Sala
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	QAM_Yahmar_Sabil={
+		name="Yahmar Sabil"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Yahmar_Sabil
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	QAM_Anwarid_Muniyahjara={
+		name="Anwarid Muniyahjara"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Anwarid_Muniyahjara
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	QAM_Rammed_Fajarb={
+		name="Rammed Fajarb"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Rammed_Fajarb
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	QAM_Jamad_Basjid={
+		name="Jamad Basjid"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Jamad_Basjid
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	QAM_Farid_Tharq={
+		name="Farid Tharq"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QAM_Sami_Bala={
+		name="Sami Bala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Sami_Bala
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Ibrahim_Tarita={
+		name="Ibrahim Tarita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Ibrahim_Tarita
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAM_Rammed_Taria={
+		name="Rammed Taria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Rammed_Taria
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Kariq_Mustashfa={
+		name="Kariq Mustashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Kariq_Mustashfa
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAM_Ahmarim_Tuna={
+		name="Ahmarim Tuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Ahmarim_Tuna
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAM_Ahmad_Alim={
+		name="Ahmad Alim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Ahmad_Alim
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Mahmoud_Warasra={
+		name="Mahmoud Warasra"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Mahmoud_Warasra
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	QAM_Rami_Muniyahjara={
+		name="Rami Muniyahjara"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Rami_Muniyahjara
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	QAM_Tarid_Raad={
+		name="Tarid Raad"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Tarid_Raad
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	QAM_Sami_Shibl={
+		name="Sami Shibl"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Sami_Shibl
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	QAM_Mahya_Shibl={
+		name="Mahya Shibl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAM_Mahya_Shibl
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	QAM_Rammed_Kutub={
+		name="Rammed Kutub"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAM_Rammed_Kutub
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	QAM_Ahmoud_Sama={
+		name="Ahmoud Sama"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAM_Ahmoud_Sama
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	QAM_Omalid_Mufti={
+		name="Omalid Mufti"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAM_Omalid_Mufti
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	QAM_Omad_Qaml={
+		name="Omad Qaml"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Omad_Qaml
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	QAM_Hassalid_Shamla={
+		name="Hassalid Shamla"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Hassalid_Shamla
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	QAM_Mohamar_Usra={
+		name="Mohamar Usra"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Mohamar_Usra
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	QAM_Mohal_Asat={
+		name="Mohal Asat"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Mohal_Asat
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	QAM_Imrahmoud_Tayr={
+		name="Imrahmoud Tayr"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Imrahmoud_Tayr
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	QAM_Majid_Hikmar={
+		name="Majid Hikmar"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Majid_Hikmar
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	QAM_Rami_Hawanz={
+		name="Rami Hawanz"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QAM_Anwarid_Hawkanamufti={
+		name="Anwarid Hawkanamufti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Anwarid_Hawkanamufti
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Samali_Mufti={
+		name="Samali Mufti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Samali_Mufti
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAM_Hassan_Hayr={
+		name="Hassan Hayr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Hassan_Hayr
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAM_Alid_Warasra={
+		name="Alid Warasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Alid_Warasra
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAM_Yahya_Rihl={
+		name="Yahya Rihl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Yahya_Rihl
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAM_Omariq_Khan={
+		name="Omariq Khan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAM_Omariq_Khan
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAM_Ahmoud_Madrahr={
+		name="Ahmoud Madrahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Ahmoud_Madrahr
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	QAM_Ramar_Malb={
+		name="Ramar Malb"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Ramar_Malb
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	QAM_Hassalid_Majarim={
+		name="Hassalid Majarim"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Hassalid_Majarim
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	QAM_Anwarid_Barda={
+		name="Anwarid Barda"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAM_Anwarid_Barda
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	QAM_Mohamal_Sabil={
+		name="Mohamal Sabil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAM_Mohamal_Sabil
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	QAM_Hassalid_Yemen={
+		name="Hassalid Yemen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAM_Hassalid_Yemen
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	QAM_Mohal_Masra={
+		name="Mohal Masra"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAM_Mohal_Masra
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	QAM_Imrah_Shaykh={
+		name="Imrah Shaykh"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAM_Imrah_Shaykh
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	QAM_Abdullahya_Manz={
+		name="Abdullahya Manz"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Abdullahya_Manz
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	QAM_Samir_Madin={
+		name="Samir Madin"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Samir_Madin
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	QAM_Hassalid_Tham={
+		name="Hassalid Tham"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Hassalid_Tham
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	QAM_Mahmoud_Sharasjidda={
+		name="Mahmoud Sharasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Mahmoud_Sharasjidda
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	QAM_Khami_Warasra={
+		name="Khami Warasra"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Khami_Warasra
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	QAM_Nabilahya_Alifa={
+		name="Nabilahya Alifa"
+
+		advisor={
+			slot = high_command
+			idea_token = QAM_Nabilahya_Alifa
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	QAM_Ahmoud_Mustashfa={
+		name="Ahmoud Mustashfa"
+
+		advisor={
+			slot = theorist
+			idea_token = QAM_Ahmoud_Mustashfa
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	QAM_Imrah_Basjid={
+		name="Imrah Basjid"
+
+		advisor={
+			slot = theorist
+			idea_token = QAM_Imrah_Basjid
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	QAM_Ramza_Tham={
+		name="Ramza Tham"
+
+		advisor={
+			slot = theorist
+			idea_token = QAM_Ramza_Tham
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,53 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ceilte Fleet"			
+		naval_base = 2267
+		task_force = {
+			name = "Ceilte Fleet"
+			location = 2267
+			
+						ship = { name = "Balann" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CEI version_name = "Buir Class" } }	}
+			ship = { name = "Radh" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CEI version_name = "Buir Class" } }	}
+			ship = { name = "Clamh" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CEI version_name = "Buir Class" } }	}
+			ship = { name = "Caill" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CEI version_name = "Bear Class" } }	}
+			ship = { name = "Fais" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CEI version_name = "Bear Class" } }	}
+			ship = { name = "Slam" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CEI version_name = "Beim Class" } }	}
+			ship = { name = "Clamh 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CEI version_name = "Beim Class" } }	}
+			ship = { name = "Faochanta" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CEI version_name = "Bear Class" } }	}
+			ship = { name = "Breile" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CEI version_name = "Cuim Class" } }	}
+			ship = { name = "Caill 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CEI version_name = "Beim Class" } }	}
+			ship = { name = "Bearradh" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CEI version_name = "Cuim Class" } }	}
+			ship = { name = "Faochanta 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CEI version_name = "Bear Class" } }	}
+			ship = { name = "Balann 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CEI version_name = "Bear Class" } }	}
+			ship = { name = "Nearg" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CEI version_name = "Bear Class" } }	}
+			ship = { name = "Muim" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CEI version_name = "Fais Class" } }	}
+			ship = { name = "Faochanta 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CEI version_name = "Fais Class" } }	}
+			ship = { name = "Feine" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CEI version_name = "Cuim Class" } }	}
+			ship = { name = "Breanch" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CEI version_name = "Beim Class" } }	}
+			ship = { name = "Beith" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CEI version_name = "Cuim Class" } }	}
+			ship = { name = "Buir" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CEI version_name = "Bear Class" } }	}
+			ship = { name = "Luch" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CEI version_name = "Fais Class" } }	}
+			ship = { name = "Slam 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CEI version_name = "Beim Class" } }	}
+			ship = { name = "Balann 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CEI version_name = "Fais Class" } }	}
+			ship = { name = "Faochanta 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CEI version_name = "Beim Class" } }	}
+			ship = { name = "Suirim" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CEI version_name = "Bear Class" } }	}
+			ship = { name = "Aith" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CEI version_name = "Beim Class" } }	}
+			ship = { name = "Seach" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CEI version_name = "Cuim Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

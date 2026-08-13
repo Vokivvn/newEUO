@@ -1,0 +1,1083 @@
+characters = {
+	MUD_Milavko_Svet={
+		name="Milavko Svet"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUD_Aleg_Kova={
+		name="Aleg Kova"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Aleg_Kova
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MUD_Vlav_Telo={
+		name="Vlav Telo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Vlav_Telo
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Miloslan_Danaga={
+		name="Miloslan Danaga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Miloslan_Danaga
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MUD_Marko_Vlast={
+		name="Marko Vlast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Marko_Vlast
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Ivanovan_Svet={
+		name="Ivanovan Svet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Ivanovan_Svet
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Boraj_Dusao={
+		name="Boraj Dusao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Boraj_Dusao
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MUD_Ivanko_Hrad={
+		name="Ivanko Hrad"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Ivanko_Hrad
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MUD_Vikitan_Zeme={
+		name="Vikitan Zeme"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Vikitan_Zeme
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MUD_Aleg_Vecnost={
+		name="Aleg Vecnost"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Aleg_Vecnost
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	MUD_Simitaroslav_Vecnost={
+		name="Simitaroslav Vecnost"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Simitaroslav_Vecnost
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MUD_Rado_Mosto={
+		name="Rado Mosto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MUD_Rado_Mosto
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MUD_Milav_Vatrvo={
+		name="Milav Vatrvo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MUD_Milav_Vatrvo
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MUD_Boran_Svemenazaksi={
+		name="Boran Svemenazaksi"
+
+		advisor={
+			slot = air_chief
+			idea_token = MUD_Boran_Svemenazaksi
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MUD_Vlav_Tvrdje={
+		name="Vlav Tvrdje"
+
+		advisor={
+			slot = air_chief
+			idea_token = MUD_Vlav_Tvrdje
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MUD_Jarkolav_Dusao={
+		name="Jarkolav Dusao"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Jarkolav_Dusao
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	MUD_Bori_Plak={
+		name="Bori Plak"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Bori_Plak
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	MUD_Stefan_Slovo={
+		name="Stefan Slovo"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Stefan_Slovo
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	MUD_Zdek_Delicak={
+		name="Zdek Delicak"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Zdek_Delicak
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	MUD_Boran_Verojska={
+		name="Boran Verojska"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Boran_Verojska
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	MUD_Marko_Zvetak={
+		name="Marko Zvetak"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Marko_Zvetak
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	MUD_Vlavel_Konzulturan={
+		name="Vlavel Konzulturan"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUD_Dmir_Delicak={
+		name="Dmir Delicak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Dmir_Delicak
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Kazimirosla_Oblik={
+		name="Kazimirosla Oblik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Kazimirosla_Oblik
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MUD_Radov_Hraljiganstv={
+		name="Radov Hraljiganstv"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Radov_Hraljiganstv
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MUD_Miloslan_Vatra={
+		name="Miloslan Vatra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Miloslan_Vatra
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MUD_Lubos_Vitezavdar={
+		name="Lubos Vitezavdar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Lubos_Vitezavdar
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Lubomir_Kapijava={
+		name="Lubomir Kapijava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Lubomir_Kapijava
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MUD_Dusankola_Zvezeralj={
+		name="Dusankola Zvezeralj"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Dusankola_Zvezeralj
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MUD_Niko_Plat={
+		name="Niko Plat"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Niko_Plat
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MUD_Radov_Zvenat={
+		name="Radov Zvenat"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Radov_Zvenat
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	MUD_Zoraj_Glana={
+		name="Zoraj Glana"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Zoraj_Glana
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MUD_Zoran_Plan={
+		name="Zoran Plan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MUD_Zoran_Plan
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	MUD_Dusankola_Svetadje={
+		name="Dusankola Svetadje"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MUD_Dusankola_Svetadje
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	MUD_Dmir_Plat={
+		name="Dmir Plat"
+
+		advisor={
+			slot = air_chief
+			idea_token = MUD_Dmir_Plat
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MUD_Oleksei_Rekt={
+		name="Oleksei Rekt"
+
+		advisor={
+			slot = air_chief
+			idea_token = MUD_Oleksei_Rekt
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	MUD_Jarkolav_Zlana={
+		name="Jarkolav Zlana"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Jarkolav_Zlana
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	MUD_Simitaroslav_Delicak={
+		name="Simitaroslav Delicak"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Simitaroslav_Delicak
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	MUD_Zdek_Leka={
+		name="Zdek Leka"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Zdek_Leka
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	MUD_Kazimirosla_Vaza={
+		name="Kazimirosla Vaza"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Kazimirosla_Vaza
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	MUD_Lubomitris_Meska={
+		name="Lubomitris Meska"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Lubomitris_Meska
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	MUD_Bogdan_Soljevina={
+		name="Bogdan Soljevina"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Bogdan_Soljevina
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	MUD_Dmiroslavko_Vatrvo={
+		name="Dmiroslavko Vatrvo"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUD_Vlavel_Oblik={
+		name="Vlavel Oblik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Vlavel_Oblik
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MUD_Vlavel_Rekt={
+		name="Vlavel Rekt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Vlavel_Rekt
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Slav_Muzik={
+		name="Slav Muzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Slav_Muzik
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MUD_Kazimirosla_Bojst={
+		name="Kazimirosla Bojst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Kazimirosla_Bojst
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MUD_Vlav_Rucanato={
+		name="Vlav Rucanato"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Vlav_Rucanato
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Alexei_Kapija={
+		name="Alexei Kapija"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Alexei_Kapija
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MUD_Stan_Rekt={
+		name="Stan Rekt"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Stan_Rekt
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MUD_Slavko_Scenaga={
+		name="Slavko Scenaga"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Slavko_Scenaga
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MUD_Nikitarko_Tama={
+		name="Nikitarko Tama"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Nikitarko_Tama
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MUD_Starosh_Riba={
+		name="Starosh Riba"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Starosh_Riba
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MUD_Miladovan_Plat={
+		name="Miladovan Plat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MUD_Miladovan_Plat
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MUD_Miladovan_Smrt={
+		name="Miladovan Smrt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MUD_Miladovan_Smrt
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MUD_Ivanov_Lekar={
+		name="Ivanov Lekar"
+
+		advisor={
+			slot = air_chief
+			idea_token = MUD_Ivanov_Lekar
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MUD_Miladimeon_Slavac={
+		name="Miladimeon Slavac"
+
+		advisor={
+			slot = air_chief
+			idea_token = MUD_Miladimeon_Slavac
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	MUD_Yuri_Vatrvo={
+		name="Yuri Vatrvo"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Yuri_Vatrvo
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	MUD_Zdenek_Hrad={
+		name="Zdenek Hrad"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Zdenek_Hrad
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	MUD_Vlav_Zvetak={
+		name="Vlav Zvetak"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Vlav_Zvetak
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MUD_Simitaroslav_Vodnikar={
+		name="Simitaroslav Vodnikar"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Simitaroslav_Vodnikar
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MUD_Radimiroslav_Konzulturan={
+		name="Radimiroslav Konzulturan"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Radimiroslav_Konzulturan
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	MUD_Dmiroslavko_Vodnika={
+		name="Dmiroslavko Vodnika"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Dmiroslavko_Vodnika
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	MUD_Zdenek_Vodnika={
+		name="Zdenek Vodnika"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUD_Tomir_Zvetak={
+		name="Tomir Zvetak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Tomir_Zvetak
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Oleksei_Svet={
+		name="Oleksei Svet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Oleksei_Svet
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MUD_Miladimeon_Obina={
+		name="Miladimeon Obina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Miladimeon_Obina
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MUD_Zdek_Konzulturan={
+		name="Zdek Konzulturan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Zdek_Konzulturan
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Starkola_Slovo={
+		name="Starkola Slovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Starkola_Slovo
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MUD_Zdek_Grama={
+		name="Zdek Grama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MUD_Zdek_Grama
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MUD_Zdenek_Kova={
+		name="Zdenek Kova"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Zdenek_Kova
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	MUD_Mateusanis_Vilasinjavda={
+		name="Mateusanis Vilasinjavda"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Mateusanis_Vilasinjavda
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	MUD_Ivanovan_Grama={
+		name="Ivanovan Grama"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Ivanovan_Grama
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MUD_Ivanov_Drvo={
+		name="Ivanov Drvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = MUD_Ivanov_Drvo
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	MUD_Nikitarko_Dusao={
+		name="Nikitarko Dusao"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MUD_Nikitarko_Dusao
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	MUD_Miloslav_Oblik={
+		name="Miloslav Oblik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MUD_Miloslav_Oblik
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MUD_Bogdan_Svetadje={
+		name="Bogdan Svetadje"
+
+		advisor={
+			slot = air_chief
+			idea_token = MUD_Bogdan_Svetadje
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	MUD_Oleksei_Auto={
+		name="Oleksei Auto"
+
+		advisor={
+			slot = air_chief
+			idea_token = MUD_Oleksei_Auto
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MUD_Bogdan_Plosof={
+		name="Bogdan Plosof"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Bogdan_Plosof
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	MUD_Gorilosladek_Vatrvo={
+		name="Gorilosladek Vatrvo"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Gorilosladek_Vatrvo
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MUD_Slavko_Vlanik={
+		name="Slavko Vlanik"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Slavko_Vlanik
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	MUD_Lubomitris_Zvetak={
+		name="Lubomitris Zvetak"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Lubomitris_Zvetak
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	MUD_Nikitril_Jezer={
+		name="Nikitril Jezer"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Nikitril_Jezer
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	MUD_Aleksei_Vitezavdar={
+		name="Aleksei Vitezavdar"
+
+		advisor={
+			slot = high_command
+			idea_token = MUD_Aleksei_Vitezavdar
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	MUD_Lubomas_Zeme={
+		name="Lubomas Zeme"
+
+		advisor={
+			slot = theorist
+			idea_token = MUD_Lubomas_Zeme
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MUD_Sergei_Rucanato={
+		name="Sergei Rucanato"
+
+		advisor={
+			slot = theorist
+			idea_token = MUD_Sergei_Rucanato
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MUD_Sergei_Meska={
+		name="Sergei Meska"
+
+		advisor={
+			slot = theorist
+			idea_token = MUD_Sergei_Meska
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

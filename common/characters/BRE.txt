@@ -1,0 +1,1083 @@
+characters = {
+	BRE_Gorkaitz_Pozak={
+		name="Gorkaitz Pozak"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BRE_Harkaizkaiur_Balmugi={
+		name="Harkaizkaiur Balmugi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Harkaizkaiur_Balmugi
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	BRE_Gorkai_Ikaporats={
+		name="Gorkai Ikaporats"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Gorkai_Ikaporats
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Xanti_Argazua={
+		name="Xanti Argazua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Xanti_Argazua
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	BRE_Amaitor_Dantza={
+		name="Amaitor Dantza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Amaitor_Dantza
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	BRE_Iban_Argaziak={
+		name="Iban Argaziak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Iban_Argaziak
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	BRE_Koldo_Erra={
+		name="Koldo Erra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Koldo_Erra
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Unat_Begia={
+		name="Unat Begia"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Unat_Begia
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	BRE_Ibaizka_Berrinasun={
+		name="Ibaizka Berrinasun"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Ibaizka_Berrinasun
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	BRE_Unat_Hitziaki={
+		name="Unat Hitziaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Unat_Hitziaki
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	BRE_Koldo_Elkasuntza={
+		name="Koldo Elkasuntza"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Koldo_Elkasuntza
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	BRE_Ibanti_Argi={
+		name="Ibanti Argi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRE_Ibanti_Argi
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	BRE_Benat_Aitza={
+		name="Benat Aitza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRE_Benat_Aitza
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	BRE_Ibaiur_Hautea={
+		name="Ibaiur Hautea"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRE_Ibaiur_Hautea
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	BRE_Ibai_Ukimetasuna={
+		name="Ibai Ukimetasuna"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRE_Ibai_Ukimetasuna
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	BRE_Ibai_Oihotzak={
+		name="Ibai Oihotzak"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Ibai_Oihotzak
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	BRE_Amaiur_Ilurrekats={
+		name="Amaiur Ilurrekats"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Amaiur_Ilurrekats
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	BRE_Benaiur_Harantu={
+		name="Benaiur Harantu"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Benaiur_Harantu
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	BRE_Amaitor_Ihintaso={
+		name="Amaitor Ihintaso"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Amaitor_Ihintaso
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	BRE_Amai_Pozak={
+		name="Amai Pozak"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Amai_Pozak
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	BRE_Harka_Gogoa={
+		name="Harka Gogoa"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Harka_Gogoa
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	BRE_Eneko_Behe={
+		name="Eneko Behe"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BRE_Amaitor_Trea={
+		name="Amaitor Trea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Amaitor_Trea
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Ekai_Arima={
+		name="Ekai Arima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Ekai_Arima
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	BRE_Iban_Herra={
+		name="Iban Herra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Iban_Herra
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	BRE_Ibaitz_Itzur={
+		name="Ibaitz Itzur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Ibaitz_Itzur
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	BRE_Iban_Itzia={
+		name="Iban Itzia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Iban_Itzia
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	BRE_Benat_Errebeta={
+		name="Benat Errebeta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Benat_Errebeta
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	BRE_Ekaitz_Balmugi={
+		name="Ekaitz Balmugi"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Ekaitz_Balmugi
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	BRE_Koldo_Muga={
+		name="Koldo Muga"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Koldo_Muga
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	BRE_Xabier_Hautea={
+		name="Xabier Hautea"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Xabier_Hautea
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	BRE_Amaiur_Bidea={
+		name="Amaiur Bidea"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Amaiur_Bidea
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	BRE_Eder_Aizea={
+		name="Eder Aizea"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRE_Eder_Aizea
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	BRE_Eneko_Goiturua={
+		name="Eneko Goiturua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRE_Eneko_Goiturua
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	BRE_Benaiur_Alaba={
+		name="Benaiur Alaba"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRE_Benaiur_Alaba
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	BRE_Iker_Harantu={
+		name="Iker Harantu"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRE_Iker_Harantu
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	BRE_Harkai_Hota={
+		name="Harkai Hota"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Harkai_Hota
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	BRE_Ander_Hota={
+		name="Ander Hota"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Ander_Hota
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	BRE_Harkaizkaiur_Ilai={
+		name="Harkaizkaiur Ilai"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Harkaizkaiur_Ilai
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	BRE_Harkai_Izaletasuntz={
+		name="Harkai Izaletasuntz"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Harkai_Izaletasuntz
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	BRE_Gorkaitz_Eguzki={
+		name="Gorkaitz Eguzki"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Gorkaitz_Eguzki
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	BRE_Ibanti_Eurrimendime={
+		name="Ibanti Eurrimendime"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Ibanti_Eurrimendime
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	BRE_Gaiur_Gartea={
+		name="Gaiur Gartea"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { anti_bolshevik_leftist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BRE_Unaitorkai_Errebeta={
+		name="Unaitorkai Errebeta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Unaitorkai_Errebeta
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Gorkai_Aizea={
+		name="Gorkai Aizea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Gorkai_Aizea
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	BRE_Benaiur_Hotzara={
+		name="Benaiur Hotzara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Benaiur_Hotzara
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Benaiur_Asmen={
+		name="Benaiur Asmen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Benaiur_Asmen
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	BRE_Unai_Eurrimendime={
+		name="Unai Eurrimendime"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Unai_Eurrimendime
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	BRE_Harkaizkaiur_Gaua={
+		name="Harkaizkaiur Gaua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Harkaizkaiur_Gaua
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	BRE_Ekaitz_Itzia={
+		name="Ekaitz Itzia"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Ekaitz_Itzia
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	BRE_Ibaitz_Abetsasketa={
+		name="Ibaitz Abetsasketa"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Ibaitz_Abetsasketa
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	BRE_Unaitz_Hitziaki={
+		name="Unaitz Hitziaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Unaitz_Hitziaki
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	BRE_Ekaitz_Egitzmintasu={
+		name="Ekaitz Egitzmintasu"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Ekaitz_Egitzmintasu
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	BRE_Aitorkaiur_Arna={
+		name="Aitorkaiur Arna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRE_Aitorkaiur_Arna
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	BRE_Gorkai_Maina={
+		name="Gorkai Maina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRE_Gorkai_Maina
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	BRE_Gorkai_Ilaba={
+		name="Gorkai Ilaba"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRE_Gorkai_Ilaba
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	BRE_Eneko_Goita={
+		name="Eneko Goita"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRE_Eneko_Goita
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	BRE_Harkai_Oihotzak={
+		name="Harkai Oihotzak"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Harkai_Oihotzak
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	BRE_Benat_Euskata={
+		name="Benat Euskata"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Benat_Euskata
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	BRE_Aitorkaiur_Haitz={
+		name="Aitorkaiur Haitz"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Aitorkaiur_Haitz
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	BRE_Harkaitor_Hota={
+		name="Harkaitor Hota"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Harkaitor_Hota
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	BRE_Ekaitz_Ilai={
+		name="Ekaitz Ilai"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Ekaitz_Ilai
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	BRE_Harka_Elkasuntza={
+		name="Harka Elkasuntza"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Harka_Elkasuntza
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	BRE_Asier_Bidei={
+		name="Asier Bidei"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BRE_Harkaizkaiur_Helarreberro={
+		name="Harkaizkaiur Helarreberro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Harkaizkaiur_Helarreberro
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Ibai_Etxe={
+		name="Ibai Etxe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Ibai_Etxe
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Ibaizka_Kobaziraitza={
+		name="Ibaizka Kobaziraitza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Ibaizka_Kobaziraitza
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Harkaizkaiur_Asketasuntza={
+		name="Harkaizkaiur Asketasuntza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Harkaizkaiur_Asketasuntza
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	BRE_Benat_Etxe={
+		name="Benat Etxe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Benat_Etxe
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Harkaizkaiur_Alarra={
+		name="Harkaizkaiur Alarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BRE_Harkaizkaiur_Alarra
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	BRE_Ibaiur_Etxekasuna={
+		name="Ibaiur Etxekasuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Ibaiur_Etxekasuna
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	BRE_Aitorkaiur_Maina={
+		name="Aitorkaiur Maina"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Aitorkaiur_Maina
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	BRE_Harkaitz_Oihotzak={
+		name="Harkaitz Oihotzak"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Harkaitz_Oihotzak
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	BRE_Eder_Dantza={
+		name="Eder Dantza"
+
+		advisor={
+			slot = army_chief
+			idea_token = BRE_Eder_Dantza
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	BRE_Ibai_Helarreberro={
+		name="Ibai Helarreberro"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRE_Ibai_Helarreberro
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	BRE_Harkaiur_Goimena={
+		name="Harkaiur Goimena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BRE_Harkaiur_Goimena
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	BRE_Harkaizkaiur_Ihintaso={
+		name="Harkaizkaiur Ihintaso"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRE_Harkaizkaiur_Ihintaso
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	BRE_Ekai_Itzia={
+		name="Ekai Itzia"
+
+		advisor={
+			slot = air_chief
+			idea_token = BRE_Ekai_Itzia
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	BRE_Unaitorkai_Erri={
+		name="Unaitorkai Erri"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Unaitorkai_Erri
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	BRE_Gaitorka_Dantza={
+		name="Gaitorka Dantza"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Gaitorka_Dantza
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	BRE_Miker_Asmen={
+		name="Miker Asmen"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Miker_Asmen
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	BRE_Xanti_Hautea={
+		name="Xanti Hautea"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Xanti_Hautea
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	BRE_Amaitor_Argazua={
+		name="Amaitor Argazua"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Amaitor_Argazua
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	BRE_Unai_Abetsasketa={
+		name="Unai Abetsasketa"
+
+		advisor={
+			slot = high_command
+			idea_token = BRE_Unai_Abetsasketa
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	BRE_Ibaitz_Pozak={
+		name="Ibaitz Pozak"
+
+		advisor={
+			slot = theorist
+			idea_token = BRE_Ibaitz_Pozak
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	BRE_Amaiur_Haia={
+		name="Amaiur Haia"
+
+		advisor={
+			slot = theorist
+			idea_token = BRE_Amaiur_Haia
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	BRE_Ekai_Hezumena={
+		name="Ekai Hezumena"
+
+		advisor={
+			slot = theorist
+			idea_token = BRE_Ekai_Hezumena
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

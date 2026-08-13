@@ -1,0 +1,1083 @@
+characters = {
+	JAL_Ketutra_Badis={
+		name="Ketutra Badis"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JAL_Hario_Suci={
+		name="Hario Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Hario_Suci
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Ketut_Gerbu={
+		name="Ketut Gerbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Ketut_Gerbu
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Mari_Tombata={
+		name="Mari Tombata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Mari_Tombata
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Rama_Daritahlawa={
+		name="Rama Daritahlawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Rama_Daritahlawa
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JAL_Bamban_Matusa={
+		name="Bamban Matusa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Bamban_Matusa
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JAL_Dewa_Hukuahayap={
+		name="Dewa Hukuahayap"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Dewa_Hukuahayap
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JAL_Rizal_Gurna={
+		name="Rizal Gurna"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Rizal_Gurna
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	JAL_Sakti_Terum={
+		name="Sakti Terum"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Sakti_Terum
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	JAL_Sakti_Rimbu={
+		name="Sakti Rimbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Sakti_Rimbu
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	JAL_Dewa_Hatuara={
+		name="Dewa Hatuara"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Dewa_Hatuara
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	JAL_Suryang_Nera={
+		name="Suryang Nera"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAL_Suryang_Nera
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	JAL_Dewa_Rimensir={
+		name="Dewa Rimensir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAL_Dewa_Rimensir
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	JAL_Ketut_Terembakit={
+		name="Ketut Terembakit"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAL_Ketut_Terembakit
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	JAL_Surya_Rampisuatah={
+		name="Surya Rampisuatah"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAL_Surya_Rampisuatah
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	JAL_Suryan_Bunung={
+		name="Suryan Bunung"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Suryan_Bunung
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	JAL_Lutfi_Ramai={
+		name="Lutfi Ramai"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Lutfi_Ramai
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	JAL_Wayan_Rimpi={
+		name="Wayan Rimpi"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Wayan_Rimpi
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	JAL_Fajari_Jemi={
+		name="Fajari Jemi"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Fajari_Jemi
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	JAL_Rama_Rimbu={
+		name="Rama Rimbu"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Rama_Rimbu
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	JAL_Wayan_Ibuta={
+		name="Wayan Ibuta"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Wayan_Ibuta
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	JAL_Budi_Jenja={
+		name="Budi Jenja"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JAL_Andi_Ayawang={
+		name="Andi Ayawang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Andi_Ayawang
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Joko_Tetangisan={
+		name="Joko Tetangisan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Joko_Tetangisan
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Ketut_Lagu={
+		name="Ketut Lagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Ketut_Lagu
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JAL_Hari_Ibukut={
+		name="Hari Ibukut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Hari_Ibukut
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Waya_Warap={
+		name="Waya Warap"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Waya_Warap
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Waya_Hatahas={
+		name="Waya Hatahas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Waya_Hatahas
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JAL_Bama_Anahatangit={
+		name="Bama Anahatangit"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Bama_Anahatangit
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	JAL_Fajari_Rumbu={
+		name="Fajari Rumbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Fajari_Rumbu
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	JAL_Ramban_Halaka={
+		name="Ramban Halaka"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Ramban_Halaka
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	JAL_Waya_Terta={
+		name="Waya Terta"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Waya_Terta
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	JAL_Budi_Gerbu={
+		name="Budi Gerbu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAL_Budi_Gerbu
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	JAL_Lutra_Gurna={
+		name="Lutra Gurna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAL_Lutra_Gurna
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	JAL_Rama_Jemi={
+		name="Rama Jemi"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAL_Rama_Jemi
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	JAL_Sakti_Matusa={
+		name="Sakti Matusa"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAL_Sakti_Matusa
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	JAL_Bamban_Pencarah={
+		name="Bamban Pencarah"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Bamban_Pencarah
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	JAL_Suryang_Neruhanput={
+		name="Suryang Neruhanput"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Suryang_Neruhanput
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	JAL_Suryang_Wari={
+		name="Suryang Wari"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Suryang_Wari
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	JAL_Ramban_Hatuara={
+		name="Ramban Hatuara"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Ramban_Hatuara
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	JAL_Lutfi_Belus={
+		name="Lutfi Belus"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Lutfi_Belus
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	JAL_Suryang_Hata={
+		name="Suryang Hata"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Suryang_Hata
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	JAL_Bambang_Tepunci={
+		name="Bambang Tepunci"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JAL_Lutra_Neruhanput={
+		name="Lutra Neruhanput"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Lutra_Neruhanput
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JAL_Bambang_Bungit={
+		name="Bambang Bungit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Bambang_Bungit
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JAL_Lutfi_Purnah={
+		name="Lutfi Purnah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Lutfi_Purnah
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Andi_Benjaandelin={
+		name="Andi Benjaandelin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Andi_Benjaandelin
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Waya_Tepunci={
+		name="Waya Tepunci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Waya_Tepunci
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Rama_Kuil={
+		name="Rama Kuil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Rama_Kuil
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Ramban_Tepunci={
+		name="Ramban Tepunci"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Ramban_Tepunci
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	JAL_Ramban_Ayawang={
+		name="Ramban Ayawang"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Ramban_Ayawang
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	JAL_Joko_Badis={
+		name="Joko Badis"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Joko_Badis
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	JAL_Waya_Daritahlawa={
+		name="Waya Daritahlawa"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Waya_Daritahlawa
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	JAL_Waya_Tombu={
+		name="Waya Tombu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAL_Waya_Tombu
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	JAL_Bama_Mala={
+		name="Bama Mala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAL_Bama_Mala
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	JAL_Bambang_Jalamaib={
+		name="Bambang Jalamaib"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAL_Bambang_Jalamaib
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	JAL_Fajari_Ayawang={
+		name="Fajari Ayawang"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAL_Fajari_Ayawang
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	JAL_Fajario_Daritahlawa={
+		name="Fajario Daritahlawa"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Fajario_Daritahlawa
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	JAL_Rizal_Kotangai={
+		name="Rizal Kotangai"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Rizal_Kotangai
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	JAL_Arjuna_Bulak={
+		name="Arjuna Bulak"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Arjuna_Bulak
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	JAL_Waya_Tulangara={
+		name="Waya Tulangara"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Waya_Tulangara
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	JAL_Rizal_Bada={
+		name="Rizal Bada"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Rizal_Bada
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	JAL_Hari_Belus={
+		name="Hari Belus"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Hari_Belus
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	JAL_Joko_Sedisi={
+		name="Joko Sedisi"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JAL_Fajario_Sedisi={
+		name="Fajario Sedisi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Fajario_Sedisi
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JAL_Sakti_Kaku={
+		name="Sakti Kaku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Sakti_Kaku
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Hari_Benjaandelin={
+		name="Hari Benjaandelin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Hari_Benjaandelin
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JAL_Andi_Awang={
+		name="Andi Awang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Andi_Awang
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	JAL_Andi_Bunung={
+		name="Andi Bunung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Andi_Bunung
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	JAL_Ketut_Tetangisan={
+		name="Ketut Tetangisan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JAL_Ketut_Tetangisan
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	JAL_Agus_Bunung={
+		name="Agus Bunung"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Agus_Bunung
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	JAL_Ramban_Bada={
+		name="Ramban Bada"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Ramban_Bada
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	JAL_Putra_Rimpi={
+		name="Putra Rimpi"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Putra_Rimpi
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	JAL_Ramban_Purnak={
+		name="Ramban Purnak"
+
+		advisor={
+			slot = army_chief
+			idea_token = JAL_Ramban_Purnak
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	JAL_Arjuna_Bada={
+		name="Arjuna Bada"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAL_Arjuna_Bada
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	JAL_Bambang_Gerbu={
+		name="Bambang Gerbu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JAL_Bambang_Gerbu
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	JAL_Sakti_Badis={
+		name="Sakti Badis"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAL_Sakti_Badis
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	JAL_Waya_Lelampulani={
+		name="Waya Lelampulani"
+
+		advisor={
+			slot = air_chief
+			idea_token = JAL_Waya_Lelampulani
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	JAL_Fajar_Tara={
+		name="Fajar Tara"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Fajar_Tara
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	JAL_Fajar_Ibuku={
+		name="Fajar Ibuku"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Fajar_Ibuku
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	JAL_Fajari_Halaka={
+		name="Fajari Halaka"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Fajari_Halaka
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	JAL_Putra_Ayawang={
+		name="Putra Ayawang"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Putra_Ayawang
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	JAL_Waya_Rimensir={
+		name="Waya Rimensir"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Waya_Rimensir
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	JAL_Andi_Hukuahayap={
+		name="Andi Hukuahayap"
+
+		advisor={
+			slot = high_command
+			idea_token = JAL_Andi_Hukuahayap
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	JAL_Ramban_Rimpi={
+		name="Ramban Rimpi"
+
+		advisor={
+			slot = theorist
+			idea_token = JAL_Ramban_Rimpi
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	JAL_Hari_Rimensir={
+		name="Hari Rimensir"
+
+		advisor={
+			slot = theorist
+			idea_token = JAL_Hari_Rimensir
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	JAL_Surya_Nyarempulama={
+		name="Surya Nyarempulama"
+
+		advisor={
+			slot = theorist
+			idea_token = JAL_Surya_Nyarempulama
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}
