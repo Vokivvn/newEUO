@@ -1,0 +1,15 @@
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		832 849 870 1006 1008 1119 1126 1157 
+	}
+	
+	history={
+		owner = DNV
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

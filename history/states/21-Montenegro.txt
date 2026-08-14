@@ -1,0 +1,15 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		614 
+	}
+	
+	history={
+		owner = MNT
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

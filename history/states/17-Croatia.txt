@@ -1,0 +1,15 @@
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		493 
+	}
+	
+	history={
+		owner = CRO
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

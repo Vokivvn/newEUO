@@ -1,0 +1,15 @@
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		100 227 624 708 
+	}
+	
+	history={
+		owner = KAU
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

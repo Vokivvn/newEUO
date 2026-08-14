@@ -1,0 +1,15 @@
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		61 97 322 392 
+	}
+	
+	history={
+		owner = BUL
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

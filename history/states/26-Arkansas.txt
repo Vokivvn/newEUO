@@ -1,0 +1,15 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		1034 
+	}
+	
+	history={
+		owner = ARK
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

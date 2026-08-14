@@ -1,0 +1,15 @@
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		1033 2301 
+	}
+	
+	history={
+		owner = LOU
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

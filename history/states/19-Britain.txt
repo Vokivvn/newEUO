@@ -1,0 +1,15 @@
+state={
+	id=19
+	name="STATE_19"
+	provinces={
+		1470 1471 1472 1473 1474 1660 1683 1771 1828 1867 1878 1885 1900 1924 1926 2052 2056 2087 2126 2153 2160 2252 
+	}
+	
+	history={
+		owner = ENG
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

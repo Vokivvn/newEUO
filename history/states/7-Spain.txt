@@ -1,0 +1,15 @@
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		28 1687 1898 1944 
+	}
+	
+	history={
+		owner = SPR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
