@@ -1,0 +1,11 @@
+﻿l_english:
+
+
+
+  #NIR
+  NIR_unrecognised_state:0 "Unrecognised State"
+  NIR_IRA_insurgency:0 "IRA Insurgency"
+
+  #FRA
+  FRA_tuareg_war:0 "The Tuareg War"
+  FRA_tuareg_war_desc:0 "§CThis National Spirit will be automatically removed after cessation of hostilities with§! [TUA.GetNameDef]§C.§!"

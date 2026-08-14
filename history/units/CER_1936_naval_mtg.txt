@@ -1,0 +1,56 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Cerbu Fleet"			
+		naval_base = 2248
+		task_force = {
+			name = "Cerbu Fleet"
+			location = 2248
+			
+						ship = { name = "Ceois" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Baill" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Cluan" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CER version_name = "Rathaileart Class" } }	}
+			ship = { name = "Mili" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Seas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Maghearnacha" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CER version_name = "Rathaileart Class" } }	}
+			ship = { name = "Ceois 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CER version_name = "Rathaileart Class" } }	}
+			ship = { name = "Ceois 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CER version_name = "Crios Class" } }	}
+			ship = { name = "Leall" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Lais" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Dolamhradhar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Ceois 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CER version_name = "Crios Class" } }	}
+			ship = { name = "Cluan 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Glas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Ronn" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CER version_name = "Crios Class" } }	}
+			ship = { name = "Buaite" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Baill 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CER version_name = "Crios Class" } }	}
+			ship = { name = "Slinn" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Uamhtir" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Ceach" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Ceil" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CER version_name = "Rathaileart Class" } }	}
+			ship = { name = "Buasacht" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CER version_name = "Rathaileart Class" } }	}
+			ship = { name = "Maghearnacha 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Ceach 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CER version_name = "Rathaileart Class" } }	}
+			ship = { name = "Coitealairse" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Seall" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CER version_name = "Rathaileart Class" } }	}
+			ship = { name = "Slinn 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CER version_name = "Rathaileart Class" } }	}
+			ship = { name = "Scath" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+			ship = { name = "Baill 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CER version_name = "Crios Class" } }	}
+			ship = { name = "Uamhtir 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CER version_name = "Sceancheall Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

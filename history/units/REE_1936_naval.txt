@@ -1,0 +1,33 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Reej Fleet"			
+		naval_base = 2094
+		task_force = {
+			name = "Reej Fleet"
+			location = 2094
+			
+						ship = { name = "Khaykh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REE version_name = "Shabib Class" } }	}
+			ship = { name = "Dawariq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REE version_name = "Shabib Class" } }	}
+			ship = { name = "Tariqafilm" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REE version_name = "Shabib Class" } }	}
+			ship = { name = "Khan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REE version_name = "Shajd Class" } }	}
+			ship = { name = "Alim" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REE version_name = "Shabib Class" } }	}
+			ship = { name = "Shabib" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REE version_name = "Shabib Class" } }	}
+			ship = { name = "Nourhal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REE version_name = "Shajd Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

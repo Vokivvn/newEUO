@@ -1,0 +1,39 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Hrad Fleet"			
+		naval_base = 2259
+		task_force = {
+			name = "Hrad Fleet"
+			location = 2259
+			
+						ship = { name = "Zvezeralj" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HRA version_name = "Pesnik Class" } }	}
+			ship = { name = "Postor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HRA version_name = "Vlast Class" } }	}
+			ship = { name = "Vilasinjavda" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HRA version_name = "Kisa Class" } }	}
+			ship = { name = "Tama" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HRA version_name = "Zvetak Class" } }	}
+			ship = { name = "Glana" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HRA version_name = "Kisa Class" } }	}
+			ship = { name = "Vazak" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HRA version_name = "Kisa Class" } }	}
+			ship = { name = "Konzulturan" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HRA version_name = "Zvetak Class" } }	}
+			ship = { name = "Hralanaga" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HRA version_name = "Kisa Class" } }	}
+			ship = { name = "Tezavac" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HRA version_name = "Zvetak Class" } }	}
+			ship = { name = "Obica" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HRA version_name = "Kisa Class" } }	}
+			ship = { name = "Glana 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HRA version_name = "Kisa Class" } }	}
+			ship = { name = "Pisa" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HRA version_name = "Zvetak Class" } }	}
+			ship = { name = "Zvetak" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HRA version_name = "Zvetak Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

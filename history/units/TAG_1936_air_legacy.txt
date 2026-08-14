@@ -1,0 +1,16 @@
+air_wings = {
+		2281 = { 								
+		CAS_equipment_0 = { owner = "TAG" amount = 10 version_name = "Klacht Mk 0" }
+
+	}
+	1925 = { 								
+		fighter_equipment_0 = { owner = "TAG" amount = 7 version_name = "Eisheisheise Mk 1" }
+
+	}
+	1601 = { 								
+		nav_bomber_equipment_0 = { owner = "TAG" amount = 10 version_name = "Dorf Mk 1" }
+
+	}
+
+
+}

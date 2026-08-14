@@ -1,0 +1,17 @@
+air_wings = {
+		2200 = { 								
+		fighter_equipment_0 = { owner = "THI" amount = 16 version_name = "Thenjil Mk 1" }
+strat_bomber_equipment_0 = { owner = "THI" amount = 13 version_name = "Nilam Mk 1" }
+
+	}
+	1506 = { 								
+		tac_bomber_equipment_0 = { owner = "THI" amount = 11 version_name = "Veli Mk 1" }
+
+	}
+	1505 = { 								
+		CAS_equipment_0 = { owner = "THI" amount = 14 version_name = "Panthai Mk 0" }
+
+	}
+
+
+}

@@ -1,0 +1,175 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Posljstican' Militia Division"
+		location = 157
+		division_template = "Militia Division"
+		start_experience_factor = 0.649567
+		start_equipment_factor = 0.984575
+	}
+	division= {
+		name = "2nd 'Suma' Militia Division"
+		location = 451
+		division_template = "Militia Division"
+		start_experience_factor = 0.260276
+		start_equipment_factor = 0.903896
+	}
+	division= {
+		name = "3rd 'Plat' Militia Division"
+		location = 431
+		division_template = "Militia Division"
+		start_experience_factor = 0.803908
+		start_equipment_factor = 0.866835
+	}
+	division= {
+		name = "4th 'Oblat' Militia Division"
+		location = 755
+		division_template = "Militia Division"
+		start_experience_factor = 0.768140
+		start_equipment_factor = 0.933587
+	}
+	division= {
+		name = "1st 'Galja' Infantry Division"
+		location = 692
+		division_template = "Infantry Division"
+		start_experience_factor = 0.428854
+		start_equipment_factor = 0.907478
+	}
+	division= {
+		name = "2nd 'Hleme' Infantry Division"
+		location = 284
+		division_template = "Infantry Division"
+		start_experience_factor = 0.793183
+		start_equipment_factor = 0.878267
+	}
+	division= {
+		name = "1st 'Vazavda' Artillery Division"
+		location = 1569
+		division_template = "Artillery Division"
+		start_experience_factor = 0.430856
+		start_equipment_factor = 0.979631
+	}
+	division= {
+		name = "2nd 'Plat' Artillery Division"
+		location = 431
+		division_template = "Artillery Division"
+		start_experience_factor = 0.941053
+		start_equipment_factor = 0.884696
+	}
+	division= {
+		name = "3rd 'Vojska' Artillery Division"
+		location = 2319
+		division_template = "Artillery Division"
+		start_experience_factor = 0.600970
+		start_equipment_factor = 0.852527
+	}
+	division= {
+		name = "4th 'Svezerojskar' Artillery Division"
+		location = 592
+		division_template = "Artillery Division"
+		start_experience_factor = 0.217926
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Recnostvozdj' Artillery Division"
+		location = 447
+		division_template = "Artillery Division"
+		start_experience_factor = 0.632455
+		start_equipment_factor = 0.922181
+	}
+	division= {
+		name = "6th 'Filad' Artillery Division"
+		location = 621
+		division_template = "Artillery Division"
+		start_experience_factor = 0.150397
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Plat' Cavalry Division"
+		location = 431
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.033467
+		start_equipment_factor = 0.928272
+	}
+	division= {
+		name = "2nd 'Suma' Cavalry Division"
+		location = 515
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.617193
+		start_equipment_factor = 0.945102
+	}
+
+}

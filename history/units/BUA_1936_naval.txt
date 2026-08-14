@@ -1,0 +1,58 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Buar Fleet"			
+		naval_base = 2222
+		task_force = {
+			name = "Buar Fleet"
+			location = 2222
+			
+						ship = { name = "Sedih" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BUA version_name = "Anaunya Class" } }	}
+			ship = { name = "Bayi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BUA version_name = "Haragai Class" } }	}
+			ship = { name = "Cahasa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BUA version_name = "Rohon Class" } }	}
+			ship = { name = "Dewi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUA version_name = "Keku Class" } }	}
+			ship = { name = "Pembaka" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Bada" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Anaunya" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Pahar" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Bulamatahgun" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Daragemangit" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BUA version_name = "Rohon Class" } }	}
+			ship = { name = "Keku" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUA version_name = "Keku Class" } }	}
+			ship = { name = "Teti" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Haragai" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Taragemaintu" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Hidunya" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Tualawan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUA version_name = "Keku Class" } }	}
+			ship = { name = "Wari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUA version_name = "Keku Class" } }	}
+			ship = { name = "Cahara" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Bada 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUA version_name = "Keku Class" } }	}
+			ship = { name = "Petirmat" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Dang" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Keku 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Perejat" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Katang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUA version_name = "Keku Class" } }	}
+			ship = { name = "Musuhaya" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+			ship = { name = "Dewi 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Purumbubulan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Kuil" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BUA version_name = "Rohon Class" } }	}
+			ship = { name = "Cahasa 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUA version_name = "Keku Class" } }	}
+			ship = { name = "Lemu" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BUA version_name = "Gemai Class" } }	}
+			ship = { name = "Hidunya 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUA version_name = "Keku Class" } }	}
+			ship = { name = "Gemi" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BUA version_name = "Purumbubulan Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

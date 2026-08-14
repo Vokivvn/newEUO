@@ -1,0 +1,10 @@
+SpriteTypes = {
+	spriteType = {
+		name = "GFX_Kristolresistance"
+		texturefile = "gfx/interface/SE/BillkristolSE.dds"
+	}
+	spriteType = {
+		name = "GFX_closebutton"
+		texturefile = "gfx/interface/closebutton.dds"
+	}
+}

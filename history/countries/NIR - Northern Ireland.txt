@@ -1,0 +1,35 @@
+﻿capital = 119
+
+recruit_character = NIR_gusty_spence
+recruit_character = NIR_mad_dog_adair
+recruit_character = NIR_jim_allister
+
+add_ideas = {
+	NIR_unrecognised_state
+	NIR_IRA_insurgency
+
+	#laws
+	isolation
+	free_trade
+	extensive_conscription
+}
+
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	autocratic = 38
+	national_socialism = 15
+	reactionary = 5
+	fascism = 0
+	syncretism = 11
+	anarchism = 0
+	revolutionary_socialism = 15
+	moderate_socialism = 2
+	liberalism = 0
+	conservatism = 14
+}

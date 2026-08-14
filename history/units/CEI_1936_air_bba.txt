@@ -1,0 +1,17 @@
+air_wings = {
+		1142 = { 								
+		small_plane_cas_airframe_0 = { owner = "CEI" amount = 20 version_name = "Laigh Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "CEI" amount = 41 version_name = "Lian Mk 0" }
+
+	}
+	878 = { 								
+		small_plane_airframe_0 = { owner = "CEI" amount = 27 version_name = "Beil Mk 2" }
+
+	}
+	784 = { 								
+		medium_plane_airframe_0 = { owner = "CEI" amount = 24 version_name = "Dorm Mk 1" }
+
+	}
+
+
+}

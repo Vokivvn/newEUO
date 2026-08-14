@@ -1,0 +1,38 @@
+air_wings = {
+		1036 = { 								
+		strat_bomber_equipment_0 = { owner = "MEH" amount = 16 version_name = "Shirdarvazaa Mk 0" }
+nav_bomber_equipment_0 = { owner = "MEH" amount = 21 version_name = "Anarang Mk 1" }
+
+	}
+	900 = { 								
+		CAS_equipment_0 = { owner = "MEH" amount = 17 version_name = "Taland Mk 2" }
+
+	}
+	1405 = { 								
+		CAS_equipment_0 = { owner = "MEH" amount = 18 version_name = "Mohang Mk 1" }
+tac_bomber_equipment_0 = { owner = "MEH" amount = 32 version_name = "Goriz Mk 1" }
+
+	}
+	2192 = { 								
+		strat_bomber_equipment_0 = { owner = "MEH" amount = 17 version_name = "Setabat Mk 0" }
+
+	}
+	1708 = { 								
+		tac_bomber_equipment_0 = { owner = "MEH" amount = 13 version_name = "Atard Mk 0" }
+
+	}
+	2149 = { 								
+		fighter_equipment_0 = { owner = "MEH" amount = 28 version_name = "Jonub Mk 1" }
+
+	}
+	1200 = { 								
+		fighter_equipment_0 = { owner = "MEH" amount = 32 version_name = "Narhaem Mk 2" }
+
+	}
+	1650 = { 								
+		nav_bomber_equipment_0 = { owner = "MEH" amount = 19 version_name = "Gamzam Mk 2" }
+
+	}
+
+
+}

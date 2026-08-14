@@ -1,0 +1,61 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Brear Fleet"			
+		naval_base = 1236
+		task_force = {
+			name = "Brear Fleet"
+			location = 1236
+			
+						ship = { name = "Arra" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = BRE version_name = "Berrantaskar Class" } }	}
+			ship = { name = "Eguzki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Bidei" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Bihotasunasa" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Hotzminta" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Norimetaso" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Zorinta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Hotz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Hautea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Poza" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Bidei 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Poza 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Arra 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Itzur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Erri" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Egitzmintasu" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Hotz 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Hotzminta 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Haitz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Haia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Erri 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Hotz 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Etxekasuna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Hotzminta 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Eguzki 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Haia 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Hautea 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Eguzki 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Hautea 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Gaua" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Alaba" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Gaua 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Alaba 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Haitz Class" } }	}
+			ship = { name = "Kobaziraitza" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+			ship = { name = "Itxe" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BRE version_name = "Haia Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

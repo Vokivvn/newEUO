@@ -1,0 +1,21 @@
+air_wings = {
+		888 = { 								
+		medium_plane_airframe_0 = { owner = "HRA" amount = 41 version_name = "Slovo Mk 2" }
+
+	}
+	1524 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "HRA" amount = 42 version_name = "Tezavac Mk 1" }
+
+	}
+	1414 = { 								
+		small_plane_cas_airframe_0 = { owner = "HRA" amount = 35 version_name = "Plan Mk 2" }
+small_plane_airframe_0 = { owner = "HRA" amount = 28 version_name = "Grmlje Mk 2" }
+
+	}
+	1565 = { 								
+		large_plane_airframe_0 = { owner = "HRA" amount = 23 version_name = "Vodnika Mk 0" }
+
+	}
+
+
+}

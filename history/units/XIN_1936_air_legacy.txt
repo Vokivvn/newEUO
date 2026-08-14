@@ -1,0 +1,33 @@
+air_wings = {
+		392 = { 								
+		fighter_equipment_0 = { owner = "XIN" amount = 50 version_name = "Ming Mk 2" }
+
+	}
+	354 = { 								
+		tac_bomber_equipment_0 = { owner = "XIN" amount = 50 version_name = "Huan Mk 0" }
+
+	}
+	491 = { 								
+		CAS_equipment_0 = { owner = "XIN" amount = 50 version_name = "Guan Mk 0" }
+nav_bomber_equipment_0 = { owner = "XIN" amount = 50 version_name = "Cheng Mk 1" }
+
+	}
+	228 = { 								
+		fighter_equipment_0 = { owner = "XIN" amount = 50 version_name = "Ming Mk 2" }
+
+	}
+	425 = { 								
+		CAS_equipment_0 = { owner = "XIN" amount = 50 version_name = "Guan Mk 0" }
+
+	}
+	341 = { 								
+		nav_bomber_equipment_0 = { owner = "XIN" amount = 50 version_name = "Cheng Mk 1" }
+
+	}
+	75 = { 								
+		tac_bomber_equipment_0 = { owner = "XIN" amount = 50 version_name = "Huan Mk 0" }
+
+	}
+
+
+}

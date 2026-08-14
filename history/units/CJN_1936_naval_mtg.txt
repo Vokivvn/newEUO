@@ -1,0 +1,87 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Canto Fleet"			
+		naval_base = 2318
+		task_force = {
+			name = "Canto Fleet"
+			location = 2318
+			
+						ship = { name = "Tero" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = CJN version_name = "Incipero Class" } }	}
+			ship = { name = "Sortagge" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = CJN version_name = "Incipero Class" } }	}
+			ship = { name = "Mappame" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = CJN version_name = "Albere Class" } }	}
+			ship = { name = "Paccipesera" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Fattua" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Poriave" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Pauro" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Albere" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Vallo" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Poriave 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Colo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Colo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Colo 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Sortagge 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Luce" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Scudo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Sortagge 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Della" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Sana" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Pore" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Vallo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Prina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Canto" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Fiumo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Arcamentorin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Tero 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Mapircattezz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Scolo" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Poriave 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Eroe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Pauro 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Arcamentorin 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Labiria" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Poriave 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Poritte" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Mapircattezz 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Gueraco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Pauro 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Scudo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Esercitagger" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Fedizio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Mappame 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Canto 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Canto 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Pauro 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Scudo 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Sortagge 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Arcamentorin 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Poritte 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Incipero" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Tero 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Vallo 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Gueraco 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Lana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Fedizio 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Scolo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Mappame 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CJN version_name = "Malia Class" } }	}
+			ship = { name = "Colorno" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Malia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CJN version_name = "Sana Class" } }	}
+			ship = { name = "Sana 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+			ship = { name = "Solentra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CJN version_name = "Eroe Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

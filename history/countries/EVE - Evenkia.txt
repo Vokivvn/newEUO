@@ -1,0 +1,14 @@
+﻿capital = 567 #Tura
+
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	autocratic = 100
+}
+
+recruit_character = EVE_Vladimir_Shamanov

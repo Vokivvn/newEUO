@@ -1,0 +1,25 @@
+air_wings = {
+		530 = { 								
+		tac_bomber_equipment_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+	398 = { 								
+		tac_bomber_equipment_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+	158 = { 								
+		tac_bomber_equipment_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+	2306 = { 								
+		tac_bomber_equipment_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+tac_bomber_equipment_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+	1555 = { 								
+		tac_bomber_equipment_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,143 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			maintenance_company = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Muda' Militia Division"
+		location = 1102
+		division_template = "Militia Division"
+		start_experience_factor = 0.018561
+		start_equipment_factor = 0.881655
+	}
+	division= {
+		name = "1st 'Plak' Supported Infantry Division"
+		location = 934
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.996329
+		start_equipment_factor = 0.983758
+	}
+	division= {
+		name = "2nd 'Vatra' Supported Infantry Division"
+		location = 1970
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.930221
+		start_equipment_factor = 0.991718
+	}
+	division= {
+		name = "1st 'Vila' Artillery Division"
+		location = 1772
+		division_template = "Artillery Division"
+		start_experience_factor = 0.936252
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Zvetak' Artillery Division"
+		location = 1185
+		division_template = "Artillery Division"
+		start_experience_factor = 0.756132
+		start_equipment_factor = 0.937881
+	}
+	division= {
+		name = "1st 'Konzulturalj' Cavalry Division"
+		location = 1520
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.330398
+		start_equipment_factor = 0.920859
+	}
+
+}

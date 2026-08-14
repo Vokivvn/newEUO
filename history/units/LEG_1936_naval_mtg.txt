@@ -1,0 +1,76 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Leger Fleet"			
+		naval_base = 2292
+		task_force = {
+			name = "Leger Fleet"
+			location = 2292
+			
+						ship = { name = "Vorn" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Glum Class" } }	}
+			ship = { name = "Pring" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Heichift Class" } }	}
+			ship = { name = "Bogen" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = LEG version_name = "Greung Class" } }	}
+			ship = { name = "Grass" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Heichift Class" } }	}
+			ship = { name = "Tagen" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Glum Class" } }	}
+			ship = { name = "Reit" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Waft" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Namme" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Bogen 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Tode" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Wind" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Stamm" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Baumel" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Pring 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Segen" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Zauber" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Geich" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Grass 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Greung" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Krauschwer" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Glaf" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Bruch" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Segenigsheil" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Flut" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Tode 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Geich 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Krauschwer 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Segenze" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Reger" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Bruch 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Eistamme" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Baumel 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Bruch 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Steueras" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Baumel 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Namme 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Gesetze" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Glum" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Tagen 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Hand" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Reit 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LEG version_name = "Stamm Class" } }	}
+			ship = { name = "Kraffen" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Tagen 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Namme 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LEG version_name = "Volz Class" } }	}
+			ship = { name = "Baumel 4" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Eistamme 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Fess" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = LEG version_name = "Heich Class" } }	}
+			ship = { name = "Hand 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Grass 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+			ship = { name = "Bruch 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LEG version_name = "Hand Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,25 @@
+﻿capital = 382
+
+oob = "DNV_2010"
+
+set_politics = {
+	ruling_party = moderate_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_socialism = 100
+}
+
+add_ideas = {
+	# National Spirits
+	last_light_of_the_republic
+	government_in_exile
+	fortress_america
+	dreams_of_reclamation
+	crumbling_legitimacy
+}
+
+recruit_character = DNV_ralph_nader

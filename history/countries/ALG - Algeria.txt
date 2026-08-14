@@ -1,0 +1,18 @@
+﻿capital = 459
+
+oob = "ALG_2010"
+
+set_politics = {
+	ruling_party = reactionary
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	reactionary = 100
+}
+
+add_manpower = 100000
+
+recruit_character = ALG_jean_marie_le_pen

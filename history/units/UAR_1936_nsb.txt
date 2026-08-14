@@ -1,0 +1,132 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Samlak' Militia Division"
+		location = 248
+		division_template = "Militia Division"
+		start_experience_factor = 0.978246
+		start_equipment_factor = 0.921675
+	}
+	division= {
+		name = "2nd 'Ceilte' Militia Division"
+		location = 384
+		division_template = "Militia Division"
+		start_experience_factor = 0.185682
+		start_equipment_factor = 0.975302
+	}
+	division= {
+		name = "3rd 'Safa' Militia Division"
+		location = 469
+		division_template = "Militia Division"
+		start_experience_factor = 0.368667
+		start_equipment_factor = 0.971602
+	}
+	division= {
+		name = "1st 'Sultaada' Infantry Division"
+		location = 364
+		division_template = "Infantry Division"
+		start_experience_factor = 0.138521
+		start_equipment_factor = 0.988783
+	}
+	division= {
+		name = "1st 'Fartourub' Artillery Division"
+		location = 752
+		division_template = "Artillery Division"
+		start_experience_factor = 0.262246
+		start_equipment_factor = 0.998734
+	}
+	division= {
+		name = "2nd 'Sharikmaadi' Artillery Division"
+		location = 463
+		division_template = "Artillery Division"
+		start_experience_factor = 0.631270
+		start_equipment_factor = 0.960961
+	}
+	division= {
+		name = "1st 'Rabataab' Cavalry Division"
+		location = 511
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.019179
+		start_equipment_factor = 0.872756
+	}
+
+}

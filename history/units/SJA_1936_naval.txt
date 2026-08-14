@@ -1,0 +1,36 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Shabib Fleet"			
+		naval_base = 2238
+		task_force = {
+			name = "Shabib Fleet"
+			location = 2238
+			
+						ship = { name = "Luna" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SJA version_name = "Colaggiontro Class" } }	}
+			ship = { name = "Accia" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SJA version_name = "Odine Class" } }	}
+			ship = { name = "Nava" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SJA version_name = "Mallo Class" } }	}
+			ship = { name = "Desione" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SJA version_name = "Abbaziava Class" } }	}
+			ship = { name = "Incia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SJA version_name = "Spionfitta Class" } }	}
+			ship = { name = "Mallo" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SJA version_name = "Odine Class" } }	}
+			ship = { name = "Demonerrofez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SJA version_name = "Odine Class" } }	}
+			ship = { name = "Acquaritta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SJA version_name = "Mallo Class" } }	}
+			ship = { name = "Castime" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SJA version_name = "Mallo Class" } }	}
+			ship = { name = "Fortangelle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SJA version_name = "Mallo Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

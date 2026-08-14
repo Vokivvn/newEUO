@@ -1,0 +1,94 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Platrad Fleet"			
+		naval_base = 2315
+		task_force = {
+			name = "Platrad Fleet"
+			location = 2315
+			
+						ship = { name = "Sollo" definition = carrier equipment = { carrier_1 = { amount = 1 owner = PLA version_name = "Segnorita Class" } }	}
+			ship = { name = "Memorte" definition = carrier equipment = { carrier_1 = { amount = 1 owner = PLA version_name = "Segnorita Class" } }	}
+			ship = { name = "Montezza" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Neve" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Sola" definition = battleship equipment = { battleship_1 = { amount = 1 owner = PLA version_name = "Laglincito Class" } }	}
+			ship = { name = "Casaglia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Confinte" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Pace" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Sola 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Memorte 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Sola 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Mente" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Pace 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Cando" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Fumorta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Accatto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Angeritte" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Confinte 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Scubo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Sorittana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Mente 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Laglincito" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Dello" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Sola 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Spademo" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Sanguellagli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Mente 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Accanto" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Spademo 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Confinte 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Spademo 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Paro" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Luna" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Accanto 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Sanguellagli 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Confinte 4" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Luna 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Toria" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Laglincito 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Sanguellagli 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Accanto 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Paro 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Morine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Sorittana 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Neve 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Neve 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Accatte" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Ombro" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Luna 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Accampesero" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Sollo 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Segnorita" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Accatte 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Scubo 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Accatte 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Memorte 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Sola 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Accampesero 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Demia" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Scubo 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Amico" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Cando 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Accatte 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Toria 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+			ship = { name = "Guardionediz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Luna 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PLA version_name = "Fumone Class" } }	}
+			ship = { name = "Demia 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PLA version_name = "Cando Class" } }	}
+			ship = { name = "Vile" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = PLA version_name = "Demia Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

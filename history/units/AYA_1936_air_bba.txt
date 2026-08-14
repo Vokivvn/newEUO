@@ -1,0 +1,88 @@
+air_wings = {
+		1314 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "AYA" amount = 50 version_name = "Tetangisan Mk 0" }
+
+	}
+	1362 = { 								
+		medium_plane_airframe_1 = { owner = "AYA" amount = 50 version_name = "Lagu Mk 1" }
+
+	}
+	1432 = { 								
+		medium_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Lainduncaran Mk 1" }
+
+	}
+	1586 = { 								
+		small_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Ibuta Mk 1" }
+
+	}
+	2278 = { 								
+		large_plane_airframe_1 = { owner = "AYA" amount = 50 version_name = "Sahgunyaremp Mk 0" }
+
+	}
+	1348 = { 								
+		large_plane_airframe_1 = { owner = "AYA" amount = 50 version_name = "Sahgunyaremp Mk 0" }
+
+	}
+	1806 = { 								
+		small_plane_cas_airframe_0 = { owner = "AYA" amount = 50 version_name = "Rimensir Mk 1" }
+
+	}
+	1351 = { 								
+		medium_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Lainduncaran Mk 1" }
+
+	}
+	2029 = { 								
+		small_plane_cas_airframe_0 = { owner = "AYA" amount = 50 version_name = "Rimensir Mk 1" }
+
+	}
+	2158 = { 								
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "AYA" amount = 50 version_name = "Jalamaib Mk 2" }
+
+	}
+	1771 = { 								
+		large_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Ibuta Mk 1" }
+
+	}
+	1356 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AYA" amount = 50 version_name = "Penanaka Mk 2" }
+
+	}
+	1701 = { 								
+		small_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Ibuta Mk 1" }
+
+	}
+	2162 = { 								
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "AYA" amount = 50 version_name = "Jalamaib Mk 2" }
+
+	}
+	1354 = { 								
+		cv_small_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Ibuku Mk 1" }
+
+	}
+	2282 = { 								
+		large_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Ibuta Mk 1" }
+
+	}
+	1695 = { 								
+		medium_plane_airframe_1 = { owner = "AYA" amount = 50 version_name = "Lagu Mk 1" }
+
+	}
+	1326 = { 								
+		large_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Ibuta Mk 1" }
+
+	}
+	1761 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "AYA" amount = 50 version_name = "Tetangisan Mk 0" }
+
+	}
+	1309 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AYA" amount = 50 version_name = "Penanaka Mk 2" }
+
+	}
+	1428 = { 								
+		cv_small_plane_airframe_0 = { owner = "AYA" amount = 50 version_name = "Ibuku Mk 1" }
+
+	}
+
+
+}

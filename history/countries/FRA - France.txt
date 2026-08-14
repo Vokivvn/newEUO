@@ -1,0 +1,78 @@
+﻿capital = 16 # Paris/Ile de France
+
+oob = "FRA_2010"
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 100
+}
+
+add_ideas = {
+	FRA_tuareg_war #stop calling the entire German Empire to starve in the Sahara
+
+
+	#laws
+
+}
+
+set_autonomy = {
+	target = ALG
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = MRT
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = MLI
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = NGR
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = IVO
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = GNA
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = TOG
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = DAH
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = SEN
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+recruit_character = FRA_pierre_sidos
