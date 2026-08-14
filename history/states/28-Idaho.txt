@@ -1,0 +1,15 @@
+state={
+	id=28
+	name="STATE_28"
+	provinces={
+		1166 
+	}
+	
+	history={
+		owner = IDA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

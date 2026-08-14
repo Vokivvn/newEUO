@@ -1,0 +1,15 @@
+state={
+	id=33
+	name="STATE_33"
+	provinces={
+		5 84 171 274 289 291 313 360 439 458 529 683 705 1595 1648 1706 1711 1736 1783 1805 1814 1830 1879 1903 1968 2004 2092 2094 2163 2164 2166 2209 2211 2257 2320 2321 
+	}
+	
+	history={
+		owner = NOR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

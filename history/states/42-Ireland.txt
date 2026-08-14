@@ -1,0 +1,15 @@
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		1512 1513 
+	}
+	
+	history={
+		owner = IRE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

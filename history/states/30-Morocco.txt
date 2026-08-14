@@ -1,0 +1,15 @@
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		6 91 293 301 325 345 356 396 625 627 1779 1792 1835 1942 1994 2193 
+	}
+	
+	history={
+		owner = SPR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

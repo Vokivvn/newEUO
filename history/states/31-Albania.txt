@@ -1,0 +1,15 @@
+state={
+	id=31
+	name="STATE_31"
+	provinces={
+		155 
+	}
+	
+	history={
+		owner = ALB
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
