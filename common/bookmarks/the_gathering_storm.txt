@@ -4,23 +4,18 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 2010.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
 		default = yes
 		
-		"DIX"={
-			history = "DIX_GATHERING_STORM_DESC"
+		
+		DIX={
+			history = "generic_GATHERING_STORM_DESC"
 			ideology = national_socialism
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
 			}
 		}
+		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

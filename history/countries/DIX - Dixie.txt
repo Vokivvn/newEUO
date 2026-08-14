@@ -1,4 +1,4 @@
-﻿capital = 361
+﻿capital = 4
 set_convoys = 100
 
 # Variables
