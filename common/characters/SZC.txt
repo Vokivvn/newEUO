@@ -1,0 +1,16 @@
+characters = {
+	SZC_Zhou_Yongkang = {
+		name = "Zhou Yongkang" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Zhou_Yongkang
+			}
+		}
+		country_leader = {
+			ideology = autocratic_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

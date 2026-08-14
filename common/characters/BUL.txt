@@ -1,0 +1,16 @@
+characters = {
+	BUL_boyan_rasate = {
+		name = "Boyan Rasate" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_boyan_rasate
+			}
+		}
+		country_leader = {
+			ideology = rouge_supremacism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

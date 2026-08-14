@@ -1,0 +1,849 @@
+focus_tree = {
+	id = England
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	focus = {
+		id = ENG_national_front_disco
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 14
+		y = 0
+		select_effect = {
+			add_political_power = 1
+		}
+		completion_reward = {
+			country_event = ingurland.6
+		}
+
+	}
+	focus = {
+		id = ENG_the_economy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 45
+		y = 0
+
+	}
+	focus = {
+		id = ENG_british_self_defence_force
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 53
+		y = 0
+
+	}
+	focus = {
+		id = ENG_a_new_path
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = ENG_national_front_disco
+		}
+		mutually_exclusive = {
+			focus = ENG_steady_as_she_goes
+			focus = ENG_fascist_revolution
+			focus = ENG_rise_of_evil
+			focus = ENG_deputy_directors_push
+		}
+		x = 5
+		y = 1
+		available = {
+			has_country_leader = {
+				character = ENG_rupert_lowe
+				ruling_only = yes
+			}
+		}
+
+	}
+	focus = {
+		id = ENG_negotiating_with_berlin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_a_new_path
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = ENG_rebuild_british_army
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = ENG_negotiating_with_berlin
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = ENG_send_fascists_abroad
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = ENG_negotiating_with_berlin
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = ENG_restore_britain
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = ENG_a_new_path
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = ENG_parliament_returns
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_restore_britain
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = ENG_demilitarise_the_party
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = ENG_a_new_path
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = ENG_hamilton_compromise
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_demilitarise_the_party
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = ENG_demote_collett
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_negotiating_with_berlin
+		}
+		prerequisite = {
+			focus = ENG_demilitarise_the_party
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = ENG_abolish_social_republic
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = ENG_parliament_returns
+		}
+		prerequisite = {
+			focus = ENG_demote_collett
+		}
+		prerequisite = {
+			focus = ENG_rebuild_british_army
+		}
+		prerequisite = {
+			focus = ENG_hamilton_compromise
+		}
+		prerequisite = {
+			focus = ENG_send_fascists_abroad
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = ENG_distance_from_KP
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = ENG_abolish_social_republic
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = ENG_lowe_allies_italy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_distance_from_KP
+		}
+		mutually_exclusive = {
+			focus = ENG_ally_portugal
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = ENG_the_monarchy_question
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_abolish_social_republic
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = ENG_steady_as_she_goes
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_national_front_disco
+		}
+		mutually_exclusive = {
+			focus = ENG_a_new_path
+			focus = ENG_fascist_revolution
+			focus = ENG_rise_of_evil
+			focus = ENG_deputy_directors_push
+		}
+		x = 14
+		y = 1
+		available = {
+			has_country_leader = {
+				character = ENG_neil_hamilton
+				ruling_only = yes
+			}
+		}
+
+	}
+	focus = {
+		id = ENG_work_with_the_free_corps
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_steady_as_she_goes
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = ENG_crack_down_on_dissent
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_steady_as_she_goes
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = ENG_reinforce_kp_commitments
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_work_with_the_free_corps
+		}
+		prerequisite = {
+			focus = ENG_crack_down_on_dissent
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = ENG_coopt_patriotic_hooliganism
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = ENG_crack_down_on_dissent
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = ENG_hunt_down_galloway
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_coopt_patriotic_hooliganism
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = ENG_legacy_of_jordan
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_steady_as_she_goes
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = ENG_monopolise_national_socialism
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = ENG_steady_as_she_goes
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = ENG_global_cause
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = ENG_legacy_of_jordan
+		}
+		prerequisite = {
+			focus = ENG_monopolise_national_socialism
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = ENG_meet_with_barratt
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ENG_reinforce_kp_commitments
+		}
+		prerequisite = {
+			focus = ENG_global_cause
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = ENG_civilian_govt_in_belfast
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_meet_with_barratt
+			focus = ENG_abolish_social_republic
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = ENG_pub_nazism
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_global_cause
+		}
+		prerequisite = {
+			focus = ENG_coopt_patriotic_hooliganism
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = ENG_demote_dowson
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_monopolise_national_socialism
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = ENG_take_down_mosleyites
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = ENG_demote_dowson
+		}
+		prerequisite = {
+			focus = ENG_global_cause
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = ENG_imperial_nostalgia
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_meet_with_barratt
+		}
+		prerequisite = {
+			focus = ENG_hunt_down_galloway
+		}
+		prerequisite = {
+			focus = ENG_pub_nazism
+		}
+		prerequisite = {
+			focus = ENG_take_down_mosleyites
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = ENG_petition_return_of_atlantic_territories
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_imperial_nostalgia
+			focus = ENG_the_monarchy_question
+		}
+		prerequisite = {
+			focus = ENG_civilian_govt_in_belfast
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = ENG_french_connection
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_imperial_nostalgia
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = ENG_fascist_revolution
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_national_front_disco
+		}
+		mutually_exclusive = {
+			focus = ENG_steady_as_she_goes
+			focus = ENG_a_new_path
+			focus = ENG_rise_of_evil
+			focus = ENG_deputy_directors_push
+		}
+		x = 23
+		y = 1
+		available = {
+			OR = {
+				has_country_leader = {
+					character = ENG_gary_raikes 
+					ruling_only = yes
+				}
+				has_country_leader = {
+					character = ENG_jim_dowson 
+					ruling_only = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = ENG_political_appointments_to_military
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_fascist_revolution
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = ENG_send_yerbury_to_belfast
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_political_appointments_to_military
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = ENG_ulster_social_republic
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_send_yerbury_to_belfast
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = ENG_follow_christ
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_fascist_revolution
+		}
+		mutually_exclusive = {
+			focus = ENG_follow_mosley
+		}
+		x = 22
+		y = 2
+		available = {
+			has_country_leader = {
+				character = ENG_jim_dowson
+				ruling_only = yes
+			}
+		}
+
+	}
+	focus = {
+		id = ENG_our_new_ecumenism
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_follow_christ
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = ENG_pop_balloons
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_our_new_ecumenism
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = ENG_knights_templar_international
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_pop_balloons
+		}
+		prerequisite = {
+			focus = ENG_ulster_social_republic
+		}
+		mutually_exclusive = {
+			focus = ENG_march_on_london
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = ENG_follow_mosley
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_fascist_revolution
+		}
+		mutually_exclusive = {
+			focus = ENG_follow_christ
+		}
+		x = 24
+		y = 2
+		available = {
+			has_country_leader = {
+				character = ENG_gary_raikes
+				ruling_only = yes
+			}
+		}
+
+	}
+	focus = {
+		id = ENG_blackshirts
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_follow_mosley
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = ENG_hail_raikes
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_blackshirts
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = ENG_march_on_london
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_hail_raikes
+		}
+		prerequisite = {
+			focus = ENG_ulster_social_republic
+		}
+		mutually_exclusive = {
+			focus = ENG_knights_templar_international
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = ENG_realign_with_rome
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_knights_templar_international
+			focus = ENG_march_on_london
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = ENG_technocratic_ascendancy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ENG_fascist_revolution
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = ENG_rise_of_evil
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_national_front_disco
+		}
+		mutually_exclusive = {
+			focus = ENG_fascist_revolution
+			focus = ENG_steady_as_she_goes
+			focus = ENG_a_new_path
+			focus = ENG_deputy_directors_push
+		}
+		x = 31
+		y = 1
+		available = {
+			has_country_leader = {
+				character = ENG_mark_collett
+				ruling_only = yes
+			}
+		}
+
+	}
+	focus = {
+		id = ENG_deputy_directors_push
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_national_front_disco
+		}
+		mutually_exclusive = {
+			focus = ENG_rise_of_evil
+			focus = ENG_fascist_revolution
+			focus = ENG_steady_as_she_goes
+			focus = ENG_a_new_path
+		}
+		x = 37
+		y = 1
+		available = {
+			has_country_leader = {
+				character = ENG_jonathan_bowden
+				ruling_only = yes
+			}
+		}
+
+	}
+	focus = {
+		id = ENG_CLEAR_THEM_OUT
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = ENG_deputy_directors_push
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = ENG_LIBERALISM_IS_MORAL_SYPHILLIS
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = ENG_CLEAR_THEM_OUT
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = ENG_assume_complete_control
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_LIBERALISM_IS_MORAL_SYPHILLIS
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = ENG_ghana_reclamation
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = ENG_petition_return_of_atlantic_territories
+		}
+		prerequisite = {
+			focus = ENG_french_connection
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = ENG_return_of_the_exiles
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_abolish_social_republic
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = ENG_support_leakey
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_return_of_the_exiles
+			focus = ENG_imperial_nostalgia
+		}
+		prerequisite = {
+			focus = ENG_civilian_govt_in_belfast
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = ENG_caribbean_possessions
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_imperial_nostalgia
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = ENG_local_democracy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_return_of_the_exiles
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = ENG_ally_portugal
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ENG_distance_from_KP
+		}
+		mutually_exclusive = {
+			focus = ENG_lowe_allies_italy
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = ENG_irish_friendship_treaty
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_lowe_allies_italy
+			focus = ENG_ally_portugal
+		}
+		prerequisite = {
+			focus = ENG_civilian_govt_in_belfast
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = ENG_claims_on_african_territories
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = ENG_ghana_reclamation
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = ENG_penetrate_universities
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ENG_pub_nazism
+			focus = ENG_abolish_social_republic
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = ENG_aim_high_vote_lowe
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_return_of_the_exiles
+		}
+		x = 7
+		y = 6
+
+	}
+}

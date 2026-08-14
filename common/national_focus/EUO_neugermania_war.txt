@@ -1,0 +1,14 @@
+focus_tree = {
+	id = NGE_war
+	country = {
+		factor = 0
+		modifier = {
+			add = 19
+			tag = NGE
+		}
+	}
+	shared_focus = NGE_seekrieg
+	initial_show_position = {
+		focus = NGE_seekrieg
+	}
+}

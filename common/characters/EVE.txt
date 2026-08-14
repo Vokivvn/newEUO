@@ -1,0 +1,16 @@
+characters = {
+	EVE_Vladimir_Shamanov = {
+		name = "Vladimir Shamanov" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Vladimir_Shamanov
+			}
+		}
+		country_leader = {
+			ideology = military_rule
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

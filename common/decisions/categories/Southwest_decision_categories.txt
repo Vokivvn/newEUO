@@ -1,0 +1,5 @@
+Southwest_Skeleton = {
+	allowed = {
+		original_tag = TEX
+	}
+}

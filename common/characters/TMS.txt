@@ -1,0 +1,16 @@
+characters = {
+	TMS_Gurbanguly_Berdimuhamedow = {
+		name = "Gurbanguly Berdimuhamedow" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Gurbanguly_Berdimuhamedow
+			}
+		}
+		country_leader = {
+			ideology = ultraconservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

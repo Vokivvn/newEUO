@@ -1,0 +1,15 @@
+characters = {
+	SHX_Wang_Qishan = {
+		name = "Wang Qishan" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Wang_Qishan
+			}
+		}
+		country_leader = {
+			ideology = corporatocracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

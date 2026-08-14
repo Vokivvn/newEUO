@@ -1,0 +1,13 @@
+characters = {
+	KEN_david_leakey = { #STARTING
+		name = "David Leakey" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEN/david_leakey.tga"
+			}
+		}
+		country_leader = {
+			ideology = oligarchy
+		}
+	}
+}

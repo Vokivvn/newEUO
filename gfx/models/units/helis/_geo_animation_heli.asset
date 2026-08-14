@@ -1,0 +1,20 @@
+##PAH2
+##Old
+animation = {
+	name = "geo_pah2_animation_roter_animation"
+	file = "geo_pah2_animation_roter.anim"
+}
+
+##New
+animation = {
+	name = "geo_pah2_animation_attack_animation"
+	file = "geo_pah2_animation_attack.anim"
+}
+animation = {
+	name = "geo_pah2_animation_idle_animation"
+	file = "geo_pah2_animation_idle.anim"
+}
+animation = {
+	name = "geo_pah2_animation_move_animation"
+	file = "geo_pah2_animation_move.anim"
+}

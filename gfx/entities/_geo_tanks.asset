@@ -1,0 +1,2123 @@
+##汎用
+entity = {
+	name = "geo_leo2a4_entity"
+	pdxmesh = "geo_leo2a4_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.65
+
+	game_data = {
+		texture_anim_speed = -0.5
+	}
+}
+#T54(dlc006_soviet_tanks_unit_pack)
+entity = {
+	name = "SOV_modern_armor_entity"
+	pdxmesh = "SOV_modern_armor_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.8
+
+	game_data = {
+		texture_anim_speed = -0.5
+	}
+}
+#センチュリオン(dlc009_british_tanks_unit_pack)
+entity = {
+	name = "ENG_modern_armor_entity"
+	pdxmesh = "ENG_modern_armor_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.8
+
+	game_data = {
+		texture_anim_speed = 0.5
+	}
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_leo1_entity"
+	pdxmesh = "geo_leo1_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_leo1a5_entity"
+	pdxmesh = "geo_leo1a5_mesh"
+}
+
+###欧州
+#ALB　アルバニア
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "ALB_MD4_medium_armor_entity"
+}
+#ADO　アンドラ
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "ADO_MD4_medium_armor_entity"
+}
+#AUS　オーストリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AUS_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+entity = {
+	clone = "AUS_MD4_medium_armor_0_entity"
+	name = "AUS_MD4_medium_armor_1_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AUS_MD4_medium_armor_entity"
+}
+#BEL　ベルギー
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BEL_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo1a5_mesh"
+}
+#BLR　ベラルーシ
+#ロシアが侵略を辞めるまでは実装しません。
+#BOS　ボスニア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BOS_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m84_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BOS_MD4_medium_armor_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+#BUL　ブルガリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BUL_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BUL_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+#CAT　カタルーニャ
+#CRE　クレタ
+#CRO　クロアチア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CRO_MD4_medium_armor_entity"
+	pdxmesh = "geo_m84_mesh"
+}
+#CYP　キプロス
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CYP_MD4_medium_armor_entity"
+	pdxmesh = "geo_t80u_mesh"
+}
+#CZE　チェコ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_t72m4cz_entity"
+	pdxmesh = "geo_t72m4cz_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CZE_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72m4cz_CZE_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CZE_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_CZE_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CZE_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72m4cz_CZE_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CZE_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_leo2a4_CZE_mesh"
+}
+#DEN　デンマーク
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "DEN_MD4_medium_armor_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "DEN_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_leo1a5_mesh"
+}
+entity = {
+	clone = "DEN_MD4_medium_armor_0_entity"
+	name = "DEN_MD4_medium_armor_1_entity"
+}
+#ENG　イギリス
+#EST　エストニア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "EST_MD4_medium_armor_entity"
+}
+#FIN　フィンランド
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "FIN_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_FIN_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "FIN_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_leo2a4_FIN_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "FIN_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_leo2a4_FIN_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "FIN_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_leo2a6_FIN_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "FIN_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo2a6_FIN_mesh"
+}
+#FRA　フランス
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "FRA_MD4_medium_armor_entity"
+	pdxmesh = "geo_leclerc_FRA_mesh"
+	scale = 0.5
+}
+#FYR　北マケドニア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "FYR_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+#GAL　ガリシア
+#GER　ドイツ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GER_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo2a6_GER_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GER_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_GER_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GER_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_leo1a5_GER_mesh"
+
+	state = { name = "retreat"				animation = "retreat"   animation_blend_time = 0.3 
+		event = { time = 0 node="mg" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
+		event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+	}
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GER_MD4_medium_armor_1_alt_0_entity"
+	pdxmesh = "geo_leo1_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GER_MD4_medium_armor_2_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GER_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_leo2a7_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GER_MD4_medium_armor_4_entity"
+	pdxmesh = "KF51_panther_mesh"
+}
+#GRE　ギリシャ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GRE_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GRE_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+	entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GRE_MD4_medium_armor_2_entity"
+}
+	entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GRE_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo2HEL_mesh"
+}
+#HOL　オランダ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "HOL_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo2a6_NATO_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "HOL_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_leo1a5_mesh"
+}
+entity = {
+	clone = "HOL_MD4_medium_armor_0_entity"
+	name = "HOL_MD4_medium_armor_1_entity"
+}
+#HUN　ハンガリー
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "HUN_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo2a4_HUN_mesh"
+}
+#ICE　アイスランド
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ICE_MD4_medium_armor_entity"
+}
+#IRE　アイルランド
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "IRE_MD4_medium_armor_entity"
+}
+#IOM　マン島
+#ITA　イタリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ITA_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo1a5_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ITA_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+#HLS　バチカン市国
+#KOS　コソヴォ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KOS_MD4_medium_armor_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+#LAT　ラトビア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LAT_MD4_medium_armor_entity"
+}
+#LIC　リヒテンシュタイン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LIC_MD4_medium_armor_entity"
+}
+#LIT　リトアニア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LIT_MD4_medium_armor_entity"
+	pdxmesh = "geo_m1a1_od_mesh"
+}
+#LUX　ルクセンブルク
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LUX_MD4_medium_armor_entity"
+}
+#MLT　マルタ
+#MLV　モルドバ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MLV_MD4_medium_armor_entity"
+	pdxmesh = "geo_t64bv_mesh"
+}
+#MNC　モナコ
+#MNT　モンテネグロ
+#NAV　バスク
+#NCY　北キプロス
+entity = {
+	clone = "TUR_MD4_medium_armor_entity"
+	name = "NCY_MD4_medium_armor_entity"
+}
+entity = {
+	clone = "TUR_MD4_medium_armor_0_entity"
+	name = "NCY_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "TUR_MD4_medium_armor_1_entity"
+	name = "NCY_MD4_medium_armor_1_entity"
+}
+entity = {
+	clone = "TUR_MD4_medium_armor_2_entity"
+	name = "NCY_MD4_medium_armor_2_entity"
+}
+#NOR　ノルウェー
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NOR_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo2a4_NOR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NOR_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NOR_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_leo1a5_mesh"
+}
+#POL　ポーランド
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POL_MD4_medium_armor_entity"
+	pdxmesh = "geo_pt91_POL_mesh"
+}
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "POL_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POL_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_pt91_POL_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POL_MD4_medium_armor_1_alt_0_entity"
+	pdxmesh = "geo_pt91_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POL_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_leo2a4_POL_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POL_MD4_medium_armor_2_alt_0_entity"
+	pdxmesh = "geo_m1a1_POL_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POL_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_leo2a5_POL_mesh"
+}
+#POR　ポルトガル
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POR_MD4_medium_armor_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POR_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "POR_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+#ROM　ルーマニア
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "ROM_MD4_medium_armor_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ROM_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_m1a1_od_mesh"
+}
+entity = {
+	clone = "ROM_MD4_medium_armor_3_entity"
+	name = "ROM_MD4_medium_armor_4_entity"
+}
+entity = {
+	clone = "ROM_MD4_medium_armor_4_entity"
+	name = "ROM_MD4_medium_armor_5_entity"
+}
+#SAR　サルディーニャ
+#SCO　スコットランド
+#SER　セルビア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SER_MD4_medium_armor_entity"
+	pdxmesh = "geo_m84_mesh"
+}
+#SLO　スロバキア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SLO_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72m2_moderna_SLO_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SLO_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72m2_moderna_mesh"
+}
+#SLV　スロベニア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SLV_MD4_medium_armor_entity"
+	pdxmesh = "geo_m84_mesh"
+}
+#SMA　サンマルコ
+#SOV　ロシア
+#ロシアが侵略を辞めるまでは実装しません。
+#SPR　スペイン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SPR_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo2E_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SPR_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_SPR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SPR_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_SPR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SPR_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_leo2a4_SPR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SPR_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_leo2E_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SPR_MD4_medium_armor_4_entity"
+	pdxmesh = "KF51_panther_SPR_mesh"
+}
+#SPA　アンダルシア
+#SWE　スウェーデン
+
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SWE_MD4_medium_armor_entity"
+	pdxmesh = "geo_strv122_mesh"
+}
+entity = {
+	clone = "ENG_modern_armor_entity"
+	name = "SWE_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "ENG_modern_armor_entity"
+	name = "SWE_MD4_medium_armor_1_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SWE_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_leo2a4_SWE_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SWE_MD4_medium_armor_2_alt_0_entity"
+	pdxmesh = "geo_t80u_SWE_mesh"
+}
+
+#SWI　スイス
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SWI_MD4_medium_armor_entity"
+}
+#TUR　トルコ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TUR_MD4_medium_armor_entity"
+	pdxmesh = "geo_m60_TUR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TUR_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_TUR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TUR_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_TUR_mesh"
+	scale = 0.8
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TUR_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_TUR_leo2a4_mesh"
+}
+#UKR　ウクライナ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_MD4_medium_armor_entity"
+	pdxmesh = "geo_t64bv_mod2017_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t64b_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t64bv_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t64bm_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t80bv_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_MD4_medium_armor_5_entity"
+	pdxmesh = "geo_leo2a6_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_t72av_entity"
+	pdxmesh = "geo_t72av_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_t72bv_entity"
+	pdxmesh = "geo_t72bv_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UKR_MD4_medium_armor_6_entity"
+	pdxmesh = "geo_m1a1_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_t64bv_mod2017_entity"
+	pdxmesh = "geo_t64bv_mod2017_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_t72amt_entity"
+	pdxmesh = "geo_t72amt_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_leo2a4_UKR_entity"
+	pdxmesh = "geo_leo2a4_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_pt91_UKR_entity"
+	pdxmesh = "geo_pt91_UKR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_t80bvm_UKR_entity"
+	pdxmesh = "geo_t80bvm_UKR_mesh"
+}
+#WAS　ウェールズ
+#CHE　チェチェン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CHE_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+#EUU　欧州連合
+#SIL　シレジア
+#VTB　ビテプスク
+
+##中東
+#AFG　アフガニスタン
+#ALA　アラウィー州
+#ARA　アラビスタン
+#ARM　アルメニア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ARM_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72bv_ARM_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ARM_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_ARM_mesh"
+}
+entity = {
+	clone = "ARM_MD4_medium_armor_entity"
+	name = "ARM_MD4_medium_armor_1_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ARM_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_ARM_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ARM_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_ARM_mesh"
+}
+entity = {
+	clone = "ARM_MD4_medium_armor_3_entity"
+	name = "ARM_MD4_medium_armor_4_entity"
+}
+#AZE　アゼルバイジャン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AZE_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+#BHR　バーレーン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BHR_MD4_medium_armor_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+#BLC　バロチスタン
+#DRU　ドルーズ州
+#GEO　グルジア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GEO_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72sim1_mesh"
+}
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "GEO_MD4_medium_armor_1_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GEO_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72av_GEO_mesh"
+}
+#HEJ　ヒジャーズ州
+#IRQ　イラク
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "IRQ_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "IRQ_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_m1a1_desert_mesh"
+}
+entity = {
+	clone = "IRQ_MD4_medium_armor_3_entity"
+	name = "IRQ_MD4_medium_armor_4_entity"
+	pdxmesh = "geo_m1a2_desert_mesh"
+}
+entity = {
+	clone = "IRQ_MD4_medium_armor_4_entity"
+	name = "IRQ_MD4_medium_armor_5_entity"
+	pdxmesh = "geo_m1a2_desert_mesh"
+}
+##新生イラク
+entity = {
+	clone = "IRQ_MD4_medium_armor_3_entity"
+	name = "IRQ_NEW_MD4_medium_armor_2_entity"
+}
+#ISR　イスラエル
+#JOR　ヨルダン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "JOR_MD4_medium_armor_entity"
+	pdxmesh = "geo_leclerc_Desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "JOR_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "JOR_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+#KAZ　カザフスタン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KAZ_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KAZ_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KAZ_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KAZ_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "KAZ_MD4_medium_armor_3_entity"
+	name = "KAZ_MD4_medium_armor_4_entity"
+}
+#KUW　クウェート
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KUW_MD4_medium_armor_entity"
+	pdxmesh = "geo_m84AB_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KUW_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_m1a1_desert_mesh"
+}
+#KYR　キルギスタン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KYR_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72av_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KYR_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KYR_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KYR_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "KYR_MD4_medium_armor_3_entity"
+	name = "KYR_MD4_medium_armor_4_entity"
+}
+#LEB　レバノン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LEB_MD4_medium_armor_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LEB_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_desert_mesh"
+}
+#LOR　ルリスタン
+#NEJ　ナジュド
+#NKR　アルツァフ
+entity = {
+	clone = "ARM_MD4_medium_armor_entity"
+	name = "NKR_MD4_medium_armor_entity"
+}
+entity = {
+	clone = "ARM_MD4_medium_armor_0_entity"
+	name = "NKR_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "ARM_MD4_medium_armor_1_entity"
+	name = "NKR_MD4_medium_armor_1_entity"
+}
+entity = {
+	clone = "ARM_MD4_medium_armor_2_entity"
+	name = "NKR_MD4_medium_armor_2_entity"
+}
+entity = {
+	clone = "ARM_MD4_medium_armor_3_entity"
+	name = "NKR_MD4_medium_armor_3_entity"
+}
+entity = {
+	clone = "NKR_MD4_medium_armor_3_entity"
+	name = "NKR_MD4_medium_armor_4_entity"
+}
+#OMA　オマーン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "OMA_MD4_medium_armor_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+#SCL　パダニア
+#PAK　パキスタン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "PAK_MD4_medium_armor_entity"
+	pdxmesh = "geo_vt4_PAK_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "PAK_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "PAK_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "PAK_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t80u_mesh"
+}
+#PAL　パレスチナ
+#PER　イラン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "PER_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "PER_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+#QAT　カタール
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "QAT_MD4_medium_armor_entity"
+}
+#QTF　カティーグ州
+#SAU　サウジアラビア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SAU_MD4_medium_armor_entity"
+	pdxmesh = "geo_m1a1_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SAU_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+entity = {
+	clone = "SAU_MD4_medium_armor_0_entity"
+	name = "SAU_MD4_medium_armor_1_entity"
+}
+entity = {
+	clone = "SAU_MD4_medium_armor_0_entity"
+	name = "SAU_MD4_medium_armor_3_entity"
+    pdxmesh = "geo_m1a2_desert_mesh"
+}
+#SYR　シリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SYR_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72av_desert_mesh"
+}
+#TAB　タバリスターン
+#TAJ　タジキスタン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TAJ_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72av_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TAJ_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TAJ_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TAJ_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "TAJ_MD4_medium_armor_3_entity"
+	name = "TAJ_MD4_medium_armor_4_entity"
+}
+#TRK　トルクメニスタン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TRK_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TRK_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TRK_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TRK_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "TRK_MD4_medium_armor_3_entity"
+	name = "TRK_MD4_medium_armor_4_entity"
+}
+#UAE　アラブ首長国連邦
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UAE_MD4_medium_armor_entity"
+	pdxmesh = "geo_leclerc_UAE_mesh"
+}
+#UZB　ウズベキスタン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UZB_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "UZB_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UZB_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UZB_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UZB_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "UZB_MD4_medium_armor_3_entity"
+	name = "UZB_MD4_medium_armor_4_entity"
+}
+#YEM　イエメン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "YEM_MD4_medium_armor_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "YEM_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "YEM_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "YEM_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "YEM_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "YEM_MD4_medium_armor_3_entity"
+	name = "YEM_MD4_medium_armor_4_entity"
+}
+
+#アジア
+#BAN　バングラデシュ
+#BHU　ブータン
+#BRM　ミャンマー
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRM_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRM_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRM_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRM_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "BRM_MD4_medium_armor_3_entity"
+	name = "BRM_MD4_medium_armor_4_entity"
+}
+#BRU　ブルネイ
+#CBD　カンボジア
+#CHI　中華人民共和国
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CHI_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_vt4_mesh"
+}
+#ETK　東トルキスタン
+#HKG　香港
+#IND　インドネシア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "IND_MD4_medium_armor_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "IND_MD4_medium_armor_3_entity"
+    pdxmesh = "geo_leo2sg_mesh"
+}
+#JAP　日本
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "JAP_MD4_medium_armor_entity"
+	pdxmesh = "geo_type90_mesh"
+}
+#KAC　カチン
+#KAR　カレン
+#KOR　韓国
+#LAO　ラオス
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LAO_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LAO_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LAO_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LAO_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "LAO_MD4_medium_armor_3_entity"
+	name = "LAO_MD4_medium_armor_4_entity"
+}
+#MAY　マレーシア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MAY_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_pt91_MAY_mesh"
+}
+#MLD　モルディブ
+#MON　モンゴル
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MON_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MON_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MON_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MON_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "MON_MD4_medium_armor_3_entity"
+	name = "MON_MD4_medium_armor_4_entity"
+}
+#NEP　ネパール
+#NKO　北朝鮮
+#PHI　フィリピン
+#RAJ　インド
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "RAJ_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72av_desert_mesh"
+}
+#SHN　シャン州
+#SIA　タイ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SIA_MD4_medium_armor_entity"
+	pdxmesh = "geo_vt4_SIA_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SIA_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SIA_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+#SIN　シンガポール
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SIN_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo2sg_mesh"
+}
+#SRI　スリランカ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SRI_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SRI_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SRI_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SRI_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "SRI_MD4_medium_armor_3_entity"
+	name = "SRI_MD4_medium_armor_4_entity"
+}
+#TAI　中華民国
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TAI_MD4_medium_armor_entity"
+	pdxmesh = "geo_cm11_era_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TAI_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_cm11_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TAI_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_TAI_mesh"
+}
+#TIB チベット
+#TIM　東ティモール
+#VIE　ベトナム
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "VIE_MD4_medium_armor_entity"
+}
+#WAA　ワ州
+
+##オセアニア
+#AST　オーストラリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AST_MD4_medium_armor_entity"
+	pdxmesh = "geo_m1a1_AST_mesh"
+}
+	entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AST_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_leo1a5_desert_mesh"
+}
+	entity = {
+	clone = "AST_MD4_medium_armor_0_entity"
+	name = "AST_MD4_medium_armor_1_entity"
+}
+	entity = {
+	clone = "AST_MD4_medium_armor_entity"
+	name = "AST_MD4_medium_armor_2_entity"
+}
+	entity = {
+	clone = "AST_MD4_medium_armor_entity"
+	name = "AST_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_m1a2_AST_mesh"
+}
+	entity = {
+	clone = "AST_MD4_medium_armor_entity"
+	name = "AST_MD4_medium_armor_4_entity"
+	pdxmesh = "geo_m1a2_AST_TSUK_mesh"
+}
+#FIJ　フィジー
+#MIC　ミクロネシア連邦
+#NZL　ニュージランド
+#PAP　パプアニューギニア
+#PLY　ポリネシア連邦
+#SOL　ソロモン諸島
+
+##北米
+#CAN　カナダ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CAN_MD4_medium_armor_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CAN_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_leo1a5_mesh"
+}
+entity = {
+	clone = "CAN_MD4_medium_armor_0_entity"
+	name = "CAN_MD4_medium_armor_1_entity"
+}
+#CAL　カルフォルニア
+#MEX　メキシコ
+#NEN　ニューイングランド
+#USA　アメリカ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "USA_MD4_medium_armor_entity"
+	pdxmesh = "geo_m1a2_TUSK_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "USA_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "USA_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "USA_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_m1a1_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "USA_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_m1a2_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "USA_MD4_medium_armor_4_entity"
+	pdxmesh = "geo_m1a2_TUSK_mesh"
+}
+#TEX　テキサス
+#CSA　南部連合
+#RGD　リオグランデ
+#YUC　ユカタン
+#ZAP　サパティスタ
+#CAS　カスケーディア
+#GRL　グリーンランド
+#GLC　五大湖連邦
+#NYK　ニューヨーク
+#PTR　プエルトリコ
+#LKT　ラコタ
+#UDT　デゼレット連合
+#ASK　アラスカ
+#HWI　ハワイ
+
+#カリビアン
+#BAH　バハマ
+#BAR　ハルバドス
+#BLZ　ベリーズ
+#CUB　キューバ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CUB_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CUB_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CUB_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CUB_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "CUB_MD4_medium_armor_3_entity"
+	name = "CUB_MD4_medium_armor_4_entity"
+}
+#DMI　ドミニカ
+#DOM　ドミニカ共和国
+#GRA　グレナダ
+#HAI　ハイチ
+#JAM　ジャマイカ
+#PAU　パラオ
+#STK　セントキッツ
+#STL　セントルシア 
+#STV　セントヴィンセント
+#TRI　トリニダード
+
+##南米
+#ARG　アルゼンチン
+#BOL　ボリビア
+#BRA　ブラジル
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "geo_m60_BRA_entity"
+	pdxmesh = "geo_m60_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRA_MD4_medium_armor_entity"
+	pdxmesh = "geo_leo1_BRA_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRA_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_leo1_BRA_od_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRA_MD4_medium_armor_0_alt_0_entity"
+	pdxmesh = "geo_leo1_BRA_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRA_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_leo1a5_BRA_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRA_MD4_medium_armor_1_alt_0_entity"
+	pdxmesh = "geo_leo1a5_BRA_od_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "BRA_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_vt4_BRA_mesh"
+}
+#CHL　チリ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CHL_MD4_medium_armor_entity"
+	pdxmesh = "geo_CHL_leo2a4_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CHL_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_leo1a5_desert_mesh"
+}
+entity = {
+	clone = "CHL_MD4_medium_armor_0_entity"
+	name = "CHL_MD4_medium_armor_1_entity"
+}
+#COL　コロンビア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "COL_MD4_medium_armor_entity"
+	pdxmesh = "geo_leclerc_mesh"
+}
+#COS　コスタリア
+#ECU　エクアドル
+#ELS　エルサルバドル
+#FGU　フランス領ギニア
+#GUA　グアテマラ
+#GUY　ギニア
+#HON　ホンジュラス
+#NIC　ニカラグア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NIC_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NIC_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NIC_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NIC_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "NIC_MD4_medium_armor_3_entity"
+	name = "NIC_MD4_medium_armor_4_entity"
+}
+#PAN　パナマ
+#PAR　パラグアイ
+#PAT　パタゴニア
+#PRU　ペルー
+#SUL　南ブラジル
+#SPL　サンパウロ
+#SUR　スリナム
+#URG　ウルグアイ
+#VEN　ベネズエラ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "VEN_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "VEN_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "VEN_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "VEN_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "VEN_MD4_medium_armor_3_entity"
+	name = "VEN_MD4_medium_armor_4_entity"
+}
+
+##アフリカ
+#汎用
+#AGL　アンゴラ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AGL_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "AGL_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AGL_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AGL_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "AGL_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "AGL_MD4_medium_armor_3_entity"
+	name = "AGL_MD4_medium_armor_4_entity"
+}
+#ALG　アルジェリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ALG_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72av_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ALG_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ALG_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ALG_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "ALG_MD4_medium_armor_3_entity"
+	name = "ALG_MD4_medium_armor_4_entity"
+}
+#BEN　ベナン
+#BFA　ブルキナファソ
+#BOT　ボツワナ
+#BUR　ブルンジ
+#CAM　カメルーン
+#CAR　中央アフリカ
+#CDI　コートジボワール
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CDI_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TAJ_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CDI_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CDI_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "CDI_MD4_medium_armor_3_entity"
+	name = "CDI_MD4_medium_armor_4_entity"
+}
+#FNC　コートジボワールのブーベル軍
+#CHA　チャド
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CHA_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+#CNG　コンゴ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CNG_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CNG_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CNG_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "CNG_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "CNG_MD4_medium_armor_3_entity"
+	name = "CNG_MD4_medium_armor_4_entity"
+}
+#CNR　カナリア諸島
+#COM　コモロ
+#DJI　ジブチ
+#DRC　コンゴ民主共和国
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "DRC_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "DRC_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "DRC_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "DRC_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "DRC_MD4_medium_armor_3_entity"
+	name = "DRC_MD4_medium_armor_4_entity"
+}
+#EGU　赤道ギニア
+#EGY　エジプト
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "EGY_MD4_medium_armor_entity"
+	pdxmesh = "geo_m1a1_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "EGY_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+entity = {
+	clone = "EGY_MD4_medium_armor_0_entity"
+	name = "EGY_MD4_medium_armor_1_entity"
+}
+#ERI　エリトリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ERI_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+#ETH　エチオピア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ETH_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ETH_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ETH_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "ETH_MD4_medium_armor_3_entity"
+	name = "ETH_MD4_medium_armor_4_entity"
+}
+#GAB　ガボン
+#GAH　ガーナ
+#GAM　ガンビア
+#GUB　ギニアビサウ
+#GUI　ギニア
+#KEN　ケニア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KEN_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72av_mesh"
+}
+entity = {
+	clone = "ENG_modern_armor_entity"
+	name = "KEN_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KEN_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72av_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KEN_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KEN_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "KEN_MD4_medium_armor_3_entity"
+	name = "KEN_MD4_medium_armor_4_entity"
+}
+#LBA　リビア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "LBA_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_LBA_mesh"
+}
+#LES　レソト
+#LIB　リベリア
+#MAD　マダガスカル
+#MAL　マリ
+#MAU　モーリタニア
+#MLW　マラウィ
+#MOR　モロッコ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MOR_MD4_medium_armor_entity"
+	pdxmesh = "geo_m1a1_MOR_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MOR_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MOR_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_m60_desert_mesh"
+}
+#MOZ　モザンビーク
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MOZ_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MOZ_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MOZ_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "MOZ_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "MOZ_MD4_medium_armor_3_entity"
+	name = "MOZ_MD4_medium_armor_4_entity"
+}
+#MRT　マウリチウス
+#NAM　ナミビア
+#NGR　ニジェール
+#NIG　ナイジェリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NIG_MD4_medium_armor_entity"
+	pdxmesh = "geo_vt4_mesh"
+}
+entity = {
+	clone = "SOV_modern_armor_entity"
+	name = "NIG_MD4_medium_armor_0_entity"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NIG_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+#RWA　ルワンダ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "RWA_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "RWA_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "RWA_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "RWA_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "RWA_MD4_medium_armor_3_entity"
+	name = "RWA_MD4_medium_armor_4_entity"
+}
+#SAF　南アフリカ
+entity = {
+	clone = "ENG_modern_armor_entity"
+	name = "SAF_MD4_medium_armor_entity"
+}
+#SAO　サントメプリンシペ
+#SEN　セネガル
+#SEY　セーシャル
+#SHA　サハラ・アラブ
+#SIE　シエラレオネ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SIE_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+#SML　ソマリランド
+#SOM　ソマリア
+#SSU　南スーダン
+#STH　セントヘレナ
+#SUD　スーダン
+#SWA　スワジランド
+#TNZ　タンザニア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TNZ_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TNZ_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TNZ_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_desert_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TNZ_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_desert_mesh"
+}
+entity = {
+	clone = "TNZ_MD4_medium_armor_3_entity"
+	name = "TNZ_MD4_medium_armor_4_entity"
+}
+#TOG　トーゴ
+#TUN　チュニジア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TUN_MD4_medium_armor_entity"
+	pdxmesh = "geo_m60_TUN_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "TUN_MD4_medium_armor_0_entity"
+	pdxmesh = "geo_m48a5_desert_mesh"
+}
+#UGA　ウガンダ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UGA_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_ns_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UGA_MD4_medium_armor_1_entity"
+	pdxmesh = "geo_t72bv_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UGA_MD4_medium_armor_2_entity"
+	pdxmesh = "geo_t72b3_mesh"
+}
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "UGA_MD4_medium_armor_3_entity"
+	pdxmesh = "geo_t72b3obr2016_mesh"
+}
+entity = {
+	clone = "UGA_MD4_medium_armor_3_entity"
+	name = "UGA_MD4_medium_armor_4_entity"
+}
+#VER　カーボベルデ
+#ZAM　ザンビア
+#ZIM　ジンバブエ
+
+#非承認国家
+#HZG　ヘルツェゴビナ
+#RSK　スルプスカ
+#ABK　アブハジア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ABK_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+#ACE　アチェ
+#ADJ　アジャリア
+#AFR　革命評議会
+#AGF　南スーダン反体制派
+#AQY　アルカイダ・イエメン
+#BAL　アンチ・バカラ 
+#DAR　ダルフール
+#FSA　自由シリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "FSA_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#GNA　リビア国民合意政府
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GNA_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#GNC　リビア民族救済政府
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "GNC_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#HAM　ハマス
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "HAM_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#HEZ　ヒズボラ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "HEZ_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#HOR　リビア下院
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "HOR_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#HOU　フーシ派
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "HOU_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#ISI　ダーイッシュ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ISI_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#JUB　ジュバランド
+#KUR　クルディスタン
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "KUR_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+#LUR　リベリア連合
+#LOG　ロゴン
+#MLC　コンゴ解放運動
+#NOV　ノヴォロシア
+#NUS　アルヌスラ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "NUS_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#PKK　クルディスタン労働党
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "PKK_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_ns_mesh"
+}
+#PMR　トランスニストリア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "PMR_MD4_medium_armor_entity"
+	pdxmesh = "geo_t64bv_mesh"
+}
+#PUN　パントランド
+#RCD　コンゴ民主集会
+#ROJ　ロバジャ
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "ROJ_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_desert_mesh"
+}
+#SHB　アルシャバブ
+#SEL　セレカ
+#SLA　シナロア・カルテル
+#TRC　ティエラ・カルテル
+#TAM　タマウリパス
+#SNA　ソマリア民族同盟
+#SCO　南オセチア
+entity = {
+	clone = "geo_leo2a4_entity"
+	name = "SCO_MD4_medium_armor_entity"
+	pdxmesh = "geo_t72_mesh"
+}
+#SRF　スーダン革命戦線
+#SWS　南西諸島ソマリア州
+#TAL　アフガニスタン・タリバン　
+#TTP　パキスタン・タリバン
+#TUA　トゥアレグ族
+#UNI　UNITA
+#QUE　ケベック
+#CSM　カサマンス
+#TLS　タリスタン
+#HRM　ホルムズ
+#NPM　ネパールマオイスト

@@ -1,0 +1,16 @@
+characters = {
+	GNB_Carlos_Gomes_Junior = {
+		name = "Carlos Gomes Júnior" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Carlos_Gomes_Junior
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

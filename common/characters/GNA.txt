@@ -1,0 +1,16 @@
+characters = {
+	GNA_Alpha_Conde = {
+		name = "Alpha Condé" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Alpha_Conde
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

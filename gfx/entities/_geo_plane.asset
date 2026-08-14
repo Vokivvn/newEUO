@@ -1,0 +1,122 @@
+entity = {
+	name = "SWE_AS_Fighter1_entity"
+	pdxmesh = "geo_jas39_mesh"
+
+	state = { name = "fire" animation = "geo_attack" 
+		event = { time = 0.5 node="geo_m1" particle = "SOV_vehicle_rocket_exhaust_effect" keep_particle = yes sound = { soundeffect = heli_sound_fire } }  
+		event = { time = 0.7 node="geo_m2" particle = "SOV_vehicle_rocket_exhaust_effect" keep_particle = yes sound = { soundeffect = heli_sound_fire } }  
+	}
+	state = { name = "bomb" animation = "idle"
+		event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+	}
+	state = { name = "firebomb" animation = "idle"
+		event = { time = 0 particle = "napalm_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+	}
+	state = { name = "idle" animation = "idle"
+		event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
+	}
+	state = { name = "crash" animation = "idle"
+		event = { time = 0 node = "engine1" particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+	}
+	state = { name = "explode" animation = "idle"
+		event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+	}
+	scale = 0.18
+}
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "SWE_AS_Fighter2_entity"
+}
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "SWE_AS_Fighter3_entity"
+}
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "SWE_AS_Fighter4_entity"
+}
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "SWE_MR_Fighter1_entity"
+	pdxmesh = "geo_jas39_camo_mesh"
+}
+entity = {
+	clone = "SWE_MR_Fighter1_entity"
+	name = "SWE_MR_Fighter2_entity"
+}
+entity = {
+	clone = "SWE_MR_Fighter1_entity"
+	name = "SWE_MR_Fighter3_entity"
+}
+entity = {
+	clone = "SWE_MR_Fighter1_entity"
+	name = "SWE_MR_Fighter4_entity"
+}
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "SWE_Strike_Fighter1_entity"
+}
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "SWE_Strike_Fighter2_entity"
+}
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "SWE_Strike_Fighter3_entity"
+}
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "SWE_Strike_Fighter4_entity"
+}
+
+##BRA
+entity = {
+	clone = "SWE_AS_Fighter1_entity"
+	name = "BRA_AS_Fighter1_entity"
+	pdxmesh = "geo_jas39_BRA_mesh"
+}
+entity = {
+	clone = "BRA_AS_Fighter1_entity"
+	name = "BRA_AS_Fighter2_entity"
+}
+entity = {
+	clone = "BRA_AS_Fighter1_entity"
+	name = "BRA_AS_Fighter3_entity"
+}
+entity = {
+	clone = "BRA_AS_Fighter1_entity"
+	name = "BRA_AS_Fighter4_entity"
+}
+
+entity = {
+	clone = "BRA_AS_Fighter1_entity"
+	name = "BRA_MR_Fighter1_entity"
+}
+entity = {
+	clone = "BRA_MR_Fighter1_entity"
+	name = "BRA_MR_Fighter2_entity"
+}
+entity = {
+	clone = "BRA_MR_Fighter1_entity"
+	name = "BRA_MR_Fighter3_entity"
+}
+entity = {
+	clone = "BRA_MR_Fighter1_entity"
+	name = "BRA_MR_Fighter4_entity"
+}
+entity = {
+	clone = "BRA_AS_Fighter1_entity"
+	name = "BRA_Strike_Fighter1_entity"
+}
+entity = {
+	clone = "BRA_AS_Fighter1_entity"
+	name = "BRA_Strike_Fighter2_entity"
+}
+entity = {
+	clone = "BRA_AS_Fighter1_entity"
+	name = "BRA_Strike_Fighter3_entity"
+}
+entity = {
+	clone = "BRA_AS_Fighter1_entity"
+	name = "BRA_Strike_Fighter4_entity"
+}

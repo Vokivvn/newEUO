@@ -1,0 +1,16 @@
+characters = {
+	AMR_john_smith = {
+		name = "John Smith" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_John_Smith
+			}
+		}
+		country_leader = {
+			ideology = autocratic_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

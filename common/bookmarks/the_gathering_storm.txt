@@ -2,131 +2,25 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1936.1.1.12
+		date = 2010.1.1.12
 		picture = "GFX_select_date_1936"
+		default_country = "GER"
 		default = yes
 		
-		
-		PNR={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
+		"DIX"={
+			history = "DIX_GATHERING_STORM_DESC"
+			ideology = national_socialism
 			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
 			}
 			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
 			}
 		}
-		AYA={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		PLA={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		MAS={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		BRE={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		CJN={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		CUN={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		BUA={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		MUD={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		JEM={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		RKW={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		SJA={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		KOV={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		XIN={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

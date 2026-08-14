@@ -1,0 +1,16 @@
+characters = {
+	DCA_Patrick_John = {
+		name = "Patrick John" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Patrick_John
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

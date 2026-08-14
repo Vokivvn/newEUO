@@ -1,0 +1,29 @@
+# Dixie's Military
+DIX_military = {
+	icon = GFX_DIX_military
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+		DIX = {
+			NOT = { has_government = fascism }
+		}
+	}
+
+	# the bad
+	army_attack_factor = DIX_military_attack
+	army_strength_factor = DIX_military_strength
+	max_dig_in_factor = DIX_military_entrenchment
+	initiative_factor = DIX_military_initiative
+
+	# the good
+	army_morale_factor = DIX_military_morale
+	army_org_factor = DIX_military_org_factor
+	army_org_regain = DIX_military_org_regain
+	planning_speed = DIX_military_planning_speed
+	org_loss_when_moving = DIX_military_org_moving
+
+	# the nothing
+	army_attack_speed = DIX_military_attack_speed
+	breakthrough_factor = DIX_military_breakthrough
+}

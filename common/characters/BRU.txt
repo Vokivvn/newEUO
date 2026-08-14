@@ -1,0 +1,16 @@
+characters = {
+	BRU_Hassanal_Bolkiah = {
+		name = "Hassanal Bolkiah" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Hassanal_Bolkiah
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,659 @@
+GER_EUO_internal_politics_category = {
+	GER_boost_mainstream_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_mainstream_power
+				value = 8
+				tooltip = ger_var_mainstream_power_inc_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_boost_mainstream_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_mainstream_power
+				value = 14
+				tooltip = ger_var_mainstream_power_inc_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	GER_boost_radical_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_mainstream_power
+				value = 8
+				tooltip = ger_var_radical_power_inc_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_boost_radical_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_mainstream_power
+				value = 14
+				tooltip = ger_var_radical_power_inc_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	GER_boost_right_opposition_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_right_opposition_power
+				value = 8
+				tooltip = ger_var_right_opposition_power_inc_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_boost_right_opposition_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_right_opposition_power
+				value = 14
+				tooltip = ger_var_right_opposition_power_inc_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	GER_boost_orthodox_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_orthodox_power
+				value = 8
+				tooltip = ger_var_orthodox_power_inc_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_boost_orthodox_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_orthodox_power
+				value = 14
+				tooltip = ger_var_orthodox_power_inc_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+    GER_boost_ss_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_ss_power
+				value = 8
+				tooltip = ger_var_ss_power_inc_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_boost_ss_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_ss_power
+				value = 14
+				tooltip = ger_var_ss_power_inc_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	GER_boost_militarists_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_militarists_power
+				value = 8
+				tooltip = ger_var_militarists_power_inc_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_boost_militarists_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_militarists_power
+				value = 14
+				tooltip = ger_var_militarists_power_inc_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	GER_suppress_mainstream_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_mainstream_power
+				value = -8
+				tooltip = ger_var_mainstream_power_dec_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_suppress_mainstream_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_mainstream_power
+				value = -14
+				tooltip = ger_var_mainstream_power_dec_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	GER_suppress_radical_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_mainstream_power
+				value = -8
+				tooltip = ger_var_radical_power_dec_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_suppress_radical_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_mainstream_power
+				value = -14
+				tooltip = ger_var_radical_power_dec_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	GER_suppress_right_opposition_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_right_opposition_power
+				value = -8
+				tooltip = ger_var_right_opposition_power_dec_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_suppress_right_opposition_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_right_opposition_power
+				value = -14
+				tooltip = ger_var_right_opposition_power_dec_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	GER_suppress_orthodox_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_orthodox_power
+				value = -8
+				tooltip = ger_var_orthodox_power_dec_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_suppress_orthodox_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_orthodox_power
+				value = -14
+				tooltip = ger_var_orthodox_power_dec_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_suppress_ss_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_ss_power
+				value = -8
+				tooltip = ger_var_ss_power_dec_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_suppress_ss_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			add_to_variable = {
+				var = ger_var_ss_power
+				value = -14
+				tooltip = ger_var_ss_power_dec_2_tt
+			}
+		}
+		remove_effect = {
+			
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	GER_suppress_militarists_1 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_militarists_power
+				value = -8
+				tooltip = ger_var_militarists_power_dec_1_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	GER_suppress_militarists_2 = {
+		icon = hol_attract_foreign_investors
+		available = {
+		}
+		visible = {
+			
+		}
+		days_remove = 14
+		days_re_enable = 60
+		cost = 75
+		fixed_random_seed = no
+		complete_effect = {
+		}
+		modifier = {
+			
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = ger_var_militarists_power
+				value = -14
+				tooltip = ger_var_militarists_power_dec_2_tt
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+}

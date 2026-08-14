@@ -1,0 +1,16 @@
+characters = {
+	ARG_Eduardo_Duhalde = {
+		name = "Eduardo Duhalde" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Eduardo_Duhalde
+			}
+		}
+		country_leader = {
+			ideology = liberal_radicalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

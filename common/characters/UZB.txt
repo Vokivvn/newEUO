@@ -1,0 +1,16 @@
+characters = {
+	UZB_Muhammad_Salih = {
+		name = "Muhammad Salih" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Muhammad_Salih
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

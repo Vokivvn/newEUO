@@ -1,0 +1,15 @@
+characters={
+	GRE_manos_konstas = {
+		name = "Manos Konstas" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_manos_konstas
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}

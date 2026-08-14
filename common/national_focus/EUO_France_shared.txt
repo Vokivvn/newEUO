@@ -1,0 +1,107 @@
+﻿#intro tree
+shared_focus = {
+	id = FRA_party_in_dixieland
+	icon = GFX_FRA_party_in_dixieland
+	cost = 1.00
+	
+	x = 20
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_party_in_dixieland"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_money_to_germany
+	icon = GFX_FRA_money_to_germany
+	cost = 1.00
+	
+	x = 17
+	y = 1
+	
+	prerequisite = { focus = FRA_party_in_dixieland }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_money_to_germany"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_race_politics
+	icon = GFX_FRA_race_politics
+	cost = 1.00
+	
+	x = 20
+	y = 1
+	
+	prerequisite = { focus = FRA_party_in_dixieland }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_race_politics"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_aryan_infrastructure
+	icon = GFX_FRA_aryan_infrastructure
+	cost = 1.00
+	
+	x = 23
+	y = 1
+	
+	prerequisite = { focus = FRA_party_in_dixieland }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_aryan_infrastructure"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_turner_diaries_in_every_school
+	icon = GFX_FRA_turner_diaries_in_every_school
+	cost = 1.00
+	
+	x = 19
+	y = 2
+	
+	prerequisite = { focus = FRA_race_politics }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_turner_diaries_in_every_school"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_aryan_video_games
+	icon = GFX_FRA_aryan_video_games
+	cost = 1.00
+	
+	x = 21
+	y = 2
+	
+	prerequisite = { focus = FRA_race_politics }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_aryan_video_games"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}

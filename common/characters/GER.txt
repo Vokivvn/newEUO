@@ -1,0 +1,16 @@
+characters = {
+	GER_martin_adolf_bormann = {
+		name = "Martin Adolf Bormann" 
+		portraits = {
+			civilian = {
+				large = GFX_adolf_martin_bormann
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,16 @@
+characters = {
+	CSA_michael_hill = {
+		name = "Michael Hill" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Michael_Hill
+			}
+		}
+		country_leader = {
+			ideology = reactionary_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

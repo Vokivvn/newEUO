@@ -1,0 +1,16 @@
+characters = {
+	TZN_Christopher_Mtikila = {
+		name = "Christopher Mtikila" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Christopher_Mtikila
+			}
+		}
+		country_leader = {
+			ideology = clerical_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

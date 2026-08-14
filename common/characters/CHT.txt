@@ -1,0 +1,16 @@
+characters = {
+	CHT_Eduard_Limonov = {
+		name = "Eduard Limonov" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Eduard_Limonov
+			}
+		}
+		country_leader = {
+			ideology = national_bolshevism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

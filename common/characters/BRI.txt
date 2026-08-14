@@ -1,0 +1,16 @@
+characters = {
+	BRI_ronan_le_gall = {
+		name = "Ronan Le Gall" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ronan_le_gall
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

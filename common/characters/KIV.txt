@@ -1,0 +1,16 @@
+characters = {
+	KIV_Kasereka_Kasai = {
+		name = "Kasereka Kasai" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Kasereka_Kasai
+			}
+		}
+		country_leader = {
+			ideology = oligarchy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

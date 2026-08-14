@@ -1,0 +1,29 @@
+characters = {
+	SLO_jan_kopunek = {
+		name = "Ján Kopunek" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_jan_kopunek
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	SLO_marian_kotleba = {
+		name = "Marian Kotleba" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Marian_Kotleba
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

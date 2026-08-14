@@ -1,0 +1,16 @@
+characters = {
+	MRT_Mohamed_Ould_Abdel_Aziz = {
+		name = "Mohamed Ould Abdel Aziz" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Mohamed_Ould_Abdel_Aziz
+			}
+		}
+		country_leader = {
+			ideology = military_rule
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

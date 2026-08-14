@@ -1,0 +1,16 @@
+characters = {
+	SMO_Vitor_Crespo = {
+		name = "Vítor Crespo" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Vitor_Crespo
+			}
+		}
+		country_leader = {
+			ideology = military_rule
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

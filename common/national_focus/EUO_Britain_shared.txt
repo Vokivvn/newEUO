@@ -1,0 +1,256 @@
+﻿#NOTE - TOTAL REWORK INBOUND FROM MERF. COMMENTING THIS TREE OUT ENTIRELY. LEAVING IT IN GITHUB FOR POSTERITY'S SAKE. LONG LIVE MERF.
+
+
+#intro tree
+#shared_focus = {
+#	id = ENG_some_memories_are_best_forgotten
+#	icon = GFX_ENG_some_memories_are_best_forgotten
+#	cost = 1.00
+#	
+#	x = 10
+#	y = 0
+#	
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_some_memories_are_best_forgotten"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_sweep_it_under_the_rug
+#	icon = GFX_ENG_sweep_it_under_the_rug
+#	cost = 1.00
+#	
+#	x = 6
+#	y = 1
+#	
+#	prerequisite = { focus = ENG_some_memories_are_best_forgotten }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_sweep_it_under_the_rug"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_other_priorities
+#	icon = GFX_ENG_other_priorities
+#	cost = 1.00
+#	
+#	x = 14
+#	y = 1
+#	
+#	prerequisite = { focus = ENG_some_memories_are_best_forgotten }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_other_priorities"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_suppress_the_usual_suspects
+#	icon = GFX_ENG_suppress_the_usual_suspects
+#	cost = 1.00
+#	
+#	x = 3
+#	y = 2
+#	
+#	prerequisite = { focus = ENG_sweep_it_under_the_rug }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_suppress_the_usual_suspects"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_bring_back_crackdowns
+#	icon = GFX_ENG_bring_back_crackdowns
+#	cost = 1.00
+#	
+#	x = 6
+#	y = 2
+#	
+#	prerequisite = { focus = ENG_sweep_it_under_the_rug }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_bring_back_crackdowns"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_economys_a_bust
+#	icon = GFX_ENG_economys_a_bust
+#	cost = 1.00
+#	
+#	x = 11
+#	y = 2
+#	
+#	prerequisite = { focus = ENG_other_priorities }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_economys_a_bust"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_the_tuareg_devils
+#	icon = GFX_ENG_the_tuareg_devils
+#	cost = 1.00
+#	
+#	x = 14
+#	y = 2
+#	
+#	prerequisite = { focus = ENG_other_priorities }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_the_tuareg_devils"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_whatever_bormann_says
+#	icon = GFX_ENG_whatever_bormann_says
+#	cost = 1.00
+#	
+#	x = 17
+#	y = 2
+#	
+#	prerequisite = { focus = ENG_other_priorities }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_whatever_bormann_says"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_our_monthly_quotas
+#	icon = GFX_ENG_our_monthly_quotas
+#	cost = 1.00
+#	
+#	x = 2
+#	y = 3
+#	
+#	prerequisite = { focus = ENG_suppress_the_usual_suspects }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_our_monthly_quotas"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_against_them
+#	icon = GFX_ENG_against_them
+#	cost = 1.00
+#	
+#	x = 4
+#	y = 3
+#	
+#	prerequisite = { focus = ENG_suppress_the_usual_suspects }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_against_them"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_butcher_the_dissenters
+#	icon = GFX_ENG_butcher_the_dissenters
+#	cost = 1.00
+#	
+#	x = 6
+#	y = 3
+#	
+#	prerequisite = { focus = ENG_bring_back_crackdowns }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_butcher_the_dissenters"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_blackmail_some_too
+#	icon = GFX_ENG_blackmail_some_too
+#	cost = 1.00
+#	
+#	x = 8
+#	y = 3
+#	
+#	prerequisite = { focus = ENG_bring_back_crackdowns }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_blackmail_some_too"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_the_little_black_book
+#	icon = GFX_ENG_the_little_black_book
+#	cost = 1.00
+#	
+#	x = 3
+#	y = 4
+#	
+#	prerequisite = { focus = ENG_our_monthly_quotas }
+#	prerequisite = { focus = ENG_against_them }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_the_little_black_book"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}
+#
+#shared_focus = {
+#	id = ENG_keep_their_names
+#	icon = GFX_ENG_keep_their_names
+#	cost = 1.00
+#	
+#	x = 7
+#	y = 4
+#	
+#	prerequisite = { focus = ENG_butcher_the_dissenters }
+#	prerequisite = { focus = ENG_blackmail_some_too }
+#	completion_reward = {
+#		log = "[GetDateText]: [Root.GetName]: focus ENG_keep_their_names"
+#		country_event = {
+#			id = GER.2
+#			days = 0
+#		}
+#	}
+#}

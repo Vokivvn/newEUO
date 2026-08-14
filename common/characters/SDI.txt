@@ -1,0 +1,16 @@
+characters = {
+	SDI_Kevin_Alfred_Strom = {
+		name = "Kevin Alfred Strom" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Kevin_Alfred_Strom_SDI
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

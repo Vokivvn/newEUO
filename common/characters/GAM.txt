@@ -1,0 +1,16 @@
+characters = {
+	GAM_Yahya_Jammeh = {
+		name = "Yahya Jammeh" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Yahya_Jammeh
+			}
+		}
+		country_leader = {
+			ideology = paternalist_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

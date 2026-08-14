@@ -1,0 +1,38 @@
+DIX_debug = {
+
+	allowed = {
+		is_debug = yes
+		original_tag = DIX
+	}
+}
+
+DIX_rebuilding_dixie = {
+
+	allowed = {
+		original_tag = DIX
+	}
+	priority = 100
+}
+
+DIX_western_diplomacy = {
+	icon = GFX_decision_category_generic
+	
+	allowed = {
+		original_tag = DIX
+	}
+	priority = 100
+	
+	scripted_gui = dix_wes_ui
+}
+
+DIX_pressburg_summit = {
+
+	allowed = {
+		original_tag = DIX
+	}
+	priority = 100
+	
+	visible = {
+		has_country_flag = pressburg_summit
+	}
+}

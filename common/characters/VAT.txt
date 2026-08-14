@@ -1,0 +1,16 @@
+characters = {
+	VAT_Pius_XIII = {
+		name = "Pius XIII" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Pius_XIII
+			}
+		}
+		country_leader = {
+			ideology = fundamentalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

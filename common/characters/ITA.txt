@@ -1,0 +1,16 @@
+characters = {
+	ITA_pino_rauti = {
+		name = "Pino Rauti" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_pino_rauti
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
