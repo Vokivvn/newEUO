@@ -1,0 +1,45 @@
+﻿add_namespace = EVE
+
+country_event = { #Intro 
+	id = EVE.1
+	title = EVE.1.t
+	desc = EVE.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = EVE.1.a
+	}
+}
+
+country_event = { #Elections 
+	id = EVE.40
+	title = EVE.40.t
+	desc = EVE.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Rosenberg
+		name = EVE.40.a
+		hidden_effect = {
+			EVE = {
+				set_politics = { 
+					ruling_party = anarchism
+					elections_allowed = no
+				}
+				create_country_leader = {
+					name = "Anastasia Baburova"
+					desc = "POLITICS_ANASTASIA_BABUROVA_DESC"
+					picture = "GFX_portrait_Anastasia_Baburova"
+					expire = "1965.1.1"
+					ideology = anarcho_communism
+					traits = {
+						###
+					}
+				}
+			}
+		}
+	}
+}

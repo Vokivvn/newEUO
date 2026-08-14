@@ -1,0 +1,348 @@
+﻿add_namespace = NGE_SKELETON_MIDWEST
+add_namespace = NGE_FLUFF_MIDWEST
+add_namespace = MDF_SKELETON_MIDWEST
+add_namespace = NGE_MDF_FLUFF_MIDWEST
+
+country_event = {
+    id = NGE_SKELETON_MIDWEST.1
+    title = NGE_SKELETON_MIDWEST.1.t
+    desc = NGE_SKELETON_MIDWEST.1.desc
+    
+    is_triggered_only = yes
+	fire_only_once = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_SKELETON_MIDWEST.1.a
+		NGE = {
+			1068 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_SKELETON_MIDWEST.2
+				days = 4
+				random_days = 3
+			}
+			leave_faction = yes
+			country_lock_all_division_template = {
+            is_locked = no
+            }
+		}
+    }
+}
+
+country_event = {
+    id = NGE_SKELETON_MIDWEST.2
+    title = NGE_SKELETON_MIDWEST.2.t
+    desc = NGE_SKELETON_MIDWEST.2.desc
+    
+    is_triggered_only = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_SKELETON_MIDWEST.2.a
+		NGE = {
+			1061 = { set_demilitarized_zone = yes }
+			1063 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_SKELETON_MIDWEST.3
+				days = 4
+				random_days = 3
+			}
+		}
+        MDF = {
+			add_state_core = 395
+			add_state_core = 396
+			add_state_core = 1061
+			add_state_core = 1062
+			add_state_core = 1063
+			add_state_core = 1064
+			add_state_core = 1065
+			add_state_core = 1085
+			add_state_core = 1086
+		}
+        WIS = {
+			add_state_core = 1066
+			add_state_core = 394
+		}
+        FLP = {
+			add_state_core = 1067
+		}
+        ANT = {
+			add_state_core = 393
+			add_state_core = 1068
+			add_state_core = 1087
+			add_state_core = 1088
+		}
+        ODF = {
+			add_state_core = 261
+			add_state_core = 1069
+			add_state_core = 1070
+		}
+        OHC = {
+			add_state_core = 261
+			add_state_core = 1069
+			add_state_core = 1070
+		}
+	}
+}
+
+country_event = {
+    id = NGE_SKELETON_MIDWEST.3
+    title = NGE_SKELETON_MIDWEST.3.t
+    desc = NGE_SKELETON_MIDWEST.3.desc
+    
+    is_triggered_only = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_SKELETON_MIDWEST.3.a
+		NGE = {
+			1062 = { set_demilitarized_zone = yes }
+			1064 = { set_demilitarized_zone = yes }
+			1065 = { set_demilitarized_zone = yes }
+			1066 = { set_demilitarized_zone = yes }
+			1067 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_SKELETON_MIDWEST.4
+				days = 4
+				random_days = 3
+			}
+		}
+    }
+}
+
+country_event = {
+    id = NGE_SKELETON_MIDWEST.4
+    title = NGE_SKELETON_MIDWEST.4.t
+    desc = NGE_SKELETON_MIDWEST.4.desc
+    
+    is_triggered_only = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_SKELETON_MIDWEST.4.a
+		NGE = {
+			1069 = { set_demilitarized_zone = yes }
+			1070 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_SKELETON_MIDWEST.5
+				days = 4
+				random_days = 3
+			}
+		}
+    }
+}
+
+country_event = {
+    id = NGE_SKELETON_MIDWEST.5
+    title = NGE_SKELETON_MIDWEST.5.t
+    desc = NGE_SKELETON_MIDWEST.5.desc
+    
+    is_triggered_only = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_SKELETON_MIDWEST.5.a
+
+		1061 = { set_demilitarized_zone = no }
+		1062 = { set_demilitarized_zone = no }
+		1063 = { set_demilitarized_zone = no }
+		1064 = { set_demilitarized_zone = no }
+		1065 = { set_demilitarized_zone = no }
+		1066 = { set_demilitarized_zone = no }
+		1067 = { set_demilitarized_zone = no }
+		1068 = { set_demilitarized_zone = no }
+		1069 = { set_demilitarized_zone = no }
+		1070 = { set_demilitarized_zone = no }
+		NGE = {
+			country_event = {
+				id = NGE_SKELETON_MIDWEST.6
+				days = 7
+			}
+			MDF = { change_tag_from = NGE }
+		}
+        MDF = {
+			transfer_state = 1061
+			transfer_state = 1062
+			transfer_state = 1063
+			transfer_state = 1064
+			transfer_state = 1065
+			load_oob = MDF_Gotime
+			create_faction_from_template = {
+				template =
+				faction_template_defensive_democratic
+				name = Great_Lakes_Alliance
+				icon = GFX_Great_Lakes_Alliance
+				color = { 186 155 121 }
+			}
+			load_focus_tree = MDF_Spring
+			inherit_technology = NGE
+		}
+        WIS = {
+			transfer_state = 1066
+			load_oob = WIS_Gotime
+			inherit_technology = NGE
+		}
+        FLP = {
+			transfer_state = 1067
+			load_oob = FLP_Gotime
+			inherit_technology = NGE
+		}
+        ANT = {
+			transfer_state = 1068
+			load_oob = ANT_Gotime
+			inherit_technology = NGE
+		}
+        ODF = {
+			transfer_state = 1069
+			load_oob = ODF_Gotime
+			add_ideas = Ohio_No_Factions
+			inherit_technology = NGE
+		}
+        OHC = {
+			transfer_state = 1070
+			load_oob = OHC_Gotime
+			add_ideas = Ohio_No_Factions
+			inherit_technology = NGE
+		}
+    }
+    option = { #Boyz in the hood saxaphones
+        name = NGE_SKELETON_MIDWEST.5.b
+
+		1061 = { set_demilitarized_zone = no }
+		1062 = { set_demilitarized_zone = no }
+		1063 = { set_demilitarized_zone = no }
+		1064 = { set_demilitarized_zone = no }
+		1065 = { set_demilitarized_zone = no }
+		1066 = { set_demilitarized_zone = no }
+		1067 = { set_demilitarized_zone = no }
+		1068 = { set_demilitarized_zone = no }
+		1069 = { set_demilitarized_zone = no }
+		1070 = { set_demilitarized_zone = no }
+		NGE = {
+			country_event = {
+				id = NGE_SKELETON_MIDWEST.6
+				days = 7
+			}
+		}
+        MDF = {
+			transfer_state = 1061
+			transfer_state = 1062
+			transfer_state = 1063
+			transfer_state = 1064
+			transfer_state = 1065
+			load_oob = MDF_Gotime
+			create_faction_from_template = {
+				template =
+				faction_template_defensive_democratic
+				name = Great_Lakes_Alliance
+				icon = GFX_Great_Lakes_Alliance
+				color = { 186 155 121 }
+			}
+			load_focus_tree = MDF_Spring
+			inherit_technology = NGE
+		}
+        WIS = {
+			transfer_state = 1066
+			load_oob = WIS_Gotime
+			inherit_technology = NGE
+		}
+        FLP = {
+			transfer_state = 1067
+			load_oob = FLP_Gotime
+			inherit_technology = NGE
+		}
+        ANT = {
+			transfer_state = 1068
+			load_oob = ANT_Gotime
+			inherit_technology = NGE
+		}
+        ODF = {
+			transfer_state = 1069
+			load_oob = ODF_Gotime
+			add_ideas = Ohio_No_Factions
+			inherit_technology = NGE
+		}
+        OHC = {
+			transfer_state = 1070
+			load_oob = OHC_Gotime
+			add_ideas = Ohio_No_Factions
+			inherit_technology = NGE
+		}
+    }
+}
+
+country_event = {
+    id = NGE_SKELETON_MIDWEST.6
+    title = NGE_SKELETON_MIDWEST.6.t
+    desc = NGE_SKELETON_MIDWEST.6.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = NGE_SKELETON_MIDWEST.6.a
+		NGE = {
+			load_focus_tree = {
+                tree = NGE_war
+                keep_completed = yes
+            }
+			country_event = {
+				id = NGE_SKELETON_MIDWEST.7
+				days = 4
+				random_days = 3
+			}
+			declare_war_on = {
+    			target = MDF
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = ANT
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = WIS
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = FLP
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = OHC
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = ODF
+    			type = annex_everything
+			}
+		}
+    }
+}
+
+country_event = {
+    id = NGE_SKELETON_MIDWEST.7
+    title = NGE_SKELETON_MIDWEST.7.t
+    desc = NGE_SKELETON_MIDWEST.7.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = NGE_SKELETON_MIDWEST.7.a
+        ODF = {
+				declare_war_on = {
+    			target = OHC
+    			type = annex_everything
+			}
+		}
+    }
+}
+
+country_event = {
+    id = NGE_SKELETON_MIDWEST.8
+    title = NGE_SKELETON_MIDWEST.8.t
+    desc = NGE_SKELETON_MIDWEST.8.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = NGE_SKELETON_MIDWEST.8.a
+		load_focus_tree = {
+			tree = MDF_Spring
+			keep_completed = yes
+		}
+    }
+}

@@ -5,6 +5,7 @@ bookmarks = {
 		date = 2010.1.1.12
 		picture = "GFX_select_date_1936"
 		default = yes
+		default_country = "DIX"
 		
 		
 		DIX={
