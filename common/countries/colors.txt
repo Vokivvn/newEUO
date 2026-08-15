@@ -1045,8 +1045,8 @@ MAG = {
 	color_ui = rgb { 142 51 54 }
 }
 MAD = {
-	color = rgb { 21 25 16 }
-	color_ui = rgb { 21 25 16 }
+	color = rgb { 72 85 137 }
+	color_ui = rgb { 72 85 137 }
 }
 MRN = {
 	color = rgb { 158 144 121 }

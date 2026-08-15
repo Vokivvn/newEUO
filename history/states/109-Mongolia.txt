@@ -1,0 +1,15 @@
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		36 37 112 125 137 168 188 202 206 333 361 363 387 460 478 484 487 552 570 572 574 575 623 651 662 681 695 726 728 
+	}
+	
+	history={
+		owner = MEN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

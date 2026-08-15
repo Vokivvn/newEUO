@@ -1,0 +1,15 @@
+state={
+	id=106
+	name="STATE_106"
+	provinces={
+		8 25 166 353 368 374 445 500 530 543 690 746 
+	}
+	
+	history={
+		owner = XSM
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,15 @@
+state={
+	id=108
+	name="STATE_108"
+	provinces={
+		13 32 33 151 239 251 386 388 503 521 525 568 590 604 617 649 667 697 762 1705 2030 
+	}
+	
+	history={
+		owner = MAN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

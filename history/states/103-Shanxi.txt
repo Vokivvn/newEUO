@@ -1,0 +1,15 @@
+state={
+	id=103
+	name="STATE_103"
+	provinces={
+		220 505 571 715 765 
+	}
+	
+	history={
+		owner = SHX
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

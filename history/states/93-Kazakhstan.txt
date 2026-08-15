@@ -1,0 +1,15 @@
+state={
+	id=93
+	name="STATE_93"
+	provinces={
+		82 103 235 348 411 600 632 661 
+	}
+	
+	history={
+		owner = KAZ
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
