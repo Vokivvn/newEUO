@@ -1,0 +1,20 @@
+state={
+	id=72
+	name="STATE_72"
+	provinces={
+		174 279 314 450 476 497 
+	}
+	
+	history={
+		owner = MLI
+		2009.1.1 = {
+			TUA = {
+				set_province_controller = 476
+			}
+		}
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

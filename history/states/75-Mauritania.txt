@@ -1,0 +1,15 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		130 154 358 453 462 629 702 714 761 
+	}
+	
+	history={
+		owner = MRT
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,14 +1,4 @@
 continents = {
-	Fainadh
-	Leka
-	Daritahlawa
-	Line
-	Zauber
-	Delicak
-	Masjidunung
-	
-	
-	#Vanilla continents kept in for compatibility. Removing them breaks a lot of references to them
 	europe
 	north_america
 	south_america

@@ -1,43 +1,4 @@
 areas = {
-	# Generated continents
-		fainadh = {
-		continents = {
-			fainadh
-		}
-	}
-	leka = {
-		continents = {
-			leka
-		}
-	}
-	daritahlawa = {
-		continents = {
-			daritahlawa
-		}
-	}
-	line = {
-		continents = {
-			line
-		}
-	}
-	zauber = {
-		continents = {
-			zauber
-		}
-	}
-	delicak = {
-		continents = {
-			delicak
-		}
-	}
-	masjidunung = {
-		continents = {
-			masjidunung
-		}
-	}
-
-
-	#Vanilla continents kept in for compatibility. Removing them breaks a lot of references to them
 	europe = {
 		continents = {
 			europe

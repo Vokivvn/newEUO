@@ -1,0 +1,15 @@
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		806 812 813 846 848 900 911 912 920 946 971 975 977 987 992 1031 1040 1048 1065 1067 1074 1161 1180 1200 1201 1203 1225 1228 1229 1234 1243 1763 2254 
+	}
+	
+	history={
+		owner = QUE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

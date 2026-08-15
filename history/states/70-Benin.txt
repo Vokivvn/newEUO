@@ -1,0 +1,15 @@
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		400 
+	}
+	
+	history={
+		owner = BEN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
