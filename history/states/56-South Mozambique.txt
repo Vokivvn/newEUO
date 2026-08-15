@@ -1,0 +1,15 @@
+state={
+	id=56
+	name="STATE_56"
+	provinces={
+		290 362 749 
+	}
+	
+	history={
+		owner = SMO
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

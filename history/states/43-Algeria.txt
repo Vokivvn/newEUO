@@ -1,0 +1,15 @@
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		225 234 326 369 539 576 596 638 643 730 782 
+	}
+	
+	history={
+		owner = ALG
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

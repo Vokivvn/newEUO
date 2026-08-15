@@ -1,0 +1,15 @@
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		496 502 615 701 
+	}
+	
+	history={
+		owner = BOT
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
