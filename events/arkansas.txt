@@ -28,7 +28,12 @@ unit_leader_event = {
 		name = arkansas.2.a
 		retire_character = ARK_james_joseph_dresnok
 		ARK_james_dresnok_jr = {
-			promote_leader = yes
+			if = {
+				limit = {
+					is_field_marshal = no
+				}
+				promote_leader = yes
+			}
 			gain_xp = 150
 			add_country_leader_role = {
 				promote_leader = yes
