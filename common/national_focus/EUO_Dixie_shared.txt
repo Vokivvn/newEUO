@@ -587,8 +587,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_rally_the_troops
-	icon = GFX_DIX_rally_the_troops
+	id = DIX_assemble_the_troops
+	icon = GFX_DIX_assemble_the_troops
 	cost = 2.00
 	
 	x = 4
@@ -641,16 +641,16 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_ss_volunteers
-	icon = GFX_DIX_ss_volunteers
+	id = DIX_pakt_volunteers
+	icon = GFX_DIX_pakt_volunteers
 	cost = 2.00
 	
 	x = -1
 	y = 2
 	
-	prerequisite = { focus = DIX_rally_the_troops }
+	prerequisite = { focus = DIX_assemble_the_troops }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_ss_volunteers"
+		log = "[GetDateText]: [Root.GetName]: focus DIX_pakt_volunteers"
 		country_event = {
 			id = GER.2
 			days = 0
@@ -666,7 +666,7 @@ shared_focus = {
 	x = 4
 	y = 2
 	
-	prerequisite = { focus = DIX_rally_the_troops }
+	prerequisite = { focus = DIX_assemble_the_troops }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_rally_the_klan"
 		country_event = {
@@ -684,7 +684,7 @@ shared_focus = {
 	x = 8
 	y = 2
 	
-	prerequisite = { focus = DIX_rally_the_troops }
+	prerequisite = { focus = DIX_assemble_the_troops }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_german_support"
 		country_event = {
@@ -702,7 +702,7 @@ shared_focus = {
 	x = -4
 	y = 3
 	
-	prerequisite = { focus = DIX_ss_volunteers }
+	prerequisite = { focus = DIX_pakt_volunteers }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_a_call_to_degrelle"
 		country_event = {
@@ -720,7 +720,7 @@ shared_focus = {
 	x = -2
 	y = 3
 	
-	prerequisite = { focus = DIX_ss_volunteers }
+	prerequisite = { focus = DIX_pakt_volunteers }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_lend_stoll_our_ear"
 		country_event = {
@@ -738,7 +738,7 @@ shared_focus = {
 	x = 1
 	y = 3
 	
-	prerequisite = { focus = DIX_ss_volunteers }
+	prerequisite = { focus = DIX_pakt_volunteers }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_a_new_union"
 		country_event = {
