@@ -1,4 +1,5 @@
 characters = {
+	#LEADERSHIP
 	ARK_robert_bales = {
 		name = "Robert Bales" 
 		portraits = {
@@ -8,8 +9,206 @@ characters = {
 		}
 		country_leader = {
 			ideology = military_rule
-			expire = "1950.1.1.1"
-			id = -1
+		}
+	}
+	ARK_james_joseph_dresnok = {
+		name = "James 'Joe' Dresnok"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARK/james_dresnok_sr_CIV_BACKGROUND.tga"
+				small = "gfx/interface/ideas/ARK/james_dresnok_sr_GENERAL.dds"
+			}
+			army = {
+				large = "gfx/leaders/ARK/james_dresnok_sr_SOL_BACKGROUND.tga"
+				small = "gfx/interface/ideas/ARK/james_dresnok_sr_GENERAL.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+		}
+		field_marshal = {
+			traits = { media_personality trickster guerilla_fighter }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ARK_james_dresnok_jr = { #takes over from dad when dies in 2016
+		name = "James Dresnok Jr."
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARK/james_dresnok_jr_CIV_BACKGROUND.tga"
+				small = "gfx/interface/ideas/ARK/james_dresnok_jr_GENERAL.dds"
+			}
+			army = {
+				large = "gfx/leaders/ARK/james_dresnok_jr_SOL_BACKGROUND.tga"
+				small = "gfx/interface/ideas/ARK/james_dresnok_jr_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected inflexible_strategist trickster }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	#GENERALS
+	ARK_ted_dresnok = {
+		name = "Ted Dresnok"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/ted_dresnok.tga"
+				small = "gfx/interface/ideas/ARK/ted_dresnok_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { media_personality brilliant_strategist trickster }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ARK_joseph_t_white = {
+		name = "Joseph White"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/joseph_t_white.tga"
+				small = "gfx/interface/ideas/ARK/joseph_t_white_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless infantry_leader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ARK_pat_tillman = {
+		name = "Pat Tillman"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/pat_tillman.tga"
+				small = "gfx/interface/ideas/ARK/pat_tillman_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { brave commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ARK_russell_bentley = {
+		name = "Russell Bentley"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/russell_bentley.tga"
+				small = "gfx/interface/ideas/ARK/russell_bentley_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { expeditionary_leader_trait trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ARK_elmer_stewart_rhodes_iii = {
+		name = "Stewart Rhodes"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/stewart_rhodes.tga"
+				small = "gfx/interface/ideas/ARK/stewart_rhodes_GENERAL.dds"
+			}
+		}
+		field_marshal = {
+			traits = { cavalry_officer desert_fox trickster expert_improviser }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ARK_charles_alan_dyer = {
+		name = "Charles Dyer"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/charles_dyer.tga"
+				small = "gfx/interface/ideas/ARK/charles_dyer_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trickster guerilla_fighter substance_abuser }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ARK_richard_ivan_mack = {
+		name = "Richard Mack"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/richard_mack.tga"
+				small = "gfx/interface/ideas/ARK/richard_mack_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	ARK_kelly_meggs = {
+		name = "Kelly Meggs"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/kelly_meggs.tga"
+				small = "gfx/interface/ideas/ARK/kelly_meggs_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trickster }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ARK_charles_doc_holladay = {
+		name = "Charles Holladay"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARK/charles_holladay.tga"
+				small = "gfx/interface/ideas/ARK/charles_holladay_GENERAL.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader infantry_expert }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 }

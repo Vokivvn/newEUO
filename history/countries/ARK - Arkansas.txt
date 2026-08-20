@@ -10,7 +10,28 @@ set_politics = {
 }
 
 set_popularities = {
-	autocratic = 100
+	autocratic = 80
+	revolutionary_socialism = 20
 }
 
-recruit_character = ARK_robert_bales
+#JAMES DRESNOK SR DIES
+country_event = {
+	id = arkansas.1
+	days = 2519 #24 November 2016
+}
+
+#leaders
+recruit_character = ARK_robert_bales #RIGHTIST
+recruit_character = ARK_james_joseph_dresnok #LEFTIST
+recruit_character = ARK_james_dresnok_jr #LEFTIST
+#generals
+recruit_character = ARK_elmer_stewart_rhodes_iii #RIGHTIST
+recruit_character = ARK_ted_dresnok #LEFTIST
+recruit_character = ARK_joseph_t_white #LEFTIST
+recruit_character = ARK_pat_tillman #NEUTRAL
+recruit_character = ARK_russell_bentley #LEFTIST
+recruit_character = ARK_charles_alan_dyer #RIGHTIST
+recruit_character = ARK_richard_ivan_mack #RIGHTIST
+recruit_character = ARK_kelly_meggs #RIGHTIST
+recruit_character = ARK_charles_doc_holladay #RIGHTIST
+

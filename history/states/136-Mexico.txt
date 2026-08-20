@@ -1,0 +1,15 @@
+state={
+	id=136
+	name="STATE_136"
+	provinces={
+		797 810 834 838 909 932 940 998 1042 1056 1084 1141 1145 1160 1179 1197 1198 1230 1237 1868 1919 2190 
+	}
+	
+	history={
+		owner = MEX
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

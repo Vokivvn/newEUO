@@ -663,30 +663,12 @@ shared_focus = {
 	icon = GFX_DIX_rally_the_klan
 	cost = 2.00
 	
-	x = 4
+	x = 6
 	y = 2
 	
 	prerequisite = { focus = DIX_assemble_the_troops }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_rally_the_klan"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_german_support
-	icon = GFX_DIX_german_support
-	cost = 2.00
-	
-	x = 8
-	y = 2
-	
-	prerequisite = { focus = DIX_assemble_the_troops }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_german_support"
 		country_event = {
 			id = GER.2
 			days = 0
@@ -753,7 +735,7 @@ shared_focus = {
 	icon = GFX_DIX_dukes_compromise
 	cost = 2.00
 	
-	x = 4
+	x = 6
 	y = 3
 	
 	prerequisite = { focus = DIX_rally_the_klan }

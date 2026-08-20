@@ -1,0 +1,49 @@
+add_namespace = arkansas
+
+country_event = {
+	id = arkansas.1
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes #ARK HISTORY FILE
+	trigger = {
+		has_character = ARK_james_joseph_dresnok
+	}
+	immediate = {
+		ARK_james_joseph_dresnok = {
+			unit_leader_event = {
+				id = arkansas.2
+				hours = 14
+			}
+		}
+	}
+}
+#OLD MAN DRESNOK DIES
+unit_leader_event = {
+	id = arkansas.2
+	title = arkansas.2.t
+	desc = arkansas.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = arkansas.2.a
+		retire_character = ARK_james_joseph_dresnok
+		ARK_james_dresnok_jr = {
+			if = {
+				limit = {
+					is_field_marshal = no
+				}
+				promote_leader = yes
+			}
+			gain_xp = 150
+			add_country_leader_role = {
+				promote_leader = yes
+				country_leader = {
+					ideology = communism
+					traits = {
+						###
+					}
+				}
+			}
+		}
+	}
+}

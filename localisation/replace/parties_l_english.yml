@@ -92,3 +92,9 @@
  #KEN PARTIES
  KEN_autocratic_party:0 "Leakey Family"
 
+
+ #ARK PARTIES
+ ARK_autocratic_party:0 "FAC"
+ ARK_autocratic_party_long:0 "Free Army Commando"
+ ARK_revolutionary_socialism_party:0 "Dresnok Clique"
+ ARK_revolutionary_socialism_party_long:0 "Dresnok Clique"
