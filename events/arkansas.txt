@@ -47,3 +47,29 @@ unit_leader_event = {
 		}
 	}
 }
+
+#Ted defects to Louisiana - LOU is informed of their new generals
+unit_leader_event = {
+	id = arkansas.3
+	title = arkansas.3.t
+	desc = arkansas.3.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = arkansas.3.a
+		add_popularity = {
+			ideology = revolutionary_socialism
+			popularity = 0.0433
+		}
+		effect_tooltip = {
+			create_corps_commander = {
+				name = "Ted Dresnok"
+			}
+		}
+		effect_tooltip = {
+			create_corps_commander = {
+				name = "Joseph White"
+			}
+		}
+	}
+}
