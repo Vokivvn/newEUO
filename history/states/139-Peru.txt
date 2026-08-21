@@ -1,0 +1,15 @@
+state={
+	id=139
+	name="STATE_139"
+	provinces={
+		994 1236 
+	}
+	
+	history={
+		owner = PRU
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

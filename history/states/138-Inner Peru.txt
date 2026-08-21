@@ -1,0 +1,15 @@
+state={
+	id=138
+	name="STATE_138"
+	provinces={
+		853 
+	}
+	
+	history={
+		owner = ETN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

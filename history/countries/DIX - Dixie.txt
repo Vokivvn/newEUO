@@ -17,6 +17,12 @@ set_variable = { DIX_military_org_moving = -0.1 }
 set_variable = { DIX_military_attack_speed = -0.1 }
 set_variable = { DIX_military_breakthrough = -0.1 }
 
+set_autonomy = {
+	target = NEE
+	autonomous_state = autonomy_satellite
+	freedom_level = 0.2
+}
+
 # tech here
 oob = "DIX_2010"
 
