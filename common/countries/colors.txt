@@ -1591,6 +1591,14 @@ NVJ = {
 	color = rgb { 198 171 111 }
 	color_ui = rgb { 198 171 111 }
 }
+NML = {
+	color = rgb { 17 0 30 }
+	color_ui = rgb { 17 0 30 }
+}
+BDV = {
+	color = rgb { 138 137 198 }
+	color_ui = rgb { 138 137 198 }
+}
 SRL = {
 	color = rgb { 145 50 55 }
 	color_ui = rgb { 145 50 55 }

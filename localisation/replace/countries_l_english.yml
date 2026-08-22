@@ -3559,6 +3559,9 @@
  DNA:0 "Deutsches Nordamerika-Korps"
  DNA_DEF:0 "das Deutsches Nordamerika-Korps"
  DNA_ADJ:0 "Nordamerikan"
+ BDV:0 "Branch Davidians"
+ BDV_DEF:0 "the Branch Davidians"
+ BDV_ADJ:0 "Branch Davidian"
 
  SIL_communism:0 "Silesian People's Republic"
  SIL_communism_DEF:0 "the Silesian People's Republic"

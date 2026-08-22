@@ -1,0 +1,15 @@
+state={
+	id=141
+	name="STATE_141"
+	provinces={
+		792 
+	}
+	
+	history={
+		owner = NML
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

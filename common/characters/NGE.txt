@@ -1,4 +1,19 @@
 characters = {
+	NGE_tom_metzger = { #startingmandem
+		name = "Tom Metzger" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_tom_metzger
+			}
+		}
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+characters = {
 	NGE_joshua_caleb_sutter = { #startingmandem
 		name = "Joshua Caleb Sutter" 
 		portraits = {
