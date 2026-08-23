@@ -811,4 +811,24 @@ spriteTypes = {
 		texturefile = "gfx/leaders/VEN/Portrait_VEN_Hugo_Chavez.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_tom_metzger"
+		texturefile = "gfx/leaders/NGE/Portrait_NGE_Tom_Metzger.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_David_Koresh"
+		texturefile = "gfx/leaders/BDV/Portrait_BDV_David_Koresh.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Wasteland"
+		texturefile = "gfx/leaders/NML/Portrait_NML_Wasteland.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Charles_Flanagan"
+		texturefile = "gfx/leaders/IRE/Portrait_IRE_Charles_Flanagan.png"
+	}
+	
 }

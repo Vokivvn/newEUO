@@ -1,0 +1,15 @@
+state={
+	id=4
+	name="STATE_4"
+	provinces={
+		1140 
+	}
+	
+	history={
+		owner = DIX
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

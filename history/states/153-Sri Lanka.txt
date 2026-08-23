@@ -1,0 +1,15 @@
+state={
+	id=153
+	name="STATE_153"
+	provinces={
+		1547 1548 
+	}
+	
+	history={
+		owner = SRL
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,15 @@
+state={
+	id=143
+	name="STATE_143"
+	provinces={
+		850 880 925 
+	}
+	
+	history={
+		owner = BOL
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

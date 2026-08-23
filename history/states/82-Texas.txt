@@ -1,0 +1,15 @@
+state={
+	id=82
+	name="STATE_82"
+	provinces={
+		860 875 903 1069 1096 1104 
+	}
+	
+	history={
+		owner = TEX
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

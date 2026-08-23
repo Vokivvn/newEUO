@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Xing Fleet"			
+		naval_base = 2237
+		task_force = {
+			name = "Xing Fleet"
+			location = 2237
+			
+						ship = { name = "Huan" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = XIN version_name = "Chun Class" } }	}
+			ship = { name = "Shao" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = XIN version_name = "Chun Class" } }	}
+			ship = { name = "Zhan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = XIN version_name = "Ming Class" } }	}
+			ship = { name = "Chun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = XIN version_name = "Ming Class" } }	}
+			ship = { name = "Shui" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = XIN version_name = "Shen Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

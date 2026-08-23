@@ -1045,8 +1045,8 @@ MAG = {
 	color_ui = rgb { 142 51 54 }
 }
 MAD = {
-	color = rgb { 21 25 16 }
-	color_ui = rgb { 21 25 16 }
+	color = rgb { 72 85 137 }
+	color_ui = rgb { 72 85 137 }
 }
 MRN = {
 	color = rgb { 158 144 121 }
@@ -1590,6 +1590,14 @@ TMS = {
 NVJ = {
 	color = rgb { 198 171 111 }
 	color_ui = rgb { 198 171 111 }
+}
+NML = {
+	color = rgb { 17 0 30 }
+	color_ui = rgb { 17 0 30 }
+}
+BDV = {
+	color = rgb { 138 137 198 }
+	color_ui = rgb { 138 137 198 }
 }
 SRL = {
 	color = rgb { 145 50 55 }

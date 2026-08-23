@@ -1,0 +1,16 @@
+characters = {
+	BDV_David_Koresh = {
+		name = "David Koresh" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_David_Koresh
+			}
+		}
+		country_leader = {
+			ideology = fundamentalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

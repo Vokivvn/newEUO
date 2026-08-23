@@ -1,0 +1,14 @@
+air_wings = {
+		2137 = { 								
+		small_plane_cas_airframe_0 = { owner = "SUA" amount = 4 version_name = "Legeni Mk 0" }
+
+	}
+	2291 = { 								
+		small_plane_airframe_0 = { owner = "SUA" amount = 5 version_name = "Pelan Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "SUA" amount = 8 version_name = "Petandalai Mk 1" }
+medium_plane_airframe_0 = { owner = "SUA" amount = 18 version_name = "Benjelan Mk 1" }
+
+	}
+
+
+}

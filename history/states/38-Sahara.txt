@@ -1,0 +1,15 @@
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		10 26 80 160 183 223 232 253 283 304 372 417 449 464 485 573 602 775 778 785 
+	}
+	
+	history={
+		owner = GMS
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

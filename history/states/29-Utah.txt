@@ -1,0 +1,15 @@
+state={
+	id=29
+	name="STATE_29"
+	provinces={
+		869 894 898 942 961 962 1111 1152 1192 
+	}
+	
+	history={
+		owner = UTA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

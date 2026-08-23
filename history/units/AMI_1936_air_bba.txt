@@ -1,0 +1,17 @@
+air_wings = {
+		2177 = { 								
+		small_plane_airframe_0 = { owner = "AMI" amount = 7 version_name = "Bashfa Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "AMI" amount = 6 version_name = "Sama Mk 0" }
+
+	}
+	885 = { 								
+		small_plane_cas_airframe_0 = { owner = "AMI" amount = 11 version_name = "Alis Mk 0" }
+
+	}
+	788 = { 								
+		medium_plane_airframe_0 = { owner = "AMI" amount = 5 version_name = "Rihlak Mk 2" }
+
+	}
+
+
+}

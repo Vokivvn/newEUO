@@ -1,0 +1,15 @@
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		822 826 827 835 886 892 923 931 979 991 1012 1108 1189 1506 1619 1866 1923 2050 2122 2154 2205 2247 
+	}
+	
+	history={
+		owner = NEE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,15 @@
+state={
+	id=23
+	name="STATE_23"
+	provinces={
+		878 1081 1155 1156 1183 1226 2303 
+	}
+	
+	history={
+		owner = PAC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

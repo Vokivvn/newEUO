@@ -1,0 +1,15 @@
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		298 
+	}
+	
+	history={
+		owner = SER
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

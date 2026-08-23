@@ -1,0 +1,25 @@
+air_wings = {
+		530 = { 								
+		medium_plane_airframe_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+	398 = { 								
+		medium_plane_airframe_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+	158 = { 								
+		medium_plane_airframe_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+	2306 = { 								
+		medium_plane_airframe_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+medium_plane_airframe_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+	1555 = { 								
+		medium_plane_airframe_0 = { owner = "ZIV" amount = 50 version_name = "Vazavda Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,15 @@
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		92 
+	}
+	
+	history={
+		owner = EQG
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

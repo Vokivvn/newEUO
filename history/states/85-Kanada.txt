@@ -1,0 +1,15 @@
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		801 857 978 1057 1148 1199 1658 1659 1768 1979 2002 2003 2204 2311 
+	}
+	
+	history={
+		owner = KAN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

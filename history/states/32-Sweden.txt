@@ -1,0 +1,15 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		62 90 129 140 212 264 336 354 366 379 412 490 492 501 506 519 536 657 689 716 769 1634 1710 1902 
+	}
+	
+	history={
+		owner = SWE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

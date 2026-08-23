@@ -1,0 +1,15 @@
+state={
+	id=104
+	name="STATE_104"
+	provinces={
+		64 67 118 238 335 545 670 703 
+	}
+	
+	history={
+		owner = BEI
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

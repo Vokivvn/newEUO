@@ -1,0 +1,15 @@
+state={
+	id=151
+	name="STATE_151"
+	provinces={
+		106 124 241 371 383 428 440 508 514 1732 
+	}
+	
+	history={
+		owner = YEM
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

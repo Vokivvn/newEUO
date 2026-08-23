@@ -1,6 +1,6 @@
 characters = {
 	BOL_Gustavo_Sejas = {
-		name = "Gustavo Sejas" 
+		name = "Gustavo Sejas Revollo" 
 		portraits = {
 			civilian = {
 				large = GFX_portrait_Gustavo_Sejas

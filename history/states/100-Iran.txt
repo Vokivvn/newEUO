@@ -1,0 +1,15 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		2 83 138 194 203 224 338 423 522 528 582 622 699 788 1812 
+	}
+	
+	history={
+		owner = PER
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

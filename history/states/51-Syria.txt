@@ -1,0 +1,15 @@
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		94 395 
+	}
+	
+	history={
+		owner = SYR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

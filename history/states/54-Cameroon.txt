@@ -1,0 +1,15 @@
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		78 
+	}
+	
+	history={
+		owner = CMR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

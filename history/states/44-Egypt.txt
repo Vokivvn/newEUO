@@ -1,0 +1,15 @@
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		40 89 120 123 186 310 341 359 405 408 477 610 635 641 656 680 744 
+	}
+	
+	history={
+		owner = EGY
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

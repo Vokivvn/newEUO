@@ -1,0 +1,33 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Qaml Fleet"			
+		naval_base = 2239
+		task_force = {
+			name = "Qaml Fleet"
+			location = 2239
+			
+						ship = { name = "Sharq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QAM version_name = "Hayr Class" } }	}
+			ship = { name = "Barab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QAM version_name = "Khariqa Class" } }	}
+			ship = { name = "Malb" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QAM version_name = "Khariqa Class" } }	}
+			ship = { name = "Shar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QAM version_name = "Hayr Class" } }	}
+			ship = { name = "Majd" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QAM version_name = "Khariqa Class" } }	}
+			ship = { name = "Shaqq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QAM version_name = "Khariqa Class" } }	}
+			ship = { name = "Malb 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QAM version_name = "Khariqa Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

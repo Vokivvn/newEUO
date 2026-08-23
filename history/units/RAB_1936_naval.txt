@@ -1,0 +1,32 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Raba Fleet"			
+		naval_base = 2212
+		task_force = {
+			name = "Raba Fleet"
+			location = 2212
+			
+						ship = { name = "Shabib" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAB version_name = "Samal Class" } }	}
+			ship = { name = "Rabataab" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAB version_name = "Samal Class" } }	}
+			ship = { name = "Qarq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAB version_name = "Samal Class" } }	}
+			ship = { name = "Hijazn" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAB version_name = "Alim Class" } }	}
+			ship = { name = "Rihl" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAB version_name = "Alim Class" } }	}
+			ship = { name = "Kham" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAB version_name = "Alim Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

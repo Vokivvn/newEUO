@@ -1,0 +1,15 @@
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		605 628 
+	}
+	
+	history={
+		owner = COG
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

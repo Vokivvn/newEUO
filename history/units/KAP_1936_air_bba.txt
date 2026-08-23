@@ -1,0 +1,21 @@
+air_wings = {
+		1595 = { 								
+		small_plane_airframe_0 = { owner = "KAP" amount = 31 version_name = "Obina Mk 2" }
+medium_plane_airframe_0 = { owner = "KAP" amount = 38 version_name = "Jezer Mk 1" }
+
+	}
+	973 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "KAP" amount = 29 version_name = "Vatra Mk 1" }
+
+	}
+	1013 = { 								
+		small_plane_cas_airframe_0 = { owner = "KAP" amount = 24 version_name = "Bojst Mk 2" }
+
+	}
+	946 = { 								
+		large_plane_airframe_0 = { owner = "KAP" amount = 28 version_name = "Snazava Mk 0" }
+
+	}
+
+
+}

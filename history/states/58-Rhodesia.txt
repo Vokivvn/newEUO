@@ -1,0 +1,15 @@
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		87 732 
+	}
+	
+	history={
+		owner = ZIM
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

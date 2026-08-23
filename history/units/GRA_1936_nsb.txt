@@ -1,0 +1,93 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Herodnit' Militia Division"
+		location = 119
+		division_template = "Militia Division"
+		start_experience_factor = 0.979091
+		start_equipment_factor = 0.897883
+	}
+	division= {
+		name = "2nd 'Tvrdjavet' Militia Division"
+		location = 707
+		division_template = "Militia Division"
+		start_experience_factor = 0.290831
+		start_equipment_factor = 0.986454
+	}
+	division= {
+		name = "1st 'Herodnit' Infantry Division"
+		location = 119
+		division_template = "Infantry Division"
+		start_experience_factor = 0.222588
+		start_equipment_factor = 0.873578
+	}
+	division= {
+		name = "2nd 'Ribava' Infantry Division"
+		location = 489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.534540
+		start_equipment_factor = 0.919737
+	}
+	division= {
+		name = "1st 'Herodnit' Cavalry Division"
+		location = 119
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.635334
+		start_equipment_factor = 0.852678
+	}
+
+}

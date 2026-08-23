@@ -54,6 +54,6 @@ set_popularities = {
 	syncretism = 1
 }
 
-recruit_character = NGE_joshua_caleb_sutter
+recruit_character = NGE_tom_metzger
 
 add_manpower = 3000000

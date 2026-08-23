@@ -1,0 +1,46 @@
+air_wings = {
+		795 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	841 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	820 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	1023 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	903 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	991 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	970 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	1101 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	1082 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+	924 = { 								
+		tac_bomber_equipment_0 = { owner = "BRE" amount = 50 version_name = "Poza Mk 0" }
+
+	}
+
+
+}

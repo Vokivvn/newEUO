@@ -1,0 +1,15 @@
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		1462 1463 1464 1465 1466 1467 1468 1469 1728 1817 1832 1881 2063 2103 
+	}
+	
+	history={
+		owner = MAD
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

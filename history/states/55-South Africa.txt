@@ -1,0 +1,15 @@
+state={
+	id=55
+	name="STATE_55"
+	provinces={
+		4 81 108 139 175 177 254 270 281 296 297 446 531 546 553 557 653 660 663 675 678 700 723 774 
+	}
+	
+	history={
+		owner = SAF
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,48 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Harahr Fleet"			
+		naval_base = 2316
+		task_force = {
+			name = "Harahr Fleet"
+			location = 2316
+			
+						ship = { name = "Rawa" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UAR version_name = "Tard Class" } }	}
+			ship = { name = "Mana" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = UAR version_name = "Sultarb Class" } }	}
+			ship = { name = "Sultarb" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = UAR version_name = "Sultarb Class" } }	}
+			ship = { name = "Alim" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = UAR version_name = "Shan Class" } }	}
+			ship = { name = "Dina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UAR version_name = "Qalim Class" } }	}
+			ship = { name = "Asat" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = UAR version_name = "Sultarb Class" } }	}
+			ship = { name = "Nizaml" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UAR version_name = "Qalim Class" } }	}
+			ship = { name = "Nizaml 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UAR version_name = "Kutub Class" } }	}
+			ship = { name = "Qalim" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UAR version_name = "Qalim Class" } }	}
+			ship = { name = "Nourub" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UAR version_name = "Qalim Class" } }	}
+			ship = { name = "Makta" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = UAR version_name = "Shan Class" } }	}
+			ship = { name = "Qarq" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UAR version_name = "Qalim Class" } }	}
+			ship = { name = "Khaykh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UAR version_name = "Qalim Class" } }	}
+			ship = { name = "Namanz" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = UAR version_name = "Shan Class" } }	}
+			ship = { name = "Mawat" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = UAR version_name = "Sultarb Class" } }	}
+			ship = { name = "Hijazn" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UAR version_name = "Qalim Class" } }	}
+			ship = { name = "Asadinawi" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = UAR version_name = "Sultarb Class" } }	}
+			ship = { name = "Jaba" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = UAR version_name = "Shan Class" } }	}
+			ship = { name = "Masadi" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = UAR version_name = "Sultarb Class" } }	}
+			ship = { name = "Haykh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UAR version_name = "Qalim Class" } }	}
+			ship = { name = "Manawaryah" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = UAR version_name = "Shan Class" } }	}
+			ship = { name = "Kharim" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UAR version_name = "Kutub Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

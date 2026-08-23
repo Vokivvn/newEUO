@@ -1,0 +1,59 @@
+air_wings = {
+		574 = { 								
+		cv_CAS_equipment_0 = { owner = "MAS" amount = 50 version_name = "Vato Mk 0" }
+
+	}
+	373 = { 								
+		nav_bomber_equipment_0 = { owner = "MAS" amount = 38 version_name = "Galja Mk 0" }
+
+	}
+	1703 = { 								
+		cv_nav_bomber_equipment_0 = { owner = "MAS" amount = 50 version_name = "Ribar Mk 0" }
+
+	}
+	581 = { 								
+		strat_bomber_equipment_0 = { owner = "MAS" amount = 50 version_name = "Vodnik Mk 0" }
+
+	}
+	677 = { 								
+		CAS_equipment_0 = { owner = "MAS" amount = 50 version_name = "Carodar Mk 0" }
+
+	}
+	660 = { 								
+		strat_bomber_equipment_0 = { owner = "MAS" amount = 50 version_name = "Maslasina Mk 2" }
+
+	}
+	65 = { 								
+		strat_bomber_equipment_0 = { owner = "MAS" amount = 50 version_name = "Maslasina Mk 2" }
+cv_nav_bomber_equipment_0 = { owner = "MAS" amount = 50 version_name = "Ribar Mk 0" }
+
+	}
+	302 = { 								
+		cv_fighter_equipment_0 = { owner = "MAS" amount = 50 version_name = "Hleme Mk 1" }
+
+	}
+	320 = { 								
+		tac_bomber_equipment_0 = { owner = "MAS" amount = 50 version_name = "Sver Mk 1" }
+
+	}
+	137 = { 								
+		cv_fighter_equipment_0 = { owner = "MAS" amount = 50 version_name = "Hleme Mk 1" }
+
+	}
+	675 = { 								
+		fighter_equipment_0 = { owner = "MAS" amount = 49 version_name = "Preb Mk 0" }
+tac_bomber_equipment_0 = { owner = "MAS" amount = 50 version_name = "Sver Mk 1" }
+
+	}
+	492 = { 								
+		cv_CAS_equipment_0 = { owner = "MAS" amount = 50 version_name = "Vato Mk 0" }
+
+	}
+	240 = { 								
+		CAS_equipment_0 = { owner = "MAS" amount = 50 version_name = "Carodar Mk 0" }
+strat_bomber_equipment_0 = { owner = "MAS" amount = 50 version_name = "Vodnik Mk 0" }
+
+	}
+
+
+}

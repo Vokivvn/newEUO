@@ -1,0 +1,15 @@
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		15 52 131 149 172 195 204 222 263 275 288 303 316 349 367 382 526 542 584 611 679 688 739 757 763 1665 1826 1910 2039 2043 2234 
+	}
+	
+	history={
+		owner = RAJ
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

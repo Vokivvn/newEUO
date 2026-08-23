@@ -1,0 +1,16 @@
+characters = {
+	NML_Wasteland = {
+		name = "Nevada Wasteland" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Wasteland
+			}
+		}
+		country_leader = {
+			ideology = statelessness
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

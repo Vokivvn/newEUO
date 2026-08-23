@@ -1,0 +1,15 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		823 841 852 883 884 995 1022 1075 1078 1079 1103 1115 1231 1899 2203 2310 
+	}
+	
+	history={
+		owner = NGE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

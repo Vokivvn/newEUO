@@ -1,0 +1,15 @@
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		12 96 193 207 285 321 355 370 373 403 480 491 533 585 612 634 655 659 712 721 725 773 2020 
+	}
+	
+	history={
+		owner = IEA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,36 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Suatan Fleet"			
+		naval_base = 2307
+		task_force = {
+			name = "Suatan Fleet"
+			location = 2307
+			
+						ship = { name = "Mena" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SUA version_name = "Tomai Class" } }	}
+			ship = { name = "Perak" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SUA version_name = "Tomai Class" } }	}
+			ship = { name = "Hatang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SUA version_name = "Pelan Class" } }	}
+			ship = { name = "Sejarisa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SUA version_name = "Pelan Class" } }	}
+			ship = { name = "Suci" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SUA version_name = "Pelan Class" } }	}
+			ship = { name = "Langgai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SUA version_name = "Pelan Class" } }	}
+			ship = { name = "Kebiatangga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SUA version_name = "Pelan Class" } }	}
+			ship = { name = "Daununga" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SUA version_name = "Tomai Class" } }	}
+			ship = { name = "Gungit" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SUA version_name = "Pelan Class" } }	}
+			ship = { name = "Pulak" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SUA version_name = "Tomai Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

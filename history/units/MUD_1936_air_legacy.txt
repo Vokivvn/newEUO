@@ -1,0 +1,25 @@
+air_wings = {
+		1480 = { 								
+		tac_bomber_equipment_0 = { owner = "MUD" amount = 50 version_name = "Vila Mk 1" }
+
+	}
+	1056 = { 								
+		CAS_equipment_0 = { owner = "MUD" amount = 50 version_name = "Svinja Mk 0" }
+
+	}
+	939 = { 								
+		fighter_equipment_0 = { owner = "MUD" amount = 50 version_name = "Svinja Mk 0" }
+
+	}
+	1017 = { 								
+		CAS_equipment_0 = { owner = "MUD" amount = 50 version_name = "Svinja Mk 0" }
+fighter_equipment_0 = { owner = "MUD" amount = 50 version_name = "Svinja Mk 0" }
+
+	}
+	1198 = { 								
+		tac_bomber_equipment_0 = { owner = "MUD" amount = 50 version_name = "Vila Mk 1" }
+
+	}
+
+
+}

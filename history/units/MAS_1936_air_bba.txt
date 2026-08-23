@@ -1,0 +1,59 @@
+air_wings = {
+		574 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "MAS" amount = 50 version_name = "Vato Mk 0" }
+
+	}
+	373 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MAS" amount = 38 version_name = "Galja Mk 0" }
+
+	}
+	1703 = { 								
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "MAS" amount = 50 version_name = "Ribar Mk 0" }
+
+	}
+	581 = { 								
+		large_plane_airframe_0 = { owner = "MAS" amount = 50 version_name = "Vodnik Mk 0" }
+
+	}
+	677 = { 								
+		small_plane_cas_airframe_0 = { owner = "MAS" amount = 50 version_name = "Carodar Mk 0" }
+
+	}
+	660 = { 								
+		large_plane_airframe_1 = { owner = "MAS" amount = 50 version_name = "Maslasina Mk 2" }
+
+	}
+	65 = { 								
+		large_plane_airframe_1 = { owner = "MAS" amount = 50 version_name = "Maslasina Mk 2" }
+cv_small_plane_naval_bomber_airframe_0 = { owner = "MAS" amount = 50 version_name = "Ribar Mk 0" }
+
+	}
+	302 = { 								
+		cv_small_plane_airframe_0 = { owner = "MAS" amount = 50 version_name = "Hleme Mk 1" }
+
+	}
+	320 = { 								
+		medium_plane_airframe_0 = { owner = "MAS" amount = 50 version_name = "Sver Mk 1" }
+
+	}
+	137 = { 								
+		cv_small_plane_airframe_0 = { owner = "MAS" amount = 50 version_name = "Hleme Mk 1" }
+
+	}
+	675 = { 								
+		small_plane_airframe_0 = { owner = "MAS" amount = 49 version_name = "Preb Mk 0" }
+medium_plane_airframe_0 = { owner = "MAS" amount = 50 version_name = "Sver Mk 1" }
+
+	}
+	492 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "MAS" amount = 50 version_name = "Vato Mk 0" }
+
+	}
+	240 = { 								
+		small_plane_cas_airframe_0 = { owner = "MAS" amount = 50 version_name = "Carodar Mk 0" }
+large_plane_airframe_0 = { owner = "MAS" amount = 50 version_name = "Vodnik Mk 0" }
+
+	}
+
+
+}

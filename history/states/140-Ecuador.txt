@@ -1,0 +1,15 @@
+state={
+	id=140
+	name="STATE_140"
+	provinces={
+		1207 1664 1882 2109 2110 
+	}
+	
+	history={
+		owner = ECU
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,15 @@
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		873 1093 1143 1168 1212 1241 1601 2085 2162 
+	}
+	
+	history={
+		owner = GER
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,37 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Bahgungittet Fleet"			
+		naval_base = 2242
+		task_force = {
+			name = "Bahgungittet Fleet"
+			location = 2242
+			
+						ship = { name = "Benjagu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BCH version_name = "Lang Class" } }	}
+			ship = { name = "Kekerandalau" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BCH version_name = "Adih Class" } }	}
+			ship = { name = "Cahu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BCH version_name = "Lang Class" } }	}
+			ship = { name = "Putanggaranr" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BCH version_name = "Adih Class" } }	}
+			ship = { name = "Ibut" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BCH version_name = "Lang Class" } }	}
+			ship = { name = "Pekum" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BCH version_name = "Adih Class" } }	}
+			ship = { name = "Bahgungittet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BCH version_name = "Lang Class" } }	}
+			ship = { name = "Ilmurnam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BCH version_name = "Lang Class" } }	}
+			ship = { name = "Pekum 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BCH version_name = "Lang Class" } }	}
+			ship = { name = "Benjagu 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BCH version_name = "Lang Class" } }	}
+			ship = { name = "Bukut" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BCH version_name = "Lang Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

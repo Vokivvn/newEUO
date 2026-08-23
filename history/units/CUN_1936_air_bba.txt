@@ -1,0 +1,67 @@
+air_wings = {
+		102 = { 								
+		large_plane_airframe_1 = { owner = "CUN" amount = 50 version_name = "Bulamatahgun Mk 2" }
+
+	}
+	366 = { 								
+		small_plane_airframe_1 = { owner = "CUN" amount = 50 version_name = "Tanahrohon Mk 1" }
+
+	}
+	123 = { 								
+		small_plane_airframe_0 = { owner = "CUN" amount = 50 version_name = "Cahara Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "CUN" amount = 50 version_name = "Dambahlian Mk 0" }
+
+	}
+	1928 = { 								
+		large_plane_airframe_0 = { owner = "CUN" amount = 50 version_name = "Bununci Mk 0" }
+
+	}
+	2050 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "CUN" amount = 50 version_name = "Pasaramaib Mk 2" }
+
+	}
+	412 = { 								
+		large_plane_airframe_0 = { owner = "CUN" amount = 50 version_name = "Bununci Mk 0" }
+
+	}
+	355 = { 								
+		medium_plane_airframe_0 = { owner = "CUN" amount = 50 version_name = "Pelak Mk 0" }
+
+	}
+	237 = { 								
+		small_plane_cas_airframe_1 = { owner = "CUN" amount = 50 version_name = "Takil Mk 2" }
+
+	}
+	605 = { 								
+		small_plane_cas_airframe_0 = { owner = "CUN" amount = 50 version_name = "Cahara Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "CUN" amount = 50 version_name = "Dambahlian Mk 0" }
+
+	}
+	709 = { 								
+		medium_plane_airframe_0 = { owner = "CUN" amount = 50 version_name = "Pelak Mk 0" }
+
+	}
+	37 = { 								
+		small_plane_cas_airframe_1 = { owner = "CUN" amount = 50 version_name = "Takil Mk 2" }
+small_plane_cas_airframe_0 = { owner = "CUN" amount = 50 version_name = "Cahara Mk 1" }
+
+	}
+	120 = { 								
+		small_plane_airframe_1 = { owner = "CUN" amount = 50 version_name = "Tanahrohon Mk 1" }
+
+	}
+	401 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "CUN" amount = 50 version_name = "Pasaramaib Mk 2" }
+
+	}
+	578 = { 								
+		large_plane_airframe_1 = { owner = "CUN" amount = 50 version_name = "Bulamatahgun Mk 2" }
+
+	}
+	621 = { 								
+		small_plane_airframe_0 = { owner = "CUN" amount = 50 version_name = "Cahara Mk 1" }
+
+	}
+
+
+}

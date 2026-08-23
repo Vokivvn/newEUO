@@ -1,0 +1,15 @@
+state={
+	id=91
+	name="STATE_91"
+	provinces={
+		116 250 343 594 
+	}
+	
+	history={
+		owner = YUN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

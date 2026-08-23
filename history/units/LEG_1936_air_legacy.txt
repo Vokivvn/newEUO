@@ -1,0 +1,16 @@
+air_wings = {
+		1805 = { 								
+		tac_bomber_equipment_0 = { owner = "LEG" amount = 50 version_name = "Reit Mk 2" }
+
+	}
+	1440 = { 								
+		tac_bomber_equipment_0 = { owner = "LEG" amount = 50 version_name = "Reit Mk 2" }
+
+	}
+	1448 = { 								
+		tac_bomber_equipment_0 = { owner = "LEG" amount = 50 version_name = "Reit Mk 2" }
+
+	}
+
+
+}

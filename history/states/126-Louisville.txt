@@ -1,0 +1,15 @@
+state={
+	id=126
+	name="STATE_126"
+	provinces={
+		1027 2881 2884 2885 2886 2887 2888 
+	}
+	
+	history={
+		owner = DIX
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

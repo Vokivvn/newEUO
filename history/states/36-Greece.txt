@@ -1,0 +1,15 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		185 309 733 1613 1798 1813 1851 1865 1896 1897 1913 1959 1996 2079 2080 2149 2150 2152 2198 2244 2245 2246 2306 2307 2308 
+	}
+	
+	history={
+		owner = GRE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

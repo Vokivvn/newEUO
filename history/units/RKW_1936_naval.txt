@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Rawa Fleet"			
+		naval_base = 1650
+		task_force = {
+			name = "Rawa Fleet"
+			location = 1650
+			
+						ship = { name = "Shalb" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RKW version_name = "Kham Class" } }	}
+			ship = { name = "Turub" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RKW version_name = "Qalb Class" } }	}
+			ship = { name = "Malisn" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RKW version_name = "Kham Class" } }	}
+			ship = { name = "Wadrah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RKW version_name = "Qalb Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

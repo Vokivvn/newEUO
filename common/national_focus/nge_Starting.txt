@@ -115,7 +115,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			    1061 = {
+			    5 = {
 					add_manpower = 38900
 					add_building_construction = {
 						type = industrial_complex
@@ -196,7 +196,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			    1087 = {
+			    5 = {
 					add_manpower = 14750
 					add_building_construction = {
 						type = industrial_complex

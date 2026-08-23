@@ -1,0 +1,15 @@
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		21 38 59 74 117 133 143 189 196 230 240 248 249 276 302 342 364 385 452 466 469 473 511 591 637 669 706 720 752 753 1765 1927 2032 
+	}
+	
+	history={
+		owner = FIN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

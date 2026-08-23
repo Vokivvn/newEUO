@@ -1,0 +1,15 @@
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		46 107 110 294 422 426 468 479 541 556 664 731 737 750 
+	}
+	
+	history={
+		owner = SIK
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

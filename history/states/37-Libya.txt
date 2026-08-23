@@ -1,0 +1,15 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		243 269 406 465 696 2024 2242 
+	}
+	
+	history={
+		owner = ITA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

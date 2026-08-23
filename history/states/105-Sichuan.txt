@@ -1,0 +1,15 @@
+state={
+	id=105
+	name="STATE_105"
+	provinces={
+		167 214 327 569 
+	}
+	
+	history={
+		owner = SZC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

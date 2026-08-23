@@ -1,0 +1,15 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		128 152 178 208 467 758 
+	}
+	
+	history={
+		owner = PAK
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
