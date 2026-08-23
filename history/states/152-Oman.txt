@@ -1,0 +1,15 @@
+state={
+	id=152
+	name="STATE_152"
+	provinces={
+		73 134 444 645 647 652 734 
+	}
+	
+	history={
+		owner = OMA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

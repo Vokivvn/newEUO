@@ -1,0 +1,15 @@
+state={
+	id=148
+	name="STATE_148"
+	provinces={
+		793 836 855 972 1019 1044 1114 1162 1215 1242 1642 1657 1777 1917 1930 1985 2033 2135 
+	}
+	
+	history={
+		owner = CHL
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
