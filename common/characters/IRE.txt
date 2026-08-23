@@ -13,4 +13,19 @@ characters = {
 		}
 	}
 }
+characters = {
+	IRE_Charles_Flanagan = {
+		name = "Charles Flanagan" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Charles_Flanagan
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
 	

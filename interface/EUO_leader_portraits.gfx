@@ -826,4 +826,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/NML/Portrait_NML_Wasteland.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Charles_Flanagan"
+		texturefile = "gfx/leaders/IRE/Portrait_IRE_Charles_Flanagan.png"
+	}
+	
 }
