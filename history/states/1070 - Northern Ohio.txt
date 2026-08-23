@@ -13,7 +13,7 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 4
-
+			industrial_complex = 4
 		}
 		victory_points = {
 			6874 10 #Akron

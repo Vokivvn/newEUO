@@ -1,4 +1,4 @@
-capital = 372
+capital = 10556
 
 oob = "IDA_2010"
 

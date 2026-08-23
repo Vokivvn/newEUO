@@ -110,6 +110,28 @@ on_actions = {
 					remove_core_of = FBR
 				}
 			}
+			if = {
+				limit = {
+					FROM = { original_tag = ARK } #проигравший
+					country_exists = LOU
+				}
+				ARK = {
+					ARK_ted_dresnok = {
+						set_nationality = LOU
+					}
+					ARK_joseph_t_white = {
+						set_nationality = LOU
+					}
+				}
+				LOU = {
+					ARK_ted_dresnok = {
+						unit_leader_event = {
+							id = arkansas.3
+							hours = 2
+						}
+					}
+				}
+			}
 		}
 	}
 	

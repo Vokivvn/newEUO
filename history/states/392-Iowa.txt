@@ -2,7 +2,7 @@
 state={
 	id=392
 	name="STATE_392"
-	manpower = 2470938
+	manpower = 4863060
 	
 	state_category = city
 
@@ -15,12 +15,6 @@ state={
 		add_core_of = STL
 		victory_points = {
 			1770 3 
-		}
-
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 5
-			}
 		}
 
 	}
