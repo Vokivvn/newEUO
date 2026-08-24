@@ -1,0 +1,15 @@
+state={
+	id=156
+	name="STATE_156"
+	provinces={
+		191 1941 2194 
+	}
+	
+	history={
+		owner = ITA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

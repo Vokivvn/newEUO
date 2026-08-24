@@ -1,0 +1,15 @@
+state={
+	id=157
+	name="STATE_157"
+	provinces={
+		34 101 102 127 132 180 272 312 334 409 416 421 472 507 631 727 748 2074 
+	}
+	
+	history={
+		owner = SAU
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

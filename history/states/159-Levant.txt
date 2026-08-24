@@ -1,0 +1,15 @@
+state={
+	id=159
+	name="STATE_159"
+	provinces={
+		221 
+	}
+	
+	history={
+		owner = ILE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

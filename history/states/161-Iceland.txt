@@ -1,0 +1,15 @@
+state={
+	id=161
+	name="STATE_161"
+	provinces={
+		1482 1483 1484 1485 1486 
+	}
+	
+	history={
+		owner = ICE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
