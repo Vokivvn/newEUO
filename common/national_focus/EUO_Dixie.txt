@@ -33,6 +33,9 @@ focus_tree = {
 			tag = DIX
 		}
 	}
+	
+	continuous_focus_position = { x = 200 y = 2300 }
+	
 	default = no
 	shared_focus = DIX_disaster_strikes
 }

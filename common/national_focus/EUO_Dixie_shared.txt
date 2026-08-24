@@ -677,8 +677,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_a_call_to_degrelle
-	icon = GFX_DIX_a_call_to_degrelle
+	id = DIX_a_call_to_bormann
+	icon = GFX_DIX_a_call_to_bormann
 	cost = 2.00
 	
 	x = -4
@@ -686,7 +686,7 @@ shared_focus = {
 	
 	prerequisite = { focus = DIX_pakt_volunteers }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_a_call_to_degrelle"
+		log = "[GetDateText]: [Root.GetName]: focus DIX_a_call_to_bormann"
 		country_event = {
 			id = GER.2
 			days = 0
@@ -695,8 +695,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_lend_stoll_our_ear
-	icon = GFX_DIX_lend_stoll_our_ear
+	id = DIX_lend_voigt_our_ear
+	icon = GFX_DIX_lend_voigt_our_ear
 	cost = 2.00
 	
 	x = -2
@@ -704,7 +704,7 @@ shared_focus = {
 	
 	prerequisite = { focus = DIX_pakt_volunteers }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_lend_stoll_our_ear"
+		log = "[GetDateText]: [Root.GetName]: focus DIX_lend_voigt_our_ear"
 		country_event = {
 			id = GER.2
 			days = 0
@@ -747,3 +747,311 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+	id = DIX_desperate_measures
+	icon = GFX_DIX_desperate_measures
+	cost = 2.00
+	
+	x = -7
+	y = 4
+	
+	prerequisite = { focus = DIX_a_call_to_bormann }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_desperate_measures"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_emergency_action
+	icon = GFX_DIX_emergency_action
+	cost = 2.00
+	
+	x = -5
+	y = 4
+	
+	prerequisite = { focus = DIX_a_call_to_bormann }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_emergency_action"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_let_duke_speak
+	icon = GFX_DIX_let_duke_speak
+	cost = 2.00
+	
+	x = -2
+	y = 4
+	
+	prerequisite = { focus = DIX_lend_voigt_our_ear }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_let_duke_speak"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_pragmatic_plays
+	icon = GFX_DIX_pragmatic_plays
+	cost = 2.00
+	
+	x = 0
+	y = 4
+	
+	prerequisite = { focus = DIX_a_new_union }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_let_duke_speak"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_toe_the_line
+	icon = GFX_DIX_toe_the_line
+	cost = 2.00
+	
+	x = 2
+	y = 4
+	
+	prerequisite = { focus = DIX_a_new_union }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_toe_the_line"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_give_and_take
+	icon = GFX_DIX_give_and_take
+	cost = 2.00
+	
+	x = -9
+	y = 5
+	
+	prerequisite = { focus = DIX_desperate_measures }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_give_and_take"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_censor_the_internet
+	icon = GFX_DIX_censor_the_internet
+	cost = 2.00
+	
+	x = -7
+	y = 5
+	
+	prerequisite = { focus = DIX_desperate_measures }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_censor_the_internet"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_suppress_the_news
+	icon = GFX_DIX_suppress_the_news
+	cost = 2.00
+	
+	x = -5
+	y = 5
+	
+	prerequisite = { focus = DIX_emergency_action }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_suppress_the_news"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_give_our_support
+	icon = GFX_DIX_give_our_support
+	cost = 2.00
+	
+	x = -2
+	y = 5
+	
+	prerequisite = { focus = DIX_let_duke_speak }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_give_our_support"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_help_ourselves
+	icon = GFX_DIX_help_ourselves
+	cost = 2.00
+	
+	x = 1
+	y = 5
+	
+	prerequisite = { focus = DIX_pragmatic_plays focus = DIX_toe_the_line }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_help_ourselves"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_take_some_more
+	icon = GFX_DIX_take_some_more
+	cost = 2.00
+	
+	x = -9
+	y = 6
+	
+	prerequisite = { focus = DIX_give_and_take }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_take_some_more"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_keep_our_lips_shut
+	icon = GFX_DIX_keep_our_lips_shut
+	cost = 2.00
+	
+	x = -6
+	y = 6
+	
+	prerequisite = { focus = DIX_censor_the_internet }
+	prerequisite = { focus = DIX_suppress_the_news }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_keep_our_lips_shut"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_dixie_above_all
+	icon = GFX_DIX_dixie_above_all
+	cost = 2.00
+	
+	x = -2
+	y = 6
+	
+	prerequisite = { focus = DIX_give_our_support }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_dixie_above_all"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_save_dixie
+	icon = GFX_DIX_save_dixie
+	cost = 2.00
+	
+	x = 1
+	y = 6
+	
+	prerequisite = { focus = DIX_help_ourselves }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_save_dixie"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_send_in_our_guns
+	icon = GFX_DIX_send_in_our_guns
+	cost = 2.00
+	
+	x = -9
+	y = 7
+	
+	prerequisite = { focus = DIX_take_some_more }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_send_in_our_guns"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_follow_pierce
+	icon = GFX_DIX_follow_pierce
+	cost = 2.00
+	
+	x = -7
+	y = 7
+	
+	prerequisite = { focus = DIX_keep_our_lips_shut }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_follow_pierce"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_follow_hitler
+	icon = GFX_DIX_follow_hitler
+	cost = 2.00
+	
+	x = -5
+	y = 7
+	
+	prerequisite = { focus = DIX_keep_our_lips_shut }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_follow_hitler"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
