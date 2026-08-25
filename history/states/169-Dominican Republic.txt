@@ -1,12 +1,12 @@
 state={
-	id=25
-	name="STATE_25"
+	id=169
+	name="STATE_169"
 	provinces={
-		1033 
+		1542 
 	}
 	
 	history={
-		owner = LOU
+		owner = DOM
 	}
 	
 	manpower=0
