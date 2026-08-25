@@ -1,0 +1,15 @@
+state={
+	id=174
+	name="STATE_174"
+	provinces={
+		1790 1797 1976 2017 
+	}
+	
+	history={
+		owner = BRA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

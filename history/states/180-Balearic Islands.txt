@@ -1,0 +1,15 @@
+state={
+	id=180
+	name="STATE_180"
+	provinces={
+		1687 1898 1944 
+	}
+	
+	history={
+		owner = SPR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

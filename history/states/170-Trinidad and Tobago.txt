@@ -4,6 +4,11 @@ state={
 	provinces={
 		1692 1791 1824 1841 1883 1894 2044 2118 2143 2144 2145 2186 2188 2236 2238 
 	}
+	
+	history={
+		owner = TRI
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1
 	local_supplies=0

@@ -1,0 +1,15 @@
+state={
+	id=178
+	name="STATE_178"
+	provinces={
+		1911 1958 2021 2237 
+	}
+	
+	history={
+		owner = CBV
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
