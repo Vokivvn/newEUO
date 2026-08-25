@@ -12,5 +12,18 @@ characters = {
 			id = -1
 		}
 	}
+	MAD_Andry_Rajoelina = {
+		name = "Andry Rajoelina" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Andry_Rajoelina
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
 }
 	

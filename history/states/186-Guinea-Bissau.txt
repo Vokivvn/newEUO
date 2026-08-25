@@ -1,0 +1,15 @@
+state={
+	id=186
+	name="STATE_186"
+	provinces={
+		2947 
+	}
+	
+	history={
+		owner = GNB
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

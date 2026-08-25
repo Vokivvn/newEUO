@@ -830,5 +830,10 @@ spriteTypes = {
 		name = "GFX_portrait_Charles_Flanagan"
 		texturefile = "gfx/leaders/IRE/Portrait_IRE_Charles_Flanagan.png"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_Andry_Rajoelina"
+		texturefile = "gfx/leaders/MAD/Portrait_MAD_Andry_Rajoelina.png"
+	}	
 	
 }
