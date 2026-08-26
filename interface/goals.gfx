@@ -143,6 +143,21 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
+	name = "GFX_DIX_control_the_situation"
+	texturefile = "gfx/interface/goals/DIX/Control the Situation.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_DIX_deputize_kkk"
+	texturefile = "gfx/interface/goals/DIX/Deputize the Klan.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_DIX_what_would_hitler_think"
+	texturefile = "gfx/interface/goals/DIX/What Would Hitler Think.png"			
+	}	
+	
+	SpriteType = {
 	name = "GFX_DIX_mobilize_the_army"
 	texturefile = "gfx/interface/goals/DIX/Mobilize the Army.png"			
 	}	

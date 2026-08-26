@@ -386,7 +386,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DIX_deputize_kkk
-	icon = GFX_DIX_control_the_situation
+	icon = GFX_DIX_deputize_kkk
 	cost = 2.00
 	
 	x = 7
@@ -404,7 +404,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DIX_what_would_hitler_think
-	icon = GFX_DIX_control_the_situation
+	icon = GFX_DIX_what_would_hitler_think
 	cost = 2.00
 	
 	x = 10
@@ -807,6 +807,8 @@ shared_focus = {
 	icon = GFX_DIX_pragmatic_plays
 	cost = 2.00
 	
+	mutually_exclusive = { focus = DIX_toe_the_line }
+	
 	x = 0
 	y = 4
 	
@@ -824,6 +826,8 @@ shared_focus = {
 	id = DIX_toe_the_line
 	icon = GFX_DIX_toe_the_line
 	cost = 2.00
+	
+	mutually_exclusive = { focus = DIX_pragmatic_plays }
 	
 	x = 2
 	y = 4
