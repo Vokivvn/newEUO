@@ -79,7 +79,7 @@ characters = {
 		name = "Joseph White"
 		portraits = {
 			army = {
-				large = "gfx/leaders/ARK/joseph_t_white.tga"
+				large = "gfx/leaders/ARK/joseph_t_white.dds"
 				small = "gfx/interface/ideas/ARK/joseph_t_white_GENERAL.dds"
 			}
 		}
