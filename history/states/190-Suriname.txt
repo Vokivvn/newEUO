@@ -1,0 +1,15 @@
+state={
+	id=190
+	name="STATE_190"
+	provinces={
+		1239 
+	}
+	
+	history={
+		owner = SUR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

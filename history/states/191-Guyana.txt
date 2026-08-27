@@ -1,0 +1,15 @@
+state={
+	id=191
+	name="STATE_191"
+	provinces={
+		800 
+	}
+	
+	history={
+		owner = GYA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
