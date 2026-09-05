@@ -3,7 +3,7 @@
 oob = "BRA_2010"
 
 set_politics = {
-	ruling_party = reactionary
+	ruling_party = moderate_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -11,23 +11,23 @@ set_politics = {
 
 set_popularities = {
 	anarchism = 0
-	revolutionary_socialism = 0
-	moderate_socialism = 0
+	revolutionary_socialism = 30
+	moderate_socialism = 70
 	liberalism = 0
 	conservatism = 0
 	autocratic = 0
-	reactionary = 70
+	reactionary = 0
 	fascism = 0
-	national_socialism = 20
-	syncretism = 10
+	national_socialism = 0
+	syncretism = 0
 }
 
 create_country_leader = {
-	name = "Armando Zanine Jr."
+	name = "Brazilian Liberation Council"
 	desc = ""
-	picture = "gfx/leaders/BRA/ArmandoZanine.png"
+	picture = "gfx/leaders/BRA/Brazilian_Liberation_Council.png"
 	expire = "1950.1.1.1"
-	ideology = neo_fascism
+	ideology = united_front
 	traits = {
 	}
 }
