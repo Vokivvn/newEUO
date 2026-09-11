@@ -1875,3 +1875,15 @@ KUB = {
 	color = rgb { 102 102 153 }
 	color_ui = rgb { 61 61 92 }
 }
+PRV = {
+	color = rgb { 136 31 31 }
+	color_ui = rgb { 78 25 25 }
+}
+BRR = {
+	color = rgb { 216 197 98 }
+	color_ui = rgb { 139 125 54 }
+}
+IGB = {
+	color = rgb { 36 131 17 }
+	color_ui = rgb { 15 85 2 }
+}

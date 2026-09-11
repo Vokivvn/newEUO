@@ -5198,5 +5198,14 @@
  RAA: "Reichskommissariat Australasien"
  RAA_DEF: "the Reichskommissariat Australasien"
  RAA_ADJ: "Australasian"
+ 
+ PRV: "Palmares Revolutionary Vanguard"
+ PRV_DEF: "the Palmares Revolutionary Vanguard"
+ PRV_ADJ: "Brazilian"
+ BRR: "Brazilian Republic"
+ BRR_DEF: "the Brazilian Republic"
+ BRR_ADJ: "Brazilian"
+ IGB: "Institutional Government of Brazil"
+ IGB_DEF: "the Institutional Government of Brazil"
+ IGB_ADJ: "Brazilian"
 
-  

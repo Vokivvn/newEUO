@@ -7,9 +7,21 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 2
+            arms_factory = 2
+        }
+        victory_points = { 2784 10 } #Parkersburg
+		victory_points = { 2801 5 } #Beckley
+		victory_points = { 796 10 } #morgantown
+		victory_points = { 2782 5 } #Wheeling
+		victory_points = { 2781 5 } #Clarksburg
+		victory_points = { 1214 5 } #Huntington
 	}
 	
-	manpower=0
+	manpower=1852994
 	buildings_max_level_factor=1
 	local_supplies=0
 }

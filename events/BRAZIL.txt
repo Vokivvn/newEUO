@@ -1,0 +1,83 @@
+add_namespace = brazilwar
+
+country_event = {
+    id = brazilwar.1
+    title = brazilwar.1.title
+    desc = brazilwar.1.desc
+	picture = GFX_brazilcollapse
+        is_triggered_only = yes
+	fire_only_once = yes 
+	
+    
+    option = {
+		    PRV = {
+								set_province_controller = 1060
+                                set_province_controller = 1070
+                                set_province_controller = 893
+								set_province_controller = 947
+								set_province_controller = 1221
+								every_owned_state = {
+       			 				add_core_of = PRV
+    							}
+								declare_war_on = {
+               					 target = BRA
+               					 type = annex_everything
+            					}
+								declare_war_on = {
+               					 target = BRR
+               					 type = annex_everything
+            					}
+								declare_war_on = {
+               					 target = IGB
+               					 type = annex_everything
+            					}
+			}
+			BRR = {
+								set_province_controller = 1227
+                                set_province_controller = 1025
+                                set_province_controller = 907
+								set_province_controller = 914
+								set_province_controller = 1177
+								set_province_controller = 804
+								set_province_controller = 904
+								every_owned_state = {
+       			 				add_core_of = BRR
+    							}
+								declare_war_on = {
+               					 target = BRA
+               					 type = annex_everything
+            					}
+								declare_war_on = {
+               					 target = PRV
+               					 type = annex_everything
+            					}
+								declare_war_on = {
+               					 target = IGB
+               					 type = annex_everything
+            					}
+			}
+			IGB = {
+								set_province_controller = 1217
+								set_province_controller = 1125
+								set_province_controller = 1058
+								set_province_controller = 1088
+								set_province_controller = 833
+								every_owned_state = {
+       			 				add_core_of = IGB
+    							}
+								declare_war_on = {
+               					 target = BRA
+               					 type = annex_everything
+            					}
+								declare_war_on = {
+               					 target = BRR
+               					 type = annex_everything
+            					}
+								declare_war_on = {
+               					 target = PRV
+               					 type = annex_everything
+            					}
+			}
+		name = brazilwar.1.a
+	}
+}

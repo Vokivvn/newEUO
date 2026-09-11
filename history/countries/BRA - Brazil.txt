@@ -16,10 +16,10 @@ set_popularities = {
 	liberalism = 0
 	conservatism = 0
 	autocratic = 0
-	reactionary = 45
-	fascism = 22
-	national_socialism = 22
-	syncretism = 11
+	reactionary = 70
+	fascism = 0
+	national_socialism = 20
+	syncretism = 10
 }
 
 create_country_leader = {

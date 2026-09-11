@@ -98,3 +98,20 @@
  ARK_autocratic_party_long:0 "Free Army Commando"
  ARK_revolutionary_socialism_party:0 "Dresnok Clique"
  ARK_revolutionary_socialism_party_long:0 "Dresnok Clique"
+
+#BRAZIL AND WARLORDS PARTIES
+ BRA_reactionary_party:0 "PNRB"
+ BRA_reactionary_party_long:0 "Partido Nacionalista Revolucionário Brasileiro"
+
+ PRV_moderate_socialism_party:0 "COLINA"
+ PRV_moderate_socialism_party_long:0 "Comando de Libertação Nacional"
+ PRV_revolutionary_socialism_party:0 "COLINA"
+ PRV_revolutionary_socialism_party_long:0 "Comando de Libertação Nacional"
+
+ BRR_liberalism_party:0 "MDB"
+ BRR_liberalism_party_long:0 "Movimento Democrático Brasileiro"
+ BRR_conservatism_party:0 "MDB"
+ BRR_conservatism_party_long:0 "Movimento Democrático Brasileiro"
+
+ IGB_autocratic_party:0 "PTB"
+ IGB_autocratic_party_long:0 "Partido Trabalhista Brasileiro"

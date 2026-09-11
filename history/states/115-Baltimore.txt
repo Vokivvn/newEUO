@@ -7,9 +7,20 @@ state={
 	
 	history={
 		owner = DIX
+		add_core_of = DIX
+		victory_points = { 2770 30 } #baltimore
+		victory_points = { 2772 15 } #dover
+		victory_points = { 2771 15 } #wilmington ()joe bidne
+		victory_points = { 2775 15 } #annapolis
+		victory_points = { 2779 5 } #Cumberland
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 4
+			arms_factory = 2
+        }
 	}
 	
-	manpower=0
+	manpower= 6671486
 	buildings_max_level_factor=1
 	local_supplies=0
 }

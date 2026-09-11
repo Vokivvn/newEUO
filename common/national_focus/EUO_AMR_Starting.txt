@@ -1,0 +1,1072 @@
+focus_tree = {
+    id = AMR_Starting
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = AMR
+        }
+    }
+    default = no
+    reset_on_civilwar = no
+    continuous_focus_position = { x = 0 y = 0 }
+
+    focus = {
+        id = AMR_freedom_at_last
+        icon = GFX_goal_unknown
+        x = 29
+        y = 0
+        cost = 4
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_freedom_at_last completed"
+        }
+    }
+
+    focus = {
+        id = AMR_the_essentials_of_war
+        icon = GFX_goal_unknown
+        x = 29
+        y = 2
+        cost = 4
+        prerequisite = { focus = AMR_freedom_at_last }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_the_essentials_of_war completed"
+        }
+    }
+
+    focus = {
+        id = AMR_vestiges_of_the_minutemen
+        icon = GFX_goal_unknown
+        x = 55
+        y = 2
+        cost = 4
+        prerequisite = { focus = AMR_freedom_at_last }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_vestiges_of_the_minutemen completed"
+        }
+    }
+
+    focus = {
+        id = AMR_favors_from_denver
+        icon = GFX_goal_unknown
+        x = 6
+        y = 4
+        cost = 4
+        prerequisite = { focus = AMR_freedom_at_last }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_favors_from_denver completed"
+        }
+    }
+
+    focus = {
+        id = AMR_guns_trucks_and_everything_else
+        icon = GFX_goal_unknown
+        x = 27
+        y = 4
+        cost = 4
+        prerequisite = { focus = AMR_the_essentials_of_war }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = 3000
+                producer = DIX
+            }
+            add_equipment_to_stockpile = {
+                type = artillery_equipment
+                amount = 100
+                producer = DIX
+            }
+            add_equipment_to_stockpile = {
+                type = support_equipment
+                amount = 750
+                producer = DIX
+            }
+            add_equipment_to_stockpile = {
+                type = motorized_equipment
+                amount = 500
+                producer = DIX
+            }
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_guns_trucks_and_everything_else completed"
+        }
+    }
+
+    focus = {
+        id = AMR_industrial_trial_by_fire
+        icon = GFX_goal_unknown
+        x = 31
+        y = 4
+        cost = 4
+        prerequisite = { focus = AMR_the_essentials_of_war }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_industrial_trial_by_fire completed"
+        }
+    }
+
+    focus = {
+        id = AMR_an_orchestra_of_sabotage
+        icon = GFX_goal_unknown
+        x = 51
+        y = 4
+        cost = 4
+        prerequisite = { focus = AMR_vestiges_of_the_minutemen }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_an_orchestra_of_sabotage completed"
+        }
+    }
+
+    focus = {
+        id = AMR_don_t_fear_the_reaper
+        icon = GFX_goal_unknown
+        x = 59
+        y = 4
+        cost = 4
+        prerequisite = { focus = AMR_vestiges_of_the_minutemen }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_don_t_fear_the_reaper completed"
+        }
+    }
+
+    focus = {
+        id = AMR_sly_talking
+        icon = GFX_goal_unknown
+        x = 4
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_favors_from_denver }
+        mutually_exclusive = { focus = AMR_stress_the_importance_of_the_war }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_sly_talking completed"
+        }
+    }
+
+    focus = {
+        id = AMR_stress_the_importance_of_the_war
+        icon = GFX_goal_unknown
+        x = 8
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_favors_from_denver }
+        mutually_exclusive = { focus = AMR_sly_talking }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_stress_the_importance_of_the_war completed"
+        }
+    }
+
+    focus = {
+        id = AMR_saturday_night_specials
+        icon = GFX_goal_unknown
+        x = 23
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_guns_trucks_and_everything_else }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = 3760
+                producer = DIX
+            }
+            add_equipment_to_stockpile = {
+                type = artillery_equipment
+                amount = 265
+                producer = DIX
+            }
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_saturday_night_specials completed"
+        }
+    }
+
+    focus = {
+        id = AMR_opening_up_reserves
+        icon = GFX_goal_unknown
+        x = 29
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_industrial_trial_by_fire }
+        prerequisite = { focus = AMR_guns_trucks_and_everything_else }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            add_manpower = 5000
+		random_owned_controlled_state = {
+			add_resource = {
+				resource = rubber
+				amount = 24
+			}
+        }
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_opening_up_reserves completed"
+        }
+    }
+
+    focus = {
+        id = AMR_the_first_sounds_of_industry
+        icon = GFX_goal_unknown
+        x = 35
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_industrial_trial_by_fire }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+		    random_owned_controlled_state = {
+				add_building_construction = {
+			    type = arms_factory
+			    level = 3
+			    instant_build = yes
+			    }
+		    }
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_the_first_sounds_of_industry completed"
+        }
+    }
+
+    focus = {
+        id = AMR_acute_supply_interruption
+        icon = GFX_goal_unknown
+        x = 49
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_an_orchestra_of_sabotage }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_acute_supply_interruption completed"
+        }
+    }
+
+    focus = {
+        id = AMR_keeping_spirits_high
+        icon = GFX_goal_unknown
+        x = 53
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_an_orchestra_of_sabotage }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_keeping_spirits_high completed"
+        }
+    }
+
+    focus = {
+        id = AMR_building_a_command_line
+        icon = GFX_goal_unknown
+        x = 57
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_don_t_fear_the_reaper }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_building_a_command_line completed"
+        }
+    }
+
+    focus = {
+        id = AMR_a_legacy_of_markmanship
+        icon = GFX_goal_unknown
+        x = 61
+        y = 6
+        cost = 4
+        prerequisite = { focus = AMR_don_t_fear_the_reaper }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_a_legacy_of_markmanship completed"
+        }
+    }
+
+    focus = {
+        id = AMR_help_from_a_suited_hand
+        icon = GFX_goal_unknown
+        x = 2
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_sly_talking }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_help_from_a_suited_hand completed"
+        }
+    }
+
+    focus = {
+        id = AMR_a_public_relations_war
+        icon = GFX_goal_unknown
+        x = 10
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_stress_the_importance_of_the_war }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_a_public_relations_war completed"
+        }
+    }
+
+    focus = {
+        id = AMR_rationing_fuel
+        icon = GFX_goal_unknown
+        x = 17
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_saturday_night_specials }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_rationing_fuel completed"
+        }
+    }
+
+    focus = {
+        id = AMR_motor_pooling
+        icon = GFX_goal_unknown
+        x = 21
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_saturday_night_specials }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_motor_pooling completed"
+        }
+    }
+
+    focus = {
+        id = AMR_reviving_remington
+        icon = GFX_goal_unknown
+        x = 25
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_opening_up_reserves }
+        prerequisite = { focus = AMR_saturday_night_specials }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_reviving_remington completed"
+        }
+    }
+
+    focus = {
+        id = AMR_organizing_a_war_machine
+        icon = GFX_goal_unknown
+        x = 29
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_opening_up_reserves }
+        prerequisite = { focus = AMR_the_first_sounds_of_industry }
+        prerequisite = { focus = AMR_saturday_night_specials }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_organizing_a_war_machine completed"
+        }
+    }
+
+    focus = {
+        id = AMR_operating_the_roads_of_war
+        icon = GFX_goal_unknown
+        x = 33
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_the_first_sounds_of_industry }
+        prerequisite = { focus = AMR_opening_up_reserves }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_operating_the_roads_of_war completed"
+        }
+    }
+
+    focus = {
+        id = AMR_jumpstart_louisville
+        icon = GFX_goal_unknown
+        x = 37
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_the_first_sounds_of_industry }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_jumpstart_louisville completed"
+        }
+    }
+
+    focus = {
+        id = AMR_mountainside_basing
+        icon = GFX_goal_unknown
+        x = 41
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_the_first_sounds_of_industry }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_mountainside_basing completed"
+        }
+    }
+
+    focus = {
+        id = AMR_exhausting_the_traitors
+        icon = GFX_goal_unknown
+        x = 47
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_acute_supply_interruption }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_exhausting_the_traitors completed"
+        }
+    }
+
+    focus = {
+        id = AMR_escalating_the_underground_war
+        icon = GFX_goal_unknown
+        x = 51
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_acute_supply_interruption }
+        prerequisite = { focus = AMR_keeping_spirits_high }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_escalating_the_underground_war completed"
+        }
+    }
+
+    focus = {
+        id = AMR_aggressive_recruitment
+        icon = GFX_goal_unknown
+        x = 55
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_keeping_spirits_high }
+        prerequisite = { focus = AMR_building_a_command_line }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_aggressive_recruitment completed"
+        }
+    }
+
+    focus = {
+        id = AMR_alcohol_for_the_wound_and_mouth
+        icon = GFX_goal_unknown
+        x = 59
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_building_a_command_line }
+        prerequisite = { focus = AMR_a_legacy_of_markmanship }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_alcohol_for_the_wound_and_mouth completed"
+        }
+    }
+
+    focus = {
+        id = AMR_what_went_wrong
+        icon = GFX_goal_unknown
+        x = 63
+        y = 8
+        cost = 4
+        prerequisite = { focus = AMR_a_legacy_of_markmanship }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_what_went_wrong completed"
+        }
+    }
+
+    focus = {
+        id = AMR_plausible_deniability
+        icon = GFX_goal_unknown
+        x = 0
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_help_from_a_suited_hand }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_plausible_deniability completed"
+        }
+    }
+
+    focus = {
+        id = AMR_intelligence_hand_overs
+        icon = GFX_goal_unknown
+        x = 4
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_help_from_a_suited_hand }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_intelligence_hand_overs completed"
+        }
+    }
+
+    focus = {
+        id = AMR_volunteer_brigades
+        icon = GFX_goal_unknown
+        x = 8
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_a_public_relations_war }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_volunteer_brigades completed"
+        }
+    }
+
+    focus = {
+        id = AMR_foreign_patriots_organization
+        icon = GFX_goal_unknown
+        x = 12
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_a_public_relations_war }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_foreign_patriots_organization completed"
+        }
+    }
+
+    focus = {
+        id = AMR_armored_vehicle_improvisation
+        icon = GFX_goal_unknown
+        x = 19
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_motor_pooling }
+        prerequisite = { focus = AMR_rationing_fuel }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_armored_vehicle_improvisation completed"
+        }
+    }
+
+    focus = {
+        id = AMR_workarounds_and_cut_corners
+        icon = GFX_goal_unknown
+        x = 23
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_reviving_remington }
+        prerequisite = { focus = AMR_motor_pooling }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_workarounds_and_cut_corners completed"
+        }
+    }
+
+    focus = {
+        id = AMR_arm_to_the_teeth
+        icon = GFX_goal_unknown
+        x = 27
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_reviving_remington }
+        prerequisite = { focus = AMR_organizing_a_war_machine }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_arm_to_the_teeth completed"
+        }
+    }
+
+    focus = {
+        id = AMR_an_industrial_trial_by_fire
+        icon = GFX_goal_unknown
+        x = 31
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_operating_the_roads_of_war }
+        prerequisite = { focus = AMR_organizing_a_war_machine }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_an_industrial_trial_by_fire completed"
+        }
+    }
+
+    focus = {
+        id = AMR_the_resources_of_applachia
+        icon = GFX_goal_unknown
+        x = 35
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_operating_the_roads_of_war }
+        prerequisite = { focus = AMR_jumpstart_louisville }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_the_resources_of_applachia completed"
+        }
+    }
+
+    focus = {
+        id = AMR_mastering_perilous_construction
+        icon = GFX_goal_unknown
+        x = 39
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_mountainside_basing }
+        prerequisite = { focus = AMR_jumpstart_louisville }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_mastering_perilous_construction completed"
+        }
+    }
+
+    focus = {
+        id = AMR_an_uprising_in_tidewater
+        icon = GFX_goal_unknown
+        x = 49
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_escalating_the_underground_war }
+        prerequisite = { focus = AMR_exhausting_the_traitors }
+        mutually_exclusive = { focus = AMR_an_uprising_in_delaware }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_an_uprising_in_tidewater completed"
+        }
+    }
+
+    focus = {
+        id = AMR_an_uprising_in_delaware
+        icon = GFX_goal_unknown
+        x = 53
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_aggressive_recruitment }
+        prerequisite = { focus = AMR_escalating_the_underground_war }
+        mutually_exclusive = { focus = AMR_an_uprising_in_tidewater }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_an_uprising_in_delaware completed"
+        }
+    }
+
+    focus = {
+        id = AMR_a_well_fed_and_staffed_army
+        icon = GFX_goal_unknown
+        x = 57
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_aggressive_recruitment }
+        prerequisite = { focus = AMR_alcohol_for_the_wound_and_mouth }
+        mutually_exclusive = { focus = AMR_hardcore_lethal_warfare }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_a_well_fed_and_staffed_army completed"
+        }
+    }
+
+    focus = {
+        id = AMR_hardcore_lethal_warfare
+        icon = GFX_goal_unknown
+        x = 61
+        y = 10
+        cost = 4
+        prerequisite = { focus = AMR_alcohol_for_the_wound_and_mouth }
+        prerequisite = { focus = AMR_what_went_wrong }
+        mutually_exclusive = { focus = AMR_a_well_fed_and_staffed_army }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_hardcore_lethal_warfare completed"
+        }
+    }
+
+    focus = {
+        id = AMR_smoke_filled_rooms
+        icon = GFX_goal_unknown
+        x = 2
+        y = 12
+        cost = 4
+        prerequisite = { focus = AMR_intelligence_hand_overs }
+        prerequisite = { focus = AMR_plausible_deniability }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_smoke_filled_rooms completed"
+        }
+    }
+
+    focus = {
+        id = AMR_demanding_support
+        icon = GFX_goal_unknown
+        x = 10
+        y = 12
+        cost = 4
+        prerequisite = { focus = AMR_volunteer_brigades }
+        prerequisite = { focus = AMR_foreign_patriots_organization }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_demanding_support completed"
+        }
+    }
+
+    focus = {
+        id = AMR_use_it_until_it_breaks
+        icon = GFX_goal_unknown
+        x = 23
+        y = 12
+        cost = 4
+        prerequisite = { focus = AMR_arm_to_the_teeth }
+        prerequisite = { focus = AMR_workarounds_and_cut_corners }
+        prerequisite = { focus = AMR_armored_vehicle_improvisation }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_use_it_until_it_breaks completed"
+        }
+    }
+
+    focus = {
+        id = AMR_cranking_it_up
+        icon = GFX_goal_unknown
+        x = 35
+        y = 12
+        cost = 4
+        prerequisite = { focus = AMR_an_industrial_trial_by_fire }
+        prerequisite = { focus = AMR_the_resources_of_applachia }
+        prerequisite = { focus = AMR_mastering_perilous_construction }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_cranking_it_up completed"
+        }
+    }
+
+    focus = {
+        id = AMR_going_all_out
+        icon = GFX_goal_unknown
+        x = 51
+        y = 12
+        cost = 4
+        prerequisite = { focus = AMR_an_uprising_in_delaware focus = AMR_an_uprising_in_tidewater }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_going_all_out completed"
+        }
+    }
+
+    focus = {
+        id = AMR_join_or_die
+        icon = GFX_goal_unknown
+        x = 59
+        y = 12
+        cost = 4
+        prerequisite = { focus = AMR_a_well_fed_and_staffed_army focus = AMR_hardcore_lethal_warfare }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_join_or_die completed"
+        }
+    }
+
+    focus = {
+        id = AMR_down_for_the_count_once_again
+        icon = GFX_goal_unknown
+        x = 29
+        y = 19
+        cost = 4
+        prerequisite = { focus = AMR_join_or_die }
+        prerequisite = { focus = AMR_going_all_out }
+        prerequisite = { focus = AMR_use_it_until_it_breaks }
+        prerequisite = { focus = AMR_cranking_it_up }
+        prerequisite = { focus = AMR_demanding_support focus = AMR_smoke_filled_rooms }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_down_for_the_count_once_again completed"
+        }
+    }
+
+    focus = {
+        id = AMR_temptations_of_martin_luther_king
+        icon = GFX_goal_unknown
+        x = 27
+        y = 21
+        cost = 4
+        prerequisite = { focus = AMR_down_for_the_count_once_again }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_temptations_of_martin_luther_king completed"
+        }
+    }
+
+    focus = {
+        id = AMR_the_forlorn_sons_of_john_brown
+        icon = GFX_goal_unknown
+        x = 31
+        y = 21
+        cost = 4
+        prerequisite = { focus = AMR_down_for_the_count_once_again }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_the_forlorn_sons_of_john_brown completed"
+        }
+    }
+
+    focus = {
+        id = AMR_towards_salvation
+        icon = GFX_goal_unknown
+        x = 25
+        y = 23
+        cost = 4
+        prerequisite = { focus = AMR_temptations_of_martin_luther_king }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_towards_salvation completed"
+        }
+    }
+
+    focus = {
+        id = AMR_shattering_the_leageu
+        icon = GFX_goal_unknown
+        x = 29
+        y = 23
+        cost = 4
+        prerequisite = { focus = AMR_temptations_of_martin_luther_king }
+        prerequisite = { focus = AMR_the_forlorn_sons_of_john_brown }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_shattering_the_leageu completed"
+        }
+    }
+
+    focus = {
+        id = AMR_an_extended_arm
+        icon = GFX_goal_unknown
+        x = 33
+        y = 23
+        cost = 4
+        prerequisite = { focus = AMR_the_forlorn_sons_of_john_brown }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_an_extended_arm completed"
+        }
+    }
+
+    focus = {
+        id = AMR_emancipation
+        icon = GFX_goal_unknown
+        x = 23
+        y = 25
+        cost = 4
+        prerequisite = { focus = AMR_towards_salvation }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_emancipation completed"
+        }
+    }
+
+    focus = {
+        id = AMR_do_what_we_must
+        icon = GFX_goal_unknown
+        x = 27
+        y = 25
+        cost = 4
+        prerequisite = { focus = AMR_shattering_the_leageu }
+        prerequisite = { focus = AMR_towards_salvation }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_do_what_we_must completed"
+        }
+    }
+
+    focus = {
+        id = AMR_a_savage_fight
+        icon = GFX_goal_unknown
+        x = 31
+        y = 25
+        cost = 4
+        prerequisite = { focus = AMR_shattering_the_leageu }
+        prerequisite = { focus = AMR_an_extended_arm }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_a_savage_fight completed"
+        }
+    }
+
+    focus = {
+        id = AMR_brothers_in_arms
+        icon = GFX_goal_unknown
+        x = 35
+        y = 25
+        cost = 4
+        prerequisite = { focus = AMR_an_extended_arm }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_brothers_in_arms completed"
+        }
+    }
+
+    focus = {
+        id = AMR_a_promise_of_freedom
+        icon = GFX_goal_unknown
+        x = 23
+        y = 27
+        cost = 4
+        prerequisite = { focus = AMR_emancipation }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_a_promise_of_freedom completed"
+        }
+    }
+
+    focus = {
+        id = AMR_mete_and_dole
+        icon = GFX_goal_unknown
+        x = 29
+        y = 27
+        cost = 4
+        prerequisite = { focus = AMR_a_savage_fight }
+        prerequisite = { focus = AMR_do_what_we_must }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_mete_and_dole completed"
+        }
+    }
+
+    focus = {
+        id = AMR_onto_the_next_battle
+        icon = GFX_goal_unknown
+        x = 35
+        y = 27
+        cost = 4
+        prerequisite = { focus = AMR_brothers_in_arms }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_onto_the_next_battle completed"
+        }
+    }
+
+    focus = {
+        id = AMR_by_the_dawn_s_early_light
+        icon = GFX_goal_unknown
+        x = 29
+        y = 29
+        cost = 4
+        prerequisite = { focus = AMR_mete_and_dole }
+        prerequisite = { focus = AMR_a_promise_of_freedom }
+        prerequisite = { focus = AMR_onto_the_next_battle }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AMR_by_the_dawn_s_early_light completed"
+        }
+    }
+
+}

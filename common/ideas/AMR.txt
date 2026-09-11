@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		starting_up_industry = {
+			picture = goldmine_of_the_reich
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+                industrial_capacity_factory = 0.4
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		Mountainside_Basing = {
+			picture = goldmine_of_the_reich
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+                industrial_capacity_factory = 0.4
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}
