@@ -7,9 +7,18 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 2
+            arms_factory = 4
+        }
+		victory_points = { 2788 15 } #Norfolk
+		victory_points = { 2798 20 } #Raleigh
+		victory_points = { 2786 10 } #Greenville
 	}
 	
-	manpower=0
+	manpower=4035642
 	buildings_max_level_factor=1
 	local_supplies=0
 }

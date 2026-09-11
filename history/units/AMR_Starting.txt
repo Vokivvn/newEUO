@@ -1,0 +1,59 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+units = {
+    division= {
+        name = "American Resistance Militia"
+        location = 2815
+        division_template = "Militia Division"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "American Resistance Militia"
+        location = 2815
+        division_template = "Militia Division"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "American Resistance Militia"
+        location = 2815
+        division_template = "Militia Division"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "American Resistance Militia"
+        location = 2781
+        division_template = "Militia Division"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "American Resistance Militia"
+        location = 2781
+        division_template = "Militia Division"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "American Resistance Militia"
+        location = 2781
+        division_template = "Militia Division"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.3
+    }
+}
