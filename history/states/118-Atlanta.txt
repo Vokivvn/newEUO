@@ -7,9 +7,18 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 3
+            arms_factory = 3
+        }
+		victory_points = { 2834 35 } #Atlanta
+		victory_points = { 2835 15 } #Athens
+		victory_points = { 964 25 } #Augusta #Triple A!
+		victory_points = { 2833 3 } #Villa Rica
 	}
-	
-	manpower=0
+	manpower=7121000
 	buildings_max_level_factor=1
 	local_supplies=0
 }

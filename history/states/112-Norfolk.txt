@@ -14,8 +14,10 @@ state={
             arms_factory = 4
         }
 		victory_points = { 2788 15 } #Norfolk
-		victory_points = { 2798 20 } #Raleigh
+		victory_points = { 2797 20 } #Raleigh
+		victory_points = { 2798 15 } #Greensboro
 		victory_points = { 2786 10 } #Greenville
+		victory_points = { 2785 5 } #New Bern
 	}
 	
 	manpower=4035642

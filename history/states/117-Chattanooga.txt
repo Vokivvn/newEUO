@@ -7,6 +7,17 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 3
+            arms_factory = 2
+        }
+		victory_points = { 2831 20 } #Chattanooga
+		victory_points = { 2823 35 } #Nashville
+		victory_points = { 2812 10 } #Kingsport
+		victory_points = { 2807 2 } #Pikeville
+		victory_points = { 2820 15 } #Bowling Green
 	}
 	
 	manpower=0
