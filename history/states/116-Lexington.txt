@@ -10,10 +10,10 @@ state={
         add_core_of = DIX
         buildings = {
             infrastructure = 2
-            industrial_complex = 4
+            industrial_complex = 3
             arms_factory = 2
         }
-		victory_points = { 2814 20 } #Lexington
+		victory_points = { 2814 15 } #Lexington
 		victory_points = { 2813 10 } #Frankfort
 		victory_points = { 1095 5 } #Covington
 		victory_points = { 2805 5 } #Ashland

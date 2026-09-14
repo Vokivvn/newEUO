@@ -15,7 +15,7 @@ state={
         }
 		victory_points = { 2804 10 } #Asheville
 		victory_points = { 2836 10 } #Also Greenville
-		victory_points = { 2818 20 } #Knoxville
+		victory_points = { 2818 15 } #Knoxville
 	}
 	
 	manpower=2910000

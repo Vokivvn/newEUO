@@ -7,9 +7,15 @@ state={
 	
 	history={
 		owner = DIX
+        buildings = {
+            infrastructure = 1
+        }
+		victory_points = { 1762 5 } #Freeport
+		victory_points = { 2022 5 } #George Town
+		victory_points = { 2299 15 } #Nassau
 	}
 	
-	manpower=0
+	manpower=351461
 	buildings_max_level_factor=1
 	local_supplies=0
 }

@@ -7,9 +7,19 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 3
+			industrial_complex = 3
+        }
+		victory_points = { 2924 35 } #Miami
+		victory_points = { 2925 15 } #West Palm Beach
+		victory_points = { 2927 15 } #Port St. Lucie
+		victory_points = { 2930 5 } #Naples
+		victory_points = { 2931 15 } #Fort Myers
 	}
 	
-	manpower=0
+	manpower=9770004
 	buildings_max_level_factor=1
 	local_supplies=0
 }

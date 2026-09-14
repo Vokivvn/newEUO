@@ -7,9 +7,21 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 5
+            arms_factory = 3
+        }
+		victory_points = { 1027 35 } #Louisville
+		victory_points = { 2884 10 } #Owensboro
+		victory_points = { 2885 10 } #Elizabethtown
+		victory_points = { 2887 5 } #Paducah
+		victory_points = { 2888 5 } #Madisonville
+		victory_points = { 2881 5 } #Hopkinsville
 	}
 	
-	manpower=0
+	manpower=3102509
 	buildings_max_level_factor=1
 	local_supplies=0
 }

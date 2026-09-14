@@ -7,9 +7,19 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+        }
+		victory_points = { 2850 20 } #Jacksonville
+		victory_points = { 2849 15 } #St. Augustine
+		victory_points = { 2855 15 } #Gainesville
+		victory_points = { 2859 5 } #Valdosta
 	}
 	
-	manpower=0
+	manpower=2690000
 	buildings_max_level_factor=1
 	local_supplies=0
 }

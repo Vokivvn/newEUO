@@ -7,9 +7,16 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 3
+			industrial_complex = 1
+        }
+		victory_points = { 2874 20 } #Birmingham
+		victory_points = { 2873 15 } #Montgomery
 	}
 	
-	manpower=0
+	manpower=1590000 
 	buildings_max_level_factor=1
 	local_supplies=0
 }

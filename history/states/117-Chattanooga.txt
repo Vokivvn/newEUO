@@ -13,14 +13,14 @@ state={
             industrial_complex = 3
             arms_factory = 2
         }
-		victory_points = { 2831 20 } #Chattanooga
+		victory_points = { 2831 15 } #Chattanooga
 		victory_points = { 2823 35 } #Nashville
 		victory_points = { 2812 10 } #Kingsport
 		victory_points = { 2807 2 } #Pikeville
 		victory_points = { 2820 15 } #Bowling Green
 	}
 	
-	manpower=0
+	manpower=7926000
 	buildings_max_level_factor=1
 	local_supplies=0
 }
