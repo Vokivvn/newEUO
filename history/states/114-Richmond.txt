@@ -13,6 +13,8 @@ state={
             industrial_complex = 4
             arms_factory = 4
         }
+
+		#test
 		victory_points = { 2791 25 } #Richmond
 		victory_points = { 2790 3 } #Colonial Beach
 		victory_points = { 2777 5 } #Fredericksburg
