@@ -7,9 +7,20 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+        }
+		victory_points = { 2890 5 } #Dothan
+		victory_points = { 2891 10 } #Pensacola
+		victory_points = { 2892 15 } #Mobile
+		victory_points = { 2900 5 } #Crestview
+		victory_points = { 816 15 } #Tallahasse
 	}
 	
-	manpower=0
+	manpower=2512300
 	buildings_max_level_factor=1
 	local_supplies=0
 }

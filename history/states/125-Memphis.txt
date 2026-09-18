@@ -7,9 +7,18 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 2
+            arms_factory = 3
+        }
+		victory_points = { 2876 30 } #Memphis
+		victory_points = { 2878 10 } #Jackson
+		victory_points = { 2877 5 } #Dyersburg
+		victory_points = { 2883 3 } #Union City
 	}
 	
-	manpower=0
+	manpower=1740000
 	buildings_max_level_factor=1
 	local_supplies=0
 }

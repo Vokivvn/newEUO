@@ -7,9 +7,14 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 1
+        }
+		victory_points = { 2192 5 } #Key West
 	}
 	
-	manpower=0
+	manpower=73090
 	buildings_max_level_factor=1
 	local_supplies=0
 }

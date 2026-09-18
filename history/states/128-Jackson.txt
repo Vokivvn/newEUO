@@ -7,9 +7,19 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 2
+			industrial_complex = 1
+        }
+		victory_points = { 2917 20 } #Jackson
+		victory_points = { 2912 5 } #Oxford
+		victory_points = { 2916 5 } #Vicksburg
+		victory_points = { 2919 5 } #Greenville #There's a lot of Greenvilles, this may be in refrence to the fact that the south is, quite green.
+		victory_points = { 2920 5 } #Clarksdale
 	}
 	
-	manpower=0
+	manpower=1300003
 	buildings_max_level_factor=1
 	local_supplies=0
 }

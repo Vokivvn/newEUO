@@ -7,9 +7,21 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+        }
+		victory_points = { 2940 30 } #Orlando
+		victory_points = { 2928 5 } #Melbourne
+		victory_points = { 2929 10 } #Daytona Beach
+		victory_points = { 2934 20 } #Tampa
+		victory_points = { 2935 15 } #St. Petersburg
+		victory_points = { 2936 10 } #Spring Hill
 	}
 	
-	manpower=0
+	manpower=7490000
 	buildings_max_level_factor=1
 	local_supplies=0
 }

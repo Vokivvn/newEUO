@@ -7,9 +7,15 @@ state={
 	
 	history={
 		owner = DIX
+        add_core_of = DIX
+        buildings = {
+            infrastructure = 2
+        }
+		victory_points = { 2904 10 } #Meridian
+		victory_points = { 2903 15 } #Tuscaloosa
 	}
 	
-	manpower=0
+	manpower=581850
 	buildings_max_level_factor=1
 	local_supplies=0
 }
