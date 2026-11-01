@@ -1,0 +1,15 @@
+state={
+	id=201
+	name="STATE_201"
+	provinces={
+		1894 
+	}
+	
+	history={
+		owner = SLU
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

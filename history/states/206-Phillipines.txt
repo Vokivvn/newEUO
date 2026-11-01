@@ -1,0 +1,15 @@
+state={
+	id=206
+	name="STATE_206"
+	provinces={
+		1531 1532 1538 1539 1540 1604 1605 1610 1614 1629 1654 1693 1709 1725 1875 1893 1938 1939 1956 1957 2019 2070 2071 2072 2116 2183 2185 2235 2293 2294 
+	}
+	
+	history={
+		owner = PHI
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

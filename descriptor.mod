@@ -1,7 +1,8 @@
-version="v0.1.2-dev1"
+version="1"
 tags={
 	"Alternative History"
 }
+picture="thumbnail.jpg"
 name="Einheit und Ordnung"
 replace_path="common/abilities"
 replace_path="common/ai_focuses"
@@ -37,4 +38,5 @@ replace_path="music"
 replace_path="map"
 replace_path="map/strategicregions"
 replace_path="tests"
-supported_version="1.19.*"
+supported_version="1.19.3.0"
+remote_file_id="3823752180"

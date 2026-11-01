@@ -1,0 +1,14 @@
+state={
+	id=196
+	name="STATE_196"
+	provinces={
+		2143 
+	}
+	
+	history={
+		owner = GRD
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

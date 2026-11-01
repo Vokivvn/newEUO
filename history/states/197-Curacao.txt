@@ -1,0 +1,15 @@
+state={
+	id=197
+	name="STATE_197"
+	provinces={
+		2144 2186 2236 
+	}
+	
+	history={
+		owner = CRC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

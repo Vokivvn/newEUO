@@ -862,6 +862,11 @@ BNT = {
 	color_ui = rgb { 54 63 58 }
 }
 
+AGL = {
+	color = rgb { 181 76 100 }
+	color_ui = rgb { 181 76 100 }
+}
+
 EVE = {
 	color = rgb { 129 130 128 }
 	color_ui = rgb { 129 130 128 }

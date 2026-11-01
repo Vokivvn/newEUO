@@ -1,0 +1,15 @@
+state={
+	id=208
+	name="STATE_208"
+	provinces={
+		1504 1505 1518 1519 1794 1838 
+	}
+	
+	history={
+		owner = NZL
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

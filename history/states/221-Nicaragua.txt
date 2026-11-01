@@ -1,0 +1,15 @@
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		1047 
+	}
+	
+	history={
+		owner = NIC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

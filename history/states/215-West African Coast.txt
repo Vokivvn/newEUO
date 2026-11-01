@@ -1,0 +1,15 @@
+state={
+	id=215
+	name="STATE_215"
+	provinces={
+		538 2141 
+	}
+	
+	history={
+		owner = AKA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

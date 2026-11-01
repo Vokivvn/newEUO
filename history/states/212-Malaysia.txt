@@ -1,0 +1,15 @@
+state={
+	id=212
+	name="STATE_212"
+	provinces={
+		633 
+	}
+	
+	history={
+		owner = MAL
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
