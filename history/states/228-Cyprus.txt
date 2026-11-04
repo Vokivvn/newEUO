@@ -1,0 +1,15 @@
+state={
+	id=228
+	name="STATE_228"
+	provinces={
+		1603 
+	}
+	
+	history={
+		owner = ITA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

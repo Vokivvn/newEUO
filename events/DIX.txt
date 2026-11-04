@@ -212,7 +212,6 @@ country_event = { #Intro
 				add_state_core = 133
 				add_state_core = 134
 				add_state_core = 135
-				load_focus_tree = AMR_Starting
 			}
 			RNR = {
 				transfer_state = 125
@@ -252,7 +251,7 @@ country_event = { #Intro
 				transfer_state = 131
 				transfer_state = 132
 				load_oob = CSA_REVOLT
-				add_state_core =
+				add_state_core = 4
 				add_state_core = 112
 				add_state_core = 113
 				add_state_core = 114

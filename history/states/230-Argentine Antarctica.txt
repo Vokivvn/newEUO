@@ -1,0 +1,15 @@
+state={
+	id=230
+	name="STATE_230"
+	provinces={
+		1408 1700 1713 1789 1803 1807 1816 1843 1862 1889 2009 2169 
+	}
+	
+	history={
+		owner = ARG
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

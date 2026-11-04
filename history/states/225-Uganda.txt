@@ -1,0 +1,15 @@
+state={
+	id=225
+	name="STATE_225"
+	provinces={
+		184 
+	}
+	
+	history={
+		owner = UGA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
