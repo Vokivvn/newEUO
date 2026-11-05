@@ -1,4 +1,5 @@
 ﻿add_namespace = DNV
+add_namespace = DNV_elections
 
 country_event = { #Intro 
 	id = DNV.1
@@ -16,6 +17,24 @@ country_event = { #Intro
 country_event = { #Intro 
 	id = DNV.3
 	title = DNV.3.t
+	desc = DNV.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DNV.3.a
+		add_opinion_modifier = {
+			target = DIX 
+			modifier = DIX_denver_negotiations
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = DNV.4
+	title = DNV.4.t
 	desc = DNV.3.d
 	picture = GFX_report_event_chinese_soldiers_01
 

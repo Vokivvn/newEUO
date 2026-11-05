@@ -54,6 +54,31 @@ spriteTypes = {
 		name = "GFX_idea_goldmine_of_the_reich"
 		texturefile = "gfx/interface/ideas/DIX/idea_dix_goldmine_of_the_reich.dds"
 	}	
+	
+	spriteType = {
+		name = "GFX_idea_last_light_of_the_republic"
+		texturefile = "gfx/interface/ideas/DNV/idea_dnv_last_light_of_the_republic.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_government_in_exile"
+		texturefile = "gfx/interface/ideas/DNV/idea_dnv_government_in_exile.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_fortress_america"
+		texturefile = "gfx/interface/ideas/DNV/idea_dnv_fortress_america.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_dreams_of_reclamation"
+		texturefile = "gfx/interface/ideas/DNV/idea_dnv_dreams_of_reclamation.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_crumbling_legitimacy"
+		texturefile = "gfx/interface/ideas/DNV/idea_dnv_crumbling_legitimacy.dds"
+	}	
 
 	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"

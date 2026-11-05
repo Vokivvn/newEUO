@@ -10,7 +10,16 @@ set_politics = {
 }
 
 set_popularities = {
-	moderate_socialism = 100
+	anarchism = 0
+	revolutionary_socialism = 0
+	moderate_socialism = 27
+	liberalism = 25
+	conservatism = 30
+	autocratic = 3
+	reactionary = 6
+	fascism = 3
+	national_socialism = 3
+	syncretism = 3
 }
 
 add_ideas = {

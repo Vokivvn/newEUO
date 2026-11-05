@@ -68,8 +68,8 @@ ideas = {
 			}
 		}
 		
-		pierces_long_reign = {
-			picture = pierces_long_reign
+		dreams_of_reclamation = {
+			picture = dreams_of_reclamation
 			
 			allowed = {
 				original_tag = DNV
@@ -89,8 +89,8 @@ ideas = {
 			}
 		}
 		
-		white_harmony = {
-			picture = white_harmony
+		crumbling_legitimacy = {
+			picture = crumbling_legitimacy
 			
 			allowed = {
 				original_tag = DNV
