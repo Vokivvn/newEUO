@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		last_light_of_the_republic = {
-			picture = goldmine_of_the_reich
+			picture = last_light_of_the_republic
 			
 			allowed = {
 				always = no
@@ -14,19 +14,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				drift_defence_factor = 0.4
-				local_resources_factor = 0.32
-				political_power_gain = 0.20
-				war_support_factor = -0.15
-				trade_opinion_factor = 0.5
-			}
-			rule = {
-				can_create_factions = yes
+				drift_defence_factor = 0.2
+				stability_factor = 0.05
+				political_power_gain = -0.30
 			}
 		}
 		
 		government_in_exile = {
-			picture = dixie_prosperity
+			picture = government_in_exile
 			
 			allowed = {
 				original_tag = DNV
@@ -39,16 +34,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_org_Factor = 0.05
-				planning_speed = 0.25
-				research_speed_factor = 0.25
-				stability_factor = 0.2
-				opinion_gain_monthly_factor = 0.3
+				research_speed_factor = -0.25
+				stability_factor = -0.2
 			}
 		}
 
 		fortress_america = {
-			picture = feeble_military
+			picture = fortress_america
 			
 			allowed = {
 				original_tag = DNV
@@ -61,10 +53,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_speed_factor = -0.15
-				planning_speed = -0.15
-				unit_upkeep_attrition_factor = 0.2
-				supply_consumption_factor = 0.25
+				defensive_war_stability_factor = 0.3
+				war_support_factor = 0.05
+				planning_speed = 0.15
+				political_power_gain = 0.01
 			}
 		}
 		
@@ -103,10 +95,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				monthly_population = 0.42
-				production_speed_buildings_factor = 0.2
-				conscription_factor = 0.3
-				stability_weekly = 0.01
+				monthly_population = -0.42
+				production_speed_buildings_factor = -0.2
+				conscription_factor = -0.3
+				stability_weekly = -0.01
 			}
 		}
 

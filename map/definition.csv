@@ -2622,7 +2622,7 @@
 2621;91;80;128;lake;false;lakes;0
 2622;96;243;128;lake;false;lakes;0
 2623;198;149;128;lake;false;lakes;0
-2624;213;252;128;lake;false;lakes;0
+2624;213;252;128;land;false;plains;0
 2625;41;119;128;lake;false;lakes;0
 2626;28;234;128;lake;false;lakes;0
 2627;141;59;128;lake;false;lakes;0
@@ -3026,3 +3026,4 @@
 3024;190;162;202;land;false;plains;5
 3025;5;16;19;land;false;plains;5
 3026;199;6;127;land;false;plains;5
+3027;102;219;165;land;true;plains;5

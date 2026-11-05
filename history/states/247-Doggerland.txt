@@ -1,0 +1,15 @@
+state={
+	id=247
+	name="STATE_247"
+	provinces={
+		3027 
+	}
+	
+	history={
+		owner = ENG
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
