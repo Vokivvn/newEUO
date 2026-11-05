@@ -1,0 +1,15 @@
+state={
+	id=245
+	name="STATE_245"
+	provinces={
+		2992 2993 2994 2995 2996 2997 2998 2999 3000 3001 3002 3003 3004 3005 3006 3008 3009 
+	}
+	
+	history={
+		owner = NGE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

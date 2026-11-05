@@ -5,7 +5,7 @@ country_event = { #Intro
 	id = DNV.1
 	title = DNV.1.t
 	desc = DNV.1.d
-	picture = GFX_report_event_chinese_soldiers_01
+	picture = GFX_report_event_dnv_nader_sweep
 
 	is_triggered_only = yes
 	
