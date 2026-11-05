@@ -15,6 +15,19 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
+	id = DNV.2
+	title = DNV.2.t
+	desc = DNV.2.d
+	picture = GFX_report_event_dnv_vote_vote_vote
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DNV.2.a
+	}
+}
+
+country_event = { #Intro 
 	id = DNV.3
 	title = DNV.3.t
 	desc = DNV.3.d
