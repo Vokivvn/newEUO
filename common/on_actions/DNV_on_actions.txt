@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			DNV = {
+				country_event = { id = DNV.1 days = 0 } 
+			}
+		}
+	}
+}

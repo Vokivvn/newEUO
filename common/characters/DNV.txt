@@ -8,6 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = progressivism
+			desc = "POLITICS_RALPH_NADER_DESC"
 			expire = "1950.1.1.1"
 			id = -1
 		}
