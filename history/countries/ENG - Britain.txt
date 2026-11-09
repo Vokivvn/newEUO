@@ -92,6 +92,8 @@ recruit_character = ENG_peter_hitchens
 recruit_character = ENG_john_mcdonnell
 recruit_character = ENG_rod_liddle
 recruit_character = ENG_theresa_may
+recruit_character = ENG_david_cameron
+
 
 
 

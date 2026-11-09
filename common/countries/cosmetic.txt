@@ -18,3 +18,7 @@ MDFFEDERATION = {
     color = rgb { 234 208 175 }
     color_ui = rgb { 234 208 175 }
 }
+ENG_doggerland_ct = {
+    color = rgb { 150 96 33 }
+    color_ui = rgb { 150 96 33 }
+}

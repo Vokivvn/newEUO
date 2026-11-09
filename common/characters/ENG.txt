@@ -106,6 +106,15 @@ characters = {
 		}
 	}
 
+	ENG_david_cameron = { #DOGGERLAND
+		name = "David Cameron" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/cameron_evil.png"
+			}
+		}
+	}
+
 	#THE REVOLUTION
 	ENG_tommy_robinson = { #THE HOOLIGAN
 		name = "Stephen Yaxley-Lennon" 

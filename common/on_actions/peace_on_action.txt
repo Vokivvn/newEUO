@@ -77,6 +77,12 @@ on_actions = {
 						set_nationality = FBR
 					}
 				}
+				GER = {
+					country_event = {
+						id = ingurland.15
+						days = 5
+					}
+				}
 				add_country_leader_role = {
 				    character = ENG_rupert_lowe
 				    promote_leader = yes

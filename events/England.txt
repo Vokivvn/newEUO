@@ -755,3 +755,60 @@ country_event = { #Intro
 		name = ingurland.14.a
 	}
 }
+
+#Reichsprotektorat Doggerland - tell Germany
+country_event = {
+	id = ingurland.15
+	title = ingurland.15.t
+	desc = ingurland.15.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ingurland.15.a
+		247 = {
+			add_core_of = ENG
+			transfer_state_to = ENG
+		}
+		puppet = ENG
+		hidden_effect = {
+			ENG = {
+				set_cosmetic_tag = ENG_doggerland_ct
+				add_country_leader_role = {
+				    character = ENG_david_cameron
+				    promote_leader = yes
+				    country_leader = {
+				        ideology = modern_nazism
+				        traits = {
+						###
+					}
+				    }
+				}
+				set_popularities = {
+					national_socialism = 60
+					fascism = 35
+					syncretism = 5
+				}
+				set_politics = {
+				    ruling_party = national_socialism
+				    elections_allowed = no
+				}
+			}
+		}
+		FBR = {
+			country_event = ingurland.16
+		}
+	}
+}
+#FBR is notified
+country_event = {
+	id = ingurland.16
+	title = ingurland.16.t
+	desc = ingurland.16.d
+	#picture =
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ingurland.16.a
+		add_political_power = -25
+	}
+}
