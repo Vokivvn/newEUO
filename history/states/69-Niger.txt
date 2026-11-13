@@ -2,7 +2,7 @@ state={
 	id=69
 	name="STATE_69"
 	provinces={
-		44 307 
+		44 307 3028 3029 
 	}
 	
 	history={
@@ -10,6 +10,8 @@ state={
 		2009.1.1 = {
 			TUA = {
 				set_province_controller = 307
+				set_province_controller = 3028
+				set_province_controller = 3029
 			}
 		}
 	}

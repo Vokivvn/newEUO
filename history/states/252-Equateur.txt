@@ -1,0 +1,15 @@
+state={
+	id=252
+	name="STATE_252"
+	provinces={
+		628 
+	}
+	
+	history={
+		owner = EQU
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

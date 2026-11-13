@@ -1,0 +1,15 @@
+state={
+	id=249
+	name="STATE_249"
+	provinces={
+		476 3030 3031 3032 3033 3034 3035 3036 3037 3038 3039 3040 3041 3042 3043 3044 3045 3046 3047 3048 
+	}
+	
+	history={
+		owner = TUA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

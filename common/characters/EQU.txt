@@ -1,0 +1,16 @@
+characters = {
+	EQU_henry_thomas_lokondo = {
+		name = "Henri-Thomas Lokondo" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_henry_thomas_lokondo
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -13,10 +13,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-set_autonomy = {
-	target = CMR
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
 recruit_character = COG_nzanga_mobutu

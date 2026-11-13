@@ -998,8 +998,8 @@ DHO = {
 }
 
 CAR = {
-	color = rgb { 145 29 29 }
-	color_ui = rgb { 145 29 29 }
+	color = rgb { 79 84 21 }
+	color_ui = rgb { 79 84 21 }
 }
 
 ADE = {
@@ -1219,6 +1219,10 @@ ISR = {
 CSA = {
 	color = rgb { 56 79 76 }
 	color_ui = rgb { 56 79 76 }
+}
+BAH = {
+	color = rgb { 83 101 193 }
+	color_ui = rgb { 83 101 193 }
 }
 AVS = {
 	color = rgb { 175 98 26 }
@@ -1684,93 +1688,17 @@ IEA = {
 	color = rgb { 131 175 103 }
 	color_ui = rgb { 131 175 103 }
 }
-LBV = {
-	color = rgb { 179 11 0 }
-	color_ui = rgb { 102 0 0 }
-}
-PAP = {
-	color = rgb { 255 255 204 }
-	color_ui = rgb { 255 255 26 }
-}
-TOS = {
-	color = rgb { 255 128 128 }
-	color_ui = rgb { 204 0 0 }
-}
-SPM = {
-	color = rgb { 0 255 255 }
-	color_ui = rgb { 0 179 179 }
-}
-TTS = {
-	color = rgb { 230 230 0 }
-	color_ui = rgb { 179 179 0 }
-}
-GRN = {
-	color = rgb { 255 80 80 }
-	color_ui = rgb { 179 0 0 }
-}
-RAP = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 102 0 0 }
-}
-GAR = {
-	color = rgb { 128 128 255 }
-	color_ui = rgb { 0 0 128 }
-}
-INC = {
-	color = rgb { 255 204 0 }
-	color_ui = rgb { 128 102 0 }
-}
-MIS = {
-	color = rgb { 255 51 0 }
-	color_ui = rgb { 153 31 0 }
-}
-MAY = {
-	color = rgb { 255 80 80 }
-	color_ui = rgb { 153 0 0 }
-}
-INU = {
-	color = rgb { 51 204 204 }
-	color_ui = rgb { 15 61 61 }
-}
-CHR = {
-	color = rgb { 204 122 0 }
-	color_ui = rgb { 77 46 0 }
-}
-ITZ = {
-	color = rgb { 204 204 0 }
-	color_ui = rgb { 102 102 0 }
-}
-NAH = {
-	color = rgb { 51 153 102 }
-	color_ui = rgb { 13 38 26 }
-}
-IAS = {
-	color = rgb { 0 153 51 }
-	color_ui = rgb { 0 51 17 }
-}
-YUC = {
-	color = rgb { 255 26 26 }
-	color_ui = rgb { 102 0 0 }
-}
-OST = {
-	color = rgb { 95 95 95 }
-	color_ui = rgb { 138 155 116 }
-}
-RIG = {
-	color = rgb { 0 0 128 }
-	color_ui = rgb { 0 0 51 }
-}
-QUE = {
-	color = rgb { 0 102 255 }
-	color_ui = rgb { 0 31 77 }
-}
-KAT = {
-	color = rgb { 61 86 61 }
-	color_ui = rgb { 61 86 61 }
+RCG = {
+	color = rgb { 71 86 50 }
+	color_ui = rgb { 71 86 50 }
 }
 BIA = {
-	color = rgb { 0 153 51 }
-	color_ui = rgb { 0 77 26 }
+	color = rgb { 43 84 32 }
+	color_ui = rgb { 43 84 32 }
+}
+EQU = {
+	color = rgb { 50 86 68 }
+	color_ui = rgb { 50 86 68 }
 }
 CBV = {
 	color = rgb { 90 150 96 }

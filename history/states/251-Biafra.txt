@@ -1,0 +1,15 @@
+state={
+	id=251
+	name="STATE_251"
+	provinces={
+		3050 
+	}
+	
+	history={
+		owner = BIA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

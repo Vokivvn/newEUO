@@ -836,4 +836,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAD/Portrait_MAD_Andry_Rajoelina.png"
 	}	
 	
+	spriteType = {
+		name = "GFX_portrait_henry_thomas_lokondo"
+		texturefile = "gfx/leaders/EQU/Portrait_EQU_henry_thomas_lokondo.png"
+	}
 }
