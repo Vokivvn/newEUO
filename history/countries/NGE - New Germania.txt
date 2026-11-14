@@ -1,4 +1,4 @@
-capital = 1061
+capital = 5
 
 oob = "NGE_2010"
 

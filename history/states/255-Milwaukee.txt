@@ -1,0 +1,15 @@
+state={
+	id=255
+	name="STATE_255"
+	provinces={
+		3053 3054 3055 3056 3057 3058 3059 3060 3061 3062 3063 3064 
+	}
+	
+	history={
+		owner = NGE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -156,11 +156,10 @@ country_event = {
 			MDF = { change_tag_from = NGE }
 		}
         MDF = {
-			transfer_state = 1061
-			transfer_state = 1062
-			transfer_state = 1063
-			transfer_state = 1064
-			transfer_state = 1065
+			transfer_state = 5
+			transfer_state = 243
+			transfer_state = 244
+			transfer_state = 260
 			load_oob = MDF_Gotime
 			create_faction_from_template = {
 				template =
@@ -173,28 +172,28 @@ country_event = {
 			inherit_technology = NGE
 		}
         WIS = {
-			transfer_state = 1066
+			transfer_state = 255
 			load_oob = WIS_Gotime
 			inherit_technology = NGE
 		}
         FLP = {
-			transfer_state = 1067
+			transfer_state = 261
 			load_oob = FLP_Gotime
 			inherit_technology = NGE
 		}
         ANT = {
-			transfer_state = 1068
+			transfer_state = 239
 			load_oob = ANT_Gotime
 			inherit_technology = NGE
 		}
         ODF = {
-			transfer_state = 1069
+			transfer_state = 240
 			load_oob = ODF_Gotime
 			add_ideas = Ohio_No_Factions
 			inherit_technology = NGE
 		}
         OHC = {
-			transfer_state = 1070
+			transfer_state = 238
 			load_oob = OHC_Gotime
 			add_ideas = Ohio_No_Factions
 			inherit_technology = NGE
@@ -220,11 +219,10 @@ country_event = {
 			}
 		}
         MDF = {
-			transfer_state = 1061
-			transfer_state = 1062
-			transfer_state = 1063
-			transfer_state = 1064
-			transfer_state = 1065
+			transfer_state = 5
+			transfer_state = 243
+			transfer_state = 244
+			transfer_state = 260
 			load_oob = MDF_Gotime
 			create_faction_from_template = {
 				template =
@@ -237,28 +235,28 @@ country_event = {
 			inherit_technology = NGE
 		}
         WIS = {
-			transfer_state = 1066
+			transfer_state = 255
 			load_oob = WIS_Gotime
 			inherit_technology = NGE
 		}
         FLP = {
-			transfer_state = 1067
+			transfer_state = 261
 			load_oob = FLP_Gotime
 			inherit_technology = NGE
 		}
         ANT = {
-			transfer_state = 1068
+			transfer_state = 239
 			load_oob = ANT_Gotime
 			inherit_technology = NGE
 		}
         ODF = {
-			transfer_state = 1069
+			transfer_state = 240
 			load_oob = ODF_Gotime
 			add_ideas = Ohio_No_Factions
 			inherit_technology = NGE
 		}
         OHC = {
-			transfer_state = 1070
+			transfer_state = 238
 			load_oob = OHC_Gotime
 			add_ideas = Ohio_No_Factions
 			inherit_technology = NGE

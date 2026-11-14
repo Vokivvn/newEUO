@@ -7,11 +7,9 @@ state={
 	
 	history={
 		owner = ENG
-		add_core_of = ENG
-		victory_points = { 3027 5 }
 	}
 	
-	manpower= 52392
+	manpower=0
 	buildings_max_level_factor=1
 	local_supplies=0
 }
