@@ -1,0 +1,21 @@
+state={
+	id=267
+	name="STATE_267"
+	provinces={
+		3092 3093 3094 3095 3096 3097 3098 3099 3100 3101 3102
+	}
+	
+	history={
+		owner = NGE
+        add_core_of = NGE
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 3
+            arms_factory = 1
+        }
+	}
+	
+	manpower=289979
+	buildings_max_level_factor=1
+	local_supplies=0
+}
