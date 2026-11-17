@@ -3565,6 +3565,9 @@
  EQU:0 "State of Équateur"
  EQU_DEF:0 "the State of Équateur"
  EQU_ADJ:0 "Équateur"
+ CPU:0 "Carpatho-Ukraine"
+ CPU_DEF:0 "Carpatho-Ukraine"
+ CPU_ADJ:0 "Carpatho-Ukrainian"
 
  SIL_communism:0 "Silesian People's Republic"
  SIL_communism_DEF:0 "the Silesian People's Republic"

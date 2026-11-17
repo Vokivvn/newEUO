@@ -1002,6 +1002,11 @@ CAR = {
 	color_ui = rgb { 79 84 21 }
 }
 
+CPU = {
+	color = rgb { 92 111 142 }
+	color_ui = rgb { 92 111 142 }
+}
+
 ADE = {
 	color = rgb { 62 71 22 }
 	color_ui = rgb { 62 71 22 }
