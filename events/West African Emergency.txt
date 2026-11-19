@@ -68,6 +68,7 @@ country_event = { #Intro
 			ISA = {
 				transfer_state = 290
 				transfer_state = 291
+				set_province_controller = 3038
 				set_province_controller = 3217
 				set_province_controller = 3218
 				set_province_controller = 3219
