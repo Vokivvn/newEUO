@@ -1007,6 +1007,11 @@ CPU = {
 	color_ui = rgb { 92 111 142 }
 }
 
+CRI = {
+	color = rgb { 58 54 54 }
+	color_ui = rgb { 58 54 54 }
+}
+
 ADE = {
 	color = rgb { 62 71 22 }
 	color_ui = rgb { 62 71 22 }
@@ -1472,10 +1477,6 @@ KAL = {
 KAR = {
 	color = rgb { 0 153 51 }
 	color_ui = rgb { 0 128 43 }
-}
-CRI = {
-	color = rgb { 255 80 80 }
-	color_ui = rgb { 204 0 0 }
 }
 TAT = {
 	color = rgb { 255 51 0 }

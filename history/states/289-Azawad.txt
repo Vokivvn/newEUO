@@ -1,0 +1,15 @@
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		279 314 450 
+	}
+	
+	history={
+		owner = MLI
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

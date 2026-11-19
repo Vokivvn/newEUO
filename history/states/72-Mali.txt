@@ -2,7 +2,7 @@ state={
 	id=72
 	name="STATE_72"
 	provinces={
-		174 279 314 450 497 
+		174 3219 
 	}
 	
 	history={

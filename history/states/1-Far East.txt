@@ -16,6 +16,7 @@ state={
 	
 	history={
 		owner = FER
+		add_core_of = FER
 	}
 	
 	manpower=1853201

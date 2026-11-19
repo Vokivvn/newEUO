@@ -1,0 +1,15 @@
+state={
+	id=292
+	name="STATE_292"
+	provinces={
+		3245 3246 3252 3255 3256 3257 3258 3260 
+	}
+	
+	history={
+		owner = NGR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

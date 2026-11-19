@@ -7,6 +7,8 @@ state={
 	
 	history={
 		owner = TUA
+		add_core_of = TUA
+		add_core_of = ALG
 	}
 	
 	manpower=0

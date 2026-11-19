@@ -1,0 +1,15 @@
+state={
+	id=291
+	name="STATE_291"
+	provinces={
+		497 3221 3222 3223 3224 3228 3229 3230 3232 3234 3239 3242 3247 3249 3253 3261 3262 3263 3264 3265 3272 3273 
+	}
+	
+	history={
+		owner  =MLI
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
