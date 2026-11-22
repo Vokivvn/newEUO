@@ -1,8 +1,0 @@
-air_wings = {
-		623 = { 								
-		medium_plane_airframe_0 = { owner = "NIZ" amount = 46 version_name = "Arda Mk 1" }
-
-	}
-
-
-}

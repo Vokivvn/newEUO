@@ -2299,7 +2299,7 @@
 2298;144;216;1;land;true;plains;7
 2299;22;111;1;land;true;jungle;6
 2300;19;12;1;land;true;hills;6
-2301;61;107;1;land;true;jungle;6
+2301;61;107;1;land;true;forest;6
 2302;85;225;1;land;true;forest;7
 2303;192;133;1;land;true;hills;6
 2304;190;199;1;land;true;forest;7
@@ -3277,3 +3277,18 @@
 3275;158;149;217;land;false;plains;5
 3276;230;145;190;land;false;plains;5
 3277;227;92;176;land;false;plains;5
+3278;66;239;137;land;true;plains;5
+3279;153;218;236;land;true;plains;5
+3280;218;31;54;land;true;plains;5
+3281;27;31;158;land;false;plains;5
+3282;44;96;54;land;false;plains;5
+3283;96;165;16;land;false;plains;5
+3284;224;6;53;land;false;plains;5
+3285;220;3;42;land;false;plains;5
+3286;42;173;13;land;false;plains;5
+3287;29;16;122;land;false;plains;5
+3288;67;57;158;land;false;plains;5
+3289;218;91;32;land;false;plains;5
+3290;196;214;43;land;false;plains;5
+3291;199;57;163;land;false;plains;5
+3292;38;6;87;land;false;plains;5

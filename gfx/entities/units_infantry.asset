@@ -3688,19 +3688,19 @@ entity = {
 }
 
 entity = {
-	clone = "SOV_infantry_2_entity_snow"
-	name = "SOV_infantry_3_entity_snow"
+	clone = "WSI_infantry_2_entity_snow"
+	name = "WSI_infantry_3_entity_snow"
 }
 
 ##############END###############
 entity = {
-	name = "SOV_infantry_weapon_rifle_right_entity"
+	name = "WSI_infantry_weapon_rifle_right_entity"
 	pdxmesh = "SOV_infantry_weapon_rifle_mesh"
 	scale = 1.0
 }
 
 entity = {
-	name = "SOV_infantry_weapon_rifle_left_entity"
+	name = "WSI_infantry_weapon_rifle_left_entity"
 	pdxmesh = "SOV_infantry_weapon_rifle_mesh"
 	scale = 1.0
 
@@ -3739,14 +3739,14 @@ entity = {
 }
 
 entity = {
-	name = "SOV_infantry_weapon_mg_left_entity"
-	pdxmesh = "SOV_infantry_weapon_mg_mesh"
+	name = "WSI_infantry_weapon_mg_left_entity"
+	pdxmesh = "WSI_infantry_weapon_mg_mesh"
 	scale = 1.0
 }
 
 entity = {
-	name = "SOV_infantry_weapon_mg_right_entity"
-	pdxmesh = "SOV_infantry_weapon_mg_mesh"
+	name = "WSI_infantry_weapon_mg_right_entity"
+	pdxmesh = "WSI_infantry_weapon_mg_mesh"
 	scale = 1.0
 
 	get_state_from_parent = yes
@@ -3775,7 +3775,7 @@ entity = {
 }
 
 entity = {
-	name = "SOV_infantry_weapon_mg_long_idle_entity"
+	name = "WSI_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "SOV_infantry_weapon_mg_mesh"
 	scale = 1.0
 }

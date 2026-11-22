@@ -160,6 +160,7 @@ country_event = {
 			transfer_state = 243
 			transfer_state = 244
 			transfer_state = 260
+			transfer_state = 267
 			load_oob = MDF_Gotime
 			create_faction_from_template = {
 				template =

@@ -119,7 +119,7 @@ entity = {
 entity = {
 	clone = "MD4_infantry_2_entity"
 	name = "generic_eastern_infantry_entity"
-	pdxmesh = "SOV_infantry_1990_mesh"
+	pdxmesh = "WSI_infantry_mesh"
 	attach = { 	name = "rifle1"	Right_Hand_node = "geo_akm_right_entity" }
 	attach = { 	name = "rifle2"	Left_Hand_node = "geo_akm_left_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "geo_akm_right_entity" }

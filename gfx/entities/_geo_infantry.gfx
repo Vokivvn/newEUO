@@ -28,7 +28,7 @@ objectTypes = {
 		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
 	}
 	pdxmesh = {
-		name = "SOV_infantry_1990_mesh"
+		name = "WSI_infantry_mesh"
 		file = "gfx/models/units/geo_infantry_SOV1990.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }

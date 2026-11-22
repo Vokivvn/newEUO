@@ -1,8 +1,0 @@
-air_wings = {
-		1670 = { 								
-		tac_bomber_equipment_0 = { owner = "SLI" amount = 16 version_name = "Faoisli Mk 0" }
-
-	}
-
-
-}
