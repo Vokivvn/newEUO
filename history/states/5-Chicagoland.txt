@@ -2,18 +2,11 @@ state={
 	id=5
 	name="STATE_5"
 	provinces={
-		883 3103 3104 3105 3106 3107 
+		883 3103 3104 3105 3106 3107 3293 
 	}
 	
 	history={
 		owner = NGE
-        add_core_of = NGE
-        buildings = {
-            infrastructure = 4
-            industrial_complex = 9
-            arms_factory = 6
-			air_base = 9
-        }
 	}
 	
 	manpower=9461000
