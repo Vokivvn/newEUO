@@ -1,0 +1,16 @@
+characters = {
+	UGA_isaac_lumago = {
+		name = "Isaac Lumago" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Isaac_Lumago
+			}
+		}
+		country_leader = {
+			ideology = military_rule
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

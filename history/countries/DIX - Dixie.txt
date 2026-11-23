@@ -17,12 +17,6 @@ set_variable = { DIX_military_org_moving = -0.1 }
 set_variable = { DIX_military_attack_speed = -0.1 }
 set_variable = { DIX_military_breakthrough = -0.1 }
 
-set_autonomy = {
-	target = NEE
-	autonomous_state = autonomy_satellite
-	freedom_level = 0.2
-}
-
 # tech here
 oob = "DIX_2010"
 
@@ -31,23 +25,6 @@ set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
 # Politics
-set_politics = {
-	ruling_party = national_socialism # nazi
-	elections_allowed = no
-}
-
-set_popularities = {
-	anarchism = 0
-	revolutionary_socialism = 0
-	moderate_socialism = 0
-	liberalism = 0
-	conservatism = 12
-	autocratic = 15
-	reactionary = 31
-	fascism = 5
-	national_socialism = 37
-	syncretism = 0
-}
 
 add_ideas = {
 	# Laws
@@ -75,4 +52,40 @@ recruit_character = DIX_Dillon_Irizarry
 recruit_character = DIX_WilliamJeffreyPoole
 recruit_character = DIX_MichaelHillGeneral
 
+set_politics = {
+	ruling_party = national_socialism
+	elections_allowed = no
+}
+
+set_autonomy = {
+	target = HAI
+	autonomous_state = autonomy_satellite
+	freedom_level = 0.2
+}
+
 add_manpower = 3000000
+
+set_autonomy = {
+	target = NEE
+	autonomous_state = autonomy_satellite
+	freedom_level = 0.2
+}
+
+set_popularities = {
+	anarchism = 0
+	revolutionary_socialism = 0
+	moderate_socialism = 0
+	liberalism = 0
+	conservatism = 12
+	autocratic = 15
+	reactionary = 31
+	fascism = 5
+	national_socialism = 37
+	syncretism = 0
+}
+
+HAI = {
+	set_popularities = {
+		national_socialism = 100
+	}
+}

@@ -11,26 +11,26 @@ country_event = {
     
     option = {
 		    PRV = {
-								set_province_controller = 1060
-                                set_province_controller = 1070
-                                set_province_controller = 893
-								set_province_controller = 947
-								set_province_controller = 1221
-								every_owned_state = {
-       			 				add_core_of = PRV
-    							}
-								declare_war_on = {
-               					 target = BRA
-               					 type = annex_everything
-            					}
-								declare_war_on = {
-               					 target = BRR
-               					 type = annex_everything
-            					}
-								declare_war_on = {
-               					 target = IGB
-               					 type = annex_everything
-            					}
+				set_province_controller = 1060
+                set_province_controller = 1070
+                set_province_controller = 893
+				set_province_controller = 947
+				set_province_controller = 1221
+				every_owned_state = {
+       			add_core_of = PRV
+    			}
+				declare_war_on = {
+               	target = BRA
+               	type = annex_everything
+            	}
+				declare_war_on = {
+					target = BRR
+               		type = annex_everything
+            	}
+				declare_war_on = {
+               		target = IGB
+               		type = annex_everything
+            	}
 			}
 			BRR = {
 								set_province_controller = 1227

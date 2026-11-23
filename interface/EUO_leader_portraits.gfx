@@ -840,4 +840,19 @@ spriteTypes = {
 		name = "GFX_portrait_henry_thomas_lokondo"
 		texturefile = "gfx/leaders/EQU/Portrait_EQU_henry_thomas_lokondo.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Manuel_Noriega"
+		texturefile = "gfx/leaders/PAN/Portrait_PAN_Manuel_Noriega.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Isaac_Lumago"
+		texturefile = "gfx/leaders/UGA/Portrait_UGA_Isaac_Lumago.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Steve_Bannon"
+		texturefile = "gfx/leaders/HAI/Portrait_HAI_Steve_Bannon.png"
+	}
 }

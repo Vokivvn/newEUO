@@ -40,6 +40,7 @@ add_to_faction = NGE
 add_to_faction = NEE
 add_to_faction = KAN
 add_to_faction = QUE
+add_to_faction = SAF
 
 set_variable = { var = ger_var_mainstream_power value = 84 }
 set_variable = { var = ger_var_radical_power value = 35 }

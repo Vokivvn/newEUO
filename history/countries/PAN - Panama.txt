@@ -11,4 +11,4 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = PAN
+recruit_character = PAN_manuel_noriega

@@ -1,0 +1,16 @@
+characters = {
+	HAI_steve_bannon = {
+		name = "Steve Bannon" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Steve_Bannon
+			}
+		}
+		country_leader = {
+			ideology = modern_nazism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

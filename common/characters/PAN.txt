@@ -1,0 +1,16 @@
+characters = {
+	PAN_manuel_noriega = {
+		name = "Manuel Noriega" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Manuel_Noriega
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
