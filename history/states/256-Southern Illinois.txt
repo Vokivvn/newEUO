@@ -7,6 +7,12 @@ state={
 	
 	history={
 		owner = NGE
+		add_core_of = NGE
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 3
+            arms_factory = 3
+        }
 	}
 	
 	manpower=1170000
