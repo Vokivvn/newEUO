@@ -45,3 +45,5 @@ add_to_faction = GXC
 add_to_faction = SRL
 add_to_faction = ALA
 add_to_faction = SAR
+
+set_major = yes

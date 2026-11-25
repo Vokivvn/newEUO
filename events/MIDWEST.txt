@@ -133,135 +133,70 @@ country_event = {
     title = NGE_SKELETON_MIDWEST.5.t
     desc = NGE_SKELETON_MIDWEST.5.desc
     
+	immediate = {
+		hidden_effect = {
+			NGE = {
+				country_event = {
+					id = NGE_SKELETON_MIDWEST.6
+					days = 7
+				}
+			}
+			MDF = {
+				transfer_state = 5
+				transfer_state = 243
+				transfer_state = 244
+				transfer_state = 260
+				transfer_state = 267
+				load_oob = MDF_Gotime
+				create_faction_from_template = {
+					template =
+					faction_template_defensive_democratic
+					name = Great_Lakes_Alliance
+					icon = GFX_Great_Lakes_Alliance
+					color = { 186 155 121 }
+				}
+				load_focus_tree = MDF_Spring
+				inherit_technology = NGE
+			}
+			WIS = {
+				transfer_state = 255
+				load_oob = WIS_Gotime
+				inherit_technology = NGE
+			}
+			FLP = {
+				transfer_state = 261
+				load_oob = FLP_Gotime
+				inherit_technology = NGE
+			}
+			ANT = {
+				transfer_state = 239
+				load_oob = ANT_Gotime
+				inherit_technology = NGE
+			}
+			ODF = {
+				transfer_state = 240
+				load_oob = ODF_Gotime
+				add_ideas = Ohio_No_Factions
+				inherit_technology = NGE
+			}
+			OHC = {
+				transfer_state = 238
+				load_oob = OHC_Gotime
+				add_ideas = Ohio_No_Factions
+				inherit_technology = NGE
+			}
+		}
+	}
+	
     is_triggered_only = yes
     
     option = { #Boyz in the hood saxaphones
         name = NGE_SKELETON_MIDWEST.5.a
-
-		1061 = { set_demilitarized_zone = no }
-		1062 = { set_demilitarized_zone = no }
-		1063 = { set_demilitarized_zone = no }
-		1064 = { set_demilitarized_zone = no }
-		1065 = { set_demilitarized_zone = no }
-		1066 = { set_demilitarized_zone = no }
-		1067 = { set_demilitarized_zone = no }
-		1068 = { set_demilitarized_zone = no }
-		1069 = { set_demilitarized_zone = no }
-		1070 = { set_demilitarized_zone = no }
-		NGE = {
-			country_event = {
-				id = NGE_SKELETON_MIDWEST.6
-				days = 7
-			}
-			MDF = { change_tag_from = NGE }
-		}
-        MDF = {
-			transfer_state = 5
-			transfer_state = 243
-			transfer_state = 244
-			transfer_state = 260
-			transfer_state = 267
-			load_oob = MDF_Gotime
-			create_faction_from_template = {
-				template =
-				faction_template_defensive_democratic
-				name = Great_Lakes_Alliance
-				icon = GFX_Great_Lakes_Alliance
-				color = { 186 155 121 }
-			}
-			load_focus_tree = MDF_Spring
-			inherit_technology = NGE
-		}
-        WIS = {
-			transfer_state = 255
-			load_oob = WIS_Gotime
-			inherit_technology = NGE
-		}
-        FLP = {
-			transfer_state = 261
-			load_oob = FLP_Gotime
-			inherit_technology = NGE
-		}
-        ANT = {
-			transfer_state = 239
-			load_oob = ANT_Gotime
-			inherit_technology = NGE
-		}
-        ODF = {
-			transfer_state = 240
-			load_oob = ODF_Gotime
-			add_ideas = Ohio_No_Factions
-			inherit_technology = NGE
-		}
-        OHC = {
-			transfer_state = 238
-			load_oob = OHC_Gotime
-			add_ideas = Ohio_No_Factions
-			inherit_technology = NGE
-		}
+		MDF = { change_tag_from = NGE }
     }
+
     option = { #Boyz in the hood saxaphones
         name = NGE_SKELETON_MIDWEST.5.b
-
-		1061 = { set_demilitarized_zone = no }
-		1062 = { set_demilitarized_zone = no }
-		1063 = { set_demilitarized_zone = no }
-		1064 = { set_demilitarized_zone = no }
-		1065 = { set_demilitarized_zone = no }
-		1066 = { set_demilitarized_zone = no }
-		1067 = { set_demilitarized_zone = no }
-		1068 = { set_demilitarized_zone = no }
-		1069 = { set_demilitarized_zone = no }
-		1070 = { set_demilitarized_zone = no }
-		NGE = {
-			country_event = {
-				id = NGE_SKELETON_MIDWEST.6
-				days = 7
-			}
-		}
-        MDF = {
-			transfer_state = 5
-			transfer_state = 243
-			transfer_state = 244
-			transfer_state = 260
-			load_oob = MDF_Gotime
-			create_faction_from_template = {
-				template =
-				faction_template_defensive_democratic
-				name = Great_Lakes_Alliance
-				icon = GFX_Great_Lakes_Alliance
-				color = { 186 155 121 }
-			}
-			load_focus_tree = MDF_Spring
-			inherit_technology = NGE
-		}
-        WIS = {
-			transfer_state = 255
-			load_oob = WIS_Gotime
-			inherit_technology = NGE
-		}
-        FLP = {
-			transfer_state = 261
-			load_oob = FLP_Gotime
-			inherit_technology = NGE
-		}
-        ANT = {
-			transfer_state = 239
-			load_oob = ANT_Gotime
-			inherit_technology = NGE
-		}
-        ODF = {
-			transfer_state = 240
-			load_oob = ODF_Gotime
-			add_ideas = Ohio_No_Factions
-			inherit_technology = NGE
-		}
-        OHC = {
-			transfer_state = 238
-			load_oob = OHC_Gotime
-			add_ideas = Ohio_No_Factions
-			inherit_technology = NGE
-		}
     }
 }
 

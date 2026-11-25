@@ -12,3 +12,5 @@ set_popularities = {
 }
 
 recruit_character = NVJ_Joe_Shirley_JR
+
+give_military_access = MEX

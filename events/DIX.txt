@@ -66,6 +66,81 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
+	id = DIX.6
+	title = DIX.6.t
+	desc = DIX.6.d
+	picture = GFX_report_event_whispers_of_resistance
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.6.a
+		hidden_effect = {
+			country_event = {
+				id = DIX.7
+				days = 14
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.7
+	title = DIX.7.t
+	desc = DIX.7.d
+	picture = GFX_report_event_whispers_of_resistance
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.7.a
+		hidden_effect = {
+			country_event = {
+				id = DIX.8
+				days = 50
+			}
+			set_country_flag = DIX_support_tuareg_war
+		}
+	}
+	option = { #Puppetry
+		name = DIX.7.a
+		hidden_effect = {
+			country_event = {
+				id = DIX.9
+				days = 50
+			}
+			set_country_flag = DIX_oppose_tuareg_war
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.8
+	title = DIX.8.t
+	desc = DIX.8.d
+	picture = GFX_report_event_whispers_of_resistance
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.8.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.9
+	title = DIX.9.t
+	desc = DIX.9.d
+	picture = GFX_report_event_whispers_of_resistance
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.9.a
+	}
+}
+
+country_event = { #Intro 
 	id = DIX.29
 	title = DIX.29.t
 	desc = DIX.29.d
@@ -121,6 +196,8 @@ country_event = { #Intro
 		date > 2010.11.1
 		date < 2010.11.30
 	}
+	
+	fire_only_once = yes
 	
 	immediate = { 
 		hidden_effect = {
@@ -351,6 +428,8 @@ country_event = { #Intro
 					random_days = 3
 				}
 				set_cosmetic_tag = DIX_gliebe
+				end_puppet = NEE
+				end_puppet = HAI
 			}
 			NGE = {
 				country_event = {
@@ -442,5 +521,23 @@ country_event = { #Intro
 	
 	option = { #Puppetry
 		name = DIX.101.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.120
+	title = DIX.120.t
+	desc = DIX.120.d
+	picture = GFX_report_event_dix_wlp_death
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #Puppetry
+		name = DIX.120.a
+		DIX_david_duke = {
+			promote_character = national_socialism_subtype
+		}
 	}
 }

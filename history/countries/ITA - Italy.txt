@@ -77,3 +77,5 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 	freedom_level = 0.2
 }
+
+set_major = yes

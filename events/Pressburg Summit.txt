@@ -4,7 +4,7 @@ country_event = { #Intro
 	id = pressburg_summit.1
 	title = pressburg_summit.1.t
 	desc = pressburg_summit.1.d
-	picture = GFX_report_event_ger_new_year
+	picture = GFX_report_event_pressburg_summit_1
 
 	is_triggered_only = yes
 	

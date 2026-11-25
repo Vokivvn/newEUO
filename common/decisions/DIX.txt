@@ -313,10 +313,13 @@ DIX_pressburg_summit = {
             DIX = {
             }
 			has_country_flag = pressburg_summit
+			has_country_flag = DIX_support_tuareg_war
         }
         icon = MDF_HERE
 		
 		cost = 15
+		
+		fire_only_once = yes
 		
         complete_effect = {
         }
@@ -326,10 +329,13 @@ DIX_pressburg_summit = {
             DIX = {
             }
 			has_country_flag = pressburg_summit
+			has_country_flag = DIX_oppose_tuareg_war
         }
         icon = MDF_HERE
 		
 		cost = 15
+		
+		fire_only_once = yes
 		
         complete_effect = {
         }

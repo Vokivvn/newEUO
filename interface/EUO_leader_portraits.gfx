@@ -855,4 +855,9 @@ spriteTypes = {
 		name = "GFX_portrait_Steve_Bannon"
 		texturefile = "gfx/leaders/HAI/Portrait_HAI_Steve_Bannon.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_David_Duke"
+		texturefile = "gfx/leaders/DIX/Portrait_DIX_David_Duke.png"
+	}
 }

@@ -9,7 +9,7 @@ bookmarks = {
 		
 		
 		DIX={
-			history = "generic_GATHERING_STORM_DESC"
+			history = "DIX_GATHERING_STORM_DESC"
 			ideology = national_socialism
 			ideas = {
 			}

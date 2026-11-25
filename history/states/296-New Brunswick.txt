@@ -1,0 +1,15 @@
+state={
+	id=296
+	name="STATE_296"
+	provinces={
+		827 1619 1923 2050 
+	}
+	
+	history={
+		owner = NEE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

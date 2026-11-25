@@ -122,3 +122,5 @@ set_autonomy = {
 }
 
 add_manpower = 1000000
+
+set_major = yes

@@ -51,6 +51,7 @@ recruit_character = DIX_Timothy_McVeigh
 recruit_character = DIX_Dillon_Irizarry
 recruit_character = DIX_WilliamJeffreyPoole
 recruit_character = DIX_MichaelHillGeneral
+recruit_character = DIX_david_duke
 
 set_politics = {
 	ruling_party = national_socialism
@@ -89,3 +90,5 @@ HAI = {
 		national_socialism = 100
 	}
 }
+
+set_major = yes
