@@ -1,4 +1,4 @@
-capital = 5
+capital = 3293
 
 oob = "NGE_2010"
 
@@ -55,5 +55,3 @@ set_popularities = {
 }
 
 recruit_character = NGE_tom_metzger
-
-add_manpower = 3000000

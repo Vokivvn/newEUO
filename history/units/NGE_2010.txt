@@ -1,0 +1,205 @@
+division_template = {
+	name = "Neue Deutsche Infanterieeinheit"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+
+	}
+	regimental_support = {
+		fire_support = { x = 0 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Neue Deutsche Feldjägertruppe"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "Neue Deutsche Feldjägertruppe"
+		location = 3293
+		division_template = "Neue Deutsche Feldjägertruppe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Feldjägertruppe"
+		location = 3059
+		division_template = "Neue Deutsche Feldjägertruppe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Feldjägertruppe"
+		location = 2964
+		division_template = "Neue Deutsche Feldjägertruppe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Feldjägertruppe"
+		location = 1231
+		division_template = "Neue Deutsche Feldjägertruppe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Feldjägertruppe"
+		location = 1075
+		division_template = "Neue Deutsche Feldjägertruppe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Feldjägertruppe"
+		location = 3063
+		division_template = "Neue Deutsche Feldjägertruppe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Feldjägertruppe"
+		location = 3113
+		division_template = "Neue Deutsche Feldjägertruppe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Feldjägertruppe"
+		location = 3025
+		division_template = "Neue Deutsche Feldjägertruppe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 2992
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 852
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3132
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3177
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3144
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3128
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3110
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3163
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3089
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3073
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 2203
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3020
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3109
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3129
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Neue Deutsche Infanterieeinheit"
+		location = 3072
+		division_template = "Neue Deutsche Infanterieeinheit"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
