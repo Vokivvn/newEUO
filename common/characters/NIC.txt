@@ -1,0 +1,16 @@
+characters = {
+	NIC_Carlos_Fonseca = {
+		name = "Carlos Fonseca" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Carlos_Fonseca
+			}
+		}
+		country_leader = {
+			ideology = neo_communism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

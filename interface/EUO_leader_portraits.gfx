@@ -860,4 +860,34 @@ spriteTypes = {
 		name = "GFX_portrait_David_Duke"
 		texturefile = "gfx/leaders/DIX/Portrait_DIX_David_Duke.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Carlos_Fonseca"
+		texturefile = "gfx/leaders/NIC/Portrait_NIC_Carlos_Fonseca.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Theoneste_Bagosora"
+		texturefile = "gfx/leaders/RWA/Portrait_RWA_Theoneste_Bagosora.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Chukwuemeka_Odumegwu_Ojukwu"
+		texturefile = "gfx/leaders/BIA/Portrait_BIA_Chukwuemeka_Odumegwu_Ojukwu.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Levy_Yakete"
+		texturefile = "gfx/leaders/CAR/Portrait_CAR_Levy_Yakete.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Claude_Wilfrid_Etoka"
+		texturefile = "gfx/leaders/RCG/Portrait_RCG_Claude_Wilfrid_Etoka.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Pierre_Nkurunziza"
+		texturefile = "gfx/leaders/BRD/Portrait_BRD_Pierre_Nkurunziza.png"
+	}
 }

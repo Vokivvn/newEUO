@@ -1,0 +1,16 @@
+characters = {
+	RWA_Theoneste_Bagosora = {
+		name = "Théoneste Bagosora" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Theoneste_Bagosora
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

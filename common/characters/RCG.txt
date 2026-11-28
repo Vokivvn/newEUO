@@ -1,0 +1,16 @@
+characters = {
+	RCG_Claude_Wilfrid_Etoka = {
+		name = "Claude Wilfrid Etoka" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Claude_Wilfrid_Etoka
+			}
+		}
+		country_leader = {
+			ideology = corporatocracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

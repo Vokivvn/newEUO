@@ -1,0 +1,16 @@
+characters = {
+	BIA_Chukwuemeka_Odumegwu_Ojukwu = {
+		name = "Chukwuemeka Odumegwu Ojukwu" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Chukwuemeka_Odumegwu_Ojukwu
+			}
+		}
+		country_leader = {
+			ideology = military_rule
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

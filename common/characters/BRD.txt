@@ -1,0 +1,16 @@
+characters = {
+	BRD_Pierre_Nkurunziza = {
+		name = "Pierre Nkurunziza" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Pierre_Nkurunziza
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

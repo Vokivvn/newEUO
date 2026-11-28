@@ -11,4 +11,4 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = RWA_
+recruit_character = RWA_Theoneste_Bagosora

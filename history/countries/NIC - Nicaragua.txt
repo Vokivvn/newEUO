@@ -11,4 +11,4 @@ set_popularities = {
 	revolutionary_socialism = 100
 }
 
-recruit_character = NIC_
+recruit_character = NIC_Carlos_Fonseca
