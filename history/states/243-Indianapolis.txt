@@ -2,14 +2,14 @@ state={
 	id=243
 	name="STATE_243"
 	provinces={
-		1103 3007 
+		1103 3007 3295
 	}
 	
 	history={
 		owner = NGE
 	}
 	
-	manpower=0
+	manpower=2205695
 	buildings_max_level_factor=1
 	local_supplies=0
 }

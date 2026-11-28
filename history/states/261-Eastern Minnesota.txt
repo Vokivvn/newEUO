@@ -9,7 +9,7 @@ state={
 		owner = NGE
 	}
 	
-	manpower=0
+	manpower=2306431
 	buildings_max_level_factor=1
 	local_supplies=0
 }
